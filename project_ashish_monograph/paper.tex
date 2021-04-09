@@ -16,7 +16,7 @@
 \def\Prog{Doctorado en Ciencias (F\'{i}sica) }
 \def\Dept{Departamento de Investigac\'{i}on en Fis\'{i}ca}
 \def\Director{Dr. Jos\'{e} Feliciano Ben\'{i}tez Rubio}
-\def\Universidad{UNIVERSIDAD DE SONORA}
+\def\Universidad{\it Universidad de Sonora}
 \def\ProjectTitle{ Measurement of .. }
 \def\ResearchLine{Astrof\'{i}sica, Cosmolog\'{i}a y F\'{i}sica de Part\'{i}culas}
 
@@ -27,7 +27,7 @@
 
 
 %%header and footer
-\lhead{\Student}
+\lhead{\Student / \Prog }
 \rhead{\Title}
 \lfoot{\Dept}
 \rfoot{Page \thepage}
@@ -61,12 +61,12 @@
         \vspace{4cm}
         {\underline{\hspace{8cm}}\par}
 	{\scshape\large \Student \par}
-        {Student\par}
+        {PhD. Student\par}
 
         \vspace{1cm}
         {\underline{\hspace{8cm}}\par}
 	{\Director \par}
-        {Director\par}
+        {Thesis Director\par}
 
         \vspace{1cm}
         {\Prog \par}
@@ -89,7 +89,7 @@
 %%%% Title and Abstract Page
 \newpage
 \hspace{2pt}
-\vfill
+%\vfill
 
 \begin{adjustwidth}{1cm}{1cm}
 
@@ -97,16 +97,18 @@
     {\Large \ProjectTitle \par}
     \vspace{0.5cm}
 
-    \Student
-    \Universidad
+    {\Student \par}
+    {\Universidad \par}  
     \vspace{1cm}
     
     {\itshape\textbf{Abstract}\par}
-  \end{center}  
-  \vspace{0.7 cm}
+     \vspace{0.7 cm}
+        
+    \end{center}  
+
  
-  \onehalfspacing
-  This research project proposes ...
+    \onehalfspacing
+    This research project proposes ...
 
 \end{adjustwidth}
 
