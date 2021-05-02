@@ -200,7 +200,7 @@ However, we expect that new methods to be introduced between now and the start o
 
 \section{SPECIFIC OBJECTIVES}
 
-For the luminosity measurement:
+For the Run 2 luminosity measurement:
 \begin{itemize}
 \item understand the CMS pixel detector layout including the barrel layers and endcap disks and their constituent modules,
 \item study the stability of the modules in the different layers or disks of the pixel detector and select the stable components,
@@ -210,7 +210,7 @@ For the luminosity measurement:
 \end{itemize}
 
 \par
-For the development of the HL-LHC upgrad system:
+For the development of the HL-LHC upgrade system:
 \begin{itemize}
 \item study the different parts of the TEPX detector,
 \item study the pixel cluster counting at the HL-LHC conditions using simulations of the TEPX detector,
@@ -229,6 +229,27 @@ A silicon tracker, made of about 75 million electronic sensors arranged in conce
 The electromagnetic calorimeter detects photons and electrons while the hadronic calorimeter detects mainly pions and kaons.
 The muons are detected by special chambers placed outside the solenoid as shown in Figure~\ref{fig:CMS}.
 
+The PCC method for measuring luminosity uses the Pixel detector of the CMS tracker, the layout of the  detector used for recording the data during 2016-2018 is shown in Figure~\ref{fig:pixeldet}.
+The Pixel detector consists of 4 concentric cylindrical layers in the barrel and 2 disks in each endcap.
+Each detector part is composed by pixel sensors, a schematic of one sensor is shown in Figure~\ref{fig:pixeldet}.
+The entire Pixel detector contains 1856 sensor modules and a total of 65 million pixels.
+
+The PCC method consists of the reconstruction of track clusters produced by charged particle tracks as shown in Figure~\ref{fig:trackcluster}.
+Due to the fine granularity of the pixel sensors and the large number of total pixels, the hit occupancy in the sensors remains very small, order of 1\%, during normal collisions.
+This low occupancy makes the PCC  very linear as a function of pileup, an essential property of a good luminometer.
+
+The calibration of the luminomter consists of a van der Meer (vdM) scan performed in a special LHC run usually at the beginning of the run period (year).
+In this calibration setup, the proton beams are moved accross each other in separation steps of about 100 micrometers, by measuring the rates of clusters with the PCC algorithm and knowledge of the beam parameters during the vdM conditions, the calibration constant ($\sigma_{vis}$) is determined.
+This calibration constant is then used to normalize the measured PCC rates during normal running throughout the data-taking year.
+
+For the upgrade part of this project, the research consists of studying the expected performance of the TEPX disks of the CMS tracker in the HL-LHC phase.
+The current design of the this tracker is shown in Figure~\ref{fig:tepx}, where the TEPX part consists of the last 4 disks at $|z|>17$ cm.
+In the same figure a transverse view of one disk is shown, and shows the layout of the sensor modules along phi for each ring in the disk.
+Studies will be performed using simulated samples with HL-LHC beam conditions, currently the expected pileup for these conditions is about 200 proton collisions per bunch crossing.
+The linearity for the cluster countinng algorithm will be studied.
+In addition, a new algorithm will be developed to detect cluster coincidences between consecutive disk layers.
+It is expected that coincidences will be less sensitive to backgrounds in HL-LHC pileup conditions and therefore a more robust luminosity meausrement can be performed.
+
 
 \begin{figure}[H]
   \centering
@@ -239,38 +260,62 @@ The muons are detected by special chambers placed outside the solenoid as shown 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\columnwidth,crop]{./PixelDetectorPhase1.png}
+  \includegraphics[width=0.7\columnwidth]{./PixelDetectorPhase1.png}
   \includegraphics[width=0.27\columnwidth]{./PixelSensor.png}
   \caption{
     Left: diagram showing the layout of the CMS Pixel detector used during 2016-2018.
-    The layout consists includes 4 barrel layers and 2 endcap disks withw two rings each.
+    The layout consists of 4 barrel layers and 2 endcap disks withw two rings each.
     Right: a diagram showing the structure of one pixel sensor.
-    The entire detector consists of 1860 sensors and 65 million pixels.
+    The entire detector consists of 1856 sensors and 65 million pixels.
   }
   \label{fig:pixeldet}
 \end{figure}
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\columnwidth]{./bunchcrossing.jpg}
+  \includegraphics[width=0.4\columnwidth]{./vectorhit1.jpg}
+  \caption{
+    Left: Diagram showing the collision of two proton bunches at the LHC, bunches contain about $10^{11}$ protons.
+    Right: diagram showing example tracks originating from the colision at the beamspot and producing clusters at the pixel sensors in two detectors layers.
+  }
+  \label{fig:trackcluster}
+\end{figure}
+
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{./TEPX_rz.pdf}
+  \includegraphics[width=0.27\columnwidth]{./TEPX_rphi.pdf}
+  \caption{
+    Left: Longitudial view of the current design of the CMS tracker detector for the LH-LHC phase. The TEPX consists of the last 4 disks on each side at $|z|$>1700 mm.
+    Right: Transverse view of one TEPX disk showing the layout of the sensors in each of the 5 rings.
+  }
+  \label{fig:tepx}
+\end{figure}
 
 
 
 
 \section{EXPECTED RESULTS}
 
-
-
-The results from this project include the following items:
+From this project two main publications are expected:
 \begin{itemize}
-\item The student will become part of an international collaboration.
-\item A leading contribution ....  resulting in a publication in a scientific journal.
-\item Participation in the CMS detector Phase II upgrade through development and possible installation of particle detectors possibly resulting in a technical report.
-\item A presentation of a poster or a talk in one of the national conferences of the Division of Paticles and Fields of the Mexican Society of Physics or a presentation of a poster or a talk in an international physics conference.
-\item An academic stay at a scientific center like CERN or Fermilab.
+\item
+For the Run 2 luminosity mesurement, the student will perform the studies for the selection of good modules for the calculation of the luminosity using the PCC method.
+From past performance of this algorithm it is expected that this measurement will give one of the best linearity and stability systematic uncertainties for the integrated luminosity value.
+The results of these studies will be published in a peer-reviewed scientific journal.
+\item
+For the development of the HL-LHC upgrade system, we expect to produce a Technical Design Report (TDR) with the proposed design and algorithms to use the TEPX detector. This document will be published in the CERN document server (CDS) and submitted the LHC committee for the approval of the required funding for the construction and operation of the system.
 \end{itemize}
+
+Also, the student will become part of an international experiment and is expected to present his results at national or international scientific conferences.
 
 
 
 \section{CALENDAR OF ACTIVITIES}
-\onehalfspacing
+
 \begin{itemize}
 
 \item {\bf Semester 1 (2019-2)}:
@@ -279,66 +324,43 @@ The results from this project include the following items:
   \SubItem{ Initial planning of the analysis strategy}
 
 \item {\bf Semester 2 (2020-1)}:
-  \SubItem{ Course I on particle physics and/or particle detection}
+  \SubItem{ Course I on particle physics, particle detection, or data analysis}
+  \SubItem{ Readings on the LHC and CMS experiments}
   \SubItem{ Basic Linux computing skills (\textsc{Bash, Emacs, Root})}
-  \SubItem{ Readings on SM and tH literature}
   \SubItem{ Computing accounts at CERN and Fermilab}
-  \SubItem{ CMS service work for authorship}
-  \SubItem{ Possible summer stay at CERN or Fermilab}
+  \SubItem{ Studies of the TEPX luminometer upgrade}
 
 \item {\bf Semester 3 (2020-2)}:
-  \SubItem{ Course II on particle physics and/or particle detection.}
-  \SubItem{ CMS service work for authorship}
+  \SubItem{ Course II on particle physics, particle detection, or  data analysis}
+  \SubItem{ Studies of the TEPX luminometer upgrade}
 
 \item {\bf Semester 4 (2021-1)}:
-  \SubItem{ CMS service work for authorship}
+  \SubItem{ Completion of the TEPX luminometer studies for the TDR document}
+  \SubItem{ Studies of the LHC Run 2 data using the PCC method}
+  \SubItem{ Writing of the monograph}
 
 \item {\bf Semester 5 (2021-2)}:
-  \SubItem{ Presentation of poster or talk at national or international conference}
-
+  \SubItem{ Publication of the TDR document in CDS and submission to the LHCC review}
+  \SubItem{ Presentation at national or international conferences of the TEPX upgrade studies}
+  \SubItem{ Studies of the LHC Run 2 data using the PCC method}
+  
 \item {\bf Semester 6 (2022-1)}:
-  \SubItem{ Review process of the results within the CMS collaboration}
-  \SubItem{ Presentation of poster or talk at national or international conference}
-  \SubItem{ Writing of the paper publication}
-  \SubItem{ Writing of the thesis}
+  \SubItem{ Completion of the studies of the Run 2 data luminosity measurement}
+  \SubItem{ Writing of the Run 2 data luminosity measurement publication and review within the CMS collaboration}
+
+\item {\bf Semester 7 (2022-2)}:
+  \SubItem{ Publicaiton of the Run 2 data luminosity measurement in a peer reviewed journal}
+
+\item {\bf Semester 8 (2023-1)}: 
+  \SubItem{ Presentations at national or international conferences of both the Run 2 luminosity measurement}
+  \SubItem{ Writing of the Ph.D thesis}
+  
 \end{itemize}
 
 
-
-\cleardoublepage
 \onehalfspacing
 \bibliographystyle{unsrt}
 \bibliography{paper}
 
 \end{document}
-
-
-%The Standard Model (SM) of particle physics has successfully described most of the experimental data till now but a very large number of free-parameters and the fine tuning related to these parameters suggest new physics beyond SM as mentioned below.
-%\begin{itemize}
-%\item{Fine structure constant $\alpha$},
-%\item{Weinberg angle or the weak mixing angle $\theta_W$},
-%\item{The coupling constant of strong interaction $\alpha_s$},
-%\item{Electroweak symmetry breaking energy scale v},
-%\item{ Higgs potential self coupling $\lambda$ or the Higgs mass $m_H$},
-%\item{Three weak mixing angles and the CP-violating phase $\delta$ of the CKM matrix which tells us how quarks of different flavor mix with each other},
-%\item{Nine yukawa couplings $y_i$ (i = 1 to 9) which determine the mass of nine charged fermions}.
-%\end{itemize}
-
-
-
-
-
-%\begin{figure}[H]
-%  \centering
-%   \includegraphics[width=\columnwidth]{./cd2.png}
-%  \caption{Standard model Higgs boson production cross section with center of mass energy and branching ratios for various decay channels.}
-%   \label{figure 3}
-%\end{figure}
-
-%\begin{figure}[H]
-%  \centering
-%  \includegraphics[scale=0.4]{./couplings.png}
-%  \caption{ATLAS-CMS combined measurements of coupling strength modifiers \cite{Tanabashi:2018oca}.}
-%  \label{figureKappas}
-%\end{figure}
 
