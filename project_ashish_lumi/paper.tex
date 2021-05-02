@@ -1,4 +1,7 @@
-\documentclass[final,3p]{CSP}
+%\documentclass[final,3p]{article}
+\documentclass[final,12p]{article}
+\usepackage{graphicx}
+\usepackage[letterpaper,margin=1.0in]{geometry}
 \usepackage{amssymb}
 \usepackage{changepage}
 \usepackage{float}
@@ -10,6 +13,8 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
+\usepackage[utf8]{inputenc} 
+\usepackage{lastpage}
 
 \def\Student{Ashish Sehrawat}
 \def\Title{THESIS PROJECT PROPOSAL}
@@ -20,65 +25,60 @@
 \def\ProjectTitle{Measurement of the luminosity in proton-proton collisions at the CMS experiment of the Large Hadron Collider}
 \def\ResearchLine{Astrof\'{i}sica, Cosmolog\'{i}a y F\'{i}sica de Part\'{i}culas}
 
-
-\newcommand{\SubItem}[1]{
-    {\setlength\itemindent{15pt} \item[-] #1}
-}
-
-
 %%header and footer
-\lhead{\Student}
+\lhead{\Student\ / \ \Dept}
 \rhead{\Title}
-\lfoot{\Dept}
-\rfoot{Page \thepage}
-\setlength{\headsep}{0.2in}
-\renewcommand{\footrulewidth}{0.4pt}% default is 0pt
+\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
 
 
+%%%%%%%comands
+\newcommand{\SubItem}[1]{ {\setlength\itemindent{15pt} \item[-] #1} }
+\newcommand{\lumi}[1]{{#1~fb$^{-1}$}}
+\newcommand{\instlumi}[1]{#1$\times 10^{34}$ cm$^{-2}$s$^{-1}$} }
+
+  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
+\onehalfspacing
 
 %%%%Title Page
 \begin{titlepage}
-  \centering
-  \hspace{0pt}
-  \vfill
-      {\scshape\Large \Title \par}
-      revision requested december 2020
-      
-      \vspace{2cm}
-      %\begin{adjustwidth}{2cm}{2cm}
-       {
-         TITLE:\par
-         {\large \ProjectTitle \par}
-       }
-       %\end{adjustwidth}
+\centering
+\hspace{0pt}
+\vfill
+{\scshape\Large \Title \par}
+project revised 2021-1
+  
+  \vspace{2cm}
+  {
+    TITLE:\par
+    {\bf \large \ProjectTitle \par}
+  }
        
-       \vspace{0.5cm}
-       %\begin{adjustwidth}{2cm}{2cm}
-       {
-         RESEARCH LINE: \par
-         \ResearchLine \par
-       }
-       %\end{adjustwidth}
-
+  \vspace{0.5cm}
+  {
+    RESEARCH LINE: \par
+    \ResearchLine \par
+  }
         
-       \vspace{4cm}
-       {\underline{\hspace{8cm}}\par}
-       {\scshape \Student \par}
-       {Student\par}
+  \vspace{4cm}
+  {\underline{\hspace{8cm}}\par}
+  {\bf \scshape \Student \par}
+  {Student\par}
 
-       \vspace{1cm}
-       {\underline{\hspace{8cm}}\par}
-       {\scshape \Director \par}
-       {Director\par}
+  \vspace{1cm}
+  {\underline{\hspace{8cm}}\par}
+  {\scshape \Director \par}
+  {Director\par}
 
-       \vspace{1cm}
-       {\Prog \par}
-       {\Dept \par}
-       {\Institution \par}
+  \vspace{1cm}
+  {\bf \Prog \par}
+  {\Dept \par}
+  {\Institution \par}
 
-       \vspace{4cm}
-       {\today}
+  \vspace{4cm}
+  {\today}
 
 \hspace{0pt}
 \vfill
@@ -95,8 +95,6 @@
 \hspace{2pt}
 \vfill
 
-\begin{adjustwidth}{1cm}{1cm}
-
   \begin{center}
     {\Large \ProjectTitle \par}
     \vspace{1cm}
@@ -106,114 +104,54 @@
   \vspace{1 cm}
  
   
-  \onehalfspacing
   This research project proposes ...
 
-\end{adjustwidth}
-
-\hspace{2pt}
+  \hspace{2pt}
 \vfill
+
+
 
 %%%%%% Begin the body
 \newpage
 \section{BACKGROUND}
 
 
-\onehalfspacing
 The standard model (SM) of particle physics is so far the best theoretical model to describe the interaction of elementary particles using three of the four fundamental forces of nature which are electromagnetic force, strong nuclear force and the weak nuclear force.
-%Gravitational force is neglected as the strength of this force is very weak at the scales over which elementary particle interact with each other.
-The SM is divided into two categories, bosonic sector and fermionic sector.
-The bosonic sector contain particles which mediate the fundamental forces of  nature and the fermionic sector contain particles which make up all the matter in our universe.
+The SM is divided into two categories, the bosonic sector and the fermionic sector.
+The bosonic sector contains particles which mediate the fundamental forces of  nature and the fermionic sector contains particles which make up all known matter in our universe.
 There are three generations of fermion particles: the first generation consists of up (u) quark, down (d) quark, electron and electron neutrino, the second generation consist of charm (c) quark, strange (s) quark, muon and muon neutrino, and the third generation has the top (t) quark, bottom (b) quark, tau and tau neutrino.
 The bosonic sector consists of the gauge bosons: gluon, photon, $W^{\pm}$, $Z^0$ which mediate strong nuclear force, electromagnetic force and weak nuclear force respectively.
-The Higgs boson ($H$), is the last of the gauge bosons, it gives mass to the other particles via electroweak symmetry breaking mechanism \cite{Chatrchyan:2012xdj}.
-%All the standard model particles are shown in Figure 1.
-%Higgs boson can be produced at the particle colliders like the Large Hadron Collider (LHC) in Geneva, Switzerland.
-
-
-
-%The Standard Model (SM) of particle physics has successfully described most of the experimental data till now but a very large number of free-parameters and the fine tuning related to these parameters suggest new physics beyond SM as mentioned below.
-%\begin{itemize}
-%\item{Fine structure constant $\alpha$},
-%\item{Weinberg angle or the weak mixing angle $\theta_W$},
-%\item{The coupling constant of strong interaction $\alpha_s$},
-%\item{Electroweak symmetry breaking energy scale v},
-%\item{ Higgs potential self coupling $\lambda$ or the Higgs mass $m_H$},
-%\item{Three weak mixing angles and the CP-violating phase $\delta$ of the CKM matrix which tells us how quarks of different flavor mix with each other},
-%\item{Nine yukawa couplings $y_i$ (i = 1 to 9) which determine the mass of nine charged fermions}.
-%\end{itemize}
-
-
+The Higgs boson ($H$), is the last of the gauge bosons, it gives mass to the other particles via the electroweak symmetry breaking mechanism \cite{Chatrchyan:2012xdj}.
 The heavy particles ($W^{\pm}$, $Z^0$, $H$, and top) can only be produced at high energy particle colliders like the Large Hadron Collider (LHC) operating at a center-of-mass energy of 13 TeV in Geneva, Switzerland.
 Until the 90's the existence of almost all the particles of the SM were confirmed except the top quark and the Higgs boson. 
 These had eluded previous experiments due to difficulties in the production or reconstruction of its decays.
-The top quark was discovered in 1995 in the Tevatron collider of the Fermilab laboratory, this proton collider operated with a center of mass energy of 1.8 TeV untill 2010.
-%The LHC collider at the CERN laboratory in Geneva, Switzerland, began its operations in 2010 colliding protons at 7 TeV increasing the colliding energies to 8 and 13 TeV in the subsequent years.
-In 2012, the ATLAS and CMS experiments, with detectors at two points where the protons collide in the LHC, announced the discovery of a new boson with a mass of 125 GeV.
-This particle has been identified as the Higgs boson of the SM by measuring its properties and comparing to those predicted by the SM.
-%So far, all measurements of the properties of this boson are consistent with those of the Higgs boson of the Standard Model (SM).
+The top quark was discovered in 1995 at the Tevatron collider of the Fermilab laboratory, this proton collider operated with a center-of-mass energy of 1.8 TeV until 2010.
+In 2012, the ATLAS and CMS experiments, with detectors at two points where the protons collide in the LHC, announced the discovery of a new particle with a mass of 125 GeV.
+This particle has been identified as the Higgs boson by measuring its properties and comparing to those predicted by the SM.
 
 
-The Compact Muon Solenoid (CMS) experiment is located at one of the four interaction points of the LHC.
-%It is designed to detect particles known as muons very accurately.
-The CMS detector has the form of a cylindrical onion, with several concentric layers of components.
-A powerful magnet is used to bend charged particles as they move away from the point of collision to identify the charge of the particles to bend them in opposite directions and measure momentum.
-A silicon tracker, made of about 75 million electronic sensors arranged in concentric layers, measures the curvature of charged particles with very high precision \cite{Chatrchyan:2008aa}.
-The electromagnetic calorimeter detects photons and electrons while the hadronic calorimeter detects mainly pions and kaons.
-The muons are detected by special chambers placed outside the solenoid as shown in Figure~\ref{figure5}.
+Luminosity, $L$, is a key parameter at particle colliders long with the energy available in the colision.
+$L$ is one of the  main figures of merit that quantify the potential for observing new particles and measuring their properties.
+The instantaneous luminosity $L(t)$ is the process-independent ratio between the rate $R(t)$ of events produced per unit time and the cross section for a given process $\sigma$: $L(t) = R(t)/\sigma$.
+During Run 1 (2011-2012) the LHC reached a peak instantaneous luminosity of \instlumi{0.77} and delivered an integrated luminosity of about \lumi{25} with a precision of about 2.0\% 
+\footnote{1 barn is a unit of area corresponding to $10^{-24}$ cm${^2}$ and 1 femtobarn (fb) = $10^{-39}$ cm$^{2}$. For comparison, the total Higgs production cross section is 48600 fb.}.
+In the first part of Run 2 (2015-2016), the delivered luminosity has been measured to be \lumi{38.4} with an unprecedented precision of only 1.3\%.
+For the second part of Run 2 (2017-2018), the integrated luminosity is about \lumi{78}, but the precise value and its uncertainty remain to be determined and is one of the main objectives of this thesis project.
 
+The plans of the LHC up to the year 2038 are to obtain datasets with up to 10 times higher values of instanteneous luminosities in the final phase, the  High Luminosity LHC (HL-LHC), and corresponding integrated luminosities of order \lumi{3000} as shown in Figure~\ref{figure6}.
+These final datasets will provide  precise measurements of the properties of the Higgs boson and other SM particles as shown in Fig. ~\ref{figureKappasUncs}.
+This figure shows that one of the dominant uncertainties remaining is due to the luminosity measurement.
+In this project, we also perform studies for the design and construction of an upgraded luminosity measurement system to be installed for CMS in the HL-LHC phase.
 
-During Run 1 (2011 and 2012) the LHC reached a peak instantaneous luminosity of 7.7 $\times$ $10^{33}$ $cm^{-2}s^{-1}$ and delivered an integrated luminosity of about 25 $fb^{-1}$ to each ATLAS and CMS.
-%During Run 2 (2015-2018), the total delivered luminosity was about 150 $fb^{-1}$, but the precision on this value remains to be determined.
-%The LHC will deliver about 300 $fb^{-1}$ by 2024 \cite{collaborations2019report}.
-The goal of subsequent runs of the LHC has been to obtain datasets at higher values of luminosities for precision measurements of the properties of the Higgs boson and other SM particles.
-%, in order to test the Standard Model pattern of couplings to elementary particles.
-%In order to minimize the machine downtimes and maximize the productive use of the LHC for physics, the replacement of the inner triplet magnets (the one responsible to squeeze the beam at collision) and  of  all  hardware  changes  needed  to  enable  an  ambitious  luminosity  upgrade  will  take  place in parallel during one shutdown, at around 2023-25 (LS3), with some of the modification anticipated in 2019-2020 (LS2).
-For the final phase of the LHC, the  High Luminosity LHC (HL-LHC), the goal is to obtain a total of 3000 $fb^{-1}$ by the year 2036 as shown in Figure~\ref{figure6}.
-%Figure~\ref{figureKappas} shows a summary of the current measurements of the Higgs coupling parameters with the LHC Run 1 dataset (2011,2012)  using ggF, VBF, VH, and ${t\bar{t}H}$ production modes \cite{Tanabashi:2018oca}.
-%Figure~\ref{figureKappas} shows a summary of the current measurements of the Higgs coupling parameters with the LHC Run 1 dataset (2011,2012)  using ggF, VBF, VH, and ${t\bar{t}H}$ production modes \cite{Tanabashi:2018oca}.
-Figure~\ref{figureKappasUncs} shows the precision expected for the Higgs coupling parameters  with 3000 $fb^{-1}$, and shows that one of the dominant uncertainties remaining is due to the luminosity measurement.
-
-During Run 2 (2015-2018), the total delivered luminosity was about 150 $fb^{-1}$, but the precise value and its uncertainty remains to be determined and is the subject of the project outlined in this document.
-
-
-
-%\begin{figure}[H]
-%        \centering
-%        \includegraphics[width=\columnwidth]{./pg.png}
-%        \caption{Important production processes of Standard model Higgs boson ggF, VBF, VH, ttH and tH in proton collisions.}
-%        \label{figure 2}
-%\end{figure}
-
-
-%\begin{figure}[H]
-%  \centering
-%   \includegraphics[width=\columnwidth]{./cd2.png}
-%  \caption{Standard model Higgs boson production cross section with center of mass energy and branching ratios for various decay channels.}
-%   \label{figure 3}
-%\end{figure}
-
-%\begin{figure}[H]
-%  \centering
-%  \includegraphics[scale=0.4]{./couplings.png}
-%  \caption{ATLAS-CMS combined measurements of coupling strength modifiers \cite{Tanabashi:2018oca}.}
-%  \label{figureKappas}
-%\end{figure}
 
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\columnwidth]{./LHCcomplex.png}
-  \caption{Diagram of the LHC accelerator complex located in Geneva, Switzerland. Four interaction points are shown for the ALICE, ATLAS, LHCb, and CMS experiments.}
+  \caption{Diagram of the LHC accelerator complex located near Geneva, Switzerland. The complex consists of three accelerator stages: the proton (p) or lead (Pb) source, the Proton Synchrotron (PS), the Super Proton Synchrotron (SPS), and the 27 km LHC ring. Four colision points are shown corresponding to the ALICE, ATLAS, LHCb, and CMS detectors. }
   \label{figure5}
 \end{figure}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.7\columnwidth]{./cms12.png}
-  \caption{Transverse view of the CMS detector showing the silicon tracker, electromagnetic calorimeter, hadron calorimeter, superconducting solenoid and muon chambers \cite{Chatrchyan:2008aa}.}
-  \label{figure5}
-\end{figure}
 
 \begin{figure}[H]
   \centering
@@ -225,60 +163,102 @@ During Run 2 (2015-2018), the total delivered luminosity was about 150 $fb^{-1}$
 
  \begin{figure}[H]
    \centering
-   \includegraphics[width=0.5\columnwidth]{./higgs_couplings.png}
-   \caption{Expected uncertainties on the Higgs coupling strength modifiers with 3000 $fb^{-1}$ of proton-proton collision data.}
+   \includegraphics[width=0.7\columnwidth]{./pg.png}
+   \includegraphics[width=0.29\columnwidth]{./higgs_couplings.png}
+   \caption{
+     Left: Main production mechanisms for the Higgs boson at the LHC: gluon-gluon fusion (ggF), vector-boson fusion (VBF), associated vector boson (VH), associated top-quark pair (ttH), and  associated single-top quark production (tH).
+     Right: Expected uncertainties on the Higgs coupling parameters for  \lumi{3000} of proton-proton collision data at center-of-mass energy of 13 TeV.
+   }
    \label{figureKappasUncs}
  \end{figure}
 
 
 
-%\newpage
+
 \section{PROPOSAL}
 
-\onehalfspacing
-In this project, it is proposed to
-
+This project has two main parts, in the first part we propose to perform an analysis of the LHC luminosity data  recorded by the CMS experiment during 2017 and 2018 using the Pixel Cluster Counting (PCC) method.
+In the second part we develop an upgraded luminosity measurement system for the HL-LHC phase (2026-2038).
 
 \section{GENERAL OBJECTIVE}
 
-%- motivation, tH production crossection, sign of $k_t$, search for BSM, ..
+The main objective of this work is to perform a measurement of the 2017-2018 LHC delivered luminosity with a precision at the level of 2\% or less using the CMS Pixel detector.
+The precision is necesary for tests of the SM of elementary particles and identification possible new physics which could elucidate the nature of the Dark Matter in our universe. 
 
-\onehalfspacing
-There is currently a great enigma in physics since we know that ordinary matter comprises only $5\%$ of the universe, another $27\%$ includes Dark matter and the rest $68\%$ is Dark energy.
-
+A second objective is to develop an  upgraded luminosity measurement system for the HL-LHC phase using the Tracker Endcap Pixel detector (TEPX). The TEPX is part of the new tracker detector proposed by the CMS collaboration which will replace the current one during LS3 (2024-2026). 
 
 \section{HYPOTHESIS}
-%%  - what we expect to find
 
-\onehalfspacing
+As mentioned in the introduction, the precision achieved in the measurement of integrated luminosity during Run 1 was about 2.5\% using  methods developed for the first time.
+In 2015 and 2016 the uncertainty achieved was 1.6\% and 1.2\%, respectively, for datasets corresponding to \lumi{2.5} and \lumi{36}.
+The methods used for the 2015 and 2016 data are similar to the ones we propose in this project.
+We expect that the final uncertainties for the 2017 and 2018 datasets will be similar, but the ultimate goal for CMS is to reduce the uncertainties below 1\%.
 
-%\newpage
+For the upgrade part of this project, we must consider that in the HL-LHC phase the higher expected pileup (number of proton colisions per bunch crossing) will lead to a more difficult scenario for the luminosity measurement due to increased detector occupancy and larger irradiation of the detector components. 
+However, we expect that new methods to be introduced between now and the start of the HL-LHC phase will improve the measurement precision and compensate the higher backgrounds and detector aging.  
+
+
 \section{SPECIFIC OBJECTIVES}
 
-\onehalfspacing
-
-In order to complete a journal publication ...
-
+For the luminosity measurement:
 \begin{itemize}
-\item Simulation..
+\item understand the CMS pixel detector layout including the barrel layers and endcap disks and their constituent modules,
+\item study the stability of the modules in the different layers or disks of the pixel detector and select the stable components,
+\item calculate the visible cross section corresponding to the PCC rate for proton-proton colisions at 13 TeV using the selected pixel detector components,
+\item study the stability and linearity of the PCC luminosity measurement by comparing to other CMS luminometers as a measurement of the systematic uncertainties,
+\item determine the delivered luminosity per lumisection (23 second intervals) and the total integrated luminosity and determine the corresponding uncertainty.
 \end{itemize}
 
-Finally, the results of this project will be presented at national or international conferences and a publication in a scientific journal will be accomplished.
+\par
+For the development of the HL-LHC upgrad system:
+\begin{itemize}
+\item study the different parts of the TEPX detector,
+\item study the pixel cluster counting at the HL-LHC conditions using simulations of the TEPX detector,
+\item develop an algorithm for counting cluster coincidences using sensor layers of the same disk in the TEPX detector in order to reduce backgrounds,
+\item determine the linearity and statistical precision of the PCC method and coincidence counting method for the TEPX detector and its constituent parts (disks and rings).
+\end{itemize}
 
 
 \section{METHODOLOGY}
 
-\onehalfspacing
-The methods for ...
+
+The CMS experiment is located at one of the four interaction points of the LHC.
+The CMS detector has the form of a cylindrical onion, with several concentric layers of components.
+A powerful magnet is used to bend charged particles as they move away from the point of collision to identify the charge and measure their momentum.
+A silicon tracker, made of about 75 million electronic sensors arranged in concentric layers, measures the curvature of charged particles with very high precision \cite{Chatrchyan:2008aa}.
+The electromagnetic calorimeter detects photons and electrons while the hadronic calorimeter detects mainly pions and kaons.
+The muons are detected by special chambers placed outside the solenoid as shown in Figure~\ref{fig:CMS}.
 
 
-\textsc{Root} is a \textsc{c++} based software that allows visualization of event distributions and variable correlations.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{./cms12.png}
+  \caption{Transverse view of the CMS detector showing the silicon tracker, electromagnetic calorimeter, hadron calorimeter, superconducting solenoid and muon chambers \cite{Chatrchyan:2008aa}.}
+  \label{fig:CMS}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\columnwidth,crop]{./PixelDetectorPhase1.png}
+  \includegraphics[width=0.27\columnwidth]{./PixelSensor.png}
+  \caption{
+    Left: diagram showing the layout of the CMS Pixel detector used during 2016-2018.
+    The layout consists includes 4 barrel layers and 2 endcap disks withw two rings each.
+    Right: a diagram showing the structure of one pixel sensor.
+    The entire detector consists of 1860 sensors and 65 million pixels.
+  }
+  \label{fig:pixeldet}
+\end{figure}
+
+
+
 
 
 \section{EXPECTED RESULTS}
-%- a limit, also predictions for future runs
 
-\onehalfspacing The results from this project include the following items:
+
+
+The results from this project include the following items:
 \begin{itemize}
 \item The student will become part of an international collaboration.
 \item A leading contribution ....  resulting in a publication in a scientific journal.
@@ -331,4 +311,34 @@ The methods for ...
 \bibliography{paper}
 
 \end{document}
+
+
+%The Standard Model (SM) of particle physics has successfully described most of the experimental data till now but a very large number of free-parameters and the fine tuning related to these parameters suggest new physics beyond SM as mentioned below.
+%\begin{itemize}
+%\item{Fine structure constant $\alpha$},
+%\item{Weinberg angle or the weak mixing angle $\theta_W$},
+%\item{The coupling constant of strong interaction $\alpha_s$},
+%\item{Electroweak symmetry breaking energy scale v},
+%\item{ Higgs potential self coupling $\lambda$ or the Higgs mass $m_H$},
+%\item{Three weak mixing angles and the CP-violating phase $\delta$ of the CKM matrix which tells us how quarks of different flavor mix with each other},
+%\item{Nine yukawa couplings $y_i$ (i = 1 to 9) which determine the mass of nine charged fermions}.
+%\end{itemize}
+
+
+
+
+
+%\begin{figure}[H]
+%  \centering
+%   \includegraphics[width=\columnwidth]{./cd2.png}
+%  \caption{Standard model Higgs boson production cross section with center of mass energy and branching ratios for various decay channels.}
+%   \label{figure 3}
+%\end{figure}
+
+%\begin{figure}[H]
+%  \centering
+%  \includegraphics[scale=0.4]{./couplings.png}
+%  \caption{ATLAS-CMS combined measurements of coupling strength modifiers \cite{Tanabashi:2018oca}.}
+%  \label{figureKappas}
+%\end{figure}
 
