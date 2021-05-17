@@ -6,7 +6,7 @@ Pixel cluster counting (PCC)  method is an offline technique for the calculation
 
 $<N_{cluster}>$ = $<N_{cluster/interaction}>$ (PU)  or (PU) = $\frac{<N_{cluster}>}{<N_{cluster/interaction}>}$ \\
 
-The instantaneous luminosity per bunch crossing L is proportional to the number of proton-proton (pp) interactions per bunch crossing (pileup) and the proportionality constant is the ratio of  LHC orbit frequency f and the pp interaction cross section $\sigma_{interaction}(\sqrt{s})$ where s is the proton-proton collision center-of-mass energy. \\
+The instantaneous luminosity per bunch crossing L is proportional to the number of proton-proton (pp) interactions per bunch crossing (pileup) and the proportionality constant is the ratio of  LHC orbit frequency f and the pp interaction cross section $\sigma_{interaction}(\sqrt{s})$ where s is the proton-proton collision center-of-mass energy \cite{CMS-PAS-LUM-12-001}. \\
 
 L = $\frac{f}{\sigma_{interaction}}$ (PU)  \\
 
@@ -24,7 +24,7 @@ L = $\frac{<N_{cluster}> \:\: f}{\sigma_{vis}}$ \\
 
 The PCC visible cross section $\sigma_{vis}$ is determined using van der meer scan method which is described in section 5. Cluster counting can be done over different time periods like 1 bunch crossing (25 ns), 1 Lumi section (23.36 s), 4 Lumi nibble (1.46 s) and similarly instantaneous luminosity can be calculated over these time periods using PCC method. \\
 
-Specific techniques are employed for the reconstruction of clusters in the pixel detector and all reconstructed clusters are used for counting to calculate the instantaneous luminosity. Algorithm used for finding clusters starts by looking for pixels whose signal to noise ratio is more than 6 and then merge adjacent pixel. These algorithms estimates cluster position in two directions and cluster charge. A cluster is a set of adjacent pixels and only pixels above certain threshold charge are considered. Position of a cluster in X and Y direction are obtained by fitting X and Y prpjections to templates that are estimates for cluster shapes.
+Specific techniques are employed for the reconstruction of clusters in the pixel detector and all reconstructed clusters are used for counting to calculate the instantaneous luminosity. Algorithm used for finding clusters starts by looking for pixels whose signal to noise ratio is more than 6 and then merge adjacent pixel. These algorithms estimates cluster position in two directions and cluster charge. A cluster is a set of adjacent pixels and only pixels above certain threshold charge are considered. Position of a cluster in X and Y direction are obtained by fitting X and Y projections to templates that are estimates for cluster shapes \cite{Chatrchyan:2014fea}.
 
 
 \begin{figure}[H]
