@@ -2,52 +2,59 @@
 \label{sec:bkg}
 (background in vdM, afterglow backgrounds in Physics, subtraction of these) \\
 
-N= \sigma \:L + N_{background} \\
+The cluster rate equation is modified in the presence of background events. \\
 
-L = $ \int L_{inst} \: dt = \int \frac{R(t)}{\sigma_{vis}} \:dt $  \\
+N = \sigma \:L_{int} + N_{background} \\
+
+L_{int} = $ \int L_{inst} \: dt = \int \frac{R(t)}{\sigma_{vis}} \:dt $  \\
 
 \sigma = \sigma_{interaction} (\sqrt{s}) \: A \:\epsilon\\
 
-N: total number of event including signal and background. \\
+N: total number of signal and background events. \\
 
 $R(t) = \frac{d}{dt} <N_{cluster}>$ is the time dependent cluster rate. \\
 
 $N_{background}$: Number of background events \\
 
+$L_{inst}$: instantaneous luminosity.\\
+
+$L_{int}$: integrated luminosity. \\
+
 $\sigma_{vis}$: PCC visible cross section.\\
 
 $\sigma_{interaction}$ : proton-proton interaction cross section. \\
 
-s: center of mass energy of colliding protons. \\
+s: center-of-mass energy of colliding protons. \\
 
 A: acceptance of the pixel detector. \\
 
 $\epsilon$ : efficiency of the pixel detector. \\
 
-$L_{inst}$: instantaneous luminosity.\\
+$N_{background}$ need to be subtracted during vdM scans for precise determination of $\sigma_{vis}$. During high pileup physics runs, background contribution to instantaneous luminosity/$\sigma_{vis}$ based on the pixel cluster counting (PCC) method arises from a small out-of-time response (OOTR, or afterglow) that has two types.\\
 
-The pixel cluster counting (PCC) method produces a small out-of-time response (OOTR, or afterglow) that has two types.\\
+Type I: fake hits in the bunch crossing after the colliding bunches (signal charge spillover).\\
 
-Type 1: fake hits in the bunch crossing after the colliding bunches (signal charge spillover).\\
+Type II: Activated material in the detector due to the large radiation doses, exponentially decays for many bunch crossings.\\
 
-Type 2: Activated material in the detector due to the large radiation doses, exponentially decays for many bunch crossings.\\
+Fig. 11 shows the afterglow noise induced by one colliding bunch. Since the distribution is normalized to 1 at the first bin it means the first bin is the colliding bunch. The values at bins $>$ 1 are the cluster counts observed for bunches after the colliding bunch divided by the cluster counts observed by the colliding bunch. There are three parts to this distribution: \\
 
-Afterglow effects are tiny in the case of tracklets (2x and 3x coincidences).\\
+(i) bin 1 is the colliding bunch \\
 
-Due to both the late-arriving particles and energy originating from activated detector material, the pixel data need to be corrected for afterglow effects. This effect was studied in data taken using random triggers (triggers that fire randomly in bunch crossings spread over the whole LHC orbit except for the abort gap), considering the pixel cluster counts in bunch crossings after bunch trains. The resulting correction depends on the LHC filling scheme and for a typical 2011 fill with 1380 bunches corresponds to a subtraction of close to 2.8$\%$ of the integrated luminosity per luminosity section. \\
+(ii) bin 2 (empty bunch) is the bunch after colliding bunch, noise observed is due to electronics signal on same pixels from colliding bunch. This is Type I afterglow effect. \\
 
-The afterglow corrections for PCC during 2017 run are in the range 2-5 $\%$ for the Type 1 corrections and 2-3 $\%$ averaged over all active bunches for the Type 2 corrections \cite{Sirunyan:2759951}.
+(iii) bins greater than 2 are all empty bunches. Noise observed is due to "albedo" which is material activated by the radiation of the collisions, it decays exponentially with time just like radioactive material. It produces secondary particles which create hits late in time. This is called Type II afterglow effect. \\
 
-
-Fig. 7 shows the afterglow noise induced by one colliding bunch. Since it is normalized to 1 at the first bin it means the first bin is the colliding bunch. The values at bins $>$ 1 are the cluster counts observed for bunches after the colliding bunch divided by the cluster counts observed by the colliding bunch. There are three parts to this distribution: \\
-
-bin 1: colliding bunch \\
-
-bin 2 (empty bunch): bunch after colliding bunch, noise observed is due to electronics signal on same pixels from colliding bunch. This is called Type 1. \\
-
-bins $>$ 2 (empty bunches): noise observed is due to "albedo" which is material activated by the radiation of the collisions, it decays exponentially with time just like radioactive material. It produces secondary particles which create hits late in time. This is called Type 2.
+ Afterglow effects for various bunches in a beam is shown in Fig. 12 where the intial rising curve correspong to Type I and decay curve correspond to Type II afterglow effect. It was studied in data taken using random triggers (triggers that fire randomly in bunch crossings spread over the whole LHC orbit except for the abort gap), considering the pixel cluster counts in bunch crossings after bunch trains. The resulting correction depends on the LHC filling scheme and for a typical 2011 fill with 1380 bunches corresponds to a subtraction of close to 2.8$\%$ of the integrated luminosity per lumi section. The afterglow corrections for PCC during 2017 run are in the range 2-5 $\%$ for the Type I corrections and 2-3 $\%$ averaged over all active bunches for the Type II corrections \cite{Sirunyan:2759951}.
 
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\columnwidth]{./PCC_background.png}
+  \caption{ \onehalfspacing \cite{}.}
+  \label{fig:CMS}
+\end{figure}
+
+ 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.5\columnwidth]{./SingleBunchAfterglow.png}
@@ -62,11 +69,6 @@ bins $>$ 2 (empty bunches): noise observed is due to "albedo" which is material 
   \label{fig:LHC}
 \end{figure}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\columnwidth]{./PCC_background.png}
-  \caption{ \onehalfspacing \cite{}.}
-  \label{fig:CMS}
-\end{figure}
+
 
 
