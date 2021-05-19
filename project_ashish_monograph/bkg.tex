@@ -38,13 +38,6 @@ Due to both the late-arriving particles and energy originating from activated de
 
 The afterglow corrections for PCC during 2017 run are in the range 2-5 $\%$ for the Type 1 corrections and 2-3 $\%$ averaged over all active bunches for the Type 2 corrections \cite{Sirunyan:2759951}.
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\columnwidth]{./SingleBunchAfterglow.png}
-  \caption{Afterglow effect produced by a single colliding bunch.}
-  \label{fig:LHC}
-\end{figure}
-
 
 Fig. 7 shows the afterglow noise induced by one colliding bunch. Since it is normalized to 1 at the first bin it means the first bin is the colliding bunch. The values at bins $>$ 1 are the cluster counts observed for bunches after the colliding bunch divided by the cluster counts observed by the colliding bunch. There are three parts to this distribution: \\
 
@@ -54,17 +47,26 @@ bin 2 (empty bunch): bunch after colliding bunch, noise observed is due to elect
 
 bins $>$ 2 (empty bunches): noise observed is due to "albedo" which is material activated by the radiation of the collisions, it decays exponentially with time just like radioactive material. It produces secondary particles which create hits late in time. This is called Type 2.
 
+
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\columnwidth]{./afterglow.png}
-  \caption{Results of the pixel afterglow 'deconvolution fit'}
+  \includegraphics[width=0.5\columnwidth]{./SingleBunchAfterglow.png}
+  \caption{Afterglow effect produced by a single colliding bunch.}
   \label{fig:LHC}
 \end{figure}
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\columnwidth]{./afterglow.png}
+  \caption{Results of the pixel afterglow fit.}
+  \label{fig:LHC}
+\end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\columnwidth]{./PCC_background.png}
+  \includegraphics[width=0.5\columnwidth]{./PCC_background.png}
   \caption{ \onehalfspacing \cite{}.}
   \label{fig:CMS}
 \end{figure}
+
+
