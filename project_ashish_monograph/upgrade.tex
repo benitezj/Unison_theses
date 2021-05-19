@@ -1,22 +1,22 @@
-\newpage \section{The TEPX upgrade for HL-LHC}
+ \section{The TEPX upgrade for HL-LHC}
 \label{sec:tepx}
 (describe the TEPX detector design, algorithms clusters/coincidences, D4R1 as HL-LHC luminometer, stat precision, linearity)\\
 
 The High Luminosity (HL)-LHC will increase instantaneous luminosity to unprecedented value of $7.5 \times 10^{34} cm^{-2} s^{-1}$ which corresponds to 200 proton-proton collisions per bunch crossing (pileup). Run 2 pixel detector will not be able to handle the extreme radiation environment, resolve nearby particle tracks and operate properly to give a reliable estimate of the instantaneous luminosity for high pileup values. That is why it will be replaced by a new pixel detector which will be composed of three subdetectors: tracker barrel pixel detector (TBPX), tracker forward pixel detector (TFPX) and tracker endcap pixel detector (TEPX). TEPX will have better radiation tolerance, increased granularity, improved two-track separation, improved estimation of hit rate and statistical precision, extended tracking acceptance $|\eta|=4$ with Disk 4 Ring 1 operating as an independent luminometer \cite{Klein:2017nke}. \\
 
-Tracker endcap pixel detector (TEPX) consists of four double disks per side (-Z and +Z) as shown in Fig. 27 with each double disk containing five rings as shown in Fig. 28 having 20, 28, 36, 44 and 48 modules respectively. One double disk has four surfaces with +Z side containing modules with even module number in front layers (L1 $\&$ L2) and modules with odd module number in back layers (L3 $\&$ L4) from Ring 1 to Ring 4 and for Ring 5, modules with odd module number in front layers and modules with even module number in back layers as shown in Fig. 29. For -Z side, four surfaces contain modules with odd module number in front layer and modules with even module number in back layer from Ring 1 to Ring 4 and for Ring 5, modules with even module number in front layer and modules with odd module number in back layer . \\
+Tracker endcap pixel detector (TEPX) consists of four double disks per side (-Z and +Z) as shown in Fig. 28 with each double disk containing five rings as shown in Fig. 28 having 20, 28, 36, 44 and 48 modules respectively. One double disk has four surfaces with +Z side containing modules with even module number in front layers (L1 $\&$ L2) and modules with odd module number in back layers (L3 $\&$ L4) from Ring 1 to Ring 4 and for Ring 5, modules with odd module number in front layers and modules with even module number in back layers as shown in Fig. 30. For -Z side, four surfaces contain modules with odd module number in front layer and modules with even module number in back layer from Ring 1 to Ring 4 and for Ring 5, modules with even module number in front layer and modules with odd module number in back layer. \\
 
 
-Instantaneous luminosity determination using PCC method for Phase 2 HL-LHC can be based on counting the number of clusters or coincidences. The innermost ring of the last disk of TEPX (D4R1) is located at 2.65 m away from the interaction point that is beyond the tracking acceptance ($|\eta| = 4$) and as this region has few tracking points, it can be solely used for the purpose of luminosity measurement by using the full available trigger rate and bandwidth.  Two fold coincidences are those hits which are created by the module overlap regions between various layers of one TEPX double disk. Two fold coincidences are better way to distinguish between a real hit and random electrical noise. They are more likely to be real hit than random electrical noise. Two fold coincidence in $\phi$ will involve modules overlapping in the same ring in front and back layers of one double disk as shown in top part of Fig. 30 and Fig. 31 while two fold coincidence in r will require modules overlapping between successive rings in the front (L1 $\&$ L2) and back layers (L3 $\&$ L4) of one double disk as shown in bottom part of Fig. 30. Luminosity calculated based on counting coincidences has an advantage over clusters that afterglow effects are tiny in the case of coincidences.  \cite{Collaboration:2706512} \\
+Instantaneous luminosity determination using PCC method for Phase II HL-LHC can be based on counting the number of clusters or coincidences. The innermost ring of the last disk of TEPX (D4R1) is located at 2.65 m away from the interaction point that is beyond the tracking acceptance ($|\eta| = 4$) and as this region has few tracking points, it can be solely used for the purpose of luminosity measurement by using the full available trigger rate and bandwidth. TEPX Disk 4 Ring 1 layout is shown in Fig. 29. Two fold coincidences are those hits which are created by the module overlap regions between various layers of one TEPX double disk. Two fold coincidences are better way to distinguish between a real hit and random electrical noise. They are more likely to be real hit than random electrical noise. Two fold coincidence in $\phi$ will involve modules overlapping in the same ring in front and back layers of one double disk as shown in top part of Fig. 31 and Fig. 32 while two fold coincidence in r will require modules overlapping between successive rings in the front (L1 $\&$ L2) and back layers (L3 $\&$ L4) of one double disk as shown in bottom part of Fig. 31. Luminosity calculated based on counting coincidences has an advantage over clusters that afterglow effects are tiny in the case of coincidences.  \cite{Collaboration:2706512} \\
 
 
-Nonlinearity is one of the systematic uncertainty in the calculation of instantaneous luminosity using PCC and PCC visible cross section $\sigma_{vis}$. A linear relation between the number of clusters and pileup (PU) would imply that\\
+Linearity is one of the systematic uncertainty in the calculation of instantaneous luminosity using PCC and PCC visible cross section $\sigma_{vis}$. A linear relation between the number of clusters and pileup (PU) imply that \\
 
 $<N_{cluster/interaction}> = \frac{<N_{cluster}>}{(PU)} = \frac{\sigma_{visible}}{\sigma_{interaction} (\sqrt{s})}$ \\
 
 $<N_{cluster}> =  \frac{\sigma_{visible}}{\sigma_{interaction}(\sqrt{s})} (PU)$ \\
 
-\newpage Linearity indicates that the PCC visible cross section $\sigma_{vis}$ does not depend on the per bunch instantaneous luminosity (ideal luminometer). In ideal  scenario, $\sigma_{vis}$ is not dependent on pileup, but this a potential problem with the luminometer. A non-linear relation $<N_{cluster}> = \alpha (PU)^{\gamma}, \gamma \neq 1$ would add non-linear terms in the rate equation $R = \sigma L$  and cause $\sigma_{vis}$ to vary with the per bunch instantaneous luminosity and pileup values.
+\newpage Linearity indicates that the PCC visible cross section $\sigma_{vis}$ does not depend on the per bunch instantaneous luminosity (ideal luminometer). In ideal scenario, $\sigma_{vis}$ is not dependent on pileup, but this a potential problem with the luminometer. Linearity results for simulated TEPX clusters and coincidences from low to high pileup values are shown from Fig. 33 to Fig. 50. TEPX luminometer proposed for Phase II shows excellent linearity over entire pileup range. A non-linear relation $<N_{cluster}> = \alpha (PU)^{\gamma}, \gamma \neq 1$ would add non-linear terms in the rate equation $R = \sigma_{vis} L_{inst}$  and cause $\sigma_{vis}$ to vary with the per bunch instantaneous luminosity and pileup values.
 
 
 \begin{figure}[H]
@@ -29,8 +29,8 @@ $<N_{cluster}> =  \frac{\sigma_{visible}}{\sigma_{interaction}(\sqrt{s})} (PU)$ 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5 \columnwidth]{./xydisc.png}
-  \caption{ \onehalfspacing Sketch of the TEPX Disk layouts in x-y view. Modules of type 1 $\times$ 2 are shown in green, while 2 $\times$ 2 modules are represented in orange.}
+  \includegraphics[width=0.4 \columnwidth]{./D4R1.png}
+  \caption{ \onehalfspacing Sketch of the TEPX Disk 4 Ring 1.}
   \label{fig:CMS}
 \end{figure}
 
@@ -59,7 +59,7 @@ $<N_{cluster}> =  \frac{\sigma_{visible}}{\sigma_{interaction}(\sqrt{s})} (PU)$ 
 \end{figure}
 
 
-\newpage
+
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\columnwidth]{./totalclusters.png}
@@ -220,7 +220,7 @@ $<N_{cluster}> =  \frac{\sigma_{visible}}{\sigma_{interaction}(\sqrt{s})} (PU)$ 
 
 
 
-VdM (PU 0.5) $\:\:$  Trigger frequency (kHz) $\:\:$ 1 bx, 30 s $\:\:$ 100 bx, 30 s \\
+vdM (PU 0.5) $\:\:$  Trigger frequency (kHz) $\:\:$ 1 bx, 30 s $\:\:$ 100 bx, 30 s \\
 TEPX D4R1 2x Coincidences in $\phi$  $\:\:$  800        $\:\:$   1.7         $\:\:$       0.17   \\
 TEPX 2x Coincidences in $\phi$   $\:\:$     500        $\:\:$   0.485       $\:\:$       0.0485   \\
 

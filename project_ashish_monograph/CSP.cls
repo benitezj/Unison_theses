@@ -24,7 +24,10 @@
 %%
 %% $Id: CSP.dtx 45 2012-08-23 06:19:35Z rishi $
 %%
-\usepackage{indentfirst}
+
+ \usepackage[hidelinks]{hyperref}
+ \usepackage{indentfirst}
+ \bibliographystyle{unsrt}
  \def\RCSfile{CSP}%
  \def\RCSversion{2.0}%
  \def\RCSdate{2012/08/15}%
