@@ -1,77 +1,85 @@
 \section{The Pixel Cluster Counting (PCC) method}
 \label{sec:pcc}
-(describe cluster reconstruction, the module selection/veto, cluster counting per bx, per LS,..) \\
 
-Pixel cluster counting (PCC)  method is an offline technique for the calculation of instantaneous luminosity $(L_{inst})$ for any LHC run period by counting the number of pixel clusters in the pixel detector (innermost segment of the CMS tracker) in a zero bias event which requires that only two bunches cross at the CMS interaction point. The mean number of pixel clusters can be expressed in terms of mean number of pixel clusters per proton-proton interaction and the number of proton-proton interaction per bunch crossing that is also called pileup (PU). \\
+\subsection{Luminosity determination based on PCC}
+Pixel cluster counting (PCC)  method is an offline technique for the calculation of instantaneous luminosity $(L_{inst})$ for any LHC run period by counting the number of pixel clusters in the pixel detector (innermost segment of the CMS tracker) in a zero bias event which requires that only two bunches cross at the CMS interaction point. The mean number of pixel clusters $<N_{cl}>$ can be expressed in terms of mean number of pixel clusters per proton-proton interaction  $<N_{cl/pp}>$ and pileup ($\mu$) assuming that clusters do not overlap which is a reasonable assumption given the fine granularity of pixel detector. \\
 
-$<N_{cluster}>$ = $<N_{cluster/interaction}>$ (PU)  or (PU) = $\frac{<N_{cluster}>}{<N_{cluster/interaction}>}$ \\
 
-The instantaneous luminosity per bunch crossing $L_{inst/bunch}$ is proportional to the number of proton-proton (pp) interactions per bunch crossing (pileup) and the proportionality constant is the ratio of  LHC orbit frequency f and the pp interaction cross section $\sigma_{interaction}(\sqrt{s})$ where s is the proton-proton collision center-of-mass energy \cite{CMS-PAS-LUM-12-001}. \\
+  
+$<N_{cl}> = <N_{cl/pp}> \mu$ \\
 
-$L_{inst/bunch}$ = $\frac{f}{\sigma_{interaction}}$ (PU)  \\
+$\mu = \frac{<N_{cl}>}{<N_{cl/pp}>}$ \\
 
-$L_{inst/bunch}$ = $\frac{<N_{cluster}> \: f }{<N_{cluster/interaction}> \: \sigma_{interaction}(\sqrt{s})}$ \\
+
+
+The instantaneous luminosity per bunch crossing $L_{b}$ is proportional to the number of proton-proton (pp) interactions per bunch crossing (pileup) and the proportionality constant is the ratio of  LHC orbit frequency f and the pp interaction cross section $\sigma_{pp}$ \cite{CMS-PAS-LUM-12-001}. \\
+
+$L_{b}$ = $\frac{f}{\sigma_{pp}}$ $\mu$  or $L_{b}$ = $\frac{<N_{cl}> \: f }{<N_{cl/pp}> \: \sigma_{pp}}$ \\
 
 The PCC visible cross section $\sigma_{vis}$ which is a calibration constant between pixel clusters rate and luminosity can be defined as \\
 
-$\sigma_{vis}$ = $<N_{cluster/interaction}>$  $\sigma_{interaction}(\sqrt{s})$ \\
+$\sigma_{vis}$ = $<N_{cl/pp}>$  $\sigma_{pp}$ \\
 
-\newpage Thus, instantaneous luminosity per bunch crossing is given by \\
+Thus, instantaneous luminosity per bunch crossing $L_b$ is given by \\
 
-$L_{inst/bunch}$ = $\frac{<N_{cluster}> \: \sigma_{interaction}(\sqrt{s}) \: f }{ \:\sigma_{vis} \: \sigma_{interaction}(\sqrt{s})}$ \\
+$L_{b}$ = $\frac{<N_{cl}> \: \sigma_{pp} \: f }{ \:\sigma_{vis} \: \sigma_{pp}}$ or $L_{b}$ = $\frac{<N_{cluster}> \:\: f}{\sigma_{vis}}$ \\
 
-$L_{inst/bunch}$ = $\frac{<N_{cluster}> \:\: f}{\sigma_{vis}}$ \\
+The PCC visible cross section $\sigma_{vis}$ is determined using van der Meer scan method which is described in section 5. Cluster counting can be done over different time periods like per bunch or orbit integrated, 1 Lumi section (23.36s), 4 Lumi nibble (1.46s) and similarly instantaneous luminosity can be calculated over these time periods using PCC method \cite{CMS:2018elu}. \\
 
-The PCC visible cross section $\sigma_{vis}$ is determined using van der meer scan method which is described in section 5. Cluster counting can be done over different time periods like 1 bunch crossing (25ns), 1 Lumi section (23.36s), 4 Lumi nibble (1.46s) and similarly instantaneous luminosity can be calculated over these time periods using PCC method. \\
+\subsection{Run 2018 CMS Data} \\
+
+CMS 2018 data is a collection of runs for each fill in different periods defined during the LHC operation period.
 
 LHC 2018 run is divided into A, B, C and D as described below. \\
-
+\begin{flushleft}
 1. Run2018A \\
-
 Run number ranges from 315255 to 316995 \\
 Number of runs per period is 146 \\
 
 2. Run2018B\\
-
 Run number ranges from 317080 to 319311\\
 Number of runs per period is 132\\
 
 3. Run2018C \\
-
 Run number ranges from 319337 to 320065\\
 Number of runs per period is 88 \\
 
 4.Run2018D \\
-
 Run number ranges from 320500 to 323699 \\
 Number of runs per period is 262 \\
 
 5. late Run2018D \\
-
 Run number ranges from 320500 to 325175 \\
 Number of runs per period is 339 \\
+\end{flushleft}
 
-Modules which are observed to function efficiently are considered for luminosity calculation. The module veto lists correspond to late Run2018D that select each detector part barrel layers L2, L3, L4 and forward disks D1, D2, D3. Barrel layer 1 (L1) is not used for luminosity determination \cite{vetolist}. \\
+\subsection{Pixel detector Module Selection}
+Selection of modules in pixel detector is required because module may experience dynamic inefficiency, bad module chips can stop sending data, chips may not work properly and need reconfiguring. Modules which are observed to function efficiently are considered for luminosity estimation. The module veto lists correspond to late Run2018D that select each detector part barrel layers L2, L3, L4 and forward disks D1, D2, D3 as shown in Fig. 12 and 13. Barrel layer 1 (L1) is not used for luminosity determination \cite{vetolist}. \\
 
-1. veto lateRunD lowcut tight   (Number of vetoed modules 1387) \\
-2. veto lateRunD lowcut tight B1 (Number of vetoed modules 1850)\\
-3. veto lateRunD lowcut tight B2 (Number of vetoed modules 1766)\\
-4. veto lateRunD lowcut tight B3 (Number of vetoed modules 1641)\\
-5. veto lateRunD lowcut tight F1 (Number of vetoed modules 1813)\\
-6. veto late RunD lowcut tight F2 (Number of vetoed modules 1799)\\
-7. veto late RunD lowcut tight F3 (Number of vetoed modules 1800)\\
-
-Specific techniques are employed for the reconstruction of clusters in the pixel detector and all the reconstructed clusters are used for counting to calculate the instantaneous luminosity. Algorithm used for finding clusters check for pixels whose signal to noise ratio is more than 6 and then merge adjacent pixel. These algorithms estimates cluster position in two directions and cluster charge. A cluster is a set of adjacent pixels and only pixels above certain minimum value of charge are considered. Position of a cluster in X and Y directions are obtained by fitting X and Y projections to templates that are estimates for cluster shapes \cite{Chatrchyan:2014fea}. \\
+\begin{flushleft}
+1. Total number of vetoed modules 1387. \\
+2. Number of vetoed modules for L2 1850.\\
+3. Number of vetoed modules for L3 1766.\\
+4. Number of vetoed modules for L4 1641.\\
+5. Number of vetoed modules for D1 1813.\\
+6. Number of vetoed modules for D2  1799.\\
+7. Number of vetoed modules for D3 1800.\\
+\end{flushleft}
 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\columnwidth]{./pixel_reco.png}
-  \caption{ \onehalfspacing Diagram showing pixel cluster with charge accumulation in each pixel expressed in terms of thousands of electrons. Green numbers represent charge accumulation below the 2000 electron threshold which are excluded clusters. The dotted red line indicates the particle trajectory projection in the module plane and the red cross shows the position of true hit.}
+  \includegraphics[width=0.8 \columnwidth]{./PDDisk_R12.png}
+  \caption{ \onehalfspacing Diagram showing coordinates of modules in one forward disk of pixel detector having two rings. FPIX 0 correspond to ring 1 and FPIX 1 to ring 2. Yellow regions shows coordinates of vetoed modules while white regions shows coordinates of good modules used for luminosity determination.}
   \label{fig:CMS}
 \end{figure}
 
-
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1 \columnwidth]{./bpixL2-L4.png}
+  \caption{ \onehalfspacing Diagram showing z coordinate (signed module) and phi coordinate (signed ladder) of modules in three barrel layers (L2, L3 and L4) of pixel detector. Yellow regions shows coordinates of vetoed modules while white regions shows coordinates of good modules used in luminosity determination. }
+  \label{fig:CMS}
+\end{figure}
 
 
 

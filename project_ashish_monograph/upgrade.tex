@@ -1,63 +1,62 @@
  \section{The TEPX upgrade for HL-LHC}
 \label{sec:tepx}
-(describe the TEPX detector design, algorithms clusters/coincidences, D4R1 as HL-LHC luminometer, stat precision, linearity)\\
 
 The High Luminosity (HL)-LHC will increase instantaneous luminosity to unprecedented value of $7.5 \times 10^{34} cm^{-2} s^{-1}$ which corresponds to 200 proton-proton collisions per bunch crossing (pileup). Run 2 pixel detector will not be able to handle the extreme radiation environment, resolve nearby particle tracks and operate properly to give a reliable estimate of the instantaneous luminosity for high pileup values. That is why it will be replaced by a new pixel detector which will be composed of three subdetectors: tracker barrel pixel detector (TBPX), tracker forward pixel detector (TFPX) and tracker endcap pixel detector (TEPX). TEPX will have better radiation tolerance, increased granularity, improved two-track separation, improved estimation of hit rate and statistical precision, extended tracking acceptance $|\eta|=4$ with Disk 4 Ring 1 operating as an independent luminometer \cite{Klein:2017nke}. \\
 
-Tracker endcap pixel detector (TEPX) consists of four double disks per side (-Z and +Z) as shown in Fig. 28 with each double disk containing five rings as shown in Fig. 28 having 20, 28, 36, 44 and 48 modules respectively. One double disk has four surfaces with +Z side containing modules with even module number in front layers (L1 $\&$ L2) and modules with odd module number in back layers (L3 $\&$ L4) from Ring 1 to Ring 4 and for Ring 5, modules with odd module number in front layers and modules with even module number in back layers as shown in Fig. 30. For -Z side, four surfaces contain modules with odd module number in front layer and modules with even module number in back layer from Ring 1 to Ring 4 and for Ring 5, modules with even module number in front layer and modules with odd module number in back layer. \\
 
+\subsection{TEPX detector for Phase II}
 
-Instantaneous luminosity determination using PCC method for Phase II HL-LHC will be based on counting the number of clusters or coincidences. The innermost ring of the last disk of TEPX (D4R1) is located at 2.65 m away from the interaction point that is beyond the tracking acceptance ($|\eta| = 4$) and as this region has few tracking points, it can be solely used for the purpose of luminosity measurement by using the full available trigger rate and bandwidth. TEPX Disk 4 Ring 1 layout is shown in Fig. 29. Two fold coincidences are those hits which are created by the module overlap regions between various layers of one TEPX double disk. Two fold coincidences are better way to distinguish between a real hit and random electrical noise. They are more likely to be real hit than random electrical noise. Two fold coincidence in $\phi$ will involve modules overlapping in the same ring in front and back layers of one double disk as shown in top part of Fig. 31 and Fig. 32 while two fold coincidence in r will require modules overlapping between successive rings in the front (L1 $\&$ L2) and back layers (L3 $\&$ L4) of one double disk as shown in bottom part of Fig. 31. Luminosity calculated based on counting coincidences has an advantage over clusters that afterglow effects are tiny in the case of coincidences.  \cite{Collaboration:2706512} \cite{brilsim} \cite{brilsim1}\cite{brilsim2}\\
-
-
-Linearity is one of the systematic uncertainty in the calculation of instantaneous luminosity using PCC and PCC visible cross section $\sigma_{vis}$. A linear relation between the number of clusters and pileup (PU) imply that \\
-
-$<N_{cluster/interaction}> = \frac{<N_{cluster}>}{(PU)} = \frac{\sigma_{visible}}{\sigma_{interaction} (\sqrt{s})}$ \\
-
-$<N_{cluster}> =  \frac{\sigma_{visible}}{\sigma_{interaction}(\sqrt{s})} (PU)$ \\
-
-Linearity indicates that the PCC visible cross section $\sigma_{vis}$ does not depend on the per bunch instantaneous luminosity (ideal luminometer). In ideal scenario, $\sigma_{vis}$ is not dependent on pileup, but this a potential problem with the luminometer. Linearity results for simulated TEPX clusters and coincidences from low to high pileup values are shown from Fig. 33 to Fig. 50. TEPX luminometer proposed for Phase II shows excellent linearity over entire pileup range. A non-linear relation $<N_{cluster}> = \alpha (PU)^{\gamma}, \gamma \neq 1$ would add non-linear terms in the rate equation $R = \sigma_{vis} L_{inst}$  and cause $\sigma_{vis}$ to vary with the per bunch instantaneous luminosity and pileup values.
+Tracker endcap pixel detector (TEPX) consists of four double disks per side (-Z and +Z) with each double disk containing five rings as shown in Fig. 29 having 20, 28, 36, 44 and 48 modules respectively. One double disk has four surfaces with +Z side containing modules with even module number in front layers (L1 $\&$ L2) and modules with odd module number in back layers (L3 $\&$ L4) from Ring 1 to Ring 4 and for Ring 5, modules with odd module number in front layers and modules with even module number in back layers as shown in Fig. 30. For -Z side, four surfaces contain modules with odd module number in front layer and modules with even module number in back layer from Ring 1 to Ring 4 and for Ring 5, modules with even module number in front layer and modules with odd module number in back layer. \\
 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\columnwidth]{./tepx_geometry.png}
-  \caption{ \onehalfspacing A layout of the CMS Phase-2 inner tracker showing four TEPX disks, eight TFPX disks and 4 barrel layers. \cite{Klein:2017nke}}
+  \includegraphics[width=1 \columnwidth]{./tepx_tt.png}
+  \caption{ \onehalfspacing Left: A layout of the CMS Phase-2 inner tracker showing four TEPX disks, eight TFPX disks and four barrel layers. Right: Diagram showing one double disk of TEPX with five rings \cite{Klein:2017nke}.}
   \label{fig:CMS}
 \end{figure}
 
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.4 \columnwidth]{./D4R1.png}
-  \caption{ \onehalfspacing Sketch of the TEPX Disk 4 Ring 1.}
-  \label{fig:CMS}
-\end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=1 \columnwidth]{./fourlayers.png}
-  \caption{ \onehalfspacing Fours layers of one double disk of TEPX showing module arrangement in rings for each layer.}
+  \caption{ \onehalfspacing Fours layers of one double disk of TEPX showing module arrangement in rings for each layer. Ring 1, 2, 3, 4 and 5 consists of 20, 28, 36, 44 and 48 modules respectively. }
   \label{fig:CMS}
 \end{figure}
 
+\subsection{Phase II CMS simulation samples}
+
+\onelinespacing Simulated data samples for Phase II include full CMS detector description and uses official CMS software (CMSSW) version $10-6-0-patch2$ which calls GEANT4 for particle and energy deposit simulation as well as for reconstruction \cite{Agostinelli:2002hh}. These samples contain single-neutrino event overlaid with a variable number of minimum-bias events (events with any amount of real energy detected in CMS) to simulate different pileup values. The statistics for samples with average pileup values from 0.5 to 2 is 500000 events per step and for average pileup values between 10 and 200, statistics is 100000. \\
+
+\subsection{Luminosity determination - counting clusters/coincidences}
+
+Instantaneous luminosity determination using PCC method for Phase II HL-LHC will be based on counting the number of clusters or coincidences. The innermost ring of the last disk of TEPX (D4R1) is located at 2.65 m away from the interaction point that is beyond the tracking acceptance ($|\eta| = 4$) and as this region has few tracking points, it can be solely used for the purpose of luminosity measurement by using the full available trigger rate and bandwidth. Two fold coincidences are those hits which are created by the module overlap regions between various layers of one TEPX double disk. Two fold coincidences are better way to distinguish between a real hit and random electrical noise. They are more likely to be real hit than random electrical noise. Two fold coincidence in $\phi$ will involve modules overlapping in the same ring in front and back layers of one double disk as shown in top part of Fig. 31 and Fig. 32 while two fold coincidence in r will require modules overlapping between successive rings in the front (L1 $\&$ L2) and back layers (L3 $\&$ L4) of one double disk as shown in bottom part of Fig. 31. Luminosity calculated based on counting coincidences has an advantage over clusters that afterglow effects are tiny in the case of coincidences  \cite{Collaboration:2706512} \cite{brilsim} \cite{brilsim1}\cite{brilsim2}.\\
 
 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\columnwidth]{./coincidences.png}
-  \caption{ \onehalfspacing Diagram showing modules overlap between the front and back layers of one double disk of TEPX that creates two fold coincidences in $\phi$ and r.}
+  \includegraphics[width=0.8\columnwidth]{./2foldinrphi.png}
+  \caption{ \onehalfspacing Diagram showing modules overlap between the front (L1 \& L2) and back (L3 \& L4) layers of one double disk of TEPX that creates two fold coincidences in $\phi$ and r.}
   \label{fig:CMS}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\columnwidth]{./up.png}
-  \caption{\onehalfspacing Left: View in the x-y plane of the double disk structure of one TEPX disk. The sensors in blue and red correspond to the two double disks at slightly different z positions. Right: Example of two- and threefold coincidence regions on a portion of a single TEPX disk.}
+  \includegraphics[width=0.6\columnwidth]{./23coin.png}
+  \caption{\onehalfspacing Example of two- and threefold coincidence regions on a portion of a single TEPX disk.}
   \label{fig:CMS}
 \end{figure}
 
+\subsection{Results: TEPX linearity}
+
+Linearity is one of the systematic uncertainty in the calculation of instantaneous luminosity using PCC and PCC visible cross section $\sigma_{vis}$. A linear relation between the number of clusters and pileup (PU) imply that \\
+
+$<N_{cl/pp}> = \frac{<N_{cl}>}{\mu} = \frac{\sigma_{vis}}{\sigma_{pp}}$ \\
+
+$<N_{cl}> =  \frac{\sigma_{vis}}{\sigma_{pp}} \mu $ \\
+
+Linearity indicates that the PCC visible cross section $\sigma_{vis}$ does not depend on the per bunch instantaneous luminosity (ideal luminometer). In ideal scenario, $\sigma_{vis}$ is not dependent on pileup, but this a potential problem with the luminometer. Linearity results for simulated TEPX clusters and coincidences from low to high pileup values are shown from Fig. 33 to Fig. 50. TEPX luminometer proposed for Phase II shows excellent linearity over entire pileup range. A non-linear relation $<N_{cluster}> = \alpha (PU)^{\gamma}, \gamma \neq 1$ would add non-linear terms in the rate equation $R = \sigma_{vis} L_{inst}$  and cause $\sigma_{vis}$ to vary with the per bunch instantaneous luminosity and pileup values.
 
 
 \begin{figure}[H]
@@ -80,26 +79,13 @@ Linearity indicates that the PCC visible cross section $\sigma_{vis}$ does not d
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1 \columnwidth]{./clustersperdisk-z.png}
-  \caption{Left: Simulated mean number of clusters for -z side TEPX disks as a function of pileup. Right: Deviation from linearity for clusters for -z side TEPX disks.}
-  \label{fig:CMS}
-\end{figure}
-
-
-\begin{figure}[H]
-  \centering
   \includegraphics[width=1 \columnwidth]{./clustersperdisk+z.png}
   \caption{Left: Simulated mean number of clusters for +z side TEPX disks as a function of pileup. Right: Deviation from linearity for clusters for +z side TEPX disks.}
   \label{fig:CMS}
 \end{figure}
 
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=1\columnwidth]{./clustersperringD-4.png}
-  \caption{Left: Simulated mean number of clusters for TEPX Disk 4 all rings as a function of pileup. Ring 1 has highest slope and Ring 5 has least slope. Right: Deviation from linearity for clusters for TEPX Disk 4 all rings. Non-linearity is within $1\%$ for all rings over entire pileup range.}
-  \label{fig:CMS}
-\end{figure}
+
 
 \begin{figure}[H]
   \centering
@@ -107,7 +93,6 @@ Linearity indicates that the PCC visible cross section $\sigma_{vis}$ does not d
   \caption{Left: Simulated mean number of clusters for TEPX Disk 4 all rings as a function of pileup. Ring 1 has highest slope and Ring 5 has least slope. Right: Deviation from linearity for clusters for TEPX Disk 4 all rings. Non-linearity is within $1\%$ for all rings over entire pileup range.}
   \label{fig:CMS}
 \end{figure}
-
 
 
 \begin{figure}[H]
@@ -126,12 +111,7 @@ Linearity indicates that the PCC visible cross section $\sigma_{vis}$ does not d
 \end{figure}
 
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=1\columnwidth]{.//coincidencesperdisk-z.png}
-  \caption{Left: Simulated mean number of coincidences in $\phi$ and r for -z side TEPX disks as a function of pileup. Right: Deviation from linearity for coincidences in $\phi$ and r for -z side TEPX disks.}
-  \label{fig:CMS}
-\end{figure}
+
 
 
 \begin{figure}[H]
@@ -140,11 +120,6 @@ Linearity indicates that the PCC visible cross section $\sigma_{vis}$ does not d
   \caption{Left: Simulated mean number of coincidences in $\phi$ and r for +z side TEPX disks as a function of pileup. Right: Deviation from linearity for coincidences in $\phi$ and r for +z side TEPX disks.}
   \label{fig:CMS}
 \end{figure}
-
-
-
-
-
 
 
 \begin{figure}[H]
@@ -164,12 +139,7 @@ Linearity indicates that the PCC visible cross section $\sigma_{vis}$ does not d
 \end{figure}
 
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=1\columnwidth]{./coincidencesperringD-4.png}
-  \caption{Left: Simulated mean number of coincidences in $\phi$ and r for -z side TEPX Disk 4 per ring as a function of pileup. Ring 1 has highest slope and Ring 5 has least slope. Right: Deviation from linearity for coincidences in $\phi$ and r for -z side TEPX Disk 4 per ring. Non-linearity is within 1\% for all rings over entire pileup range.}
-  \label{fig:CMS}
-\end{figure}
+
 
 
 \begin{figure}[H]
@@ -184,12 +154,7 @@ Linearity indicates that the PCC visible cross section $\sigma_{vis}$ does not d
 
 
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=1\columnwidth]{./coincidencesinphiperringD-4.png}
-  \caption{Left: Simulated mean number of coincidences in $\phi$ for -z side TEPX Disk 4 per ring as a function of pileup. Ring 1 has highest slope and Ring 5 has least slope. Right: Deviation from linearity for coincidences in $\phi$ for -z side TEPX Disk 4 per ring. Non-linearity is within 1\% for all rings over entire pileup range.}
-  \label{fig:CMS}
-\end{figure}
+
 
 \begin{figure}[H]
   \centering
@@ -199,12 +164,7 @@ Linearity indicates that the PCC visible cross section $\sigma_{vis}$ does not d
 \end{figure}
 
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=1\columnwidth]{./coincidencesinrperringD-4.png}
-  \caption{Left: Simulated mean number of coincidences in r for -z side TEPX Disk 4 per ring as a function of pileup. Ring 1 has highest slope and Ring 5 has least slope. Right: Deviation from linearity for coincidences in r for -z side TEPX Disk 4 per ring. Non-linearity is within $1\%$ for all rings over entire pileup range.}
-  \label{fig:CMS}
-\end{figure}
+
 
 
 \begin{figure}[H]
@@ -214,21 +174,63 @@ Linearity indicates that the PCC visible cross section $\sigma_{vis}$ does not d
   \label{fig:CMS}
 \end{figure}
 
+\subsection{Statistical precision for Phase II luminometer - TEPX}
+Statistical precision is another uncertainty that need to be considered for luminosity measurement. It must be kept minimal to achieve 1 $\%$ accuracy for HL-LHC luminosity measurement. \\
+
+Relative statistical uncertainty in $\%$ = $\frac{\sqrt{N}}{N} \times 100$ \\
+
+where N = (Number of counts per event)$\times$(Trigger Frequency)$\times$(Time Integration period). \\
 
 
+Table 1: Expected statistical precision (in $\%$) in head-on collisions during typical vdM conditions with pileup of 0.5 for TEPX two fold coincidences in $\phi$  over different integration time period. 
+\begin{center}
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+    vdM (PU 0.5) & Trigger frequency (kHz) & 1 bx, 30 s & 100 bx, 30 s\\ \hline
+    TEPX D4R1 2x Coincidences in $\phi$  & 800  & 1.7 & 0.17\\ \hline  
+    TEPX 2x Coincidences in $\phi$  & 500  & 0.485 & 0.0485 \\ \hline 
+    \hline
+    \end{tabular}
+\end{center} \\
+
+Table 2: Expected statistical precision (in $\%$) in head-on collisions during physics conditions with pileup of 200 for TEPX two fold coincidences in $\phi$  over different integration time period. 
+\begin{center}
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+    Physics (PU 200) & Trigger frequency (kHz) & 1 bx, 4 LN (1.46 s) & 2500 bx, 1 LS (23 s)\\ \hline
+    TEPX D4R1 2x Coincidences in $\phi$  & 800  & 0.386 & 0.00193\\ \hline  
+    TEPX 2x Coincidences in $\phi$  & 75  & 0.284 & 0.00142\\ \hline 
+    \hline
+    \end{tabular}
+\end{center} \\
 
 
+Table 3: Expected statistical precision (in $\%$) in head-on collisions during typical vdM conditions with pileup of 0.5 for TEPX clusters and two fold coincidences over different integration time period. 
+\begin{center}
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+    vdM (PU 0.5) & Trigger frequency (kHz) & 1 bx, 1 s & 1 bx, 30 s \\ \hline
+    TEPX D4R1 clusters  & 1000  & 1.8  & 0.33 \\ \hline  
+    TEPX D4R1 2x Coincidences  & 1000  & 5.8 & 1.1 \\ \hline  
+    TEPX clusters  & 500  & 0.74  & 0.14\\ \hline
+    TEPX 2x Coincidences  & 500  & 2.7 & 0.49\\ \hline
+    \hline
+    \end{tabular}
+\end{center}
 
 
-vdM (PU 0.5) $\:\:$  Trigger frequency (kHz) $\:\:$ 1 bx, 30 s $\:\:$ 100 bx, 30 s \\
-TEPX D4R1 2x Coincidences in $\phi$  $\:\:$  800        $\:\:$   1.7         $\:\:$       0.17   \\
-TEPX 2x Coincidences in $\phi$   $\:\:$     500        $\:\:$   0.485       $\:\:$       0.0485   \\
+Table 4: Expected statistical precision (in $\%$) per second in head-on collisions during physics conditions with pileup of 200 for TEPX clusters and two fold coincidences over different integration time period. 
+\begin{center}
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+    Algorithm & Trigger frequency (kHz) & 1 bx, 1 s & 2500 bx, 1 s \\ \hline
+    TEPX D4R1 clusters  & 825  & 0.10 & 0.002 \\ \hline  
+    TEPX D4R1 2x Coincidences  & 825  & 0.32  & 0.006\\ \hline  
+    TEPX clusters  & 75  & 0.095  & 0.002\\ \hline
+    TEPX 2x Coincidences  & 75  & 0.35 &0.007 \\ \hline
+    \hline
+    \end{tabular}
+\end{center}
 
 
-
-
-Physics (PU 200)  $\:\:$ Trigger frequency (kHz)   $\:\:$   1 bx, 4 LN (1.46 s)   $\:\:$     2500 bx, 1 LS (23 s)  \\
-                                                      $\:\:$           ``Online''          $\:\:$           ``Offline''      \\
-TEPX D4R1 2x Coincidences in $\phi$  $\:\:$   800                $\:\:$   0.386           $\:\:$            0.00193         \\
-TEPX 2x Coincidences in $\phi$       $\:\:$   75           $\:\:$         0.284           $\:\:$            0.00142         \\
 
