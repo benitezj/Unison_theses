@@ -5,8 +5,8 @@
 
 The CMS experiment is one of the largest international scientific collaborations in history, involving 4300 particle physicists, engineers, technicians, students and support staff from 179 universities and institutes in 41 countries. \\
 
-\subsection{CMS detector}
-(describe the detector components and what they do) \\
+\subsection{The CMS detector}
+
 
 The CMS detector is build around a large superconducting solenoid magnet and has a cylindrical shape with many concentric layers where various components of this detector are placed. It is placed at one of the collision points around the LHC ring and consists of Silicon tracker, Electromagnetic calorimeter, Hadron calorimeter and Muon chambers as shown in the left part of Fig. 9. \\
 
@@ -27,7 +27,7 @@ The Muon chambers are used to detect muons that are charged particles just like 
 
 
 
-\subsection{The Pixel detector}
+\subsection{The CMS Phase I Pixel detector}
 
 The pixel detector is the innermost of CMS tracker that contains 60 million pixels and these pixels assist in tracking the paths of particles emerging from the collision point. It is the nearest detector to the beam pipe and so will be vital in reconstructing the tracks of very short-lived particles. As it is very close to the collision point which means that the number of particles passing through is huge, the rate of particles received at 8cm from the beam line will be around 10 million particles per square centimetre per second. This feature is used to calculate the instantaneous luminosity $(L_{inst})$ by counting the number of pixel clusters which are collection of pixels hit by a track.  \\
 
@@ -43,8 +43,8 @@ Each layer of the pixel detector is spilt into tiny square segments with each se
   \label{fig:LHC}
 \end{figure}
 
-\subsection{Cluster reconstruction}
-Specific techniques are employed for the reconstruction of clusters in the pixel detector and all the reconstructed clusters are used for counting to calculate the instantaneous luminosity. Algorithm used for finding clusters check for pixels whose signal to noise ratio is more than 6 and then merge adjacent pixel. These algorithms estimates cluster position in two directions and cluster charge. A cluster is a set of adjacent pixels and only pixels above certain minimum value of charge are considered. Position of a cluster in X and Y directions are obtained by fitting X and Y projections to templates that are estimates for cluster shapes \cite{Chatrchyan:2014fea}. \\
+\subsection{Cluster reconstruction in pixel detector}
+Specific techniques are employed for the reconstruction of clusters in the pixel detector and all the reconstructed clusters are used for counting to calculate the instantaneous luminosity. Algorithm used for finding clusters check for pixels whose signal to noise ratio is more than 6 and then merge adjacent pixel. These algorithms estimates cluster position in two directions and cluster charge. A cluster is a set of adjacent pixels hit by a track originating from interaction point and only pixels above certain minimum value of charge are considered. Position of a cluster in X and Y directions are obtained by fitting X and Y projections to templates that are estimates for cluster shapes \cite{Chatrchyan:2014fea}. \\
 
 
 \begin{figure}[H]
