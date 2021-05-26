@@ -1,4 +1,6 @@
-\documentclass[final,11p]{CSP}
+\documentclass[final,12p]{CSP}
+\usepackage{graphicx}
+\usepackage[letterpaper,margin=1.0in]{geometry}
 \usepackage{amssymb}
 \usepackage{changepage}
 \usepackage{float}
@@ -10,6 +12,9 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
+\usepackage[utf8]{inputenc}
+\usepackage{lastpage}
+
 
 \def\Student{Ashish Sehrawat}
 \def\Director{Dr. Jos\'{e} Feliciano Ben\'{i}tez Rubio}
@@ -88,7 +93,7 @@
 
 %%%% Title and Abstract Page
 \newpage
-\hspace{11pt}
+\hspace{2pt}
 %\vfill
 
 \begin{adjustwidth}{1cm}{1cm}
@@ -107,11 +112,10 @@
     \end{center}  
 
  
-  \onehalfspacing The Pixel Cluster Counting (PCC) luminosity measurement method is an offline technique for the calculation of luminosity for any LHC run period based on counting the number of pixel clusters in the CMS pixel detector (innermost part of the CMS tracker) using minimum bias events. We investigate stability of PCC luminosity using 2018 CMS data for various subdetectors in the upgraded Phase I pixel detector. For Run 2 data, we aim to achieve a 1\% uncertainty on the final luminosity measurement. Also, we develop the algorithms and optimization for the Phase II High Luminosity LHC (HL-LHC) luminosity measurement using the Tracker Endcap Pixel Detector (TEPX) for which excellent statistical and linearity performance is expected.
-
-
+  \onehalfspacing The Pixel Cluster Counting (PCC) luminosity measurement method is an offline technique for the calculation of luminosity for any LHC run period based on counting the number of pixel clusters in the CMS pixel detector (innermost part of the CMS tracker) using minimum bias events. We investigate stability of PCC luminosity using 2018 CMS data for various subdetectors in the upgraded Phase I pixel detector. For Run 2 data, we aim to achieve 1\% uncertainty on the final luminosity measurement. Also, we develop the algorithms and optimization for the Phase II High Luminosity LHC (HL-LHC) luminosity measurement using the Tracker Endcap Pixel Detector (TEPX) for which excellent statistical and linearity performance is expected.
     
 \end{adjustwidth}
+
 
 \hspace{2pt}
 %\vfill
@@ -121,14 +125,21 @@
 \clearpage
 \shipout\null
 
-
 %%%%%% Begin the body
 \newpage
-%\onehalfspacing
+\onehalfspacing
+
+\newpage
+
+\listoffigures
+
+\newpage
+
 \tableofcontents
 
 \clearpage
 \newpage
+
 \input{intro}
 
 \input{LHC}
