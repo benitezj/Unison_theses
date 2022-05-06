@@ -1,0 +1,99 @@
+\begin{thebibliography}{10}
+
+\bibitem{Chatrchyan:2012xdj}
+S.~Chatrchyan et~al.
+\newblock {Observation of a New Boson at a Mass of 125 GeV with the CMS
+  Experiment at the LHC}.
+\newblock {\em Phys. Lett.}, B716:30--61, 2012.
+\newblock \url{http://inspirehep.net/record/1124338?ln=es}.
+
+\bibitem{Sirunyan:2021qkt-corr}
+CMS Collaboration.
+\newblock {Precision luminosity measurement in proton-proton collisions at
+  $\sqrt{s} =$ 13 TeV in 2015 and 2016 at CMS}.
+\newblock {\em CMS-LUM-17-003}, 2021.
+\newblock \url{https://arxiv.org/abs/2104.01927}.
+
+\bibitem{CMS:2018elu-corr}
+CMS Collaboration.
+\newblock {CMS luminosity measurement for the 2017 data-taking period at
+  $\sqrt{s} = 13~\mathrm{TeV}$}.
+\newblock {\em CMS-PAS-LUM-17-004}, 2018.
+\newblock \url{http://cds.cern.ch/record/2621960}.
+
+\bibitem{Dainese:3}
+Andrea Dainese, Michelangelo Mangano, Andreas~B Meyer, Aleandro Nisati, Gavin
+  Salam, and Mika~Anton Vesterinen.
+\newblock {Report on the Physics at the HL-LHC, and Perspectives for the
+  HE-LHC}.
+\newblock {\em Techical report: CERN-2019-007}, 2019.
+\newblock \url{https://doi.org/10.23731/CYRM-2019-007}.
+
+\bibitem{Zinser2018}
+Markus Zinser.
+\newblock {\em Search for New Heavy Charged Bosons and Measurement of High-Mass
+  Drell-Yan Production in Proton{\textemdash}Proton Collisions}.
+\newblock Springer International Publishing, 2018.
+\newblock \url{https://doi.org/10.1007/978-3-030-00650-1}.
+
+\bibitem{BejarAlonso:2749422}
+I~Béjar~Alonso, O~Brüning, P~Fessia, L~Rossi, L~Tavian, and M~Zerlauth.
+\newblock {High-Luminosity Large Hadron Collider (HL-LHC): Technical design
+  report}.
+\newblock {\em CERN Yellow Reports: Monographs.CERN-2020-010}, 2020.
+\newblock \url{http://cds.cern.ch/record/2749422}.
+
+\bibitem{Grojean:2017hsb-corr}
+C.~Grojean.
+\newblock {Higgs Physics}.
+\newblock {\em CERN Yellow Report: CERN 2016-005, pp. 143-158}, 2016.
+\newblock \url{https://doi.org/10.5170/CERN-2016-005.143}.
+
+\bibitem{Khachatryan:2015ota}
+Vardan Khachatryan et~al.
+\newblock {Search for the associated production of a Higgs boson with a single
+  top quark in proton-proton collisions at $ \sqrt{s}=8 $ TeV}.
+\newblock {\em JHEP}, 06:177, 2016.
+\newblock \url{https://doi.org/10.1007/JHEP06(2016)177}.
+
+\bibitem{Cepeda:2019klc-corr}
+Cepeda et~al.
+\newblock {Report from Working Group 2: Higgs Physics at the HL-LHC and
+  HE-LHC}.
+\newblock {\em CERN Yellow Reports: Monographs, CERN-2019-007,pp. 221-584},
+  2019.
+\newblock \url{https://doi.org/10.23731/CYRM-2019-007.221}.
+
+\bibitem{LUM12001}
+CMS Collaboration.
+\newblock {CMS Luminosity Based on Pixel Cluster Counting - Summer 2012
+  Update}.
+\newblock CMS PAS LUM-12-001, 2012.
+\newblock \url{http://cds.cern.ch/record/1482193/}.
+
+\bibitem{Chatrchyan:2008aa}
+S.~Chatrchyan et~al.
+\newblock {The CMS Experiment at the CERN LHC}.
+\newblock {\em JINST}, 3:S08004, 2008.
+\newblock \url{https://doi.org/10.1088/1748-0221/3/08/s08004}.
+
+\bibitem{pas:2018vdm}
+CMS Collaboration.
+\newblock {CMS luminosity measurement for the 2018 data-taking period at
+  $\sqrt{s} = 13~\mathrm{TeV}$}.
+\newblock {\em CMS-PAS-LUM-18-002}, 2019.
+\newblock \url{https://cds.cern.ch/record/2676164}.
+
+\bibitem{TrackerGroupoftheCMS:2020bgg}
+W.~Adam et~al.
+\newblock {The CMS Phase-1 Pixel Detector Upgrade}.
+\newblock {\em JINST}, 16(02):P02027, 2021.
+\newblock \url{https://arxiv.org/abs/2012.14304}.
+
+\bibitem{deMaria:2008zzb}
+Riccardo de~Maria.
+\newblock {\em {LHC interaction region upgrade}}.
+\newblock PhD thesis, Ecole Polytechnique, Lausanne, 2008.
+\newblock \url{http://cds.cern.ch/record/1127611?ln=en}.
+
+\end{thebibliography}
