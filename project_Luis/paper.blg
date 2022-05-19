@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2021)
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: paper.aux
 The style file: unsrt.bst
@@ -11,10 +11,9 @@ Repeated entry---line 1221 of file paper.bib
  : @article{Khachatryan:2015ota
  :                             ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 1480 of file paper.bib
- : 
- : 
-(Error may have been on previous line)
+Illegal end of database file---line 1483 of file paper.bib
+ : % Comentario de prueba...
+ :                          
 I'm skipping whatever remains of this entry
 Warning--empty journal in LUM12001
 You've used 14 entries,
