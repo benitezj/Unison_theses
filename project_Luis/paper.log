@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.5.18)  18 MAY 2022 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.5.18)  19 MAY 2022 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -380,9 +380,17 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): dest
-ination with the same identifier (name{page.1}) has been already used, duplicat
-e ignored
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) h
+as been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.95 \shipout\null
@@ -409,13 +417,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2]
-<./LHC-cpx-book.png, id=77, 884.30376pt x 590.205pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.148 
+       [2]
+<./LHC-cpx-book.png, id=81, 884.30376pt x 590.205pt>
 File: ./LHC-cpx-book.png Graphic file (type png)
 <use ./LHC-cpx-book.png>
 Package pdftex.def Info: ./LHC-cpx-book.png  used on input line 157.
 (pdftex.def)             Requested size: 328.82707pt x 219.47113pt.
-<./lumint.png, id=80, 730.73pt x 410.53375pt>
+<./lumint.png, id=84, 730.73pt x 410.53375pt>
 File: ./lumint.png Graphic file (type png)
 <use ./lumint.png>
 Package pdftex.def Info: ./lumint.png  used on input line 165.
@@ -430,12 +443,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3 <./LHC-cpx-book.png (PNG copy)>]
-<./pg.png, id=94, 807.7678pt x 367.3725pt>
+<./pg.png, id=98, 807.7678pt x 367.3725pt>
 File: ./pg.png Graphic file (type png)
 <use ./pg.png>
 Package pdftex.def Info: ./pg.png  used on input line 173.
 (pdftex.def)             Requested size: 328.82707pt x 149.55301pt.
-<./higgs_couplings.png, id=95, 347.2975pt x 418.56375pt>
+<./higgs_couplings.png, id=99, 347.2975pt x 418.56375pt>
 File: ./higgs_couplings.png Graphic file (type png)
 <use ./higgs_couplings.png>
 Package pdftex.def Info: ./higgs_couplings.png  used on input line 174.
@@ -459,17 +472,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-<./cms_layers.png, id=129, 734.745pt x 511.9125pt>
+<./cms_layers.png, id=133, 734.745pt x 511.9125pt>
 File: ./cms_layers.png Graphic file (type png)
 <use ./cms_layers.png>
 Package pdftex.def Info: ./cms_layers.png  used on input line 234.
 (pdftex.def)             Requested size: 328.82707pt x 229.1009pt.
-<./PixelDetectorPhase1.png, id=132, 610.28pt x 184.69pt>
+<./PixelDetectorPhase1.png, id=136, 610.28pt x 184.69pt>
 File: ./PixelDetectorPhase1.png Graphic file (type png)
 <use ./PixelDetectorPhase1.png>
 Package pdftex.def Info: ./PixelDetectorPhase1.png  used on input line 241.
 (pdftex.def)             Requested size: 328.82707pt x 99.51692pt.
-<./PixelSensor.png, id=133, 494.84875pt x 373.395pt>
+<./PixelSensor.png, id=137, 494.84875pt x 373.395pt>
 File: ./PixelSensor.png Graphic file (type png)
 <use ./PixelSensor.png>
 Package pdftex.def Info: ./PixelSensor.png  used on input line 242.
@@ -484,12 +497,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6 <./cms_layers.png>]
-<./bunchcrossing.jpg, id=145, 433.62pt x 244.66406pt>
+<./bunchcrossing.jpg, id=149, 433.62pt x 244.66406pt>
 File: ./bunchcrossing.jpg Graphic file (type jpg)
 <use ./bunchcrossing.jpg>
 Package pdftex.def Info: ./bunchcrossing.jpg  used on input line 255.
 (pdftex.def)             Requested size: 234.8775pt x 132.52727pt.
-<./vectorhit1.jpg, id=146, 365.86688pt x 366.61969pt>
+<./vectorhit1.jpg, id=150, 365.86688pt x 366.61969pt>
 File: ./vectorhit1.jpg Graphic file (type jpg)
 <use ./vectorhit1.jpg>
 Package pdftex.def Info: ./vectorhit1.jpg  used on input line 256.
@@ -527,14 +540,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: 2589BD123D2D3CAAC71FE6DD0AD19C3A;393.
  ) 
 Here is how much of TeX's memory you used:
- 7036 strings out of 481252
- 105643 string characters out of 5915888
- 420428 words of memory out of 5000000
- 23790 multiletter control sequences out of 15000+600000
+ 7031 strings out of 481252
+ 105574 string characters out of 5915888
+ 419412 words of memory out of 5000000
+ 23786 multiletter control sequences out of 15000+600000
  412808 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  71i,10n,74p,629b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -556,10 +572,10 @@ y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on paper.pdf (11 pages, 890917 bytes).
+Output written on paper.pdf (12 pages, 890892 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
- 40 named destinations out of 1000 (max. 500000)
+ 256 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
