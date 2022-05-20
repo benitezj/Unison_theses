@@ -27,7 +27,6 @@ then
 	rm -rf $thesis.spl
 	rm -rf *#* 
 	echo "Cleaning complete!"
-	exit
 else
 	echo "Compiling ...!"
 	pdflatex -interaction=nonstopmode $thesis.tex
@@ -39,5 +38,4 @@ else
 	makeindex $thesis.nlo -s nomencl.ist -o $thesis.nls
 	pdflatex -interaction=nonstopmode $thesis.tex
 	echo "Success!"
-	exit
 fi
