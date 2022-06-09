@@ -23,12 +23,12 @@
 \def\Dept{DIFUS}
 \def\Institution{Universidad de Sonora}
 \def\Director{Dr. Jos\'{e} Feliciano Ben\'{i}tez Rubio}
-\def\ProjectTitle{Studies of the CMS Pixel Cluster Counting luminometer using Run 3 data}
-\def\ProjectTitleESP{Estudios del luminometro Pixel Cluster Counting del CMS usando datos de la corrida 3}
+\def\ProjectTitle{Development and calibration of the luminosity measurement system CMS Silicon Pixel Detector}
+\def\ProjectTitleESP{Desarrollo y calibración del sistema de medición de luminosidad CMS Silicon Pixel Detector}
 \def\ResearchLine{Fisica Matematica}
 
 %%header and footer
-\lhead{\Student\ / \ \Dept}
+\lhead{\Student\ }
 \rhead{\TitleESP}
 \rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
 
@@ -79,7 +79,7 @@
 
   \vspace{1cm}
   {\bf \Prog \par}
-  {\Dept \par}
+  %{\Dept \par}
   {\Institution \par}
 
   \vspace{2cm}
@@ -97,12 +97,13 @@
 
 %%%% Abstract Page
 \newpage
-\hspace{2pt}
-\vfill
+
+%\hspace{2pt}
+%\vfill
 
   \begin{center}
-    {\Large \ProjectTitle \par}
-    \vspace{1cm}
+%    {\Large \ProjectTitle \par}
+%    \vspace{1cm}
     {\itshape\textbf{Abstract}\par}
   \end{center}
   
@@ -198,7 +199,7 @@ In particular, we plan to perform studies of detector components and the calibra
 
 To perform an analysis and calibration of the LHC luminosity data recorded by the CMS experiment during the new phase starting in 2022 (Run 3) using the Pixel Cluster Counting (PCC) method.
 %To develop the upgraded luminosity measurement system for Run 3 and the HL-LHC phases.
-This will allows us precise tests of the Standard Model and searches for new physics like dark matter and supersymmetry theories.
+The calibration of this luminometer allows for precise measurement of the LHC luminosity and subsequent tests of the Standard Model and searches for new physics like dark matter and supersymmetry theories.
 
 
 \section{HYPOTHESIS}
@@ -264,11 +265,13 @@ This calibration constant is then used to normalize the measured PCC rates durin
 
 \begin{itemize}
   
-\item Understand the CMS silicon pixel detector including the barrel and endcap sensors.
-  
-\item Study the stability and linearity of the sensors in the different layers or disks of the pixel detector and select the stable components.
-  
-\item Determine new methods for measurement of the stability and linearity of the system.
+\item Understand the CMS silicon pixel detector and the PCC method for luminosity measurement using this detector.
+
+\item Process the PCC data from Run 2 (2018) for understanding the tools.
+
+\item Process the PCC data from Run 3 (2022) to obtain the calibration constant.
+
+\item Study the vdM Calibration method, including the fit models and systematic uncertainties.
   
 \end{itemize}
 
@@ -277,28 +280,30 @@ This calibration constant is then used to normalize the measured PCC rates durin
 \section{EXPECTED RESULTS}
 
 \begin{itemize}
-\item 
-
+\item Determination of PCC luminometer calibration constant for the 2022 data to be collected in September 2022.
+\item Estimation of the background noise for PCC during vdM calibration program.
+\item Estimation of statistical and systematic uncertainties.
 \end{itemize}
 
 \section{CALENDAR OF ACTIVITIES}
 
 \begin{itemize}
 
-\item {\bf Summer 2021}:
+\item {\bf Summer 2022}:
   \SubItem{ Readings on Standard Model of particle physics,  the LHC and CMS experiments}
   \SubItem{ Linux/Computing skills (\textsc{Bash, Emacs, c/c++, python, ROOT})}
-  \SubItem{ Computing accounts at CERN and Fermilab}
-  \SubItem{ Initial planning of the analysis strategy}
+  \SubItem{ Computing account and usage of the computing center CERN-lxplus}
+  \SubItem{ Understanding luminosity and the methodology for the measurement}
 
-\item {\bf Semester 2021-2}:
-  \SubItem{ Course I: on particle physics, particle detection, or data analysis}
+\item {\bf Semester 2022-2}:
+  \SubItem{ Elective course I on particle physics, particle detection, or data analysis}
   \SubItem{ Analysis/Computing skills (\textsc{Bash, Emacs, c/c++, python, ROOT})}
-  \SubItem{ Analysis of the LHC Run 3 luminosity data using the PCC method}
+  \SubItem{ Practice analysis using Run 2 luminosity data}
+  \SubItem{ Initial processing and analysis of Run 3 vdM data}
 
-\item {\bf Semester 2022-1}:
-  \SubItem{ Course II on particle physics, particle detection, or  data analysis}
-  \SubItem{ Completion of the analysis of the LHC Run 3 luminosity data using the PCC method}
+\item {\bf Semester 2023-1}:
+  \SubItem{ Elective course II on particle physics, particle detection, or  data analysis}
+  \SubItem{ Completion of the analysis of the LHC Run 3 vdM data and determination of the calibration constant}
   \SubItem{ Presentation of results at national or international conference}
   \SubItem{ Thesis writing}
 
