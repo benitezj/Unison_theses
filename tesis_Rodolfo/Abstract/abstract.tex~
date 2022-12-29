@@ -1,6 +1,0 @@
-\begin{abstract}
-\begin{center}
-    {\huge Abstract}
-\end{center}
-    The design and expected performance of the Tracker End-cap Pixel (TEPX) and other subdetectors as luminometers for the CMS experiment at the upcoming High-Luminosity LHC (HL-LHC) is described. The TEPX detector is composed of 4 double sided disks covering a range on $|z|$ from 175 to 265 cm, each one made of 5 rings composed of silicon sensors with a high number of pixels. Disk 4 Ring 1 (TEPXD4R1) will be designated for luminosity measurements only, utilising the same method as the TEPX luminometer, the pixel cluster counting (PCC) method. For the HL-LHC, the goal is to achieve a final uncertainty of $1\%$ for the luminosity measurements. The expected performance and linearity of the TEPX, TEPXD4R1 and other luminometers in terms of statistical precision, for van der Meer (vdM) scan calibration  and for physics conditions, are presented. The bandwidth needed for the transfer of the luminosity data and disk needed for storage are estimated.
-\end{abstract}

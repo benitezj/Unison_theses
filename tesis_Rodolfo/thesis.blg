@@ -1,0 +1,75 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: Portada/Portada.aux
+A level-1 auxiliary file: Dedication/dedication.aux
+A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
+A level-1 auxiliary file: Abstract/abstract.aux
+A level-1 auxiliary file: Abstract/resumen.aux
+A level-1 auxiliary file: Chapter1/chapter1.aux
+A level-1 auxiliary file: Chapter2/chapter2.aux
+A level-1 auxiliary file: Chapter3/chapter3.aux
+A level-1 auxiliary file: Chapter4/chapter4.aux
+A level-1 auxiliary file: Chapter5/chapter5.aux
+The style file: unsrtnat.bst
+Database file #1: References.bib
+I was expecting a `,' or a `}'---line 69 of file References.bib
+ : 
+ : @article{Atlas_Exp_2008,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 591 of file References.bib
+ : @misc{wikicern
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "lumi_motiv" isn't style-file defined
+--line 867 of file References.bib
+Warning--empty publisher in ref_lib_vol3
+Warning--empty year in lumi_motiv
+Warning--empty author in pas_17
+Warning--empty author in pas_18
+Warning--empty author in pas-13
+Warning--empty author in PCC_PAS_12_001
+Warning--empty author in pas-15
+You've used 29 entries,
+            2481 wiz_defined-function locations,
+            749 strings with 9442 characters,
+and the built_in function-call counts, 9810 in all, are:
+= -- 969
+> -- 201
+< -- 25
++ -- 118
+- -- 56
+* -- 712
+:= -- 1472
+add.period$ -- 111
+call.type$ -- 29
+change.case$ -- 59
+chr.to.int$ -- 25
+cite$ -- 42
+duplicate$ -- 533
+empty$ -- 1013
+format.name$ -- 89
+if$ -- 2140
+int.to.chr$ -- 5
+int.to.str$ -- 30
+missing$ -- 26
+newline$ -- 175
+num.names$ -- 69
+pop$ -- 208
+preamble$ -- 1
+purify$ -- 29
+quote$ -- 0
+skip$ -- 312
+stack$ -- 0
+substring$ -- 568
+swap$ -- 89
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 188
+warning$ -- 7
+while$ -- 75
+width$ -- 0
+write$ -- 432
+(There were 2 error messages)

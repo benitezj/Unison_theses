@@ -1,122 +1,249 @@
 \chapter{Introduction}
-The Standard Model (SM) in particle physics is the theory that describes the interactions between three fundamental forces, out of the four known  (gravitational, electromagnetic, strong and weak), and the known fundamental particles. The gravitational force is not included in the SM, since the magnitude of its strength is neglectable in comparison with the other three forces.
+\label{ch1}
 
-The  theory was developed throughout the second half of the  20th century by the hard work of physicists around the world, with the current formulation being established in the mid 70s.\\
-In high energy physics, precise measurements are the core of any experiment. A key quantity is the luminosity, and its precise determination is an important aspect. The search for low incidence processes whose observation is not yet confirmed, such as the $H\rightarrow\gamma + Z$ channel, relies in the accumulation and precise measurements of luminosity.
-\section{The Standard Model}
+%%%%% https://cerncourier.com/a/pushing-the-precision-frontier/
+% https://home.cern/news/news/physics/why-precision-luminosity-measurements-matter
 
+Particle physics studies the fundamental constituents of the Universe, the elementary particles, and the interactions between them, the forces.  To produce and study most of the elementary particles, experiments are carried out in  particle colliders of high energy, where a wide range of technologies are employed to detect and measure the properties of the particles produced, and to measure the collider parameters for its perfomance.\\  This chapter gives a brief background of the elementary particles and particle colliders, as well as relevant concepts-definitions about the measurements studied in this thesis project.
 
- The SM classifies all known fundamental particles into two major groups, fermions, particles with spin $1/2$, and bosons, particles responsible for mediating the fundamental forces and integer spin.
-Fermions are divided into two families of particles, leptons and quarks. There exist 6 leptons in the SM, first there are charged particles,  electrons ($e$), muons ($\mu$) and the taus ($\tau$) with an electric charge of $-1$ and spin of $1/2$. To each of these particles corresponds a chargeless neutrino, $\nu_{e}$,$\nu_{\mu}$ and $\nu_{\tau}$.
+\section{Fundamental Particles}
 
-Leptons can be found in nature existing by themselves, and along with quarks, comprise the majority of matter in the universe. Electrons can be found “circling”  atoms, muons can be found raining from the sky due to cosmic rays interacting with particles on the atmosphere and, while taus are a little bit tricky to find due to their short life time ($2.9\times10^{-13}$ s), they do exist by themselves; however, this cannot be said for quarks, since they are only found forming other particles called  hadrons. Hadrons can be a combination of two quarks called mesons, usually a quark-antiquark combination or a combination of three quarks called baryons, an example of a meson would be a pion ($\pi$). Neutrons and protons are made by a combination of three quarks, so they are classified as baryons.
-Quarks were first theorised by Murray Gell-Mann and George Zweig in 1964 and later discovered by experiments conducted at the Stanford Linear Accelerator Center (SLAC) in 1968 \cite{griff}. A total of 6 quarks were discovered over a period of 26 years, in order of discovery these are: up ($u$) (1968), down ($d$) (1968), strange ($s$) (1968), charm ($c$) (1974), bottom ($b$) (1977), top ($t$) (1995).
-
-Quarks are the only fermions that interact with all three fundamental forces included in the SM, they possess electric charge, color charge (the strong force equivalent of electric charge), weak charge, mass and spin $ 1/2$ as do all fermions. The $u$, $c$ and $t$ quarks have an electric charge of $2 /3$ and the $d$, $s$ and $b$ quark have an electric charge of $-1/3$. Table \ref{SM table} shows which fermions interact with the different forces. 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{table}[H]
-\centering
-\caption[Fundamental forces and the fermions]{Fundamental forces and the fermions they interact with \cite{Thomson:2013zua}.}
-\renewcommand{\arraystretch}{1.5}
-\begin{tabular}{|c|c c c|c|c|c|}
-\hline 
-\multicolumn{2}{|c}{}&  & & Electromagnetic & Strong & Weak\\
-\hline
-\multirow{2}{*}{Quarks}&u&c&t &\multirow{2}{*}{\checkmark}&\multirow{2}{*}{\checkmark}&\multirow{2}{*}{\checkmark}\\
-& d&s&b&&&\\
-\hline
-\multirow{2}{*}{Fermions}& $e$&$\mu$&$\tau$ &\checkmark& &\checkmark\\
-&$\nu_{e}$&$\nu_{\mu}$&$\nu_{\tau}$&&&\checkmark\\
-\hline
-\end{tabular} 
-\label{SM table}
+In our current understanding matter is made up of a group of particles with spin $1/2$, the fermions. The interactions between them, the forces, are described by the exchange of particles, which consist of a group of particles with integer spin: the gauge bosons.
+Three of the four forces: electromagnetic force, weak force and strong nuclear force, are mediated by the gauge bosons: photon, $W^{\pm}$ and $Z^{0}$, and gluons ($g$, eight of them), respectively. The description of the gravitational force in particle physics is yet an unresolved challenge. Apart from these vector bosons, there is a special scalar boson called Higgs boson, associated with the mechanism that give mass to all fundamental particles.\\
+The group of fermions is categorized in two types: leptons and quarks, giving a total of twelve fundamental particles that compose the matter. There are six leptons, three charged: electron ($e$), muon ($\mu$) and tau ($\tau$), and their corresponding  neutrinos: electron-neutrino ($\nu_{e}$), muon-neutrino ($\nu_{\mu}$) and tau-neutrino ($\nu_{\tau}$). The other group of fermions are the quarks, which cannot be found as individual particles, they can only be found coupled forming particles called hadrons. The group of quarks is formed by the up quark ($u$), down quark ($d$), charm quark ($c$), strange quark ($s$), top quark ($t$) and bottom quark ($q$) \cite{griff}. The force experienced by the fermions is shown in table \ref{tab:table1}.  
+\begin{table}[h!]
+  \begin{center}
+    \caption{Force experienced by the fermions}
+    \label{tab:table1}
+    \begin{tabular}{l c c c c}
+    &    &  \textbf{Electromagnetic} & \textbf{Weak} & \textbf{Strong}\\
+      \midrule[1.1pt]
+      \multirow{2}{*}{Leptons} & $e$ \hspace{0.3cm}  $\mu$\hspace{0.3cm} $\tau$ & \checkmark & \checkmark & \\ % <-- Combining 2 rows with arbitrary with (*) and content 12
+      & $ \nu_{e} $ \hspace{0.3cm}  $\nu_{\mu}$ \hspace{0.3cm} $\nu_{\tau}$  &  & \checkmark\\ % <-- Content of first column omitted.
+      \hline
+      \multirow{2}{*}{Quarks} & $u$ \hspace{0.5cm}  $c$\hspace{0.5cm} $t$ & \checkmark & \checkmark& \checkmark\\
+      & $d$ \hspace{0.5cm}  $s$\hspace{0.5cm} $b$ & \checkmark & \checkmark & \checkmark\\
+%      \hline
+%      3&3 & 23.113231 & c\\
+%      4&4 & 25.113231 & d\\
+    \end{tabular}
+  \end{center}
 \end{table}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- For each fermion that exists, there corresponds an antiparticle. Antiparticles have the same properties as their counterparts, with the only distinction being that they possess opposite electric charge. If an antiparticle comes in contact with a particle, let's say a positron (anti-electron) and an electron, they would annihilate each other.
 
-The SM also comprises particles with integer spin  such as the bosons. Bosons are force carrier particles in charge of mediating the interactions between particles, let's take  classical electromagnetism as an example. Classically, the electrostatic force is described by a scalar field and while this is sufficient for classical electromagnetism, it is fundamentally wrong for quantum dynamics. This would mean that two charged particles interact with each other at a distance, without contact of any kind \cite{Thomson:2013zua}.
 
-In  particle physics, each fundamental force is described by a quantum field theory (QFT) and the interaction between two particles are mediated by gauge boson, a spin-1 particle.  For example,  the electromagnetic force is described by Quantum Electrodynamics (QED)  and mediated by the photon, a  particle with no charge or mass. The strong force is described by Quantum Chromodynamics (QCD) and mediated by a gluon, which has no mass or electric charge, gluons are what bind quarks together to form hadron and like quarks, are only found in these bind states. Finally the weak force is mediated by the $Z$ and $W^{\pm}$ bosons, massive particles with 0 an $\pm 1$ electric charge respectively
-\cite{Thomson:2013zua}.\\
-The Higgs boson is the last member of the SM, unlike the gauge bosons, the Higgs has spin-0 and is the only fundamental scalar discovered. Figure \ref{sm1} shows all the particles included in the SM.
+All these particles are described by the Standard Model (SM), so far the best theoretical model that provides a successful description of the experimental data.
+Most of the experimental data comes from particle colliders because most of the particles of the SM can only be produced and studied using collisions of high energy. One example of this, is the last member of the SM: the Higgs boson, observed in the Large Hadron Collider in proton-proton collisions at energy of $7$ and $8$ $TeV$ in the CMS and ATLAS detectors \cite{higgs_CMS,higgs_ATLAS}.
 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Particle Colliders}
+
+Particle physics experiments are designed to detect and identify the particles produced in high-energy collision. The colliding beams produce particle bunch interactions referred to as events. \\
+Only the stable and relatively long-lived particles are the observables of particle physics collider experiments. The techniques employed to detect and identify the different particles depends on the nature of their interactions with matter. There are three main types of interactions (broadly speaking): interactions of charged particles, electromagnetic interactions of electrons and photons, and strong interactions of charged and neutral hadrons. The large particle physics detector systems use a wide range of technologies to detect and measure the properties of the particles produced in these high-energy collisions, with the aim of reconstructing the primary particles produced in the interaction from the signals in the different detector systems \cite{thomson_2013}.\\
+Apart from the technologies of detection, the most importar features for the performance of a particle collider are its center-of-mass (CM) energy and the luminosity. Achieving a high energy is required to collide %the initial
+particles and produce (possibly many) different particles. Some of them with considerably higher masses than the incident particles, for example massive particles such as the $W^{\pm}$, $Z$ and $H$ bosons. The total energy of a incoming particle plus the target particle depends on the reference frame. The frame that is relevant for the production of high mass particles is the CM frame for which the incoming and target particle have equal and opposite momentum of magnitude $p$. Considering the Lorentz invariant quantity $s$ :
+\begin{equation*}
+s= (E_{1} +E_{2} )^{2}- (\mathbf{p}_{1}+ \mathbf{p}_{2})^{2}c^{2}
+\end{equation*}
+
+In the CM frame, where the momenta are equal and opposite, the second term vanishes so that
+
+\begin{equation*}
+s= 4 E^{2}
+\end{equation*}
+
+where $E$ is the energy of each incoming particle and $s$ is the square of the total incoming energy in the CM frame ;this is a quantity that appears often in particle physics and the notation $\sqrt{s}$ is always used to refer the CM energy. Using  colliding beams of particle with equal mass having the same energy and therefore equal but opposite momentum, makes the experiment taking place in the CM frame and the full energy delivered by the accelerator, $\sqrt{s}=2E$, can be used to produce high mass particles \cite{undergraduate_accelerators_chapter}. Colliding beam machines are used in particle physics experiments due the advantage of  achieving much higher centre-of-mass energies in contrast with a fixed target experiment.\\
+The other important parameter of a colllider, the luminosity $\mathcal{L}$, is the quantity that defines ability to produce large numbers of events \cite{ref_lib_vol3}. It quantifies the potential of the collider for delivering a statistically significant sample of a given class of events. A high luminosity is of utmost importance in the search for rare events and new phenomena \cite{lumi_paper_def_and_concept}. This quantity relates the event rates (number of events in time) and the cross section ($\sigma_{p}$) of a particular event; the cross section is a measure of quantum mechanical probability for the interaction. 
+
+
+
+\section{Cross section}
+In order to illustrate the concept of cross section, we shall consider a simple case where a beam of particles of type $a$, with flux $\phi_{a}$, is crossing a region of space in which there are $n_{b}$ particles per unit volume of type $b$. The interaction rate per target particle $r_{b}$ will be proportional to the incident particle flux, and can be written as \cite{thomson_2013}:
+
+\begin{equation*}
+  r_{b}=\sigma \phi_{a}
+\end{equation*}
+
+The fundamental physics is contained in $\sigma$, which has dimensions of area, and is termed as interaction cross section. There are cases where the cross section is closely related to the physical cross sectional area of the target, for example, neutron absorption by a nucleus. However, in general, the cross section is simply an expression of the underlying quantum mechanical probability that an interaction will occur \cite{thomson_2013}.\\
+Fig. \ref{cs_draw_1} (left) illustrates the definition of cross section, where a single incident particle of type $a$ is travelling with a velocity $v_{a}$ in a region defined by the area $A$, containing $n_{b}$ particles of type$ b$ per unit volume moving with a velocity $v_{b}$ in the opposite direction to $v_{a}$.
+
+\begin{center}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[scale=.25]{Chapter1/cs_draw_1.png} \includegraphics[scale=.25]{Chapter1/cs_draw_2.png}
+    \caption[Cross section illustration]{Left: single incident particle of type $a$ traversing a region containing particles of type $b$. Right: projected view of the region traversed by the incident particle in time $\delta t$ \cite{thomson_2013}.}
+    \label{cs_draw_1}
+  \end{figure}
+\end{center}
+
+For a time $\delta t$, the particle a crosses a region containing $\delta N= nb(v_{a}+v_{b}) A \delta t$ of type $b$. The interaction probability can be obtained from the effective total cross sectional area of the $\delta N$ particles divided by the area $A$, which can be interpreted of as the probability that the incident particle passes through one of the regions of area $\sigma$ drawn around each of the $\delta N$ target particles, as shown in Fig. \ref{cs_draw_1} (right) \cite{thomson_2013}. The interaction probability $\delta P$ is therefore
+
+\begin{equation}
+\delta P= \frac{\delta N \sigma}{A}= n_{b}v\sigma \delta t
+\end{equation}
+
+where $v=v_{a}+v_{b}$. The interaction rate for each particle of type $a$ is
+
+\begin{equation}
+r_{a}= \frac{dP}{dt}= n_{b} v\sigma
+\end{equation}
+
+For a beam of particles of type $a$ with number density $n_{a}$ confined to a volume $V$, the total interaction rate is
+
+\begin{equation*}
+\text{rate}=r_{a}n_{a}V=(n_{b}v\sigma) n_{a}V= (n_{a}v)(n_{b}V)\sigma
+\end{equation*}
+
+\begin{equation*}
+\text{rate}=\phi N_{b} \sigma
+\end{equation*}
+
+so that the total rate is equal to
+
+\begin{equation}
+\text{rate}= \text{flux} \times \text{number of target particles} \times \text{cross section}
+\end{equation}
+
+Thus, the cross section for a process is defined as
+
+\begin{equation}
+\sigma=\frac{\text{number of interaction per unit time per target particle}}{\text{incident flux}}
+\end{equation}
+
+where the flux $\phi$ accounts for the relative motion of particles.
+%One approach, the simplest one is: 
+One approach to calculate the cross section for a particular process can be using the relativistic formulation of Fermi’s golden rule and the appropriate Lorentz-invariant expression for the particle flux.
+
+The cross section for the production of a general final state $O$ at the LHC is given by \cite{lumi_motiv}:
+\begin{equation}
+  \sigma (pp\rightarrow O +X)= \int dx_{1} dx_{2} \sum_{i,j} f_{i} (x_{1},Q) f_{j}(x_{2},Q) \hat{\sigma}(ij \rightarrow O)(M_{O},g_{ijO}, \cdots)
+ \label{cs_theo}
+\end{equation}
+where $f_{i}(x,Q)$ is the density fo partons\footnote{Before quarks and gluons were generally accepted, Feynman proposed that the proton was made up of point-like constituents, termed partons \cite{thomson_2013}.} (PDF) of type $i$ (quarks of different flavours or gluons) inside the proton, carrying a fraction $x$ of the proton momentum at a resolution scale $Q$. Theory predicts the PDFs to be independent of $O$. $\hat{\sigma}(ij \rightarrow O)$ is the partonic cross section to produce the final state $O$ in the collisions of partons $i$ and $j$. It depends on properties of the final state (for example the mass of $O$, $M_{O}$, the momentum of the various particles involved, etc.), and on the the nature of the interactions involved in the process (for example the strength, $g_{ijO}$, of the coupling between $i$, $j$ and $O$). Parameters like $M_{O}$ and $g_{ijO}$ are therefore what defines the underlying theory, and extracting their value as accurately as possible is the ultimate goal of an experimental measurement \cite{lumi_motiv}.
+The precision of the extraction of these parameters is determined by \cite{lumi_motiv}:
+i) The precision of the calculation of $\hat{\sigma}(ij \rightarrow O)$ as a function of $M_{O}$, $g_{ijO}$, etc.; this is a theoretical aspect. Inclusion of higher and higher orders of perturbation theory makes the prediction more accurate.
+ii) The precision of the knowledge of the PDFs; a theoretical and experimental aspect. For example, experimental data from measurements such as deep inelastic scattering (DIS) are necessary to extract the PDFs, by fitting these data to the DIS equivalent of an equation like \ref{cs_theo}. Likewise, is expected to use the LHC data themselves to improve the knowledge of the PDFs, by including the functions $f_{i}$ to the list of parameters in eq. \ref{cs_theo} that are allowed to float in order to fit the data.
+
+
+\section{Luminosity }
+
+Luminosity, $\mathcal{L}$ , is defined as the proportionality factor between the number of events per second $R$ (event rates) and the cross section $\sigma_p$ for a given process $p$ \cite{ref_lib_vol3}:
+
+\begin{equation}
+R=\mathcal{L}_{inst} \cdot \sigma_{p}
+\end{equation}
+
+Cross section has units $cm^{2}$, therefore the unit of luminosity is $cm^{-2}s^{-1}$.\\
+To derive a general expression of luminosity, we will consider the case of colliding beams at head-on.
+%a relevant case for LHC context[relibvol3]. foot page?
+At head on collision, the instantaneous luminosity for $N_{b}$ colliding bunches is given by:
+
+\begin{equation}
+  \mathcal{L}_{inst}= N_{b} N_{1}N_{2}f \int_{-\infty}^{\infty} dx\int_{-\infty}^{\infty} dy \rho_{1}(x,y)\rho_{2}(x,y)
+    \label{lumi_1}
+\end{equation}
+
+where $N_{1,2}$ are the particles per bunch, $f$ the revolution frequency and $\rho_{1,2}$ are the distribution functions of the two beams in the transverse plane. Assuming that $\rho$ can be factorized into independent terms in $x$ and $y$, i.e. uncorrelated bunch densities in all planes:
+
+\begin{eqnarray}
+  \rho_{i}(x,y)= \rho_{i}(x)\rho_{i}(y) & &i=1,2
+\end{eqnarray}
+
+So that eq. \ref{lumi_1}
+
+\begin{equation}
+  \mathcal{L}_{inst}= N_{b} N_{1}N_{2}f \int_{-\infty}^{\infty}\rho_{1}(x)\rho_{2}(x)  dx\int_{-\infty}^{\infty}\rho_{1}(y)\rho_{2}(y) dy
+    \label{lumi_2}
+\end{equation}
+
+If the bunch densities have Gaussian profile in both directions, i.e 
+
+\begin{eqnarray}
+\rho(u)= \frac{1}{\sqrt{2\pi} \sigma_{u}} exp \biggl(-\frac{u^{2}}{2\sigma_{u}^{2}} \biggr)&  &  u=x,y
+\end{eqnarray}
+
+The integration yields
+\begin{equation}
+  \mathcal{L}_{inst}= \frac{N_{1} N_{2} N_{b}f }{4\pi \sigma_{x} \sigma_{y}}
+  \label{lumi_theor}
+\end{equation}
+
+In practice, the properties of the colliding beams are not know precisely, such as the bunch density profile, so that the integral in  \ref{lumi_2} cannot be solved analytically. In LHC a experimental technique is implemented with a dedicated machine setup to estimate the integrals, yielding a similar expression as \ref{lumi_theor}. This is discussed in chapter \ref{ch3}.\\
+%%%%%%%%%%%%%%%%%%%%%%NEW%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Luminosity  is a general concept that can be interpreted from geometry and flux of particles per unit of time. Considering two bunches of particles $N_{1,2}$ in a circular collider, colliding in an interaction region as shown in Figure 2.1. , the luminosity is expressed as [Simón-these]:
+%\begin{equation}
+%\mathcal{L}= \frac{N_{1}N_{2}f}{A_{eff}}
+%\end{equation}
+%where $A_{eff}$ is the effective transverse area in which the collisions take place and $f$ is the revolution frequency. The only unknown parameter that needs to be measured is the effective transverse area. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The instantaneous luminosity measure is of great importance beacuse it reflects the performance of the collider, but  this is not the only measurement concerned with luminosity. Another important measurement of luminosity is the integrated luminosity \cite{ref_lib_vol3}:
+
+\begin{equation}
+  \mathcal{L}_{int}=\int_{0}^{T} \mathcal {L}_{\text{inst}}(t) dt
+\end{equation}
+
+The integral is taken over a period of time $T$ (excluding possible dead time). The integrated luminosity has units of $cm^{-2}$ and is often expressed in inverse barn ($1 barn= 10^{-24}cm^{2}$). The importance of the integrated luminosity  is because it directly relates to the number of observed events: $ \mathcal{L}_{int}\cdot \sigma_{p}$. \\Another important parameter for a beam with high luminosity and bunched beams are the number of particle collisions per bunch crossing, called pileup ($\mu$). Pileup and luminosity are related by  $f \mu= \mathcal{L}_{\text{inst}} \sigma_{p}$ .\\
+Up to date, the particle collider with the highest luminosity and energy is the Large Hadron Collider (LHC) built by CERN, located in 	Geneva, Switzerland.
+
+
+%\subsection{Luminosity measurement}
+
+%Experimentally, the luminosity is measured with luminometers, which reads out a rate of the specific quantities observed in the detector (hits, tracks, clusters, etc.). This rate, R, should be proportional to the instantaneous luminosity , $\mathcal{L}_{inst}$, with the constant of proportionality given by the visisble cros section $\sigma_{vis}$ [pas-18 ?]:
+
+%\begin{equation}
+%R= \mathcal{L}_{inst} \sigma_{vis}
+%\end{equation}
+
+%The determination of $\sigma_{vis}$ is carried out throuhg vand der Meer (vdM) scans performed with a dedicated LHC machine setup. In the practice, the assumption [simon tese cern thesis] of the gaussian profile can not be known, and the integrals are solved using the van der Meer method, yielding a similar expression for Luminosity as the previous one. So that lumi expresion is substituted in eq prev and sigma vis obtained.
+
+\section{Importance of Luminosity precision}
+
+The precision of the measured cross section, $\sigma_{exp}(O)$, is determined by the quantities on the right hand-side of: $\sigma_{exp}(O) = N_{\text{events}}(O)/\mathcal{L}_{int}$. $N_{\text{events}}$ depends on the accurate knowledge of signal and background acceptances and efficiencies. \\
+The target of the programme of precision measurements is therefore to bring to the same level the accuracy of all elements in the following relation:
+$$\sigma (pp \rightarrow O)= \frac{N_{\text{events}}(O)}{\mathcal{L}_{int}}$$
+The possibility to have a very accurate absolute luminosity determination, and therefore very accurate experimental cross section measurements, allows to develop a physics programme in which this precise information can help improve, at the same time, the theoretical calculations, the PDF knowledge, and ultimately the measurement of the theory parameters such as masses and couplings\cite{lumi_motiv}. 
+The experimental techniques to determine signal rates are mature enough, where the understanding of acceptances, detector biases, reconstruction efficiencies or background subtraction is at the subpercent level, so that the final precision of the physics measurement is dominated by the luminosity uncertainty \cite{lumi_paper_def_and_concept}. \\
+The precision in the measurement of the luminosity directly impacts the precision in the measurement of the cross section, and therefore has a large impact in our understanding of the Standard Model parameters.
+
+
+
+\section{The Large Hadron Collider}
+
+The LHC was designed to collide proton beams with a centre-of-mass energy of 14  TeV and a luminosity of $10^{34}cm^{-2}s^{-1}$. It was also designed to collide heavy ($Pb$) ions with an energy of 2.8 TeV per nucleon and a peak luminosity of $10^{27}cm^{-2}s^{-1}$ \cite{lhcmachine2008}.\\
+The LHC consists of two rings of 27 km of circumference which guide accelerated bunches of protons (or Pb) at high energy to collide. Figure \ref{lhc_com} shows the CERN accelerator complex. The bunches are previously accelerated by a chain of pre-accelerators. First, protons are produced by ionizing hydrogen and then are transferred to the Linear Accelerator 2 (LINAC2) where the protons are accelerated in bunches up to an energy of 50 MeV, and then the bunches pass trough three circular accelerator: the Booster, the Proton Synchrotron (PS) and the Super Proton Synchrotron (SPS), giving an energy of 1.4 GeV, 26GeV and 450 GeV, respecectively. After these three preaccelerators, the bunches are finally circulating in oposite directions in the LHC ring, where are further accelerated to reach energies up to 7 TeV (per bunch). This entire procedure defines a single LHC fill generally consisting of $10^{14}$ protons, grouped into bunches to form the proton beam.\\
+There are four experiments placed around the LHC ring: Compact Muon Solenoid (CMS) \cite{CMS_Exp_2008}, A Toroidal LHC ApparatuS (ATLAS) \cite{Atlas_Exp_2008}, A large Ion Colliding Experiment (ALICE) \cite{ALICE_Exp_2008} and LHCb \cite{LHCb_Exp_2008}. CMS and ATLAS are for general-purpose detectors to investigate the largest range of SM and Beyond SM (BSM) physics. ALICE and LHCb have detectors specialized to study specific phenomena.
 
 \begin{center}
   \begin{figure}[ht]
     \centering
-    \includegraphics[scale=0.3]{Chapter1/sm1.png}
-    \caption[ Standard model of particles]{Particles that compose the standard model and their properties \cite{smtable}.}
-    \label{sm1}
+    \includegraphics[scale=.41]{Chapter1/lhc_complex_fig.png}
+    \caption[LHC Complex]{Diagram of the LCH complex \cite{lhc_complex}.}
+    \label{lhc_com}
   \end{figure}
 \end{center}
 
-\section{The Higgs Boson }
-The Higgs boson is the latest member of the SM, first theorised in 1964 by Peter Higgs, Robert Brout, François Englert, Gerald Guralnik, C. Richard Hagen and Tom Kibble and later discovered by the ATLAS and CMS experiments at the Large Hadron Collider (LHC) in Geneva Switzerland in 2012. The experiment consisted in proton-proton collisions with a center of mass energy of 7 and 8 TeV, the data analysed from the experiment corresponds to five decay channels: $\gamma\gamma$, $ZZ$, $W^{\pm}W^{\pm}$, $\tau^+\tau^-$ and $b\bar{b}$. With the discovery being made in the  $\gamma\gamma$ and $ZZ$ channels
-\cite{higgsd}\cite{Aad_2012}.
-The Higgs plays a vital role in the SM, it is responsible for the mechanism that gives every particle their mass. It has a mass of $125.78\pm 0.26$ GeV \cite{CMS:2019drq}, consistent with SM predictions, it does not possess electric or color charge and it is the only fundamental scalar and spin-0 boson.\\
- The discovery of the Higgs is one of the greatest accomplishments of the SM, it shows the hard work that has gone in to developing the theories that compose it \cite{Thomson:2013zua}.
 
 
-\section{Particle colliders and
-detectors}
-The discovery of the Higgs marked an important milestone in particle physics, however, this feat required the construction of the LHC, the largest and most powerful particle collider in the world. Particle colliders are the devices where particle physics experiments are conducted. As their name suggests, colliders propel bunches of particles like electrons, protons, positrons, etc. using powerful electromagnetic/electrostatic fields, and make them collide with a fixed target or other particles. These collisions produce other particles that are measured by particle detectors in the site of the collision, this is the means by which new particles are discovered.
 
-Particle colliders come in two types: linear  and circular. Linear colliders  use changing electromagnetic fields to accelerate particles along a straight beam path and make them collide with a fixed target, where particle detectors are located, an example of the linear accelerator would be the Stanford Linear Accelerator Center. While circular colliders to accelerate bunches of particles  in opposite directions in a circular beam fashion, making them collide at key points around the accelerator where particle detectors are located.  The LHC is an example of a circular collider.
+\section{LHC Luminosity}
+The LHC has had two Runs and two long shutdowns for maintenance and  upgrades. Run 1 lasted from 2010-2012, while Run 2 lasted from 2015-2018. In Run1, LHC reached a peak instantaneous luminosity of  $0.77 \times 10^{34}$  and an integrated luminosity of $25 fb^{-1}$  for proton-proton collisions at $\sqrt{s}=\text{8 TeV}$ in 2012\cite{LHC_status_2013}. For the first part of Run-2 (2015-2016) in proton-proton colissions at $\sqrt{s}=\text{13TeV}$ in CMS detector, the integrated luminosities when CMS was fully operational are $2.2$7 and $36.3$ $fb^{-1}$ in 2015 and 2016, with a relative precision of 1.6\% and 1.2\%, respectively \cite{lumi_precise_2015_2016}. For the second part of Run 2 (2017-2018), the integrated luminosity is about $49.8 fb^{-1} $ and $67.9 fb^{-1}$ for 2017 and 2018, respectively, as can be seen in Fig. \ref{lumi_per_year_int}. The total systematic uncertainty in the calibration of luminosity measurement is 2.3\% in 2017\cite{pas_17} and 2.5\% in 2018 \cite{pas_18}, but its precision remains to be improved. The main objective of this thesis project is to contribute to the improvement of the precision of 2018 luminosity calibration.
 
-The majority of modern experiments in particle physics are conducted in circular colliders, since these are the only ones that can provide the center of mass energy needed to produce heavier particles, like the Higgs or the Top quark. Due to the high energy requirements, circular accelerators are very complex machines composed of many parts, but for the sake of this work, we will only focus on the particle detectors. Modern particle detectors are composed of many layers of subdetectors tasked with measuring the effects that particles have on them, when they pass through. For example, a subdetector may measure the number of hits, tracks or pixel clusters activated during a collision.
 
-The layout of the detector will change to best accommodate the experiments being performed, but in general, these subdetectors can be classified into three categories: Tracking devices, to track the path of a particle; calorimeters, they measure the energy deposited by a particle when it hits and particle identifiers, that use various techniques and the measurements from other subdetectors, to identify the different particles produced in a collision \cite{detector}. The CMS detector and the LHC is an example of a layered particle detector.
+\begin{center}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[scale=.3]{Chapter1/int_lumi_per_year.png}
+    \caption[CMS Luminosity per year]{Delivered luminosity versus time for Run-1 (2010-2012) and Run-2 (2015-2018); pp data only. Cumulative luminosity versus day delivered to CMS during stable beams for pp collisions at nominal center-of-mass energy. These plots use the best available offline calibrations for each year. For 2017 and  2018 the plots are based on \cite{pas_17} and \cite{pas_18}, respectively \cite{wikicern}.}
+    \label{lumi_per_year_int}
+  \end{figure}
+\end{center}
 
-Finally, two parameters are used to measure the efficiency of a particle collider, the beam energy and the luminosity.  The higher the beam energy, the more particles can be created and thus the higher chance that new effects can be observed. The luminosity ($\mathcal{L}$) is a measure of the efficiency of a particle collider to produce meaningful interaction between colliding bunches of particles.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%lumi values:
+% https://inspirehep.net/files/11b4a1d6569e8e066e7431f17a55d69c
 
-\section{Luminosity }
+% https://arxiv.org/pdf/1504.06519.pdf
 
-As mentioned before, the LHC collides particles by grouping them into bunches, where trains of $N_b$ bunches are made. The groups of bunches are circulated both clockwise and anticlockwise and are forced to cross at specific detection points, where several interactions occur. A collision between bunches is called an event, and several particle interactions are produced during these events, the quantity that measures the ability of any particle collider to produce these useful interactions is called Luminosity. Thus, the event rate $R$, of a particular type $p$, with cross-section  $\sigma_p$, is given by \cite{White}:
-\begin{equation}
-    R=\mathcal{L}_{ins}\sigma_p
-    \label{lumy0}
-\end{equation}
-
-Where the instantaneous luminosity, $\mathcal{L}_{ins}$, is the proportionality constant, the cross section is the likelihood of that event taking place and has units of $cm^{2}$, thus the luminosity has units of $cm^{-2}s^{-1}$ \cite{White}. Since the probability of a rare event increases the more the rate of interactions grows, the luminosity is a key figure in the performance of a particle collider.\\
-Let's consider $N_b$ colliding bunches, assuming all the bunches have a head-on collision, the luminosity of all the colliding bunches is given by \cite{CERN-THESIS-2018-051}: 
-\begin{equation}
-    \mathcal{L}_{ins}=  N_b N_1 N_2f\int^{\infty}_{-\infty}dx\int^{\infty}_{-\infty}dy \rho_1(x,y)\rho_2(x,y)
-    \label{lumy1}
-\end{equation}
-where $N_{1,2}$ are the particles per bunch, $f$ is the revolution frequency and $\rho_{1,2}$ are the normalized densities in the transverse plane. Assuming that the normalized densities are uncorrelated in all planes, the distribution functions can be factorized as:
-\begin{equation}
-    \rho_i(x,y)=\rho(x)\rho(y) \text { where i=1,2}
-    \label{dens1}
-\end{equation}
-Thus, equation \ref{lumy1} can be writhe as 
-
-\begin{equation}
-    \mathcal{L}_{ins}=  N_b N_1 N_2f\int^{\infty}_{-\infty}\rho_1(x)\rho_2(x)dx\int^{\infty}_{-\infty}dy \rho_1(y)\rho_2(y)
-    \label{lumy2}
-\end{equation}
-For the case of head-on colliding bunches, a Gaussian charge distribution can be used, equation \ref{dens1} can be written
-\begin{equation}
-    \rho(u)=\frac{1}{\sqrt{2\pi}\sigma_u} exp\left(-\frac{u^2}{2\sigma_u^2}\right) \text { where u=x,y.}
-    \label{dens2}
-\end{equation}
-using this, equation \ref{lumy2} can be integrated analytically, giving 
-\begin{equation}
-    \mathcal{L}_{ins}=\frac{N_1N_2N_b f}{2\pi
-    \sqrt{\sigma^2_{x1}+\sigma^2_{x2}}\sqrt{\sigma^2_{y1}+\sigma^2_{y2}}}
-    \label{lumy3}
-\end{equation}
-In practice, the bunch densities in the transverse plane are not known and a calibration of the detectors has to be done, in order to obtain these values. At the LHC, this is done by a dedicated machine setup.  
-The performances of a particle collider over a period of time is given by the integrated luminosity :
-\begin{equation}
-L=\int \mathcal{L}_{ins}(t)dt
-\label{lum0}
-\end{equation}
-
-The average number of interaction per bunch crossing is given by the pileup, $\mu$, and directly proportional to the luminosity
-\begin{equation}
-    \mu=\frac{\mathcal{L}_{ins}\sigma_{tot}}{f}
-    \label{pileup}
-\end{equation}
-where the $\sigma_{tot}$ is the total cross-section of the collided particles \cite{CERN-THESIS-2018-051}.\\
-It is worth noting that a head-on collision is not always the case. The bunches can collide in different ways, such as an off-set a crossing angle or both. In these cases, the overlapping integral in equation \ref{lumy1} is reduced. This is done by applying a reduction factor to equation \ref{lumy2} \cite{CERN-THESIS-2018-051}, however, this work is only concerned with the head-on collision case, the other scenarios can be found in \cite{White}.
+%ATLAS 2015-2018: https://arxiv.org/pdf/1911.04632.pdf

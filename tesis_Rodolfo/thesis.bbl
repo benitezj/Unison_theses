@@ -1,0 +1,206 @@
+\begin{thebibliography}{29}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Griffiths(2008)]{griff}
+David~J Griffiths.
+\newblock \emph{{Introduction to elementary particles; 2nd rev. version}}.
+\newblock Physics textbook. Wiley, New York, NY, 2008.
+\newblock URL \url{https://cds.cern.ch/record/111880}.
+\newblock \url{https://cds.cern.ch/record/111880}.
+
+\bibitem[Collaboration(2012{\natexlab{a}})]{higgs_CMS}
+CMS Collaboration.
+\newblock Observation of a new boson at a mass of 125 {G}e{V} with the {CMS}
+  experiment at the {LHC}.
+\newblock \emph{Physics Letters B}, 716\penalty0 (1):\penalty0 30--61,
+  2012{\natexlab{a}}.
+\newblock \doi{https://doi.org/10.1016/j.physletb.2012.08.021}.
+
+\bibitem[Collaboration(2012{\natexlab{b}})]{higgs_ATLAS}
+ATLAS Collaboration.
+\newblock Observation of a new particle in the search for the {Standard Model
+  Higgs} boson with the {ATLAS} detector at the {LHC}.
+\newblock \emph{Physics Letters B}, 716\penalty0 (1):\penalty0 1--29,
+  2012{\natexlab{b}}.
+\newblock \doi{https://doi.org/10.1016/j.physletb.2012.08.020}.
+
+\bibitem[Thomson(2013)]{thomson_2013}
+Mark Thomson.
+\newblock \emph{Modern Particle Physics}.
+\newblock Cambridge University Press, 2013.
+\newblock \doi{10.1017/CBO9781139525367}.
+
+\bibitem[Belyaev and Ross(2021)]{undergraduate_accelerators_chapter}
+Alexander Belyaev and Douglas Ross.
+\newblock \emph{Particle Accelerators}, pages 201--219.
+\newblock Springer International Publishing, Cham, 2021.
+\newblock \doi{10.1007/978-3-030-80116-8_13}.
+
+\bibitem[Myers and Schopper(2020)]{ref_lib_vol3}
+Stephen Myers and Herwig Schopper.
+\newblock \emph{Particle Physics Reference Library Volume 3: Accelerators and
+  Colliders.}
+\newblock 01 2020.
+\newblock \doi{10.1007/978-3-030-34245-6}.
+
+\bibitem[Grafström and Kozanecki(2015)]{lumi_paper_def_and_concept}
+P.~Grafström and W.~Kozanecki.
+\newblock Luminosity determination at proton colliders.
+\newblock \emph{Progress in Particle and Nuclear Physics}, 81:\penalty0
+  97--148, 2015.
+\newblock \doi{https://doi.org/10.1016/j.ppnp.2014.11.002}.
+
+\bibitem[lum()]{lumi_motiv}
+M.L. Mangano, Motivations and precision targets for an accurate luminosity
+  determination at the LHC, \emph{CERN-Proceedings-2011-011},
+  \url{https://cds.cern.ch/record/1347440}.
+
+\bibitem[Evans and Bryant(2008)]{lhcmachine2008}
+Lyndon Evans and Philip Bryant.
+\newblock {LHC} machine.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
+  S08001--S08001, {Aug} 2008.
+\newblock \doi{10.1088/1748-0221/3/08/s08001}.
+
+\bibitem[Collaboration(2008{\natexlab{a}})]{CMS_Exp_2008}
+CMS Collaboration.
+\newblock The {CMS} experiment at the {CERN} {LHC}.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
+  S08004--S08004, {Aug} 2008{\natexlab{a}}.
+\newblock \doi{10.1088/1748-0221/3/08/s08004}.
+
+\bibitem[Collaboration(2008{\natexlab{b}})]{Atlas_Exp_2008}
+ATLAS Collaboration.
+\newblock The {ATLAS} experiment at the {CERN} large hadron collider.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
+  S08003--S08003, {Aug} 2008{\natexlab{b}}.
+\newblock \doi{10.1088/1748-0221/3/08/s08003}.
+
+\bibitem[Collaboration(2008{\natexlab{c}})]{ALICE_Exp_2008}
+ALICE Collaboration.
+\newblock The {ALICE} experiment at the {CERN} {LHC}.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
+  S08002--S08002, {Aug} 2008{\natexlab{c}}.
+\newblock \doi{10.1088/1748-0221/3/08/s08002}.
+
+\bibitem[Collaboration(2008{\natexlab{d}})]{LHCb_Exp_2008}
+The~LHCb Collaboration.
+\newblock The {LHCb} detector at the {LHC}.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
+  S08005--S08005, {Aug} 2008{\natexlab{d}}.
+\newblock \doi{10.1088/1748-0221/3/08/s08005}.
+
+\bibitem[Halkiadakis(2011)]{lhc_complex}
+Eva Halkiadakis.
+\newblock {Introduction to the LHC Experiments}.
+\newblock In \emph{{Theoretical Advanced Study Institute in Elementary Particle
+  Physics}: {Physics of the Large and the Small}}, pages 489--518, 2011.
+\newblock \doi{10.1142/9789814327183_0009}.
+
+\bibitem[Lamont(2013)]{LHC_status_2013}
+Mike Lamont.
+\newblock Status of the {LHC}.
+\newblock \emph{Journal of Physics: Conference Series}, 455:\penalty0 012001,
+  {Aug} 2013.
+\newblock \doi{10.1088/1742-6596/455/1/012001}.
+
+\bibitem[Collaboration(2021)]{lumi_precise_2015_2016}
+CMS Collaboration.
+\newblock Precision luminosity measurement in proton-proton collisions at
+  $\sqrt{s}$ = 13 tev in 2015 and 2016 at cms.
+\newblock \emph{The European physical journal. C, Particles and fields},
+  81:\penalty0 800, 01 2021.
+\newblock \doi{10.1140/epjc/s10052-021-09538-2}.
+
+\bibitem[pas(2018)]{pas_17}
+{CMS luminosity measurement for the 2017 data-taking period at $\sqrt{s} =
+  13~\mathrm{TeV}$}.
+\newblock Technical report, CERN, Geneva, 2018.
+\newblock URL \url{https://cds.cern.ch/record/2621960}.
+
+\bibitem[pas(2019)]{pas_18}
+{CMS luminosity measurement for the 2018 data-taking period at $\sqrt{s} =
+  13~\mathrm{TeV}$}.
+\newblock Technical report, CERN, Geneva, 2019.
+\newblock URL \url{https://cds.cern.ch/record/2676164}.
+
+\bibitem[{CMSPublic Web. CMS Luminosity - Public Results}(2022)]{wikicern}
+{CMSPublic Web. CMS Luminosity - Public Results}.
+\newblock Delivered luminosity versus time for 2010-2012 and 2015-2018 (pp data
+  only), 2022.
+\newblock URL
+  \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}.
+\newblock [Online; accessed September 23, 2022].
+
+\bibitem[et~al(2017)]{det_summary}
+A.M.~Sirunyan et~al.
+\newblock Particle-flow reconstruction and global event description with the
+  {CMS} detector.
+\newblock \emph{Journal of Instrumentation}, 12\penalty0 (10):\penalty0
+  P10003--P10003, {Oct}< 2017.
+\newblock \doi{10.1088/1748-0221/12/10/p10003}.
+
+\bibitem[Martin and Shaw(2017)]{Martin2017_book}
+Brian~R Martin and Graham Shaw.
+\newblock \emph{Particle Physics}.
+\newblock Manchester Physics Series. John Wiley \& Sons, Nashville, TN, 4
+  edition, January 2017.
+
+\bibitem[et~al(2021)]{phase1_Pixel_Detector}
+W.~Adam et~al.
+\newblock The {CMS} phase-1 pixel detector upgrade.
+\newblock \emph{Journal of Instrumentation}, 16\penalty0 (02):\penalty0
+  P02027--P02027, {Feb} 2021.
+\newblock \doi{10.1088/1748-0221/16/02/p02027}.
+
+\bibitem[Collaboration(2014)]{Track_Reco_2014}
+The~CMS Collaboration.
+\newblock Description and performance of track and primary-vertex
+  reconstruction with the {CMS} tracker.
+\newblock \emph{Journal of Instrumentation}, 9\penalty0 (10):\penalty0
+  P10009--P10009, {Oct} 2014.
+\newblock \doi{10.1088/1748-0221/9/10/p10009}.
+
+\bibitem[van~der Meer(1968)]{vdM_cal}
+S~van~der Meer.
+\newblock {Calibration of the effective beam height in the ISR}.
+\newblock Technical report, CERN, Geneva, 1968.
+\newblock URL \url{https://cds.cern.ch/record/296752}.
+
+\bibitem[pas(2013)]{pas-13}
+{CMS Luminosity Based on Pixel Cluster Counting - Summer 2013 Update}.
+\newblock Technical report, CERN, Geneva, 2013.
+\newblock URL \url{https://cds.cern.ch/record/1598864}.
+
+\bibitem[PCC(2012)]{PCC_PAS_12_001}
+{CMS Luminosity Based on Pixel Cluster Counting - Summer 2012 Update}.
+\newblock Technical report, CERN, Geneva, 2012.
+\newblock URL \url{https://cds.cern.ch/record/1482193}.
+
+\bibitem[pas(2017)]{pas-15}
+{CMS luminosity measurement for the 2015 data-taking period}.
+\newblock Technical report, CERN, Geneva, 2017.
+\newblock URL \url{https://cds.cern.ch/record/2138682}.
+
+\bibitem[Karacheban(2020)]{vdM_sketch}
+Olena Karacheban.
+\newblock {Performance of the BRIL luminometers at CMS in Run 2}.
+\newblock \emph{PoS}, EPS-HEP2019:\penalty0 194, 2020.
+\newblock \doi{10.22323/1.364.0194}.
+
+\bibitem[Müller(2011)]{bkg_source}
+S.~Müller.
+\newblock Simulation of beam-induced backgrounds in comparison with data from
+  the {CMS} pixel and other inner radii detectors.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  650\penalty0 (1):\penalty0 33--36, 2011.
+\newblock \doi{https://doi.org/10.1016/j.nima.2010.11.082}.
+\newblock International Workshop on Semiconductor Pixel Detectors for Particles
+  and Imaging 2010.
+
+\end{thebibliography}

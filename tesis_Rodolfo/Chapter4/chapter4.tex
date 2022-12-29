@@ -1,6 +1,274 @@
 \chapter{Analysis and Results}
 
-\section{Fitted Graphs}
-Fit
-\section{$\sigma_{vis}$}
-xsec
+%These corrections take into account drifts in the position of the LHC orbit, beam-beam interaction effects, and the beam separation length scale. The intensities are measured by the LHC beam current monitors and are corrected for bunched spurious (so-called “ghost” and “satellite”) charges \cite{pas_18}.
+
+\section{2018 vdM scan program}
+
+For 2018, the vdM scans were performed during LHC fill 6868 on June 30 and July 1 at pp collision energy $\sqrt{s}$ of 13 TeV. The LHC filling scheme used  124 colliding bunch pairs at the CMS interaction point (IP5) widely spread over the orbit to reduce long-range beam-beam effects and detector afterglow.  The resulting beam size $\sigma_{b}$ at the beginning of the fill was in the range of approximately 85–95 $\mu$m and 80–90 $\mu$m in x and y, respectively, increasing over time in the x dimension and decreasing over time in the y dimension. No crossing angle was used for collisions. The resulting peak pileup was approximately $\mu$ = 0.6, much lower than in a regular physics fill ($<\mu>$= 32 in 2018 ) \cite{pas_18}.\\ %pileup phys: https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults
+The bunch intensities were approximately 7–9$\times 10^{10}$ protons per filled bunch, resulting in a total beam intensity of slightly above $10^{13}$ protons per beam. The total beam intensities were measured with the DC Current Transformers (DCCT), and the bunch currents were measured with the Fast Beam Current Transformers (FBCT) \cite{pas_18}.\\
+To ensure a dataset with a high event count for PCC even at large beam separations, CMS gated the zero-bias triggers on 5 bunch pairs: BCIDs (Bunch Crossing ID) 265, 865, 1780, 2192, and 3380; and recorded events with a total rate of 27.7 kHz \cite{pas_18}.\\
+The CMS vdM scan program was conducted in two parts due to an alarm. Apart from the vdM scans other studies were carried out called Imaging Scans, which can also be used to measure $\sigma_{vis}$. Imaging scans are performed by moving only one beam. The standard vdM scans are referred as ``norm'' and the imaging scans as ``img''. In the first part of the scan program a vdM scan ``norm1'' and a imaging scan ``img1'' were carried out. The second part consisted of the scans ``img2'', ``img3'', ``norm2'', ``norm3'' and ``norm4'' were done. In total are 7 scans to determine $\sigma_{vis}$ \cite{pas_18}.\\
+In the vdM scans the two beams were separated by $6 \sigma_{b} \approx 600 \mu$m and scanned across one another in a sequence of 25 steps with 30 seconds per step. For the beam imaging scans  one beam (beam 1 in the first pair, followed by beam 2 in the second pair) is kept fixed at its nominal position while the other is separated and scanned in 19 steps from  $+$4.5$\sigma_{b}$ to $-$4.5$\sigma_{b}$ with 46 seconds per step. In each of both scans (scan  pairs), the scan was performed first in the x direction and then in the y direction. \\For the background estimation, two Super Separation (SS) periods were carried out during the scan program, each 5 minutes long where the beams were separated by $6\sigma_{b}$ (where $\sigma_{b}$ the beam size) in both the x and y directions; the first SS period took place after norm3 and the second after norm4.\\
+Fig. \ref{scan_prog} shows the beam positions for the two beams in the x and y directions as measured by the DOROS BPMs during the scan program, showing all scan pairs of the 2018 scan program.
+
+\begin{center}
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[scale=.45]{Chapter3/2018Scanprogram.png}
+    \caption[2018 scan program]{Relative change in beam positions measured by the DOROS BPMs during the 2018 scan program for the two individual beams in the horizontal x and vertical y planes, as a function of the elapsed time from the beginning of the program. The top row shows the take 1 of the program before the alarm at CMS, while the bottom two rows show the program after the alarm \cite{pas_18}.}
+    \label{scan_prog}
+  \end{figure}
+\end{center}
+
+\section{Data analysis}
+
+The data recorded was processed with the CMS software (CMSSW) storing the data into a Hierarchical Data Format (HDF) with hd5 format, containing the times, beam positions, beam currents, and rates.\\
+The data collected during the vdM scans is analysed with a software framework called ``vdM Framework'' (vdM FW), which is written in Python2 and uses the CERN’s data analysis package ``ROOT'' trough the ``PyRoot'' library. With the analysis and plotting tools, the vdM FW reads the hd5 file, producing some intermediate files: scan file, beam currents file, rates file and correction files, and applies some corrections to rates (Background, DynamicBeta), separation (OrbitDrift, LengthScale, BeamBeam) and beam currents (FBCT to DCCT calibration, Ghost and Satellite) and creates a graph file. This graph file contains the normalized rates (i.e. $R/N_{1}N_{2}$) and beam position. Each point correspond to the averaged rates in a time window of 30s and 46s for vdM scans (norm) and imaging scans, respectively. The points are then fitted with a predefined function to extract $\Sigma_{x,y}$ and peak values to compute $\sigma_{\text{vis}}$ for all the bunches in the scan.
+
+%Description vdM FW:
+%https://cds.cern.ch/record/2647770/files/CERN-THESIS-2018-245.pdf
+%https://cds.cern.ch/record/2775639/files/CERN-THESIS-2021-086.pdf
+%https://vdmdoc.docs.cern.ch/tutorial/tutorial.html
+For some luminometers the rates are reprocessed, for example for backround subtracting. In the case of PCC the data was reprocessed for two purposes: i) the use of new data format and ii) a different selection of the pixel detector modules.\\
+For PCC, the rates (and the corresponding times) were originally stored  per event into a ROOT file. Due the vdM FW procedures, the data analysis with the ROOT file carries some limitations, leading to the  use of only 1\% of the statistics. For this reason, the PCC data was reprocessed  to store the data into an hd5 files containing the rates stored per 1.32 s (NB4), allowing the use of the full statistics. This leads to a large improvement in the statistical uncertainty in the rates by a factor of 10, improved the fit model and the better determination of the beam parameters, relative to the previous analysis reported in ref. \cite{pas_18}.
+%%\begin{center}
+%%  \begin{figure}[ht]
+%%    \centering
+%%    \includegraphics[scale=.23]{Chapter4/fit_comparison.png}
+%%    \caption[Comparison of statistics: example]{Single Gaussian fit of BCID 3380 from Y vdM scan (without corrections) using the old data format (left) and new data format (right). Figure used only to illustrate the difference and improvement of data formats described in the text.} 
+%%    \label{fitcomp}
+%%  \end{figure}
+%%\end{center}
+%%
+
+\section{Module selection}
+The implementation of a different selection of the modules in the pixel detector aims to remove instabilities in luminosity measurement. Previously, the same selection of modules was used for most of the year, for many run periods. Run periods corresponds to a division of time periods of the data set, for 2018 the calibration period is contained in the run period 2018-05-28 to 2018-07-07.\\
+Using a different selection of modules per run period is more realistic as each period can have different number of good performing modules. The pixel detector conditions change over the time, for example by detector noise, aging effects and radiaiton damage.\\
+The selection is done trough a module stability study. Module stability is based on variation of cluster count relative to total cluster count (module weight), root mean square (RMS) of weights distribution. The variations are considered in an interval of 23s (lumi section), which corresponds to the granularity (that is, the scale or level of detail in a set of data) of the luminosity database. Modules in barrel layer 1 are removed as these modules were not used in luminosity measurement. The module stability is re-evaluated (RMS values, 4\% RMS selection) by using iterative process until stable luminosity is attained. Fig. \ref{goodmodule} shows an example of a good and bad module.\\
+For the calibration period, the module selection provided has 802 bad modules and 1054 good modules.\\
+The results obtained from the analysis with the new selection of modules are shown below.
+%: rms (root mean square) of weights distribution.  Module stability is re-evaluated by using iterative process until stable luminosity is attained \cite{ashish_stb1}.
+% LS: it corresponds to the granularity (that is, the scale or level of detail in a set of data) of the luminosity database.
+\begin{center}
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[scale=.23]{Chapter4/good_module.png}
+    \caption[Good-bad module stability profile example]{ Graphs showing stability profile for good and bad modules where weight is plotted as a function of lumi section.} %\cite{ashish_stb1}. } 
+    \label{goodmodule}
+  \end{figure}
+\end{center}
+%https://indico.unison.mx/event/152/
+%https://indico.cern.ch/event/1125423/
+%presentacion de sem inv ashish:
+%https://indico.unison.mx/event/152/
+%For the calibration period, the module selection provided has 802 bad modules and 1054 good modules.\\ %\cite{ashish_stb2}.\\%[https://indico.cern.ch/event/1157940/contributions/4862596/attachments/2437712/4176063/AshishSehrawat.pdf]
+%The results obtained from the analysis with the new selection of modules are shown below.
+
+\section{Background estimation}
+To estimate the constant term in the measurements two super separation periods were carried out. Fig \ref{ssp_wide_bx1780} shows PCC per NB4 versus time for BCID 1780 to illustrate the two SS periods. The lower regions corresponds to the time window of 5 min where the beams were separate a distance of $6\sigma_{b}$, ensuring thatensuring that the only contribution is from background (either beam-induced background or electronics noise).
+%\begin{center}
+%\begin{figure}[ht]
+%\centering
+%\includegraphics[width=.49\textwidth]{Chapter4/plots/SS1_WIDE_BX1780.png}
+%\includegraphics[width=.49\textwidth]{Chapter4/plots/SS2_WIDE_BX1780.png}
+%\caption[Super Separation periods for BCID 1780]{PCC per NB4 versus time for BCID 1780. The lower regions corresponds to the super separation period I (left) and II (right).}
+%\label{ssp_wide_bx1780}
+%\end{figure}
+%\end{center}
+The background value in each BCID is estimated as the mean value of the distribution (or profile) of PCC per NB4. Fig \ref{ss1_hist_1780} shows the distribution of PCC per NB4 for BCID 1780 for SS period I, having a mean value of 0.322 with a standard error of the mean (SEM) of 0.018.
+
+
+
+
+\newpage
+
+\begin{center}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.49\textwidth]{Chapter4/plots/SS1_WIDE_BX1780.png}
+\includegraphics[width=.49\textwidth]{Chapter4/plots/SS2_WIDE_BX1780.png}
+\caption[Super Separation periods for BCID 1780]{PCC per NB4 versus time for BCID 1780. The lower regions corresponds to the super separation period I (left) and II (right).}
+\label{ssp_wide_bx1780}
+\end{figure}
+\end{center}
+
+
+\begin{center}
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[scale=.18]{Chapter4/plots/ss1_histo_bx1780.png}
+    \caption[PCC per NB4 profile for BCID 1780 from SS period I]{ PCC per NB4 profile for BCID 1780 from SS period I.} 
+    \label{ss1_hist_1780}
+  \end{figure}
+\end{center}
+
+
+\begin{table}[h!]
+  \begin{center}
+    \caption{Background mean value and SEM of each BCID for both SS periods .}
+    \label{ss_per_bx}
+    \begin{tabular}{|c | c | c | }
+      \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{SS period I}} & \multicolumn{1}{c}{}  \\
+      \hline
+ \textbf{BCID}   & \textbf{Mean}   &  \textbf{SEM}\\
+     \hline %\midrule[1.1pt]
+      265 & 0.3111 & 0.0172\\
+      \hline
+      865 & 0.2732 & 0.0135\\ 
+      \hline
+      1780 & 0.3223 & 0.0187\\ 
+      \hline
+      2192 & 0.2875 & 0.0159\\ 
+      \hline
+      3380 & 0.3157 & 0.0162\\ 
+      \hline
+      \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{}\\
+      \multicolumn{1}{c}{$\text{SSI}_{\text{Avg}}=$} & \multicolumn{1}{l}{$0.302 \pm 0.0073$} & \multicolumn{1}{c}{}\\
+%      \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{}
+    \end{tabular}
+    \hspace{0.5cm}
+    \begin{tabular}{|c | c | c | }
+      \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{SS period II}} & \multicolumn{1}{c}{ }  \\
+      \hline
+ \textbf{BCID}   & \textbf{Mean}   &  \textbf{SEM}\\
+     \hline %\midrule[1.1pt]
+      265 & 0.3027 & 0.0148\\
+      \hline
+      865 & 0.297 & 0.0156\\ 
+      \hline
+      1780 & 0.304 & 0.0167\\ 
+      \hline
+      2192 & 0.2225 & 0.0114\\ 
+      \hline
+      3380 & 0.3064 & 0.0169\\ 
+      \hline
+      \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{}\\
+      \multicolumn{1}{c}{$\text{SSII}_{\text{Avg}}=$} & \multicolumn{1}{l}{$ 0.287 \pm 0.0068$} & \multicolumn{1}{c}{}
+    \end{tabular}   
+  \end{center}
+\end{table}
+
+
+Table \ref{ss_per_bx} shows the mean en SEM values for each BCID for both SS periods and the average and error ($AvgErr= \sqrt{SEM_1^2+SEM_2^2+\cdots SEM_{N}}/N) $) per SS period. Having both average values of SS, the average and error is taken, being this the value applied as a background correction:  $ 0.29 \pm 0.005$.
+
+\section{Corrections}
+The PCC rates per NB4 are averaged per scan step (30s) and the uncertainty is calculated as the SEM. The following corrections are applied in the vdM FW:
+
+\begin{enumerate}
+\item Ghost and Satellite. Corrects for the presence of ghost and satellite spurious charges. This correction affects bunch currents. Satellite charges refers to charge in the colliding bunch crossing but not in the colliding RF bucket, while spurious charges refers to charge not in any nominally filled bunch slot.% 
+% The satellite charges are measured by the FBCT, and the DCCT measurements integrate over all charges, thus include both type of contributions.  so a correction of the beam intensities is needed in order to obtain an accurate value. For the 2018 VdM fill, these contributions are measured using the LHC longitudinal density monitors [23, 24]. Ghost charge measurement is also performed using the beamgas imaging method [25] by comparing the beam-gas rates in beam-empty and empty-empty crossings at the LHCb interaction point (IP8).\\
+%The correction data is taken and the correction is performed as $B_{1,2}*(1-ghos)$ and $B_{1,2}*(1-sat)x$
+\item Background. Value estimated above is subtracted to the rates.% lumB = lum - bkg;  %  lumErrB = np.sqrt(lumErr**2 + bkgErr**2). Bkg value in the prev sect. is subtracted and the error is propahated as : sqrt
+\item Orbit drift. The Orbit Drift (OD) correction is composed of two independent corrections: separation correction and a rate correction. OD separation aims at correcting for the orbit drift in the scanning direction and only affects beam separation.  OD rate aims at correcting for the orbit drift in the direction orthogonal to the scanning direction and only affects luminometer rate. The derived correction assumes that the beam overlap has a single gaussian shape. The correction reads the $\Sigma$ in the orthogonal direction from the previous correction.
+%entry.lumiPerBX[bx] = [ rate * np.exp( ody**2 / (2*CS[bx]**2) ) for rate, ody in zip(entry.lumiPerBX[bx], OD_Y) ]
+%entry.lumiErrPerBX[bx] = [ rateErr * np.exp( ody**2 / (2*CS[bx]**2) ) for rateErr, ody in zip(entry.lumiErrPerBX[bx], OD_Y) ]
+%CS es en la ortogogonal y el od creo que es el de la OD sep.
+
+\item Beam Beam. Corrects Beam Beam deflection (BB) that happens during bunch crossings at the collision point. The deflection is calculated and added to the nominal separation.
+  %https://gitlab.cern.ch/bril/VdMFramework/-/blob/even_more_fits_aa/Code/dataPrep_corr/makeBeamBeamFile.py
+  %import BB -> formula?
+
+\item Dynamic Beta. The so-called dynamic-$\beta*$ effect, which accounts for the fact that each beam has a defocusing effect on the other. This effect is calculated using reference beam transport simulations that are scaled to the beam energies, the  $\beta ^{*}$ settings, and the measured intensities and convoluted beam widths. %Rate normalized? %correction_factor en framework. makedynfile y dyncoor.
+
+\item Length Scale.  It applies a linear scaling to the beam separation to convert it from the "CMS scale" to the actual "physics scale". This correction is estimated by analyzing pp collision vertices reconstruced by the CMS tracker. %scaling but sepErr is 0...
+
+\item Peak to peak. Corrects for error in peak calculation, when the scan does not cover the actual head-on collision of the beams. %peakToPeakFactor = np.exp( mean**2 / (2 * capSigma**2) );  peakToPeakFactorErr = peakToPeakFactor * mean / capSigma**3 * np.sqrt( capSigma**2 * meanErr**2 + mean**2 * capSigmaErr**2)
+
+%https://gitlab.cern.ch/bril/VdMFramework/-/wikis/od-flag
+\end{enumerate}
+
+
+\section{van der Meer Scans and $\sigma_{vis}$ Results}
+
+The measurements of PCC, beam separation and beam currents were plotted, fitted and corrected with the corrections described above. The fit model impleted is a guassian-like function: 
+
+$$Poly\mathbf{2}G= P \cdot \Biggl[1+r_{2} \cdot \Biggl( \frac{x-\bar{x}}{\frac{\sigma}{1+r_{2}}} \Biggr)^{2}   \Biggr]\cdot \exp \Biggl[ - \frac{1}{2} \Biggl(  \frac{x-\bar{x}}{ \frac{\sigma}{1+r_{2}} }  \Biggr)^{2} \Biggr] $$
+
+where $P$ is the peak value, $\bar{x}$ the mean, and $\sigma$ (standard deviation) and $r_{2}$ are fit parameters. This model will be referred as ``Poly2G''. Fig. \ref{vdM1_1780_XYscan} shows the fitted graphs of the first vdM scan pair for BCID 1780. Fig. \ref{vdM1_1780_XYscan_logy} shows the same graphs in logarithmic scale. Note that rates are normalized by the beam currents, which is a factor of eq. \ref{sigmavis_eq}  ($R(0,0)/N_{1}N_{2}$).
+
+The rest of the BCIDs, vdM and imaging scans present a very similar behaviour. Fig \ref{chi2/ndof} shows a plot of the chi2/ndof for all the seven scan pairs, having a mean value of 2.23. In all cases the fits converged. The $\Sigma_{x,y}$  (referred also as CapSigma) and peak values were extracted from the fits to compute $\sigma_{vis}$. Fig \ref{capsigma_peak} shows $\Sigma_{x,y}$ and peak values for all scan pairs. As can be seen, both values reflects the fact that beam size increased over time in the $x$ dimension and decreased over time in the $y$ dimension.
+\begin{center}
+\begin{figure}[ht]
+\centering
+%\includegraphics[width=.45\textwidth]{Chapter4/plots/vdM1_BX1780_XScan_v2.pdf}
+%\includegraphics[width=.45\textwidth]{Chapter4/plots/vdM1_BX1780_YScan_v2.pdf}\\
+%\includegraphics[width=.45\textwidth]{Chapter4/plots/vdM1_BX1780_XScan_v2_LOGY.pdf}
+%\includegraphics[width=.45\textwidth]{Chapter4/plots/vdM1_BX1780_YScan_v2_LOGY.pdf}
+\includegraphics[width=.38\textwidth]{Chapter4/plots/xscan.png}
+\includegraphics[width=.38\textwidth]{Chapter4/plots/yscan.png}\\
+%\includegraphics[width=.39\textwidth]{Chapter4/plots/xscan_logy.png}
+%\includegraphics[width=.39\textwidth]{Chapter4/plots/yscan_logy.png}
+\caption[vdM1 BCID 1780 (linear scale)]{Normalized rates and the resulting fitted curves with the Poly2G fit model (see text) as a function of
+  the beam separation ($\Delta$) for BCID 1780 for X (left) and Y (right) scan for the first vdM scan. Background subtraction and the corrections described in the previous section have been applied to the raw data before the fit.}
+\label{vdM1_1780_XYscan}
+\end{figure}
+\end{center}
+
+\begin{center}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.39\textwidth]{Chapter4/plots/xscan_logy.png}
+\includegraphics[width=.39\textwidth]{Chapter4/plots/yscan_logy.png}
+\caption[vdM1 BCID 1780 (logarithmic scale)]{Fig. \ref{vdM1_1780_XYscan} in logarithmic scale.}
+\label{vdM1_1780_XYscan_logy}
+\end{figure}
+\end{center}
+
+\begin{center}
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[scale=.20]{Chapter4/plots_thesis/chi2_Poly2G.png}
+    \caption[chi2/ndof for all scan pairs]{ chi2/ndof for all the scan pairs. Vertical blue lines divide the X (left) and Y (right) scans. In each scan, the BCIDs follow the same order: 265, 865, 1780, 2192, 3380.} %[ https://indico.cern.ch/event/1099207/contributions/4625225/attachments/2351526/4011953/PCC_Stability_Study_23_11_2021.pdf]
+    \label{chi2/ndof}
+  \end{figure}
+\end{center}
+
+\begin{center}
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[width=.49\textwidth]{Chapter4/plots_thesis/CapSigma_Poly2G.png}
+    \includegraphics[width=.49\textwidth]{Chapter4/plots_thesis/peak_Poly2G.png}
+    \caption[$\Sigma$ and peak values for all scan pairs]{$\Sigma$ (left) and Peak values (right) extracted from the fitted graph to compute $\sigma_{vis}$.  Vertical blue lines divide the X (left) and Y (right) scans. In each scan, the BCIDs follow the same order: 265, 865, 1780, 2192, 3380.} %[ https://indico.cern.ch/event/1099207/contributions/4625225/attachments/2351526/4011953/PCC_Stability_Study_23_11_2021.pdf]
+    \label{capsigma_peak}
+  \end{figure}
+\end{center}
+%Eos results path:
+%/eos/user/j/jmorenoc/Results_v1/NewVeto/Period_B/Tests_Poly246G/No_Limits_Poly246G_SuperG/Output/plots_Poly2G/CapSigma_Poly2G.png
+The $\sigma_{vis}$ of each BCID is computed from the fit results parameters showed in previous section ($\Sigma_{x,y}$ and peak) using \ref{sigmavis_eq} with  $R(0,0)=(Peak_{x}+Peak_{y})/2$; $Peak_{x,y}$ values are already normalized so \ref{sigmavis_eq} is rewritten as $\sigma= 2\pi \Sigma_{x} \Sigma_{y} (Peak_{x}+Peak_{y})/2$.\\
+Fig \ref{sigmavis_perbcid} shows  $\sigma_{vis}$ per BCID for all the scans. The error on $\sigma_{vis}$ is assigned as $\sigma_{vis\text{Err}}= 2 \pi \sqrt{ (\Sigma_{y} \cdot R \cdot \Sigma_{x\text{Err}})^{2} + (\Sigma_{x} \cdot R \cdot \Sigma_{y \text{Err}})^{2} + (\Sigma_{x} \Sigma_{y} R_{\text{Err}})^{2} }$.\\ %The mean value is 9232.26 mb  with a standard deviation (bunch spread) of  44.33 mb (0.48 \%).
+Fig \ref{sigmavis_perscan} shows $\sigma_{vis}$ per Scan, which corresponds to the weighted average of the five BCIDs with the weight as $1/\sigma_{vis\text{Err}}^{2}$. The error is assigned as $1/\sqrt{\sum \frac{1}{\sigma_{vis\text{Err}}^{2}}}$.\\
+
+%\begin{equation*}
+%\frac{1}{\sqrt{\sum_{i}^{N}\frac{1}{\sigma Err^{2}_{i}}}}
+%\end{equation*}
+  
+%and the systematic uncertainty as
+
+%$$\sqrt{RMS^{2}-stat^{2}}$$
+\begin{center}
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[scale=.25]{Chapter4/plots_thesis/Poly2G_xsec.png}
+    \caption[$\sigma_{vis}$ per BCID for all scans]{ $\sigma_{vis}$ per BCID for all the scans.  In each scan the BCIDs follow the same order: 265, 865, 1780, 2192, 3380.} %[ https://indico.cern.ch/event/1099207/contributions/4625225/attachments/2351526/4011953/PCC_Stability_Study_23_11_2021.pdf]
+    \label{sigmavis_perbcid}
+  \end{figure}
+\end{center}
+
+The $\sigma_{vis}$ per scan are averaged and assigning the error in the same way described above, giving a value of $9229 \pm 8 \text{(stat.)} \text{mb}$.\\
+As can be seen in  Fig \ref{sigmavis_perscan}  (and Fig \ref{sigmavis_perbcid}), there is some systematic variation in $\sigma_{vis}$ from scan to scan, being the first vdM scan lower than the rest of the scans. The systematic error is assigned as $\sqrt{RMS^{2}-stat^{2}}$. \\
+Therefore the $\sigma_{vis}$ value is
+
+\begin{equation}
+\sigma_{vis} = 9229 \pm 8 \text{(stat.)} \pm 28 \text{(syst.)} \text{ mb} .
+\end{equation}
+
+This value is higher than the previously reported in ref. \cite{pas_18}: 5982 mb, which corresponds to a different selection of modules in the pixel detector. In the previous result, 1069 modules were removed, whereas the value of 9229 mb corresponds to 802 modules removed; the rate of pixel clusters is proportional to the number of modules.
+
+\begin{center}
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.37]{Chapter4/plots/xsec_perscan_v2.png}
+    \caption[$\sigma_{vis}$ per Scan]{ $\sigma_{vis}$  per scan.} %[ https://indico.cern.ch/event/1099207/contributions/4625225/attachments/2351526/4011953/PCC_Stability_Study_23_11_2021.pdf]
+    \label{sigmavis_perscan}
+  \end{figure}
+\end{center}

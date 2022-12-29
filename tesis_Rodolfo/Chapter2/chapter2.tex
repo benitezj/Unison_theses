@@ -1,155 +1,183 @@
 \chapter{Experiment Description }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The Large Hadron Collider}
+The Compact Muon Solenoid (CMS) detector is a multi-purpose apparatus that operates at the LHC at CERN. Its name comes from the fact that is quite compact for all the detector material it contains ( 15 meters high and 21 meters long), it is designed to detect muons very accurately, and it has it has the most powerful solenoid magnet ever made. Along with ATLAS, is one of the two high luminosity experiments at CERN. In this chaper the components of the CMS are described. The silicon pixel tracker is described with more detail due the purposes of this thesis. 
 
-The LHC is one of the most powerful particle collider in the world, it started construction in 1998 on the France–Switzerland border near Geneva, using the 26.7 km tunnel, constructed for the CERN LEP machine. It came into operation on the 10 of September of 2008, and it is the latest addition to the CERN accelerator complex. It was first approved on December 1994 by the CERN council, with  a center-of-mass-energy of 14 Tev \cite{Bruning:782076}.
+\section{The Compact Muon Solenoid}
 
-The LHC consists of two separate rings, kept in an ultrahigh vacuum, where two the beams of particles are located. To achieve the circular motion of the beams, 1232 dipole magnets are used to maintain trajectory, and 392 quadrupole magnets are used to keep the beams focused. Near the interaction points, stronger quadruple magnets are used to increase the probability of interaction between the beams.  These magnets are made of coils of special superconductive cable, cooled to a temperature of 1.8 K with superfluid helium, producing an electromagnetic field of above 8 T \cite{Bruning:782076}.
-
- The beams in each ring are made of bunches for particles traveling near the speed of light. These bunches can be made of protons or ions (like lead nucleons), depending on the running experiment, however, the majority of events at the LHC are produced by proton-proton (pp) bunch collision.\\
-A diagram of CERN’s accelerator complex can be seen in Figure \ref{cernc}. The proton bunches start as ionised hydrogen gas and are accelerated to an energy of 50 MeV, by the Linac 2 linear accelerator. Once they leave the Linac 2, they are further accelerated to an energy of 1.4 GeV by the Proton Synchrotron Booster (PSB) and dumped on the  Proton Synchrotron (PS). In the PS, the bunches are accelerated to an energy of 25 GeV and arranged into a bunch trains, with a spacing of 25 ns, in total, one orbit contains 3564 bunches, arranged in to several trains. Finally, the bunches pass from the PS to the Super Proton Synchrotron (SPS), where they are injected into the LHC with an energy of 450 GeV. In the LHC, the beams reach a peak energy of 6.5 TeV, and are made to collide in one of the 4 detectors, ALICE, ATLAS, CMS and the LHCb. 
+The Compact Muon Solenoid (CMS) experiment is one of four detectors placed  around the LHC. The CMS detector consist of several detection layers, having a total length of 21.6 m with a diameter of 14.6 m. It consist of a silicon tracker to provide a measurement of the trajectories of charged particles, a 3.8 Tesla superconducting solenoid, an electronic and hadronic calorimeter to meausure particle energy, and a muon detection system \cite{CMS_Exp_2008}. A diagram of a perspective view of the CMS detector is shown in Fig. \ref{detector_CMS}.\\
+%%%%%%%%%%%% PARAGRAPH TO SUMMARY THE LAST 3 SECTION (ECAL, HCAL AND MUONS SYSTEM)%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The electromagnetic calorimeter of CMS (ECAL) is a hermetic homogeneous calorimeter made of 61 200 lead tungstate (PbWO4) crystals mounted in the central barrel part, closed by 7 324 crystals in each of the two endcaps. A preshower detector is placed in front of the endcap crystals. Avalanche photodiodes (APDs) are used as photodetectors in the barrel and vacuum phototriodes (VPTs) in the endcaps \cite{CMS_Exp_2008}.\\
+The ECAL is surrounded by a brass/scintillator sampling hadron calorimeter (HCAL). The scintillation light is converted by wavelength-shifting (WLS) fibres embedded in the scintillator tiles and channeled to photodetectors via clear fibres. This light is detected by photodetectors (hybrid photodiodes, or HPDs) that can provide gain and operate in high axial magnetic fields. The Cerenkov light emitted in the quartz fibres is detected by photomultipliers \cite{CMS_Exp_2008}.\\ 
+After the HCAL and the 13-m-long, 6-m-inner-diameter, 4-T superconducting solenoid, the muon detector system is placed. CMS uses 3 types of gaseous particle detectors for muon identification. Due to the shape of the solenoid magnet, the muon system was naturally driven to have a cylindrical, barrel section and 2 planar endcap regions \cite{CMS_Exp_2008}.\\
+The tracker system is described with detail in the next section.\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+A sketch of a transverse slice of the CMS detector, with specific particle interactions, is shown in Fig. \ref{slice_CMS}. A simplified summary of particle interaction (and detection) is described as follows. Starting from the beam interaction region, particles first enter a tracker, in which charged-particle trajectories (tracks) and origins (vertices) are reconstructed from signals (hits) in the sensitive layers. The tracker is immersed in a magnetic field that bends the trajectories and allows the electric charges and momenta of charged particles to be measured. Electrons and photons are then absorbed in an electromagnetic calorimeter (ECAL). The corresponding electromagnetic showers are detected as clusters of energy recorded in neighbouring cells, from which the energy and direction of the particles can be determined. Charged and neutral hadrons may initiate a hadronic shower in the ECAL as well, which is subsequently absorbed in the hadron calorimeter (HCAL). Muons and neutrinos traverse the calorimeters with little or no interactions. While neutrinos escape undetected, muons produce hits in additional tracking layers called muon system, located outside the calorimeters \cite{det_summary}.\\
 \begin{center}
   \begin{figure}[ht]
     \centering
-    \includegraphics[scale=.7]{Chapter2/CERNC.jpg}
-    \caption[CERN accelerator complex.]{A diagram of the CERN accelerator complex \cite{cernpg}.}
-    \label{cernc}
+    \includegraphics[scale=.3]{Chapter2/CMS_detector_simple.png}
+    \caption[Perspective view of the CMS detector]{Perspective view of the CMS detector.}
+    \label{detector_CMS}
   \end{figure}
 \end{center}
-The four detectors are tasked with measuring all the particles produced in pp collisions. Two specialized detectors are integrated to the LHC, ALICE and LHCb. ALICE is dedicated to heavy ion collisions physics, where the quark-gluon plasma is studied. The LHCb investigated the differences between matter and antimatter, by studying the “beauty quark” \cite{lhcb}.\\
-The two remaining detectors, CMS and ATLAS, are general purpose detectors, tasked with studying a wide range of physics, from the search of the Higgs boson, to extra dimensions and particles that could make the dark matter in the universe \cite{cmsweb}.
 
-Two operation runs have been completed so far at the LHC, and two long shutdowns, where maintenance and several minor upgrades were made to the machine.  Run 1 lasted from 2010-2012, while Run 2 lasted from  2015-2018. As of Run 2, the LHC has achieved a peak luminosity of $2\times 10^{-34} cm^{-2}s^-1$, two times the amount for which the LHC was designed. The integrated luminosity, since the LHC began operations, has reached $160 fb^{-1}$ for the ATLAS and CMS experiments \cite{lumi2180}.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The CMS detector }
-The Compact Muon Solenoid (CMS) experiment is one of the four major experiments currently running in the LHC, and along with ATLAS, one of the two high luminosity experiments at CERN. It receives its name from the huge solenoid magnet, from which the detector is built around. This solenoid takes the form of a coil made of super conductive wire, capable of producing an electromagnetic field of 4 T. The field is confined by a steal yoke, that weights 14,000 tones.
-
-CMS is a layered detector, 21 m in length, with a height and width of 15 m, and it is composed of four main subdetectors, the inner silicon tracker, electromagnetic and hadron calorimeters and the muon detectors. The strong magnetic field produced by the detector’s solenoid, separates the particles produced in the coalitions and provides a better momentum resolution. Figure \ref{cms} shows a diagram of the detectors layout. 
 \begin{center}
   \begin{figure}[ht]
     \centering
-    \includegraphics[scale=.2]{Chapter2/CMSl.png}
-    \caption[CMS detector diagram]{Diagram of the CMS detector showing the various subdetectors that comprise it \cite{cms-manual}.}
-    \label{cms}
+    \includegraphics[scale=.3]{Chapter2/slice_det.png}
+    \caption[Transverse slice fo CMS detector]{Sketch of a transverse slice of the CMS detector with specific particle interactions, from the beam interaction region to the muon detector. The muon and the charged pion are positively charged, and the electron is negatively charged \cite{det_summary}.}
+    \label{slice_CMS}
   \end{figure}
 \end{center}
-The CMS experiment has a broad range of goals in particle physics, from studying the SM in search of new particles and phenomena, to searching for extra dimensions and discovering new particles that could make the dark matter in the universe.  The experiment has achieved great things in the scientific community, however, one of its greatest, was the discovery of the Higgs boson  alongside the ATLAS experiment in 2012. In the next subsection a brief description of the different subdetectors is provided \cite{cms-manual}.
-\subsection{ Silicon tracker}
-At the heart of the CMS detector lies the inner silicon tracker. As its name suggests, the purpose of this subdetector is to reconstruct the track of charged particles generated during collisions, by using silicon strips and pixels to register the paths of charged particles. Once the track of a charged particle is reconstructed, its momentum can be extracted, by calculating the curb of its trajectory, produced by the electromagnetic field. Also, the vertex, the origin of the track, can be determined. The Tracker, which consists of an Inner Tracker (pixels) and an Outer Tracker (strips), is the first subdetector encountered by the particles, and thus the smallest, with an outer radius of 110 cm and a total length of 5.4 m, Figure \ref{tracker} shows the layout of the inner tracker.
+
+
+The coordinate system adopted by CMS has the origin at the center of the detector, the $y$-axis pointing vertically upward, and the $x$-axis pointing radially inward toward the center of the LHC. Thus, the z-axis points along the beam direction toward the Jura mountains from LHC Point 5. The azimuthal angle $\varphi$ is measured from the $x$-axis in the $x-y$ plane and the radial coordinate in this plane is denoted by $r$. The polar angle $\theta$ is measured from the $z$-axis. Pseudorapidity is defined as $\eta=- \ln \tan (\theta/2)$ \cite{CMS_Exp_2008}.\\
+%The components of the CMS detector, the tracking system, electromagnetic and hadronic calorimeter, and the muon system, are discribed briefly in the following subsections.
+
+\section{CMS Tracking System}
+The measurement of the momenta of charged particles is an essential aspect of any large particle physics experiment. Regardless of the medium through which a charged particle travels, it leaves a trail of ionised atoms and liberated electrons. By detecting this ionisation it is possible to reconstruct the trajectory of a charged particle. A charged particle will leave a hit in a silicon sensor in each cylindrical layer from which the trajectory of the charged particle track can be reconstructed.\cite{thomson_2013}.\\
+When a charged particle passes through a medium, it interacts electromagnetically with the atomic electrons and loses energy through the ionisation of the atoms \cite{thomson_2013}. The theory of such losses, which are due dominantly to Coulomb scattering from the atomic electrons, was worked out by Bethe, Bloch and others in the 1930s. The result is called the Bethe–Bloch formula: \cite{Martin2017_book}:
+
+\begin{equation}
+  -\frac{dE}{dx}= \frac{Dq^{2}n_{e}}{\beta ^{2}} \biggl[ \ln \left(\frac{2m_{e}c^{2}\gamma^{2}}{I} \right) -\beta^{2} -\frac{\delta(\gamma)}{2}  \biggr]
+  \label{bethe}
+\end{equation}
+
+$x$ is the distance travelled through the medium, $m_{e}$ is the electron mass, $\beta=v/c$,  $\gamma =(1-\beta^{2})^{-1/2}$ and $D=\frac{4\pi \alpha^{2} \hslash^{2}}{m_{e}}=$5.1$\times 10^{-25}$MeV cm$^{2}$. The other constants refers to the medium: $n_{e}$ is the electron density, $I$ is the mean ionisation potencial of the atoms averaged over all electrons (given approximately by $I$=10$Z$eV for $Z>$20) and $\delta$ is a dielectric screening correction that is only important for highly relativistic particles. %The corresponding formula for spin–1/2 particles differs from this, but in practice the differences are small and may be neglected for the discussion of the main features of ionisation energy losses. It is common practice to divide eq. \ref{bethe} by the mass density $\rho$ and to redefine $x$ as the density multiplied by the distance travelled, so that $\frac{dE}{dx}\rightarrow -\frac{1}{\rho}\frac{dE}{dx}$, beeing $x$ now measured in g/cm$^{2}$. As can be seen in \ref{bethe}, $-dE/dx$ falls rapidly as the velocity increases from zero because of the $1/\beta$ factor. All particles have a region of ‘minimum ionisation’ for $\beta \gamma$ \cite{Martin2017_book}.\\
+
+The tracking detector in the CMS experiment is based on semiconductor technology using silicon pixels and strips. It is composed of two sub systems, the pixel tracker (the closest to the interaction vertex) and the  strip tracker \cite{CMS_Exp_2008}. The Pixel detector is described below. 
+
+\subsection{Pixel Detector and Clustering}
+\label{pixel_clust_reco}
+The pixel tracker originally consisted of three barrel layers at radii of 44, 73, and 102 mm and two endcap disks on each end \cite{CMS_Exp_2008}. With the upgrade of the accelerators during the first long shutdown (LS1, 2013-2014) the original pixel detector has been replaced by a new system referred to as the CMS Phase-1 pixel detector. The installation of the CMS Phase-1 pixel detector took place during the extended year-end technical stop of the LHC in 2016/2017. The layout of the CMS Phase-1 pixel detector is optimized to have four-hit coverage over the pseudorapidity range ($|\eta|<2.5$), improved pattern recognition and track reconstruction, and added redundancy to cope with hit losses \cite{phase1_Pixel_Detector}. \\
+The CMS Phase-1 pixel detector consists of four concentric barrel layers (L1-L4) at radii of 29, 68, 109, and 160 mm, and three disks (D1-D3) on each end at distances of 291, 396, and 516 mm from the center of the detector. The layout of the CMS Phase-1 pixel detector is shown  in Fig. \ref{phase1_pixel_detector}. The total silicon area of the CMS Phase-1 pixel detector is 1.9 $\text{m}^{2}$, while the total silicon area of the original pixel detector was 1.1 $\text{m}^{2}$.
+
 \begin{center}
-\begin{figure}[ht]
+  \begin{figure}[ht]
     \centering
-    \includegraphics[width=1\textwidth]{Chapter2/pixel-detector.png}
-    \caption[CMS tracker.]{Diagram showing the layout of the CMS Phase-1 inner tracker. The barrel pixel detector (BPIX) and the forward disks pixel detector (FPIX) are shown \cite{CMSTrackerGroup:2020edz}.}
-    \label{tracker}
-\end{figure}
+    \includegraphics[scale=.26]{Chapter2/phase1_PixelDetector.png}
+    \caption[CMS Phase-1 pixel detector]{Layout of the CMS Phase-1 pixel detector in longitudinal view\cite{phase1_Pixel_Detector}.}
+    \label{phase1_pixel_detector}
+  \end{figure}
 \end{center}
-The tracker is divided into two subtrackers: one is the silicon strip tracker, made of 9.6 million silicon strips. This subtracker is divided in two parts: the Tracker Inner Barrel (TIB) and the Tracker Outer Barrel (TOB). The TIB is made of 4 layers that cover up to $|z|<65$ cm. The TOB has 6 layers, and a coverage of $|z|<110$ cm. The encaps are again divided into two regions,  Tracker End Cap (TEC) and Tracker Inner Disk (TID). The TEC is composed of 9 disks that extend in the region 120 cm $<|z|<$ 280 cm, while the TID has 3 disks that fill the gaps in between the TIB and the TEC. The TEC and the TID are made of rings centered on the beam, and possess stripst that point towards the beam.\\
-The strip tracker encompass and area of 200 $m^2$, and it is made of almost 15,400 modules, running at a  temperature of $-20^{\circ} C$.
 
-The other subtracker is the pixel tracker, made of three layers of barrels possessing a radius of 4.4 cm, 7.3 cm and 10.2 cm with a length of  53 cm, and consisting of 66 million pixels.  In each end of the barrels, two  end cap disks reside, extending from 6 to 15 cm in radius and located at $|z|=34.5$ cm and 44.5 cm, in total, the pixel tracker has an area of roughly 1$m^2$\\
-768 pixel modules are housed in the barrel, all arranged into half lathers of 4 identical modules. The end cap disks are designed in a turbine-like geometry, with blades rotated $20^{\circ}$. The blades are made of 7 different pixel modules, with a total of 768 modules being housed in the end cap disks \cite{cms-manual}.
-\subsection{CMS calorimetry system}
-The calorimetry system of the CMS detector is composed of two types of calorimeters: the electromagnetic and hadronic calorimeters. Both subdetectors form a complete and hermetic calorimetry system with a coverage of $-5<\eta<5$. The calorimeters are a crucial part of the CMS detector, since the identification and reconstruction of photons and electrons is done using measurements from the calorimetry system, as well as the measurements of jets and missing transverse momentum. A brief description of the electromagnetic and hadronic calorimeter is provided below.
 
-\subsubsection*{Electromagnetic calorimeter}
-The electromagnetic calorimeter (ECAL) measures the energy of electrons and photons. Once charged particles enter the ECAL, they produce a shower for secondary electrons and photons. These electrons pass through the lead tungstate ($PbWO_4$) crystals, which scintillates when electrons hit their crystalline structure, producing light that is measured by photodiodes in the calorimeter.\\
-It is made of 75848 tungstate crystals \cite{Contardo:2020886}. It is an hermetic, homogeneous calorimeter composed of a central barrel and two end-caps. Silicon avalanche photodiodes (APDs) are used in the barrel and vacuum phototriodes (VPTs) in the end caps.
-
-The central barrel has an inner radius of 129 cm and a structure of 36 “supermodules”, that cover half the barrel's length. It has a coverage of $|\eta|<1.479$. The APDs used on the barrel have an active area of $5\times5$ $mm^2$, and two of them are glued to the back of each crystal.\\
-The two end caps have a pseudorapidity range of $1.479<|\eta|<3$, and are located at a distance of 314 cm from the vertex. It consists of crystals with an identical shape,  grouped in mechanical units of $5\times 5$ \cite{cms-manual}.
-\subsubsection*{Hadron calorimeter}
-The Hadron calorimeter (HCAL), along with the ECAL, form a complete and hermetic calorimetry system  with the purpose of measuring  jets and missing transverse energy. The HCAL surrounds the ECAL and its design is heavily influenced by the magnet parameters, since it is located inside the solenoid magnet. The HCAL is divided into 4 parts: the hadron barrel (HB), hadron outer (HO), hadron endcap (HE) and hadron forward. The absorber material is brass since it has a short interaction length, is non-magnetic and is easy to machine. Tile/fiber technology, embedded between the absorber plates, is used to detect the particle showers. The technology consists of plastic scintillator tiles embedded with  wavelength- shifting (WLS) fibers. The fibers are connected to high-attenuation-length clear fibers that carry the light to the readout system.\\
-The photodetection readout is handled by multi-channel hybrid photodiodes (HPDs).
-
-The HB has an inner radius of 1777 mm and an outer radius of 2876.5 mm and has 17 scintillator layers and is composed of 2 half barrels covering a range of  $-1.4<\eta<1.4$, resulting in a total of 2304 towers.
-The HO covers a region of $-1.26<\eta<1.26$ and it contains scintillators with a thickness of 10 mm, lining the outside of the outer vacuum tank of the solenoid. The HE consists of 14 towers with a range of $1.3<\eta<3.0$. It is made entirely of brass plates, with a thickness of 78 mm.
-
-The HF calorimeter has a range of $3<\eta<5$ and is made of steel and quartz fibers. It is located 11.2 m from the interaction point, providing fast collection of Cherenkov light. The modules of the HF are constructed of 18 wedges arranged in a non-projective geometry, Figure \ref{wedge} shows and $r-\phi$ view of an HF wedge. The quartz fibers have a diameter of 0.6 mm and are placed 5 mm apart, forming a square grid. Two different lengths are used for the quartz fibers, 1.43 m and 1.65, effectively creating 2 longitudinal samplings. In total, 13 towers exist in $\eta$ with a size of $\Delta\eta\approx 0.175$, except for the lowest and highest-$\eta$ towers, which have a size of $\Delta\eta\approx 0.1$ and $\Delta\eta\approx 0.3$ respectively. A $\Delta\phi\approx 10^{\circ}$ exists for all towers but the highest-$\eta$ tower, which has a segmentation of $\Delta\phi\approx 20^{\circ}$. In total the HF calorimeter consist of 900 towers and 1800 channels \cite{cms-manual}.
+The CMS Phase-1 pixel detector is built from 1856 segmented silicon sensor modules, where 1184 modules are used in the barrel pixel detector (BPIX) and 672 modules are used for the forward disks (FPIX). Each module consists of a sensor with 160$\times$416 pixels connected to 16 readout chips (ROCs). In total there are 124 million readout channels \cite{phase1_Pixel_Detector}.\\
+The CMS Phase-1 pixel detector uses a similar module design as the BPIX modules of the original detector. A pixel detector module is built from a planar silicon sensor with a size of 18.6 $\times$ 66.6 $\text{mm}^{2}$ (active area of 16.2 $\times$ 64.8 $\text{mm}^{2}$), bump-bonded to an array of 2$\times$8 ROCs. Each ROC is segmented into 4160 readout channels and reads out the pulse height information for each pixel. The standard pixel size is 100$\times$150 $\mu m^{2}$, as in the original pixel detector.% Since two ROCs can only be placed at some minimum distance from each other, pixels along the ROC boundaries have twice the area and those at the corners have four times the area of a standard pixel. In order to simplify module production and maintenance, the same rectangular module geometry is used for the BPIX and FPIX detectors.
+Drawings of the CMS Phase-1 pixel detector modules are shown in Fig. \ref{modules_drawing} \cite{phase1_Pixel_Detector}.\\
 \begin{center}
-    
-\begin{figure}
+  \begin{figure}[ht]
     \centering
-    \includegraphics[scale=0.5]{Chapter2/hfes.PNG}
-    \caption[Hadron forward wadge.]{And r-$\phi$ view of a HF wadge.}
-    \label{wedge}
-\end{figure}
+    \includegraphics[scale=.2]{Chapter2/modules_drawing.png}
+    \caption[Pixel detector modules]{ Drawings of the pixel detector modules for BPIX L1 (left), BPIX L2–4 (middle), and the FPIX detector (right)\cite{phase1_Pixel_Detector}.}
+    \label{modules_drawing}
+  \end{figure}
 \end{center}
-\subsection{Muon Detector}
-The last subdetector of the CMS experiment is the muon detector system located in the magnet return yokes. The muon system consists of 3 types of gaseous detectors, used to detect muons and their momenta. These detectors are:  the drift tube chambers (DT), the cathode strips chambers (CSC) and the resistive plate chamber (RPC). These detector are distributed across the 2 central parts of the muon detector, the barrel and endcap sessions, with a coverage of $|\eta|<1.2$ and $|\eta|<2.4$ respectively. The distribution of these detectors is shown in Figure \ref{Muons}.
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=.45]{Chapter3/dt.png}
-    \caption[One quarter of the CMS muon system. ]{The diagram shows the layout of one quarter of the muon system at CMS \cite{cms-manual}.}
-    \label{Muons}
-\end{figure}
-
-The barrel DT detector  has a coverage of $|\eta|<1.2$, and consist of 250 chambers arranged in 4 layers inside the magnet return yoke, at a radii of approximately 4, 4.9, 5.9 and 7 meters from the beam line. The basic element of the DT detectors are cells, with a transverse size of $42\times 13$ $mm^2$, filled with a gas mixture of $85\%$ Ar and $15\%$ $CO_2$ \cite{cms7}. The cells have a gold-plated stainless steel anode wire, connected at their center. The wire has a diameter of 50 $\mu m$ and it operates at a voltage of +3600 V. \\
-The barrel detectors are divided into 12 sectors, each covering $30^{\circ}$ in the azimuthal direction.
-
-Installed on the encap regions, the CSC chambers are installed, covering a range of $0.9<\eta<2.4$. Their fast response time and their tolerance to non-uniform magnetic fields, makes the perfect for the high muon rates and background levels found in this region. The 6 layers of the CSC measure the muon positions in 2 coordinates. The cathode strips provide precise measurements on the r-$\phi$ bending plane, while the wires provide a coarse measurement in the radial direction. Each layer of the CSC contains 80 cathode strips with anode wires, of diameter 50 $\mu m$, running almost parallel to the cathodes.\\
-In total, the 2 encaps are comprised of 468 CSC chambers, filled with a gas mixture of $50\%$ $CO_2$, $40\%$ Ar and $10\%$ $CF_4$ \cite{cms7}.
-
-The RPC detectors is located in the barrel and encap regions of the muons system, complementing the DT and CSC detectors. It covers a region of $|\eta|<1.6$ and it provides fast, independent trigger events. The RPC are double-gap chambers, each gap consisting of 2 mm thick resistive bakelite plates, separated by a 2 mm thick gas gap.  Readout strips are aligned in the $\eta$ direction in between the gas gaps. The gaps are filled with a gas mixture of $95.2\%$ Freon $(C_2H_2F_4)$, $4.5\%$ isobutane $(i-C_4H_{10})$, and $0.3\%$ sulphur hexafluoride $(SF_6)$. Water vapor is added to reach a mixture humidity of $40\%$-$50\%$ \cite{cms7}. 
 
 
+In the BPIX detector, the orientation of the sensor surface of the modules is parallel to the magnetic field. The pixels are oriented with the long side parallel to the beam line. In the FPIX detector, the modules in the outer rings are rotated by 20$^{\circ}$ in a turbine-like geometry. However, to obtain optimal resolution in both the azimuthal and radial directions for the inner ring, the modules in the inner ring are arranged in an inverted cone array tilted by 12$^{\circ}$ with respect to the beam line, combined with the 20$^{\circ}$ rotation. The sensor orientation in the FPIX detector is such that the long side of the pixel is in the radial direction \cite{phase1_Pixel_Detector}.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{High Luminosity LHC}
-The LHC is the most powerful particle collider in the world, and it is to remain the most powerful for the next two decades. To ensure this, the LHC will receive major upgrades during the 2020s, to increase its luminosity by a factor of 5 beyond the original design. About 10 years will be needed to study and prototype the technologies required for the new High Luminosity LHC (HL-LHC). The HL-LHC project was created at the end of  2010 by CERN, as a response to the  European strategy for particle physics, to fully exploit the capabilities of the LHC. The project was approved on 30 of May of 2013 by the CERN council in charge at the time. For the next decade the HL-LHC is the major construction project of CERN. Several new technologies will be used to achieve the luminosity goal, some of them include: superconducting magnets capable of producing a magnetic field of 11 to 12 T, superconducting  cavities, compact and with phase control, for beam rotation, long high-power superconducting links with zero energy dissipation and new technologies for beam collimation \cite{cern3}.
+The sensors of the BPIX and FPIX detectors were produced by different companies in order not to depend on a single source. The concept and design were tailored to each vendor's production process, leading to two different sensor types. Both types of sensors are made of silicon and follow the n-in-n approach, with strongly n-doped (n+) pixelated implants on an n-doped silicon bulk and a p-doped back side. In a reverse-bias configuration, the n+ implants collect electrons \cite{phase1_Pixel_Detector}.\\
+%%%%%%
+%In the pixels, the interface between the silicon substrate and the silicon oxide carries a slight positive charge which increases by orders of magnitudes after ionizing radiation. This causes a conducting electron accumulation layer, which may short the electron-collecting electrodes. Therefore an n-side isolation is required. The technical implementation of this isolation has a large impact on the pixel cell layout and was chosen to best match the techniques offered by the two vendors.
+A Photograph of four pixel cells on a BPIX sensor and schematic of two pixel cells on an FPIX sensor is shown in Fig. \ref{photo_pixel}.% In the case of the BPIX sensors, the n-side isolation was implemented through the moderated p-spray technique with a punch-through biasing grid (Fig \ref{photo_pixel} left). The FPIX sensors use open p-stops for n-side isolation. Each pixel is surrounded by an individual p-stop which has an opening on one side (Fig. \ref{photo_pixel} right) \cite{phase1_Pixel_Detector}.
 \begin{center}
-\begin{figure}[H]
+  \begin{figure}[ht]
     \centering
-    \includegraphics[scale=1.5]{Chapter2/schedulelhc.jpg}
-    \caption[schedule of the LHC.]{The past and future schedule of the LHC. The red line corresponds to the center-of-mass-energy of the pp collisions, while the light-red line shows the expected luminosity \cite{schedule}.}
-    \label{programing}
-\end{figure}
+    \includegraphics[scale=.2]{Chapter2/pixel_foto.png}
+    \caption[Photograph of four pixels cells on a BPIX sensor and schematic of two pixel cells on an FPIX sensor]{ Photograph of four pixel cells on a BPIX -sensor (left) and schematic of two pixel cells on an FPIX sensor (right) \cite{phase1_Pixel_Detector}.}
+    \label{photo_pixel}
+  \end{figure}
 \end{center}
-Figure \ref{programing} shows the  schedule of the LHC up until 2025, where the new phase of the LHC, the HL-LHC, will  begin. After reaching a center-of-mass-energy of 13 during 2015, the LHC has doubled the luminosity for which it was designed, as  of the end of Run 2.
-
-The main objectives of the HL-LHC is to reach a peak luminosity of 5 to $7.5\times10^{34}$ $cm^{-2}s^{-1}$, and an integrated luminosity of 250 $fb^{-1}$ per year, with the goal of reaching a total integrated luminosity of 3000 $fb^{-1}$, in the first 12 years of the machines operation. For this, intensive studies have, and are, being conducted to determine the hardware and the configuration needed to achieve these goals.\\
-The new hardware of the HL-LHC is to be installed during the third long shutdown (LS3). To ensure that the integrated luminosity goal is met, all equipment is being designed with a $50\%$ margin in regards to the required luminosity. This means that the High Luminosity LHC can reach peak luminosity valued of 7 to $7.5\times10^{34}$ $cm^{-2}s^{-1}$, this will mean an increase in total pileup (rate of pp collision per bunch crossing) up to 200 \cite{cern3}.
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Tracker End-Cap Pixel luminometer}
-
-Along with the new HL-LHC upgrade, several upgrades will come to the CMS detector to accommodate the new luminosity and pileup requirements.  The tracker, muon end caps, trigger and beam radiation protection are just a few of the new upgrades scheduled for the CMS detector. However, the focus of this work will be solely on the tracker upgrades, more specifically, the inner  tracker end cap pixel (TEPX) luminometer.
-
-For Phase-2 of the CMS tracking the entire existing pixel and strip tracker will be replaced. Figure \ref{TEPXl} shows the r-z layout of the three sections of the Phase-2 inner tracker: the  tracker barrel pixel (TBPX), composed of four cylindrical layers of modules, the tracker’s forward (TFPX) and the tracker end-cap (TEPX) pixel detectors, made of 8 and 4 disks of pixel modules respectively. The new tracker will include: increased granularity, forward acceptance and radiation hardness as well as compatibility with longer trigger latency and higher data rates.
-The silicon pixel modules will have a thickness of 100-150 $\mu m$, while the pixel cells will have an area of 2500 $\mu m^2$ ($25\times 100$ $\mu m^2$) \cite{CERN-LHCC-2017-009}\cite{DelBurgo:2706637}. Two types of modules will be used in the inner tracker, modules with 2 and 4 pixel chips. The modules will be arranged in $2\times1$ and $2\times 2$, these modules are depicted as green and yellow respectively in  Figure \ref{TEPXl}. TBPX and TFPX will be composed of both types of modules, while TEPX will only use $2\times 2$ modules \cite{DelBurgo:2706637}. 
+%The calibration procedure includes the adjustment of phases for programming and readout signals, the determination and equalization of pixel charge thresholds, the calibration of pixel charge measurements, as well as the masking of non-working channels \cite{phase1_Pixel_Detector}.\\
+%By design, the position resolution of the CMS Phase-1 pixel detector depends strongly on the charge sharing between pixels. The pixel shape of 100 $\times$ 150$\mu\text{m}^{2}$ means that in order to obtain an optimal position measurement in the azimuthal direction (the bending plane for charged particle tracks within the CMS magnet) the charge width  has to be of the order of the pixel pitch, that is 100$\mu \text{m}$. The charge width is defined as the projection on the module coordinates of the area where the charge is collected on the detector surface. In the strong magnetic field of 3.8 T provided by the CMS magnet, the Lorentz angle (LA) for the drifting electrons has a value of about 27$^{\circ}$. With the sensor thickness of 285 $\mu \text{m}$, this produces a charge width of 145 $\mu \text{m}$, which is sufficient to share the charge between at least two pixels \cite{phase1_Pixel_Detector}.\\
+The most probable value of energy deposition for normally incident minimum-ionizing particles (MIPs) in a silicon sensor with a thickness of 285 $\mu \text{m}$ corresponds to approximately 21000 electrons. This charge is frequently spread over more than one pixel due to Lorentz drift and diffusion of collected electrons, leading to charge clusters. In the track reconstruction step, hit pixels are combined to form clusters from neighboring pixels. The charge measured within the cluster corresponds to the charge deposited by a single charged particle \cite{phase1_Pixel_Detector}. \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%% LO DE NOISE AND TRESHOLDS LO MUEVO AL SIG. CAPITULO%%%%%%%%%%%%%%%%
+%The LA depends strongly on the bias voltage of the sensor and weakly on the temperature. It is also affected by the
+%The lowest possible value that can be chosen for the threshold of a given pixel is an important performance parameter, since thresholds directly influence the position resolution. The strategy adopted is to adjust each ROC to its lowest possible threshold, which results in a non-uniform threshold distribution between different ROCs (with a standard deviation of about 150-200$e^{-}$). Within ROCs, pixels are trimmed to a common threshold using the available 3-bit adjustment in each pixel (resulting in an average standard deviation per ROC of about 75-100$e^{-}$). The ROCs in BPIX L1 had to be adjusted to thresholds higher than the possible minimum due to the larger cross-talk noise.\\
+%The threshold and the noise are determined by recording the S-curves (as described inSec. 3.6) for a number of pixels per ROC. A subset of 81 pixels per ROC was found to be sufficient to determine the average threshold and noise values per ROC. After the initial adjustment of the pixel thresholds, periodic re-adjustments are needed. Radiation influences various parameters of the ROC, which results in threshold shifts. The pixel thresholds are closely monitored over the course of the data-taking period, and re-adjusted if necessary. During the technical stops in 2017 and at the beginning of 2018, the thresholds have been re-optimized. The BPIX L2-4 thresholds stayed roughly constant at about 1400 $e^{-}$, similarly for the FPIX detector at about 1500 $e^{-}$. For BPIX L about 2600 $e^{-}$ in 2017. After optimization in 2018, the L1 thresholds were about 2200 $e^{-}$.\\
+%With these pixel thresholds the number of noise hits was very low, below 10 pixels per bunch crossing per layer, resulting in a per pixel noise hit probability of less than  $10^{-6}$. Individual pixels that showed a hit probability exceeding 0.1\% were masked during operation. The total fraction of masked pixels was less than 0.01\%
+%The hit efficiency is the probability to find a cluster in a given silicon sensor that has been traversed by a charged particle <-- from 
+%%%%% HEREEE
+%\subsection{Strip tracker}
+The rest of the tracker system surrounds the Pixel detector: the Strip tracker, as can be seen in Fig. \ref{strip_layout}. It is composed of for subsystems: the Tracker Inner Barrel (TIB) and Disks (TID), the Tracker Outer Barrel (TOB) and The Tracker EndCaps (TEC). TIB and TID are composed of four barrel layers, supplemented by three disks at each end; TOB consists of six barrel layers; Each TEC is composed of nine disks, containing up to seven concentric rings of silicon strip modules. The strip tracker has in total  15 148 silicon modules, which cover an active area of about 198$\text{m}^{2}$ and have 9.3 million strips \cite{CMS_Exp_2008}.
+%Original text:
+% The strip tracker is composed of for subsystems: the Tracker Inner Barrel (TIB) and Disks (TID), the Tracker Outer Barrel (TOB) and The Tracker EndCaps (TEC). Fig. \ref{strip_layout} shows an schematic cross section through the CMS trackers with the four subsystems. The TIB and TID cover $ r <\text{55 cm}$ and $|z| <\text{118 cm} 118$, and are composed of four barrel layers, supplemented by three disks at each end.  The TOB covers $r > \text{55 cm}$ and $|z| < \text{118 cm} $and consists of six barrel layers providing position measurements in $r\phi$ with a resolution of approximately 18–47$\mu \text{m}$.  The TEC cover the region 124 $< |z|$ < 282 cm. Each TEC is composed of nine disks, each containing up to seven concentric rings of silicon strip modules, yielding a range of resolutions similar to that of the TOB \cite{CMS_Exp_2008}.\\ The strip tracker has in total  15 148 silicon modules, which cover an active area of about 198$\text{m}^{2}$ and have 9.3 million strips \cite{CMS_Exp_2008}.
 \begin{center}
-\begin{figure}[H]
+  \begin{figure}[ht]
     \centering
-    \includegraphics[scale=.2]{Chapter2/TEPX.png}
-    \caption[Diagram of the Phase-2 inner tracker upgrade.]{\textit{Lefts}: Diagram of the Phase-2 inner tracker upgrade. The last four yellow lines between 1700 mm and 2700 mm, correspond to the TEPX subdetector. \textit{Right}:  Front view of one of the disks of the TEPX subdetector \cite{DelBurgo:2706637}.}
-    \label{TEPXl}
-\end{figure}
+    \includegraphics[scale=.23]{Chapter2/strip_layout.png}
+    \caption[Schematic cross section through the CMS tracker]{Schematic cross section through the CMS tracker. Each line represents a detector module \cite{CMS_Exp_2008}. The Pixel tracker here is not the CMS Phase-1 pixel detector.}
+    \label{strip_layout}
+  \end{figure}
 \end{center}
-For Phase-2 the TEPX portion of the tracker will be designated for tracking and luminosity measurements, while disk 4 ring 1 (TEPXD4R1) of the detector will designated for luminosity measurements only. The TEPX detector is located at each extremity of the tracker of the CMS detector, with a range  from 175 cm to 265 cm on the $|z|$ direction and a radius  between 63 mm and 255 mm. The detector is composed of 4 double sided disks, each one made of 5 concentric rings of pixel modules. To guarantee hermetic coverage, each ring has a different number of pixel modules. TEPX is composed of 800 million pixels, distributed over an area of 2$m^2$, and will operate at trigger frequency of 75KHz during physics runs. Table \ref{rings} shows the number of modules per ring, as well as the radius of each ring.
 
-\begin{table}[H]
-\centering
-\caption[Radius and number of pixel modules that comprise the rings of the TEPX subdetector.]{ Table shows the inner ($r_{in}$) and outer ($r_{out}$) radius, as well as the number of pixel modules that comprise each ring of each disk of the TEPX subdetector}
-\scalebox{.8}{
-\begin{tabular}{|l | c | c | c |c|c|}
-\hline
- Ring & 1& 2&3&4&5   \\
-\hline
-$r_{in}$ (mm) & 62.9&100.55 &137.85 &174.45 &210.5\\
-\hline
-$r_{out}$ (mm)&107.69 &144.99 &182.09 &218.56 &254.51 \\
-\hline
- No. of modules&20 &28 &36 &44&48 \\
-\hline
-\end{tabular}}
-\label{rings}
-\end{table}
+%\subsection{Hit/Cluster reconstruction in the Pixel detector}
+The first step of the track reconstruction process is referred to as local reconstruction. It consists of the clustering of zero-suppressed signals above specified thresholds in pixel channels into hits, and then estimating the cluster positions and their uncertainties defined in a local orthogonal coordinate system $(u,v)$ in the plane of each sensor. The pixel sensor consists of 100 $\times$ 150$\mu \text{m}^{2}$ pixels with the u-axis oriented parallel to the shorter pixel edge. Offline, pixel clusters are formed from adjacent pixels, including both side-by-side and corner-by corner adjacent cells. Each cluster must have a minimum charge equivalent to 4000 electrons \cite{Track_Reco_2014}.
+%Two algorithms are used to determine the position of pixel clusters. A fast algorithm, referred to as ``First-pass hit reconstruction'' ,is used during track seeding and pattern recognition, and a more precise algorithm, referred to as ``Template-based hit reconstruction'', is  based on cluster shaped and is used in the final track fit \cite{Track_Reco_2014} .\\
+%1st algorithm
+%The First-pass hit reconstruction consists of the following. The position of a pixel cluster along the transverse $(u)$ and longitudinal $(v)$ directions in the local orthogonal system are estimated independently with the same procedure. The cluster is projected onto the $u$-axis by summing the charge collected in pixels with the same $u$-coordinate. The result is referred to as a projected cluster. For projected clusters that are only one pixel large, the $u$-position is given by the centre of that pixel, corrected for the Lorentz drift of the collected charge in the CMS magnetic field. For larger projected clusters, the hit position is determined using the relative charge in the two pixels at each end of the projected cluster \cite{Track_Reco_2014}.\\
+% For the pixel barrel, the Lorentz shift is approximately 59µm
+%2nd algorithm
+%The template-based hit reconstruction comes from the fact that the high level of radiation exposure of the pixel detector can affect significantly the collection of charge by the pixels during the detector’s useful life. This degrades particularly the performance of the standard hit reconstruction algorithm mentioned before.\\% In the template-based reconstruction algorithm, the observed distribution of the cluster charge is compared to expected projected distributions, called templates, to estimate the positions of hits. The templates are generated based on a large number of simulated particles traversing pixel modules, which are modelled using the detailed simulation of pixel sensors (PIXELAV). Since the PIXELAV program can describe the behaviour of irradiated sensors, new templates can be generated over the life of the detector to maintain the performance of the hit reconstruction. To allow the template-based algorithm to be applied to tracks crossing the silicon at various angles, different sets of templates are generated for several ranges of the angle between the particle trajectory and the sensor \cite{Track_Reco_2014}.\\
+%The track reconstruction is done by using the hits, obtained from the local reconstruction, to obtain estimates for the momentum and position parameters of the charged particles responsible for the hits (tracks).
+%NOTA: En la seccion 10.5 del paper de phase 2 pixel, menciononan cuantos electrones se porducen aprox. Algo de ionixacion minima
+%10.4 tambien
 
+%%%%%%%%%%%%%% FOLLOWING SECTIONS ARE SUMMARIZED ~ 2ND PARAGRAPH OF THIS CHAPTER%%%%%%5
+%%%%\section{Electromagnetic calorimeter}
+%%%%
+%%%%The electromagnetic calorimeter of CMS (ECAL) is a hermetic homogeneous calorimeter made of 61 200 lead tungstate (PbWO4) crystals mounted in the central barrel part, closed by 7 324 crystals in each of the two endcaps. A preshower detector is placed in front of the endcap crystals. Avalanche photodiodes (APDs) are used as photodetectors in the barrel and vacuum phototriodes (VPTs) in the endcaps. The use of high density crystals has allowed the design of a calorimeter which is fast, has fine granularity and is radiation resistant, all important characteristics in the LHC environment \cite{CMS_Exp_2008}.\\
+%%%%The barrel section (EB) has an inner radius of 129 cm. It is structured as 36 identical “supermodules,” each covering half the barrel length and corresponding to a pseudorapidity interval of 0 $< |\eta| <$ 1.479. The crystals are quasi-projective (the axes are tilted at 3$^{\circ}$ with respect to the line from the nominal vertex position) and cover 0.0174 (i.e. 1$^{\circ}$) in$ \Delta \varphi$ and $\Delta \eta$. The crystals have a front face cross-section of $\approx$22$\times$22 mm$^{2}$ and a length of 230 mm \cite{TDR_CMS}.\\
+%%%%The endcaps (EE), at a distance of 314 cm from the vertex and covering a pseudorapidity range of 1.479 $< |\eta| <$ 3.0, are each structured as 2 “Dees”, consisting of semi-circular aluminium plates from which are cantilevered structural units of 5$\times$5 crystals, known as “supercrystals.” The endcap crystals, like the barrel crystals, off-point from the nominal vertex position, but are arranged in an x-y grid (i.e. not an $\eta - \varphi$ grid). They are all identical and have a front face cross section of 28.6$\times$28.6 mm2 and a length of 220 mm. A preshower device is placed in front of the crystal calorimeter over much of the endcap pseudorapidity range. The active elements of this device are 2 planes of silicon strip detectors, with a pitch of 1.9 mm, which lie behind disks of lead absorber \cite{TDR_CMS}. Fig. \ref{ECAL} shows a transverse section of the ECAL.
+%%%%
+%%%%
+%%%%\begin{center}
+%%%%  \begin{figure}[ht]
+%%%%    \centering
+%%%%    \includegraphics[scale=.25]{Chapter2/ECAL.png}
+%%%%    \caption[Electromagnetic Calorimeter]{Transverse section of the  Electromagnetic calorimeter, showing geometrical configuration \cite{TDR_CMS}.}
+%%%%    \label{ECAL}
+%%%%  \end{figure}
+%%%%\end{center}
+%%%%
+%%%%
+%%%%\section{Hadron calorimeter}
+%%%%The ECAL is surrounded by a brass/scintillator sampling hadron calorimeter (HCAL) with coverage up to $|\eta|<$3.0. The scintillation light is converted by wavelength-shifting (WLS) fibres embedded in the scintillator tiles and channeled to photodetectors via clear fibres. This light is detected by photodetectors (hybrid photodiodes, or HPDs) that can provide gain and operate in high axial magnetic fields. This central calorimetry is complemented by a tail-catcher in the barrel region (HO) ensuring that hadronic showers are sampled with nearly 11 hadronic interaction lengths. Coverage up to a pseudorapidity of 5.0 is provided by an iron/quartz-fibre calorimeter. The Cerenkov light emitted in the quartz fibres is detected by photomultipliers \cite{CMS_Exp_2008}. Fig. \ref{HCAL} shows a longitudinal view of the CMS detector showing the locations of the HCAL subsystems.\\
+%%%%The Hadron Barrel (HB) is a sampling calorimeter covering the pseudorapidity range $|\eta|<$ 1.3. The HB is divided into two half-barrel sections, each half-section being inserted from either end of the barrel cryostat of the superconducting solenoid and subsequently hung from rails in the median plane. The hadron calorimeter endcaps (HE) cover a substantial portion of the rapidity range, 1.3 $< |\eta| <$ 3 (13.2\% of the solid angle), a region containing about 34\% of the particles produced in the final state. In the central pseudorapidity region, the combined stopping power of EB plus HB does not provide sufficient containment for hadron showers. To ensure adequate sampling depth for $|\eta | <$ 1.3, the hadron calorimeter is extended outside the solenoid with a tail catcher called the HO or outer calorimeter. The forward calorimeters (HF) ensure full geometric coverage for the measurement of the transverse energy in the event. The calorimeter consists of a steel absorber structure that is composed of 5 mm thick grooved plates. The detector is functionally subdivided into two longitudinal segments. Half of the fibres run over the full depth of the absorber (165 cm )while the other half starts at a depth of 22 cm from the front of the detector. An even higher forward coverage is obtained with additional dedicated calorimeters CASTOR (Centauro And Strange Object Research) and ZDC (Zero degree calorimeter) and with the TOTEM (experiment TOTal Elastic and diffractive cross section Measurement) tracking detectors \cite{CMS_Exp_2008}.
+%%%%
+%%%%\begin{center}
+%%%%  \begin{figure}[ht]
+%%%%    \centering
+%%%%    \includegraphics[scale=.3]{Chapter2/HCAL.png}
+%%%%    \caption[Hadron Calorimeter]{ Longitudinal view of the CMS detector showing the locations of the hadron barrel (HB), endcap (HE), outer (HO) and forward (HF) calorimeters  \cite{CMS_Exp_2008}.}
+%%%%    \label{HCAL}
+%%%%  \end{figure}
+%%%%\end{center}
+%%%%
+%%%%
+%%%%\section{Muon system}
+%%%%
+%%%%After the HCAL and the 13-m-long, 6-m-inner-diameter, 4-T superconducting solenoid, the muons detector system is placed. The CMS muon system is designed to have the capability of reconstructing the momentum and charge of muons over the the entire kinematic range of the LHC; CMS uses 3 types of gaseous particle detectors for muon identification. Due to the shape of the solenoid magnet, the muon system was naturally driven to have a cylindrical, barrel section and 2 planar endcap regions, where are distributed three subsystems: the Barrel Drift Tube (DT), the Cathode Strip Chambers (CSC) and the Resistive Plate Chambers (RPC) \cite{CMS_Exp_2008}. A schematic diagram of the CMS detector showing the three subsystems is shown in figure \ref{Muon_detector}. \\
+%%%%The barrel DT chambers cover the pseudorapidity region $|\eta| <$ 1.2 and are organized into 4 stations interspersed among the layers of the flux return plates. The first 3 stations each contain 8 chambers, in 2 groups of 4, which measure the muon coordinate in the $r- \varphi$ bending plane, and 4 chambers which provide a measurement in the $z$ direction, along the beam line. The fourth station does not contain the $z$-measuring planes \cite{CMS_Exp_2008}.\\
+%%%%In the 2 endcap regions of CMS,  the muon system uses cathode  CCS. The  CSCs identify muons between $|\eta|$ values of 0.9 and 2.4. There are 4 stations of CSCs in each endcap, with chambers positioned perpendicular to the beam line and interspersed between the flux return plates. The cathode strips of each chamber run radially outward and provide a precision measurement in the $r-\varphi $ bending plane. The anode wires run approximately perpendicular to the strips and are also read out in order to provide measurements of $\eta$ and the beam-crossing time of a muon. Each 6-layer CSC provides robust pattern recognition for rejection of non-muon backgrounds and efficient matching of hits to those in other stations and to the CMS inner tracker \cite{CMS_Exp_2008}.\\
+%%%%A complementary, dedicated trigger system consisting of RPC was added in both the barrel and endcap regions. The RPCs provide a fast, independent, and highly-segmented trigger with a sharp $p_{T}$ threshold over a large portion of the rapidity range  ($|eta| <$ 1.6) of the muon system. A total of 6 layers of RPCs are embedded in the barrel muon system, 2 in each of the first 2 stations, and 1 in each of the last 2 stations \cite{CMS_Exp_2008}. 
+%%%%
+%%%%
+%%%%\begin{center}
+%%%%  \begin{figure}[ht]
+%%%%    \centering
+%%%%    \includegraphics[scale=.3]{Chapter2/MuonDetector_Layout.png}
+%%%%    \caption[Muon Detector]{ An $R-z$ cross section of a quadrant of the CMS detector with the axis parallel to the beam ($z$) running horizontally and the radius ($R$) increasing upward. The locations of the various muon stations are shown. The drift tube stations (DTs) are labeled MB (“Muon Barrel”) and the cathode strip chambers (CSCs) are labeled ME (“Muon Endcap”). Resistive plate chambers (RPCs) are mounted in both the barrel and endcaps of CMS, where they are labeled RB and RE, respectively \cite{MuonDetPerf_CMS}.}
+%%%%    \label{Muon_detector}
+%%%%  \end{figure}
+%%%%\end{center}
+%%%%
 
-The innermost ring of the last disk, disk 4 ring 1 (TEPXD4R1), lies beyond a pseudorapidity of $|\eta|=4$ and due to the low number of tracking points in this region, this ring will be designated for luminosity measurements only. The ring consists of 20 modules, and it has an inner radius of 62.9 mm and an outer radius of  107.69 mm. Finally, the luminometer may run at a trigger frequency of 825kHz to several MHz.\\
-Luminosity measurements with the TEPX's detectors will be carried out using the Pixel cluster counting (PCC) method described in the next chapter.
+\subsection{CMS Luminometers}
+Various systems are used for measuring luminosity at CMS. The Pixel Luminosity Telescope (PLT) and Fast Beam Conditions Monitor (BCM1F) are dedicated systems for luminosity measurement, while the hadronic forward calorimeter (HF) uses a dedicated readout on an existing system; these three use a separate data acquisition (DAQ) system, BRILDAQ, which operates independently of the main CMS readout \cite{pas_18}.\\
+The PLT uses silicon pixel sensors arranged into 16 “telescopes”, each having three sensor planes arranged nearly parallel to the beam pipe, where the rate of “triple coincidences” is measured; a hit is observed in all three planes.\\
+BCM1F consists of a total of 24 sensors mounted on the same carriage as the PLT, consisting of a total of 10 silicon sensors, 10 polycrystalline diamond (pCVD) sensors, and 4 single-crystal diamond (sCVD) sensors.\\
+The HF luminosity measurement uses a dedicated readout system installed in the HF calorimeter. Only two HF rings are used for luminosity measurement, to ensure relatively uniform occupancy. Two algorithms are available: the first relies on the fraction of occupied towers (HFOC), and the second is based on the sum of the transverse energy ET (HFET).\\
+In addition other methods that uses data from existing parts of the CMS detector performs a luminosity measurement using the main CMS DAQ system. One of them is the drift tube luminosity (DT) which uses the rate of muon track stubs in the muon barrel track finder. Also, the RAMSES detectors, a CERN radiation and environmental monitoring sytem, although not being designed as a luminometer does function quite well as a luminosity measurement; it uses the rate observed in the detectors (primarily photons within the energy range of 50 keV to 7 MeV).\\ Other method is the pixel cluster counting (PCC), which will be described with more detail in chapter 3.

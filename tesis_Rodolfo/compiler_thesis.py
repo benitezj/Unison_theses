@@ -1,3 +1,7 @@
+######Instructions######
+#Run as :
+#>python3 compiler_thesis.py
+#######################
 import os
 # colorama_demo.py
 from colorama import init, Fore, Back, Style
