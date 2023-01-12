@@ -1,0 +1,173 @@
+\documentclass[final,12p]{CSP}
+\usepackage{graphicx}
+\usepackage[letterpaper,margin=1.0in]{geometry}
+\usepackage{amssymb}
+\usepackage{changepage}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{afterpage}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\usepackage[utf8]{inputenc}
+\usepackage{lastpage}
+
+
+\def\Student{Ashish Sehrawat}
+\def\Director{Dr. Jos\'{e} Feliciano Ben\'{i}tez Rubio}
+\def\Title{MONOGRAPH}
+\def\Prog{Doctorado en Ciencias (F\'{i}sica) }
+\def\Dept{Departamento de Investigac\'{i}on en Fis\'{i}ca}
+\def\Division{Division de Ciencias Exactas y Naturales}
+\def\Universidad{Universidad de Sonora}
+
+\def\ProjectTitle{Luminosity measurement with the Pixel detector at the CMS experiment of the Large Hadron Collider }
+\def\ResearchLine{Astrof\'{i}sica, Cosmolog\'{i}a y F\'{i}sica de Part\'{i}culas}
+
+
+\newcommand{\SubItem}[1]{
+    {\setlength\itemindent{15pt} \item[-] #1}
+}
+
+
+%%header and footer
+\lhead{\Student / \Prog }
+\rhead{\Title}
+\lfoot{\Dept}
+\rfoot{Page \thepage}
+\setlength{\headsep}{0.2in}
+\renewcommand{\footrulewidth}{0.4pt}% default is 0pt
+
+
+\begin{document}
+
+%%%%Cover page
+\begin{titlepage}
+  \centering
+  \hspace{0pt}
+  \vfill
+        {\scshape\Large \Title \par}
+
+	\vspace{2cm}
+        %\begin{adjustwidth}{2cm}{2cm}{
+        %    TITLE:\par
+            {\large \bf \ProjectTitle \par}
+        %  }
+        %\end{adjustwidth}
+
+%	\vspace{0.5cm}
+%        \begin{adjustwidth}{2cm}{2cm}{
+%            RESEARCH LINE: \par
+%            \ResearchLine \par}
+%        \end{adjustwidth}
+
+        
+        \vspace{4cm}
+        %{\underline{\hspace{8cm}}\par}
+	{\scshape\large \Student \par}
+        {PhD. Student\par}
+
+        \vspace{1cm}
+        %{\underline{\hspace{8cm}}\par}
+	{\scshape \Director \par}
+        {Thesis Director\par}
+
+        \vspace{1cm}
+        {\bf \Prog \par}
+        {\Dept \par}
+        {\Division \par}
+        {\scshape \Universidad \par}
+
+        \vspace{4cm}
+	{\today}
+
+\hspace{0pt}
+\vfill
+
+\end{titlepage}
+%%%%% white page for print out
+\shipout\null
+
+%%%% Title and Abstract Page
+\newpage
+\hspace{2pt}
+%\vfill
+
+\begin{adjustwidth}{1cm}{1cm}
+
+  \begin{center}
+    {\Large \ProjectTitle \par}
+    \vspace{0.5cm}
+
+    {\Student \par}
+    {\Universidad \par}  
+    \vspace{1cm}
+    
+    {\itshape\textbf{Abstract}\par}
+     \vspace{0.7 cm}
+        
+    \end{center}  
+
+ 
+  \onehalfspacing The Pixel Cluster Counting (PCC) luminosity measurement method is an offline technique for the calculation of luminosity for any LHC run period based on counting the number of pixel clusters in the CMS pixel detector (innermost part of the CMS tracker) using minimum bias events. We investigate stability of PCC luminosity using 2018 CMS data for various subdetectors in the upgraded Phase I pixel detector. For Run 2 data, we aim to achieve 1\% uncertainty on the final luminosity measurement. Also, we develop the algorithms and optimization for the Phase II High Luminosity LHC (HL-LHC) luminosity measurement using the Tracker Endcap Pixel Detector (TEPX) for which excellent statistical and linearity performance is expected.
+    
+\end{adjustwidth}
+
+
+\hspace{2pt}
+%\vfill
+\vspace{1 cm}
+
+%%%%%%%%%%%%%%%%%%%
+\clearpage
+\shipout\null
+
+%%%%%% Begin the body
+\newpage
+\onehalfspacing
+
+\newpage
+
+\listoffigures
+
+\newpage
+
+\tableofcontents
+
+\clearpage
+\newpage
+
+\input{intro}
+
+\input{LHC}
+
+\input{CMS}
+
+\input{PCC}
+
+\input{vdM}
+
+\input{bkg}
+
+\input{syst}
+
+\input{results}
+
+\input{upgrade}
+
+\input{conclusion}
+
+
+\cleardoublepage
+\onehalfspacing
+\bibliographystyle{unsrt}
+\bibliography{paper}
+
+\end{document}
+
+
+
+
