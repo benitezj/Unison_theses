@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: Portada/Portada.aux
+A level-1 auxiliary file: Dedication/dedication.aux
+A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
+A level-1 auxiliary file: Abstract/abstract.aux
+A level-1 auxiliary file: Abstract/resumen.aux
+A level-1 auxiliary file: Chapter1/chapter1.aux
+A level-1 auxiliary file: Chapter2/chapter2.aux
+A level-1 auxiliary file: Chapter3/chapter3.aux
+A level-1 auxiliary file: Chapter4/chapter4.aux
+A level-1 auxiliary file: Chapter5/chapter5.aux
+The style file: unsrtnat.bst
+Database file #1: References.bib
+I was expecting a `,' or a `}'---line 69 of file References.bib
+ : 
+ : @article{Atlas_Exp_2008,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty author in pas_18
+You've used 2 entries,
+            2481 wiz_defined-function locations,
+            576 strings with 4928 characters,
+and the built_in function-call counts, 562 in all, are:
+= -- 54
+> -- 7
+< -- 1
++ -- 6
+- -- 2
+* -- 38
+:= -- 92
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 5
+chr.to.int$ -- 2
+cite$ -- 4
+duplicate$ -- 33
+empty$ -- 57
+format.name$ -- 3
+if$ -- 116
+int.to.chr$ -- 1
+int.to.str$ -- 3
+missing$ -- 1
+newline$ -- 19
+num.names$ -- 3
+pop$ -- 11
+preamble$ -- 1
+purify$ -- 2
+quote$ -- 0
+skip$ -- 21
+stack$ -- 0
+substring$ -- 14
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 14
+warning$ -- 1
+while$ -- 3
+width$ -- 0
+write$ -- 36
+(There was 1 error message)

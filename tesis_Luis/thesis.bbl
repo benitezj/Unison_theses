@@ -1,0 +1,20 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[pas(2019)]{pas_18}
+{CMS luminosity measurement for the 2018 data-taking period at $\sqrt{s} =
+  13~\mathrm{TeV}$}.
+\newblock Technical report, CERN, Geneva, 2019.
+\newblock URL \url{https://cds.cern.ch/record/2676164}.
+
+\bibitem[Karacheban(2020)]{vdM_sketch}
+Olena Karacheban.
+\newblock {Performance of the BRIL luminometers at CMS in Run 2}.
+\newblock \emph{PoS}, EPS-HEP2019:\penalty0 194, 2020.
+\newblock \doi{10.22323/1.364.0194}.
+
+\end{thebibliography}
