@@ -18,46 +18,55 @@ I was expecting a `,' or a `}'---line 69 of file References.bib
  : @article{Atlas_Exp_2008,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Repeated entry---line 591 of file References.bib
+ : @misc{wikicern
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "lumi_motiv" isn't style-file defined
+--line 867 of file References.bib
+Warning--empty year in lumi_motiv
+Warning--empty publisher in ref_lib_vol3
+Warning--empty author in pas_17
 Warning--empty author in pas_18
-You've used 2 entries,
+You've used 15 entries,
             2481 wiz_defined-function locations,
-            576 strings with 4928 characters,
-and the built_in function-call counts, 562 in all, are:
-= -- 54
-> -- 7
-< -- 1
-+ -- 6
-- -- 2
-* -- 38
-:= -- 92
-add.period$ -- 7
-call.type$ -- 2
-change.case$ -- 5
-chr.to.int$ -- 2
-cite$ -- 4
-duplicate$ -- 33
-empty$ -- 57
-format.name$ -- 3
-if$ -- 116
-int.to.chr$ -- 1
-int.to.str$ -- 3
-missing$ -- 1
-newline$ -- 19
-num.names$ -- 3
-pop$ -- 11
+            658 strings with 7133 characters,
+and the built_in function-call counts, 5024 in all, are:
+= -- 485
+> -- 100
+< -- 13
++ -- 61
+- -- 28
+* -- 354
+:= -- 747
+add.period$ -- 57
+call.type$ -- 15
+change.case$ -- 28
+chr.to.int$ -- 12
+cite$ -- 22
+duplicate$ -- 277
+empty$ -- 531
+format.name$ -- 44
+if$ -- 1095
+int.to.chr$ -- 4
+int.to.str$ -- 16
+missing$ -- 14
+newline$ -- 94
+num.names$ -- 36
+pop$ -- 122
 preamble$ -- 1
-purify$ -- 2
+purify$ -- 15
 quote$ -- 0
-skip$ -- 21
+skip$ -- 162
 stack$ -- 0
-substring$ -- 14
-swap$ -- 3
-text.length$ -- 0
+substring$ -- 282
+swap$ -- 49
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 14
-warning$ -- 1
-while$ -- 3
+type$ -- 96
+warning$ -- 4
+while$ -- 38
 width$ -- 0
-write$ -- 36
-(There was 1 error message)
+write$ -- 221
+(There were 2 error messages)

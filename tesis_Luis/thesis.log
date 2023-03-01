@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.11)  15 FEB 2023 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.11)  1 MAR 2023 10:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1434,7 +1434,7 @@ or `english'. on input line 123.
 \openout2 = `Portada/Portada.aux'.
 
  (./Portada/Portada.tex
-<unison-logo.png, id=115, 321.2pt x 321.2pt>
+<unison-logo.png, id=107, 321.2pt x 321.2pt>
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
 Package pdftex.def Info: unison-logo.png  used on input line 24.
@@ -1511,18 +1511,8 @@ l.9 \end{dedication}
  (./Acknowledgement/acknowledgement.tex)
 \openout2 = `Abstract/abstract.aux'.
 
- (./Abstract/abstract.tex
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \begin{center}
-                  
-? 
-) [3
+ (./Abstract/abstract.tex)
+[3
 
 
 
@@ -1562,66 +1552,223 @@ No file thesis.nls.
 
 (./Chapter1/chapter1.tex
 Chapter 1.
-! Too many }'s.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.67   \end{figure}
-                   
-? 
-! Extra \endgroup.
-\color@endgroup ->\endgraf \endgroup 
-                                     
-l.67   \end{figure}
-                   
-? 
-! Too many }'s.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.67   \end{figure}
-                   
-? 
 
-! LaTeX Error: \begin{document} ended by \end{figure}.
+! LaTeX Error: Unicode character β (U+03B2)
+               not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67   \end{figure}
-                   
-? 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.67   \end{figure}
-                   
+l.10 ...e first  is responsible for the nuclear β
+                                                  -decays and the nuclear fu...
+
 ? 
 
-! LaTeX Error: \begin{document} ended by \end{center}.
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+[1
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+! Extra }, or forgotten $.
+l.32 ...ration\end{tabular}} & tau      & ({$\tau}
+                                                  $\textsuperscript{-})     ...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.32 ...au}$\textsuperscript{-})                 &
+                                                   -1                       ...
+
+? 
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.87 ...he interaction called cross section \sigma
+                                                  _{p}.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.88 
+     
+? 
+[4]
+
+! LaTeX Error: Unicode character σ (U+03C3)
+               not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \end{center}
-                 
+l.100 ...on.Sometimes it is helpful to think of σ
+                                                   as the eﬀective cross s...
+
 ? 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.68 \end{center}
-                 
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+! Undefined control sequence.
+<argument> n_{b}(v_{a}+v_{b})A\sigma \dela 
+                                           t
+l.106 ...rac{n_{b}(v_{a}+v_{b})A\sigma \dela t}{A}
+                                                  = n_{b}v\sigma \delta t ,
 ? 
-) [1
+<Chapter1/cross_section.png, id=219, 948.54375pt x 341.275pt>
+File: Chapter1/cross_section.png Graphic file (type png)
+<use Chapter1/cross_section.png>
+Package pdftex.def Info: Chapter1/cross_section.png  used on input line 113.
+(pdftex.def)             Requested size: 331.99529pt x 119.44803pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5] [6 <./Chapter1/cross_section.png>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+
+ []
+
+<Chapter1/luminosity.png, id=241, 1111.15125pt x 482.80376pt>
+File: Chapter1/luminosity.png Graphic file (type png)
+<use Chapter1/luminosity.png>
+Package pdftex.def Info: Chapter1/luminosity.png  used on input line 181.
+(pdftex.def)             Requested size: 277.78712pt x 120.70064pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7]
+! Extra }, or forgotten $.
+l.208 where $N_{1} \textit{ and } }
+                                    N_{2}$ are the particles per bunch, $f$ ...
+
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+[8 <./Chapter1/luminosity.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 220--222
+
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
-] [2]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.274 
+      
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+87.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+[11]
+<Chapter1/lhc_complex_fig.png, id=292, 846.16125pt x 683.55376pt>
+File: Chapter1/lhc_complex_fig.png Graphic file (type png)
+<use Chapter1/lhc_complex_fig.png>
+Package pdftex.def Info: Chapter1/lhc_complex_fig.png  used on input line 299.
+(pdftex.def)             Requested size: 346.92836pt x 280.25885pt.
+ [12 <./Chapter1/lhc_complex_fig.png (PNG copy)>]
+<Chapter1/int_lumi_per_year.png, id=311, 1144.275pt x 800.9925pt>
+File: Chapter1/int_lumi_per_year.png Graphic file (type png)
+<use Chapter1/int_lumi_per_year.png>
+Package pdftex.def Info: Chapter1/int_lumi_per_year.png  used on input line 317
+.
+(pdftex.def)             Requested size: 343.28514pt x 240.29959pt.
+ [13 <./Chapter1/int_lumi_per_year.png (PNG copy)>]) [14]
 \openout2 = `Chapter2/chapter2.aux'.
 
  (./Chapter2/chapter2.tex
 Chapter 2.
-) [3
+) [15
 
 
 
@@ -1631,257 +1778,70 @@ Chapter 2.
 
  (./Chapter3/chapter3.tex
 Chapter 3.
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 
-     
-? 
-[4
+) [16
 
 
 
 
 ]
-<Chapter3/vdm_sketch.png, id=232, 736.7525pt x 523.9575pt>
-File: Chapter3/vdm_sketch.png Graphic file (type png)
-<use Chapter3/vdm_sketch.png>
-Package pdftex.def Info: Chapter3/vdm_sketch.png  used on input line 57.
-(pdftex.def)             Requested size: 272.59416pt x 193.86124pt.
-) [5 <./Chapter3/vdm_sketch.png (PNG copy)>]
 \openout2 = `Chapter4/chapter4.aux'.
 
  (./Chapter4/chapter4.tex
 Chapter 4.
-[6
+) [17
 
 
 
 
 ]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 98.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 98.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 98.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 98.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 98.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 98.
-
-[7]
-
-LaTeX Warning: File `Chapter4/plots/xscan.png' not found on input line 114.
-
-
-! Package pdftex.def Error: File `Chapter4/plots/xscan.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 ...=.38\textwidth]{Chapter4/plots/xscan.png}
-                                                  
-? 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-14.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-
-LaTeX Warning: File `Chapter4/plots/yscan.png' not found on input line 115.
-
-
-! Package pdftex.def Error: File `Chapter4/plots/yscan.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.115 ...=.38\textwidth]{Chapter4/plots/yscan.png}
-                                                  \\
-? 
-
-LaTeX Warning: File `Chapter4/plots/xscan_logy.png' not found on input line 127
-.
-
-
-! Package pdftex.def Error: File `Chapter4/plots/xscan_logy.png' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 ...textwidth]{Chapter4/plots/xscan_logy.png}
-                                                  
-? 
-
-LaTeX Warning: File `Chapter4/plots/yscan_logy.png' not found on input line 128
-.
-
-
-! Package pdftex.def Error: File `Chapter4/plots/yscan_logy.png' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 ...textwidth]{Chapter4/plots/yscan_logy.png}
-                                                  
-? 
-
-LaTeX Warning: File `Chapter4/plots_thesis/chi2_Poly2G.png' not found on input 
-line 137.
-
-
-! Package pdftex.def Error: File `Chapter4/plots_thesis/chi2_Poly2G.png' not fo
-und: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.137 ...0]{Chapter4/plots_thesis/chi2_Poly2G.png}
-                                                  
-? 
-
-LaTeX Warning: File `Chapter4/plots_thesis/CapSigma_Poly2G.png' not found on in
-put line 146.
-
-
-! Package pdftex.def Error: File `Chapter4/plots_thesis/CapSigma_Poly2G.png' no
-t found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.146 ...hapter4/plots_thesis/CapSigma_Poly2G.png}
-                                                  
-? 
-
-LaTeX Warning: File `Chapter4/plots_thesis/peak_Poly2G.png' not found on input 
-line 147.
-
-
-! Package pdftex.def Error: File `Chapter4/plots_thesis/peak_Poly2G.png' not fo
-und: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 ...h]{Chapter4/plots_thesis/peak_Poly2G.png}
-                                                  
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
-
- []
-
-[8]
-
-LaTeX Warning: File `Chapter4/plots_thesis/Poly2G_xsec.png' not found on input 
-line 168.
-
-
-! Package pdftex.def Error: File `Chapter4/plots_thesis/Poly2G_xsec.png' not fo
-und: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 ...5]{Chapter4/plots_thesis/Poly2G_xsec.png}
-                                                  
-? 
-[9]
-
-LaTeX Warning: File `Chapter4/plots/xsec_perscan_v2.png' not found on input lin
-e 187.
-
-
-! Package pdftex.def Error: File `Chapter4/plots/xsec_perscan_v2.png' not found
-: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 ...0.37]{Chapter4/plots/xsec_perscan_v2.png}
-                                                  
-? 
-) [10]
 \openout2 = `Chapter5/chapter5.aux'.
 
  (./Chapter5/chapter5.tex
 Chapter 5.
-) [11
+) [18
 
 
 
 
-] (./thesis.bbl) [12
+] (./thesis.bbl [19
 
 
 
 
-]
+]) [20]
 No file thesis.ind.
 (./thesis.aux (./Portada/Portada.aux) (./Dedication/dedication.aux)
 (./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux)
 (./Abstract/resumen.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
 (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux))
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A5CE64603038AA29C9ADB3DBF2C35B33;4880.
+(rerunfilecheck)             Checksum: F5EC7F5AB08B22645A62E4B5473D9C8C;4384.
  ) 
 Here is how much of TeX's memory you used:
- 43426 strings out of 478287
- 1000077 string characters out of 5849289
- 1395028 words of memory out of 5000000
- 60445 multiletter control sequences out of 15000+600000
- 557860 words of font info for 249 fonts, out of 8000000 for 9000
+ 43514 strings out of 478287
+ 998711 string characters out of 5849289
+ 1402145 words of memory out of 5000000
+ 60436 multiletter control sequences out of 15000+600000
+ 569728 words of font info for 323 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,13n,120p,1009b,877s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
-mes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (19 pages, 383831 bytes).
+ 125i,16n,120p,1300b,969s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (27 pages, 657680 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
- 89327 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 431 PDF objects out of 1000 (max. 8388607)
+ 364 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 105710 words of extra memory for PDF output out of 106986 (max. 10000000)
 
