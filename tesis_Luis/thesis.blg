@@ -28,45 +28,46 @@ Warning--empty year in lumi_motiv
 Warning--empty publisher in ref_lib_vol3
 Warning--empty author in pas_17
 Warning--empty author in pas_18
-You've used 15 entries,
+Warning--empty author in PCC_PAS_12_001
+You've used 20 entries,
             2481 wiz_defined-function locations,
-            658 strings with 7133 characters,
-and the built_in function-call counts, 5024 in all, are:
-= -- 485
-> -- 100
-< -- 13
-+ -- 61
-- -- 28
-* -- 354
-:= -- 747
-add.period$ -- 57
-call.type$ -- 15
-change.case$ -- 28
-chr.to.int$ -- 12
-cite$ -- 22
-duplicate$ -- 277
-empty$ -- 531
-format.name$ -- 44
-if$ -- 1095
+            699 strings with 7824 characters,
+and the built_in function-call counts, 6827 in all, are:
+= -- 669
+> -- 136
+< -- 17
++ -- 81
+- -- 38
+* -- 497
+:= -- 1016
+add.period$ -- 76
+call.type$ -- 20
+change.case$ -- 39
+chr.to.int$ -- 17
+cite$ -- 29
+duplicate$ -- 367
+empty$ -- 716
+format.name$ -- 60
+if$ -- 1485
 int.to.chr$ -- 4
-int.to.str$ -- 16
-missing$ -- 14
-newline$ -- 94
-num.names$ -- 36
-pop$ -- 122
+int.to.str$ -- 21
+missing$ -- 19
+newline$ -- 122
+num.names$ -- 48
+pop$ -- 153
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 20
 quote$ -- 0
-skip$ -- 162
+skip$ -- 212
 stack$ -- 0
-substring$ -- 282
-swap$ -- 49
+substring$ -- 422
+swap$ -- 61
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
-warning$ -- 4
-while$ -- 38
+type$ -- 128
+warning$ -- 5
+while$ -- 52
 width$ -- 0
-write$ -- 221
+write$ -- 295
 (There were 2 error messages)
