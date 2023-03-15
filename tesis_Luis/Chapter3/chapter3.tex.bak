@@ -30,19 +30,20 @@ For the VdM measurement, a special trigger mode is employed, which enables a hig
 
 \section{Luminosity calibration: van der Meer method}
 
-As we saw  in chapter 1 the instantaneous luminosity for a single colliding bunch is guiven by \ref{luminosity_2}, in practice The measurement of the beam currents Ni is well determined, but the individual proton density functions cannot be directly measured. The VdM method is a dedicated machine setup determines the value of the two beam overlap integrals  obteniendo density profiles close to normal distributions by varying the beam separation and measuring the resulting rates:,
+As discussed in Chapter 1, the instantaneous luminosity for a single colliding bunch is described by Eq. (\ref{luminosity_2}). In practice, while the measurement of the beam currents $N_{1,2}$ is well determined, the individual proton density functions cannot be directly measured. To address this, the VdM method involves a specific machine setup that allows for the determination of the two beam overlap integrals. This is achieved by varying the separation between the beams and measuring the resulting rates, which can be used to obtain density profiles that are close to normal distributions.
 
 \begin{equation}
 \int \rho_{x1}(x) \rho_{x2}(x) dx = \frac{R_{x}(0)}{\int R_{x}(\Delta) d\Delta}
 \end{equation}
 
-where $R_{x}(\Delta)$ is the rate measured when the two beams are separated in x by a distance $\Delta$; a asimilar equation can be written in y. Then the beam overlap width $\Sigma_{x}$ (and similarly $\Sigma_{y}$) is defined as \cite{pas_18}:
+where $R_{x}(\Delta)$ is the rate measured when the two beams are separated in $x$ by a distance $\Delta$; a asimilar equation can be written in $y$. Then the beam overlap width $\Sigma_{x}$ (and similarly $\Sigma_{y}$) is defined as \cite{pas_18}:
 
 \begin{equation}
 \Sigma_{x}= \frac{1}{\sqrt{2\pi}} \frac{\int R_{x}(\Delta)d\Delta}{R_{x}(0)}
+\label{CapSigma}
 \end{equation}
 
-yielding the final expression for luminosity (for one single bunch):
+This process leads to the final expression for luminosity for a single colliding bunch:
 
 \begin{equation}
 \mathcal{L}_{inst}=\frac{N_{1} N_{2}f}{2 \pi \Sigma_{x}\Sigma_{y}}
@@ -50,22 +51,20 @@ yielding the final expression for luminosity (for one single bunch):
 
 where $N_{1,2}$ are the particles per bunch (bunch current) and  $f= 11246$ Hz is the bunch orbit frequency around the LHC ring.\\
 
-######################################3333
-This expression can be finally used in \ref{lumi_exp_gen} to get $\sigma_{vis}$:
-
+Therefore, the formula used to measure the visible cross sections $\sigma_{vis}$ takes the following form:
 
 \begin{equation}
   \sigma_{vis}=\frac{2\pi \Sigma_{x} \Sigma_{y} R(0, 0)}{N_{1}N_{2} f}
   \label{sigmavis_eq}
 \end{equation}
 
-Experimentally, two separate scans in the x and y directions are performed. The beams are scanned against each other  while measuring the rate (normalized by the product of the beam currents) at a certain number of separation steps, fitting the resulting points with a functional form, and using the fitted function to extract $\Sigma_{x,y}$ and $R(0,0)$ in \ref{sigmavis_eq}. Fig. \ref{vdm_sketch} shows an sketch of the beam positions during vdM scans in X and Y planes together with the detector rate as a function of beam separation.
+Experimentally, the quantities $\Sigma_{x}$ and $\Sigma_{y}$, as defined in Eq. (\ref{CapSigma}), are determined by conducting two separate scans in the $x$ and $y$ directions, respectively. These scans are performed by varying the separation between the beams in each direction and measuring the rate $R(0,0)$, which is normalized by the product of the beam currents, at a fixed number of separation steps. The separation steps are determined through curve fitting of the scan data based on the luminometer rate measurements obtained during the vdM scans. While the beam widths are the same for all luminometers, the peaks of the corresponding scan curves are luminometer-specific. Figure \ref{vdm_sketch} depicts a schematic of the beam positions during vdM scans in the $x$ and $y$ planes, along with the detector rate as a function of beam separation  \cite{pas_18}.
 
 \begin{center}
   \begin{figure}[ht]
     \centering
     \includegraphics[scale=.37]{Chapter3/vdm_sketch.png}
-    \caption[Sketch of a vdM scan in X and Y planes and example of fitting resulting rates]{ The sketch of a vdM scan in X and Y planes. The indent sketch is an example of the fitting of the resulting rates \cite{vdM_sketch}.}
+    \caption[Sketch of a vdM scan in x and y planes and example of fitting resulting rates]{ The sketch of a vdM scan in $x$ and $y$ planes. The indent sketch is an example of the fitting of the resulting rates \cite{vdM_sketch}.}
     \label{vdm_sketch}
   \end{figure}
 \end{center}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.11)  8 MAR 2023 18:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.11)  14 MAR 2023 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1434,7 +1434,7 @@ or `english'. on input line 123.
 \openout2 = `Portada/Portada.aux'.
 
  (./Portada/Portada.tex
-<unison-logo.png, id=83, 321.2pt x 321.2pt>
+<unison-logo.png, id=99, 321.2pt x 321.2pt>
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
 Package pdftex.def Info: unison-logo.png  used on input line 24.
@@ -1630,7 +1630,7 @@ l.87
 l.105 ...rac{n_{b}(v_{a}+v_{b})A\sigma \dela t}{A}
                                                   = n_{b}v\sigma \delta t ,
 ? 
-<Chapter1/cross_section.png, id=205, 948.54375pt x 341.275pt>
+<Chapter1/cross_section.png, id=231, 948.54375pt x 341.275pt>
 File: Chapter1/cross_section.png Graphic file (type png)
 <use Chapter1/cross_section.png>
 Package pdftex.def Info: Chapter1/cross_section.png  used on input line 112.
@@ -1650,7 +1650,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
-<Chapter1/luminosity.png, id=227, 1111.15125pt x 482.80376pt>
+<Chapter1/luminosity.png, id=253, 1111.15125pt x 482.80376pt>
 File: Chapter1/luminosity.png Graphic file (type png)
 <use Chapter1/luminosity.png>
 Package pdftex.def Info: Chapter1/luminosity.png  used on input line 178.
@@ -1712,7 +1712,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [11]
-<Chapter1/lhc_complex_fig.png, id=278, 846.16125pt x 683.55376pt>
+<Chapter1/lhc_complex_fig.png, id=304, 846.16125pt x 683.55376pt>
 File: Chapter1/lhc_complex_fig.png Graphic file (type png)
 <use Chapter1/lhc_complex_fig.png>
 Package pdftex.def Info: Chapter1/lhc_complex_fig.png  used on input line 288.
@@ -1724,7 +1724,7 @@ Package pdftex.def Info: Chapter1/lhc_complex_fig.png  used on input line 288.
 l.299 
       
 ? 
-<Chapter1/int_lumi_per_year.png, id=292, 1144.275pt x 800.9925pt>
+<Chapter1/int_lumi_per_year.png, id=319, 1144.275pt x 800.9925pt>
 File: Chapter1/int_lumi_per_year.png Graphic file (type png)
 <use Chapter1/int_lumi_per_year.png>
 Package pdftex.def Info: Chapter1/int_lumi_per_year.png  used on input line 305
@@ -1748,14 +1748,14 @@ l.11
 
 
 ]
-<Chapter2/CMS_detector_simple.png, id=313, 1113.15875pt x 809.0225pt>
+<Chapter2/CMS_detector_simple.png, id=339, 1113.15875pt x 809.0225pt>
 File: Chapter2/CMS_detector_simple.png Graphic file (type png)
 <use Chapter2/CMS_detector_simple.png>
 Package pdftex.def Info: Chapter2/CMS_detector_simple.png  used on input line 1
 5.
 (pdftex.def)             Requested size: 333.95021pt x 242.70862pt.
  [15 <./Chapter2/CMS_detector_simple.png (PNG copy)>]
-<Chapter2/slice_det.png, id=319, 1225.57875pt x 835.12pt>
+<Chapter2/slice_det.png, id=345, 1225.57875pt x 835.12pt>
 File: Chapter2/slice_det.png Graphic file (type png)
 <use Chapter2/slice_det.png>
 Package pdftex.def Info: Chapter2/slice_det.png  used on input line 33.
@@ -1766,13 +1766,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
  []
 
 [16 <./Chapter2/slice_det.png (PNG copy)>]
-<Chapter2/strip_layout.png, id=328, 1599.9775pt x 749.80125pt>
+<Chapter2/strip_layout.png, id=354, 1599.9775pt x 749.80125pt>
 File: Chapter2/strip_layout.png Graphic file (type png)
 <use Chapter2/strip_layout.png>
 Package pdftex.def Info: Chapter2/strip_layout.png  used on input line 50.
 (pdftex.def)             Requested size: 367.98709pt x 172.45065pt.
  [17 <./Chapter2/strip_layout.png (PNG copy)>]
-<Chapter2/phase1_PixelDetector.png, id=340, 1583.9175pt x 442.65375pt>
+<Chapter2/phase1_PixelDetector.png, id=366, 1583.9175pt x 442.65375pt>
 File: Chapter2/phase1_PixelDetector.png Graphic file (type png)
 <use Chapter2/phase1_PixelDetector.png>
 Package pdftex.def Info: Chapter2/phase1_PixelDetector.png  used on input line 
@@ -1788,7 +1788,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--87
  []
 
 [18]
-<Chapter2/modules_drawing.png, id=354, 1740.5025pt x 393.47pt>
+<Chapter2/modules_drawing.png, id=380, 1740.5025pt x 393.47pt>
 File: Chapter2/modules_drawing.png Graphic file (type png)
 <use Chapter2/modules_drawing.png>
 Package pdftex.def Info: Chapter2/modules_drawing.png  used on input line 95.
@@ -1804,12 +1804,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
-<Chapter2/PixelSensor.png, id=365, 494.84875pt x 373.395pt>
+<Chapter2/PixelSensor.png, id=391, 494.84875pt x 373.395pt>
 File: Chapter2/PixelSensor.png Graphic file (type png)
 <use Chapter2/PixelSensor.png>
 Package pdftex.def Info: Chapter2/PixelSensor.png  used on input line 109.
 (pdftex.def)             Requested size: 148.45576pt x 112.01936pt.
-<Chapter2/hit.png, id=366, 636.3775pt x 298.11375pt>
+<Chapter2/hit.png, id=392, 636.3775pt x 298.11375pt>
 File: Chapter2/hit.png Graphic file (type png)
 <use Chapter2/hit.png>
 Package pdftex.def Info: Chapter2/hit.png  used on input line 109.
@@ -1826,176 +1826,61 @@ Chapter 3.
 
 
 ] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 #
-      #####################################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ##
-       ####################################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ###
-        ###################################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ####
-         ##################################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 #####
-          #################################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ######
-           ################################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 #######
-            ###############################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ########
-             ##############################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 #########
-              #############################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ##########
-               ############################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ###########
-                ###########################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ############
-                 ##########################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 #############
-                  #########################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ##############
-                   ########################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ###############
-                    #######################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ################
-                     ######################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 #################
-                      #####################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ##################
-                       ####################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ###################
-                        ###################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ####################
-                         ##################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 #####################
-                          #################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ######################
-                           ################3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 #######################
-                            ###############3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ########################
-                             ##############3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 #########################
-                              #############3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ##########################
-                               ############3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ###########################
-                                ###########3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ############################
-                                 ##########3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 #############################
-                                  #########3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ##############################
-                                   ########3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ###############################
-                                    #######3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ################################
-                                     ######3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 #################################
-                                      #####3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ##################################
-                                       ####3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ###################################
-                                        ###3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ####################################
-                                         ##3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 #####################################
-                                          #3333
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.53 ######################################
-                                           3333
-? 
-<Chapter3/vdm_sketch.png, id=401, 736.7525pt x 523.9575pt>
+<Chapter3/vdm_sketch.png, id=427, 736.7525pt x 523.9575pt>
 File: Chapter3/vdm_sketch.png Graphic file (type png)
 <use Chapter3/vdm_sketch.png>
-Package pdftex.def Info: Chapter3/vdm_sketch.png  used on input line 67.
+Package pdftex.def Info: Chapter3/vdm_sketch.png  used on input line 66.
 (pdftex.def)             Requested size: 272.59416pt x 193.86124pt.
 ) [24 <./Chapter3/vdm_sketch.png (PNG copy)>]
 \openout2 = `Chapter4/chapter4.aux'.
 
- (./Chapter4/chapter4.tex)
+ (./Chapter4/chapter4.tex
+Chapter 4.
+! Undefined control sequence.
+l.4 ...n, the two beams are separated by $6\sigmab
+                                                  $ ≈ 578 $\mu m$ and scan...
+
+? 
+
+! LaTeX Error: Unicode character ≈ (U+2248)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...e two beams are separated by $6\sigmab$ ≈
+                                                   578 $\mu m$ and scanned a...
+
+? 
+<Chapter4/2022Scanprorgam.png, id=440, 1203.49625pt x 444.66125pt>
+File: Chapter4/2022Scanprorgam.png Graphic file (type png)
+<use Chapter4/2022Scanprorgam.png>
+Package pdftex.def Info: Chapter4/2022Scanprorgam.png  used on input line 11.
+(pdftex.def)             Requested size: 361.05167pt x 133.3994pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25
+
+
+
+
+] [26 <./Chapter4/2022Scanprorgam.png>]
+<Chapter4/RMSmean.png, id=451, 806.01125pt x 649.42625pt>
+File: Chapter4/RMSmean.png Graphic file (type png)
+<use Chapter4/RMSmean.png>
+Package pdftex.def Info: Chapter4/RMSmean.png  used on input line 48.
+(pdftex.def)             Requested size: 161.19939pt x 129.88295pt.
+ [27 <./Chapter4/RMSmean.png>])
+[28]
 \openout2 = `Chapter5/chapter5.aux'.
 
-
-(./Chapter5/chapter5.tex) (./thesis.bbl [25
-
+ (./Chapter5/chapter5.tex) (./thesis.bbl [29
 
 
 
@@ -2003,25 +1888,23 @@ Package pdftex.def Info: Chapter3/vdm_sketch.png  used on input line 67.
 
 
 
-
-
-]) [26]
+]) [30]
 No file thesis.ind.
 (./thesis.aux (./Portada/Portada.aux) (./Dedication/dedication.aux)
 (./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux)
 (./Abstract/resumen.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
 (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux))
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0BE3FFD2288C2CC336C2677037F50ABE;3483.
+(rerunfilecheck)             Checksum: 5D8036DACD7B96FFB3DD5A0F120C09E8;4141.
  ) 
 Here is how much of TeX's memory you used:
- 43623 strings out of 478287
- 1001091 string characters out of 5849289
- 1403088 words of memory out of 5000000
- 60504 multiletter control sequences out of 15000+600000
+ 43659 strings out of 478287
+ 1001736 string characters out of 5849289
+ 1403437 words of memory out of 5000000
+ 60527 multiletter control sequences out of 15000+600000
  573785 words of font info for 335 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,16n,120p,1324b,969s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 125i,16n,120p,1368b,969s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -2036,10 +1919,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on thesis.pdf (33 pages, 2508214 bytes).
+Output written on thesis.pdf (37 pages, 3016561 bytes).
 PDF statistics:
- 504 PDF objects out of 1000 (max. 8388607)
- 413 compressed objects within 5 object streams
- 114 named destinations out of 1000 (max. 500000)
- 105702 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 558 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 105744 words of extra memory for PDF output out of 106986 (max. 10000000)
 
