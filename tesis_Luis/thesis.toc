@@ -4,11 +4,11 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Fundamental Particles}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Particle Colliders}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Cross section}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Cross section}{4}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Luminosity }{7}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Importance of Luminosity precision}{10}{section.1.5}%
 \contentsline {section}{\numberline {1.6}The Large Hadron Collider}{11}{section.1.6}%
-\contentsline {section}{\numberline {1.7}LHC Luminosity}{13}{section.1.7}%
+\contentsline {section}{\numberline {1.7}LHC Luminosity}{12}{section.1.7}%
 \contentsline {chapter}{\numberline {2}Experiment Description }{14}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The Compact Muon Solenoid}{14}{section.2.1}%
 \contentsline {section}{\numberline {2.2}CMS Tracking System}{17}{section.2.2}%
@@ -21,4 +21,7 @@
 \contentsline {section}{\numberline {4.1}2022 vdM scan program}{25}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Data analysis}{26}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Module selection}{27}{section.4.3}%
-\contentsline {chapter}{References}{29}{chapter*.22}%
+\contentsline {section}{\numberline {4.4}Background estimation}{28}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Corrections}{30}{section.4.5}%
+\contentsline {section}{\numberline {4.6}van der Meer Scans and $\sigma _{vis}$ Results}{32}{section.4.6}%
+\contentsline {chapter}{References}{36}{chapter*.30}%

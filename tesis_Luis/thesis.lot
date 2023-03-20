@@ -1,7 +1,8 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces The twelve fundamental fermions divided into quarks and leptons.\ The masses of the quarks are the current masses.\relax }}{2}{table.caption.6}%
-\contentsline {table}{\numberline {1.2}{\ignorespaces Force experienced by the fermions\relax }}{2}{table.caption.7}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces The twelve fundamental fermions divided into quarks and leptons.\ The masses of the quarks are the current masses \cite {thomson_2013}.\relax }}{2}{table.caption.6}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Force experienced by the fermions \cite {thomson_2013}.\relax }}{2}{table.caption.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Number of good and bad modules for the combined vetolist, after each iteration of the4\% RMS selection with an additional period.\relax }}{28}{table.caption.21}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Number of good and bad modules for the combined vetolist, after each iteration of the 4\% RMS selection with an additional period.\relax }}{28}{table.caption.21}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Mean and standard error on mean (SEM) for the PCC background estimated with the SS1 and SS2 data, separately for all five BCIDs and averaged.\relax }}{30}{table.caption.24}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.11)  14 MAR 2023 10:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.11)  19 MAR 2023 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1434,7 +1434,7 @@ or `english'. on input line 123.
 \openout2 = `Portada/Portada.aux'.
 
  (./Portada/Portada.tex
-<unison-logo.png, id=99, 321.2pt x 321.2pt>
+<unison-logo.png, id=111, 321.2pt x 321.2pt>
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
 Package pdftex.def Info: unison-logo.png  used on input line 24.
@@ -1586,7 +1586,17 @@ l.31 ...au}$\textsuperscript{-})                 &
                                                    -1                       ...
 
 ? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
@@ -1596,138 +1606,125 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-
- []
-
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.86 ...he interaction called cross section \sigma
+l.82 ...he interaction called cross section \sigma
                                                   _{p}.
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.87 
+l.83 
      
 ? 
 [4]
 ! Undefined control sequence.
 <argument> n_{b}(v_{a}+v_{b})A\sigma \dela 
                                            t
-l.105 ...rac{n_{b}(v_{a}+v_{b})A\sigma \dela t}{A}
+l.101 ...rac{n_{b}(v_{a}+v_{b})A\sigma \dela t}{A}
                                                   = n_{b}v\sigma \delta t ,
 ? 
-<Chapter1/cross_section.png, id=231, 948.54375pt x 341.275pt>
+<Chapter1/cross_section.png, id=271, 948.54375pt x 341.275pt>
 File: Chapter1/cross_section.png Graphic file (type png)
 <use Chapter1/cross_section.png>
-Package pdftex.def Info: Chapter1/cross_section.png  used on input line 112.
+Package pdftex.def Info: Chapter1/cross_section.png  used on input line 108.
 (pdftex.def)             Requested size: 331.99529pt x 119.44803pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5] [6 <./Chapter1/cross_section.png>]
+[5]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 157.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 157.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 157.
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
+ [6 <./Chapter1/cross_section.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-<Chapter1/luminosity.png, id=253, 1111.15125pt x 482.80376pt>
+<Chapter1/luminosity.png, id=296, 1111.15125pt x 482.80376pt>
 File: Chapter1/luminosity.png Graphic file (type png)
 <use Chapter1/luminosity.png>
-Package pdftex.def Info: Chapter1/luminosity.png  used on input line 178.
+Package pdftex.def Info: Chapter1/luminosity.png  used on input line 174.
 (pdftex.def)             Requested size: 277.78712pt x 120.70064pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7]
+[7 <./Chapter1/luminosity.png>]
 ! Extra }, or forgotten $.
-l.205 where $N_{1} \textit{ and } }
+l.201 where $N_{1} \textit{ and } }
                                     N_{2}$ are the particles per bunch, $f$ ...
 
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
-
- []
-
-[8 <./Chapter1/luminosity.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
 
  []
 
-[9]
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
 ! Undefined control sequence.
-l.247   \mathcal{L}_{int} \ndot
+l.243   \mathcal{L}_{int} \ndot
                                 \sigma_{p}= \text{number of events of interest}
 
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.265 
+l.261 
       
 ? 
 [10]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-77.
+73.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [11]
-<Chapter1/lhc_complex_fig.png, id=304, 846.16125pt x 683.55376pt>
+<Chapter1/lhc_complex_fig.png, id=347, 846.16125pt x 683.55376pt>
 File: Chapter1/lhc_complex_fig.png Graphic file (type png)
 <use Chapter1/lhc_complex_fig.png>
-Package pdftex.def Info: Chapter1/lhc_complex_fig.png  used on input line 288.
+Package pdftex.def Info: Chapter1/lhc_complex_fig.png  used on input line 284.
 (pdftex.def)             Requested size: 346.92836pt x 280.25885pt.
- [12 <./Chapter1/lhc_complex_fig.png (PNG copy)>]
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.299 
+l.295 
       
 ? 
-<Chapter1/int_lumi_per_year.png, id=319, 1144.275pt x 800.9925pt>
+[12 <./Chapter1/lhc_complex_fig.png (PNG copy)>]
+<Chapter1/int_lumi_per_year.png, id=360, 1144.275pt x 800.9925pt>
 File: Chapter1/int_lumi_per_year.png Graphic file (type png)
 <use Chapter1/int_lumi_per_year.png>
-Package pdftex.def Info: Chapter1/int_lumi_per_year.png  used on input line 305
+Package pdftex.def Info: Chapter1/int_lumi_per_year.png  used on input line 301
 .
 (pdftex.def)             Requested size: 343.28514pt x 240.29959pt.
 ) [13 <./Chapter1/int_lumi_per_year.png (PNG copy)>]
@@ -1748,14 +1745,14 @@ l.11
 
 
 ]
-<Chapter2/CMS_detector_simple.png, id=339, 1113.15875pt x 809.0225pt>
+<Chapter2/CMS_detector_simple.png, id=379, 1113.15875pt x 809.0225pt>
 File: Chapter2/CMS_detector_simple.png Graphic file (type png)
 <use Chapter2/CMS_detector_simple.png>
 Package pdftex.def Info: Chapter2/CMS_detector_simple.png  used on input line 1
 5.
 (pdftex.def)             Requested size: 333.95021pt x 242.70862pt.
  [15 <./Chapter2/CMS_detector_simple.png (PNG copy)>]
-<Chapter2/slice_det.png, id=345, 1225.57875pt x 835.12pt>
+<Chapter2/slice_det.png, id=385, 1225.57875pt x 835.12pt>
 File: Chapter2/slice_det.png Graphic file (type png)
 <use Chapter2/slice_det.png>
 Package pdftex.def Info: Chapter2/slice_det.png  used on input line 33.
@@ -1766,13 +1763,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
  []
 
 [16 <./Chapter2/slice_det.png (PNG copy)>]
-<Chapter2/strip_layout.png, id=354, 1599.9775pt x 749.80125pt>
+<Chapter2/strip_layout.png, id=394, 1599.9775pt x 749.80125pt>
 File: Chapter2/strip_layout.png Graphic file (type png)
 <use Chapter2/strip_layout.png>
 Package pdftex.def Info: Chapter2/strip_layout.png  used on input line 50.
 (pdftex.def)             Requested size: 367.98709pt x 172.45065pt.
  [17 <./Chapter2/strip_layout.png (PNG copy)>]
-<Chapter2/phase1_PixelDetector.png, id=366, 1583.9175pt x 442.65375pt>
+<Chapter2/phase1_PixelDetector.png, id=406, 1583.9175pt x 442.65375pt>
 File: Chapter2/phase1_PixelDetector.png Graphic file (type png)
 <use Chapter2/phase1_PixelDetector.png>
 Package pdftex.def Info: Chapter2/phase1_PixelDetector.png  used on input line 
@@ -1788,7 +1785,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--87
  []
 
 [18]
-<Chapter2/modules_drawing.png, id=380, 1740.5025pt x 393.47pt>
+<Chapter2/modules_drawing.png, id=420, 1740.5025pt x 393.47pt>
 File: Chapter2/modules_drawing.png Graphic file (type png)
 <use Chapter2/modules_drawing.png>
 Package pdftex.def Info: Chapter2/modules_drawing.png  used on input line 95.
@@ -1804,12 +1801,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
-<Chapter2/PixelSensor.png, id=391, 494.84875pt x 373.395pt>
+<Chapter2/PixelSensor.png, id=431, 494.84875pt x 373.395pt>
 File: Chapter2/PixelSensor.png Graphic file (type png)
 <use Chapter2/PixelSensor.png>
 Package pdftex.def Info: Chapter2/PixelSensor.png  used on input line 109.
 (pdftex.def)             Requested size: 148.45576pt x 112.01936pt.
-<Chapter2/hit.png, id=392, 636.3775pt x 298.11375pt>
+<Chapter2/hit.png, id=432, 636.3775pt x 298.11375pt>
 File: Chapter2/hit.png Graphic file (type png)
 <use Chapter2/hit.png>
 Package pdftex.def Info: Chapter2/hit.png  used on input line 109.
@@ -1830,7 +1827,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-<Chapter3/vdm_sketch.png, id=427, 736.7525pt x 523.9575pt>
+<Chapter3/vdm_sketch.png, id=468, 736.7525pt x 523.9575pt>
 File: Chapter3/vdm_sketch.png Graphic file (type png)
 <use Chapter3/vdm_sketch.png>
 Package pdftex.def Info: Chapter3/vdm_sketch.png  used on input line 66.
@@ -1841,7 +1838,7 @@ Package pdftex.def Info: Chapter3/vdm_sketch.png  used on input line 66.
  (./Chapter4/chapter4.tex
 Chapter 4.
 ! Undefined control sequence.
-l.4 ...n, the two beams are separated by $6\sigmab
+l.5 ...n, the two beams are separated by $6\sigmab
                                                   $ ≈ 578 $\mu m$ and scan...
 
 ? 
@@ -1853,15 +1850,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 ...e two beams are separated by $6\sigmab$ ≈
+l.5 ...e two beams are separated by $6\sigmab$ ≈
                                                    578 $\mu m$ and scanned a...
 
 ? 
-<Chapter4/2022Scanprorgam.png, id=440, 1203.49625pt x 444.66125pt>
+<Chapter4/2022Scanprorgam.png, id=480, 1711.39375pt x 630.355pt>
 File: Chapter4/2022Scanprorgam.png Graphic file (type png)
 <use Chapter4/2022Scanprorgam.png>
-Package pdftex.def Info: Chapter4/2022Scanprorgam.png  used on input line 11.
-(pdftex.def)             Requested size: 361.05167pt x 133.3994pt.
+Package pdftex.def Info: Chapter4/2022Scanprorgam.png  used on input line 12.
+(pdftex.def)             Requested size: 427.8474pt x 157.58836pt.
+
+Overfull \hbox (1.05605pt too wide) in paragraph at lines 12--13
+ [][] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1871,16 +1873,135 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [26 <./Chapter4/2022Scanprorgam.png>]
-<Chapter4/RMSmean.png, id=451, 806.01125pt x 649.42625pt>
+<Chapter4/RMSmean.png, id=491, 806.01125pt x 649.42625pt>
 File: Chapter4/RMSmean.png Graphic file (type png)
 <use Chapter4/RMSmean.png>
 Package pdftex.def Info: Chapter4/RMSmean.png  used on input line 48.
 (pdftex.def)             Requested size: 161.19939pt x 129.88295pt.
- [27 <./Chapter4/RMSmean.png>])
-[28]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27]
+<Chapter4/BX_282_Rates_SS1.png, id=498, 2003.485pt x 975.645pt>
+File: Chapter4/BX_282_Rates_SS1.png Graphic file (type png)
+<use Chapter4/BX_282_Rates_SS1.png>
+Package pdftex.def Info: Chapter4/BX_282_Rates_SS1.png  used on input line 81.
+(pdftex.def)             Requested size: 209.1301pt x 101.82793pt.
+<Chapter4/BX_282_Rates_SS2.png, id=499, 2003.485pt x 975.645pt>
+File: Chapter4/BX_282_Rates_SS2.png Graphic file (type png)
+<use Chapter4/BX_282_Rates_SS2.png>
+Package pdftex.def Info: Chapter4/BX_282_Rates_SS2.png  used on input line 82.
+(pdftex.def)             Requested size: 209.1301pt x 101.82793pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28 <./Chapter4/RMSmean.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 
+     
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+<Chapter4/ss1_histo_bx282.png, id=506, 2003.485pt x 975.645pt>
+File: Chapter4/ss1_histo_bx282.png Graphic file (type png)
+<use Chapter4/ss1_histo_bx282.png>
+Package pdftex.def Info: Chapter4/ss1_histo_bx282.png  used on input line 96.
+(pdftex.def)             Requested size: 360.61174pt x 175.60852pt.
+[29 <./Chapter4/BX_282_Rates_SS1.png> <./Chapter4/BX_282_Rates_SS2.png> <./Chap
+ter4/ss1_histo_bx282.png>] [30]
+
+! LaTeX Error: Unicode character σ (U+03C3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.180 ... the two corrections is an increase of σ
+                                                  vis by 1.0\%, with an unce...
+
+? 
+[31]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 189.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 189.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sigma' on input line 189.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 189.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 189.
+
+<Chapter4/xscan.png, id=528, 724.7075pt x 821.0675pt>
+File: Chapter4/xscan.png Graphic file (type png)
+<use Chapter4/xscan.png>
+Package pdftex.def Info: Chapter4/xscan.png  used on input line 207.
+(pdftex.def)             Requested size: 157.9107pt x 178.90648pt.
+<Chapter4/yscan.png, id=529, 724.7075pt x 821.0675pt>
+File: Chapter4/yscan.png Graphic file (type png)
+<use Chapter4/yscan.png>
+Package pdftex.def Info: Chapter4/yscan.png  used on input line 208.
+(pdftex.def)             Requested size: 157.9107pt x 178.90648pt.
+[32 <./Chapter4/xscan.png> <./Chapter4/yscan.png>]
+<Chapter4/DGConst_chi2.png, id=539, 10403.86874pt x 6843.5675pt>
+File: Chapter4/DGConst_chi2.png Graphic file (type png)
+<use Chapter4/DGConst_chi2.png>
+Package pdftex.def Info: Chapter4/DGConst_chi2.png  used on input line 221.
+(pdftex.def)             Requested size: 312.1026pt x 205.29817pt.
+<Chapter4/DGConst_CapSigma.png, id=540, 10563.465pt x 6806.42876pt>
+File: Chapter4/DGConst_CapSigma.png Graphic file (type png)
+<use Chapter4/DGConst_CapSigma.png>
+Package pdftex.def Info: Chapter4/DGConst_CapSigma.png  used on input line 230.
+
+(pdftex.def)             Requested size: 209.1301pt x 134.70331pt.
+<Chapter4/DGConst_peak.png, id=541, 10317.54625pt x 6855.6125pt>
+File: Chapter4/DGConst_peak.png Graphic file (type png)
+<use Chapter4/DGConst_peak.png>
+Package pdftex.def Info: Chapter4/DGConst_peak.png  used on input line 231.
+(pdftex.def)             Requested size: 204.85802pt x 136.09512pt.
+ [33 <./Chapter4/DGConst_chi2.png> <./Chapter4/DGConst_CapSigma.png> <./Chapter
+4/DGConst_peak.png>]
+<Chapter4/DGConst_xsec.png, id=552, 1806.75pt x 1011.78pt>
+File: Chapter4/DGConst_xsec.png Graphic file (type png)
+<use Chapter4/DGConst_xsec.png>
+Package pdftex.def Info: Chapter4/DGConst_xsec.png  used on input line 252.
+(pdftex.def)             Requested size: 451.6864pt x 252.94438pt.
+
+Overfull \hbox (24.89505pt too wide) in paragraph at lines 252--253
+ [][] 
+ []
+
+[34 <./Chapter4/DGConst_xsec.png>]
+<Chapter4/xsec_perscan_v2.png, id=565, 860.21375pt x 625.33624pt>
+File: Chapter4/xsec_perscan_v2.png Graphic file (type png)
+<use Chapter4/xsec_perscan_v2.png>
+Package pdftex.def Info: Chapter4/xsec_perscan_v2.png  used on input line 281.
+(pdftex.def)             Requested size: 318.2741pt x 231.37079pt.
+) [35 <./Chapter4/xsec_perscan_v2.png>]
 \openout2 = `Chapter5/chapter5.aux'.
 
- (./Chapter5/chapter5.tex) (./thesis.bbl [29
+
+(./Chapter5/chapter5.tex) (./thesis.bbl [36
 
 
 
@@ -1888,23 +2009,23 @@ Package pdftex.def Info: Chapter4/RMSmean.png  used on input line 48.
 
 
 
-]) [30]
+]) [37]
 No file thesis.ind.
 (./thesis.aux (./Portada/Portada.aux) (./Dedication/dedication.aux)
 (./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux)
 (./Abstract/resumen.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
 (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux))
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5D8036DACD7B96FFB3DD5A0F120C09E8;4141.
+(rerunfilecheck)             Checksum: 24C82CF7E753FDE8E1FF150F8947D656;4723.
  ) 
 Here is how much of TeX's memory you used:
- 43659 strings out of 478287
- 1001736 string characters out of 5849289
- 1403437 words of memory out of 5000000
- 60527 multiletter control sequences out of 15000+600000
- 573785 words of font info for 335 fonts, out of 8000000 for 9000
+ 43805 strings out of 478287
+ 1004787 string characters out of 5849289
+ 1405176 words of memory out of 5000000
+ 60619 multiletter control sequences out of 15000+600000
+ 579175 words of font info for 352 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,16n,120p,1368b,969s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 125i,16n,120p,1368b,1026s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1919,10 +2040,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on thesis.pdf (37 pages, 3016561 bytes).
+Output written on thesis.pdf (44 pages, 6663109 bytes).
 PDF statistics:
- 558 PDF objects out of 1000 (max. 8388607)
- 459 compressed objects within 5 object streams
- 125 named destinations out of 1000 (max. 500000)
- 105744 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 676 PDF objects out of 1000 (max. 8388607)
+ 550 compressed objects within 6 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 112474 words of extra memory for PDF output out of 128383 (max. 10000000)
 
