@@ -1,0 +1,8 @@
+\chapter{Summary and Outlook}
+
+This work aims to focus on the calibration of luminosity for the PCC  luminometer, based on the van der Meer scans conducted by the CMS Collaboration on November 11 of 2022 for the fill 8381 of proton-proton collisions at $\sqrt{s}=$ 13.6 TeV, where five scan pairs (3 standard vdM and three BI scans) were analyzed with this method.
+A explanation of luminosity importance,the LHC and the CMS experiment, the PCC method as luminometer, and the calibration procedure for estimating $\sigma_{vis}$ were all covered in this work.
+
+This study provides a comprehensive explanation of how data was recorded and procesing, starting from the raw files with cluster reconstruction and processing them with a  selection of  "good" Pixel detector modules. This approach aimed to remove instabilities in luminosity measurement for the corresponding calibration periods,  data also was processed with the  estimation of the background correction to the rates (PCC) from the two super separation periods in this program. The study concludes that the fit obtained for this  estimation is not the best due the background value varied over time for the two SS periods, leading to the decision that the fit model should be changed to one with a constant. All the parameters for this analysis were reported.
+
+The assigned value of the calibration is $\sigma_{vis} = 4163 \pm 3 \text{(stat.)} \pm 12 \text{(syst.)} \text{ mb}$. The analysis and results reported in this work will be useful for a precise luminosity measurement analysis for Run 3 in the CMS experiment of LHC, together with the rest of the luminometers  for a final publication that presents all these final results.

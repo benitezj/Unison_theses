@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{23}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -18,10 +18,11 @@ David~J Griffiths.
 \newblock URL \url{https://cds.cern.ch/record/111880}.
 \newblock \url{https://cds.cern.ch/record/111880}.
 
-\bibitem[lum()]{lumi_motiv}
-M.L. Mangano, Motivations and precision targets for an accurate luminosity
-  determination at the LHC, \emph{CERN-Proceedings-2011-011},
-  \url{https://cds.cern.ch/record/1347440}.
+\bibitem[Belyaev and Ross(2021)]{undergraduate_accelerators_chapter}
+Alexander Belyaev and Douglas Ross.
+\newblock \emph{Particle Accelerators}, pages 201--219.
+\newblock Springer International Publishing, Cham, 2021.
+\newblock \doi{10.1007/978-3-030-80116-8_13}.
 
 \bibitem[Myers and Schopper(2020)]{ref_lib_vol3}
 Stephen Myers and Herwig Schopper.
@@ -30,6 +31,21 @@ Stephen Myers and Herwig Schopper.
 \newblock 01 2020.
 \newblock \doi{10.1007/978-3-030-34245-6}.
 
+\bibitem[Herr and Muratori(2006)]{concept_of_luminosity}
+Werner Herr and Bruno Muratori.
+\newblock {Concept of Luminosity}, 2006.
+\newblock URL \url{https://cds.cern.ch/record/941318/files/p361.pdf}.
+
+\bibitem[lum()]{lumi_motiv}
+M.L. Mangano, Motivations and precision targets for an accurate luminosity
+  determination at the LHC, \emph{CERN-Proceedings-2011-011},
+  \url{https://cds.cern.ch/record/1347440}.
+
+\bibitem[Traczyk(2021)]{luminosity_importance}
+Piotr Traczyk.
+\newblock {Why precision luminosity measurements matter}, 2021.
+\newblock URL \url{https://phys.org/news/2021-05-precision-luminosity.html}.
+
 \bibitem[Grafström and Kozanecki(2015)]{lumi_paper_def_and_concept}
 P.~Grafström and W.~Kozanecki.
 \newblock Luminosity determination at proton colliders.
@@ -37,33 +53,11 @@ P.~Grafström and W.~Kozanecki.
   97--148, 2015.
 \newblock \doi{https://doi.org/10.1016/j.ppnp.2014.11.002}.
 
-\bibitem[Collaboration(2008{\natexlab{a}})]{CMS_Exp_2008}
-CMS Collaboration.
-\newblock The {CMS} experiment at the {CERN} {LHC}.
-\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
-  S08004--S08004, {Aug} 2008{\natexlab{a}}.
-\newblock \doi{10.1088/1748-0221/3/08/s08004}.
-
-\bibitem[Collaboration(2008{\natexlab{b}})]{Atlas_Exp_2008}
-ATLAS Collaboration.
-\newblock The {ATLAS} experiment at the {CERN} large hadron collider.
-\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
-  S08003--S08003, {Aug} 2008{\natexlab{b}}.
-\newblock \doi{10.1088/1748-0221/3/08/s08003}.
-
-\bibitem[Collaboration(2008{\natexlab{c}})]{ALICE_Exp_2008}
-ALICE Collaboration.
-\newblock The {ALICE} experiment at the {CERN} {LHC}.
-\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
-  S08002--S08002, {Aug} 2008{\natexlab{c}}.
-\newblock \doi{10.1088/1748-0221/3/08/s08002}.
-
-\bibitem[Collaboration(2008{\natexlab{d}})]{LHCb_Exp_2008}
-The~LHCb Collaboration.
-\newblock The {LHCb} detector at the {LHC}.
-\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
-  S08005--S08005, {Aug} 2008{\natexlab{d}}.
-\newblock \doi{10.1088/1748-0221/3/08/s08005}.
+\bibitem[CERN(2022)]{LHC}
+CERN.
+\newblock {The Large Hadron Collider}, 2022.
+\newblock URL
+  \url{https://home.cern/science/accelerators/large-hadron-collider}.
 
 \bibitem[Halkiadakis(2011)]{lhc_complex}
 Eva Halkiadakis.
@@ -99,6 +93,13 @@ Mike Lamont.
   \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}.
 \newblock [Online; accessed September 23, 2022].
 
+\bibitem[Collaboration(2008)]{CMS_Exp_2008}
+CMS Collaboration.
+\newblock The {CMS} experiment at the {CERN} {LHC}.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
+  S08004--S08004, {Aug} 2008.
+\newblock \doi{10.1088/1748-0221/3/08/s08004}.
+
 \bibitem[et~al(2017)]{det_summary}
 A.M.~Sirunyan et~al.
 \newblock Particle-flow reconstruction and global event description with the
@@ -106,12 +107,6 @@ A.M.~Sirunyan et~al.
 \newblock \emph{Journal of Instrumentation}, 12\penalty0 (10):\penalty0
   P10003--P10003, {Oct}< 2017.
 \newblock \doi{10.1088/1748-0221/12/10/p10003}.
-
-\bibitem[Martin and Shaw(2017)]{Martin2017_book}
-Brian~R Martin and Graham Shaw.
-\newblock \emph{Particle Physics}.
-\newblock Manchester Physics Series. John Wiley \& Sons, Nashville, TN, 4
-  edition, January 2017.
 
 \bibitem[et~al(2021)]{phase1_Pixel_Detector}
 W.~Adam et~al.
@@ -128,6 +123,21 @@ The~CMS Collaboration.
   P10009--P10009, {Oct} 2014.
 \newblock \doi{10.1088/1748-0221/9/10/p10009}.
 
+\bibitem[G.~Giurgiu(2008)]{Pixel_Hit_Reconstruction}
+P.~Maksimovic G.~Giurgiu, D.~Fehling.
+\newblock {CMS} machine.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
+  S08001--S08001, {Aug} 2008.
+\newblock \doi{https://doi.org/10.48550/arXiv.0808.3804}.
+
+\bibitem[Collaboration(2021)]{lumi_precise_2015_2016}
+CMS Collaboration.
+\newblock Precision luminosity measurement in proton-proton collisions at
+  $\sqrt{s}$ = 13 tev in 2015 and 2016 at cms.
+\newblock \emph{The European physical journal. C, Particles and fields},
+  81:\penalty0 800, 01 2021.
+\newblock \doi{10.1140/epjc/s10052-021-09538-2}.
+
 \bibitem[PCC(2012)]{PCC_PAS_12_001}
 {CMS Luminosity Based on Pixel Cluster Counting - Summer 2012 Update}.
 \newblock Technical report, CERN, Geneva, 2012.
@@ -138,5 +148,16 @@ Olena Karacheban.
 \newblock {Performance of the BRIL luminometers at CMS in Run 2}.
 \newblock \emph{PoS}, EPS-HEP2019:\penalty0 194, 2020.
 \newblock \doi{10.22323/1.364.0194}.
+
+\bibitem[Müller(2011)]{bkg_source}
+S.~Müller.
+\newblock Simulation of beam-induced backgrounds in comparison with data from
+  the {CMS} pixel and other inner radii detectors.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  650\penalty0 (1):\penalty0 33--36, 2011.
+\newblock \doi{https://doi.org/10.1016/j.nima.2010.11.082}.
+\newblock International Workshop on Semiconductor Pixel Detectors for Particles
+  and Imaging 2010.
 
 \end{thebibliography}

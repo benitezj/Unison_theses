@@ -1,16 +1,17 @@
 \chapter{Analysis and Results}
 
+
 \section{2022 vdM scan program}
 
-The main VdM scan program for the CMS experiment was performed in November 2022 during LHC fills 8379 and 8381. In fill 8381 on 10 and  11 Nov 2022 at pp collision energy $\sqrt{s}$ of 13.6 TeV, 144 bunch pairs were colliding at the CMS intertion points at zero crossing angle, with two additional unpaired bunches present in each beam. Four VdM scan pairs, two beam-imaging (BI) scan pairs, and one length scale scan pair where performed, where each scan pair consists of two scans in the transverse planes x and y, as well as other scan types not included in this analysis. In a VdM scan, the two beams are separated by $6\sigmab$ ≈ 578 $\mu m$ and scanned across one another in a sequence of 25 steps of 30 s with a step size of $0.5\sigma_{b} \thickapprox 48 \mu m$, where $\sigma_{b}$ is the transverse bunch size. In the BI scans, one beam is kept fixed at its nominal head-on position while the other is separated and scanned in 19 steps of 46 s from $-4.5\sigma_{b}$ to $+4.5\sigma_{b} \thickapprox 433 \mu m$. In a length scale scan, the beams are separated by a constant amount of $\sqrt{2} \sigma_{b} \thickapprox  106 \mu m$  and moved coherently forward and backward in five steps each in the same transverse direction. The scan program during fill 8381 is summarized in Fig. \ref{scan_prog}.
+The main VdM scan program for the CMS experiment was performed in November 2022 during LHC fills 8379 and 8381. In fill 8381 on 10 and  11 Nov 2022 at pp collision energy $\sqrt{s}$ of 13.6 TeV  144 bunch pairs were colliding at the CMS intertion points at zero crossing angle, with two additional unpaired bunches present in each beam. Four VdM scan pairs, two beam-imaging (BI) scan pairs and one length scale scan pair where performed, where each scan pair consists of two scans in the transverse planes x and y, as well as other scan types not included in this analysis. In a VdM scan, the two beams are separated by $6\sigmab$ ≈ 578 $\mu m$ and scanned across one another in a sequence of 25 steps of 30 s with a step size of $0.5\sigma_{b} \thickapprox 48 \mu m$, where $\sigma_{b}$ is the transverse bunch size. In the BI scans, one beam is kept fixed at its nominal head-on position while the other is separated and scanned in 19 steps of 46 s from $-4.5\sigma_{b}$ to $+4.5\sigma_{b} \thickapprox 433 \mu m$. In a length scale scan, the beams are separated by a constant amount of $\sqrt{2} \sigma_{b} \thickapprox  106 \mu m$  and moved coherently forward and backward in five steps each in the same transverse direction, finally two super separation periods were performed for the analysis and Background sustraction, here the two beams were sepated at a distance of $6\sigma$.  The scan program during fill 8381 is summarized in Fig. \ref{scan_prog}.\\
 
-The VdM calibration itself is based on scans recorded during Fill 8381. Six scan pairs are used that are either of standard VdM type They are labeled consecutively as they were recorded in time, as “VdM1”, “BI1”, “BI2”, “VdM2”, “VdM3”, and “VdM4”. During the VdM2 scan pair, the central CMS data taking was not operational, so no data was recorded for PCC, and this scan pair is skipped in the PCC VdM analysis. To ensure a dataset with a high event count for PCC even at large beam separations, CMS gated the zero-bias triggers on 5 bunch pairs: BCIDs (Bunch Crossing ID) 282, 822, 2944, 3123, and 3302 ; and recorded events with a total rate of 27.23 kHz .
+The VdM calibration itself is based on scans recorded during the fill 8381, where the  Six scan pairs using for  this analysis were performed, they are labeled consecutively as they were recorded in time, as “VdM1”, “BI1”, “BI2”, “VdM2”, “VdM3”, and “VdM4” as shown in figure \ref{scan_prog} . During the "VdM2" scan pair, the central CMS data taking was not operational, so no data was recorded for PCC, and this scan pair is skipped in the PCC VdM analysis. To ensure a dataset with a high event count for PCC even at large beam separations, CMS gated the zero-bias triggers on 5 bunch pairs: BCIDs (Bunch Crossing ID) 282, 822, 2944, 3123, and 3302 and recorded events with a total rate of 27.23 kHz.\\
 
 \begin{center}
   \begin{figure}[h]
     \centering
     \includegraphics[scale=.25]{Chapter4/2022Scanprorgam.png}
-    \caption[2022 scan program]{Nominal horizontal and vertical positions of the proton beams during LHC fill 8381}
+    \caption[2022 scan program]{Nominal horizontal and vertical positions of the proton beams during LHC fill 8381, showing the four normal VdM scans, two BI scans and the two Super Separation Periods (SS)}
     \label{scan_prog}
   \end{figure}
 \end{center}
@@ -27,53 +28,25 @@ background subtraction are discussed. Technically, the fits are performed with t
 
 \section{Data analysis}
 
-The data taken by the  PCC luminometer was reprocessed to perform a cluster reconstruction. The datasets containing the cluster information per event were stored in 16 different Zero Bias datasets. The first step we took was to extract the data corresponding to the events that belong to our 6 VdM Scans (Runs, Pixel cluster clusters, timestamps, etc.) in a file with ROOT format that is the CERN's data analysis package. This was done through the CMS software (CMSSW), which is written in Python2 and C++.\
-Afterward, we have the 16  resuulting datasets, uno for each Zero Bias. These files are reprocessed to generate the final file containing the rates stored per 1.32 s (NB4) with Hierarchical Data Format (HD5). Within this data reprocessing, we clean the information by subtracting the background and also select the modules that were previously analyzed by a stability study.
+The data taken by the  PCC luminometer was reprocessed for the CMS team to perform a cluster reconstruction. The datasets containing the cluster information per event were stored in 16 different "zero Bias" datasets. The first step we took was to extract the data corresponding to the events that belong to our 6 VdM Scans (Runs, Pixel cluster clusters, timestamps, etc.) in a file with ROOT format that is the CERN's data analysis package. This was done through the CMS software (CMSSW), which is written in Python2 and C++.\
+Afterward, we have the 16  resuulting datasets, uno for each "zero Bias" dataset. These files are reprocessed to generate the final file containing the rates stored per 1.32 s (NB4) with a hierarchical data format (HD5). Within this data reprocessing, we clean the information by subtracting the background and also select the modules that were previously analyzed by a stability study.
 
-The final hd5 file containing the rates from the detector with data collected during the vdM scans is analyzed using a software framework called the "vdM Framework" (vdM FW), which is the latest version and is written in Python3. The vdM FW uses data analysis package, "ROOT," through the "PyRoot" library. With the analysis and plotting tools, the vdM FW reads the hd5 file, producing several intermediate files: scan file, beam currents file, rates file, and correction files. It then applies corrections to the rates (Background, DynamicBeta), separation (OrbitDrift, LengthScale, BeamBeam), and creates a graph file. This graph file contains the normalized rates (i.e., $R/N_{1}N_{2}$) and beam position. Each point corresponds to the averaged rates in a time window of 30s and 46s for vdM scans and BI scans, respectively. The points are then fitted with a predefined function to extract $\Sigma_{x,y}$ and peak values to compute $\sigma_{\text{vis}}$ for all the bunches in the scan.
-
-\section{Module selection}
-
-To ensure accurate luminosity measurement, a veto list is created to remove any modules exhibiting long-term performance variations, indicating a non-physical shift in their cluster counts. With a total of 1856 modules in the pixel system, all of them can be considered in the luminosity measurement; however, non-zero occupancy and non-linear effects can pose challenges for accurate measurement. Thus, to identify "good" and "stable" modules, a subset is selected by eliminating  underperforming or "bad" modules and comparing their relative contributions to the cross section. Those with relatively consistent contributions across standard physics runs are kept, while those with significant changes in their relative cross section compared to the averaged relative contribution are rejected. The Module selection is made as:
-\begin{itemize}
-\item Poor statistics lumisections are removed by applying selection on total PCC.
-\item Barrel layer-1 modules are removed, as these modules are significantly affected by dynamic inefficiency.
-\item A loose selection of 7\% based on RMS/mean of module weight is applied. Modules with significantly large RMS/mean are removed with this selection as shown in \ref{goodmodule}.
-\item The module stability is re-evaluated based on RMS/mean values using an iterative method where appropriate selections are applied to remove underperforming modules until a stable luminosity is attained.
-\end{itemize}
-
-\begin{center}
-  \begin{figure}[h!]
-    \centering
-    \includegraphics[scale=.20]{Chapter4/RMSmean.png}
-    \caption[RMS/mean Module  Stability]{ RMS/mean values of module weight for all pixel modules. Each pixel module is represented by a module number index.} 
-    \label{goodmodule}
-  \end{figure}
-\end{center}
-
-To ensure accurate measurements, a pixel module veto list is established for each period, recognizing that different periods may have varying numbers of well-performing modules. The pixel detector is subject to changing conditions over time, such as detector noise, aging effects, and radiation damage. Stability of the pixel modules is assessed based on changes in the module PCC ratio relative to the total PCC, known as module weight. These variations are evaluated over an interval of 23 seconds, corresponding to the granularity of the luminosity database. The pixel module veto list is first generated for the period 2022F containing the vdM fill and subsequently for the periods ,C, D, E and G,  following the same procedure.  
-
-\noindent To further improve the stability of the PCC measurement, a 4\% RMS common module vetolist is created as shown in table \ref{common  veto module}. The approach to derive the common module veto list is to start by combining module vetolists of period C and D; then combine C, D and E; and so on. The zero-bias PCC data is reprocessed using this common module vetolist. 
-
-\begin{table}[h!]
-\centering
-\caption{Number of good and bad modules for the combined vetolist, after each iteration of the 4\% RMS selection with an additional period.}
-\begin{tabular}{ccc}
-\textbf{Period} & \textbf{\# bad modules} & \textbf{\# good modules}  \\ 
-\toprule
-2022C+D         & 886                     & 970                       \\
-2022C+D+E       & 1106                    & 750                       \\
-2022C+D+E+F     & 1307                    & 549                       \\
-2022C+D+E+F+G   & 1411                    & 445                   
-\label{common  veto module}   
-\end{tabular}
-\end{table}
-
-\noindent This final common veto in conjunction with background subtraction  is used for the last reprocesing data file used for e VdMFramework.  
+The final "hd5" file containing the rates from the detector with data collected during the vdM scans is analyzed using a software framework called the "vdM Framework" (vdM FW), which is the latest version and is written in Python3. The vdM FW uses data analysis package, "ROOT," through the "PyRoot" library. With the analysis and plotting tools, the vdM FW reads the hd5 file, producing several intermediate files: scan file, beam currents file, rates file, and correction files. It then applies corrections to the rates (Background, DynamicBeta), separation (OrbitDrift, LengthScale, BeamBeam), and creates a graph file. This graph file contains the normalized rates (i.e., $R/N_{1}N_{2}$) and beam position. Each point corresponds to the averaged rates in a time window of 30s and 46s for vdM scans and BI scans, respectively. The points are then fitted with a predefined function to extract $\Sigma_{x,y}$ and peak values to compute $\sigma_{\text{vis}}$ for all the bunches in the scan.
 
 \section{Background estimation}
 
-To determine the final PCC rate, the background estimation is conducted using two available super-separation scans SS1 and SS2 shown in the figure \ref{scan_prog}, which are carried out independently and then compared. In order to illustrate the two SS periods, Figure \ref{ssp_wide_bx282} displays the PCC per NB4 versus time for BCID 282. The lower regions of the plot correspond to a time window of 5 minutes during which the beams were separated by a distance of $6\sigma_{b}$, guaranteeing that the sole contribution is from the background, which could either be beam-induced or electronics noise.
+To extract $\Sigma_{x,y}$ through fitting, it is necessary to correct the raw measured rates for background in the detector beforehand. The background contribution is estimated independently during the Super Separation (SS) period comented in the above section. During this period, the beams are separated by $6\sigma_{b}$, ensuring that the only contribution is from background. There are three principal sources of beam-induced background to consider:
+
+\begin{itemize}
+
+\item Beam Gas Elastic (BGE). The elastic beam gas contribution are all coherent and quasi-elastic nuclear elastic and coulomb scattering for multi-turn beam-gas interactions around the ring. Typically the interaction of the primary beam proton and the takes place at the TCT collimator, so that this background contribution has an almost point- like source \cite{bkg_source}.
+
+\item Beam Gas Inelastic (BGI). These are all inelastic interactions of primary beam protons with rest gas in the beam pipe. The interaction rate is dominated by the vacuum quality in the various beam line elements upstream CMS. Therefore the origin of this contribution is distributed all along the long straight section \cite{bkg_source}.
+
+\item Beam Halo (BH). This component of the machine induced background is caused by the inefficiency of the main collimation system. Protons can escape from one collimator and being intercepted by another collimator \cite{bkg_source}.
+\end{itemize}
+
+In order to illustrate the two SS periods for this analisys, Figure \ref{ssp_wide_bx282} displays the PCC per NB4 versus time for BCID 282. The lower regions of the plot correspond to a time window of 5 minutes during which the beams were separated by a distance of $6\sigma_{b}$.\\
 
 \begin{center}
 \begin{figure}[h!]
@@ -84,11 +57,8 @@ To determine the final PCC rate, the background estimation is conducted using tw
 \label{ssp_wide_bx282}
 \end{figure}
 \end{center}
-\\
-
 
 To estimate the background value in each BCID, the mean value of the PCC per NB4 rates distribution is computed. The mean and error per super-separation (SS) period are obtained by plotting the PCC per NB4 as a function of time and then taking the y projection. The error is calculated using the formula $AvgErr = \sqrt{SEM_1^2 + SEM_2^2 + \cdots + SEM_N}/N$. To illustrate this process for each BCID, the distribution or profile of PCC per NB4 for each SS period is plotted. Figure \ref{ss1_hist_282} displays the PCC per NB4 distribution for SS period I specifically for BCID 282, but the same plot is created for every BCID.\\
-
 
 \begin{center}
   \begin{figure}[h!]
@@ -99,7 +69,7 @@ To estimate the background value in each BCID, the mean value of the PCC per NB4
   \end{figure}
 \end{center}
 
-\newpage
+
 \begin{table}[h!]
   \begin{center}
     \caption{Mean and standard error on mean (SEM) for the PCC background estimated with the SS1 and SS2 data, separately for all five BCIDs and averaged.}
@@ -163,7 +133,7 @@ There are several systematic effects that affect the measurement of beam overlap
 
 \item Orbit drift separation "ODS", correction that aims to correct for the orbit drift in the scanning direction and only affects beam separation. 
 
-\item  Orbit drift rate "ODR", correction that aims to correct for the orbit drift in the direction orthogonal to the scanning direction and only affects the luminometer rate. The derived correction assumes that the beam overlap has a single Gaussian shape. The correction reads the $\Sigma_{vis}$ in the orthogonal direction from the previous correction. 
+\item  Orbit drift rate "ODR", correction that aims to correct for the orbit drift in the direction orthogonal to the scanning direction and only affects the luminometer rate. The derived correction assumes that the beam overlap has a single Gaussian shape. The correction reads the $\sigma_{vis}$ in the orthogonal direction from the previous correction. 
 \end{itemize}
 
 Applying this correction improves the agreement between the $\sigma_{vis}$ values derived with different scan pairs and changes the average $\Sigma_{vis}$ by about 0.3\%. The full size of the correction is considered as uncertainty.
@@ -269,11 +239,7 @@ After averaging the values of $\sigma_{vis}$ per scan, the error is assigned in 
 \sqrt{RMS^{2}-stat^{2}}
 \end{equation}
 
-Obtaining a final  $\sigma_{vis}$ result of:
-
-\begin{equation}
-\sigma_{vis} = 4163 \pm 3 \text{(stat.)} \pm 12 \text{(syst.)} \text{ mb} .
-\end{equation}
+Obtaining a final sigma visible for the calibration $\sigma_{vis}=4163 \pm 3 \text{(stat.)} \pm 12 \text{(syst.)} \text{ mb}$. This result will be useful for a precise luminosity measurement analysis for Run 3 in the CMS experiment of LHC.
 
 \begin{center}
   \begin{figure}[ht]
