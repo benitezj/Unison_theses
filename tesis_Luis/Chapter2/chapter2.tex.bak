@@ -1,12 +1,15 @@
 \chapter{Experiment Description }
 
-Modern general-purpose detectors used in high-energy colliders typically employ cylindrical detection layers arranged around the beam axis. One such example is the Compact Muon Solenoid (CMS), which is part of the Large Hadron Collider (LHC) at CERN and is considered one of the largest international scientific collaborations in history. The CMS detector is 15 meters tall and 21 meters long, and is designed for a broad physics program that includes studying the Standard Model. This chapter provides a description of the various components of the CMS detector,incliding the several systems to measure the luminosity with a particular focus on the silicon pixel tracker, which is described in greater detail due to its relevance to the thesis.
+Modern general-purpose detectors used in high-energy colliders typically employ cylindrical detection layers arranged around the beam axis. One such example is the Compact Muon Solenoid (CMS), which is part of the LHC at CERN and is considered one of the largest international scientific collaborations in history. The CMS is designed for a broad physics program that includes studying the Standard Model. This chapter provides a description of the various components of the CMS detector,incliding the several systems to measure the luminosity with a particular focus on the silicon pixel tracker, which is described in greater detail due to its relevance to the thesis.
  
 \section{The Compact Muon Solenoid}
 
-The Compact Muon Solenoid (CMS) experiment is one of the four general-purpose detectors situated at the Large Hadron Collider (LHC). The CMS detector is constructed around a massive solenoid magnet, which is a cylindrical coil of superconducting cable generating a field of 4 tesla, this field is used to separate the calorimeter energy deposits of charged and neutral particles in jets. The field is confined by a steel "yoke" which constitutes the bulk of the detector's weight of 14,000 tonnes \cite{CMS_Exp_2008}. 
+The CMS experiment is one of the four general-purpose detectors situated at the LHC. The CMS detector is constructed around a massive solenoid magnet, which is a cylindrical coil of superconducting cable generating a magnetic field of 4 tesla, this field is used to separate the calorimeter energy deposits of charged and neutral particles in jets. The field is confined by a steel "yoke" which constitutes the bulk of the detector's weight of 14,000 tonnes \cite{CMS_Exp_2008}. 
+The CMS detector has a complete length of 21.6 meters and a diameter of 14.6 meters that  comprises various detection layers that include separate parts of the detector. 
 
-The CMS detector has a complete length of 21.6 meters and a diameter of 14.6 meters that  comprises various detection layers that include separate parts of the detector. These layers are the fine-grained silicon tracker, which provides efficient and precise reconstruction of charged-particle trajectory. The highly-segmented electromagnetic calorimeter (ECAL) can separate energy deposits from particles in jets with high resolution. The hadronic calorimeter (HCAL) has a coarse segmentation, but it is still sufficient to distinguish between charged and neutral hadron energy deposits in jets \cite{CMS_Exp_2008}. Additionally, there is an excellent muon tracking system, which delivers efficient and pure muon identification regardless of the surrounding particles. A schematic representation of the CMS detector is shown in \ref{detector_CMS}.\.
+These layers are the fine-grained silicon tracker, which provides efficient and precise reconstruction of charged-particle trajectory. The highly-segmented electromagnetic calorimeter (ECAL) wish principal purpose is the detection of  electromagnetic energy and the identification of electrons and photons. The hadronic calorimeter (HCAL) wish principal purpose is the detection of hadrons in jets  \cite{CMS_Exp_2008}. Additionally, there is an excellent muon tracking system, . A schematic representation of the CMS detector is shown in \ref{detector_CMS}.\.%% is a summary
+%%The energies of the particles are crucial to understanding what occurred at the collision point. This information is collected from two calorimeters in the CMS. The inner layer is the Electromagnetic Calorimeter
+
 
 \begin{center}
   \begin{figure}[ht]
@@ -21,9 +24,12 @@ A powerful magnet is required to bend charged particles as they travel outward f
 
 The CMS must identify the paths of these deflected charged particles with high precision. This is achieved using a silicon tracker composed of approximately 75 million individual electronic sensors arranged in concentric layers \cite{CMS_Exp_2008}. When a charged particle passes through a Tracker layer, it interacts electromagnetically with the silicon and produces a hit. These individual hits can be combined to identify the track of the traversing particle.
 
-The energies of the particles are crucial to understanding what occurred at the collision point. This information is collected from two calorimeters in the CMS. The inner layer is the Electromagnetic Calorimeter (ECAL), which measures the energy of electrons and photons by completely stopping them. It is a hermetic, homogeneous calorimeter consisting of 61,200 lead tungstate (PbWO4) crystals mounted in the central barrel part and closed by 7,324 crystals in each of the two endcaps. In front of the endcap crystals, a preshower detector is placed. Avalanche photodiodes (APDs) are used as photodetectors in the barrel and vacuum phototriodes (VPTs) in the endcaps. Hadrons, which are composite particles made up of quarks and gluons, travel through the ECAL and are stopped by the outer layer, called the Hadron Calorimeter (HCAL) \cite{det_summary}.
+(descipcion )
+(ECAL), which measures the energy of electrons and photons by completely stopping them. It is a hermetic, homogeneous calorimeter consisting of 61,200 lead tungstate (PbWO4) crystals mounted in the central barrel part and closed by 7,324 crystals in each of the two endcaps. In front of the endcap crystals, a preshower detector is placed. Avalanche photodiodes (APDs) are used as photodetectors in the barrel and vacuum phototriodes (VPTs) in the endcaps. Hadrons, which are composite particles made up of quarks and gluons, travel through the ECAL and are stopped by the outer layer, called the Hadron Calorimeter (HCAL) \cite{det_summary}.
 
-The final particle that the CMS directly observes is the muon. Muons are approximately 200 times heavier than electrons and are not stopped by the calorimeters. Therefore, special sub-detectors have to be constructed to detect them as they traverse the CMS. These sub-detectors are interleaved with the return yoke of the solenoid. The large magnet of the CMS also allows us to measure each muon's momentum both inside the superconducting coil (using the tracking devices) and outside of it (using the muon chambers) \cite{det_summary}. A transverse slice of the CMS detector, depicting specific particle interactions, is shown in Figure \ref{slice_CMS}.
+The final particle that the CMS directly observes is the muon. Muons are approximately 200 times heavier than electrons and are not stopped by the calorimeters. Therefore, special sub-detectors have to be constructed to detect them as they traverse the CMS. These sub-detectors are interleaved with the return yoke of the solenoid. The large magnet of the CMS also allows us to measure each muon's momentum both inside the superconducting coil (using the tracking devices) and outside of it (using the muon chambers) \cite{det_summary}. 
+
+A transverse slice of the CMS detector, depicting specific particle interactions, is shown in Figure \ref{slice_CMS}.
 
 
 \begin{center}
@@ -56,7 +62,7 @@ A total of seven systems are used for measuring luminosity at CMS. The Pixel Lum
 \item The PCC method uses the rate of pixel clusters in the CMS pixel detector to provide a luminosity measurement this method will be described in more detail in chapter 3.  
 \end{itemize}
 
-The location of the 7 luminometers in the CMS experiment is shown in Figure \ref{luminometers}.
+The location of the 7 luminometers in the CMS experiment are shown in Figure \ref{luminometers}.
 
 \begin{center}
   \begin{figure}[ht]
@@ -71,7 +77,7 @@ The location of the 7 luminometers in the CMS experiment is shown in Figure \ref
 
 The tracking system plays a crucial role in precisely measuring the trajectories and momenta of charged particles generated by collisions in the LHC, as well as reconstructing secondary vertices. It has a physical size of 5.8 m in length and 2.5 m in diameter and is surrounded by the CMS solenoid, which provides a homogeneous magnetic field of 4T throughout the tracker's volume \cite{CMS_Exp_2008}.
 
-The CMS tracker consists of two parts: a pixel detector with three barrel layers located between 4.4 cm and 10.2 cm radii and a silicon strip tracker with ten barrel detection layers extending to a radius of 1.1 m. Each part includes endcaps, with the pixel detector having two disks and the strip tracker having three plus nine disks on each side of the barrel \cite{CMS_Exp_2008}. This extends the tracker's acceptance up to a pseudorapidity of $|\eta| < 2.5$, with an active silicon area of approximately 200 $m^2$. The construction of the CMS tracker have 1440 pixel and 15148 strip detector modules. The layout of the CMS tracker is presented in the following figure:
+The CMS tracking detector relies on semiconductor technology that uses silicon pixels and strips, this is divided in two systems: a pixel detector with four barrel layers located between 2.9 cm and 16 cm radii and a silicon strip tracker with ten barrel detection layers extending to a radius of 1.1 m. Each part includes endcaps, with the pixel detector having three disks and the strip tracker having three plus nine disks on each side of the barrel \cite{CMS_Exp_2008}. This extends the tracker's acceptance up to a pseudorapidity of $|\eta| < 2.5$, with an active silicon area of approximately 200 $m^2$. The construction of the CMS tracker have 1440 pixel and 15148 strip detector modules. The layout of the CMS tracker is presented in the following figure:
 
 \begin{center}
   \begin{figure}[ht]
@@ -82,14 +88,13 @@ The CMS tracker consists of two parts: a pixel detector with three barrel layers
   \end{figure}
 \end{center}
 
-
-The CMS tracking detector relies on semiconductor technology that uses silicon pixels and strips. This tracking system is made up of two subsystems: the pixel tracker, which is the closest to the interaction point, and the strip tracker \cite{CMS_Exp_2008}. The following section will provide a description of the pixel detector.
+In Figure \ref{strip_layout}, we can observe the pixel detector at the center, surrounded by the Strip tracker. The Strip tracker is comprised of two subsystems: the first being the Tracker Inner Barrel (TIB) and Disks (TID), which is further divided into four barrel layers and three disks at each endcap. The second subsystem is the Tracker Outer Barrel (TOB), which consists of six barrel layers and the Tracker EndCaps (TEC) comprising of nine disks. The Strip tracker in total comprises of 15148 silicon modules, covering an active area of about 198$\text{m}^{2}$, and consists of 9.3 million strips \cite{CMS_Exp_2008}. On the other hand, the silicon pixel tracker, which is situated closest to the interaction point, will be elaborated on in the following section.
 
 \section{Silicon Pixel Detector}
 
-The CMS experiment conducted at the Large Hadron Collider (LHC) at CERN comprises a silicon pixel detector, which forms the innermost component of the tracking system. This detector facilitates the provision of 3-dimensional space points in the area nearest to the interaction point, which, in turn, enables precise tracking of charged particles and vertex reconstruction. The pixel detector operates in a radiation-rich environment, marked by high track density \cite{phase1_Pixel_Detector}.
+The CMS experiment conducted at the Large Hadron Collider (LHC) at CERN comprises a silicon pixel detector, which forms the innermost component of the tracking system. This detector facilitates the provision of 3-dimensional space points in the area nearest to the interaction point, which, in turn, enables precise tracking of charged particles and vertex reconstruction. The pixel detector operates in a radiation-rich environment, marked by high track density \cite{phase1_Pixel_Detector}.\\
 
-The CMS pixel detector encompasses four concentric barrel layers (L1-L4), each with radii measuring 29, 68, 109, and 160 mm, and three disks (D1-D3) on either end positioned at distances of 291, 396, and 516 mm from the detector's center. A schematic of the CMS Phase-1 pixel detector's arrangement is depicted in Figure \ref{phase1_pixel_detector} where the total silicon area of the CMS Phase-1 pixel detector spans 1.9 square meters. The pixel detector comprises 1856 segmented silicon sensor modules, with 1184 modules used in the barrel pixel detector (BPIX) and 672 modules in the forward disks (FPIX). Each module features a sensor with 160 by 416 pixels, connected to 16 readout chips (ROCs), resulting in 124 million readout channels in total \cite{phase1_Pixel_Detector}.
+The CMS pixel detector encompasses four concentric barrel layers (L1-L4), each with radii measuring 29, 68, 109, and 160 mm, and three disks (D1-D3) on either end positioned at distances of 291, 396, and 516 mm from the detector's center. A schematic of the CMS Phase-1 pixel detector's arrangement is depicted in Figure \ref{phase1_pixel_detector} where the total silicon area of the CMS Phase-1 pixel detector spans 1.9 $\text{m}^{2}$.
 
 \begin{center}
   \begin{figure}[h]
@@ -103,7 +108,7 @@ The CMS pixel detector encompasses four concentric barrel layers (L1-L4), each w
 The BPIX and FPIX detectors are equipped with four service half-cylinders each, with a combined length of 540 mm. These cylinders host the readout and control circuits, and provide guidance for the power lines and cooling tubes of the detector. The BPIX detector is bifurcated into two mechanically self-sufficient halves, both of which are made up of a half detector and two service half-cylinders. The orientation of the sensor surface of the modules in both halves is parallel to the magnetic field.
 On the other hand, the FPIX detector is segmented into four mechanically independent quadrants, each of which comprises three half-disks housed in a service half-cylinder. The sensor orientation in the FPIX detector is arranged such that the long side of the pixel is aligned with the radial direction and has a coverage from 45 to 161 mm. The half-disks are additionally subdivided into inner and outer half-rings that support 22 and 34 modules, respectively \cite{phase1_Pixel_Detector}.\\
 
-The CMS Phase-1 pixel detector is built from 1856 segmented silicon sensor modules, where 1184 modules are used in the barrel pixel detector (BPIX) and 672 modules are used for the forward disks (FPIX). Each module consists of a sensor with 160$\times$416 pixels connected to 16 readout chips (ROCs). In total there are 124 million readout channels \cite{phase1_Pixel_Detector}.
+The pixel detector is built from 1856 segmented silicon sensor modules, where 1184 modules are used in the barrel pixel detector (BPIX) and 672 modules are used for the forward disks (FPIX). Each module consists of a sensor with 160$\times$416 pixels connected to 16 readout chips (ROCs). In total there are 124 million readout channels \cite{phase1_Pixel_Detector}.
 A pixel detector module is built from a planar silicon sensor with a size of 18.6 $\times$ 66.6 $\text{mm}^{2}$ (active area of 16.2 $\times$ 64.8 $\text{mm}^{2}$), bump-bonded to an array of 2$\times$8 ROCs. Each ROC is segmented into 4160 readout channels and reads out the pulse height information for each pixel. The standard pixel size is 100$\times$150 $\mu m^{2}$, as in the original pixel detector.
 The figures depicting the modules of the CMS Phase-1 pixel detector can be found in Figure \ref{modules_drawing} \cite{phase1_Pixel_Detector}.
 
@@ -116,10 +121,9 @@ The figures depicting the modules of the CMS Phase-1 pixel detector can be found
   \end{figure}
 \end{center}
 
-\section{Cluster construction}
+\section{Pixel Cluster Reconstruction}
 
-The track reconstruction process involves several steps. Firstly, zero-suppressed signals above specified thresholds in pixel channels are clustered into hits. These hit pixels are then combined to form clusters from neighboring pixels. The charge measured within each cluster corresponds to the charge deposited by a single charged particle. Next, the cluster positions and their uncertainties are estimated in a local orthogonal coordinate system  in the plane of each sensor \cite{Track_Reco_2014}.\\
-The pixel sensor used in this process consists of 100 $\times$ 150$\mu \text{m}^{2}$ pixels with the u-axis oriented parallel to the shorter pixel edge, this is shown en the figure \ref{module and hit}. 
+The track reconstruction process involves several steps. Firstly, zero-suppressed signals above specified thresholds in pixel channels are clustered into hits. These hit pixels are then combined to form clusters from neighboring pixels. The charge measured within each cluster corresponds to the charge deposited by a single charged particle. Next, the cluster positions and their uncertainties are estimated in a local orthogonal coordinate system  in the plane of each sensor \cite{Track_Reco_2014}. The pixel sensor used in this process consists of 100 $\times$ 150$\mu \text{m}^{2}$ pixels  this is shown en the figure \ref{module and hit}. 
 
 \begin{center}
   \begin{figure}[h]
@@ -132,7 +136,7 @@ The pixel sensor used in this process consists of 100 $\times$ 150$\mu \text{m}^
 
 To be considered a valid cluster, each one must have a minimum charge equivalent to 4000 electrons \cite{Track_Reco_2014,phase1_Pixel_Detector}. For normally incident minimum-ionizing particles (MIPs) in a silicon sensor with a thickness of 285 $\mu \text{m}$, the most probable value of energy deposition corresponds to approximately 21,000 electrons. However, this charge is often spread over more than one pixel due to Lorentz drift and diffusion of collected electrons, leading to charge clusters.\\
 
-in figure \ref{cluster} is shown a pixel cluster example at $\eta$ = 1.83, here the  charge deposition in each pixel is shown in thousands of electrons, the numbers shown in green correspond to charge depositions below the 2000 electron threshold which are not included in the cluster. The dotted red line indicates the particle trajectory projection in the module plane and the red cross shows the true hit position.  Where the corresponding coordinate systems is based in the  geometry of the CMS barrel and forward pixel detectors \cite{Pixel_Hit_Reconstruction}.
+Figure \ref{cluster} is shown a pixel cluster example at $\eta$ = 1.83, here the  charge deposition in each pixel is shown in thousands of electrons, the numbers shown in green correspond to charge depositions below the 2000 electron threshold which are not included in the cluster. The dotted red line indicates the particle trajectory projection in the module plane and the red cross shows the true hit position.  Where the corresponding coordinate systems is based in the  geometry of the CMS barrel and forward pixel detectors \cite{Pixel_Hit_Reconstruction}.
 
 \begin{center}
   \begin{figure}[h]

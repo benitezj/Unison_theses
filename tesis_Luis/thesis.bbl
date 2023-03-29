@@ -73,6 +73,14 @@ Mike Lamont.
   {Aug} 2013.
 \newblock \doi{10.1088/1742-6596/455/1/012001}.
 
+\bibitem[Collaboration(2021)]{lumi_precise_2015_2016}
+CMS Collaboration.
+\newblock Precision luminosity measurement in proton-proton collisions at
+  $\sqrt{s}$ = 13 tev in 2015 and 2016 at cms.
+\newblock \emph{The European physical journal. C, Particles and fields},
+  81:\penalty0 800, 01 2021.
+\newblock \doi{10.1140/epjc/s10052-021-09538-2}.
+
 \bibitem[pas(2018)]{pas_17}
 {CMS luminosity measurement for the 2017 data-taking period at $\sqrt{s} =
   13~\mathrm{TeV}$}.
@@ -129,14 +137,6 @@ P.~Maksimovic G.~Giurgiu, D.~Fehling.
 \newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
   S08001--S08001, {Aug} 2008.
 \newblock \doi{https://doi.org/10.48550/arXiv.0808.3804}.
-
-\bibitem[Collaboration(2021)]{lumi_precise_2015_2016}
-CMS Collaboration.
-\newblock Precision luminosity measurement in proton-proton collisions at
-  $\sqrt{s}$ = 13 tev in 2015 and 2016 at cms.
-\newblock \emph{The European physical journal. C, Particles and fields},
-  81:\penalty0 800, 01 2021.
-\newblock \doi{10.1140/epjc/s10052-021-09538-2}.
 
 \bibitem[PCC(2012)]{PCC_PAS_12_001}
 {CMS Luminosity Based on Pixel Cluster Counting - Summer 2012 Update}.

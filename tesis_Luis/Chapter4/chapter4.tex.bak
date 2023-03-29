@@ -3,7 +3,7 @@
 
 \section{2022 vdM scan program}
 
-The main VdM scan program for the CMS experiment was performed in November 2022 during LHC fills 8379 and 8381. In fill 8381 on 10 and  11 Nov 2022 at pp collision energy $\sqrt{s}$ of 13.6 TeV  144 bunch pairs were colliding at the CMS intertion points at zero crossing angle, with two additional unpaired bunches present in each beam. Four VdM scan pairs, two beam-imaging (BI) scan pairs and one length scale scan pair where performed, where each scan pair consists of two scans in the transverse planes x and y, as well as other scan types not included in this analysis. In a VdM scan, the two beams are separated by $6\sigmab$ ≈ 578 $\mu m$ and scanned across one another in a sequence of 25 steps of 30 s with a step size of $0.5\sigma_{b} \thickapprox 48 \mu m$, where $\sigma_{b}$ is the transverse bunch size. In the BI scans, one beam is kept fixed at its nominal head-on position while the other is separated and scanned in 19 steps of 46 s from $-4.5\sigma_{b}$ to $+4.5\sigma_{b} \thickapprox 433 \mu m$. In a length scale scan, the beams are separated by a constant amount of $\sqrt{2} \sigma_{b} \thickapprox  106 \mu m$  and moved coherently forward and backward in five steps each in the same transverse direction, finally two super separation periods were performed for the analysis and Background sustraction, here the two beams were sepated at a distance of $6\sigma$.  The scan program during fill 8381 is summarized in Fig. \ref{scan_prog}.\\
+The main VdM scan program for the CMS experiment was performed in November 2022 during LHC fills 8379 and 8381. In fill 8381 on 10 and  11 Nov 2022 at pp collision energy $\sqrt{s}$ of 13.6 TeV  144 bunch pairs were colliding at the CMS intertion points at zero crossing angle, with two additional unpaired bunches present in each beam. Four VdM scan pairs, two beam-imaging (BI) scan pairs and one length scale scan pair where performed, where each scan pair consists of two scans in the transverse planes x and y, as well as other scan types not included in this analysis. In a VdM scan, the two beams are separated by $6\sigma_{b} \thickapprox 578\mu m$ and scanned across one another in a sequence of 25 steps of 30 s with a step size of $0.5\sigma_{b} \thickapprox 48 \mu m$, where $\sigma_{b}$ is the transverse bunch size. In the BI scans, one beam is kept fixed at its nominal head-on position while the other is separated and scanned in 19 steps of 46 s from $-4.5\sigma_{b}$ to $+4.5\sigma_{b} \thickapprox 433 \mu m$. In a length scale scan, the beams are separated by a constant amount of $\sqrt{2} \sigma_{b} \thickapprox  106 \mu m$  and moved coherently forward and backward in five steps each in the same transverse direction, finally two super separation periods were performed for the analysis and Background sustraction, here the two beams were sepated at a distance of $6\sigma$.  The scan program during fill 8381 is summarized in Fig. \ref{scan_prog}.\\
 
 The VdM calibration itself is based on scans recorded during the fill 8381, where the  Six scan pairs using for  this analysis were performed, they are labeled consecutively as they were recorded in time, as “VdM1”, “BI1”, “BI2”, “VdM2”, “VdM3”, and “VdM4” as shown in figure \ref{scan_prog} . During the "VdM2" scan pair, the central CMS data taking was not operational, so no data was recorded for PCC, and this scan pair is skipped in the PCC VdM analysis. To ensure a dataset with a high event count for PCC even at large beam separations, CMS gated the zero-bias triggers on 5 bunch pairs: BCIDs (Bunch Crossing ID) 282, 822, 2944, 3123, and 3302 and recorded events with a total rate of 27.23 kHz.\\
 
@@ -16,20 +16,12 @@ The VdM calibration itself is based on scans recorded during the fill 8381, wher
   \end{figure}
 \end{center}
 
-The rate measured by each detector and normalized with the measured beam population is
-fitted as a function of the separation. Corrections to the measured proton numbers and to
-the nominal separation are discussed in the following sections. Here, the fit model and the
-background subtraction are discussed. Technically, the fits are performed with the VdMFramework.
+The rate measured by each detector and normalized with the measured beam population is fitted as a function of the separation. Corrections to the measured proton numbers and to the nominal separation are discussed in the following sections. Here, the fit model and the background subtraction are discussed. Technically, the fits are performed with the VdMFramework.
 
-%CMS BRIL Project, “VdMFramework documentation”. CMS Website, 2023.
-%https://vdmdoc.docs.cern.ch/.
-
-%For the background estimation, two Super Separation (SS) periods were carried out during the scan program, each 5 minutes long where the beams were separated by $6\sigma_{b}$ (where $\sigma_{b}$ the beam size) in both the x and y directions.
-
-\section{Data analysis}
+\section{Data proccesing}
 
 The data taken by the  PCC luminometer was reprocessed for the CMS team to perform a cluster reconstruction. The datasets containing the cluster information per event were stored in 16 different "zero Bias" datasets. The first step we took was to extract the data corresponding to the events that belong to our 6 VdM Scans (Runs, Pixel cluster clusters, timestamps, etc.) in a file with ROOT format that is the CERN's data analysis package. This was done through the CMS software (CMSSW), which is written in Python2 and C++.\
-Afterward, we have the 16  resuulting datasets, uno for each "zero Bias" dataset. These files are reprocessed to generate the final file containing the rates stored per 1.32 s (NB4) with a hierarchical data format (HD5). Within this data reprocessing, we clean the information by subtracting the background and also select the modules that were previously analyzed by a stability study.
+Afterward, we have the 16  resulting datasets, uno for each "zero Bias" dataset. These files are reprocessed to generate the final file containing the rates stored per 1.32 s (NB4) with a hierarchical data format (HD5). Within this data reprocessing, we clean the information by subtracting the background and also select the modules that were previously analyzed by a stability study.
 
 The final "hd5" file containing the rates from the detector with data collected during the vdM scans is analyzed using a software framework called the "vdM Framework" (vdM FW), which is the latest version and is written in Python3. The vdM FW uses data analysis package, "ROOT," through the "PyRoot" library. With the analysis and plotting tools, the vdM FW reads the hd5 file, producing several intermediate files: scan file, beam currents file, rates file, and correction files. It then applies corrections to the rates (Background, DynamicBeta), separation (OrbitDrift, LengthScale, BeamBeam), and creates a graph file. This graph file contains the normalized rates (i.e., $R/N_{1}N_{2}$) and beam position. Each point corresponds to the averaged rates in a time window of 30s and 46s for vdM scans and BI scans, respectively. The points are then fitted with a predefined function to extract $\Sigma_{x,y}$ and peak values to compute $\sigma_{\text{vis}}$ for all the bunches in the scan.
 
@@ -117,15 +109,13 @@ To estimate the background value in each BCID, the mean value of the PCC per NB4
 
 Table  \ref{ss_per_bx} shows the results for five different BCIDs, using the reprocessed PCC data for Fill 8381.  The overall background correction applied to raw PCC rate is $0.74305 \pm 0.002407$, which is calculated by taking the average of the mean values of SS1 and SS2. 
 
-\section{Corrections}
+\section{Beam Corrections}
 
-There are several systematic effects that affect the measurement of beam overlap width and therefore the extraction of $\sigma_{vis}$ from the VdM scan procedure. These effects are measured and, where applicable, corrected as described below. A systematic uncertainty is assigned to the resulting measured cross-section, and the following corrections are applied in the VdM Framework:
+There are several systematic effects that affect the measurement of beam overlap width and therefore the extraction of $\sigma_{vis}$ from the VdM scan procedure. These effects are measured and, where applicable, corrected as described below. A systematic uncertainty is assigned to the resulting measured cross section, and the following corrections are applied in the VdM Framework:
  
 \begin{enumerate}
 
 \item Ghost and Satellite. This correction corrects for the presence of ghost and satellite spurious charges, which affect bunch currents. Satellite charges refer to additional charges outside the actual colliding bunch, while spurious charges refer to charge not in any nominally filled bunch slot. These results in corrections of up to 0.5\% to $\sigma_{vis}$. The overall uncertainty in the bunch current measurement is estimated to be 0.4%.
-
-\item Background. This refers to the noise in the detector where there are no collisions. This value, estimated above, is subtracted from the rates.
 
 \item Orbit drift. The orbit drift correction accounts for potential movement of the LHC orbit during the VdM scans. Time-dependent changes of the transverse beam positions for fixed machine parameters can alter the beam separation. This correction is composed of two independent corrections: 
 
@@ -136,27 +126,25 @@ There are several systematic effects that affect the measurement of beam overlap
 \item  Orbit drift rate "ODR", correction that aims to correct for the orbit drift in the direction orthogonal to the scanning direction and only affects the luminometer rate. The derived correction assumes that the beam overlap has a single Gaussian shape. The correction reads the $\sigma_{vis}$ in the orthogonal direction from the previous correction. 
 \end{itemize}
 
-Applying this correction improves the agreement between the $\sigma_{vis}$ values derived with different scan pairs and changes the average $\Sigma_{vis}$ by about 0.3\%. The full size of the correction is considered as uncertainty.
+Applying this correction improves the agreement between the $\sigma_{vis}$ values derived with different scan pairs and changes the average $\sigma_{vis}$ by about 0.3\%. The full size of the correction is considered as uncertainty.
 
-\item Beam Beam corrections.  The electromagnetic interaction between the two colliding proton bunches leads to two ef- fects in beam-separation scans:
+\item Beam Beam corrections.  The electromagnetic interaction between the two colliding proton bunches leads to two effects in beam-separation scans:
 
 \begin{itemize}
 
-\item Beam Beam deflection. Corrects Beam Beam deflection (BB) that happens during bunch crossings at the collision point.accounts for the electrical repulsion of the beams, which increases the lateral
-separation  The deflection is calculated and added to the nominal separation.
+\item Beam Beam deflection. Corrects Beam Beam deflection (BB) that happens during bunch crossings at the collision point. Accounts for the electrical repulsion of the beams, which increases the lateral separation  The deflection is calculated and added to the nominal separation.
 
-\item Dynamic Beta. The so-called dynamic-$\beta*$ effect, which accounts for any changes in the proton density distributions of the bunches due to the single-particle interactions. As a result, the non-linear change during separation steps in transverse bunch profiles is observed, and can described by the effective change of the $\beta*$  value.
+\item Dynamic Beta. The so-called dynamic $\beta^{*}$  effect, which accounts for any changes in the proton density distributions of the bunches due to the single-particle interactions. As a result, the non-linear change during separation steps in transverse bunch profiles is observed, and can described by the effective change of the $\beta^{*}$   value.
 \end{itemize}
-The corrections are calculated for each proton bunch pair individually, and the combined effect of the two corrections is an increase of σvis by 1.0\%, with an uncertainty of 0.5\%.
+The corrections are calculated for each proton bunch pair individually, and the combined effect of the two corrections is an increase of $\sigma_{vis}$ by 1.0\%, with an uncertainty of 0.5\%.
 
-\item Length Scale.  It applies a linear scaling to the beam separation to convert it from the "CMS scale" to the actual "physics scale". This is  calibrated by analyzing pp collision vertices reconstruced by the CMS tracker using data from the five length scale scan pairs performed in fills 8178, 8379, and 8381.%Length scale factors of (−0.56 ± 0.08)\% in x and (−0.43 ± 0.10)\% in y are found. The quoted uncertainty accounts for the statistical uncertainty, 
-This correction reduces $\sigma_{vis}$ by 1.0\% and results in an uncertainty of 0.12\%.
+\item Length Scale.  It applies a linear scaling to the beam separation to convert it from the "CMS scale" to the actual "physics scale". This is  calibrated by analyzing pp collision vertices reconstruced by the CMS tracker using data from the five length scale scan pairs performed in fills 8178, 8379, and 8381.This correction reduces $\sigma_{vis}$ by 1.0\% and results in an uncertainty of 0.12\%.
 
-%https://gitlab.cern.ch/bril/VdMFramework/-/wikis/od-flag
+
 \end{enumerate}
 
 \newpage
-\section{van der Meer Scans and $\sigma_{vis}$ Results}
+\section{Results}
 
 In the previous section, inconsistencies were observed in the background values, which resulted in a very high chi-square value. Therefore, it was decided not to use background subtraction. Instead, a fitting function was used, which applies a constant to achieve optimal values in the fit and improve the chi-square. To correct the measurements of PCC, beam separation, and beam currents, the corrections mentioned earlier were applied. The implemented fit model is a double Gaussian function combined with a constant-like function refered as "DG+Const":
 
@@ -207,7 +195,7 @@ To compute $\sigma_{vis}$, the CapSigma $\Sigma_{x,y}$ and peak values have been
 The sigma visibe $\sigma_{vis}$ for all BCID's (vdM a BI acans) is computed from the fit results parameters Capital sigma $\Sigma_{x,y}$ and $peak_{x,y}$, this is done using the equation \ref{sigmavis_eq}. The value of $R(0,0)$ is obtained by taking the average of the peaks in the x and y directions ($R(0,0)=(Peak_{x}+Peak_{y})/2$), which have already been normalized, so \ref{sigmavis_eq} is rewritten as:
 
 \begin{equation}
- \sigma= 2\pi \Sigma_{x} \Sigma_{y} \Biggl( \frac{Peak_{x}+Peak_{y}}{2} \Biggl)
+ \sigma_{vis}= 2\pi \Sigma_{x} \Sigma_{y} \Biggl( \frac{Peak_{x}+Peak_{y}}{2} \Biggl)
  \end{equation}
  
 Fig \ref{sigmavis_perbcid} shows the  value of sigma visible $\sigma_{vis}$ per BCID for all the scans. where the error on $\sigma_{vis}$ is assigned as: 
@@ -249,6 +237,3 @@ Obtaining a final sigma visible for the calibration $\sigma_{vis}=4163 \pm 3 \te
     \label{sigmavis_perscan}
   \end{figure}
 \end{center}
-
-
-
