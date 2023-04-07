@@ -3,27 +3,43 @@
 
 \section{2022 vdM scan program}
 
-The main VdM scan program for the CMS experiment was performed in November 2022 during LHC fills 8379 and 8381. In fill 8381 on 10 and  11 Nov 2022 at pp collision energy $\sqrt{s}$ of 13.6 TeV  144 bunch pairs were colliding at the CMS intertion points at zero crossing angle, with two additional unpaired bunches present in each beam. Four VdM scan pairs, two beam-imaging (BI) scan pairs and one length scale scan pair where performed, where each scan pair consists of two scans in the transverse planes x and y, as well as other scan types not included in this analysis. In a VdM scan, the two beams are separated by $6\sigma_{b} \thickapprox 578\mu m$ and scanned across one another in a sequence of 25 steps of 30 s with a step size of $0.5\sigma_{b} \thickapprox 48 \mu m$, where $\sigma_{b}$ is the transverse bunch size. In the BI scans, one beam is kept fixed at its nominal head-on position while the other is separated and scanned in 19 steps of 46 s from $-4.5\sigma_{b}$ to $+4.5\sigma_{b} \thickapprox 433 \mu m$. In a length scale scan, the beams are separated by a constant amount of $\sqrt{2} \sigma_{b} \thickapprox  106 \mu m$  and moved coherently forward and backward in five steps each in the same transverse direction, finally two super separation periods were performed for the analysis and Background sustraction, here the two beams were sepated at a distance of $6\sigma$.  The scan program during fill 8381 is summarized in Fig. \ref{scan_prog}.\\
+In November 2022, the main vdM scan program for the CMS experiment was conducted during LHC fills 8379 and 8381 on 10 and 11 November of 2022. During fill 8381, a total of 144 bunch pairs were colliding at the CMS interaction points at zero crossing angle, with a pp collision energy $\sqrt{s}$ of 13.6 TeV. 
+During this fill, various types of scan pairs with different characteristics were conducted. These scan pairs are described below. Each scan pair consisted of two scans in the transverse planes $x$ and $y$. In addition to these scans, other types of scans were also conducted, which are not included in this analysis.\\ %explicar porque se colisionan solo 144 de 2500 bunches en fisica
 
-The VdM calibration itself is based on scans recorded during the fill 8381, where the  Six scan pairs using for  this analysis were performed, they are labeled consecutively as they were recorded in time, as “VdM1”, “BI1”, “BI2”, “VdM2”, “VdM3”, and “VdM4” as shown in figure \ref{scan_prog} . During the "VdM2" scan pair, the central CMS data taking was not operational, so no data was recorded for PCC, and this scan pair is skipped in the PCC VdM analysis. To ensure a dataset with a high event count for PCC even at large beam separations, CMS gated the zero-bias triggers on 5 bunch pairs: BCIDs (Bunch Crossing ID) 282, 822, 2944, 3123, and 3302 and recorded events with a total rate of 27.23 kHz.\\
+The calibration program included four scan pairs, vdM1,vdM2, vdM3 and vdM4, these are considered the standard vdM scans in the program and they are used only for the main calibration, in this type of scan the two beams are separated by $6\sigma_{b} \thickapprox 578\mu m$, where $\sigma_{b}$ represents the transverse bunch size. The beams are then scanned across each other in a sequence of 25 steps, each lasting 30 seconds with a step size of $0.5\sigma_{b} \thickapprox 48 \mu m$.\\
+
+The calibration program also included two beam-imaging scan pairs, BI1 and BI2 . These sscans were used for main analysis and also for studies on beam shapes,correcting the effects caused by the not strictly valid assumption that the bunch proton density function is factorizable into independent $x$ and $y$ densitys ($x$-$y$ nonfactorization). During the BI scans, one beam is kept fixed at its nominal head-on position, while the other beam is separated and scanned in 19 steps. Each step lasts 46 seconds and covers a range from $-4.5\sigma_{b}$ to $+4.5\sigma_{b} \thickapprox 433 \mu m$.\\
+% can lead to a biased estimate of the beam overlap area.  (x-y nonfactorization), 
+
+Two length scale LS scans were conducted, one during fill 8381 and another during fill 8379. The LS scan is a special scan designed to apply a correction to the results obtained from the VdM scan program. During this scan, the beams are separated by a constant amount of $\sqrt{2} \sigma_{b} \thickapprox 106 \mu m$, and they are moved coherently forward and backward in five steps each, all in the same transverse direction.\\
+
+Finally two super separation periods SS1 and SS2 were performed for the Background esimation, here the two beams were sepated at a distance of $6\sigma_{b}$ during 5 minutes.
+%23:31-23:36 11:47-11:52
+
+The scan program during fill 8381 is summarized in Figure \ref{scan_prog} where all the scans mentioned and described above are labeled.
 
 \begin{center}
-  \begin{figure}[h]
+  \begin{figure}[h]	
     \centering
-    \includegraphics[scale=.25]{Chapter4/2022Scanprorgam.png}
-    \caption[2022 scan program]{Nominal horizontal and vertical positions of the proton beams during LHC fill 8381, showing the four normal VdM scans, two BI scans and the two Super Separation Periods (SS)}
+    \includegraphics[scale=.35]{Chapter4/2022Scanprorgam.png}
+    \caption[2022 scan program]{Nominal horizontal and vertical positions of the proton beams during LHC fill 8381, showing the four standard VdM scans, two BI scans, one LS scan and the two Super Separation Periods (SS)}
     \label{scan_prog}
   \end{figure}
 \end{center}
 
-The rate measured by each detector and normalized with the measured beam population is fitted as a function of the separation. Corrections to the measured proton numbers and to the nominal separation are discussed in the following sections. Here, the fit model and the background subtraction are discussed. Technically, the fits are performed with the VdMFramework.
+\section{Data aquisition and processing}
 
-\section{Data proccesing}
+To ensure high statistical precision in the datasets per BCID, due to trigger limitations,CMS implemented zero bias triggers only on five bunch pairs BCID's: 282, 822, 2944, 3123, and 3302. The data is then saved randomly using the High Level Trigger system (HLT) with the highest possible rate of 27.23 kHz through the data acquisition (DAQ) system. To accomplish this, 16 different streams are still required due to the weight of each event and the necessary bandwidth for saving the events. Here these streams are in their called RAW format.\\
 
-The data taken by the  PCC luminometer was reprocessed for the CMS team to perform a cluster reconstruction. The datasets containing the cluster information per event were stored in 16 different "zero Bias" datasets. The first step we took was to extract the data corresponding to the events that belong to our 6 VdM Scans (Runs, Pixel cluster clusters, timestamps, etc.) in a file with ROOT format that is the CERN's data analysis package. This was done through the CMS software (CMSSW), which is written in Python2 and C++.\
-Afterward, we have the 16  resulting datasets, uno for each "zero Bias" dataset. These files are reprocessed to generate the final file containing the rates stored per 1.32 s (NB4) with a hierarchical data format (HD5). Within this data reprocessing, we clean the information by subtracting the background and also select the modules that were previously analyzed by a stability study.
+The data is then reprocessed by the CMS collaboration to enable a cluster reconstruction, resulting in the datasets that contain the number of clusters per event and all their additional information, the data here is in the CMSSW format. These datasets will be used as the starting point for our own data reprocessing and analysis.\\
 
-The final "hd5" file containing the rates from the detector with data collected during the vdM scans is analyzed using a software framework called the "vdM Framework" (vdM FW), which is the latest version and is written in Python3. The vdM FW uses data analysis package, "ROOT," through the "PyRoot" library. With the analysis and plotting tools, the vdM FW reads the hd5 file, producing several intermediate files: scan file, beam currents file, rates file, and correction files. It then applies corrections to the rates (Background, DynamicBeta), separation (OrbitDrift, LengthScale, BeamBeam), and creates a graph file. This graph file contains the normalized rates (i.e., $R/N_{1}N_{2}$) and beam position. Each point corresponds to the averaged rates in a time window of 30s and 46s for vdM scans and BI scans, respectively. The points are then fitted with a predefined function to extract $\Sigma_{x,y}$ and peak values to compute $\sigma_{\text{vis}}$ for all the bunches in the scan.
+To begin our analysis, we extracted the necessary information from the datasets using the CMS software , which is written in Python and C++. Due to the large size of the datasets, all the datasets were sent for reprocessing through The Worldwide LHC Computing Grid (WLCG), wish consists of a grid-based computer network infrastructure,designed by CERN to handle he big volume of data produced by Large Hadron Collider (LHC) experiments.
+After processing, we obtained the required event-level information, which was saved in a dataset with a ROOT format. This format uses Trees and Branches, that are a type of  containers to maintain the information in a hierarchical and organized manner. The information stored in these containers includes general information such as the number of run, the number of lumisections (where 1 LS = 23 s), and the number of luminible LN (where 1 LN is equivalent to 0.32 s). In another container, we can find the number of clusters per event, the bunch number "BCID" of the event, the event timestamp, and the module identifiers of the event. \\
+  
+Due to the limitations of the framework for handling our size of data, we are unable to use all of the statistics as we have them. To address this issue, we need to merge the data in a single file with a hierarchical data format (hd5) that saves the information in tables. in order  to utilize all the statistics in this only file,we stored  the rates each 1.32 s (NB4) time that corresponding to 4 LN, this is an average  between clusters and the number of events that fall within this time span. Again the process is done by the grid. During this reprocessing phase, the veto list is introduced, and the detected events in these modules are eliminated.
+
+The final hd5 file, containing the rates collected during the vdM scans, is analyzed using the vdM Framework (vdMFW), which is written in Python and uses the ROOT data analysis package through the PyRoot library. The vdMFW reads the hd5 file and extracts the necessary information for analysis using its analysis tools. During the analysis process, several corrections are applied to the rates which will be described later.
+After the complete analysis, the Framework generates final analysis files and plots, which contain the normalized rates ($R/N_{1}N_{2}$) and beam position.  A predefined function is then used to fit the points to extract $\Sigma_{x,y}$ and peak values to compute $\sigma_{\text{vis}}$ for all the bunches in the scan.
 
 \section{Background estimation}
 
@@ -140,14 +156,38 @@ The corrections are calculated for each proton bunch pair individually, and the 
 
 \item Length Scale.  It applies a linear scaling to the beam separation to convert it from the "CMS scale" to the actual "physics scale". This is  calibrated by analyzing pp collision vertices reconstruced by the CMS tracker using data from the five length scale scan pairs performed in fills 8178, 8379, and 8381.This correction reduces $\sigma_{vis}$ by 1.0\% and results in an uncertainty of 0.12\%.
 
-
 \end{enumerate}
 
-\newpage
+\section{Model  Selection}
+
+As we have seen in previous sections, the points generated for each step of the scan need to be fitted using a mathematical function. This allows us to extract the parameters we need, such as $\Sigma_{x,y}$ and peak values for all the bunches in the scan, in order to finally compute $\sigma_{\text{vis}}$. Within vdMFW, there are several pre-defined functions that use a combination of Gaussian functions with different adjustable parameters to achieve a better fit. These functions include Double Gaussian (DG), Single Gaussian (SG), Poly Gaussians (PG), among others. All of the above functions exist in versions with an additive constant to the entire function, typically used to fit to the background levels.\\
+
+For this analysis, various fit functions were tested, and the one with the best quality of fit was selected. The quality of the fit is primarily based on the convergence of the function with the points being fitted for each BCID. The convergence is assessed based on the covariance matrix, which measure the linear relationship between each pair of elements or variables. A  covariance status equal to 3 means a good convergence of the function.\\ 
+
+The second most important parameter for measuring the quality of the fit is having a good  Chi-square $\chi^2$. The  Chi-square goodness of fit test is a statistical hypothesis test that helps to determine whether a variable is likely to come from a specified distribution or not. This test provides a way to assess whether the data values have a good enough fit to our model, or if the model is questionable. In more general terms, this test compares observed values with expected or theoretical values according to the hypothesis.\\
+
+This can be seen in figure \ref{chi2} where $N$ observed values $y_{1}$,···, $y_{N}$ are measured with errors $\sigma_{1}$,···,$\sigma_{N}$" at the values of $x$ given without error by $x_{1}$,..., $x_{N}$. The theoretical  value $\lambda_{1}$ of $y_{l}$. is given by a function $\lambda_{i} = \lambda(x_{i},\theta)$. The value of $\theta$ is adjusted to minimize the value of $\chi^2$, given by equation \ref{x^2}, where it is inferred that the lower the value of $\chi^2$, the better the fit is considered to be \cite{Statistical_Data_Analysis}.
+
+\begin{equation}
+\chi^{2}(\theta)=\sum_{i=1}^{N} \frac{(y_{i}-\lambda(x_{i},\theta))^{2}}{\sigma_{i}^{2}}
+\label{x^2}
+\end{equation}
+
+\begin{center}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[scale=.35]{Chapter4/chi-square.png}
+    \caption[chi-square definition]{ chi2/ndof } 
+    \label{chi2}
+  \end{figure}
+\end{center}
+
+Based on these parameters for measuring the quality of the fit,  the optimal function was found to be the  double Gaussian function plus a constant, referred to as "DG+Const".
+
 \section{Results}
 
-In the previous section, inconsistencies were observed in the background values, which resulted in a very high chi-square value. Therefore, it was decided not to use background subtraction. Instead, a fitting function was used, which applies a constant to achieve optimal values in the fit and improve the chi-square. To correct the measurements of PCC, beam separation, and beam currents, the corrections mentioned earlier were applied. The implemented fit model is a double Gaussian function combined with a constant-like function refered as "DG+Const":
-
+The implemented fit model, where all fits converge and we obtained the best value for the chi-square, was a combination of a double Gaussian function plus a constant, referred to as "DG+Const".
+However, due to inconsistencies observed between the values of the two super separation periods in the background values, resulted in high chi-square values. Therefore, it was decided not to use background subtraction. Instead, a fitting function that applies a constant was used to achieve optimal values in the fit and improve the chi-square. %The implemented fit model chosen was a combination of a double Gaussian function with a constant-like function, referred to as "DG+Const".
 \begin{equation}
 DG+Const=
  C+P \cdot \Biggl[ F \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{1}^{2} } \Biggr) + (1-F) \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{2}^{2} } \Biggr) \Biggr] 

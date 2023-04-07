@@ -5,23 +5,25 @@
 \contentsline {section}{\numberline {1.1}Particle Physics and The Standard Model}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Particle Colliders and production cross section}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Luminosity }{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}The Large Hadron Collider}{9}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Experiment Description }{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The Compact Muon Solenoid}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}CMS Luminometers}{16}{section.2.2}%
-\contentsline {section}{\numberline {2.3}CMS Tracking System}{18}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Silicon Pixel Detector}{19}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Pixel Cluster Reconstruction}{20}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Luminosity Measurement and Calibration}{22}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Pixel Cluster Counting method}{22}{section.3.1}%
-\contentsline {section}{\numberline {3.2}2022 CMS Data Summary}{24}{section.3.2}%
+\contentsline {section}{\numberline {1.4}The Large Hadron Collider}{8}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Expected Luminosity precision for LHC Run 3}{10}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Experiment Description }{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The Compact Muon Solenoid}{12}{section.2.1}%
+\contentsline {section}{\numberline {2.2}CMS Luminometers}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}CMS Tracking System}{16}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Silicon Pixel Detector}{18}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Pixel Cluster Reconstruction}{19}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Luminosity Measurement and Calibration}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Pixel Cluster Counting method}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}2022 CMS Data collected}{23}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Module selection}{24}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Luminosity calibration: van der Meer method}{26}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Luminosity calibration: van der Meer method}{25}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Analysis and Results}{28}{chapter.4}%
 \contentsline {section}{\numberline {4.1}2022 vdM scan program}{28}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Data proccesing}{29}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Background estimation}{30}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Beam Corrections}{32}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Results}{34}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Summary and Outlook}{38}{chapter.5}%
-\contentsline {chapter}{References}{39}{chapter*.33}%
+\contentsline {section}{\numberline {4.2}Data aquisition and processing}{29}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Background estimation}{31}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Beam Corrections}{33}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Model Selection}{34}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Results}{35}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Summary and Outlook}{40}{chapter.5}%
+\contentsline {chapter}{References}{41}{chapter*.37}%

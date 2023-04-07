@@ -19,17 +19,15 @@ I was expecting a `,' or a `}'---line 46 of file References/references.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "LHC" isn't style-file defined
---line 231 of file References/references.bib
-Warning--entry type for "luminosity_importance" isn't style-file defined
---line 238 of file References/references.bib
+--line 241 of file References/references.bib
 Warning--entry type for "concept_of_luminosity" isn't style-file defined
---line 245 of file References/references.bib
-Repeated entry---line 326 of file References/references.bib
+--line 255 of file References/references.bib
+Repeated entry---line 336 of file References/references.bib
  : @misc{wikicern
  :               ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "lumi_motiv" isn't style-file defined
---line 464 of file References/references.bib
+--line 474 of file References/references.bib
 Warning--empty publisher in ref_lib_vol3
 Warning--empty year in lumi_motiv
 Warning--empty author in pas_17
@@ -37,43 +35,43 @@ Warning--empty author in pas_18
 Warning--empty author in PCC_PAS_12_001
 You've used 23 entries,
             2481 wiz_defined-function locations,
-            714 strings with 8624 characters,
-and the built_in function-call counts, 7628 in all, are:
-= -- 736
+            719 strings with 8675 characters,
+and the built_in function-call counts, 7668 in all, are:
+= -- 744
 > -- 165
 < -- 21
 + -- 92
 - -- 46
-* -- 511
-:= -- 1139
-add.period$ -- 86
+* -- 515
+:= -- 1151
+add.period$ -- 89
 call.type$ -- 23
-change.case$ -- 44
+change.case$ -- 43
 chr.to.int$ -- 23
 cite$ -- 32
-duplicate$ -- 419
+duplicate$ -- 424
 empty$ -- 803
 format.name$ -- 73
-if$ -- 1675
+if$ -- 1684
 int.to.chr$ -- 1
 int.to.str$ -- 24
-missing$ -- 19
-newline$ -- 139
+missing$ -- 21
+newline$ -- 141
 num.names$ -- 57
-pop$ -- 192
+pop$ -- 187
 preamble$ -- 1
 purify$ -- 23
 quote$ -- 0
-skip$ -- 267
+skip$ -- 265
 stack$ -- 0
 substring$ -- 398
 swap$ -- 70
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 149
+type$ -- 146
 warning$ -- 5
 while$ -- 59
 width$ -- 0
-write$ -- 334
+write$ -- 340
 (There were 2 error messages)

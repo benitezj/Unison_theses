@@ -2,17 +2,20 @@
 % Please have a look at the README.md file for info on how to use the template
 
 \documentclass[a4paper,12pt,times,numbered,print,custommargin,index,custombib,oneside]{Classes/PhDThesisPSnPDF}
+\usepackage{multirow}
 \usepackage{tocloft}
 \usepackage{tikz}
 \usepackage{wrapfig}
 \usepackage{graphicx}
 \usepackage{ragged2e} 
 \usepackage{float}
-
+\usepackage{lineno}
  \usepackage{setspace}
 \usepackage{pgfplots}
+\usepackage{booktabs}
 \setlength\cftparskip{0pt}
 \setlength\cftbeforechapskip{0pt}
+
 
 % ******************************************************************************
 % ******************************* Class Options ********************************
@@ -119,7 +122,7 @@
 
 % ******************************** Front Matter ********************************
 \begin{document}
-	
+	\linenumbers
 	\frontmatter
 	\include{Portada/Portada}
 	\include{Dedication/dedication}

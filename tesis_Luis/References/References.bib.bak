@@ -1,0 +1,483 @@
+@comment{x-kbibtex-encoding=utf-8}
+
+@article{lhcmachine2008,
+	doi = {10.1088/1748-0221/3/08/s08001},
+	year = 2008,
+	month = {{Aug}},
+	publisher = {{IOP} Publishing},
+	volume = {3},
+	number = {08},
+	pages = {S08001--S08001},
+	author = {Lyndon Evans and Philip Bryant},
+	title = {{LHC} Machine},
+	journal = {Journal of Instrumentation},
+	abstract = {The Large Hadron Collider (LHC) at CERN near Geneva is the world's newest and most powerful tool for Particle Physics research.}
+}
+
+@article{Pixel_Hit_Reconstruction,
+	doi = {https://doi.org/10.48550/arXiv.0808.3804},
+	year = 2008,
+	month = {{Aug}},
+	publisher = {{IOP} Publishing},
+	volume = {3},
+	number = {08},
+	pages = {S08001--S08001},
+	author = {G. Giurgiu, D. Fehling, P. Maksimovic},
+	title = {{CMS} Machine},
+	journal = {Journal of Instrumentation},
+	abstract = {Pixel Hit Reconstruction with the CMS Detector.}
+}
+
+@article{CMS_Exp_2008,
+	doi = {10.1088/1748-0221/3/08/s08004},
+	year = 2008,
+	month = {{Aug}},
+	publisher = {{IOP} Publishing},
+	volume = {3},
+	number = {08},
+	pages = {S08004--S08004},
+	author = {CMS Collaboration},
+	title = {The {CMS} experiment at the {CERN} {LHC}},
+	journal = {Journal of Instrumentation},
+	abstract = {The Compact Muon Solenoid (CMS) detector is described. The detector operates at the Large Hadron Collider (LHC) at CERN.}
+
+
+
+@article{Atlas_Exp_2008,
+	doi = {10.1088/1748-0221/3/08/s08003},
+	year = 2008,
+	month = {{Aug}},
+	publisher = {{IOP} Publishing},
+	volume = {3},
+	number = {08},
+	pages = {S08003--S08003},
+	author = {ATLAS Collaboration},
+		title = {The {ATLAS} Experiment at the {CERN} Large Hadron Collider},
+	journal = {Journal of Instrumentation},
+	abstract = {The ATLAS detector as insta}
+}
+
+
+
+@article{ALICE_Exp_2008,
+	doi = {10.1088/1748-0221/3/08/s08002},
+	year = 2008,
+	month = {{Aug}},
+	publisher = {{IOP} Publishing},
+	volume = {3},
+	number = {08},
+	pages = {S08002--S08002},
+	author = {ALICE Collaboration},
+	title = {The {ALICE} experiment at the {CERN} {LHC}},
+	journal = {Journal of Instrumentation},
+	abstract = {ALICE (A Large Ion Collider Experiment) is a general-purpose, heavy-ion detector at the CERN LHC which focuses on QCD}
+}
+
+
+
+@article{LHCb_Exp_2008,
+	doi = {10.1088/1748-0221/3/08/s08005},
+	year = 2008,
+	month = {{Aug}},
+	publisher = {{IOP} Publishing},
+	volume = {3},
+	number = {08},
+	pages = {S08005--S08005},
+	author = {The LHCb Collaboration},
+	title = {The {LHCb} Detector at the {LHC}},
+	journal = {Journal of Instrumentation},
+	abstract = {The LHCb experiment is dedicated to precision measurements of CP violation and rare decays of B hadrons at .}
+}
+
+
+
+@book{thomson_2013, place={Cambridge}, title={Modern Particle Physics}, DOI={10.1017/CBO9781139525367}, publisher={Cambridge University Press}, author={Thomson, Mark}, year={2013}}
+
+
+
+
+
+@book{griff,
+      author        = "Griffiths, David J",
+      title         = "{Introduction to elementary particles; 2nd rev. version}",
+      publisher     = "Wiley",
+      address       = "New York, NY",
+      series        = "Physics textbook",
+      year          = "2008",
+      url           = "https://cds.cern.ch/record/111880",
+      note   = "\url{https://cds.cern.ch/record/111880} "
+}
+
+@book{Statistical_Data_Analysis,
+      author        = "GLEN COWAN",
+      title         = "{Statistical Data Analysis}",
+      publisher     = "Clarendon press",
+      address       = "New York, NY",
+      series        = "Statistical textbook",
+      year          = "1998",
+      url           = "https://cloudflare-ipfs.com",
+      note   = "\url{https://cloudflare-ipfs.com} "
+}
+
+@article{higgs_ATLAS,
+title = {Observation of a new particle in the search for the {Standard Model Higgs} boson with the {ATLAS} detector at the {LHC}},
+journal = {Physics Letters B},
+volume = {716},
+number = {1},
+pages = {1-29},
+year = {2012},
+doi = {https://doi.org/10.1016/j.physletb.2012.08.020},
+author = {ATLAS Collaboration}
+}
+
+
+@article{higgs_CMS,
+title = {Observation of a new boson at a mass of 125 {G}e{V} with the {CMS} experiment at the {LHC}},
+journal = {Physics Letters B},
+volume = {716},
+number = {1},
+pages = {30-61},
+year = {2012},
+doi = {https://doi.org/10.1016/j.physletb.2012.08.021},
+author = {CMS Collaboration}
+}
+
+
+
+@book{ref_lib_vol3,
+author = {Myers, Stephen and Schopper, Herwig},
+year = {2020},
+month = {01},
+pages = {230},
+title = {Particle Physics Reference Library Volume 3: Accelerators and Colliders.},
+doi = {10.1007/978-3-030-34245-6}
+}
+
+
+@article{lumi_paper_def_and_concept,
+title = {Luminosity determination at proton colliders},
+journal = {Progress in Particle and Nuclear Physics},
+volume = {81},
+pages = {97-148},
+year = {2015},
+doi = {https://doi.org/10.1016/j.ppnp.2014.11.002},
+author = {P. Grafström and W. Kozanecki},
+keywords = {Luminosity determination, Hadron colliders, van der Meer scans, Elastic pp scattering, Beam imaging},
+abstract = {Luminosity is a key parameter in any particle collider.}
+}
+
+
+@Inbook{undergraduate_accelerators_chapter,
+author="Belyaev, Alexander
+and Ross, Douglas",
+title="Particle Accelerators",
+bookTitle="The Basics of Nuclear and Particle Physics",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="201--219",
+doi="10.1007/978-3-030-80116-8_13"
+}
+
+
+
+@article{LHC_status_2013,
+	doi = {10.1088/1742-6596/455/1/012001},
+	year = 2013,
+	month = {{Aug}},
+	publisher = {{IOP} Publishing},
+	volume = {455},
+	pages = {012001},
+	author = {Mike Lamont},
+	title = {Status of the {LHC}},
+	journal = {Journal of Physics: Conference Series},
+	abstract = {A brief overview of LHC operations over the last 3 years is provided. Luminosity performance has been satisfactory and the factors that have been exploited are outlined. Availability and operational efficiency are discussed. Finally a brief overview of the planned long shutdown is given and estimates of the potential post shutdown performance briefly enumerated.}
+}
+
+
+@article{lumi_precise_2015_2016,
+author = {CMS Collaboration},
+year = {2021},
+month = {01},
+pages = {800},
+title = {Precision luminosity measurement in proton-proton collisions at $\sqrt{s}$ = 13 TeV in 2015 and 2016 at CMS},
+volume = {81},
+journal = {The European physical journal. C, Particles and fields},
+doi = {10.1140/epjc/s10052-021-09538-2}
+}
+
+
+@techreport{pas_17,
+      title         = "{CMS luminosity measurement for the 2017 data-taking
+                       period at $\sqrt{s} = 13~\mathrm{TeV}$}",
+      institution   = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      reportNumber  = "CMS-PAS-LUM-17-004",
+      year          = "2018",
+      url           = "https://cds.cern.ch/record/2621960",
+}
+
+
+@techreport{pas_18,
+      title         = "{CMS luminosity measurement for the 2018 data-taking
+                       period at $\sqrt{s} = 13~\mathrm{TeV}$}",
+      institution   = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      reportNumber  = "CMS-PAS-LUM-18-002",
+      year          = "2019",
+      url           = "https://cds.cern.ch/record/2676164",
+}
+
+@MISC{wikicern,
+    author = {{CMSPublic Web. CMS Luminosity - Public Results}},
+    title = {Delivered luminosity versus time for 2010-2012 and 2015-2018 (pp data only)},
+    year = {2022},
+    note = {[Online; accessed September 23, 2022]},
+    url = {https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}
+}
+
+@thesis{LHC,
+      author        = "CERN",
+      title         = "{The Large Hadron Collider}",
+      year          = "2022",
+      url           = "https://home.cern/science/accelerators/large-hadron-collider",
+}
+
+@thesis{luminosity_importance,
+      author        = "Piotr Traczyk",
+      title         = "{Why precision luminosity measurements matter}",
+      year          = "2021",
+      url           = "https://phys.org/news/2021-05-precision-luminosity.html",
+}
+
+@thesis{concept_of_luminosity,
+      author        = "Werner Herr and Bruno Muratori",
+      title         = "{Concept of Luminosity}",
+      year          = "2006",
+      url           = "https://cds.cern.ch/record/941318/files/p361.pdf",
+}
+
+@article{phase1_Pixel_Detector,
+	doi = {10.1088/1748-0221/16/02/p02027},
+	year = 2021,
+	month = {{Feb}},
+	publisher = {{IOP} Publishing},
+	volume = {16},
+	number = {02},
+	pages = {P02027--P02027},
+	author = {W. Adam et al },
+	title = {The {CMS} Phase-1 pixel detector upgrade},
+	journal = {Journal of Instrumentation},
+	abstract = {The CMS detector at the CERN LHC features a silicon pixel detector as its innermost subdetector.}}
+
+@article{Track_Reco_2014,
+	doi = {10.1088/1748-0221/9/10/p10009},
+	year = 2014,
+	month = {{Oct}},
+	publisher = {{IOP} Publishing},
+	volume = {9},
+	number = {10},
+	pages = {P10009--P10009},
+	author = {The CMS Collaboration},
+	title = {Description and performance of track and primary-vertex reconstruction with the {CMS} tracker},
+	journal = {Journal of Instrumentation},
+	abstract = {A description is provided of the software algorithms developed for the CMS tracker both for reconstructing charged-particle trajectories in proton-proton g.}
+}
+
+
+@book{TDR_CMS,
+      author        = "CMS Collaboration",
+      title         = "{CMS Physics: Technical Design Report Volume 1: Detector
+                       Performance and Software}",
+      publisher     = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      series        = "Technical design report. CMS",
+      year          = "2006",
+      url           = "https://cds.cern.ch/record/922757",
+      note          = "There is an error on cover due to a technical problem for
+                       some items",
+}
+
+
+@article{MuonDetPerf_CMS,
+	doi = {10.1088/1748-0221/13/06/p06015},
+	url = {https://doi.org/10.1088/1748-0221/13/06/p06015},
+	year = 2018,
+	month = {jun},
+	publisher = {{IOP} Publishing},
+	volume = {13},
+	number = {06},
+	pages = {P06015--P06015},
+	author = {CMS Collaboration},
+	title = {Performance of the {CMS} muon detector and muon reconstruction with proton-proton collisions at $\sqrt{s}$ = 13 {TeV}},
+	journal = {Journal of Instrumentation},
+	abstract = {The CMS muon detector system....}
+}
+
+
+
+@BOOK{Martin2017_book,
+  title     = "Particle Physics",
+  author    = "Martin, Brian R and Shaw, Graham",
+  publisher = "John Wiley \& Sons",
+  series    = "Manchester Physics Series",
+  edition   =  4,
+  month     =  jan,
+  year      =  2017,
+  address   = "Nashville, TN",
+  language  = "en"
+}
+
+
+
+@MISC{wikicern,
+    author = {{CMSPublic Web. CMS Luminosity - Public Results}},
+    title = {Delivered luminosity versus time for 2010-2012 and 2015-2018 (pp data only)},
+    year = {2022},
+    note = {[Online; accessed July 23, 2022]},
+    url = {https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}
+}
+
+
+
+@article{det_summary,
+	doi = {10.1088/1748-0221/12/10/p10003},
+	year = 2017,
+	month = {{Oct}<},
+	publisher = {{IOP} Publishing},
+	volume = {12},
+	number = {10},
+	pages = {P10003--P10003},
+	author = {A.M. Sirunyan et al },
+	title = {Particle-flow reconstruction and global event description with the {CMS} detector},
+	journal = {Journal of Instrumentation},
+	abstract = {The CMS apparatus.}
+}
+
+
+
+@inproceedings{lhc_complex,
+    author = "Halkiadakis, Eva",
+    title = "{Introduction to the LHC Experiments}",
+    booktitle = "{Theoretical Advanced Study Institute in Elementary Particle Physics}: {Physics of the Large and the Small}",
+    eprint = "1004.5564",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    doi = "10.1142/9789814327183_0009",
+    pages = "489--518",
+    year = "2011"
+}
+
+@techreport{vdM_cal,
+      author        = "van der Meer, S",
+      title         = "{Calibration of the effective beam height in the ISR}",
+      institution   = "CERN",
+      address       = "Geneva",
+      reportNumber  = "CERN-ISR-PO-68-31, ISR-PO-68-31",
+      year          = "1968",
+      url           = "https://cds.cern.ch/record/296752",
+}
+
+@techreport{PCC_PAS_12_001,
+      title         = "{CMS Luminosity Based on Pixel Cluster Counting - Summer
+                       2012 Update}",
+      institution   = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      reportNumber  = "CMS-PAS-LUM-12-001",
+      year          = "2012",
+      url           = "https://cds.cern.ch/record/1482193",
+}
+
+
+
+@article{vdM_sketch,
+    author = "Karacheban, Olena",
+    collaboration = "CMS",
+    title = "{Performance of the BRIL luminometers at CMS in Run 2}",
+    reportNumber = "CMS-CR-2019-140",
+    doi = "10.22323/1.364.0194",
+    journal = "PoS",
+    volume = "EPS-HEP2019",
+    pages = "194",
+    year = "2020"
+}
+
+
+@techreport{pas-13,
+      title         = "{CMS Luminosity Based on Pixel Cluster Counting - Summer
+                       2013 Update}",
+      institution   = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      reportNumber  = "CMS-PAS-LUM-13-001",
+      year          = "2013",
+      url           = "https://cds.cern.ch/record/1598864",
+}
+
+@techreport{pas-15,
+      title         = "{CMS luminosity measurement for the 2015 data-taking
+                       period}",
+      institution   = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      reportNumber  = "CMS-PAS-LUM-15-001",
+      year          = "2017",
+      url           = "https://cds.cern.ch/record/2138682",
+}
+
+
+@misc{ashish_stb1,
+  author        = {Ashish Sehrawat},
+  title         = {PCC stability study with 2018 data},
+  month         = {November},
+  year          = {2021},
+  publisher={BRIL DPG Meeting},
+  url           = "https://indico.cern.ch/event/1099207/contributions/4625225/attachments/2351526/4011953/PCC_Stability_Study_23_11_2021.pdf",
+}
+
+@misc{ashish_stb2,
+  author        = {Ashish Sehrawat},
+  title         = {Reprocessed 2018 PCC data with new module vetoes},
+  month         = {May},
+  year          = {2022},
+  publisher={LUM-20-001 authors meeting},
+  url           = "https://indico.cern.ch/event/1157940/contributions/4862596/attachments/2437712/4176063/AshishSehrawat.pdf",
+}
+
+@article{bkg_source,
+title = {Simulation of beam-induced backgrounds in comparison with data from the {CMS} pixel and other inner radii detectors},
+journal = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+volume = {650},
+number = {1},
+pages = {33-36},
+year = {2011},
+note = {International Workshop on Semiconductor Pixel Detectors for Particles and Imaging 2010},
+doi = {https://doi.org/10.1016/j.nima.2010.11.082},
+author = {S. Müller},
+keywords = {LHC, CMS, Pixel, BCM, Machine background, Simulation, FLUKA},
+abstract = {The response for pp-collisions and machine-induced background in CMS has been simulated with FLUKA.}
+}
+
+
+@thesis{elec_noise,
+      author        = "Gu, Weihua",
+      title         = "{Characterization of the CMS Pixel Detectors}",
+      year          = "2002",
+      url           = "http://cds.cern.ch/record/1293521",
+}
+
+
+@BIBNOTE{lumi_motiv,
+  note = {M.L. Mangano, Motivations and precision targets for an accurate luminosity determination at the LHC, \emph{CERN-Proceedings-2011-011}, \url{https://cds.cern.ch/record/1347440}},
+}
+
+
+
+@BIBNOTE{test1,
+  note = {Smith, P \& Benn, J 2012, This is a freeform reference, {\fontfamily{qcr}\selectfont
+This text uses a different font typeface doi:  \url{https://tex.stackexchange.com/questions/250997/is-there-a-free-format-entry-in-bibtex}} Panamanian Journal of Toenail Clippings, \url{https://tex.stackexchange.com/questions/250997/is-there-a-free-format-entry-in-bibtex}},
+}
