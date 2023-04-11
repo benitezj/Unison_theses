@@ -1,5 +1,4 @@
-\chapter{Experiment Description }
-
+\chapter{Experiment Description}
 Modern general-purpose detectors used in high-energy colliders typically employ cylindrical detection layers arranged around the beam axis. One such example is the Compact Muon Solenoid (CMS), which is part of the LHC at CERN and is considered one of the largest international scientific collaborations in history. The CMS is designed for a broad physics program that includes studying the Standard Model. This chapter provides a description of the various components of the CMS detector,incliding the several systems to measure the luminosity with a particular focus on the silicon pixel tracker, which is described in greater detail due to its relevance to the thesis.
  
 \section{The Compact Muon Solenoid}
@@ -45,7 +44,7 @@ The CMS's coordinate system has its origin located at the center of the detector
 
 A total of seven systems are used for measuring luminosity at CMS. The Pixel Luminosity Telescope (PLT) and Fast Beam Conditions Monitor (BCM1F) are dedicated systems for luminosity measurement, while the hadronic forward calorimeter (HF) uses a dedicated readout on an existing system. Additionally, three other methods, the drift tube luminosity (DT), the pixel cluster counting method (PCC), and the vertex counting method (VTX), use data from existing parts of the CMS detector to perform a luminosity measurement using the main CMS DAQ system. The PCC measurement uses the data collected with the standard CMS trigger system with triggers requiring colliding bunches but not any specific event activity, known as "zero-bias" triggers. Finally, the RAMSES detectors are part of the LHC environmental protection and monitoring systems, but they can also be used to provide a luminosity measurement readout through Timber(operational data and LHC logging service) \cite{pas_18}.  A brief overview of the CMS luminometers is provided below:\\
 
-PLT Is a dedicated system for measuring luminosity using silicon pixel sensors. There are a total of 48 sensors arranged into 16 “telescopes”,eight at either end of CMS outside the pixel endcap, where each telescope contains three sensor planes arranged nearly parallel to the beam pipe. The PLT measures the rate of “triple coincidences”, where a hit is observed in all three planes, typically corresponding to a track from a particle originating at the interaction point. The overall mean rate for PLT  is estimated using the zero-counting method, where it is assumed that the number of observed triple coincidences follows a Poisson distribution \cite{pas_18}. 
+PLT Is a dedicated system for measuring luminosity using silicon pixel sensors. There are a total of 48 sensors arranged into 16 “telescopes”,eight at either end of CMS outside the pixel endcap, where each telescope contains three sensor planes arranged nearly parallel to the beam pipe. The PLT measures the rate of “triple coincidences”, where a hit is observed in all three planes, typically corresponding to a track from a particle originating at the interaction point. The overall mean rate for PLT  is estimated using the zero-counting method, where it is assumed that the number of observed triple coincidences follows a Poisson distribution \cite{pas_18}. \\
 
 BCM1F comprises a total of 24 sensors mounted on the same carriage as the PLT, consisting of 10 silicon sensors, 10 polycrystalline diamond (pCVD) sensors, and 4 single-crystal diamond (sCVD) sensors.The BCM1F readout features a fast readout with 6.25 ns time resolution; the precise time measurement, in conjunction with the position of BCM1F 1.8 m from the center of CMS, allows hits from collision products to be separated from hits from machine-induced background, because the incoming background is separated in time from the outgoing collision products  \cite{pas_18}.\\ 
 
@@ -90,9 +89,9 @@ The innermost part of the tracking system is made up of the silicon pixel tracke
 
 \section{Silicon Pixel Detector}
 
-The silicon pixel detector  forms the innermost component of the tracking system. This detector facilitates the provides  3-dimensional space points in the area nearest to the interaction point, which, in turn, enables precise tracking of charged particles and vertex reconstruction. The pixel detector operates in a radiation-rich environment, marked by high track density \cite{phase1_Pixel_Detector}.\\
+The silicon pixel detector  forms the innermost component of the tracking system. This detector facilitates the provides complete spatial coverage over the area nearest to the interaction point, which, in turn, enables precise tracking of charged particles and vertex reconstruction. The coverage of the pixel detector is in the pseudorapidity range $(|\eta| < 2.5)$, operating in a radiation rich environment, marked by high track density \cite{phase1_Pixel_Detector}.\\
 
-The CMS pixel detector encompasses four concentric barrel layers (L1-L4), each with radii measuring 29, 68, 109, and 160 mm, and three disks (D1-D3) on either end positioned at distances of 291, 396, and 516 mm from the detector's center. A schematic of the CMS Phase-1 pixel detector's arrangement is depicted in Figure \ref{phase1_pixel_detector} where the total silicon area spans 1.9 $\text{m}^{2}$.
+The CMS pixel detector encompasses four concentric barrel layers (L1-L4), each with radii measuring 29, 68, 109, and 160 mm, and three disks (D1-D3) on either end positioned at distances of 291, 396, and 516 mm from the detector's center. The complete detector is built from 1856 segmented silicon sensor modules.  A schematic of the CMS Phase-1 pixel detector's arrangement is depicted in Figure \ref{phase1_pixel_detector} where the total silicon area spans 1.9 $\text{m}^{2}$, here The BPIX and FPIX detectors are equipped with four service half-cylinders each, with a combined length of 540 mm. These cylinders host the readout and control circuits, and provide guidance for the power lines and cooling tubes of the detector.
 
 \begin{center}
   \begin{figure}[h]
@@ -103,14 +102,14 @@ The CMS pixel detector encompasses four concentric barrel layers (L1-L4), each w
   \end{figure}
 \end{center}
 
-The BPIX and FPIX detectors are equipped with four service half-cylinders each, with a combined length of 540 mm. These cylinders host the readout and control circuits, and provide guidance for the power lines and cooling tubes of the detector. %  cambiar a otra palabras ..The BPIX detector is bifurcated into two mechanically self-sufficient halves, both of which are made up of a half detector and two service half-cylinders. The orientation of the sensor surface of the modules in both halves is parallel to the magnetic field.
+ 
+The BPIX detector is bifurcated into two mechanically self-sufficient halves, both of which are made up of a half detector and two service half-cylinders. BPIX is built in total from 1184 segmented silicon sensor modules where the orientation of theire surface  in both halves is parallel to the magnetic field.\\
 
-%% separadas
-On the other hand, the FPIX detector is segmented into four mechanically independent quadrants, each of which comprises three half-disks housed in a service half-cylinder. The sensor orientation in the FPIX detector is arranged such that the long side of the pixel is aligned with the radial direction. The half-disks are additionally subdivided into inner and outer half-rings that support 22 and 34 modules, respectively \cite{phase1_Pixel_Detector}.\\
+On the other hand, the FPIX detector is segmented into four mechanically independent quadrants, each of which comprises three half-disks housed in a service half-cylinder. The sensor orientation in the FPIX detector is arranged such that the long side of the pixel is aligned with the radial direction. FPIX is built in total from 672 segmented silicon sensor modules and the half-disks are additionally subdivided into inner and outer half-rings that support 22 and 34 modules, respectively \cite{phase1_Pixel_Detector}.\\
 
-The pixel detector is built from 1856 segmented silicon sensor modules, where 1184 modules are used in the BPIX and 672 modules are used for the FPIX. Each module consists of a sensor with 160$\times$416 pixels connected to 16 readout chips (ROCs). In total there are 124 million readout channels \cite{phase1_Pixel_Detector}.
-A pixel detector module is built from a planar silicon sensor with a size of 18.6 $\times$ 66.6 $\text{mm}^{2}$ (active area of 16.2 $\times$ 64.8 $\text{mm}^{2}$), bump-bonded to an array of 2$\times$8 ROCs. Each ROC is segmented into 4160 readout channels and reads out the pulse height information for each pixel. The standard pixel size is 100$\times$150 $\mu m^{2}$, as in the original pixel detector.
-The figures depicting the modules of the CMS Phase-1 pixel detector can be found in Figure \ref{modules_drawing} \cite{phase1_Pixel_Detector}.
+A pixel detector module is built from a planar silicon sensor with a size of 18.6 $\times$ 66.6 $\text{mm}^{2}$ (active area of 16.2 $\times$ 64.8 $\text{mm}^{2}$). Each module consists of a sensor with 160$\times$416 pixels  bump-bonded to an array of 2$\times$8 readout chips (ROC's). Each ROC is segmented into 4160 readout channels and reads out the pulse height information for each pixel, in total there are 124 million readout channels. The standard pixel size is 100$\times$150 $\mu m^{2}$\\
+
+Figure \ref{modules_drawing} illustrates the modules of the CMS Phase-1 pixel detector \cite{phase1_Pixel_Detector}, while Figure \ref{module and hit} on the left depicts the layout of the silicon sensor connected to the readout chip. On the right side of Figure \ref{module and hit}, a charged particle can be seen passing through a pixel, providing enough energy to eject electrons from the silicon atoms. A voltage applied to the sensor allows the collection of these charges as a small electric signal, which is then amplified by an electronic readout chip.
 
 \begin{center}
   \begin{figure}[h]
@@ -121,31 +120,28 @@ The figures depicting the modules of the CMS Phase-1 pixel detector can be found
   \end{figure}
 \end{center}
 
-\section{Pixel Cluster Reconstruction}
-
-The track reconstruction process involves several steps. Firstly, zero-suppressed signals above specified thresholds in pixel  channels  are used to form clusters. The charge measured within each cluster corresponds to the charge deposited by a single charged particle. Next, the cluster positions and their uncertainties are estimated in a local orthogonal coordinate system  in the plane of each sensor \cite{Track_Reco_2014}. 
-%The pixel sensor used in this process consists of 100 $\times$ 150$\mu \text{m}^{2}$ pixels  this is shown en the figure \ref{module and hit}. 
-%% cambiar imagen para arriba
 \begin{center}
   \begin{figure}[h]
     \centering
     \includegraphics[scale=.3]{Chapter2/PixelSensor.png} \includegraphics[scale=.3]{Chapter2/hit.png}
-    \caption[PixelSensor]{ left: Pixel sensor diagram, right: hits detection in a corresponding  pixel sensor \citep{thomson_2013}. }
+    \caption[PixelSensor]{ left: layout pixel sensor conected to a readout chip , right: hits detection in a corresponding  pixel sensor \citep{thomson_2013}. }
     \label{module and hit}
   \end{figure}
 \end{center}
 
-To be considered a valid cluster, each one must have a minimum charge equivalent to 4000 electrons \cite{Track_Reco_2014,phase1_Pixel_Detector}. For normally incident minimum-ionizing particles (MIPs) in a silicon sensor with a thickness of 285 $\mu \text{m}$, the most probable value of energy deposition corresponds to approximately 21,000 electrons. However, this charge is often spread over more than one pixel due to Lorentz drift and diffusion of collected electrons, leading to charge clusters.\\
+\section{Pixel Cluster Reconstruction}
 
-Figure \ref{cluster} is shown a pixel cluster example at $\eta$ = 1.83, here the  charge deposition in each pixel is shown in thousands of electrons, the numbers shown in green correspond to charge depositions below the 2000 electron threshold which are not included in the cluster. The dotted red line indicates the particle trajectory projection in the module plane and the red cross shows the true hit position.  Where the corresponding coordinate systems is based in the  geometry of the CMS barrel and forward pixel detectors \cite{Pixel_Hit_Reconstruction}.
-%% quitar el detector
-%%  usar clusters clasicos
+The track reconstruction process involves several steps. Firstly, zero-suppressed signals above specified thresholds in pixel  channels  are used to form clusters. The charge measured within each cluster corresponds to the charge deposited by a single charged particle. Next, the cluster positions and their uncertainties are estimated in a local orthogonal coordinate system  in the plane of each sensor \cite{Track_Reco_2014}. \\
 
+To be considered a valid cluster, each one must have a minimum charge equivalent to 2000 electrons \cite{Track_Reco_2014,phase1_Pixel_Detector}. For normally incident minimum-ionizing particles (MIPs) in a silicon sensor with a thickness of 285 $\mu \text{m}$, the most probable value of energy deposition corresponds to approximately 21,000 electrons. However, this charge is often spread over more than one pixel due to Lorentz drift and diffusion of collected electrons, leading to charge clusters.\\
+
+Figure \ref{cluster} is shown a pixel cluster example, here the charge each square is one pixel and the deposition in each pixel is shown in thousands of electrons, the pixels shown in green correspond to charge depositions below the 2000 electron threshold which are not included in the cluster. The dotted blue line indicates the particle trajectory projection in the module plane \cite{Pixel_Hit_Reconstruction}.
+\newpage
 \begin{center}
   \begin{figure}[h]
     \centering
-    \includegraphics[scale=.3]{Chapter2/pixel_cluster.png} 
-    \caption[Pixel cluster]{ Left: Geometry of the CMS barrel and forward pixel detectors and the corresponding coordinate systems. Right: A pixel cluster example at $\eta$ = 1.83 }
+    \includegraphics[scale=.4]{Chapter2/pixel_cluster.png} 
+    \caption[Pixel cluster]{ The figure illustrates a pixel cluster example with a total charge up of 21,000 electrons, required to be a valid cluster. The charge deposited in each pixel is shown in $Q = e^{-} x 10^{3}$ .The red pixels have the required charge while the green one does not.}
     \label{cluster}
   \end{figure}
 \end{center}

@@ -3,7 +3,7 @@
 
 \section{2022 vdM scan program}
 
-In November 2022, the main vdM scan program for the CMS experiment was conducted during LHC fills 8379 and 8381 on 10 and 11 November of 2022. During fill 8381, a total of 144 bunch pairs were colliding at the CMS interaction points at zero crossing angle, with a pp collision energy $\sqrt{s}$ of 13.6 TeV. 
+In November 2022, the main vdM scan program for the CMS experiment was conducted during LHC fills 8379 and 8381 on 10 and 11 November of 2022. During fill 8381, a total of 144 bunch pairs were colliding at the CMS interaction points at zero crossing angle, with a proton-proton collision energy $\sqrt{s}$ of 13.6 TeV. 
 During this fill, various types of scan pairs with different characteristics were conducted. These scan pairs are described below. Each scan pair consisted of two scans in the transverse planes $x$ and $y$. In addition to these scans, other types of scans were also conducted, which are not included in this analysis.\\ %explicar porque se colisionan solo 144 de 2500 bunches en fisica
 
 The calibration program included four scan pairs, vdM1,vdM2, vdM3 and vdM4, these are considered the standard vdM scans in the program and they are used only for the main calibration, in this type of scan the two beams are separated by $6\sigma_{b} \thickapprox 578\mu m$, where $\sigma_{b}$ represents the transverse bunch size. The beams are then scanned across each other in a sequence of 25 steps, each lasting 30 seconds with a step size of $0.5\sigma_{b} \thickapprox 48 \mu m$.\\
@@ -11,7 +11,7 @@ The calibration program included four scan pairs, vdM1,vdM2, vdM3 and vdM4, thes
 The calibration program also included two beam-imaging scan pairs, BI1 and BI2 . These sscans were used for main analysis and also for studies on beam shapes,correcting the effects caused by the not strictly valid assumption that the bunch proton density function is factorizable into independent $x$ and $y$ densitys ($x$-$y$ nonfactorization). During the BI scans, one beam is kept fixed at its nominal head-on position, while the other beam is separated and scanned in 19 steps. Each step lasts 46 seconds and covers a range from $-4.5\sigma_{b}$ to $+4.5\sigma_{b} \thickapprox 433 \mu m$.\\
 % can lead to a biased estimate of the beam overlap area.  (x-y nonfactorization), 
 
-Two length scale LS scans were conducted, one during fill 8381 and another during fill 8379. The LS scan is a special scan designed to apply a correction to the results obtained from the VdM scan program. During this scan, the beams are separated by a constant amount of $\sqrt{2} \sigma_{b} \thickapprox 106 \mu m$, and they are moved coherently forward and backward in five steps each, all in the same transverse direction.\\
+Two length scale LS scans were conducted, one during fill 8381 and another during fill 8379. The LS scan is a special scan designed to apply a correction to the results obtained from the vdM scan program. During this scan, the beams are separated by a constant amount of $\sqrt{2} \sigma_{b} \thickapprox 106 \mu m$, and they are moved coherently forward and backward in five steps each, all in the same transverse direction.\\
 
 Finally two super separation periods SS1 and SS2 were performed for the Background esimation, here the two beams were sepated at a distance of $6\sigma_{b}$ during 5 minutes.
 %23:31-23:36 11:47-11:52
@@ -22,33 +22,33 @@ The scan program during fill 8381 is summarized in Figure \ref{scan_prog} where 
   \begin{figure}[h]	
     \centering
     \includegraphics[scale=.35]{Chapter4/2022Scanprorgam.png}
-    \caption[2022 scan program]{Nominal horizontal and vertical positions of the proton beams during LHC fill 8381, showing the four standard VdM scans, two BI scans, one LS scan and the two Super Separation Periods (SS)}
+    \caption[2022 scan program]{Nominal horizontal and vertical positions of the proton beams during LHC fill 8381, showing the four standard vdM scans, two BI scans, one LS scan and the two Super Separation Periods (SS)}
     \label{scan_prog}
   \end{figure}
 \end{center}
 
 \section{Data aquisition and processing}
 
-To ensure high statistical precision in the datasets per BCID, due to trigger limitations,CMS implemented zero bias triggers only on five bunch pairs BCID's: 282, 822, 2944, 3123, and 3302. The data is then saved randomly using the High Level Trigger system (HLT) with the highest possible rate of 27.23 kHz through the data acquisition (DAQ) system. To accomplish this, 16 different streams are still required due to the weight of each event and the necessary bandwidth for saving the events. Here these streams are in their called RAW format.\\
+In order to achieve a high statistical precision in data for each  bunch pairs BCID, the system trigger  bandwidth  limitations do not allow the use of all BCID's, beacause this, CMS implemented a zero bias triggers only on five BCID's: 282, 822, 2944, 3123, and 3302. This data is saved randomly with the highest possible rate of 27.23 kHz using the High Level Trigger system (HLT)  through the data acquisition (DAQ) system. Due to the weight of the events, 16 different streams are required to save the full data. Here the datasets are in their called RAW version.\\
 
-The data is then reprocessed by the CMS collaboration to enable a cluster reconstruction, resulting in the datasets that contain the number of clusters per event and all their additional information, the data here is in the CMSSW format. These datasets will be used as the starting point for our own data reprocessing and analysis.\\
+The data is then reprocessed by the CMS collaboration to enable a cluster reconstruction, resulting in the datasets (ALCARECO version) that contain the number of clusters per event and all their additional information, the data here is in the CMSSW format. These datasets will be used as the starting point for our own data reprocessing and analysis.\\
 
-To begin our analysis, we extracted the necessary information from the datasets using the CMS software , which is written in Python and C++. Due to the large size of the datasets, all the datasets were sent for reprocessing through The Worldwide LHC Computing Grid (WLCG), wish consists of a grid-based computer network infrastructure,designed by CERN to handle he big volume of data produced by Large Hadron Collider (LHC) experiments.
-After processing, we obtained the required event-level information, which was saved in a dataset with a ROOT format. This format uses Trees and Branches, that are a type of  containers to maintain the information in a hierarchical and organized manner. The information stored in these containers includes general information such as the number of run, the number of lumisections (where 1 LS = 23 s), and the number of luminible LN (where 1 LN is equivalent to 0.32 s). In another container, we can find the number of clusters per event, the bunch number "BCID" of the event, the event timestamp, and the module identifiers of the event. \\
+To begin our analysis, we extracted the all the necessary information from the datasets using the CMS software , which is written in Python and C++. Due to the large size of the datasets, all the datasets were sent for reprocessing through The Worldwide LHC Computing Grid (WLCG), wish consists of a grid-based computer network infrastructure,designed by CERN to handle the big volume of data produced by LHC experiments.\\
+After processing, we obtained the required event-level information, which was saved in a dataset with a ROOT format. This format uses Trees and Branches, that are containers to maintain the information in a hierarchical and organized manner. The information stored in one of these containers includes general information such as the number of run, the number of lumisections (where 1 LS = 23 s), and the number of luminible LN (where 1 LN is equivalent to 0.32 s). In another container, we can find the number of clusters per event, the bunch number "BCID" of the event, the event timestamp, and the module identifiers of the event. \\
   
-Due to the limitations of the framework for handling our size of data, we are unable to use all of the statistics as we have them. To address this issue, we need to merge the data in a single file with a hierarchical data format (hd5) that saves the information in tables. in order  to utilize all the statistics in this only file,we stored  the rates each 1.32 s (NB4) time that corresponding to 4 LN, this is an average  between clusters and the number of events that fall within this time span. Again the process is done by the grid. During this reprocessing phase, the veto list is introduced, and the detected events in these modules are eliminated.
+Due to the limitations of the framework for handling our size of data, we are unable to use all of the statistics as we have them. To address this issue, we need to merge the data in a single file with a hierarchical data format (hd5) that saves the information organized in tables. In order  to utilize all the statistics in this only file,we stored  the rates each 1.32 s (NB4) time that corresponding to 4 LN, this is an average  between clusters and the number of events that fall within this time span. Again the process is done by the WLCG. During this reprocessing phase, the veto list is introduced, and the detected events in these modules are eliminated.\\
 
 The final hd5 file, containing the rates collected during the vdM scans, is analyzed using the vdM Framework (vdMFW), which is written in Python and uses the ROOT data analysis package through the PyRoot library. The vdMFW reads the hd5 file and extracts the necessary information for analysis using its analysis tools. During the analysis process, several corrections are applied to the rates which will be described later.
-After the complete analysis, the Framework generates final analysis files and plots, which contain the normalized rates ($R/N_{1}N_{2}$) and beam position.  A predefined function is then used to fit the points to extract $\Sigma_{x,y}$ and peak values to compute $\sigma_{\text{vis}}$ for all the bunches in the scan.
+After the complete analysis, the Framework generates the final information and plots, which contain the normalized rates ($R/N_{1}N_{2}$) and beam position.  A mathematical function is then used to fit the points to extract $\Sigma_{x,y}$ and peak values to compute $\sigma_{\text{vis}}$ for all the bunches in the scan.
 
 \section{Background estimation}
 
-To extract $\Sigma_{x,y}$ through fitting, it is necessary to correct the raw measured rates for background in the detector beforehand. The background contribution is estimated independently during the Super Separation (SS) period comented in the above section. During this period, the beams are separated by $6\sigma_{b}$, ensuring that the only contribution is from background. There are three principal sources of beam-induced background to consider:
-
+To extract $\Sigma_{x,y}$ through fitting, it is necessary to correct the raw measured rates for background in the detector beforehand. The background contribution is estimated independently during the Super Separation (SS) period comented in the above section. There are three principal sources of beam-induced background to consider:
+%During this period, the beams are separated by $6\sigma_{b}$, ensuring that the only contribution is from background.
 \begin{itemize}
 
-\item Beam Gas Elastic (BGE). The elastic beam gas contribution are all coherent and quasi-elastic nuclear elastic and coulomb scattering for multi-turn beam-gas interactions around the ring. Typically the interaction of the primary beam proton and the takes place at the TCT collimator, so that this background contribution has an almost point- like source \cite{bkg_source}.
-
+\item Beam Gas Elastic (BGE). The elastic beam gas contribution are all coherent and quasi-elastic, nuclear elastic and coulomb scattering for multi-turn beam-gas interactions around the ring. Typically the interaction of the primary beam proton and the takes place at the tertiary TCT collimator jaw \cite{bkg_source}.
+%%citar
 \item Beam Gas Inelastic (BGI). These are all inelastic interactions of primary beam protons with rest gas in the beam pipe. The interaction rate is dominated by the vacuum quality in the various beam line elements upstream CMS. Therefore the origin of this contribution is distributed all along the long straight section \cite{bkg_source}.
 
 \item Beam Halo (BH). This component of the machine induced background is caused by the inefficiency of the main collimation system. Protons can escape from one collimator and being intercepted by another collimator \cite{bkg_source}.
@@ -66,7 +66,7 @@ In order to illustrate the two SS periods for this analisys, Figure \ref{ssp_wid
 \end{figure}
 \end{center}
 
-To estimate the background value in each BCID, the mean value of the PCC per NB4 rates distribution is computed. The mean and error per super-separation (SS) period are obtained by plotting the PCC per NB4 as a function of time and then taking the y projection. The error is calculated using the formula $AvgErr = \sqrt{SEM_1^2 + SEM_2^2 + \cdots + SEM_N}/N$. To illustrate this process for each BCID, the distribution or profile of PCC per NB4 for each SS period is plotted. Figure \ref{ss1_hist_282} displays the PCC per NB4 distribution for SS period I specifically for BCID 282, but the same plot is created for every BCID.\\
+To estimate the background value in each BCID, the mean value of the PCC per NB4 rates distribution is computed. The mean and error per super separation (SS) period are obtained by plotting the PCC per NB4 as a function of time and then taking the $y$ projection. The error is calculated using the formula $AvgErr = \sqrt{SEM_1^2 + SEM_2^2 + \cdots + SEM_N}/N$. To illustrate this process for each BCID, the distribution or profile of PCC per NB4 for each SS period is plotted. Figure \ref{ss1_hist_282} displays the PCC per NB4 distribution for SS period I specifically for BCID 282, but the same plot is created for every BCID.\\
 
 \begin{center}
   \begin{figure}[h!]
@@ -125,15 +125,17 @@ To estimate the background value in each BCID, the mean value of the PCC per NB4
 
 Table  \ref{ss_per_bx} shows the results for five different BCIDs, using the reprocessed PCC data for Fill 8381.  The overall background correction applied to raw PCC rate is $0.74305 \pm 0.002407$, which is calculated by taking the average of the mean values of SS1 and SS2. 
 
+This analysis shows significant inconsistencies between the background values for the two SS periods, therefore it was excluded from the following analyses.
+
 \section{Beam Corrections}
 
-There are several systematic effects that affect the measurement of beam overlap width and therefore the extraction of $\sigma_{vis}$ from the VdM scan procedure. These effects are measured and, where applicable, corrected as described below. A systematic uncertainty is assigned to the resulting measured cross section, and the following corrections are applied in the VdM Framework:
+There are several systematic effects that affect the measurement of beam overlap width and therefore the extraction of $\sigma_{vis}$ from the vdM scan procedure. These effects are measured and, where applicable, corrected as described below. A systematic uncertainty is assigned to the resulting measured cross section $\sigma_{vis}$, and the following corrections are applied in the vdM Framework:
  
 \begin{enumerate}
 
-\item Ghost and Satellite. This correction corrects for the presence of ghost and satellite spurious charges, which affect bunch currents. Satellite charges refer to additional charges outside the actual colliding bunch, while spurious charges refer to charge not in any nominally filled bunch slot. These results in corrections of up to 0.5\% to $\sigma_{vis}$. The overall uncertainty in the bunch current measurement is estimated to be 0.4%.
+\item Ghost and Satellite. This correction corrects for the presence of spurious charges, which affect bunch currents. Satellite charges refer to additional charges outside the actual colliding bunch, while ghost charges refer to charge not in any nominally filled bunch slot. These results in corrections of up to 0.5\% to $\sigma_{vis}$. The overall uncertaintys estimate the bunch current measurement  to be 0.4\%.
 
-\item Orbit drift. The orbit drift correction accounts for potential movement of the LHC orbit during the VdM scans. Time-dependent changes of the transverse beam positions for fixed machine parameters can alter the beam separation. This correction is composed of two independent corrections: 
+\item Orbit drift. The orbit drift correction accounts for potential movement of the LHC orbit during the vdM scans. Time-dependent changes of the transverse beam positions for fixed machine parameters can alter the beam separation. This correction is composed of two independent corrections: 
 
 \begin{itemize}
 
@@ -148,9 +150,9 @@ Applying this correction improves the agreement between the $\sigma_{vis}$ value
 
 \begin{itemize}
 
-\item Beam Beam deflection. Corrects Beam Beam deflection (BB) that happens during bunch crossings at the collision point. Accounts for the electrical repulsion of the beams, which increases the lateral separation  The deflection is calculated and added to the nominal separation.
+\item Beam Beam deflection. Corrects Beam Beam deflection (BB) that happens during bunch crossings at the collision point. Accounts for the electrical repulsion of the beams, which increases the lateral separation. The deflection is calculated and added to the nominal separation.
 
-\item Dynamic Beta. The so-called dynamic $\beta^{*}$  effect, which accounts for any changes in the proton density distributions of the bunches due to the single-particle interactions. As a result, the non-linear change during separation steps in transverse bunch profiles is observed, and can described by the effective change of the $\beta^{*}$   value.
+\item Dynamic Beta. The so-called dynamic $\beta^{*}$  effect, which accounts for any changes in the proton density distributions of the bunches due to the single-particle interactions. As a result, the non-linear change during separation steps in transverse bunch profiles is observed, and can described by the effective change of the $\beta^{*}$  value.
 \end{itemize}
 The corrections are calculated for each proton bunch pair individually, and the combined effect of the two corrections is an increase of $\sigma_{vis}$ by 1.0\%, with an uncertainty of 0.5\%.
 
@@ -182,12 +184,10 @@ This can be seen in figure \ref{chi2} where $N$ observed values $y_{1}$,···, 
   \end{figure}
 \end{center}
 
-Based on these parameters for measuring the quality of the fit,  the optimal function was found to be the  double Gaussian function plus a constant, referred to as "DG+Const".
-
 \section{Results}
+%In the previous section, inconsistencies were observed in the background values, which resulted in a very high chi-square value. Therefore, it was decided not to use background subtraction. Instead, a fitting function was used, which applies a constant to achieve optimal values in the fit and improve the chi-square. To correct the measurements of PCC, beam separation, and beam currents, all corrections mentioned earlier were applied. The implemented fit model is a double Gaussian function combined with a constant-like function refered as "DG+Const":
+After trying several mathematical models, the chosen model with the best fit quality, after applying all the corrections mentioned earlier, was a double Gaussian function combined with a constant, referred to as "DG+Const":
 
-The implemented fit model, where all fits converge and we obtained the best value for the chi-square, was a combination of a double Gaussian function plus a constant, referred to as "DG+Const".
-However, due to inconsistencies observed between the values of the two super separation periods in the background values, resulted in high chi-square values. Therefore, it was decided not to use background subtraction. Instead, a fitting function that applies a constant was used to achieve optimal values in the fit and improve the chi-square. %The implemented fit model chosen was a combination of a double Gaussian function with a constant-like function, referred to as "DG+Const".
 \begin{equation}
 DG+Const=
  C+P \cdot \Biggl[ F \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{1}^{2} } \Biggr) + (1-F) \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{2}^{2} } \Biggr) \Biggr] 
