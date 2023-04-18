@@ -16,13 +16,13 @@ The determination of $\sigma_{vis}$ is performed through van der Meer (vdM) scan
 
 The PCC method utilizes the mean number of pixel clusters in the CMS silicon pixel detector to determine an offline luminosity measurement, this method exploits the very large number of pixels in the inner part of the CMS tracking system, it means that the probability of a given pixel being hit by two different charged particles from the same bunch crossing is exceedingly small, this large granularity and low occupancy yield measurements with excellent linear response with the pile-up (number of interactions per bunch crossing)$\mu$ \cite{PCC_PAS_12_001},  on average, the detector occupancy is less than 0.1\%\cite{lumi_precise_2015_2016}.\\ 
 
-Figure  \ref{pileup} shows a simulation with pp collision zero-bias events with a full CMS detector response made in 2016, it contain only in time pileup and detector noise, where the mean number of pixel clusters is of the order of  100 per event. For simplicity, the number of pileup interactions present in each event is randomly generated from a representative PCC distribution at $\mu$ = 45 and the average PCC as a function of $\mu$. The latter distribution is fitted with a first-order polynomial, assuming no correlations among different values of $\mu$. Good agreement is seen based on the estimated goodness-of-fit $\chi^{2}$ per degree of freedom (dof) value of about 0.5 , indicating linearity under simulated conditions \cite{lumi_precise_2015_2016}.
+Figure \ref{pileup} shows a simulation with pp collision zero-bias events with the pixel cluster counting rate as a function of pileup in the pileup range observed in Run 2 from 0 to about 50 $\mu$. Where the mean number of pixel clusters is of the order of  111 per event. The red curve is a first-order polynomial fit with slope, a good agreement is seen based on the estimated goodness-of-fit $\chi^{2}$ per degree of freedom (dof) with a value of about 0.5, showing that the PCC rate is highly linear in this range under simulated conditions \cite{ Phase2_Upgrade,lumi_precise_2015_2016}.
 
 \begin{center}
   \begin{figure}[h!]
     \centering
-    \includegraphics[scale=.3]{Chapter3/pileup_lineality.png} 
-    \caption[Linearity with pile-up]{ The left plot shows the number of pixel clusters and their statistical spread from simulation of pileup following a Poisson distribution with a mean of 45. The right plot shows the mean number of pixel clusters from simulation as a function of mean pileup. The red curve is a first-order polynomial fit with slope and $\chi^{2}/ndof$ values shown in the legend. The lower panel of the right plot shows the difference between the simulation and the linear fit in black points. The green band is the final linearity uncertainty for the 2016 data set \cite{lumi_precise_2015_2016} }
+    \includegraphics[scale=.35]{Chapter3/pileup_lineality.png} 
+    \caption[Linearity with pile-up]{ Linearity of pixel cluster counting over the pileup range observed in Run 2 (from 0 to about 50) from simulation. The red line is a linear fit to the points \cite{Phase2_Upgrade} }
     \label{pileup}
   \end{figure}
 \end{center}
@@ -57,7 +57,7 @@ In the PCC measurement, the innermost layer of the pixel detector is excluded fr
 
 \section{2022 CMS Data collected}
 
-On July 12th, 2022, the data collection for Run3 of the Large Hadron Collider (LHC) began, which resulted in a total luminosity of $38.48 fb^{-1}$. This collection period encompassed the duration from the start of stable beams until the beam was dumped, or when stable beams ceased for other reasons, such as beam studies. The luminosity delivered by the LHC to CMS (blue) and the luminosity recorded by CMS (orange) during stable beams and proton-proton collisions at a center-of-mass energy of $\sqrt{s}$ 13.6 TeV in 2022 are depicted in Figure \ref{Lumi_2022}. Note that  the special runs that occurred at injection energy (450 GeV) are not represented in these graphs.
+On July 12th, 2022, the data collection for Run3 of the Large Hadron Collider (LHC) began, which resulted in a total luminosity of $38.48 fb^{-1}$. This collection period encompassed the duration from the start of stable beams until the beam was dumped, or when stable beams ceased for other reasons, such as beam studies. The luminosity delivered by the LHC to CMS (blue) and the luminosity recorded by CMS (orange) during stable beams and proton-proton collisions at a center-of-mass energy of $\sqrt{s}$ 13.6 TeV in 2022 are depicted in Figure \ref{Lumi_2022}. Note that  the special runs that occurred at injection energy (450 GeV) are not represented in these graphs \citep{wikicern}.
 
 \begin{center}
   \begin{figure}[h!]
@@ -91,7 +91,7 @@ To ensure accurate luminosity measurement, a module selection is created to remo
 
 The changing conditions of the pixel detector over time, such as detector noise, aging effects, and radiation damage, can cause variations in the number of well-performing modules during different periods. Recognizing this, these variations are evaluated over a 23-second interval, which corresponds to the granularity of the luminosity database.\\
 
-To ensure the accuracy of the measurements, pixel module veto lists were generated for five different time periods, namely C, D, E, F, and G, using the procedure described above for each period. To further enhance the stability of the PCC measurement, a common module vetolist was created by combining the lists from all five periods were the number of bad modules per period were added and modules with equal ID were removed , as shown in table \ref{common veto module}. The PCC data with zero bias was then reprocessed using this common module vetolist and ultimately used for the VdM analysis.
+To ensure the accuracy of the measurements, pixel module veto lists were generated for five different time periods, namely C, D, E, F, and G, using the procedure described above for each period. To further enhance the stability of the PCC measurement, a common module vetolist was created by combining the lists from all five periods were the number of bad modules per period were added and modules with equal ID were removed , as shown in table \ref{common veto module}. The PCC data with zero bias was then reprocessed using this common module vetolist and ultimately used for the vdM analysis.
 
 \begin{table}[ht]
 \centering
@@ -110,7 +110,7 @@ To ensure the accuracy of the measurements, pixel module veto lists were generat
 
 \section{Luminosity calibration: van der Meer method}
 
-As discussed in Chapter 1, the instantaneous luminosity for a single colliding bunch is described by Eq. (\ref{luminosity_2}). In practice, while the measurement of the beam currents $N_{1,2}$ is well determined, the individual proton density functions cannot be directly measured. To address this, the VdM method involves a specific machine setup that allows for the determination of the two beam overlap integrals. This is achieved by varying the separation between the beams and measuring the resulting rates, which can be used to obtain density profiles that are close to normal distributions.
+As discussed in Chapter 1, the instantaneous luminosity for a single colliding bunch is described by Eq. (\ref{luminosity_2}). In practice, while the measurement of the beam currents $N_{1,2}$ is well determined, the individual proton density functions cannot be directly measured. To address this, the vdM method involves a specific machine setup that allows for the determination of the two beam overlap integrals. This is achieved by varying the separation between the beams and measuring the resulting rates, which can be used to obtain density profiles that are close to normal distributions.
 
 \begin{equation}
 \int \rho_{x1}(x) \rho_{x2}(x) dx = \frac{R_{x}(0)}{\int R_{x}(\Delta) d\Delta}

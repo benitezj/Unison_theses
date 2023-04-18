@@ -3,17 +3,16 @@
 
 \section{2022 vdM scan program}
 
-In November 2022, the main vdM scan program for the CMS experiment was conducted during LHC fills 8379 and 8381 on 10 and 11 November of 2022. During fill 8381, a total of 144 bunch pairs were colliding at the CMS interaction points at zero crossing angle, with a proton-proton collision energy $\sqrt{s}$ of 13.6 TeV. 
-During this fill, various types of scan pairs with different characteristics were conducted. These scan pairs are described below. Each scan pair consisted of two scans in the transverse planes $x$ and $y$. In addition to these scans, other types of scans were also conducted, which are not included in this analysis.\\ %explicar porque se colisionan solo 144 de 2500 bunches en fisica
+In 2022, the main vdM scan program for the CMS experiment was conducted during LHC fills 8379 and 8381 on 10 and 11 November. During fill 8381, a total of 144 bunch pairs were collided head-on , with a proton-proton collision energy $\sqrt{s}$ of 13.6 TeV. 
+During this fill, various types of scan pairs with different characteristics were conducted. These scan pairs are described below. Each scan pair consisted of two scans in the transverse planes $x$ and $y$. In addition to these scans, other types of scans were also conducted, which are not included in this analysis.\\ 
 
-The calibration program included four scan pairs, vdM1,vdM2, vdM3 and vdM4, these are considered the standard vdM scans in the program and they are used only for the main calibration, in this type of scan the two beams are separated by $6\sigma_{b} \thickapprox 578\mu m$, where $\sigma_{b}$ represents the transverse bunch size. The beams are then scanned across each other in a sequence of 25 steps, each lasting 30 seconds with a step size of $0.5\sigma_{b} \thickapprox 48 \mu m$.\\
+The calibration program included four scan pairs, vdM1,vdM2, vdM3 and vdM4, these are considered the standard vdM scans in the program, used specifically to compute $\sigma_{vis}$. In this type of scan the two beams are separated by $6\sigma_{b} \thickapprox 578\mu m$, where $\sigma_{b}$ represents the transverse bunch size. The beams are then scanned across each other in a sequence of 25 steps, each lasting 30 seconds with a step size of $0.5\sigma_{b} \thickapprox 48 \mu m$.\\
 
-The calibration program also included two beam-imaging scan pairs, BI1 and BI2 . These sscans were used for main analysis and also for studies on beam shapes,correcting the effects caused by the not strictly valid assumption that the bunch proton density function is factorizable into independent $x$ and $y$ densitys ($x$-$y$ nonfactorization). During the BI scans, one beam is kept fixed at its nominal head-on position, while the other beam is separated and scanned in 19 steps. Each step lasts 46 seconds and covers a range from $-4.5\sigma_{b}$ to $+4.5\sigma_{b} \thickapprox 433 \mu m$.\\
-% can lead to a biased estimate of the beam overlap area.  (x-y nonfactorization), 
+The calibration program also included two beam-imaging scan pairs, BI1 and BI2 . These scans were developed for studies on beam shapes, estimating the uncertainty caused by the not strictly valid assumption seen in previous sections that the bunch proton density function is factorizable into independent $x$ and $y$ densitys, this correction is called  ($x$-$y$ nonfactorization). BI acans also are used to compute of $\sigma_{vis}$, independent of the standard vdM's scans. During the BI scans, one beam is kept fixed at its nominal head-on position, while the other beam is separated and scanned in 19 steps, each step lasts 46 seconds and covers a range from $-4.5\sigma_{b}$ to $+4.5\sigma_{b} \thickapprox 433 \mu m$.\\
 
-Two length scale LS scans were conducted, one during fill 8381 and another during fill 8379. The LS scan is a special scan designed to apply a correction to the results obtained from the vdM scan program. During this scan, the beams are separated by a constant amount of $\sqrt{2} \sigma_{b} \thickapprox 106 \mu m$, and they are moved coherently forward and backward in five steps each, all in the same transverse direction.\\
+Two length scale LS scans were conducted, one during fill 8381 and another during fill 8379. The LS scan is a special scan designed to apply a correction to the results of  $\sigma_{vis}$ obtained from the vdM scan program, this correction will be described further in this section. During this scan, the beams are separated by a constant amount of $\sqrt{2} \sigma_{b} \thickapprox 106 \mu m$, and they are moved coherently forward and backward in five steps each, all in the same transverse direction.\\
 
-Finally two super separation periods SS1 and SS2 were performed for the Background esimation, here the two beams were sepated at a distance of $6\sigma_{b}$ during 5 minutes.
+Finally two super separation periods SS1 and SS2 were performed for the background estimation, here the two beams were sepated at a distance of $6\sigma_{b}$ during 5 minutes, at this distance the overlap of the beams is minimal and the contribution of collision is negligible.
 %23:31-23:36 11:47-11:52
 
 The scan program during fill 8381 is summarized in Figure \ref{scan_prog} where all the scans mentioned and described above are labeled.
@@ -28,27 +27,27 @@ The scan program during fill 8381 is summarized in Figure \ref{scan_prog} where 
 \end{center}
 
 \section{Data aquisition and processing}
+\label{data}
+In order to achieve a high statistical precision in data for each colliding bunch pairs the system trigger  bandwidth  limitations do not allow the use of all of them, beacause this, CMS implemented a zero-bias triggers only on five Bunch crossing id (BCID): 282, 822, 2944, 3123, and 3302. This data is saved randomly with the highest possible rate of 27.23 kHz using the High Level Trigger (HLT) through the CMS data acquisition (DAQ) system. Due to the weight of the events, 16 different streams are required to save the full data. Here the datasets are in their RAW format, which contains information per event (bunch crossing) and the amount of charge deposited in each pixel.\\ 
+During the vdM2 scan pair, the central CMS data taking was not operational, so no data was recorded for PCC, and this scan pair was skipped from the full calibration.\\
 
-In order to achieve a high statistical precision in data for each  bunch pairs BCID, the system trigger  bandwidth  limitations do not allow the use of all BCID's, beacause this, CMS implemented a zero bias triggers only on five BCID's: 282, 822, 2944, 3123, and 3302. This data is saved randomly with the highest possible rate of 27.23 kHz using the High Level Trigger system (HLT)  through the data acquisition (DAQ) system. Due to the weight of the events, 16 different streams are required to save the full data. Here the datasets are in their called RAW version.\\
+The data is then reprocessed by the CMS collaboration to enable a cluster reconstruction, resulting in the datasets (ALCARECO version) that contain a module collection and their number of clusters per event , the data here is in the CMSSW format. These datasets will be used as the starting point for our own data reprocessing and analysis.\\
 
-The data is then reprocessed by the CMS collaboration to enable a cluster reconstruction, resulting in the datasets (ALCARECO version) that contain the number of clusters per event and all their additional information, the data here is in the CMSSW format. These datasets will be used as the starting point for our own data reprocessing and analysis.\\
+The ALCARECO samples are processed using CMSSW software (written in Python and C++) to extract the clusters per module. Due to the large size of the datasets, all the datasets were sent for reprocessing through The Worldwide LHC Computing Grid (WLCG), wish consists of a grid-based computer network infrastructure,designed by CERN to handle the big volume of data produced by LHC experiments. In this  process, we obtained the required cluster counts, which was saved in a dataset with a ROOT format. This format uses TTrees and TBranches, that are containers to maintain the information in a hierarchical and organized manner. 
+The information is stored in one TTree that contains the information per event distributed in several TBranches, such as the number of pixel clusters, the BCID, the module identifiers, number of run, the number of lumisection (where 1 LS = 23 s), the number of luminible LN (where 1 LN is equivalent to 0.32 s) and time where that event took place (timestamp begin).\\
 
-To begin our analysis, we extracted the all the necessary information from the datasets using the CMS software , which is written in Python and C++. Due to the large size of the datasets, all the datasets were sent for reprocessing through The Worldwide LHC Computing Grid (WLCG), wish consists of a grid-based computer network infrastructure,designed by CERN to handle the big volume of data produced by LHC experiments.\\
-After processing, we obtained the required event-level information, which was saved in a dataset with a ROOT format. This format uses Trees and Branches, that are containers to maintain the information in a hierarchical and organized manner. The information stored in one of these containers includes general information such as the number of run, the number of lumisections (where 1 LS = 23 s), and the number of luminible LN (where 1 LN is equivalent to 0.32 s). In another container, we can find the number of clusters per event, the bunch number "BCID" of the event, the event timestamp, and the module identifiers of the event. \\
-  
-Due to the limitations of the framework for handling our size of data, we are unable to use all of the statistics as we have them. To address this issue, we need to merge the data in a single file with a hierarchical data format (hd5) that saves the information organized in tables. In order  to utilize all the statistics in this only file,we stored  the rates each 1.32 s (NB4) time that corresponding to 4 LN, this is an average  between clusters and the number of events that fall within this time span. Again the process is done by the WLCG. During this reprocessing phase, the veto list is introduced, and the detected events in these modules are eliminated.\\
+In order to maintain full statistical precision despite the limitations of the vdM framework (vdMFW), which was utilized for the final fit of our data, the rates were stored  each 1.32 s (NB4) time that corresponding to 4 LN, this was done making  an average  between clusters and the number of events that fall within this time span. During this process, the module veto list mentioned in the previous section is introduced and the modules detected in these list were removed. In this phase, the information is merged into a single file using a hierarchical data format (hd5) that organizes the data into tables, this final format is the required by the vdMFW. All the  process is carried out using lxbatch, a cluster of computers located within CERN.\\
 
-The final hd5 file, containing the rates collected during the vdM scans, is analyzed using the vdM Framework (vdMFW), which is written in Python and uses the ROOT data analysis package through the PyRoot library. The vdMFW reads the hd5 file and extracts the necessary information for analysis using its analysis tools. During the analysis process, several corrections are applied to the rates which will be described later.
-After the complete analysis, the Framework generates the final information and plots, which contain the normalized rates ($R/N_{1}N_{2}$) and beam position.  A mathematical function is then used to fit the points to extract $\Sigma_{x,y}$ and peak values to compute $\sigma_{\text{vis}}$ for all the bunches in the scan.
+Finally the hd5 file containing the rates collected during the vdM scans  is analyzed using the vdMFW, which is written in Python and uses the ROOT data analysis package through the PyRoot library. The vdMFW  extracts the necessary information using its analysis tools. During the process, several corrections are applied to the rates which will be described later. In the processing the vdMFW generates the final information and plots, which contain the normalized rates ($R/N_{1}N_{2}$) and beam position.  A mathematical function is then used to fit the points to extract $\Sigma_{x,y}$ and peak values to compute $\sigma_{\text{vis}}$ for all the bunches in the scan.
 
 \section{Background estimation}
+\label{bkg}
+To perform accurate fitting of the data, it is necessary to take into account the following background contributions to the PCC rates. These contributions are estimated independently during the Super Separation (SS) periods discussed in the previous section. Three primary sources of beam-induced background should be considered:
 
-To extract $\Sigma_{x,y}$ through fitting, it is necessary to correct the raw measured rates for background in the detector beforehand. The background contribution is estimated independently during the Super Separation (SS) period comented in the above section. There are three principal sources of beam-induced background to consider:
-%During this period, the beams are separated by $6\sigma_{b}$, ensuring that the only contribution is from background.
 \begin{itemize}
 
 \item Beam Gas Elastic (BGE). The elastic beam gas contribution are all coherent and quasi-elastic, nuclear elastic and coulomb scattering for multi-turn beam-gas interactions around the ring. Typically the interaction of the primary beam proton and the takes place at the tertiary TCT collimator jaw \cite{bkg_source}.
-%%citar
+
 \item Beam Gas Inelastic (BGI). These are all inelastic interactions of primary beam protons with rest gas in the beam pipe. The interaction rate is dominated by the vacuum quality in the various beam line elements upstream CMS. Therefore the origin of this contribution is distributed all along the long straight section \cite{bkg_source}.
 
 \item Beam Halo (BH). This component of the machine induced background is caused by the inefficiency of the main collimation system. Protons can escape from one collimator and being intercepted by another collimator \cite{bkg_source}.
@@ -123,9 +122,7 @@ To estimate the background value in each BCID, the mean value of the PCC per NB4
   \end{center}
 \end{table}
 
-Table  \ref{ss_per_bx} shows the results for five different BCIDs, using the reprocessed PCC data for Fill 8381.  The overall background correction applied to raw PCC rate is $0.74305 \pm 0.002407$, which is calculated by taking the average of the mean values of SS1 and SS2. 
-
-This analysis shows significant inconsistencies between the background values for the two SS periods, therefore it was excluded from the following analyses.
+Table  \ref{ss_per_bx} shows the results for five different BCIDs, using the reprocessed PCC data for Fill 8381. This analysis reveals notable inconsistencies in the background values obtained from the two Super Separation (SS) periods. As a result, the quality of the fit was affected, and thus, this data was excluded from subsequent analyses. Further details on this matter will be discussed in a later section.
 
 \section{Beam Corrections}
 
@@ -160,67 +157,74 @@ The corrections are calculated for each proton bunch pair individually, and the 
 
 \end{enumerate}
 
-\section{Model  Selection}
+\section{Fit Model  Selection}
 
 As we have seen in previous sections, the points generated for each step of the scan need to be fitted using a mathematical function. This allows us to extract the parameters we need, such as $\Sigma_{x,y}$ and peak values for all the bunches in the scan, in order to finally compute $\sigma_{\text{vis}}$. Within vdMFW, there are several pre-defined functions that use a combination of Gaussian functions with different adjustable parameters to achieve a better fit. These functions include Double Gaussian (DG), Single Gaussian (SG), Poly Gaussians (PG), among others. All of the above functions exist in versions with an additive constant to the entire function, typically used to fit to the background levels.\\
 
 For this analysis, various fit functions were tested, and the one with the best quality of fit was selected. The quality of the fit is primarily based on the convergence of the function with the points being fitted for each BCID. The convergence is assessed based on the covariance matrix, which measure the linear relationship between each pair of elements or variables. A  covariance status equal to 3 means a good convergence of the function.\\ 
 
-The second most important parameter for measuring the quality of the fit is having a good  Chi-square $\chi^2$. The  Chi-square goodness of fit test is a statistical hypothesis test that helps to determine whether a variable is likely to come from a specified distribution or not. This test provides a way to assess whether the data values have a good enough fit to our model, or if the model is questionable. In more general terms, this test compares observed values with expected or theoretical values according to the hypothesis.\\
-
-This can be seen in figure \ref{chi2} where $N$ observed values $y_{1}$,···, $y_{N}$ are measured with errors $\sigma_{1}$,···,$\sigma_{N}$" at the values of $x$ given without error by $x_{1}$,..., $x_{N}$. The theoretical  value $\lambda_{1}$ of $y_{l}$. is given by a function $\lambda_{i} = \lambda(x_{i},\theta)$. The value of $\theta$ is adjusted to minimize the value of $\chi^2$, given by equation \ref{x^2}, where it is inferred that the lower the value of $\chi^2$, the better the fit is considered to be \cite{Statistical_Data_Analysis}.
+The second most important parameter for measuring the quality of the fit is having a good  Chi-square $\chi^2$.  The  Chi-square goodness of fit test is a statistical hypothesis test that helps to determine whether a variable is likely to come from a specified distribution or not. This test provides a way to assess whether the data values have a good enough fit to our model, or if the model is questionable. In more general terms, this test compares observed values with expected or theoretical values according to the hypothesis. The goal is to minimize the calculation of the $\chi^2$ as defined in equation \ref{x^2}, from here is  inferred that the lower the value of $\chi^2$, the better the fit is considered to be.
 
 \begin{equation}
 \chi^{2}(\theta)=\sum_{i=1}^{N} \frac{(y_{i}-\lambda(x_{i},\theta))^{2}}{\sigma_{i}^{2}}
 \label{x^2}
 \end{equation}
 
-\begin{center}
-  \begin{figure}[h!]
-    \centering
-    \includegraphics[scale=.35]{Chapter4/chi-square.png}
-    \caption[chi-square definition]{ chi2/ndof } 
-    \label{chi2}
-  \end{figure}
-\end{center}
+where $N$ observed values $y_{1}$,···, $y_{N}$ are measured with errors $\sigma_{1}$,···,$\sigma_{N}$" at the values of $x$ given without error by $x_{1}$,..., $x_{N}$. The theoretical  value $\lambda_{i}$ of $y_{i}$ is given by a function $\lambda_{i} = \lambda(x_{i},\theta)$. The value of $\theta$ is adjusted to minimize the value of $\chi^2$ \cite{Statistical_Data_Analysis}.
 
-\section{Results}
-%In the previous section, inconsistencies were observed in the background values, which resulted in a very high chi-square value. Therefore, it was decided not to use background subtraction. Instead, a fitting function was used, which applies a constant to achieve optimal values in the fit and improve the chi-square. To correct the measurements of PCC, beam separation, and beam currents, all corrections mentioned earlier were applied. The implemented fit model is a double Gaussian function combined with a constant-like function refered as "DG+Const":
-After trying several mathematical models, the chosen model with the best fit quality, after applying all the corrections mentioned earlier, was a double Gaussian function combined with a constant, referred to as "DG+Const":
+After probe  several mathematical fit models, those requiring background subtraction from SS periods analysis were ultimately discarded due to the unacceptably high chi-square values obtained, this was due to the inconsistencies mentioned the section \ref{bkg}. Therefore, it was decided to use functions that include a constant to model the background in the fit. The chosen model with the best fit quality and after applying all the corrections mentioned earlier, was a double Gaussian function plus a constant, referred to as "DG+Const":
 
 \begin{equation}
-DG+Const=
- C+P \cdot \Biggl[ F \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{1}^{2} } \Biggr) + (1-F) \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{2}^{2} } \Biggr) \Biggr] 
+DG+Const= C+P \cdot \Biggl[ F \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{1}^{2} } \Biggr) + (1-F) \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{2}^{2} } \Biggr) \Biggr] 
 \end{equation}
 
-%\begin{equation}
-%DG+Const=
- %C+P \cdot \Biggl[ F \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 ( \frac{\sigma_{1}}{F_{Ratio}+1-F})^{2} } \Biggr) + (1-F) \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 ( \frac{\sigma_{2}}{F_{Ratio}+1-F})^{2} } \Biggr) \Biggr] 
-%\end{equation}
-where $F$ is the weight between 0 and 1 of the first Gaussian in the sum, $x$ is the beam separation $C$ is the constant value, $P$ the peak rate, $\bar{x}$ the mean and $\sigma_{1,2}$ the standard deviations are fit parameters. Fig. \ref{vdM1_282_XYscan} shows the fitted graphs of the first vdM scan pair for BCID 282 where  all the corrections described in the previous section have been applied and where  rates are normalized by the beam currents, which is a factor of eq. \ref{sigmavis_eq}  ($R(0,0)/N_{1}N_{2}$).
+\begin{equation}
+DG+Const= C+P \cdot \Biggl[ F \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2(\frac{\sigma\cdot R}{F \cdot R+1-F} )^{2} } \Biggr) + (1-F) \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 (\frac{\sigma}{F \cdot R+1-F} )^{2} } \Biggr) \Biggr] 
+\end{equation}
+%[5] + [2]*([3]*exp(-(x-[4])**2/(2*([0]*[1]/([3]*[1]+1-[3]))**2))
+    %    + (1-[3])*exp(-(x-[4])**2/(2*([0]/([3]*[1]+1-[3]))**2)) )
+%("#Sigma","#sigma_{1}/#sigma_{2}","peak","Frac","Mean","Const")
+%[0] -> [0]*[1]/([3]*[1]+1-[3])
+ %[1] -> [0]/([3]*[1]+1-[3])"""
+\begin{itemize}
+\item $C$ is the constant value.
+\item $P$ the $peak$ rate.
+\item $F$ is the weight between 0 and 1 of the first Gaussian in the sum.
+\item $x$ is the beam position.
+\item $\bar{x}$ is the mean.
+\item $\sigma$ the standard deviation of the gaussian.
+\item $R$ is the Ratio $\sigma_{1}/\sigma_{2}$.
+\end{itemize}
+
+Figure \ref{vdM1_282_XYscan} shows the fit graphs of the first vdM scan pair for BCID 282 where  all the corrections described in the previous section have been applied and where  rates are normalized by the beam currents ($R(0,0)/N_{1}N_{2}$), which is according of Eq. \ref{sigmavis_eq}.
 
 \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=.37\textwidth]{Chapter4/xscan.png}
-\includegraphics[width=.37\textwidth]{Chapter4/yscan.png}\\
+\includegraphics[width=.40\textwidth]{Chapter4/xscan.png}
+\includegraphics[width=.40\textwidth]{Chapter4/yscan.png}\\
 \caption[vdM1 BCID 282]{Normalized rates and the resulting fitted curves with the DG+Const fit model as a function of the beam separation ($\Delta$) for BCID 282 for X (left) and Y (right) scan for the first vdM scan.}
 \label{vdM1_282_XYscan}
 \end{figure}
 \end{center}
-
-\newpage
-For the remaining BCID's, the fits for both vdM and BI scans exhibit a very similar behavior, and in all cases, the fits have converged successfully. To evaluate the goodness of fit, Fig. \ref{chi2/ndof} displays a plot of the chi2/ndof for all the five scan pairs, which has a mean value of 1.88.
-To compute $\sigma_{vis}$, the CapSigma $\Sigma_{x,y}$ and peak values have been extracted from the fits. Fig. \ref{capsigma_peak} presents the $\Sigma_{x,y}$ and peak values for all scan pairs. The plot clearly illustrates that both values reflect the fact that beam size increased over time in the $x$ dimension and decreased over time in the $y$ dimension.
+For the remaining BCID's, the fits for both vdM and BI scans exhibit a very similar behavior, and in all cases, the fits have converged successfully. The evaluation of the goodness of fit is shown in Fig. \ref{chi2/ndof} where displays a plot of the $\chi^{2}/ndof$ for all the five scan pairs, which has a mean value of 1.88.
 
 \begin{center}
   \begin{figure}[h!]
     \centering
-    \includegraphics[scale=.03]{Chapter4/DGConst_chi2.png}
+    \includegraphics[scale=.025]{Chapter4/DGConst_chi2.png}
     \caption[chi2/ndof for all scan pairs]{ chi2/ndof for all the scan pairs.  where the red dots represent the X scans, and the blue dots represent the Y scans. It is important to note that in each scan, the BCIDs follow the same order, which is 282, 822, 2944, 3123, and 3302.} 
     \label{chi2/ndof}
   \end{figure}
 \end{center}
+
+\section{Results}
+
+To compute $\sigma_{vis}$, the CapSigma $\Sigma_{x,y}$ and $Peak$ values have been extracted, the behavior of these values ​​for all scans pair are shown in the  Figure \ref{capsigma_peak} where those belonging to the scan in $x$ are presented in red and those belonging to the scan in $y$ are shown in blue.\\
+
+The values of $\Sigma_{x,y}$, which represent the standard deviation in the fit, provide a direct measurement of the beam shape, as we can seen in the plot for $\Sigma_{x,y}$  these values decrease in both the $x$ and $y$ directions during the fill time, this is due to a phenomenon called "damping" which causes the beam to gradually focus with time. On the other hand the values ​​for the peak in figure \ref{capsigma_peak} (right) are then a direct consequence of this, since a more focused beam means more collisions and thus a higher rate.\\
+
+The figure also displays a sharp decline in values between the BI2 and vdM3 scans, which can be attributed to the exclusion of the vdM2 scan for the reasons mentioned in the section \ref{data} . 
 
 \begin{center}
   \begin{figure}[h!]
@@ -232,48 +236,50 @@ To compute $\sigma_{vis}$, the CapSigma $\Sigma_{x,y}$ and peak values have been
   \end{figure}
 \end{center}
 
-The sigma visibe $\sigma_{vis}$ for all BCID's (vdM a BI acans) is computed from the fit results parameters Capital sigma $\Sigma_{x,y}$ and $peak_{x,y}$, this is done using the equation \ref{sigmavis_eq}. The value of $R(0,0)$ is obtained by taking the average of the peaks in the x and y directions ($R(0,0)=(Peak_{x}+Peak_{y})/2$), which have already been normalized, so \ref{sigmavis_eq} is rewritten as:
+The $\sigma_{vis}$ for all BCID's (vdM and BI scans) is then computed from the fit results $\Sigma_{x,y}$ and $peak_{x,y}$ shown above, this is done using the Eq. \ref{sigmavis_eq}. The value of $R(0,0)$ is obtained through a specific correction where the rate is taken from the higher value between the scans $x$ and $y$. The difference in these rates values is attributed to the fact that some scans are not centered on the axes. After this correction, the final peak, which has already been normalized, is obtained. As a result, Equation \ref{sigmavis_eq} is rewritten as:
 
 \begin{equation}
- \sigma_{vis}= 2\pi \Sigma_{x} \Sigma_{y} \Biggl( \frac{Peak_{x}+Peak_{y}}{2} \Biggl)
+ \sigma_{vis}= 2\pi \Sigma_{x} \Sigma_{y}Peak
  \end{equation}
- 
-Fig \ref{sigmavis_perbcid} shows the  value of sigma visible $\sigma_{vis}$ per BCID for all the scans. where the error on $\sigma_{vis}$ is assigned as: 
+
+Figure \ref{sigmavis_perbcid} shows the  value of sigma visible $\sigma_{vis}$ per BCID for all the scans where the error on $\sigma_{vis}$ is assigned as: 
 
 \begin{equation}
-\sigma_{vis\text{Err}}= 2 \pi \sqrt{ (\Sigma_{y} \cdot R \cdot \Sigma_{x\text{Err}})^{2} + (\Sigma_{x} \cdot R \cdot \Sigma_{y \text{Err}})^{2} + (\Sigma_{x} \Sigma_{y} R_{\text{Err}})^{2} }
+\sigma_{vis\text{Err}}= 2 \pi \sqrt{ (\Sigma_{y} \cdot Peak \cdot \Sigma_{x\text{Err}})^{2} + (\Sigma_{x} \cdot Peak \cdot \Sigma_{y \text{Err}})^{2} + (\Sigma_{x} \Sigma_{y} Peak_{\text{Err}})^{2} }
 \end{equation}
 
 \begin{center}
   \begin{figure}[h!]
     \centering
-    \includegraphics[scale=.25]{Chapter4/DGConst_xsec.png}
+    \includegraphics[scale=.22]{Chapter4/DGConst_xsec.png}
     \caption[$\sigma_{vis}$ per BCID for all scans]{ $\sigma_{vis}$ per BCID for all the scans,  in each scan, the BCID's follow the same order, which is 282, 822, 2944, 3123, and 3302.}
     \label{sigmavis_perbcid}
   \end{figure}
 \end{center}
 
-
-Fig \ref{sigmavis_perscan} shows the final  $\sigma_{vis}$ per Scan, which corresponds to the weighted average of the five BCIDs with the weight as: 
+To obtain the final value of sigma visible , we first perform a weighted average using 5 BCIDs for each scan as shown in Figure \ref{sigmavis_perscan} with blue dots. Subsequently, we perform another weighted average among the results of these 5 scans, this final value is represented by the red line in Figure \ref{sigmavis_perscan}. In both calcuation, it is assumed that there is no correlation between the BCIDs and the scans. Therefore, the computation of the weighted average and the error is assigned as follows:
 
 \begin{eqnarray}
-\frac{1}{\sigma_{vis\text{Err}}^{2}}  \text{     where the error is     } \frac{1}{\sqrt{\sum \frac{1}{\sigma_{vis\text{Err}}^{2}}}}
+\sigma_{visErrTotal}=\frac{1}{\sqrt{ \displaystyle\sum_{\textbf{i}} \frac{1}{\sigma_{vis\textbf{i}Err}^{2}}}}
 \label{error}
 \end{eqnarray}
 
-After averaging the values of $\sigma_{vis}$ per scan, the error is assigned in the same manner as described in equation (\ref{error}). Figures \ref{sigmavis_perscan} and \ref{sigmavis_perbcid} illustrate that there is a systematic variation in $\sigma_{vis}$ between scans. To account for this, a systematic error is assigned as follows:
-
+\begin{eqnarray}
+\sigma_{vis}=\Biggl(\displaystyle\sum_{\textbf{i}} \frac{\sigma_{vis\textbf{i}}}{\sigma^{2}_{vis\textbf{i}Err}} \Biggr)(\sigma_{visErrTotal})^{2}
+\label{average}
+\end{eqnarray}
+After completing the calibration procedure, the final result obtained is:
 \begin{equation}
-\sqrt{RMS^{2}-stat^{2}}
+\sigma_{vis}=4163.34 \pm 3.30 \text{ (stat)  mb}
 \end{equation}
-
-Obtaining a final sigma visible for the calibration $\sigma_{vis}=4163 \pm 3 \text{(stat.)} \pm 12 \text{(syst.)} \text{ mb}$. This result will be useful for a precise luminosity measurement analysis for Run 3 in the CMS experiment of LHC.
 
 \begin{center}
   \begin{figure}[ht]
     \centering
-    \includegraphics[scale=0.37]{Chapter4/xsec_perscan_v2.png}
+    \includegraphics[scale=0.45]{Chapter4/xsec_perscan_v2.png}
     \caption[$\sigma_{vis}$ per Scan]{ $\sigma_{vis}$  per scan.} 
     \label{sigmavis_perscan}
   \end{figure}
 \end{center}
+
+As shown in figure \ref{sigmavis_perscan}, the scans exhibit an RMS of $12882 \mu b$ for the values of visible sigma. Among them, vdM1 and vdM3 demonstrate the largest variations, approximately 2 standard deviations away from the mean. These variations can be attributed to the presence of systematic effects during the scans.

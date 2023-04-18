@@ -218,6 +218,15 @@ doi = {10.1140/epjc/s10052-021-09538-2}
       url           = "https://cds.cern.ch/record/2621960",
 }
 
+@techreport{phase2_Upgrade,
+      title         = "{The Phase-2 Upgrade of the CMS Beam Radiation, Instrumentation, and Luminosity}",
+      institution   = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      reportNumber  = "CMS-NOTE-2019-008",
+      year          = "2020",
+      url           = "https://cds.cern.ch/record/2706512?ln=en",
+}
 
 @techreport{pas_18,
       title         = "{CMS luminosity measurement for the 2018 data-taking
@@ -341,6 +350,13 @@ doi = {10.1140/epjc/s10052-021-09538-2}
     url = {https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}
 }
 
+@MISC{hl-lhc,
+    author = {{The HL-LHC project, official web}},
+    title = {The HL-LHC project},
+    year = {2022},
+    note = {[Online; LHC/ HL-LHC Plan (last update February 2022)]},
+    url = {https://hilumilhc.web.cern.ch/content/hl-lhc-project}
+}
 
 
 @article{det_summary,
