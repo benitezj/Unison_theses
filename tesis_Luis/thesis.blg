@@ -13,66 +13,65 @@ A level-1 auxiliary file: Chapter4/chapter4.aux
 A level-1 auxiliary file: Chapter5/chapter5.aux
 The style file: unsrtnat.bst
 Database file #1: References/references.bib
-I was expecting a `,' or a `}'---line 46 of file References/references.bib
+I was expecting a `,' or a `}'---line 44 of file References/references.bib
  : 
  : @article{Atlas_Exp_2008,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "LHC" isn't style-file defined
---line 250 of file References/references.bib
+--line 241 of file References/references.bib
+Warning--entry type for "luminosity_importance" isn't style-file defined
+--line 248 of file References/references.bib
 Warning--entry type for "concept_of_luminosity" isn't style-file defined
---line 264 of file References/references.bib
-Repeated entry---line 345 of file References/references.bib
+--line 255 of file References/references.bib
+Repeated entry---line 336 of file References/references.bib
  : @misc{wikicern
  :               ,
 I'm skipping whatever remains of this entry
-Warning--entry type for "lumi_motiv" isn't style-file defined
---line 490 of file References/references.bib
 Warning--empty publisher in ref_lib_vol3
-Warning--empty year in lumi_motiv
 Warning--empty author in PCC_PAS_12_001
 Warning--empty author in pas_17
 Warning--empty author in pas_18
 Warning--empty author in Phase2_Upgrade
-You've used 24 entries,
+You've used 23 entries,
             2481 wiz_defined-function locations,
-            720 strings with 8851 characters,
-and the built_in function-call counts, 7811 in all, are:
-= -- 761
-> -- 165
+            712 strings with 8621 characters,
+and the built_in function-call counts, 7288 in all, are:
+= -- 701
+> -- 157
 < -- 21
-+ -- 94
-- -- 46
-* -- 519
-:= -- 1168
-add.period$ -- 92
-call.type$ -- 24
-change.case$ -- 46
-chr.to.int$ -- 24
-cite$ -- 35
-duplicate$ -- 433
-empty$ -- 820
-format.name$ -- 73
-if$ -- 1718
++ -- 90
+- -- 44
+* -- 468
+:= -- 1103
+add.period$ -- 85
+call.type$ -- 23
+change.case$ -- 45
+chr.to.int$ -- 23
+cite$ -- 32
+duplicate$ -- 413
+empty$ -- 766
+format.name$ -- 69
+if$ -- 1598
 int.to.chr$ -- 1
-int.to.str$ -- 25
-missing$ -- 20
-newline$ -- 146
+int.to.str$ -- 24
+missing$ -- 19
+newline$ -- 138
 num.names$ -- 57
-pop$ -- 198
+pop$ -- 193
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 23
 quote$ -- 0
-skip$ -- 275
+skip$ -- 265
 stack$ -- 0
-substring$ -- 383
-swap$ -- 70
+substring$ -- 319
+swap$ -- 68
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 153
-warning$ -- 6
-while$ -- 58
+type$ -- 146
+warning$ -- 5
+while$ -- 55
 width$ -- 0
-write$ -- 353
+write$ -- 334
 (There were 2 error messages)

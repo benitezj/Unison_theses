@@ -51,30 +51,32 @@ Combining everything, the PCC luminosity measurement is obtained as:
 \mathcal{L}_{inst}=\frac{\left < N_{\text{cluster}} \right >}{\sigma_{vis}} \cdot f
 \end{equation}
 
-This method is capable of providing a precise luminosity measurement over longer time periods, but it cannot do so for a single luminosity section (23 seconds) as is possible with online luminometers. The reason for this limitation is the limited CMS trigger bandwidth available for collecting data \cite{pas_18}. A detailed discussion on this topic can be found in the next chapter.\\
+%This method is capable of providing a precise luminosity measurement over longer time periods, but it cannot do so for a single luminosity section (23 seconds) as is possible with online luminometers. The reason for this limitation is the limited CMS trigger bandwidth available for collecting data \cite{pas_18}. A detailed discussion on this topic can be found in the next chapter.\\
+
+%PCC si calcula lumi por cada lumi section.  Esto no tiene que ver con online vs offline.  PCC es un offline luminometro, quiere decir que los datos llegan tarde.  Con PCC solo podemos calcular lumi cada lumi section, debido a la baja estadistica (por la lectura de los datos de zero bias).  otros luminometros tienen precision con NB4 (HF, PLT, BCM1F).  
 
 In the PCC measurement, the innermost layer of the pixel detector is excluded from the analysis due to significant dynamic inefficiency effects \cite{pas_18}. At higher $\mathcal{L}_{inst}$, the hit efficiency in this layer decreases because the readout chip cannot process all of the hits.\\ 
 
 \section{2022 CMS Data collected}
 
-On July 12th, 2022, the data collection for Run3 of the Large Hadron Collider (LHC) began, which resulted in a total luminosity of $38.48 fb^{-1}$. This collection period encompassed the duration from the start of stable beams until the beam was dumped, or when stable beams ceased for other reasons, such as beam studies. The luminosity delivered by the LHC to CMS (blue) and the luminosity recorded by CMS (orange) during stable beams and proton-proton collisions at a center-of-mass energy of $\sqrt{s}$ 13.6 TeV in 2022 are depicted in Figure \ref{Lumi_2022}. Note that  the special runs that occurred at injection energy (450 GeV) are not represented in these graphs \citep{wikicern}.
+On July 12th, 2022, the data collection for Run3 of the Large Hadron Collider (LHC) began, which resulted in a total recorded luminosity of $38.48 fb^{-1}$. This collection period encompassed the duration from the start of stable beams until the beam was dumped, or when stable beams ceased for other reasons, such as beam studies. The luminosity delivered by the LHC to CMS (blue) and the luminosity recorded by CMS (orange) during stable beams and proton-proton collisions at a center-of-mass energy of $\sqrt{s}$ 13.6 TeV in 2022 are depicted in Figure \ref{Lumi_2022}. Note that  the special runs that occurred at injection energy (450 GeV) are not represented in these graphs \citep{wikicern}.
 
 \begin{center}
   \begin{figure}[h!]
     \centering
     \includegraphics[width=.45\textwidth]{Chapter3/lumi_per_day_cumulative_pp_2022.png}
     \includegraphics[width=.45\textwidth]{Chapter3/lumi_per_day_pp_2022.png}
-    \caption[Integrated Luminosity 2022]{(left) Cumulative day-by-day integrated luminosity, 2022 Cumulative measured luminosity versus day delivered. Note that this plot may not include data taken within the most recent 24 hours. (rigth) Day-by-day integrated luminosity, 2022 As the first plot, but not cumulative.} 
+    \caption[Integrated Luminosity 2022]{(left) Cumulative day by day integrated luminosity. (rigth) Day by day integrated luminosity, 2022 as the first plot, but not cumulative.} 
     \label{Lumi_2022}
   \end{figure}
 \end{center}
 
 \section{Module selection}
 
-To ensure accurate luminosity measurement, a module selection is created to remove any modules exhibiting long-term performance variations, indicating a non-physical shift in their cluster counts. With a total of 1856 modules in the pixel system, all of them can be considered in the luminosity measurement; however, non-zero occupancy and non-linear effects can pose challenges for accurate measurement. Thus, to identify "good" and "stable" modules, a subset is selected by eliminating  underperforming or "bad" modules and comparing their relative contributions to the cross section. Those with relatively consistent contributions across standard physics runs are kept, while those with significant changes in their relative cross section compared to the averaged relative contribution are rejected. The Module selection is achieved  with the following procedure:
+To ensure accurate luminosity measurement, a module selection is created to remove any modules exhibiting long-term performance variations, indicating a non-physical shift in their cluster counts. With a total of 1856 modules in the pixel system, all of them can be considered in the luminosity measurement; however, instabilities and non-linear effects can pose challenges for accurate measurement. Thus, to identify "good" and "stable" modules, a subset is selected by eliminating  underperforming or "bad" modules and comparing their relative contributions to the cross section. Those with relatively consistent contributions across standard physics runs are kept, while those with significant changes in their relative cross section compared to the averaged relative contribution are rejected. The Module selection is achieved  with the following procedure:
 
 \begin{itemize}
-\item Poor statistics lumisections are removed by applying selection on total PCC.
+\item Poor statistics lumisections are removed from applying selection on total PCC.
 \item Barrel layer-1 modules are removed, as these modules are significantly affected by dynamic inefficiency.
 \item A loose selection of 7\% based on RMS/mean frome the module weight distribution (changes in the module PCC ratio relative to the total PCC) is applied. Modules with significantly large RMS/mean are removed with this selection as shown in \ref{goodmodule}.
 \item The module stability is re-evaluated based on RMS/mean values using an iterative method where the second iteration is made with a loose selection of 4\%.

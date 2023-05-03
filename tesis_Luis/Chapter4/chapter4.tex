@@ -130,27 +130,21 @@ There are several systematic effects that affect the measurement of beam overlap
  
 \begin{enumerate}
 
-\item Ghost and Satellite. This correction corrects for the presence of spurious charges, which affect bunch currents. Satellite charges refer to additional charges outside the actual colliding bunch, while ghost charges refer to charge not in any nominally filled bunch slot. These results in corrections of up to 0.5\% to $\sigma_{vis}$. The overall uncertaintys estimate the bunch current measurement  to be 0.4\%.
+\item Ghost and Satellite. Corrects the presence of spurious charges, which affect bunch currents. Satellite charges refer to additional charges outside the actual colliding bunch, while ghost charges refer to charge not in any nominally filled bunch slot, these results in corrections of up to 0.5\% to $\sigma_{vis}$. The overall uncertaintys estimate the bunch current measurement  to be 0.4\%.
 
-\item Orbit drift. The orbit drift correction accounts for potential movement of the LHC orbit during the vdM scans. Time-dependent changes of the transverse beam positions for fixed machine parameters can alter the beam separation. This correction is composed of two independent corrections: 
+\item Orbit drift. This correction accounts for potential movement of the LHC orbit during the vdM scans. Time-dependent changes of the transverse beam positions for fixed machine parameters can alter the beam separation, this correction is composed of two independent corrections:  
 
-\begin{itemize}
+Orbit drift separation "ODS", correction that aims to correct for the orbit drift in the scanning direction and only affects beam separation and  Orbit drift rate "ODR", correction that aims to correct for the orbit drift in the direction orthogonal to the scanning direction and only affects the luminometer rate. 
+%The derived correction assumes that the beam overlap has a single Gaussian shape. The correction reads the $\sigma_{vis}$ in the orthogonal direction from the previous correction. 
 
-\item Orbit drift separation "ODS", correction that aims to correct for the orbit drift in the scanning direction and only affects beam separation. 
-
-\item  Orbit drift rate "ODR", correction that aims to correct for the orbit drift in the direction orthogonal to the scanning direction and only affects the luminometer rate. The derived correction assumes that the beam overlap has a single Gaussian shape. The correction reads the $\sigma_{vis}$ in the orthogonal direction from the previous correction. 
-\end{itemize}
-
-Applying this correction improves the agreement between the $\sigma_{vis}$ values derived with different scan pairs and changes the average $\sigma_{vis}$ by about 0.3\%. The full size of the correction is considered as uncertainty.
+Applying this correction improves the agreement between the $\sigma_{vis}$ values derived with different scan pairs and changes the average $\sigma_{vis}$ by about 0.3\%, considering the full size of the correction is as uncertainty.
 
 \item Beam Beam corrections.  The electromagnetic interaction between the two colliding proton bunches leads to two effects in beam-separation scans:
 
-\begin{itemize}
+Beam Beam deflection (BB). Corrects Beam Beam deflection that happens during bunch crossings at the collision point. Accounts for the electrical repulsion of the beams, which increases the lateral separation. The deflection is calculated and added to the nominal separation.
 
-\item Beam Beam deflection. Corrects Beam Beam deflection (BB) that happens during bunch crossings at the collision point. Accounts for the electrical repulsion of the beams, which increases the lateral separation. The deflection is calculated and added to the nominal separation.
+Dynamic Beta. The so-called dynamic $\beta^{*}$  effect, which accounts for any changes in the proton density distributions of the bunches due to the single-particle interactions. As a result, the non-linear change during separation steps in transverse bunch profiles is observed, and can described by the effective change of the $\beta^{*}$  value.
 
-\item Dynamic Beta. The so-called dynamic $\beta^{*}$  effect, which accounts for any changes in the proton density distributions of the bunches due to the single-particle interactions. As a result, the non-linear change during separation steps in transverse bunch profiles is observed, and can described by the effective change of the $\beta^{*}$  value.
-\end{itemize}
 The corrections are calculated for each proton bunch pair individually, and the combined effect of the two corrections is an increase of $\sigma_{vis}$ by 1.0\%, with an uncertainty of 0.5\%.
 
 \item Length Scale.  It applies a linear scaling to the beam separation to convert it from the "CMS scale" to the actual "physics scale". This is  calibrated by analyzing pp collision vertices reconstruced by the CMS tracker using data from the five length scale scan pairs performed in fills 8178, 8379, and 8381.This correction reduces $\sigma_{vis}$ by 1.0\% and results in an uncertainty of 0.12\%.
@@ -166,20 +160,19 @@ For this analysis, various fit functions were tested, and the one with the best 
 The second most important parameter for measuring the quality of the fit is having a good  Chi-square $\chi^2$.  The  Chi-square goodness of fit test is a statistical hypothesis test that helps to determine whether a variable is likely to come from a specified distribution or not. This test provides a way to assess whether the data values have a good enough fit to our model, or if the model is questionable. In more general terms, this test compares observed values with expected or theoretical values according to the hypothesis. The goal is to minimize the calculation of the $\chi^2$ as defined in equation \ref{x^2}, from here is  inferred that the lower the value of $\chi^2$, the better the fit is considered to be.
 
 \begin{equation}
-\chi^{2}(\theta)=\sum_{i=1}^{N} \frac{(y_{i}-\lambda(x_{i},\theta))^{2}}{\sigma_{i}^{2}}
+\chi^{2}(\theta)=\sum_{i=1}^{N} \frac{(y_{i}-f(x_{i},\theta))^{2}}{\sigma_{i}^{2}}
 \label{x^2}
 \end{equation}
 
-where $N$ observed values $y_{1}$,···, $y_{N}$ are measured with errors $\sigma_{1}$,···,$\sigma_{N}$" at the values of $x$ given without error by $x_{1}$,..., $x_{N}$. The theoretical  value $\lambda_{i}$ of $y_{i}$ is given by a function $\lambda_{i} = \lambda(x_{i},\theta)$. The value of $\theta$ is adjusted to minimize the value of $\chi^2$ \cite{Statistical_Data_Analysis}.
+where the observed values $y_{1}$,···, $y_{N}$ are measured with errors $\sigma_{1}$,···,$\sigma_{N}$" at the values of $x$ given without error by $x_{1}$,..., $x_{N}$. The theoretical  value is given by the function $f(x_{i},\theta)$. The value of $\theta$ is adjusted to minimize the value of $\chi^2$ \cite{Statistical_Data_Analysis}.
 
-After probe  several mathematical fit models, those requiring background subtraction from SS periods analysis were ultimately discarded due to the unacceptably high chi-square values obtained, this was due to the inconsistencies mentioned the section \ref{bkg}. Therefore, it was decided to use functions that include a constant to model the background in the fit. The chosen model with the best fit quality and after applying all the corrections mentioned earlier, was a double Gaussian function plus a constant, referred to as "DG+Const":
-
+After testing several mathematical fit models, those requiring background subtraction from SS periods analysis were ultimately discarded due to the unacceptably high chi-square values obtained, this was due to the inconsistencies mentioned the section \ref{bkg}. Therefore, it was decided to use functions that include a constant to model the background in the fit. The chosen model with the best fit quality and after applying all the corrections mentioned earlier, was a double Gaussian function plus a constant:
+%https://gitlab.cern.ch/bril/VdMFramework/-/blob/main/src/plotting/capsigma_over_time.py#L90
+%\begin{equation}
+%DG+Const= C+P \cdot \Biggl[ F \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{1}^{2} } \Biggr) + (1-F) \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{2}^{2} } \Biggr) \Biggr] 
+%\end{equation}
 \begin{equation}
-DG+Const= C+P \cdot \Biggl[ F \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{1}^{2} } \Biggr) + (1-F) \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{2}^{2} } \Biggr) \Biggr] 
-\end{equation}
-
-\begin{equation}
-DG+Const= C+P \cdot \Biggl[ F \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2(\frac{\sigma\cdot R}{F \cdot R+1-F} )^{2} } \Biggr) + (1-F) \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 (\frac{\sigma}{F \cdot R+1-F} )^{2} } \Biggr) \Biggr] 
+f(x)= C+P \cdot \Biggl[ F \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2(\frac{\Sigma\cdot R}{F \cdot R+1-F} )^{2} } \Biggr) + (1-F) \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 (\frac{\Sigma}{F \cdot R+1-F} )^{2} } \Biggr) \Biggr] 
 \end{equation}
 %[5] + [2]*([3]*exp(-(x-[4])**2/(2*([0]*[1]/([3]*[1]+1-[3]))**2))
     %    + (1-[3])*exp(-(x-[4])**2/(2*([0]/([3]*[1]+1-[3]))**2)) )
@@ -189,21 +182,21 @@ DG+Const= C+P \cdot \Biggl[ F \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2(\frac
 \begin{itemize}
 \item $C$ is the constant value.
 \item $P$ the $peak$ rate.
-\item $F$ is the weight between 0 and 1 of the first Gaussian in the sum.
+\item $F$ is the fraction of the peak rate attributed to the first Gaussian in the sum.
 \item $x$ is the beam position.
 \item $\bar{x}$ is the mean.
-\item $\sigma$ the standard deviation of the gaussian.
-\item $R$ is the Ratio $\sigma_{1}/\sigma_{2}$.
+\item $\Sigma$ is the overllap between the beams.
+\item $R$ is the ratio between the standard deviations of the  Gaussians (first over the second).
 \end{itemize}
 
-Figure \ref{vdM1_282_XYscan} shows the fit graphs of the first vdM scan pair for BCID 282 where  all the corrections described in the previous section have been applied and where  rates are normalized by the beam currents ($R(0,0)/N_{1}N_{2}$), which is according of Eq. \ref{sigmavis_eq}.
+Figure \ref{vdM1_282_XYscan} shows the fit graphs of the first vdM scan pair for BCID 282 where  all the corrections described in the previous section have been applied and where  rates are normalized by the beam currents ($N_{1}N_{2}$), which is according of Eq. \ref{sigmavis_eq}.
 
 \begin{center}
 \begin{figure}[h!]
 \centering
 \includegraphics[width=.40\textwidth]{Chapter4/xscan.png}
 \includegraphics[width=.40\textwidth]{Chapter4/yscan.png}\\
-\caption[vdM1 BCID 282]{Normalized rates and the resulting fitted curves with the DG+Const fit model as a function of the beam separation ($\Delta$) for BCID 282 for X (left) and Y (right) scan for the first vdM scan.}
+\caption[vdM1 BCID 282]{Normalized rates and the resulting fitted curves with  fit model as a function of the beam separation ($\Delta$) for BCID 282 for $x$ (left) and $y$ (right) scan for the first vdM scan.}
 \label{vdM1_282_XYscan}
 \end{figure}
 \end{center}
@@ -213,64 +206,66 @@ For the remaining BCID's, the fits for both vdM and BI scans exhibit a very simi
   \begin{figure}[h!]
     \centering
     \includegraphics[scale=.025]{Chapter4/DGConst_chi2.png}
-    \caption[chi2/ndof for all scan pairs]{ chi2/ndof for all the scan pairs.  where the red dots represent the X scans, and the blue dots represent the Y scans. It is important to note that in each scan, the BCIDs follow the same order, which is 282, 822, 2944, 3123, and 3302.} 
+    \caption[chi2/ndof for all scan pairs]{ chi2/ndof for all the scan pairs.  where the red dots represent the $x$-scans, and the blue dots represent the $y$-scans. It is important to note that in each scan, the BCIDs follow the same order, which is 282, 822, 2944, 3123, and 3302.} 
     \label{chi2/ndof}
   \end{figure}
 \end{center}
 
 \section{Results}
 
-To compute $\sigma_{vis}$, the CapSigma $\Sigma_{x,y}$ and $Peak$ values have been extracted, the behavior of these values ​​for all scans pair are shown in the  Figure \ref{capsigma_peak} where those belonging to the scan in $x$ are presented in red and those belonging to the scan in $y$ are shown in blue.\\
+To compute $\sigma_{vis}$, the $\Sigma_{x,y}$ and $peak_{x,y}$ values have been extracted, the behavior of these values ​​for all scans pair are shown in the  Fig. \ref{capsigma_peak} (left) for $\Sigma_{x,y}$ and Fig. \ref{capsigma_peak} (right) for the $peak_{x,y}$ values , where those belonging to the scan in $x$ are presented in red and those belonging to the scan in $y$ are shown in blue.\\
 
-The values of $\Sigma_{x,y}$, which represent the standard deviation in the fit, provide a direct measurement of the beam shape, as we can seen in the plot for $\Sigma_{x,y}$  these values decrease in both the $x$ and $y$ directions during the fill time, this is due to a phenomenon called "damping" which causes the beam to gradually focus with time. On the other hand the values ​​for the peak in figure \ref{capsigma_peak} (right) are then a direct consequence of this, since a more focused beam means more collisions and thus a higher rate.\\
+The values of $\Sigma_{x,y}$ wish provide a direct measurement of the beam shape show a decrease in both the $x$ and $y$ directions during the fill time, this is due to a phenomenon called "damping", which occurs due to the interaction between the particles in the beam and the electromagnetic fields in the LHC ring, these fields exert a force on the particles, causing them to lose energy and amplitude, which causes the beam to gradually focus with time. On the other hand the values ​​for the $peak$ are then a direct consequence of this effect, since a more focused beam means more collisions and thus a higher rate.\\
 
-The figure also displays a sharp decline in values between the BI2 and vdM3 scans, which can be attributed to the exclusion of the vdM2 scan for the reasons mentioned in the section \ref{data} . 
+The figure also displays a discontinuity in values between the BI2 and vdM3 scans, which can be attributed to the exclusion of the vdM2 scan for the reasons mentioned in the section \ref{data} . 
 
 \begin{center}
   \begin{figure}[h!]
     \centering
     \includegraphics[width=.49\textwidth]{Chapter4/DGConst_CapSigma.png}
     \includegraphics[width=.48\textwidth]{Chapter4/DGConst_peak.png}
-    \caption[$\Sigma_{x,y}$ and peak values for all scan pairs]{$\Sigma_{x,y}$ (left) and Peak values (right) extracted from the fitted graph to compute $\sigma_{vis}$, where the red dots represent the X scans, and the blue dots represent the Y scans, note that in each scan, the BCIDs follow the same order, which is 282, 822, 2944, 3123, and 3302.} 
+    \caption[$\Sigma_{x,y}$ and peak values for all scan pairs]{$\Sigma_{x,y}$ (left) and peak values (right) extracted from the fit to compute $\sigma_{vis}$, where the red dots represent the $x$-scans, and the blue dots represent the $y$-scans, note that in each scan, the BCIDs follow the same order, which is 282, 822, 2944, 3123, and 3302.} 
     \label{capsigma_peak}
   \end{figure}
 \end{center}
 
-The $\sigma_{vis}$ for all BCID's (vdM and BI scans) is then computed from the fit results $\Sigma_{x,y}$ and $peak_{x,y}$ shown above, this is done using the Eq. \ref{sigmavis_eq}. The value of $R(0,0)$ is obtained through a specific correction where the rate is taken from the higher value between the scans $x$ and $y$. The difference in these rates values is attributed to the fact that some scans are not centered on the axes. After this correction, the final peak, which has already been normalized, is obtained. As a result, Equation \ref{sigmavis_eq} is rewritten as:
+The $\sigma_{vis}$ for all BCIDs (vdM and BI scans) is then computed from the fit results $\Sigma_{x,y}$ and $peak_{x,y}$ shown above, this is done using the Eq. \ref{sigmavis_eq}. The value of $R(0,0)$ is obtained is obtained by taking the average of the peaks in the $x$ and $y$ scans, which has already been normalized. As a result, Equation \ref{sigmavis_eq} is rewritten as:
 
 \begin{equation}
- \sigma_{vis}= 2\pi \Sigma_{x} \Sigma_{y}Peak
+ \sigma_{vis}= 2\pi \Sigma_{x} \Sigma_{y} \Biggl( \frac{peak_{x}+peak_{y}}{2} \Biggr)
  \end{equation}
 
-Figure \ref{sigmavis_perbcid} shows the  value of sigma visible $\sigma_{vis}$ per BCID for all the scans where the error on $\sigma_{vis}$ is assigned as: 
+Figure \ref{sigmavis_perbcid} shows the  value of $\sigma_{vis}$ per BCID for all the scans where the error on $\sigma_{vis}$ is assigned as: 
 
 \begin{equation}
-\sigma_{vis\text{Err}}= 2 \pi \sqrt{ (\Sigma_{y} \cdot Peak \cdot \Sigma_{x\text{Err}})^{2} + (\Sigma_{x} \cdot Peak \cdot \Sigma_{y \text{Err}})^{2} + (\Sigma_{x} \Sigma_{y} Peak_{\text{Err}})^{2} }
+\sigma_{vis\text{Err}}= 2 \pi \sqrt{ (\Sigma_{y} \cdot P \cdot \Sigma_{x\text{Err}})^{2} + (\Sigma_{x} \cdot P \cdot \Sigma_{y \text{Err}})^{2} + (\Sigma_{x} \Sigma_{y} P_{\text{Err}})^{2} }
 \end{equation}
 
 \begin{center}
   \begin{figure}[h!]
     \centering
     \includegraphics[scale=.22]{Chapter4/DGConst_xsec.png}
-    \caption[$\sigma_{vis}$ per BCID for all scans]{ $\sigma_{vis}$ per BCID for all the scans,  in each scan, the BCID's follow the same order, which is 282, 822, 2944, 3123, and 3302.}
+    \caption[$\sigma_{vis}$ per BCID for all scans]{ $\sigma_{vis}$ per BCID for all the scans,  in each scan, the BCIDs follow the same order, which is 282, 822, 2944, 3123, and 3302.}
     \label{sigmavis_perbcid}
   \end{figure}
 \end{center}
 
-To obtain the final value of sigma visible , we first perform a weighted average using 5 BCIDs for each scan as shown in Figure \ref{sigmavis_perscan} with blue dots. Subsequently, we perform another weighted average among the results of these 5 scans, this final value is represented by the red line in Figure \ref{sigmavis_perscan}. In both calcuation, it is assumed that there is no correlation between the BCIDs and the scans. Therefore, the computation of the weighted average and the error is assigned as follows:
+To obtain the final value of sigma visible , we first perform a weighted average using 5 BCIDs for each scan as shown in Figure \ref{sigmavis_perscan} with blue dots. Subsequently, we perform another weighted average among the results of these 5 scans, this final value is represented by the red line in Figure \ref{sigmavis_perscan}. In both calcuation, it is assumed that there is no correlation between the BCIDs and the scans. Therefore, the computation of the weighted average and the total error  follows Equations \ref{average} and \ref{error} respectively, where the weight is assigned as $w_{i} = 1/\sigma_{visErr}^{2}$. 
+
 
 \begin{eqnarray}
-\sigma_{visErrTotal}=\frac{1}{\sqrt{ \displaystyle\sum_{\textbf{i}} \frac{1}{\sigma_{vis\textbf{i}Err}^{2}}}}
+\sigma_{vis}^{Avg}=\Biggl(\displaystyle\sum_{i} w_{i}\sigma_{vis}^{i} \Biggr)\Biggl(\sqrt{ \displaystyle\sum_{i} w_{i}} \Biggr)^{-2}
+\label{average}
+\end{eqnarray}
+
+\begin{eqnarray}
+\sigma_{vis,Err}^{Avg}=\frac{1}{\sqrt{ \displaystyle\sum_{i} w_{i}}} 
 \label{error}
 \end{eqnarray}
 
-\begin{eqnarray}
-\sigma_{vis}=\Biggl(\displaystyle\sum_{\textbf{i}} \frac{\sigma_{vis\textbf{i}}}{\sigma^{2}_{vis\textbf{i}Err}} \Biggr)(\sigma_{visErrTotal})^{2}
-\label{average}
-\end{eqnarray}
-After completing the calibration procedure, the final result obtained is:
+The final result obtained is:
 \begin{equation}
-\sigma_{vis}=4163.34 \pm 3.30 \text{ (stat)  mb}
+\sigma_{vis}=4163.3 \pm 3.3 \text{ (stat)  mb}
 \end{equation}
 
 \begin{center}
@@ -282,4 +277,5 @@ After completing the calibration procedure, the final result obtained is:
   \end{figure}
 \end{center}
 
-As shown in figure \ref{sigmavis_perscan}, the scans exhibit an RMS of $12882 \mu b$ for the values of visible sigma. Among them, vdM1 and vdM3 demonstrate the largest variations, approximately 2 standard deviations away from the mean. These variations can be attributed to the presence of systematic effects during the scans.
+As depicted in Figure \ref{sigmavis_perscan}, the scans demonstrate an RMS of $12.8 \text{ mb}$ for the $\sigma_{vis}$ values, which is larger than the statistical uncertainty. Notably, vdM1 and vdM3 exhibit the largest variations, deviating by approximately 2 standard deviations from the mean. These discrepancies can be attributed to systematic effects in the detector during the scans. Given that other luminometers display a similar trend, this could be due to a common systematic effect such as beam position or beam current $(N_{1}*N_{2})$. A study of the sources of systematic uncertainty will be performed in the future. In this work, we assign the RMS value as an estimate of the systematic uncertainty.
+

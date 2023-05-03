@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{23}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -13,14 +13,13 @@ Mark Thomson.
 
 \bibitem[Griffiths(2008)]{griff}
 David~J Griffiths.
-\newblock \emph{{Introduction to elementary particles; 2nd rev. version}}.
-\newblock Physics textbook. Wiley, New York, NY, 2008.
-\newblock URL \url{https://cds.cern.ch/record/111880}.
-\newblock \url{https://cds.cern.ch/record/111880}.
+\newblock \emph{{Introduction to Elementary Particles; Second edition}}.
+\newblock WILEY-VCH Verlag GmbH & Co. KGaA. Weinheim, Federal Republic of
+  Germany, 2008.
 
 \bibitem[Belyaev and Ross(2021)]{undergraduate_accelerators_chapter}
 Alexander Belyaev and Douglas Ross.
-\newblock \emph{Particle Accelerators}, pages 201--219.
+\newblock \emph{Particle Accelerators}, pages 264--266.
 \newblock Springer International Publishing, Cham, 2021.
 \newblock \doi{10.1007/978-3-030-80116-8_13}.
 
@@ -36,20 +35,14 @@ Werner Herr and Bruno Muratori.
 \newblock {Concept of Luminosity}, 2006.
 \newblock URL \url{https://cds.cern.ch/record/941318/files/p361.pdf}.
 
-\bibitem[lum()]{lumi_motiv}
-M.L. Mangano, Motivations and precision targets for an accurate luminosity
-  determination at the LHC, \emph{CERN-Proceedings-2011-011},
-  \url{https://cds.cern.ch/record/1347440}.
+\bibitem[Traczyk(2021)]{luminosity_importance}
+Piotr Traczyk.
+\newblock {Why precision luminosity measurements matter}, 2021.
+\newblock URL
+  \url{https://home.cern/news/news/physics/why-precision-luminosity-measurements-matter}.
 
-\bibitem[Grafström and Kozanecki(2015)]{lumi_paper_def_and_concept}
-P.~Grafström and W.~Kozanecki.
-\newblock Luminosity determination at proton colliders.
-\newblock \emph{Progress in Particle and Nuclear Physics}, 81:\penalty0
-  97--148, 2015.
-\newblock \doi{https://doi.org/10.1016/j.ppnp.2014.11.002}.
-
-\bibitem[CERN(2022)]{LHC}
-CERN.
+\bibitem[science(2022)]{LHC}
+CERN~Acelerating science.
 \newblock {The Large Hadron Collider}, 2022.
 \newblock URL
   \url{https://home.cern/science/accelerators/large-hadron-collider}.
@@ -132,9 +125,8 @@ The~CMS Collaboration.
 
 \bibitem[G.~Giurgiu(2008)]{Pixel_Hit_Reconstruction}
 P.~Maksimovic G.~Giurgiu, D.~Fehling.
-\newblock {CMS} machine.
-\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
-  S08001--S08001, {Aug} 2008.
+\newblock Pixel hit reconstruction with the cms detector.
+\newblock \emph{Instrumentation and Detectors}, 2, {Aug} 2008.
 \newblock \doi{https://doi.org/10.48550/arXiv.0808.3804}.
 
 \bibitem[Pha(2020)]{Phase2_Upgrade}
@@ -160,11 +152,9 @@ S.~Müller.
 \newblock International Workshop on Semiconductor Pixel Detectors for Particles
   and Imaging 2010.
 
-\bibitem[COWAN(1998)]{Statistical_Data_Analysis}
-GLEN COWAN.
+\bibitem[Cowan(1998)]{Statistical_Data_Analysis}
+Glen Cowan.
 \newblock \emph{{Statistical Data Analysis}}.
-\newblock Statistical textbook. Clarendon press, New York, NY, 1998.
-\newblock URL \url{https://cloudflare-ipfs.com}.
-\newblock \url{https://cloudflare-ipfs.com}.
+\newblock Oxford Series. Oxford University Press, New York, NY, 1998.
 
 \end{thebibliography}

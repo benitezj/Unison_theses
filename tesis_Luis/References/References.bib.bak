@@ -19,12 +19,10 @@
 	year = 2008,
 	month = {{Aug}},
 	publisher = {{IOP} Publishing},
-	volume = {3},
-	number = {08},
-	pages = {S08001--S08001},
+	volume = {2},
 	author = {G. Giurgiu, D. Fehling, P. Maksimovic},
-	title = {{CMS} Machine},
-	journal = {Journal of Instrumentation},
+	title = {Pixel Hit Reconstruction with the CMS Detector},
+	journal = {Instrumentation and Detectors},
 	abstract = {Pixel Hit Reconstruction with the CMS Detector.}
 }
 
@@ -95,28 +93,21 @@
 
 
 
-
-
 @book{griff,
       author        = "Griffiths, David J",
-      title         = "{Introduction to elementary particles; 2nd rev. version}",
-      publisher     = "Wiley",
-      address       = "New York, NY",
-      series        = "Physics textbook",
-      year          = "2008",
-      url           = "https://cds.cern.ch/record/111880",
-      note   = "\url{https://cds.cern.ch/record/111880} "
+      title         = "{Introduction to Elementary Particles; Second edition}",
+      publisher     = "WILEY-VCH Verlag GmbH & Co. KGaA. Weinheim",
+      address       = "Federal Republic of Germany",
+      year          = "2008"
 }
 
 @book{Statistical_Data_Analysis,
-      author        = "GLEN COWAN",
+      author        = "Glen Cowan",
       title         = "{Statistical Data Analysis}",
-      publisher     = "Clarendon press",
+      publisher     = "Oxford University Press",
       address       = "New York, NY",
-      series        = "Statistical textbook",
-      year          = "1998",
-      url           = "https://cloudflare-ipfs.com",
-      note   = "\url{https://cloudflare-ipfs.com} "
+      series        = "Oxford Series",
+      year          = "1998"
 }
 
 @article{higgs_ATLAS,
@@ -175,7 +166,7 @@ bookTitle="The Basics of Nuclear and Particle Physics",
 year="2021",
 publisher="Springer International Publishing",
 address="Cham",
-pages="201--219",
+pages="264--266",
 doi="10.1007/978-3-030-80116-8_13"
 }
 
@@ -248,7 +239,7 @@ doi = {10.1140/epjc/s10052-021-09538-2}
 }
 
 @thesis{LHC,
-      author        = "CERN",
+      author        = "CERN Acelerating science",
       title         = "{The Large Hadron Collider}",
       year          = "2022",
       url           = "https://home.cern/science/accelerators/large-hadron-collider",
@@ -258,7 +249,7 @@ doi = {10.1140/epjc/s10052-021-09538-2}
       author        = "Piotr Traczyk",
       title         = "{Why precision luminosity measurements matter}",
       year          = "2021",
-      url           = "https://phys.org/news/2021-05-precision-luminosity.html",
+      url           = "https://home.cern/news/news/physics/why-precision-luminosity-measurements-matter",
 }
 
 @thesis{concept_of_luminosity,
