@@ -22,7 +22,7 @@ Figure \ref{pileup} shows a simulation with pp collision zero-bias events with t
   \begin{figure}[h!]
     \centering
     \includegraphics[scale=.35]{Chapter3/pileup_lineality.png} 
-    \caption[Linearity with pile-up]{ Linearity of pixel cluster counting over the pileup range observed in Run 2 (from 0 to about 50) from simulation. The red line is a linear fit to the points \cite{Phase2_Upgrade} }
+    \caption[PCC linearity with pile-up]{ Linearity of pixel cluster counting over the pileup range observed in Run 2 (from 0 to about 50) from simulation. The red line is a linear fit to the points \cite{Phase2_Upgrade} }
     \label{pileup}
   \end{figure}
 \end{center}
@@ -66,7 +66,7 @@ On July 12th, 2022, the data collection for Run3 of the Large Hadron Collider (L
     \centering
     \includegraphics[width=.45\textwidth]{Chapter3/lumi_per_day_cumulative_pp_2022.png}
     \includegraphics[width=.45\textwidth]{Chapter3/lumi_per_day_pp_2022.png}
-    \caption[Integrated Luminosity 2022]{(left) Cumulative day by day integrated luminosity. (rigth) Day by day integrated luminosity, 2022 as the first plot, but not cumulative.} 
+    \caption[Cumulative day-by-day integrated luminosity in 2022]{(left) Cumulative day by day integrated luminosity. (rigth) Day by day integrated luminosity, 2022 as the first plot, but not cumulative.} 
     \label{Lumi_2022}
   \end{figure}
 \end{center}
@@ -86,7 +86,7 @@ To ensure accurate luminosity measurement, a module selection is created to remo
   \begin{figure}[h!]
     \centering
     \includegraphics[scale=.17]{Chapter4/good_module.png}\includegraphics[scale=.15]{Chapter4/RMSmean.png}
-    \caption[RMS/mean Module  Stability]{ left: stability profile for good and bad modules where weight is plotted as a function of lumi section.  Right: RMS/mean values of module weight for all pixel modules  where each pixel module is represented by a module number index (same happen for the 4\% iteration).} 
+    \caption[Profile of good and bad modules stability]{ left: stability profile for good and bad modules where weight is plotted as a function of lumi section.  Right: RMS/mean values of module weight for all pixel modules  where each pixel module is represented by a module number index (same happen for the 4\% iteration).} 
     \label{goodmodule}
   \end{figure}
 \end{center}
@@ -97,7 +97,7 @@ To ensure the accuracy of the measurements, pixel module veto lists were generat
 
 \begin{table}[ht]
 \centering
-\caption{After each iteration for each period, the periods C and D are combined, followed by the periods C, D, and E, then the periods C, D, E, and F, and finally, the common veto list is created using the periods C, D, E, F, and G.}
+\caption[Number of good and bad modules for the combined periods]{After each iteration for each period, the periods C and D are combined, followed by the periods C, D, and E, then the periods C, D, E, and F, and finally, the common veto list is created using the periods C, D, E, F, and G.}
 \begin{tabular}{ccc}
 \textbf{Period} & \textbf{\# bad modules} & \textbf{\# good modules}  \\ 
 \toprule
@@ -143,14 +143,14 @@ Therefore, the equation \ref{lumi_exp_gen} used to measure the visible cross sec
 Experimentally, the quantities $\Sigma_{x}$ and $\Sigma_{y}$, as defined in Eq. (\ref{CapSigma}), are determined by conducting two separate scans in the $x$ and $y$ directions, respectively. 
 These scans are performed by varying the separation between the beams in each direction  at a fixed number of separation steps.The separation steps are determined through curve fitting of the scan data based on the luminometer rate measurements obtained during the vdM scans.\\
 
-The measured rate, denoted by $R(0,0)$, is determined as the highest value among the rates obtained in the $x$-scan $R_x(0)$, and the rates obtained in the $y$-scan $R_y(0)$. Although the beam widths are identical for all luminometers, the peaks of the scan curves are specific to each luminometer.\\
+The measured rate, denoted by $R(0,0)$, is determined as the average value among the rates obtained in the $x$-scan $R_x(0)$, and the rates obtained in the $y$-scan $R_y(0)$. Although the beam widths are identical for all luminometers, the peaks of the scan curves are specific to each luminometer.\\
 
 Figure \ref{vdm_sketch} depicts a schematic of the beam positions during vdM scans in the $x$ and $y$ planes, along with the detector rate as a function of beam separation  \cite{pas_18}.
-
+\newpage
 \begin{center}
-  \begin{figure}[h!]
+  \begin{figure}[ht]
     \centering
-    \includegraphics[scale=.37]{Chapter3/vdm_sketch.png}
+    \includegraphics[scale=.50]{Chapter3/vdm_sketch.png}
     \caption[Sketch of a vdM scan in x and y planes and example of fitting resulting rates]{ The sketch of a vdM scan in $x$ and $y$ planes. The indent sketch is an example of the fit of the resulting rates \cite{vdM_sketch}.}
     \label{vdm_sketch}
   \end{figure}

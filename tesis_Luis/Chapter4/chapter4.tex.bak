@@ -21,7 +21,7 @@ The scan program during fill 8381 is summarized in Figure \ref{scan_prog} where 
   \begin{figure}[h]	
     \centering
     \includegraphics[scale=.35]{Chapter4/2022Scanprorgam.png}
-    \caption[2022 scan program]{Nominal horizontal and vertical positions of the proton beams during LHC fill 8381, showing the four standard vdM scans, two BI scans, one LS scan and the two Super Separation Periods (SS)}
+    \caption[2022 vdM scan program]{Nominal horizontal and vertical positions of the proton beams during LHC fill 8381, showing the four standard vdM scans, two BI scans, one LS scan and the two Super Separation Periods (SS)}
     \label{scan_prog}
   \end{figure}
 \end{center}
@@ -65,12 +65,12 @@ In order to illustrate the two SS periods for this analisys, Figure \ref{ssp_wid
 \end{figure}
 \end{center}
 
-To estimate the background value in each BCID, the mean value of the PCC per NB4 rates distribution is computed. The mean and error per super separation (SS) period are obtained by plotting the PCC per NB4 as a function of time and then taking the $y$ projection. The error is calculated using the formula $AvgErr = \sqrt{SEM_1^2 + SEM_2^2 + \cdots + SEM_N}/N$. To illustrate this process for each BCID, the distribution or profile of PCC per NB4 for each SS period is plotted. Figure \ref{ss1_hist_282} displays the PCC per NB4 distribution for SS period I specifically for BCID 282, but the same plot is created for every BCID.\\
+To estimate the background value in each BCID, the mean value of the PCC per NB4 rates distribution is computed. The mean and error per super separation (SS) period are obtained by plotting the PCC per NB4 as a function of time and then taking the $y$ projection. The error is calculated using the formula $AvgErr = \sqrt{SEM_1^2 + SEM_2^2 + \cdots + SEM_N}/N$. To illustrate this process for each BCID, the distribution or profile of PCC per NB4 for each SS period is plotted. Figure \ref{ss1_hist_282} displays the PCC per NB4 distribution for SS period I, specifically for BCID 282, but the same plot is created for every BCID.\\
 
 \begin{center}
   \begin{figure}[h!]
     \centering
-    \includegraphics[scale=.18]{Chapter4/ss1_histo_bx282.png}
+    \includegraphics[scale=.30]{Chapter4/ss1_histo_bx282.png}
     \caption[PCC per NB4 profile for BCID 282 from SS period I]{ PCC per NB4 profile for BCID 282 from SS period I.} 
     \label{ss1_hist_282}
   \end{figure}
@@ -79,7 +79,7 @@ To estimate the background value in each BCID, the mean value of the PCC per NB4
 
 \begin{table}[h!]
   \begin{center}
-    \caption{Mean and standard error on mean (SEM) for the PCC background estimated with the SS1 and SS2 data, separately for all five BCIDs and averaged.}
+    \caption[Background values for the two super separation periods]{Mean and standard error on mean (SEM) for the PCC background estimated with the SS1 and SS2 data, separately for all five BCIDs and averaged.}
     \label{ss_per_bx}
     \begin{tabular}{|c | c | c | }
       \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{SS period I}} & \multicolumn{1}{c}{}  \\
@@ -194,9 +194,9 @@ Figure \ref{vdM1_282_XYscan} shows the fit graphs of the first vdM scan pair for
 \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=.40\textwidth]{Chapter4/xscan.png}
-\includegraphics[width=.40\textwidth]{Chapter4/yscan.png}\\
-\caption[vdM1 BCID 282]{Normalized rates and the resulting fitted curves with  fit model as a function of the beam separation ($\Delta$) for BCID 282 for $x$ (left) and $y$ (right) scan for the first vdM scan.}
+\includegraphics[width=.45\textwidth]{Chapter4/xscan.png}
+\includegraphics[width=.45\textwidth]{Chapter4/yscan.png}\\
+\caption[Fit for the vdM1 BCIDs 282 (x and y directions)]{Normalized rates and the resulting fitted curves with  fit model as a function of the beam separation ($\Delta$) for BCID 282 for $x$ (left) and $y$ (right) scan for the first vdM scan.}
 \label{vdM1_282_XYscan}
 \end{figure}
 \end{center}
@@ -206,7 +206,7 @@ For the remaining BCID's, the fits for both vdM and BI scans exhibit a very simi
   \begin{figure}[h!]
     \centering
     \includegraphics[scale=.025]{Chapter4/DGConst_chi2.png}
-    \caption[chi2/ndof for all scan pairs]{ chi2/ndof for all the scan pairs.  where the red dots represent the $x$-scans, and the blue dots represent the $y$-scans. It is important to note that in each scan, the BCIDs follow the same order, which is 282, 822, 2944, 3123, and 3302.} 
+    \caption[$\chi^{2}$/ndof per BCID for all scan pairs]{ chi2/ndof for all the scan pairs.  where the red dots represent the $x$-scans, and the blue dots represent the $y$-scans. It is important to note that in each scan, the BCIDs follow the same order, which is 282, 822, 2944, 3123, and 3302.} 
     \label{chi2/ndof}
   \end{figure}
 \end{center}
@@ -224,7 +224,7 @@ The figure also displays a discontinuity in values between the BI2 and vdM3 scan
     \centering
     \includegraphics[width=.49\textwidth]{Chapter4/DGConst_CapSigma.png}
     \includegraphics[width=.48\textwidth]{Chapter4/DGConst_peak.png}
-    \caption[$\Sigma_{x,y}$ and peak values for all scan pairs]{$\Sigma_{x,y}$ (left) and peak values (right) extracted from the fit to compute $\sigma_{vis}$, where the red dots represent the $x$-scans, and the blue dots represent the $y$-scans, note that in each scan, the BCIDs follow the same order, which is 282, 822, 2944, 3123, and 3302.} 
+    \caption[$\Sigma_{x,y}$ and peak values per BCID for all scan pairs]{$\Sigma_{x,y}$ (left) and peak values (right) extracted from the fit to compute $\sigma_{vis}$, where the red dots represent the $x$-scans, and the blue dots represent the $y$-scans, note that in each scan, the BCIDs follow the same order, which is 282, 822, 2944, 3123, and 3302.} 
     \label{capsigma_peak}
   \end{figure}
 \end{center}
@@ -254,7 +254,7 @@ To obtain the final value of sigma visible , we first perform a weighted average
 
 
 \begin{eqnarray}
-\sigma_{vis}^{Avg}=\Biggl(\displaystyle\sum_{i} w_{i}\sigma_{vis}^{i} \Biggr)\Biggl(\sqrt{ \displaystyle\sum_{i} w_{i}} \Biggr)^{-2}
+\sigma_{vis}^{Avg}=\Biggl(\displaystyle\sum_{i} w_{i}\sigma_{vis}^{i} \Biggr)\Biggl( \displaystyle\sum_{i} w_{i} \Biggr)^{-1}
 \label{average}
 \end{eqnarray}
 
@@ -272,7 +272,7 @@ The final result obtained is:
   \begin{figure}[ht]
     \centering
     \includegraphics[scale=0.45]{Chapter4/xsec_perscan_v2.png}
-    \caption[$\sigma_{vis}$ per Scan]{ $\sigma_{vis}$  per scan.} 
+    \caption[$\sigma_{vis}$ average per scan and final result]{ $\sigma_{vis}$  per scan.} 
     \label{sigmavis_perscan}
   \end{figure}
 \end{center}

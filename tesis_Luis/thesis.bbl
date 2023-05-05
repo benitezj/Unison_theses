@@ -6,62 +6,63 @@
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
 \bibitem[Thomson(2013)]{thomson_2013}
-Mark Thomson.
+M.~Thomson.
 \newblock \emph{Modern Particle Physics}.
 \newblock Cambridge University Press, 2013.
-\newblock \doi{10.1017/CBO9781139525367}.
 
 \bibitem[Griffiths(2008)]{griff}
-David~J Griffiths.
+D.~Griffiths.
 \newblock \emph{{Introduction to Elementary Particles; Second edition}}.
 \newblock WILEY-VCH Verlag GmbH & Co. KGaA. Weinheim, Federal Republic of
   Germany, 2008.
 
-\bibitem[Belyaev and Ross(2021)]{undergraduate_accelerators_chapter}
-Alexander Belyaev and Douglas Ross.
+\bibitem[Belyaev and Douglas(2021)]{undergraduate_accelerators_chapter}
+A.~Belyaev and R.~Douglas.
 \newblock \emph{Particle Accelerators}, pages 264--266.
 \newblock Springer International Publishing, Cham, 2021.
-\newblock \doi{10.1007/978-3-030-80116-8_13}.
 
 \bibitem[Myers and Schopper(2020)]{ref_lib_vol3}
-Stephen Myers and Herwig Schopper.
+S.~Myers and H.~Schopper.
 \newblock \emph{Particle Physics Reference Library Volume 3: Accelerators and
   Colliders.}
-\newblock 01 2020.
-\newblock \doi{10.1007/978-3-030-34245-6}.
+\newblock Springer open, Geneva, Switzerland, 01 2020.
 
 \bibitem[Herr and Muratori(2006)]{concept_of_luminosity}
-Werner Herr and Bruno Muratori.
-\newblock {Concept of Luminosity}, 2006.
-\newblock URL \url{https://cds.cern.ch/record/941318/files/p361.pdf}.
+W.~Herr and B.~Muratori.
+\newblock {Concept of Luminosity}.
+\newblock \emph{CERN}, 2006.
+\newblock \doi{110.5170/CERN-2006-002.361}.
 
-\bibitem[Traczyk(2021)]{luminosity_importance}
-Piotr Traczyk.
-\newblock {Why precision luminosity measurements matter}, 2021.
+\bibitem[Traczyk(2022)]{luminosity_importance}
+P.~Traczyk.
+\newblock Why precision luminosity measurements matter, 2022.
 \newblock URL
   \url{https://home.cern/news/news/physics/why-precision-luminosity-measurements-matter}.
+\newblock [Online article; accessed February 23, 2023].
 
-\bibitem[science(2022)]{LHC}
-CERN~Acelerating science.
+\bibitem[Collaboration(2022)]{LHC}
+CERN Collaboration.
 \newblock {The Large Hadron Collider}, 2022.
 \newblock URL
   \url{https://home.cern/science/accelerators/large-hadron-collider}.
+\newblock [Online article; accessed February 25, 2023].
 
 \bibitem[Halkiadakis(2011)]{lhc_complex}
-Eva Halkiadakis.
+E.~Halkiadakis.
 \newblock {Introduction to the LHC Experiments}.
 \newblock In \emph{{Theoretical Advanced Study Institute in Elementary Particle
   Physics}: {Physics of the Large and the Small}}, pages 489--518, 2011.
 \newblock \doi{10.1142/9789814327183_0009}.
 
-\bibitem[{The HL-LHC project, official web}(2022)]{hl-lhc}
-{The HL-LHC project, official web}.
+\bibitem[{HL-LHC CERN collaboration}(2022)]{hl-lhc}
+{HL-LHC CERN collaboration}.
 \newblock The hl-lhc project, 2022.
 \newblock URL \url{https://hilumilhc.web.cern.ch/content/hl-lhc-project}.
-\newblock [Online; LHC/ HL-LHC Plan (last update February 2022)].
+\newblock [Online article; LHC/ HL-LHC Plan (last update February 2022)].
 
-\bibitem[PCC(2012)]{PCC_PAS_12_001}
-{CMS Luminosity Based on Pixel Cluster Counting - Summer 2012 Update}.
+\bibitem[Collaboration(2012)]{PCC_PAS_12_001}
+CMS Collaboration.
+\newblock {CMS Luminosity Based on Pixel Cluster Counting}.
 \newblock Technical report, CERN, Geneva, 2012.
 \newblock URL \url{https://cds.cern.ch/record/1482193}.
 
@@ -73,31 +74,31 @@ CMS Collaboration.
   81:\penalty0 800, 01 2021.
 \newblock \doi{10.1140/epjc/s10052-021-09538-2}.
 
-\bibitem[pas(2018)]{pas_17}
-{CMS luminosity measurement for the 2017 data-taking period at $\sqrt{s} =
-  13~\mathrm{TeV}$}.
+\bibitem[Collaboration(2018)]{pas_17}
+CMS Collaboration.
+\newblock {CMS luminosity measurement for the 2017 data-taking period at
+  $\sqrt{s} = 13~\mathrm{TeV}$}.
 \newblock Technical report, CERN, Geneva, 2018.
 \newblock URL \url{https://cds.cern.ch/record/2621960}.
 
-\bibitem[pas(2019)]{pas_18}
-{CMS luminosity measurement for the 2018 data-taking period at $\sqrt{s} =
-  13~\mathrm{TeV}$}.
+\bibitem[Collaboration(2019)]{pas_18}
+CMS Collaboration.
+\newblock {CMS luminosity measurement for the 2018 data-taking period at
+  $\sqrt{s} = 13~\mathrm{TeV}$}.
 \newblock Technical report, CERN, Geneva, 2019.
 \newblock URL \url{https://cds.cern.ch/record/2676164}.
 
-\bibitem[{CMSPublic Web. CMS Luminosity - Public Results}(2022)]{wikicern}
-{CMSPublic Web. CMS Luminosity - Public Results}.
-\newblock Delivered luminosity versus time for 2010-2012 and 2015-2018 (pp data
-  only), 2022.
+\bibitem[{CMSPublic Web}(2010-2023)]{wikicern}
+{CMSPublic Web}.
+\newblock Cms luminosity - public results, 2010-2023.
 \newblock URL
   \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}.
-\newblock [Online; accessed September 23, 2022].
+\newblock [Online; accessed March, 2023].
 
 \bibitem[Collaboration(2008)]{CMS_Exp_2008}
 CMS Collaboration.
 \newblock The {CMS} experiment at the {CERN} {LHC}.
-\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0
-  S08004--S08004, {Aug} 2008.
+\newblock \emph{Journal of Instrumentation}, 3, {Aug} 2008.
 \newblock \doi{10.1088/1748-0221/3/08/s08004}.
 
 \bibitem[et~al(2017)]{det_summary}
@@ -135,10 +136,10 @@ P.~Maksimovic G.~Giurgiu, D.~Fehling.
 \newblock Technical report, CERN, Geneva, 2020.
 \newblock URL \url{https://cds.cern.ch/record/2706512?ln=en}.
 
-\bibitem[Karacheban(2020)]{vdM_sketch}
-Olena Karacheban.
+\bibitem[Karacheban(2019)]{vdM_sketch}
+O~Karacheban.
 \newblock {Performance of the BRIL luminometers at CMS in Run 2}.
-\newblock \emph{PoS}, EPS-HEP2019:\penalty0 194, 2020.
+\newblock \emph{PoS}, EPS-HEP2019:\penalty0 194, 2019.
 \newblock \doi{10.22323/1.364.0194}.
 
 \bibitem[Müller(2011)]{bkg_source}
@@ -153,7 +154,7 @@ S.~Müller.
   and Imaging 2010.
 
 \bibitem[Cowan(1998)]{Statistical_Data_Analysis}
-Glen Cowan.
+G.~Cowan.
 \newblock \emph{{Statistical Data Analysis}}.
 \newblock Oxford Series. Oxford University Press, New York, NY, 1998.
 

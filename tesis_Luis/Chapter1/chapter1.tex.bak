@@ -15,7 +15,7 @@ Fermions are the particles that constitute matter, consisting of twelve fundamen
 \begin{table}[h!]
 	\begin{center}
 %\centering
-	\caption{The twelve fundamental fermions divided into quarks and leptons.\
+	\caption[The twelve fundamental fermions and their properties]{The twelve fundamental fermions divided into quarks and leptons.\
 The masses of the quarks are the current masses \cite{thomson_2013}.}
 		\label{tab:table1}
 		\begin{tabular}{lllrcllrc}
@@ -38,7 +38,7 @@ The bosons are responsible for describing the interactions between fermions thro
 
 \begin{table}[h!]
   \begin{center}
-    \caption{Force experienced by the fermions \cite{thomson_2013}.}
+    \caption[Force experienced by the fermions]{Force experienced by the fermions \cite{thomson_2013}.}
     \label{tab:table2}
     \begin{tabular}{l c c c c}
     &    &  \textbf{Electromagnetic} & \textbf{Weak} & \textbf{Strong}\\
@@ -241,14 +241,14 @@ The integrated luminosity for each of these runs and years, and their correspond
 %-  en incertidumbre  no conocida, dejar solamente 2022
 \begin{table}[h!]
     \begin{center}
-    \caption{Integrated luminosity values recorder by each Run}
+    \caption[Integrated luminosity values delivered by each Run and year]{Integrated luminosity values delivered by each Run}
 	\label{lumi_values}
 \begin{tabular}{cccc}
 \textbf{Period} & \textbf{Energy $\sqrt{s}$} & \begin{tabular}[c]{@{}c@{}}\textbf{Integrated}\\\textbf{Luminosity}\end{tabular} & \textbf{Precision}    \\ 
 \toprule
-Run 1(2010-2012) \cite{PCC_PAS_12_001} & 8 TeV                   & $30 fb^{-1}$                         & 2.5\%                 \\
-Run 2(2015-2016) \cite{lumi_precise_2015_2016} & 13 TeV   & $45.9 fb^{-1}$                     & 1.3\%                 \\
-Run 2(2017) \cite{pas_17} & 13 TeV                                                   & $49.8 fb^{-1}$                     & 2.5\%                 \\
+Run 1(2010-2012) \cite{PCC_PAS_12_001} & 8 TeV                   & $30 fb^{-1}$                         & 2.2\%                 \\
+Run 2(2015-2016) \cite{lumi_precise_2015_2016} & 13 TeV   & $45.9 fb^{-1}$                     & 1.6\%-1.2\%                \\
+Run 2(2017) \cite{pas_17} & 13 TeV                                                   & $49.8 fb^{-1}$                     & 2.3\%                 \\
 Run 2(2018) \cite{pas_18} & 13 TeV                                                  & $67.9 fb^{-1}$                      & 2.5\%                 \\
 Run 3(2022) \cite{wikicern} & 13.6 TeV                                            & $42 fb^{-1}$                        &      -                       \\
 \end{tabular}
@@ -262,7 +262,7 @@ Run 3(2022) \cite{wikicern} & 13.6 TeV                                          
   \begin{figure}[ht]
     \centering
     \includegraphics[scale=.35]{Chapter1/int_lumi_per_year.png}
-    \caption[CMS Luminosity per year]{Delivered luminosity versus time for Run-1 (2010-2012) and Run-2 (2015-2018) and Run-3 that is still ongoing . Cumulative luminosity versus day delivered to CMS during stable beams for pp collisions at nominal center-of-mass energy.  \cite{wikicern}.}
+    \caption[Delivered integrated luminosity per year]{Delivered luminosity versus time for Run-1 (2010-2012) and Run-2 (2015-2018) and Run-3 that is still ongoing . Cumulative luminosity versus day delivered to CMS during stable beams for pp collisions at nominal center-of-mass energy.  \cite{wikicern}.}
     \label{lumi_per_year_int}
   \end{figure}
     \end{center}
