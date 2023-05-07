@@ -13,55 +13,126 @@ A level-1 auxiliary file: Chapter4/chapter4.aux
 A level-1 auxiliary file: Chapter5/chapter5.aux
 The style file: unsrtnat.bst
 Database file #1: References/references.bib
-I was expecting a `,' or a `}'---line 42 of file References/references.bib
+Warning--entry type for "concept_of_luminosity" isn't style-file defined
+--line 54 of file References/references.bib
+I was expecting a `,' or a `}'---line 76 of file References/references.bib
  : 
- : @article{Atlas_Exp_2008,
+ : @MISC{lhc_complex,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 325 of file References/references.bib
- : @misc{wikicern
- :               ,
-I'm skipping whatever remains of this entry
-Warning--empty author in Phase2_Upgrade
+Warning--empty title in thomson_2013
+Warning--empty publisher in thomson_2013
+Warning--empty year in thomson_2013
+Warning--empty year in thomson_2013
+Warning--empty title in griff
+Warning--empty publisher in griff
+Warning--empty year in griff
+Warning--empty year in griff
+Warning--empty title in undergraduate_accelerators_chapter
+Warning--empty journal in undergraduate_accelerators_chapter
+Warning--empty year in undergraduate_accelerators_chapter
+Warning--empty year in undergraduate_accelerators_chapter
+Warning--empty title in ref_lib_vol3
+Warning--empty journal in ref_lib_vol3
+Warning--empty year in ref_lib_vol3
+Warning--empty year in ref_lib_vol3
+Warning--empty year in concept_of_luminosity
+Warning--empty year in luminosity_importance
+Warning--empty year in LHC
+Warning--empty year in lhc_complex
+Warning--empty year in hl-lhc
+Warning--empty title in PCC_PAS_12_001
+Warning--empty journal in PCC_PAS_12_001
+Warning--empty year in PCC_PAS_12_001
+Warning--empty year in PCC_PAS_12_001
+Warning--empty title in lumi_precise_2015_2016
+Warning--empty journal in lumi_precise_2015_2016
+Warning--empty year in lumi_precise_2015_2016
+Warning--empty year in lumi_precise_2015_2016
+Warning--empty title in pas_17
+Warning--empty journal in pas_17
+Warning--empty year in pas_17
+Warning--empty year in pas_17
+Warning--empty title in pas_18
+Warning--empty journal in pas_18
+Warning--empty year in pas_18
+Warning--empty year in pas_18
+Warning--empty year in wikicern
+Warning--empty title in CMS_Exp_2008
+Warning--empty journal in CMS_Exp_2008
+Warning--empty year in CMS_Exp_2008
+Warning--empty year in CMS_Exp_2008
+Warning--empty title in det_summary
+Warning--empty journal in det_summary
+Warning--empty year in det_summary
+Warning--empty year in det_summary
+Warning--empty title in phase1_Pixel_Detector
+Warning--empty journal in phase1_Pixel_Detector
+Warning--empty year in phase1_Pixel_Detector
+Warning--empty year in phase1_Pixel_Detector
+Warning--empty title in Track_Reco_2014
+Warning--empty journal in Track_Reco_2014
+Warning--empty year in Track_Reco_2014
+Warning--empty year in Track_Reco_2014
+Warning--empty title in Pixel_Hit_Reconstruction
+Warning--empty journal in Pixel_Hit_Reconstruction
+Warning--empty year in Pixel_Hit_Reconstruction
+Warning--empty year in Pixel_Hit_Reconstruction
+Warning--empty title in Phase2_Upgrade
+Warning--empty journal in Phase2_Upgrade
+Warning--empty year in Phase2_Upgrade
+Warning--empty year in Phase2_Upgrade
+Warning--empty title in vdM_sketch
+Warning--empty journal in vdM_sketch
+Warning--empty year in vdM_sketch
+Warning--empty year in vdM_sketch
+Warning--empty title in bkg_source
+Warning--empty journal in bkg_source
+Warning--empty year in bkg_source
+Warning--empty year in bkg_source
+Warning--empty title in Statistical_Data_Analysis
+Warning--empty journal in Statistical_Data_Analysis
+Warning--empty year in Statistical_Data_Analysis
+Warning--empty year in Statistical_Data_Analysis
 You've used 23 entries,
             2481 wiz_defined-function locations,
-            712 strings with 8480 characters,
-and the built_in function-call counts, 7250 in all, are:
-= -- 690
-> -- 178
-< -- 24
-+ -- 96
-- -- 50
-* -- 432
-:= -- 1146
-add.period$ -- 88
+            616 strings with 8808 characters,
+and the built_in function-call counts, 5683 in all, are:
+= -- 375
+> -- 161
+< -- 23
++ -- 92
+- -- 46
+* -- 362
+:= -- 847
+add.period$ -- 23
 call.type$ -- 23
-change.case$ -- 45
+change.case$ -- 23
 chr.to.int$ -- 23
-cite$ -- 25
-duplicate$ -- 416
-empty$ -- 742
-format.name$ -- 78
-if$ -- 1577
+cite$ -- 97
+duplicate$ -- 392
+empty$ -- 661
+format.name$ -- 69
+if$ -- 1153
 int.to.chr$ -- 1
 int.to.str$ -- 24
-missing$ -- 20
-newline$ -- 141
-num.names$ -- 66
-pop$ -- 187
+missing$ -- 19
+newline$ -- 77
+num.names$ -- 69
+pop$ -- 333
 preamble$ -- 1
 purify$ -- 23
 quote$ -- 0
-skip$ -- 263
+skip$ -- 248
 stack$ -- 0
-substring$ -- 273
-swap$ -- 68
-text.length$ -- 2
+substring$ -- 46
+swap$ -- 29
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 146
-warning$ -- 1
-while$ -- 59
+type$ -- 155
+warning$ -- 74
+while$ -- 46
 width$ -- 0
-write$ -- 342
-(There were 2 error messages)
+write$ -- 168
+(There was 1 error message)

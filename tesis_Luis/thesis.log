@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.11)  5 MAY 2023 08:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.11)  7 MAY 2023 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2240,14 +2240,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
 ] (./thesis.bbl
 ! Misplaced alignment tab character &.
-l.16 \newblock WILEY-VCH Verlag GmbH &
-                                       Co. KGaA. Weinheim, Federal Republic of
+l.17   WILEY-VCH Verlag GmbH &
+                               Co. KGaA. Weinheim, Federal Republic of Germany,
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
 up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 24--27
+[]\T1/ptm/m/n/12 (+20) A. Belyaev and R. Dou-glas, \T1/ptm/m/it/12 (+20) The Ba
+-sics of Nu-clear and Par-ti-cle Physics\T1/ptm/m/n/12 (+20) ,
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 24--27
+\T1/ptm/m/n/12 (+20) Springer (Un-der-grad-u-ate Texts in Physics Se-ries), Swi
+tzer-land, 2021, doi:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+[]\T1/ptm/m/n/12 (+20) Online re-source: "CMS Lu-mi-nos-ity - Pub-lic Re-sults"
+, 2023, URL
+ []
 
 [42
 
@@ -2263,13 +2281,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: FDE60B4F5F3B09CE173FDD12B9B287CA;5386.
  ) 
 Here is how much of TeX's memory you used:
- 44017 strings out of 478287
- 1009457 string characters out of 5849289
- 1408387 words of memory out of 5000000
- 60863 multiletter control sequences out of 15000+600000
- 552768 words of font info for 280 fonts, out of 8000000 for 9000
+ 44018 strings out of 478287
+ 1009461 string characters out of 5849289
+ 1411540 words of memory out of 5000000
+ 60861 multiletter control sequences out of 15000+600000
+ 552741 words of font info for 282 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,16n,120p,1105b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 125i,16n,120p,1105b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
@@ -2283,10 +2301,10 @@ ls/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb
 s/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (50 pages, 7729278 bytes).
+Output written on thesis.pdf (50 pages, 7727010 bytes).
 PDF statistics:
- 792 PDF objects out of 1000 (max. 8388607)
- 642 compressed objects within 7 object streams
+ 770 PDF objects out of 1000 (max. 8388607)
+ 620 compressed objects within 7 object streams
  164 named destinations out of 1000 (max. 500000)
  83848 words of extra memory for PDF output out of 89155 (max. 10000000)
 
