@@ -14,9 +14,9 @@ The determination of $\sigma_{vis}$ is performed through van der Meer (vdM) scan
 
 \section{Pixel Cluster Counting method}
 
-The PCC method utilizes the mean number of pixel clusters in the CMS silicon pixel detector to determine an offline luminosity measurement, this method exploits the very large number of pixels in the inner part of the CMS tracking system, it means that the probability of a given pixel being hit by two different charged particles from the same bunch crossing is exceedingly small, this large granularity and low occupancy yield measurements with excellent linear response with the pile-up (number of interactions per bunch crossing)$\mu$ \cite{PCC_PAS_12_001},  on average, the detector occupancy is less than 0.1\%\cite{lumi_precise_2015_2016}.\\ 
+The PCC method utilizes the mean number of pixel clusters in the CMS silicon pixel detector to determine an offline luminosity measurement, this method takes advantage of the high pixel density in the inner region of the CMS tracking system. This means that the likelihood of a single pixel being struck by two charged particles from the same bunch crossing is extremely low, this large granularity and low occupancy yield measurements with excellent linear response with the pile-up (number of interactions per bunch crossing)$\mu$ \cite{PCC_PAS_12_001},  on average, the detector occupancy is less than 0.1\%\cite{lumi_precise_2015_2016}.\\ 
 
-Figure \ref{pileup} shows a simulation with pp collision zero-bias events with the pixel cluster counting rate as a function of pileup in the pileup range observed in Run 2 from 0 to about 50 $\mu$. Where the mean number of pixel clusters is of the order of  111 per event. The red curve is a first-order polynomial fit with slope, a good agreement is seen based on the estimated goodness-of-fit $\chi^{2}$ per degree of freedom (dof) with a value of about 0.5, showing that the PCC rate is highly linear in this range under simulated conditions \cite{ Phase2_Upgrade,lumi_precise_2015_2016}.
+Figure \ref{pileup} shows a simulation with pp collision zero-bias events with the pixel cluster counting rate as a function of pileup in the pileup range observed in Run 2 from 0 to about 50 $\mu$. Where the mean number of pixel clusters is of the order of  111 per event. The red curve is a first-order polynomial fit with slope, the results indicate a high level of agreement, as evidenced by the estimated goodness-of-fit $\chi^{2}$ per degree of freedom (dof) of approximately 0.5, showing that the PCC rate is highly linear in this range under simulated conditions \cite{ Phase2_Upgrade,lumi_precise_2015_2016}.
 
 \begin{center}
   \begin{figure}[h!]
@@ -59,7 +59,7 @@ In the PCC measurement, the innermost layer of the pixel detector is excluded fr
 
 \section{2022 CMS Data collected}
 
-On July 12th, 2022, the data collection for Run3 of the Large Hadron Collider (LHC) began, which resulted in a total recorded luminosity of $38.48 fb^{-1}$. This collection period encompassed the duration from the start of stable beams until the beam was dumped, or when stable beams ceased for other reasons, such as beam studies. The luminosity delivered by the LHC to CMS (blue) and the luminosity recorded by CMS (orange) during stable beams and proton-proton collisions at a center-of-mass energy of $\sqrt{s}$ 13.6 TeV in 2022 are depicted in Figure \ref{Lumi_2022}. Note that  the special runs that occurred at injection energy (450 GeV) are not represented in these graphs \citep{wikicern}.
+On July 12th, 2022, the data collection for Run3 of the Large Hadron Collider (LHC) commenced, resulting in a total recorded luminosity of $38.48,fb^{-1}$. This data was collected during proton-proton collisions at a center-of-mass energy of $\sqrt{s} = 13.6,TeV$. The data collection period started with the initiation of stable beams and concluded either when the beam was intentionally stoped or when stable beams were momentarily interrupted for beam studies. The luminosity delivered by the LHC to CMS (shown in blue) and the luminosity recorded by CMS (depicted in orange) during this period are illustrated in Figure \ref{Lumi_2022} \citep{wikicern}.
 
 \begin{center}
   \begin{figure}[h!]
@@ -151,7 +151,7 @@ Figure \ref{vdm_sketch} depicts a schematic of the beam positions during vdM sca
   \begin{figure}[ht]
     \centering
     \includegraphics[scale=.50]{Chapter3/vdm_sketch.png}
-    \caption[Sketch of a vdM scan in x and y planes and example of fitting resulting rates]{ The sketch of a vdM scan in $x$ and $y$ planes. The indent sketch is an example of the fit of the resulting rates \cite{vdM_sketch}.}
+    \caption[Sketch of a vdM scan in $x$ and $y$ directions and example of fitting resulting rates]{ The sketch of a vdM scan in $x$ and $y$ planes. The indent sketch is an example of the fit of the resulting rates \cite{vdM_sketch}.}
     \label{vdm_sketch}
   \end{figure}
 \end{center}

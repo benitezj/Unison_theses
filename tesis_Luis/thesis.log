@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.11)  7 MAY 2023 16:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.11)  15 MAY 2023 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1600,7 +1600,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
 ]
 ! Extra }, or forgotten $.
-l.31 ...}Third\end{tabular}} & tau      & ({$\tau}
+l.30 ...}Third\end{tabular}} & tau      & ({$\tau}
                                                   $\textsuperscript{-})     ...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1611,60 +1611,44 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.31 ...au}$\textsuperscript{-})                 &
+l.30 ...au}$\textsuperscript{-})                 &
                                                    -1                       ...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
-
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.75 ...he interaction called cross section \sigma
-                                                  _{p} \cite{ref_lib_vol3}.\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.76 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
 
  []
 
@@ -1672,27 +1656,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--79
 <Chapter1/cross_section.png, id=292, 948.54375pt x 341.275pt>
 File: Chapter1/cross_section.png Graphic file (type png)
 <use Chapter1/cross_section.png>
-Package pdftex.def Info: Chapter1/cross_section.png  used on input line 91.
+Package pdftex.def Info: Chapter1/cross_section.png  used on input line 90.
 (pdftex.def)             Requested size: 331.99529pt x 119.44803pt.
  [5 <./Chapter1/cross_section.png>]
-<Chapter1/luminosity.png, id=305, 1111.15125pt x 482.80376pt>
+<Chapter1/luminosity.png, id=308, 1111.15125pt x 482.80376pt>
 File: Chapter1/luminosity.png Graphic file (type png)
 <use Chapter1/luminosity.png>
-Package pdftex.def Info: Chapter1/luminosity.png  used on input line 136.
+Package pdftex.def Info: Chapter1/luminosity.png  used on input line 134.
 (pdftex.def)             Requested size: 277.78712pt x 120.70064pt.
  [6 <./Chapter1/luminosity.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
-[7]
 ! Undefined control sequence.
-l.204   \mathcal{L}_{int} \ndot
+l.203   \mathcal{L}_{int} \ndot
                                 \sigma_{p}= \text{number of events of interest}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1700,8 +1683,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
@@ -1714,27 +1702,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-
- []
-
 [8]
-<Chapter1/lhc_complex_fig.png, id=345, 846.16125pt x 683.55376pt>
+<Chapter1/lhc_complex_fig.png, id=347, 846.16125pt x 683.55376pt>
 File: Chapter1/lhc_complex_fig.png Graphic file (type png)
 <use Chapter1/lhc_complex_fig.png>
-Package pdftex.def Info: Chapter1/lhc_complex_fig.png  used on input line 223.
+Package pdftex.def Info: Chapter1/lhc_complex_fig.png  used on input line 221.
 (pdftex.def)             Requested size: 380.76904pt x 307.59634pt.
  [9 <./Chapter1/lhc_complex_fig.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 234--237
+Underfull \hbox (badness 10000) in paragraph at lines 231--234
 
  []
 
 [10]
-<Chapter1/int_lumi_per_year.png, id=371, 1046.91125pt x 681.54625pt>
+<Chapter1/int_lumi_per_year.png, id=373, 1046.91125pt x 681.54625pt>
 File: Chapter1/int_lumi_per_year.png Graphic file (type png)
 <use Chapter1/int_lumi_per_year.png>
-Package pdftex.def Info: Chapter1/int_lumi_per_year.png  used on input line 264
+Package pdftex.def Info: Chapter1/int_lumi_per_year.png  used on input line 261
 .
 (pdftex.def)             Requested size: 366.42442pt x 238.54475pt.
 ) [11 <./Chapter1/int_lumi_per_year.png>]
@@ -1743,7 +1726,7 @@ Package pdftex.def Info: Chapter1/int_lumi_per_year.png  used on input line 264
  (./Chapter2/chapter2.tex
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
@@ -1753,37 +1736,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
 
 ]
-<Chapter2/CMS_detector_simple.png, id=388, 1113.15875pt x 809.0225pt>
+<Chapter2/CMS_detector_simple.png, id=390, 1113.15875pt x 809.0225pt>
 File: Chapter2/CMS_detector_simple.png Graphic file (type png)
 <use Chapter2/CMS_detector_simple.png>
 Package pdftex.def Info: Chapter2/CMS_detector_simple.png  used on input line 1
-3.
+4.
 (pdftex.def)             Requested size: 333.95021pt x 242.70862pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
 [13 <./Chapter2/CMS_detector_simple.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-<Chapter2/slice_det.png, id=397, 1225.57875pt x 835.12pt>
+<Chapter2/slice_det.png, id=399, 1225.57875pt x 835.12pt>
 File: Chapter2/slice_det.png Graphic file (type png)
 <use Chapter2/slice_det.png>
 Package pdftex.def Info: Chapter2/slice_det.png  used on input line 35.
 (pdftex.def)             Requested size: 367.67647pt x 250.53793pt.
+[14 <./Chapter2/slice_det.png (PNG copy)>]
 
 ! LaTeX Error: Unicode character − (U+2212)
                not set up for use with LaTeX.
@@ -1792,13 +1776,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 ...s, seudorapidity is defined as $\eta = −
+l.41 ...ented by $\eta$, is defined as $\eta = −
                                                    ln tan(\theta/2)$ \cite{C...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[14 <./Chapter2/slice_det.png (PNG copy)>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
@@ -1828,7 +1812,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-<Chapter2/detectors.png, id=417, 1078.0275pt x 808.01875pt>
+<Chapter2/detectors.png, id=419, 1078.0275pt x 808.01875pt>
 File: Chapter2/detectors.png Graphic file (type png)
 <use Chapter2/detectors.png>
 Package pdftex.def Info: Chapter2/detectors.png  used on input line 64.
@@ -1843,7 +1827,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-<Chapter2/strip_layout.png, id=425, 1599.9775pt x 749.80125pt>
+[17 <./Chapter2/detectors.png>]
+<Chapter2/strip_layout.png, id=432, 1599.9775pt x 749.80125pt>
 File: Chapter2/strip_layout.png Graphic file (type png)
 <use Chapter2/strip_layout.png>
 Package pdftex.def Info: Chapter2/strip_layout.png  used on input line 82.
@@ -1853,16 +1838,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
-[17 <./Chapter2/detectors.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-<Chapter2/phase1_PixelDetector.png, id=435, 1583.9175pt x 442.65375pt>
+<Chapter2/phase1_PixelDetector.png, id=437, 1583.9175pt x 442.65375pt>
 File: Chapter2/phase1_PixelDetector.png Graphic file (type png)
 <use Chapter2/phase1_PixelDetector.png>
 Package pdftex.def Info: Chapter2/phase1_PixelDetector.png  used on input line 
-99.
+100.
 (pdftex.def)             Requested size: 411.80884pt x 115.08725pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1872,36 +1857,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
-
+[18 <./Chapter2/strip_layout.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
-[18 <./Chapter2/strip_layout.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-<Chapter2/modules_drawing.png, id=449, 1740.5025pt x 393.47pt>
+<Chapter2/modules_drawing.png, id=447, 1740.5025pt x 393.47pt>
 File: Chapter2/modules_drawing.png Graphic file (type png)
 <use Chapter2/modules_drawing.png>
-Package pdftex.def Info: Chapter2/modules_drawing.png  used on input line 117.
+Package pdftex.def Info: Chapter2/modules_drawing.png  used on input line 115.
 (pdftex.def)             Requested size: 348.09433pt x 78.6926pt.
-<Chapter2/PixelSensor.png, id=452, 494.84875pt x 373.395pt>
+[19 <./Chapter2/phase1_PixelDetector.png (PNG copy)> <./Chapter2/modules_drawin
+g.png (PNG copy)>]
+<Chapter2/PixelSensor.png, id=459, 494.84875pt x 373.395pt>
 File: Chapter2/PixelSensor.png Graphic file (type png)
 <use Chapter2/PixelSensor.png>
 Package pdftex.def Info: Chapter2/PixelSensor.png  used on input line 126.
 (pdftex.def)             Requested size: 148.45576pt x 112.01936pt.
-<Chapter2/hit.png, id=453, 636.3775pt x 298.11375pt>
+<Chapter2/hit.png, id=460, 636.3775pt x 298.11375pt>
 File: Chapter2/hit.png Graphic file (type png)
 <use Chapter2/hit.png>
 Package pdftex.def Info: Chapter2/hit.png  used on input line 126.
 (pdftex.def)             Requested size: 190.91472pt x 89.43481pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[19 <./Chapter2/phase1_PixelDetector.png (PNG copy)> <./Chapter2/modules_drawin
-g.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
@@ -1917,7 +1895,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--140
  []
 
 [20 <./Chapter2/PixelSensor.png> <./Chapter2/hit.png>]
-<Chapter2/pixel_cluster.png, id=474, 1423.3175pt x 747.79375pt>
+<Chapter2/pixel_cluster.png, id=475, 1423.3175pt x 747.79375pt>
 File: Chapter2/pixel_cluster.png Graphic file (type png)
 <use Chapter2/pixel_cluster.png>
 Package pdftex.def Info: Chapter2/pixel_cluster.png  used on input line 144.
@@ -1938,7 +1916,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
 
 ]
-<Chapter3/pileup_lineality.png, id=491, 628.3475pt x 461.725pt>
+<Chapter3/pileup_lineality.png, id=493, 628.3475pt x 461.725pt>
 File: Chapter3/pileup_lineality.png Graphic file (type png)
 <use Chapter3/pileup_lineality.png>
 Package pdftex.def Info: Chapter3/pileup_lineality.png  used on input line 24.
@@ -1948,13 +1926,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-<Chapter3/lumi_per_day_cumulative_pp_2022.png, id=505, 578.16pt x 433.62pt>
+<Chapter3/lumi_per_day_cumulative_pp_2022.png, id=507, 578.16pt x 433.62pt>
 File: Chapter3/lumi_per_day_cumulative_pp_2022.png Graphic file (type png)
 <use Chapter3/lumi_per_day_cumulative_pp_2022.png>
 Package pdftex.def Info: Chapter3/lumi_per_day_cumulative_pp_2022.png  used on 
 input line 67.
 (pdftex.def)             Requested size: 192.0548pt x 144.0412pt.
-<Chapter3/lumi_per_day_pp_2022.png, id=506, 578.16pt x 433.62pt>
+<Chapter3/lumi_per_day_pp_2022.png, id=508, 578.16pt x 433.62pt>
 File: Chapter3/lumi_per_day_pp_2022.png Graphic file (type png)
 <use Chapter3/lumi_per_day_pp_2022.png>
 Package pdftex.def Info: Chapter3/lumi_per_day_pp_2022.png  used on input line 
@@ -1962,12 +1940,12 @@ Package pdftex.def Info: Chapter3/lumi_per_day_pp_2022.png  used on input line
 (pdftex.def)             Requested size: 192.0548pt x 144.0412pt.
 [24 <./Chapter3/lumi_per_day_cumulative_pp_2022.png> <./Chapter3/lumi_per_day_p
 p_2022.png>]
-<Chapter4/good_module.png, id=517, 1755.55875pt x 557.08125pt>
+<Chapter4/good_module.png, id=519, 1755.55875pt x 557.08125pt>
 File: Chapter4/good_module.png Graphic file (type png)
 <use Chapter4/good_module.png>
 Package pdftex.def Info: Chapter4/good_module.png  used on input line 88.
 (pdftex.def)             Requested size: 298.44104pt x 94.70256pt.
-<Chapter4/RMSmean.png, id=518, 806.01125pt x 649.42625pt>
+<Chapter4/RMSmean.png, id=520, 806.01125pt x 649.42625pt>
 File: Chapter4/RMSmean.png Graphic file (type png)
 <use Chapter4/RMSmean.png>
 Package pdftex.def Info: Chapter4/RMSmean.png  used on input line 88.
@@ -1993,7 +1971,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--147
  []
 
 [27]
-<Chapter3/vdm_sketch.png, id=543, 736.7525pt x 523.9575pt>
+<Chapter3/vdm_sketch.png, id=545, 736.7525pt x 523.9575pt>
 File: Chapter3/vdm_sketch.png Graphic file (type png)
 <use Chapter3/vdm_sketch.png>
 Package pdftex.def Info: Chapter3/vdm_sketch.png  used on input line 153.
@@ -2029,7 +2007,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
 
 ]
-<Chapter4/2022Scanprorgam.png, id=557, 1328.965pt x 468.75125pt>
+<Chapter4/2022Scanprorgam.png, id=559, 1328.965pt x 468.75125pt>
 File: Chapter4/2022Scanprorgam.png Graphic file (type png)
 <use Chapter4/2022Scanprorgam.png>
 Package pdftex.def Info: Chapter4/2022Scanprorgam.png  used on input line 23.
@@ -2060,64 +2038,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
-<Chapter4/BX_282_Rates_SS1.png, id=572, 2003.485pt x 975.645pt>
+<Chapter4/BX_282_Rates_SS1.png, id=574, 2003.485pt x 975.645pt>
 File: Chapter4/BX_282_Rates_SS1.png Graphic file (type png)
 <use Chapter4/BX_282_Rates_SS1.png>
-Package pdftex.def Info: Chapter4/BX_282_Rates_SS1.png  used on input line 61.
+Package pdftex.def Info: Chapter4/BX_282_Rates_SS1.png  used on input line 62.
 (pdftex.def)             Requested size: 209.1301pt x 101.82793pt.
-<Chapter4/BX_282_Rates_SS2.png, id=573, 2003.485pt x 975.645pt>
+<Chapter4/BX_282_Rates_SS2.png, id=575, 2003.485pt x 975.645pt>
 File: Chapter4/BX_282_Rates_SS2.png Graphic file (type png)
 <use Chapter4/BX_282_Rates_SS2.png>
-Package pdftex.def Info: Chapter4/BX_282_Rates_SS2.png  used on input line 62.
+Package pdftex.def Info: Chapter4/BX_282_Rates_SS2.png  used on input line 63.
 (pdftex.def)             Requested size: 209.1301pt x 101.82793pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 [32]
-<Chapter4/ss1_histo_bx282.png, id=581, 1058.95625pt x 522.95375pt>
+<Chapter4/ss1_histo_bx282.png, id=583, 1058.95625pt x 522.95375pt>
 File: Chapter4/ss1_histo_bx282.png Graphic file (type png)
 <use Chapter4/ss1_histo_bx282.png>
-Package pdftex.def Info: Chapter4/ss1_histo_bx282.png  used on input line 73.
+Package pdftex.def Info: Chapter4/ss1_histo_bx282.png  used on input line 74.
 (pdftex.def)             Requested size: 317.68933pt x 156.88733pt.
  [33 <./Chapter4/BX_282_Rates_SS1.png> <./Chapter4/BX_282_Rates_SS2.png> <./Cha
 pter4/ss1_histo_bx282.png>] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 [35]
-<Chapter4/xscan.png, id=606, 724.7075pt x 821.0675pt>
+<Chapter4/xscan.png, id=608, 724.7075pt x 821.0675pt>
 File: Chapter4/xscan.png Graphic file (type png)
 <use Chapter4/xscan.png>
-Package pdftex.def Info: Chapter4/xscan.png  used on input line 197.
+Package pdftex.def Info: Chapter4/xscan.png  used on input line 198.
 (pdftex.def)             Requested size: 192.0548pt x 217.58185pt.
-<Chapter4/yscan.png, id=607, 724.7075pt x 821.0675pt>
+<Chapter4/yscan.png, id=609, 724.7075pt x 821.0675pt>
 File: Chapter4/yscan.png Graphic file (type png)
 <use Chapter4/yscan.png>
-Package pdftex.def Info: Chapter4/yscan.png  used on input line 198.
+Package pdftex.def Info: Chapter4/yscan.png  used on input line 199.
 (pdftex.def)             Requested size: 192.0548pt x 217.58185pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/DGConst_chi2.png, id=609, 10403.86874pt x 6843.5675pt>
+<Chapter4/DGConst_chi2.png, id=611, 10403.86874pt x 6843.5675pt>
 File: Chapter4/DGConst_chi2.png Graphic file (type png)
 <use Chapter4/DGConst_chi2.png>
-Package pdftex.def Info: Chapter4/DGConst_chi2.png  used on input line 208.
+Package pdftex.def Info: Chapter4/DGConst_chi2.png  used on input line 209.
 (pdftex.def)             Requested size: 312.1026pt x 205.29817pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2131,7 +2109,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.216 ...tracted, the behavior of these values ​
+l.217 ...tracted, the behavior of these values ​
                                                   ​for all scans pair are ...
 
 You may provide a definition with
@@ -2145,14 +2123,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.216 ...cted, the behavior of these values ​​
+l.217 ...cted, the behavior of these values ​​
                                                   for all scans pair are sho...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
@@ -2164,7 +2142,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.218 ...th time. On the other hand the values ​
+l.219 ...th time. On the other hand the values ​
                                                   ​for the $peak$ are then...
 
 You may provide a definition with
@@ -2178,44 +2156,44 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.218 ...time. On the other hand the values ​​
+l.219 ...time. On the other hand the values ​​
                                                   for the $peak$ are then a ...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
 [37 <./Chapter4/xscan.png> <./Chapter4/yscan.png> <./Chapter4/DGConst_chi2.png>
 ]
-<Chapter4/DGConst_CapSigma.png, id=627, 10563.465pt x 6806.42876pt>
+<Chapter4/DGConst_CapSigma.png, id=629, 10563.465pt x 6806.42876pt>
 File: Chapter4/DGConst_CapSigma.png Graphic file (type png)
 <use Chapter4/DGConst_CapSigma.png>
-Package pdftex.def Info: Chapter4/DGConst_CapSigma.png  used on input line 225.
+Package pdftex.def Info: Chapter4/DGConst_CapSigma.png  used on input line 226.
 
 (pdftex.def)             Requested size: 209.1301pt x 134.70331pt.
-<Chapter4/DGConst_peak.png, id=628, 10317.54625pt x 6855.6125pt>
+<Chapter4/DGConst_peak.png, id=630, 10317.54625pt x 6855.6125pt>
 File: Chapter4/DGConst_peak.png Graphic file (type png)
 <use Chapter4/DGConst_peak.png>
-Package pdftex.def Info: Chapter4/DGConst_peak.png  used on input line 226.
+Package pdftex.def Info: Chapter4/DGConst_peak.png  used on input line 227.
 (pdftex.def)             Requested size: 204.85802pt x 136.09512pt.
-<Chapter4/DGConst_xsec.png, id=632, 1806.75pt x 1011.78pt>
+<Chapter4/DGConst_xsec.png, id=634, 1806.75pt x 1011.78pt>
 File: Chapter4/DGConst_xsec.png Graphic file (type png)
 <use Chapter4/DGConst_xsec.png>
-Package pdftex.def Info: Chapter4/DGConst_xsec.png  used on input line 247.
+Package pdftex.def Info: Chapter4/DGConst_xsec.png  used on input line 248.
 (pdftex.def)             Requested size: 397.48624pt x 222.59229pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [38 <./Chapter4/DGConst_CapSigma.png> <./Chapter4/DGConst_peak.png>]
-<Chapter4/xsec_perscan_v2.png, id=645, 860.21375pt x 625.33624pt>
+<Chapter4/xsec_perscan_v2.png, id=647, 860.21375pt x 625.33624pt>
 File: Chapter4/xsec_perscan_v2.png Graphic file (type png)
 <use Chapter4/xsec_perscan_v2.png>
-Package pdftex.def Info: Chapter4/xsec_perscan_v2.png  used on input line 274.
+Package pdftex.def Info: Chapter4/xsec_perscan_v2.png  used on input line 275.
 (pdftex.def)             Requested size: 387.0926pt x 281.39871pt.
  [39 <./Chapter4/DGConst_xsec.png>]) [40 <./Chapter4/xsec_perscan_v2.png>]
 \openout2 = `Chapter5/chapter5.aux'.
@@ -2281,10 +2259,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: FDE60B4F5F3B09CE173FDD12B9B287CA;5386.
  ) 
 Here is how much of TeX's memory you used:
- 44018 strings out of 478287
- 1009461 string characters out of 5849289
- 1411540 words of memory out of 5000000
- 60861 multiletter control sequences out of 15000+600000
+ 44019 strings out of 478287
+ 1009468 string characters out of 5849289
+ 1412623 words of memory out of 5000000
+ 60862 multiletter control sequences out of 15000+600000
  552741 words of font info for 282 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,16n,120p,1105b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2301,10 +2279,10 @@ ls/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb
 s/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (50 pages, 7727010 bytes).
+Output written on thesis.pdf (50 pages, 7727264 bytes).
 PDF statistics:
- 770 PDF objects out of 1000 (max. 8388607)
- 620 compressed objects within 7 object streams
+ 772 PDF objects out of 1000 (max. 8388607)
+ 622 compressed objects within 7 object streams
  164 named destinations out of 1000 (max. 500000)
  83848 words of extra memory for PDF output out of 89155 (max. 10000000)
 
