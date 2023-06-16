@@ -1,0 +1,3863 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  1 JUN 2023 20:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**thesis.tex
+(./thesis.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (./Classes/PhDThesisPSnPDF.cls
+
+LaTeX Warning: You have requested document class `Classes/PhDThesisPSnPDF',
+               but the document class provides `PhDThesisPSnPDF'.
+
+Document Class: PhDThesisPSnPDF 2018/04/12 A PhD thesis class file by Krishna K
+umar (v2.4)
+https://github.com/kks32/phd-thesis-template/
+
+Class PhDThesisPSnPDF Warning: Bibliography selection conflict: A bibliography 
+style aleady specified. Please check the document class options in case you hav
+e defined two bibliography styles. on input line 238.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count194
+\calc@Bcount=\count195
+\calc@Adimen=\dimen139
+\calc@Bdimen=\dimen140
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count196
+\calc@Cskip=\skip51
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count197
+\c@@ppsavesec=\count198
+\c@@ppsaveapp=\count199
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count266
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2020/01/30 v3.07
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+)
+\XKV@depth=\count267
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count268
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen143
+)
+\c@padzeroesN=\count269
+\fc@tmpcatcode=\count270
+\@DT@modctr=\count271
+\@ordinalctr=\count272
+\@orgargctr=\count273
+\@strctr=\count274
+\@tmpstrctr=\count275
+\@DT@loopN=\count276
+\@DT@X=\count277
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count278
+\@month=\count279
+\@year=\count280
+\c@HOUR=\count281
+\c@HOURXII=\count282
+\c@MINUTE=\count283
+\c@TOHOUR=\count284
+\c@TOMINUTE=\count285
+\c@SECOND=\count286
+\currenthour=\count287
+\currentminute=\count288
+\currentsecond=\count289
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count290
+\dayofyear=\count291
+\dayofweek=\count292
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks20
+\dt@b=\toks21
+)
+\PHD@hour=\count293
+\PHD@minute=\count294
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count295
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+PhDThesisPSnPDF: Using Times Roman font
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+2.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
+\MT@toks=\toks24
+\MT@tempbox=\box50
+\MT@count=\count296
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
+LaTeX Info: Redefining \leftprotrusion on input line 1028.
+LaTeX Info: Redefining \rightprotrusion on input line 1036.
+LaTeX Info: Redefining \textls on input line 1195.
+\MT@outer@kern=\dimen144
+LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
+\MT@listname@count=\count297
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2022/03/14 v3.0d Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 900.
+LaTeX Info: Redefining \lslig on input line 900.
+\MT@outer@space=\skip54
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip55
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen145
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count298
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count299
+\leftroot@=\count300
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count301
+\DOTSCASE@=\count302
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen146
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count303
+\c@MaxMatrixCols=\count304
+\dotsspace@=\muskip16
+\c@parentequation=\count305
+\dspbrk@lvl=\count306
+\tag@help=\toks25
+\row@=\count307
+\column@=\count308
+\maxfields@=\count309
+\andhelp@=\toks26
+\eqnshift@=\dimen147
+\alignsep@=\dimen148
+\tagshift@=\dimen149
+\tagwidth@=\dimen150
+\totwidth@=\dimen151
+\lineht@=\dimen152
+\@envbody=\toks27
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen153
+\Hy@linkcounter=\count310
+\Hy@pagecounter=\count311
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count312
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count313
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen154
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count314
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count315
+\c@Item=\count316
+\c@Hfootnote=\count317
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count318
+\c@bookmark@seq@number=\count319
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip58
+)
+Package hyperref Info: Option `final' set `true' on input line 622.
+Package hyperref Info: Option `plainpages' set `false' on input line 622.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 622.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 622.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 622.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 622.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 622.
+Package hyperref Info: Option `linktocpage' set `true' on input line 622.
+Package hyperref Info: Option `colorlinks' set `true' on input line 622.
+
+PhDThesisPSnPDF: The University identity guidelines recommend using left aligne
+d text. Please use `flushleft' in the documentclass option, if you wish to left
+ align your text
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip59
+\f@nch@O@elh=\skip60
+\f@nch@O@erh=\skip61
+\f@nch@O@olh=\skip62
+\f@nch@O@orh=\skip63
+\f@nch@O@elf=\skip64
+\f@nch@O@erf=\skip65
+\f@nch@O@olf=\skip66
+\f@nch@O@orf=\skip67
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2021/11/13 v3.35 KOMA-Script package (handling toc-files)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)
+\scr@dte@tocline@numberwidth=\skip68
+\scr@dte@tocline@numbox=\box53
+)
+Package tocbasic Info: babel extension for `nlo' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 187.
+Package tocbasic Info: babel extension for `nls' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 188.
+\nomlabelwidth=\dimen157
+\nom@tempdim=\dimen158
+\nomitemsep=\skip69
+)
+\@nomenclaturefile=\write3
+\openout3 = `thesis.nlo'.
+
+Package nomencl Info: Writing nomenclature file thesis.nlo on input line 1045.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
+)
+\@indexfile=\write4
+\openout4 = `thesis.idx'.
+
+
+Writing index file thesis.idx
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip70
+\multirow@cntb=\count320
+\multirow@dima=\skip71
+\bigstrutjot=\dimen159
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write5
+
+Excluding comment 'comment')
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip72
+\cftbeforetoctitleskip=\skip73
+\cftaftertoctitleskip=\skip74
+\cftbeforepartskip=\skip75
+\cftpartnumwidth=\skip76
+\cftpartindent=\skip77
+\cftbeforechapskip=\skip78
+\cftchapindent=\skip79
+\cftchapnumwidth=\skip80
+\cftbeforesecskip=\skip81
+\cftsecindent=\skip82
+\cftsecnumwidth=\skip83
+\cftbeforesubsecskip=\skip84
+\cftsubsecindent=\skip85
+\cftsubsecnumwidth=\skip86
+\cftbeforesubsubsecskip=\skip87
+\cftsubsubsecindent=\skip88
+\cftsubsubsecnumwidth=\skip89
+\cftbeforeparaskip=\skip90
+\cftparaindent=\skip91
+\cftparanumwidth=\skip92
+\cftbeforesubparaskip=\skip93
+\cftsubparaindent=\skip94
+\cftsubparanumwidth=\skip95
+\cftbeforeloftitleskip=\skip96
+\cftafterloftitleskip=\skip97
+\cftbeforefigskip=\skip98
+\cftfigindent=\skip99
+\cftfignumwidth=\skip100
+\c@lofdepth=\count321
+\c@lotdepth=\count322
+\cftbeforelottitleskip=\skip101
+\cftafterlottitleskip=\skip102
+\cftbeforetabskip=\skip103
+\cfttabindent=\skip104
+\cfttabnumwidth=\skip105
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box54
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
+\pgf@xd=\dimen170
+\pgf@yd=\dimen171
+\w@pgf@writea=\write6
+\r@pgf@reada=\read2
+\c@pgf@counta=\count323
+\c@pgf@countb=\count324
+\c@pgf@countc=\count325
+\c@pgf@countd=\count326
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count327
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count328
+\pgfsyssoftpath@bigbuffer@items=\count329
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count330
+\pgfmath@box=\box55
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count331
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box56
+\pgf@hbox=\box57
+\pgf@layerbox@main=\box58
+\pgf@picture@serial@count=\count332
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen191
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen195
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count333
+\pgf@shadingcount=\count334
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box59
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box60
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen197
+\pgf@nodesepend=\dimen198
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen199
+\pgffor@skip=\dimen256
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count335
+\pgfplotmarksize=\dimen257
+)
+\tikz@lastx=\dimen258
+\tikz@lasty=\dimen259
+\tikz@lastxsaved=\dimen260
+\tikz@lastysaved=\dimen261
+\tikz@lastmovetox=\dimen262
+\tikz@lastmovetoy=\dimen263
+\tikzleveldistance=\dimen264
+\tikzsiblingdistance=\dimen265
+\tikz@figbox=\box61
+\tikz@figbox@bg=\box62
+\tikz@tempbox=\box63
+\tikz@tempbox@bg=\box64
+\tikztreelevel=\count336
+\tikznumberofchildren=\count337
+\tikznumberofcurrentchild=\count338
+\tikz@fig@count=\count339
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count340
+\pgfmatrixcurrentcolumn=\count341
+\pgf@matrix@numberofcolumns=\count342
+)
+\tikz@expandcount=\count343
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen266
+\WF@size=\dimen267
+\c@WF@wrappedlines=\count344
+\WF@box=\box65
+\WF@everypar=\toks41
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip106
+\RaggedLeftLeftskip=\skip107
+\RaggedRightLeftskip=\skip108
+\CenteringRightskip=\skip109
+\RaggedLeftRightskip=\skip110
+\RaggedRightRightskip=\skip111
+\CenteringParfillskip=\skip112
+\RaggedLeftParfillskip=\skip113
+\RaggedRightParfillskip=\skip114
+\JustifyingParfillskip=\skip115
+\CenteringParindent=\skip116
+\RaggedLeftParindent=\skip117
+\RaggedRightParindent=\skip118
+\JustifyingParindent=\skip119
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count345
+\float@exts=\toks42
+\float@box=\box66
+\@float@everytoks=\toks43
+\@floatcapt=\box67
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count346
+\output=\toks44
+\linenoprevgraf=\count347
+\linenumbersep=\dimen268
+\linenumberwidth=\dimen269
+\c@linenumber=\count348
+\c@pagewiselinenumber=\count349
+\c@LN@truepage=\count350
+\c@internallinenumber=\count351
+\c@internallinenumbers=\count352
+\quotelinenumbersep=\dimen270
+\bframerule=\dimen271
+\bframesep=\dimen272
+\bframebox=\box68
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks45
+\t@pgfplots@tokb=\toks46
+\t@pgfplots@tokc=\toks47
+\pgfplots@tmpa=\dimen273
+\c@pgfplots@coordindex=\count353
+\c@pgfplots@scanlineindex=\count354
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
+.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.c
+ode.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_loader.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code
+.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructure.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructureext.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+array.code.tex
+\c@pgfplotsarray@tmp=\count355
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+matrix.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
+shared.code.tex
+\c@pgfplotstable@counta=\count356
+\t@pgfplotstable@a=\toks48
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+deque.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.co
+de.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.da
+ta.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
+s.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count357
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
+.surfshading.pgfsys-pdftex.def)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.
+code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.cod
+e.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.c
+ode.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.c
+ode.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandle
+r.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.
+code.tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.
+tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessin
+g.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.
+tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.te
+x)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen274
+\pgfdecoratedremainingdistance=\dimen275
+\pgfdecoratedinputsegmentcompleteddistance=\dimen276
+\pgfdecoratedinputsegmentremainingdistance=\dimen277
+\pgf@decorate@distancetomove=\dimen278
+\pgf@decorate@repeatstate=\count358
+\pgfdecorationsegmentamplitude=\dimen279
+\pgfdecorationsegmentlength=\dimen280
+)
+\tikz@lib@dec@box=\box69
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
+ts.contourlua.code.tex)
+\pgfplots@numplots=\count359
+\pgfplots@xmin@reg=\dimen281
+\pgfplots@xmax@reg=\dimen282
+\pgfplots@ymin@reg=\dimen283
+\pgfplots@ymax@reg=\dimen284
+\pgfplots@zmin@reg=\dimen285
+\pgfplots@zmax@reg=\dimen286
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmar
+ks.code.tex
+File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen287
+\lightrulewidth=\dimen288
+\cmidrulewidth=\dimen289
+\belowrulesep=\dimen290
+\belowbottomsep=\dimen291
+\aboverulesep=\dimen292
+\abovetopsep=\dimen293
+\cmidrulesep=\dimen294
+\cmidrulekern=\dimen295
+\defaultaddspace=\dimen296
+\@cmidla=\count360
+\@cmidlb=\count361
+\@aboverulesep=\dimen297
+\@belowrulesep=\dimen298
+\@thisruleclass=\count362
+\@lastruleclass=\count363
+\@thisrulewidth=\dimen299
+)
+(./Preamble/preamble.tex
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count364
+\Gm@cntv=\count365
+\c@Gm@tempcnt=\count366
+\Gm@bindingoffset=\dimen300
+\Gm@wd@mp=\dimen301
+\Gm@odd@mp=\dimen302
+\Gm@even@mp=\dimen303
+\Gm@layoutwidth=\dimen304
+\Gm@layoutheight=\dimen305
+\Gm@layouthoffset=\dimen306
+\Gm@layoutvoffset=\dimen307
+\Gm@dimlist=\toks49
+)
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 9.
+
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 9.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+Package bm Info: No bold for \OT1/ztmcm/m/n, using \pmb.
+Package bm Info: No bold for \OML/ztmcm/m/it, using \pmb.
+Package bm Info: No bold for \OMS/ztmcm/m/n, using \pmb.
+Package bm Info: No bold for \OMX/ztmcm/m/n, using \pmb.
+Package bm Info: No bold for \OT1/ptm/bx/n, using \pmb.
+Package bm Info: No bold for \OT1/ptm/m/it, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count367
+\l_MT_multwidth_dim=\dimen308
+\origjot=\skip120
+\l_MT_shortvdotswithinadjustabove_dim=\dimen309
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen310
+\l_MT_above_intertext_sep=\dimen311
+\l_MT_below_intertext_sep=\dimen312
+\l_MT_above_shortintertext_sep=\dimen313
+\l_MT_below_shortintertext_sep=\dimen314
+\xmathstrut@box=\box70
+\xmathstrut@dim=\dimen315
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fundus-calligra/calligra.sty
+Package: calligra 2012/04/10 v1.9 LaTeX package calligra
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
+\FN@temptoken=\toks50
+\footnotemargin=\dimen316
+\@outputbox@depth=\dimen317
+Package footmisc Info: Declaring symbol style bringhurst on input line 695.
+Package footmisc Info: Declaring symbol style chicago on input line 703.
+Package footmisc Info: Declaring symbol style wiley on input line 712.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 723.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 743.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 764
+.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+\toclineskipl=\skip121
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen318
+\captionmargin=\dimen319
+\caption@leftmargin=\dimen320
+\caption@rightmargin=\dimen321
+\caption@width=\dimen322
+\caption@indent=\dimen323
+\caption@parindent=\dimen324
+\caption@hangindent=\dimen325
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count368
+\c@continuedfloat=\count369
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks51
+\AP@partial=\box71
+\AP@footins=\box72
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count370
+\c@subtable=\count371
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count372
+\mult@box=\box73
+\multicol@leftmargin=\dimen326
+\c@unbalance=\count373
+\c@collectmore=\count374
+\doublecol@number=\count375
+\multicoltolerance=\count376
+\multicolpretolerance=\count377
+\full@width=\dimen327
+\page@free=\dimen328
+\premulticols=\dimen329
+\postmulticols=\dimen330
+\multicolsep=\skip122
+\multicolbaselineskip=\skip123
+\partial@page=\box74
+\last@line=\box75
+\maxbalancingoverflow=\dimen331
+\mult@rightbox=\box76
+\mult@grightbox=\box77
+\mult@firstbox=\box78
+\mult@gfirstbox=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\c@minrows=\count378
+\c@columnbadness=\count379
+\c@finalcolumnbadness=\count380
+\last@try=\dimen332
+\multicolovershoot=\dimen333
+\multicolundershoot=\dimen334
+\mult@nat@firstbox=\box116
+\colbreak@box=\box117
+\mc@col@check@num=\count381
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2022-02-15 v3.0.49 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen335
+\l__siunitx_angle_marker_box=\box118
+\l__siunitx_angle_unit_box=\box119
+\l__siunitx_compound_count_int=\count382
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_number_exponent_fixed_int=\count383
+\l__siunitx_number_min_decimal_int=\count384
+\l__siunitx_number_min_integer_int=\count385
+\l__siunitx_number_round_precision_int=\count386
+\l__siunitx_number_group_minimum_int=\count387
+\l__siunitx_table_tmp_box=\box120
+\l__siunitx_table_tmp_dim=\dimen336
+\l__siunitx_table_column_width_dim=\dimen337
+\l__siunitx_table_integer_box=\box121
+\l__siunitx_table_decimal_box=\box122
+\l__siunitx_table_before_box=\box123
+\l__siunitx_table_after_box=\box124
+\l__siunitx_table_before_dim=\dimen338
+\l__siunitx_table_carry_dim=\dimen339
+\l__siunitx_unit_tmp_int=\count388
+\l__siunitx_unit_position_int=\count389
+\l__siunitx_unit_total_int=\count390
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count391
+\l__pdf_internal_box=\box125
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen340
+\ar@mcellbox=\box126
+\extrarowheight=\dimen341
+\NC@list=\toks52
+\extratabsurround=\skip124
+\backup@length=\skip125
+\ar@cellbox=\box127
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip126
+\enit@outerparindent=\dimen342
+\enit@toks=\toks53
+\enit@inbox=\box128
+\enit@count@id=\count392
+\enitdp@description=\count393
+)
+(./thesis-info.tex)
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 125.
+ (./thesis.aux (./Portada/Portada.aux)
+(./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux
+
+LaTeX Warning: Label `fig:pixelmodule' multiply defined.
+
+
+LaTeX Warning: Label `fig:pixelmodule' multiply defined.
+
+
+LaTeX Warning: Label `fig:pixelmodule' multiply defined.
+
+) (./Chapter3/chapter3.aux
+
+LaTeX Warning: Label `fig:fitquality' multiply defined.
+
+) (./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux) (./Chapter6/chapter6.aux
+
+LaTeX Warning: Label `fig:vdm_cut' multiply defined.
+
+
+LaTeX Warning: Label `fig:stability_D4' multiply defined.
+
+
+LaTeX Warning: Label `fig:old_new_veto_D3' multiply defined.
+
+) (./Chapter7/chapter7.aux
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `tab:sample' multiply defined.
+
+
+LaTeX Warning: Label `tab:sample' multiply defined.
+
+
+LaTeX Warning: Label `fig:tepx_3foldcoin_allPU' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `tab:sample' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `tab:sample' multiply defined.
+
+
+LaTeX Warning: Label `tab:sample' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:cluster_ring' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+
+LaTeX Warning: Label `fig:CMS' multiply defined.
+
+) (./Chapter8/chapter8.aux))
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count394
+\scratchdimen=\dimen343
+\scratchbox=\box129
+\nofMPsegments=\count395
+\nofMParguments=\count396
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count397
+\MPscratchDim=\dimen344
+\MPnumerator=\count398
+\makeMPintoPDFobject=\count399
+\everyMPtoPDFconversion=\toks55
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
+)
+LaTeX Info: Redefining \microtypecontext on input line 125.
+Package microtype Info: Applying patch `item' on input line 125.
+Package microtype Info: Applying patch `toc' on input line 125.
+Package microtype Info: Applying patch `eqnum' on input line 125.
+Package microtype Info: Applying patch `footnote' on input line 125.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 125.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+Package hyperref Info: Link coloring ON on input line 125.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count400
+)
+LaTeX Info: Redefining \ref on input line 125.
+LaTeX Info: Redefining \pageref on input line 125.
+LaTeX Info: Redefining \nameref on input line 125.
+ (./thesis.out) (./thesis.out)
+\@outlinefile=\write7
+\openout7 = `thesis.out'.
+
+
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.16).
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 426.79135pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-21.28552pt
+* \headheight=14.5pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=38.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 125.
+\openout2 = `Portada/Portada.aux'.
+
+ (./Portada/Portada.tex
+<unison-logo.png, id=199, 321.2pt x 321.2pt>
+File: unison-logo.png Graphic file (type png)
+<use unison-logo.png>
+Package pdftex.def Info: unison-logo.png  used on input line 24.
+(pdftex.def)             Requested size: 91.04793pt x 91.04872pt.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 26.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 26.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 26.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 26.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+6.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 8
+3.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.148       \end{center}
+                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) [1
+
+
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./uniso
+n-logo.png>]
+\openout2 = `Abstract/abstract.aux'.
+
+ (./Abstract/abstract.tex) [2
+
+
+
+
+
+] (./thesis.toc [3
+
+
+])
+\tf@toc=\write8
+\openout8 = `thesis.toc'.
+
+ [4]
+(./thesis.lof
+Overfull \hbox (1.85812pt too wide) in paragraph at lines 3--3
+ [][] []\T1/ptm/m/n/12 (-20) CERN ac-cel-er-a-tor com-plex con-sists of Linac 2
+, Pro-ton Syn-chrotron Booster 
+ []
+
+[5] [6] [7]
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.60 ...:2017nke}.\relax }}{71}{figure.caption.66}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.60 ...:2017nke}.\relax }}{71}{figure.caption.66}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+
+Package natbib Warning: Citation `Klein:2017nke' on page viii undefined on inpu
+t line 60.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.61 ...ectively. \relax }}{72}{figure.caption.67}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.61 ...ectively. \relax }}{72}{figure.caption.67}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+[8] [9] [10]
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.114 ... and r.\relax }}{101}{figure.caption.131}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.114 ... and r.\relax }}{101}{figure.caption.131}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.115 ...X disk.\relax }}{102}{figure.caption.132}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.115 ...X disk.\relax }}{102}{figure.caption.132}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.116 ...onment.\relax }}{103}{figure.caption.133}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.116 ...onment.\relax }}{103}{figure.caption.133}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.117 ... value.\relax }}{104}{figure.caption.134}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.117 ... value.\relax }}{104}{figure.caption.134}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+[11] [12])
+\tf@lof=\write9
+\openout9 = `thesis.lof'.
+
+ [13] (./thesis.lot)
+\tf@lot=\write10
+\openout10 = `thesis.lot'.
+
+ [14] (./thesis.nls)
+\openout2 = `Chapter1/chapter1.aux'.
+
+ (./Chapter1/chapter1.tex
+Chapter 1.
+[1
+
+
+
+] [2]
+<ashish_thesis/lumi_precision.png, id=606, 722.7pt x 705.63625pt>
+File: ashish_thesis/lumi_precision.png Graphic file (type png)
+<use ashish_thesis/lumi_precision.png>
+Package pdftex.def Info: ashish_thesis/lumi_precision.png  used on input line 5
+5.
+(pdftex.def)             Requested size: 179.25157pt x 175.01967pt.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
+5.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+[3 <./ashish_thesis/lumi_precision.png>]
+<ashish_thesis/lhc_schematic.png, id=613, 853.1875pt x 649.42625pt>
+File: ashish_thesis/lhc_schematic.png Graphic file (type png)
+<use ashish_thesis/lhc_schematic.png>
+Package pdftex.def Info: ashish_thesis/lhc_schematic.png  used on input line 69
+.
+(pdftex.def)             Requested size: 256.07741pt x 194.91856pt.
+ [4] [5 <./ashish_thesis/lhc_schematic.png>]
+Overfull \hbox (2.80388pt too wide) in paragraph at lines 96--97
+\T1/ptm/m/n/12 (-20) Solenoid (CMS) de-tec-tor, lo-cated out-side of the Elec-t
+ro-mag-netic Calorime-ter (ECAL).
+ []
+
+[6] [7]
+<ashish_thesis/cms_exp.png, id=633, 687.56876pt x 492.84125pt>
+File: ashish_thesis/cms_exp.png Graphic file (type png)
+<use ashish_thesis/cms_exp.png>
+Package pdftex.def Info: ashish_thesis/cms_exp.png  used on input line 114.
+(pdftex.def)             Requested size: 298.75264pt x 214.14355pt.
+ [8 <./ashish_thesis/cms_exp.png (PNG copy)>]
+Overfull \hbox (60.54156pt too wide) in paragraph at lines 146--158
+ [][] 
+ []
+
+<ashish_thesis/CMS_luminosity.png, id=640, 578.16pt x 433.62pt>
+File: ashish_thesis/CMS_luminosity.png Graphic file (type png)
+<use ashish_thesis/CMS_luminosity.png>
+Package pdftex.def Info: ashish_thesis/CMS_luminosity.png  used on input line 1
+63.
+(pdftex.def)             Requested size: 341.43437pt x 256.07178pt.
+) [9 <./ashish_thesis/CMS_luminosity.png>]
+\openout2 = `Chapter2/chapter2.aux'.
+
+ (./Chapter2/chapter2.tex
+Chapter 2.
+[10
+
+
+
+
+] [11] [12] [13] [14]
+<ashish_thesis/luminometer_cms.png, id=670, 760.8425pt x 609.27625pt>
+File: ashish_thesis/luminometer_cms.png Graphic file (type png)
+<use ashish_thesis/luminometer_cms.png>
+Package pdftex.def Info: ashish_thesis/luminometer_cms.png  used on input line 
+57.
+(pdftex.def)             Requested size: 298.75264pt x 239.24371pt.
+<ashish_thesis/luminometer_cms_pseudo.png, id=671, 687.56876pt x 365.365pt>
+File: ashish_thesis/luminometer_cms_pseudo.png Graphic file (type png)
+<use ashish_thesis/luminometer_cms_pseudo.png>
+Package pdftex.def Info: ashish_thesis/luminometer_cms_pseudo.png  used on inpu
+t line 67.
+(pdftex.def)             Requested size: 341.43437pt x 181.43324pt.
+ [15 <./ashish_thesis/luminometer_cms.png>] [16 <./ashish_thesis/luminometer_cm
+s_pseudo.png (PNG copy)>]
+<ashish_thesis/phaseI_upgrade_pixel_detector.png, id=685, 1036.37187pt x 282.55
+562pt>
+File: ashish_thesis/phaseI_upgrade_pixel_detector.png Graphic file (type png)
+<use ashish_thesis/phaseI_upgrade_pixel_detector.png>
+Package pdftex.def Info: ashish_thesis/phaseI_upgrade_pixel_detector.png  used 
+on input line 81.
+(pdftex.def)             Requested size: 426.79135pt x 116.3616pt.
+<ashish_thesis/silicon_pixel_module.png, id=686, 866.73813pt x 252.945pt>
+File: ashish_thesis/silicon_pixel_module.png Graphic file (type png)
+<use ashish_thesis/silicon_pixel_module.png>
+Package pdftex.def Info: ashish_thesis/silicon_pixel_module.png  used on input 
+line 91.
+(pdftex.def)             Requested size: 426.79135pt x 124.55396pt.
+ [17 <./ashish_thesis/phaseI_upgrade_pixel_detector.png> <./ashish_thesis/silic
+on_pixel_module.png>] [18]
+[19] [20] [21] [22]
+<ashish_thesis/Run2018A_old.png, id=715, 1628.0825pt x 592.71437pt>
+File: ashish_thesis/Run2018A_old.png Graphic file (type png)
+<use ashish_thesis/Run2018A_old.png>
+Package pdftex.def Info: ashish_thesis/Run2018A_old.png  used on input line 206
+.
+(pdftex.def)             Requested size: 426.79135pt x 155.3773pt.
+
+Runaway argument?
+{
+! Paragraph ended before \caption@prepareanchor was complete.
+<to be read again> 
+                   \par 
+l.209 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+{\ignorespaces 
+! Paragraph ended before \caption@@@addcontentsline was complete.
+<to be read again> 
+                   \par 
+l.209 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+\caption@@addcontentsline ...n@chkfloat {#1}{#2}}}
+                                                  
+l.209 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.211 \end{figure}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+<ashish_thesis/Run2018B_old.png, id=716, 1588.43437pt x 593.71812pt>
+File: ashish_thesis/Run2018B_old.png Graphic file (type png)
+<use ashish_thesis/Run2018B_old.png>
+Package pdftex.def Info: ashish_thesis/Run2018B_old.png  used on input line 216
+.
+(pdftex.def)             Requested size: 426.79135pt x 159.51787pt.
+Runaway argument?
+{
+! Paragraph ended before \caption@prepareanchor was complete.
+<to be read again> 
+                   \par 
+l.219 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+{\ignorespaces 
+! Paragraph ended before \caption@@@addcontentsline was complete.
+<to be read again> 
+                   \par 
+l.219 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+\caption@@addcontentsline ...n@chkfloat {#1}{#2}}}
+                                                  
+l.219 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.221 \end{figure}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+File: ashish_thesis/Run2018B_old.png Graphic file (type png)
+<use ashish_thesis/Run2018B_old.png>
+Package pdftex.def Info: ashish_thesis/Run2018B_old.png  used on input line 226
+.
+(pdftex.def)             Requested size: 426.79135pt x 159.51787pt.
+Runaway argument?
+{
+! Paragraph ended before \caption@prepareanchor was complete.
+<to be read again> 
+                   \par 
+l.229 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+{\ignorespaces 
+! Paragraph ended before \caption@@@addcontentsline was complete.
+<to be read again> 
+                   \par 
+l.229 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+\caption@@addcontentsline ...n@chkfloat {#1}{#2}}}
+                                                  
+l.229 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.231 \end{figure}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+) [23
+pdfTeX warning (ext4): destination with the same identifier (name{figure.captio
+n.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.152 	\include{Chapter2/chapter2}
+                                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.captio
+n.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.152 	\include{Chapter2/chapter2}
+                                   <./ashish_thesis/Run2018A_old.png> <./ashish
+_thesis/Run2018B_old.png>] [24
+pdfTeX warning (ext4): destination with the same identifier (name{figure.captio
+n.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.152 	\include{Chapter2/chapter2}
+                                  ]
+\openout2 = `Chapter3/chapter3.aux'.
+
+ (./Chapter3/chapter3.tex
+Chapter 3.
+
+Package natbib Warning: Citation `CMS-PAS-LUM-13-001' on page 25 undefined on i
+nput line 19.
+
+[25
+
+
+
+
+] [26] Excluding 'comment' comment. [27]
+<ashish_thesis/vdM_fit_cveto.png, id=754, 1722.435pt x 934.49126pt>
+File: ashish_thesis/vdM_fit_cveto.png Graphic file (type png)
+<use ashish_thesis/vdM_fit_cveto.png>
+Package pdftex.def Info: ashish_thesis/vdM_fit_cveto.png  used on input line 15
+0.
+(pdftex.def)             Requested size: 341.43437pt x 185.24088pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<ashish_thesis/fit_quality_chisquare.png, id=755, 696.6025pt x 486.81876pt>
+File: ashish_thesis/fit_quality_chisquare.png Graphic file (type png)
+<use ashish_thesis/fit_quality_chisquare.png>
+Package pdftex.def Info: ashish_thesis/fit_quality_chisquare.png  used on input
+ line 158.
+(pdftex.def)             Requested size: 256.07741pt x 178.95387pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28]
+<ashish_thesis/sigma_vis_per_scan.png, id=762, 893.3375pt x 660.4675pt>
+File: ashish_thesis/sigma_vis_per_scan.png Graphic file (type png)
+<use ashish_thesis/sigma_vis_per_scan.png>
+Package pdftex.def Info: ashish_thesis/sigma_vis_per_scan.png  used on input li
+ne 169.
+(pdftex.def)             Requested size: 298.75264pt x 220.87753pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [29 <./ashish_thesis/vdM_fit_cveto.png>] [30 <./ashish_thesis/fit_quality_chi
+square.png> <./ashish_thesis/sigma_vis_per_scan.png>]
+\openout2 = `Chapter4/chapter4.aux'.
+
+ (./Chapter4/chapter4.tex
+Chapter 4.
+<ashish_thesis/period_boundary.png, id=776, 930.47626pt x 720.19063pt>
+File: ashish_thesis/period_boundary.png Graphic file (type png)
+<use ashish_thesis/period_boundary.png>
+Package pdftex.def Info: ashish_thesis/period_boundary.png  used on input line 
+18.
+(pdftex.def)             Requested size: 341.43437pt x 264.26852pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/ptm/m/n/12 (+20) /AlCaLumiPixels/Run2018A-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\T1/ptm/m/n/12 (+20) AlCaPCCRandom-
+ []
+
+
+Overfull \hbox (99.33727pt too wide) in paragraph at lines 30--30
+\T1/ptm/m/n/12 (-20) 15Apr2023_UL2018_315252_316062_PCCRandom_-
+ []
+
+
+Overfull \hbox (89.13445pt too wide) in paragraph at lines 30--30
+[]|\T1/ptm/m/n/12 (-20) /StreamALCALUMIPIXELSEXPRESS/Run2018A-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\T1/ptm/m/n/12 (+20) AlCaPCCRandom-Express-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[]|\T1/ptm/m/n/12 (+20) /AlCaLumiPixels/Run2018A-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\T1/ptm/m/n/12 (+20) AlCaPCCZeroBias-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\T1/ptm/m/n/12 (+20) 13Mar2023_UL2018_PCC-
+ []
+
+
+Overfull \hbox (88.4876pt too wide) in paragraph at lines 31--31
+[]|\T1/ptm/m/n/12 (-20) /StreamALCALUMIPIXELSEXPRESS/Run2018B-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\T1/ptm/m/n/12 (+20) AlCaPCCRandom-Express-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]|\T1/ptm/m/n/12 (+20) /AlCaLumiPixels/Run2018B-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\T1/ptm/m/n/12 (+20) AlCaPCCZeroBias-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\T1/ptm/m/n/12 (+20) 13Mar2023_UL2018_PCC-
+ []
+
+
+Overfull \hbox (88.4876pt too wide) in paragraph at lines 32--32
+[]|\T1/ptm/m/n/12 (-20) /StreamALCALUMIPIXELSEXPRESS/Run2018C-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\T1/ptm/m/n/12 (+20) AlCaPCCRandom-Express-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+[]|\T1/ptm/m/n/12 (+20) /AlCaLumiPixels/Run2018C-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+\T1/ptm/m/n/12 (+20) AlCaPCCZeroBias-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+\T1/ptm/m/n/12 (+20) 13Mar2023_UL2018_PCC-
+ []
+
+
+Overfull \hbox (89.13445pt too wide) in paragraph at lines 33--33
+[]|\T1/ptm/m/n/12 (-20) /StreamALCALUMIPIXELSEXPRESS/Run2018D-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/ptm/m/n/12 (+20) AlCaPCCRandom-Express-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]|\T1/ptm/m/n/12 (+20) /AlCaLumiPixels/Run2018D-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\T1/ptm/m/n/12 (+20) AlCaPCCZeroBias-
+ []
+
+
+Overfull \hbox (95.52428pt too wide) in paragraph at lines 39--40
+[]\T1/ptm/b/n/12 (-20) /AlCaLumiPixels/Run2018A-AlCaPCCRandom15Apr2023_UL2018_3
+15252_316062_PCCRandom_-
+ []
+
+[31
+
+
+
+
+ <./ashish_thesis/period_boundary.png>] [32]
+Overfull \hbox (85.06143pt too wide) in paragraph at lines 60--61
+[]$[]$ 
+ []
+
+
+Overfull \hbox (66.59396pt too wide) in paragraph at lines 83--84
+[]$[]$ 
+ []
+
+[33] Excluding 'comment' comment. [34] [35] [36] [37] [38] [39] [40]
+<ashish_thesis/Module_weight.png, id=822, 1390.19376pt x 819.06pt>
+File: ashish_thesis/Module_weight.png Graphic file (type png)
+<use ashish_thesis/Module_weight.png>
+Package pdftex.def Info: ashish_thesis/Module_weight.png  used on input line 34
+1.
+(pdftex.def)             Requested size: 384.1096pt x 226.29826pt.
+<ashish_thesis/good_bad_modules.png, id=823, 1226.5825pt x 442.65375pt>
+File: ashish_thesis/good_bad_modules.png Graphic file (type png)
+<use ashish_thesis/good_bad_modules.png>
+Package pdftex.def Info: ashish_thesis/good_bad_modules.png  used on input line
+ 351.
+(pdftex.def)             Requested size: 426.79135pt x 154.01929pt.
+ [41]
+[42 <./ashish_thesis/Module_weight.png> <./ashish_thesis/good_bad_modules.png>]
+<ashish_thesis/Run2018B_totalPCC_cut.png, id=841, 760.8425pt x 578.16pt>
+File: ashish_thesis/Run2018B_totalPCC_cut.png Graphic file (type png)
+<use ashish_thesis/Run2018B_totalPCC_cut.png>
+Package pdftex.def Info: ashish_thesis/Run2018B_totalPCC_cut.png  used on input
+ line 384.
+(pdftex.def)             Requested size: 298.75264pt x 227.02534pt.
+<ashish_thesis/first_iteration.png, id=842, 614.295pt x 498.86375pt>
+File: ashish_thesis/first_iteration.png Graphic file (type png)
+<use ashish_thesis/first_iteration.png>
+Package pdftex.def Info: ashish_thesis/first_iteration.png  used on input line 
+394.
+(pdftex.def)             Requested size: 298.75264pt x 242.61848pt.
+<ashish_thesis/cut_selection.png, id=843, 805.50937pt x 687.06688pt>
+File: ashish_thesis/cut_selection.png Graphic file (type png)
+<use ashish_thesis/cut_selection.png>
+Package pdftex.def Info: ashish_thesis/cut_selection.png  used on input line 40
+6.
+(pdftex.def)             Requested size: 341.43437pt x 291.229pt.
+<ashish_thesis/second_iteration_cut.png, id=844, 657.45625pt x 500.87125pt>
+File: ashish_thesis/second_iteration_cut.png Graphic file (type png)
+<use ashish_thesis/second_iteration_cut.png>
+Package pdftex.def Info: ashish_thesis/second_iteration_cut.png  used on input 
+line 415.
+(pdftex.def)             Requested size: 298.75264pt x 227.5987pt.
+<ashish_thesis/mod_weight_comparison.png, id=845, 763.85374pt x 531.9875pt>
+File: ashish_thesis/mod_weight_comparison.png Graphic file (type png)
+<use ashish_thesis/mod_weight_comparison.png>
+Package pdftex.def Info: ashish_thesis/mod_weight_comparison.png  used on input
+ line 425.
+(pdftex.def)             Requested size: 298.75264pt x 208.06686pt.
+<ashish_thesis/mod_weight_comp_1.png, id=846, 604.2575pt x 443.6575pt>
+File: ashish_thesis/mod_weight_comp_1.png Graphic file (type png)
+<use ashish_thesis/mod_weight_comp_1.png>
+Package pdftex.def Info: ashish_thesis/mod_weight_comp_1.png  used on input lin
+e 436.
+(pdftex.def)             Requested size: 341.43437pt x 250.68726pt.
+[43 <./ashish_thesis/Run2018B_totalPCC_cut.png>] [44 <./ashish_thesis/first_ite
+ration.png> <./ashish_thesis/cut_selection.png>] [45 <./ashish_thesis/second_it
+eration_cut.png> <./ashish_thesis/mod_weight_comparison.png>] [46 <./ashish_the
+sis/mod_weight_comp_1.png>]
+<ashish_thesis/ProfileX_combined_testing_LUM_20-001.png, id=872, 698.61pt x 473
+.77pt>
+File: ashish_thesis/ProfileX_combined_testing_LUM_20-001.png Graphic file (type
+ png)
+<use ashish_thesis/ProfileX_combined_testing_LUM_20-001.png>
+Package pdftex.def Info: ashish_thesis/ProfileX_combined_testing_LUM_20-001.png
+  used on input line 484.
+(pdftex.def)             Requested size: 341.43437pt x 231.54932pt.
+ [47 <./ashish_thesis/ProfileX_combined_testing_LUM_20-001.png>] [48] [49]
+<ashish_thesis/afterglow_type1_type2.png, id=887, 1091.07625pt x 796.9775pt>
+File: ashish_thesis/afterglow_type1_type2.png Graphic file (type png)
+<use ashish_thesis/afterglow_type1_type2.png>
+Package pdftex.def Info: ashish_thesis/afterglow_type1_type2.png  used on input
+ line 543.
+(pdftex.def)             Requested size: 298.75264pt x 218.21486pt.
+) [50 <./ashish_thesis/afterglow_type1_type2.png>]
+\openout2 = `Chapter5/chapter5.aux'.
+
+
+(./Chapter5/chapter5.tex
+Chapter 5.
+[51
+
+
+
+
+] [52]) [53]
+\openout2 = `Chapter6/chapter6.aux'.
+
+ (./Chapter6/chapter6.tex
+Chapter 6.
+<ashish_thesis/pcc_stability_begin.png, id=906, 845.1575pt x 564.1075pt>
+File: ashish_thesis/pcc_stability_begin.png Graphic file (type png)
+<use ashish_thesis/pcc_stability_begin.png>
+Package pdftex.def Info: ashish_thesis/pcc_stability_begin.png  used on input l
+ine 21.
+(pdftex.def)             Requested size: 341.43437pt x 227.89418pt.
+<ashish_thesis/rms_mean_all_modules_B.png, id=907, 1794.705pt x 741.77126pt>
+File: ashish_thesis/rms_mean_all_modules_B.png Graphic file (type png)
+<use ashish_thesis/rms_mean_all_modules_B.png>
+Package pdftex.def Info: ashish_thesis/rms_mean_all_modules_B.png  used on inpu
+t line 33.
+(pdftex.def)             Requested size: 426.79135pt x 176.38756pt.
+<ashish_thesis/first_iteration_stability.png, id=908, 913.4125pt x 736.7525pt>
+File: ashish_thesis/first_iteration_stability.png Graphic file (type png)
+<use ashish_thesis/first_iteration_stability.png>
+Package pdftex.def Info: ashish_thesis/first_iteration_stability.png  used on i
+nput line 45.
+(pdftex.def)             Requested size: 298.75264pt x 240.97063pt.
+<ashish_thesis/remaining_second_iteration.png, id=909, 1842.885pt x 763.85374pt
+>
+File: ashish_thesis/remaining_second_iteration.png Graphic file (type png)
+<use ashish_thesis/remaining_second_iteration.png>
+Package pdftex.def Info: ashish_thesis/remaining_second_iteration.png  used on 
+input line 54.
+(pdftex.def)             Requested size: 426.79135pt x 176.89482pt.
+<ashish_thesis/second_iteration_stability.png, id=910, 929.4725pt x 727.71875pt
+>
+File: ashish_thesis/second_iteration_stability.png Graphic file (type png)
+<use ashish_thesis/second_iteration_stability.png>
+Package pdftex.def Info: ashish_thesis/second_iteration_stability.png  used on 
+input line 66.
+(pdftex.def)             Requested size: 298.75264pt x 233.89633pt.
+<ashish_thesis/vdm_rms_mean.png, id=911, 1799.72375pt x 739.76375pt>
+File: ashish_thesis/vdm_rms_mean.png Graphic file (type png)
+<use ashish_thesis/vdm_rms_mean.png>
+Package pdftex.def Info: ashish_thesis/vdm_rms_mean.png  used on input line 75.
+
+(pdftex.def)             Requested size: 426.79135pt x 175.4248pt.
+<ashish_thesis/first_iteration_vdm.png, id=912, 1811.76875pt x 741.77126pt>
+File: ashish_thesis/first_iteration_vdm.png Graphic file (type png)
+<use ashish_thesis/first_iteration_vdm.png>
+Package pdftex.def Info: ashish_thesis/first_iteration_vdm.png  used on input l
+ine 85.
+(pdftex.def)             Requested size: 426.79135pt x 174.73505pt.
+<ashish_thesis/vdm_stability.png, id=913, 970.62625pt x 667.49374pt>
+File: ashish_thesis/vdm_stability.png Graphic file (type png)
+<use ashish_thesis/vdm_stability.png>
+Package pdftex.def Info: ashish_thesis/vdm_stability.png  used on input line 95
+.
+(pdftex.def)             Requested size: 298.75264pt x 205.45427pt.
+<ashish_thesis/module_weights_per_period_veto.png, id=914, 874.26625pt x 628.34
+75pt>
+File: ashish_thesis/module_weights_per_period_veto.png Graphic file (type png)
+<use ashish_thesis/module_weights_per_period_veto.png>
+Package pdftex.def Info: ashish_thesis/module_weights_per_period_veto.png  used
+ on input line 105.
+(pdftex.def)             Requested size: 298.75264pt x 214.71873pt.
+<ashish_thesis/vdm_beam_position.png, id=915, 1149.29375pt x 294.09875pt>
+File: ashish_thesis/vdm_beam_position.png Graphic file (type png)
+<use ashish_thesis/vdm_beam_position.png>
+Package pdftex.def Info: ashish_thesis/vdm_beam_position.png  used on input lin
+e 115.
+(pdftex.def)             Requested size: 341.43437pt x 87.36868pt.
+<ashish_thesis/before_after_vdm_stability.png, id=916, 1879.02pt x 720.6925pt>
+File: ashish_thesis/before_after_vdm_stability.png Graphic file (type png)
+<use ashish_thesis/before_after_vdm_stability.png>
+Package pdftex.def Info: ashish_thesis/before_after_vdm_stability.png  used on 
+input line 125.
+(pdftex.def)             Requested size: 426.79135pt x 163.68837pt.
+<ashish_thesis/old_new_veto.png, id=917, 1531.7225pt x 777.90625pt>
+File: ashish_thesis/old_new_veto.png Graphic file (type png)
+<use ashish_thesis/old_new_veto.png>
+Package pdftex.def Info: ashish_thesis/old_new_veto.png  used on input line 138
+.
+(pdftex.def)             Requested size: 341.43437pt x 173.39517pt.
+<ashish_thesis/2018A_before_after_stability.png, id=918, 1871.99374pt x 734.745
+pt>
+File: ashish_thesis/2018A_before_after_stability.png Graphic file (type png)
+<use ashish_thesis/2018A_before_after_stability.png>
+Package pdftex.def Info: ashish_thesis/2018A_before_after_stability.png  used o
+n input line 147.
+(pdftex.def)             Requested size: 426.79135pt x 167.5079pt.
+<ashish_thesis/Run2018C_before_after_stability.png, id=919, 1866.975pt x 734.74
+5pt>
+File: ashish_thesis/Run2018C_before_after_stability.png Graphic file (type png)
+
+<use ashish_thesis/Run2018C_before_after_stability.png>
+Package pdftex.def Info: ashish_thesis/Run2018C_before_after_stability.png  use
+d on input line 156.
+(pdftex.def)             Requested size: 426.79135pt x 167.95634pt.
+<ashish_thesis/Run2018D1_before_after_stability.png, id=920, 1866.975pt x 736.7
+525pt>
+File: ashish_thesis/Run2018D1_before_after_stability.png Graphic file (type png
+)
+<use ashish_thesis/Run2018D1_before_after_stability.png>
+Package pdftex.def Info: ashish_thesis/Run2018D1_before_after_stability.png  us
+ed on input line 166.
+(pdftex.def)             Requested size: 426.79135pt x 168.41525pt.
+<ashish_thesis/Run2018D2_before_after_stability.png, id=921, 1884.03876pt x 732
+.7375pt>
+File: ashish_thesis/Run2018D2_before_after_stability.png Graphic file (type png
+)
+<use ashish_thesis/Run2018D2_before_after_stability.png>
+Package pdftex.def Info: ashish_thesis/Run2018D2_before_after_stability.png  us
+ed on input line 176.
+(pdftex.def)             Requested size: 426.79135pt x 165.97688pt.
+<ashish_thesis/Run2018D3_before_after_stability.png, id=922, 1874.00125pt x 734
+.745pt>
+File: ashish_thesis/Run2018D3_before_after_stability.png Graphic file (type png
+)
+<use ashish_thesis/Run2018D3_before_after_stability.png>
+Package pdftex.def Info: ashish_thesis/Run2018D3_before_after_stability.png  us
+ed on input line 186.
+(pdftex.def)             Requested size: 426.79135pt x 167.32852pt.
+<ashish_thesis/Run2018D4_before_after_stability.png, id=923, 1922.18124pt x 732
+.7375pt>
+File: ashish_thesis/Run2018D4_before_after_stability.png Graphic file (type png
+)
+<use ashish_thesis/Run2018D4_before_after_stability.png>
+Package pdftex.def Info: ashish_thesis/Run2018D4_before_after_stability.png  us
+ed on input line 196.
+(pdftex.def)             Requested size: 426.79135pt x 162.68977pt.
+<ashish_thesis/raw_corr_hist.png, id=924, 1813.77625pt x 732.7375pt>
+File: ashish_thesis/raw_corr_hist.png Graphic file (type png)
+<use ashish_thesis/raw_corr_hist.png>
+Package pdftex.def Info: ashish_thesis/raw_corr_hist.png  used on input line 20
+6.
+(pdftex.def)             Requested size: 426.79135pt x 172.41695pt.
+<ashish_thesis/Run2018A_old_new_veto.png, id=925, 1811.76875pt x 729.72626pt>
+File: ashish_thesis/Run2018A_old_new_veto.png Graphic file (type png)
+<use ashish_thesis/Run2018A_old_new_veto.png>
+Package pdftex.def Info: ashish_thesis/Run2018A_old_new_veto.png  used on input
+ line 215.
+(pdftex.def)             Requested size: 426.79135pt x 171.89767pt.
+<ashish_thesis/Run2018B_old_new_veto.png, id=926, 1820.8025pt x 734.745pt>
+File: ashish_thesis/Run2018B_old_new_veto.png Graphic file (type png)
+<use ashish_thesis/Run2018B_old_new_veto.png>
+Package pdftex.def Info: ashish_thesis/Run2018B_old_new_veto.png  used on input
+ line 224.
+(pdftex.def)             Requested size: 426.79135pt x 172.21664pt.
+<ashish_thesis/Run2018C_old_new_veto.png, id=927, 1813.77625pt x 734.745pt>
+File: ashish_thesis/Run2018C_old_new_veto.png Graphic file (type png)
+<use ashish_thesis/Run2018C_old_new_veto.png>
+Package pdftex.def Info: ashish_thesis/Run2018C_old_new_veto.png  used on input
+ line 234.
+(pdftex.def)             Requested size: 426.79135pt x 172.88931pt.
+<ashish_thesis/Run2018D1_old_new_veto.png, id=928, 1813.77625pt x 727.71875pt>
+File: ashish_thesis/Run2018D1_old_new_veto.png Graphic file (type png)
+<use ashish_thesis/Run2018D1_old_new_veto.png>
+Package pdftex.def Info: ashish_thesis/Run2018D1_old_new_veto.png  used on inpu
+t line 244.
+(pdftex.def)             Requested size: 426.79135pt x 171.23601pt.
+<ashish_thesis/Run2018D2_old_new_veto.png, id=929, 1861.95625pt x 741.77126pt>
+File: ashish_thesis/Run2018D2_old_new_veto.png Graphic file (type png)
+<use ashish_thesis/Run2018D2_old_new_veto.png>
+Package pdftex.def Info: ashish_thesis/Run2018D2_old_new_veto.png  used on inpu
+t line 253.
+(pdftex.def)             Requested size: 426.79135pt x 170.02655pt.
+<ashish_thesis/Run2018D3_old_new_veto.png, id=930, 1804.7425pt x 736.7525pt>
+File: ashish_thesis/Run2018D3_old_new_veto.png Graphic file (type png)
+<use ashish_thesis/Run2018D3_old_new_veto.png>
+Package pdftex.def Info: ashish_thesis/Run2018D3_old_new_veto.png  used on inpu
+t line 262.
+(pdftex.def)             Requested size: 426.79135pt x 174.22733pt.
+<ashish_thesis/Run2018D4_old_new_veto.png, id=931, 1830.84pt x 732.7375pt>
+File: ashish_thesis/Run2018D4_old_new_veto.png Graphic file (type png)
+<use ashish_thesis/Run2018D4_old_new_veto.png>
+Package pdftex.def Info: ashish_thesis/Run2018D4_old_new_veto.png  used on inpu
+t line 271.
+(pdftex.def)             Requested size: 426.79135pt x 170.80693pt.
+<ashish_thesis/vdm_fit_old_new_veto.png, id=932, 1589.94pt x 857.2025pt>
+File: ashish_thesis/vdm_fit_old_new_veto.png Graphic file (type png)
+<use ashish_thesis/vdm_fit_old_new_veto.png>
+Package pdftex.def Info: ashish_thesis/vdm_fit_old_new_veto.png  used on input 
+line 280.
+(pdftex.def)             Requested size: 426.79135pt x 230.10054pt.
+<ashish_thesis/sigmavis_old_new_veto.png, id=933, 1495.5875pt x 686.565pt>
+File: ashish_thesis/sigmavis_old_new_veto.png Graphic file (type png)
+<use ashish_thesis/sigmavis_old_new_veto.png>
+Package pdftex.def Info: ashish_thesis/sigmavis_old_new_veto.png  used on input
+ line 290.
+(pdftex.def)             Requested size: 426.79135pt x 195.92448pt.
+<ashish_thesis/4per_rms_veto.png, id=934, 1717.41624pt x 932.48375pt>
+File: ashish_thesis/4per_rms_veto.png Graphic file (type png)
+<use ashish_thesis/4per_rms_veto.png>
+Package pdftex.def Info: ashish_thesis/4per_rms_veto.png  used on input line 30
+0.
+(pdftex.def)             Requested size: 426.79135pt x 231.72597pt.
+<ashish_thesis/2per_rms_veto.png, id=935, 1756.5625pt x 951.555pt>
+File: ashish_thesis/2per_rms_veto.png Graphic file (type png)
+<use ashish_thesis/2per_rms_veto.png>
+Package pdftex.def Info: ashish_thesis/2per_rms_veto.png  used on input line 31
+0.
+(pdftex.def)             Requested size: 426.79135pt x 231.19466pt.
+Excluding 'comment' comment.) [54
+
+
+
+
+] [55 <./ashish_thesis/pcc_stability_begin.png> <./ashish_thesis/rms_mean_all_m
+odules_B.png>] [56 <./ashish_thesis/first_iteration_stability.png> <./ashish_th
+esis/remaining_second_iteration.png>] [57 <./ashish_thesis/second_iteration_sta
+bility.png> <./ashish_thesis/vdm_rms_mean.png>] [58 <./ashish_thesis/first_iter
+ation_vdm.png> <./ashish_thesis/vdm_stability.png>] [59 <./ashish_thesis/module
+_weights_per_period_veto.png> <./ashish_thesis/vdm_beam_position.png> <./ashish
+_thesis/before_after_vdm_stability.png>]
+[60 <./ashish_thesis/old_new_veto.png> <./ashish_thesis/2018A_before_after_stab
+ility.png> <./ashish_thesis/Run2018C_before_after_stability.png>] [61 <./ashish
+_thesis/Run2018D1_before_after_stability.png> <./ashish_thesis/Run2018D2_before
+_after_stability.png> <./ashish_thesis/Run2018D3_before_after_stability.png>]
+[62 <./ashish_thesis/Run2018D4_before_after_stability.png> <./ashish_thesis/raw
+_corr_hist.png> <./ashish_thesis/Run2018A_old_new_veto.png>] [63 <./ashish_thes
+is/Run2018B_old_new_veto.png> <./ashish_thesis/Run2018C_old_new_veto.png> <./as
+hish_thesis/Run2018D1_old_new_veto.png>] [64 <./ashish_thesis/Run2018D2_old_new
+_veto.png> <./ashish_thesis/Run2018D3_old_new_veto.png> <./ashish_thesis/Run201
+8D4_old_new_veto.png>] [65 <./ashish_thesis/vdm_fit_old_new_veto.png> <./ashish
+_thesis/sigmavis_old_new_veto.png>] [66 <./ashish_thesis/4per_rms_veto.png> <./
+ashish_thesis/2per_rms_veto.png>]
+\openout2 = `Chapter7/chapter7.aux'.
+
+ (./Chapter7/chapter7.tex
+Chapter 7.
+[67
+
+
+
+
+] [68] [69]
+
+Package natbib Warning: Citation `Klein:2017nke' on page 70 undefined on input 
+line 73.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+[70]
+
+LaTeX Warning: File `./tepx_tt.png' not found on input line 81.
+
+
+! Package pdftex.def Error: File `./tepx_tt.png' not found: using draft setting
+.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 ...phics[width=1 \columnwidth]{./tepx_tt.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
+1.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+Package natbib Warning: Citation `Klein:2017nke' on page 71 undefined on input 
+line 82.
+
+
+Package natbib Warning: Citation `Klein:2017nke' on page 71 undefined on input 
+line 82.
+
+
+LaTeX Warning: File `./fourlayers.png' not found on input line 89.
+
+
+! Package pdftex.def Error: File `./fourlayers.png' not found: using draft sett
+ing.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...cs[width=1 \columnwidth]{./fourlayers.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[71]
+
+Package natbib Warning: Citation `Agostinelli:2002hh' on page 72 undefined on i
+nput line 97.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.107     noPU  & 500000 & /RelValNuGun/CMSSW_
+                                              10_6_0_patch2-106X_upgrade2023...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.107 ...noPU  & 500000 & /RelValNuGun/CMSSW_10_6_
+                                                  0_patch2-106X_upgrade2023_...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.107 ...PU  & 500000 & /RelValNuGun/CMSSW_10_6_0_
+                                                  patch2-106X_upgrade2023_re...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.108      0
+            .5& 500000 &  /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_upgra...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.108      0.5& 500000 &  /RelValNuGun/CMSSW_
+                                             10_6_0_patch2-PU25ns_106X_upgra...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.108      0.5& 500000 &  /RelValNuGun/CMSSW_10_6_
+                                                  0_patch2-PU25ns_106X_upgra...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.108 ...0.5& 500000 &  /RelValNuGun/CMSSW_10_6_0_
+                                                  patch2-PU25ns_106X_upgrade...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.109      1
+            &  & 500000 &   /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_upg...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.109      1&  & 500000 &
+                            /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_upg...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.109      1&  & 500000 &   /RelValNuGun/CMSSW_
+                                               10_6_0_patch2-PU25ns_106X_upg...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.109 ...1&  & 500000 &   /RelValNuGun/CMSSW_10_6_
+                                                  0_patch2-PU25ns_106X_upgra...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.109 ...  & 500000 &   /RelValNuGun/CMSSW_10_6_0_
+                                                  patch2-PU25ns_106X_upgrade...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.110      1
+            .5 & 500000 &   /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_upg...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.110      1.5 & 500000 &   /RelValNuGun/CMSSW_
+                                               10_6_0_patch2-PU25ns_106X_upg...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.110 ...1.5 & 500000 &   /RelValNuGun/CMSSW_10_6_
+                                                  0_patch2-PU25ns_106X_upgra...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.110 ...5 & 500000 &   /RelValNuGun/CMSSW_10_6_0_
+                                                  patch2-PU25ns_106X_upgrade...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.111      2
+            &  &  500000 &   /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_up...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.111      2&  &  500000 &
+                             /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_up...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.111      2&  &  500000 &   /RelValNuGun/CMSSW_
+                                                10_6_0_patch2-PU25ns_106X_up...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.111 ...&  &  500000 &   /RelValNuGun/CMSSW_10_6_
+                                                  0_patch2-PU25ns_106X_upgra...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.111 ... &  500000 &   /RelValNuGun/CMSSW_10_6_0_
+                                                  patch2-PU25ns_106X_upgrade...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.112      1
+            0&  &  100000&   /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_up...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.112      10&  &  100000&
+                             /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_up...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.112      10&  &  100000&   /RelValNuGun/CMSSW_
+                                                10_6_0_patch2-PU25ns_106X_up...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.112 ...0&  &  100000&   /RelValNuGun/CMSSW_10_6_
+                                                  0_patch2-PU25ns_106X_upgra...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.112 ...  &  100000&   /RelValNuGun/CMSSW_10_6_0_
+                                                  patch2-PU25ns_106X_upgrade...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.113       3
+             0&  &  100000&   /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_u...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.113       30&  &  100000&
+                              /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_u...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.113       30&  &  100000&   /RelValNuGun/CMSSW_
+                                                 10_6_0_patch2-PU25ns_106X_u...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.113 ...0&  &  100000&   /RelValNuGun/CMSSW_10_6_
+                                                  0_patch2-PU25ns_106X_upgra...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.113 ...  &  100000&   /RelValNuGun/CMSSW_10_6_0_
+                                                  patch2-PU25ns_106X_upgrade...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.114      5
+            0&  &  100000&   /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_up...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.114      50&  &  100000&
+                             /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_up...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.114      50&  &  100000&   /RelValNuGun/CMSSW_
+                                                10_6_0_patch2-PU25ns_106X_up...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.114 ...0&  &  100000&   /RelValNuGun/CMSSW_10_6_
+                                                  0_patch2-PU25ns_106X_upgra...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.114 ...  &  100000&   /RelValNuGun/CMSSW_10_6_0_
+                                                  patch2-PU25ns_106X_upgrade...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.115      1
+            00&  & 100000 & /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_upg...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.115      100&  & 100000 &
+                            /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_upg...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.115      100&  & 100000 & /RelValNuGun/CMSSW_
+                                               10_6_0_patch2-PU25ns_106X_upg...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.115 ...100&  & 100000 & /RelValNuGun/CMSSW_10_6_
+                                                  0_patch2-PU25ns_106X_upgra...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.115 ...0&  & 100000 & /RelValNuGun/CMSSW_10_6_0_
+                                                  patch2-PU25ns_106X_upgrade...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.116       1
+             40&  &  99600&  /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_up...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.116       140&  &  99600&
+                             /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_up...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.116       140&  &  99600&  /RelValNuGun/CMSSW_
+                                                10_6_0_patch2-PU25ns_106X_up...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.116 ...140&  &  99600&  /RelValNuGun/CMSSW_10_6_
+                                                  0_patch2-PU25ns_106X_upgra...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.116 ...0&  &  99600&  /RelValNuGun/CMSSW_10_6_0_
+                                                  patch2-PU25ns_106X_upgrade...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.117      2
+            00&  &  100000&  /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_up...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.117      200&  &  100000&
+                             /RelValNuGun/CMSSW_10_6_0_patch2-PU25ns_106X_up...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.117      200&  &  100000&  /RelValNuGun/CMSSW_
+                                                10_6_0_patch2-PU25ns_106X_up...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.117 ...00&  &  100000&  /RelValNuGun/CMSSW_10_6_
+                                                  0_patch2-PU25ns_106X_upgra...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.117 ...&  &  100000&  /RelValNuGun/CMSSW_10_6_0_
+                                                  patch2-PU25ns_106X_upgrade...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.119   \end
+            {tabular}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (877.27031pt too wide) in paragraph at lines 103--120
+ [][] 
+ []
+
+! Double subscript.
+l.123 $/RelValNuGun/CMSSW_10_6_
+                               0_patch2-PU25ns_106X_upgrade2023_realistic_v3...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.123 $/RelValNuGun/CMSSW_10_6_0_
+                                 patch2-PU25ns_106X_upgrade2023_realistic_v3...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+Overfull \hbox (42.65668pt too wide) in paragraph at lines 123--125
+[]$\OML/ztmcm/m/it/12 =RelValNuGun=CMSSW[]\OT1/ztmcm/m/n/12 0[][][]\OML/ztmcm/m
+/it/12 atch\OT1/ztmcm/m/n/12 2 \OMS/ztmcm/m/n/12 ^^@ \OML/ztmcm/m/it/12 PU\OT1/
+ztmcm/m/n/12 25\OML/ztmcm/m/it/12 ns[]\OT1/ztmcm/m/n/12 06\OML/ztmcm/m/it/12 X[
+]pgrade\OT1/ztmcm/m/n/12 2023[]\OML/ztmcm/m/it/12 ealistic[]\OT1/ztmcm/m/n/12 3
+[]023\OML/ztmcm/m/it/12 D\OT1/ztmcm/m/n/12 42\OML/ztmcm/m/it/12 PU\OT1/ztmcm/m/
+n/12 200 \OMS/ztmcm/m/n/12 ^^@
+ []
+
+[72]
+! Double subscript.
+l.130 \item $CMSSW_10_6_
+                        0_patch2$: This refers to the version of the CMS Sof...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.130 \item $CMSSW_10_6_0_
+                          patch2$: This refers to the version of the CMS Sof...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+[73] [74]
+<ashish_thesis/tepx_clusters.png, id=1059, 875.27pt x 690.58pt>
+File: ashish_thesis/tepx_clusters.png Graphic file (type png)
+<use ashish_thesis/tepx_clusters.png>
+Package pdftex.def Info: ashish_thesis/tepx_clusters.png  used on input line 20
+0.
+(pdftex.def)             Requested size: 426.79135pt x 336.73279pt.
+ [75]
+<ashish_thesis/tepx_D4R!_clusters._allpupng.png, id=1064, 1396.71812pt x 555.57
+562pt>
+File: ashish_thesis/tepx_D4R!_clusters._allpupng.png Graphic file (type png)
+<use ashish_thesis/tepx_D4R!_clusters._allpupng.png>
+Package pdftex.def Info: ashish_thesis/tepx_D4R!_clusters._allpupng.png  used o
+n input line 208.
+(pdftex.def)             Requested size: 426.79135pt x 169.7682pt.
+<ashish_thesis/tepx_coincidences.png, id=1065, 1631.59563pt x 666.49pt>
+File: ashish_thesis/tepx_coincidences.png Graphic file (type png)
+<use ashish_thesis/tepx_coincidences.png>
+Package pdftex.def Info: ashish_thesis/tepx_coincidences.png  used on input lin
+e 215.
+(pdftex.def)             Requested size: 426.79135pt x 174.34097pt.
+ [76 <./ashish_thesis/tepx_clusters.png> <./ashish_thesis/tepx_D4R!_clusters._a
+llpupng.png>]
+<ashish_thesis/tepx_D4R1_coin_allpu.png, id=1073, 1391.1975pt x 537.50812pt>
+File: ashish_thesis/tepx_D4R1_coin_allpu.png Graphic file (type png)
+<use ashish_thesis/tepx_D4R1_coin_allpu.png>
+Package pdftex.def Info: ashish_thesis/tepx_D4R1_coin_allpu.png  used on input 
+line 223.
+(pdftex.def)             Requested size: 426.79135pt x 164.89523pt.
+<ashish_thesis/tepx_D4_3foldcoin_allpu.png, id=1074, 1383.1675pt x 735.24687pt>
+
+File: ashish_thesis/tepx_D4_3foldcoin_allpu.png Graphic file (type png)
+<use ashish_thesis/tepx_D4_3foldcoin_allpu.png>
+Package pdftex.def Info: ashish_thesis/tepx_D4_3foldcoin_allpu.png  used on inp
+ut line 231.
+(pdftex.def)             Requested size: 426.79135pt x 226.86958pt.
+ [77 <./ashish_thesis/tepx_coincidences.png> <./ashish_thesis/tepx_D4R1_coin_al
+lpu.png>]
+<ashish_thesis/tepx_D4_3foldcoin_lowpu.png, id=1082, 1357.57187pt x 739.76375pt
+>
+File: ashish_thesis/tepx_D4_3foldcoin_lowpu.png Graphic file (type png)
+<use ashish_thesis/tepx_D4_3foldcoin_lowpu.png>
+Package pdftex.def Info: ashish_thesis/tepx_D4_3foldcoin_lowpu.png  used on inp
+ut line 238.
+(pdftex.def)             Requested size: 426.79135pt x 232.56401pt.
+<ashish_thesis/oldvariable_xy.png, id=1083, 912.91063pt x 227.85126pt>
+File: ashish_thesis/oldvariable_xy.png Graphic file (type png)
+<use ashish_thesis/oldvariable_xy.png>
+Package pdftex.def Info: ashish_thesis/oldvariable_xy.png  used on input line 2
+47.
+(pdftex.def)             Requested size: 426.79135pt x 106.51991pt.
+<ashish_thesis/overlap_modules2_Ring1.png, id=1084, 663.98062pt x 448.67625pt>
+File: ashish_thesis/overlap_modules2_Ring1.png Graphic file (type png)
+<use ashish_thesis/overlap_modules2_Ring1.png>
+Package pdftex.def Info: ashish_thesis/overlap_modules2_Ring1.png  used on inpu
+t line 257.
+(pdftex.def)             Requested size: 426.79135pt x 288.39783pt.
+<ashish_thesis/twofoldcoin_inphi_PU0p5_200.png, id=1085, 1080.035pt x 418.06187
+pt>
+File: ashish_thesis/twofoldcoin_inphi_PU0p5_200.png Graphic file (type png)
+<use ashish_thesis/twofoldcoin_inphi_PU0p5_200.png>
+Package pdftex.def Info: ashish_thesis/twofoldcoin_inphi_PU0p5_200.png  used on
+ input line 268.
+(pdftex.def)             Requested size: 426.79135pt x 165.1996pt.
+<ashish_thesis/twofoldcoin_cluster_y.png, id=1086, 1092.08pt x 429.605pt>
+File: ashish_thesis/twofoldcoin_cluster_y.png Graphic file (type png)
+<use ashish_thesis/twofoldcoin_cluster_y.png>
+Package pdftex.def Info: ashish_thesis/twofoldcoin_cluster_y.png  used on input
+ line 279.
+(pdftex.def)             Requested size: 426.79135pt x 167.8927pt.
+<ashish_thesis/cut_optimization_twofoldcoin.png, id=1087, 1116.17pt x 461.22313
+pt>
+File: ashish_thesis/cut_optimization_twofoldcoin.png Graphic file (type png)
+<use ashish_thesis/cut_optimization_twofoldcoin.png>
+Package pdftex.def Info: ashish_thesis/cut_optimization_twofoldcoin.png  used o
+n input line 291.
+(pdftex.def)             Requested size: 426.79135pt x 176.35745pt.
+<ashish_thesis/cut_optimization_residual.png, id=1088, 1114.1625pt x 469.755pt>
+
+File: ashish_thesis/cut_optimization_residual.png Graphic file (type png)
+<use ashish_thesis/cut_optimization_residual.png>
+Package pdftex.def Info: ashish_thesis/cut_optimization_residual.png  used on i
+nput line 302.
+(pdftex.def)             Requested size: 426.79135pt x 179.94232pt.
+ [78 <./ashish_thesis/tepx_D4_3foldcoin_allpu.png> <./ashish_thesis/tepx_D4_3fo
+ldcoin_lowpu.png>] [79 <./ashish_thesis/oldvariable_xy.png> <./ashish_thesis/ov
+erlap_modules2_Ring1.png>] [80 <./ashish_thesis/twofoldcoin_inphi_PU0p5_200.png
+> <./ashish_thesis/twofoldcoin_cluster_y.png> <./ashish_thesis/cut_optimization
+_twofoldcoin.png>]
+<ashish_thesis/dr_dphi_variables.png, id=1107, 1057.9525pt x 483.30562pt>
+File: ashish_thesis/dr_dphi_variables.png Graphic file (type png)
+<use ashish_thesis/dr_dphi_variables.png>
+Package pdftex.def Info: ashish_thesis/dr_dphi_variables.png  used on input lin
+e 318.
+(pdftex.def)             Requested size: 426.79135pt x 194.97073pt.
+<ashish_thesis/new_variables.png, id=1108, 854.69313pt x 482.80376pt>
+File: ashish_thesis/new_variables.png Graphic file (type png)
+<use ashish_thesis/new_variables.png>
+Package pdftex.def Info: ashish_thesis/new_variables.png  used on input line 32
+8.
+(pdftex.def)             Requested size: 426.79135pt x 241.0845pt.
+<ashish_thesis/deltaR.png, id=1109, 1086.55937pt x 404.51125pt>
+File: ashish_thesis/deltaR.png Graphic file (type png)
+<use ashish_thesis/deltaR.png>
+Package pdftex.def Info: ashish_thesis/deltaR.png  used on input line 338.
+(pdftex.def)             Requested size: 426.79135pt x 158.88828pt.
+<ashish_thesis/delta_r.png, id=1110, 1087.56313pt x 404.00937pt>
+File: ashish_thesis/delta_r.png Graphic file (type png)
+<use ashish_thesis/delta_r.png>
+Package pdftex.def Info: ashish_thesis/delta_r.png  used on input line 348.
+(pdftex.def)             Requested size: 426.79135pt x 158.5432pt.
+<ashish_thesis/dphi.png, id=1111, 1078.52937pt x 401.5pt>
+File: ashish_thesis/dphi.png Graphic file (type png)
+<use ashish_thesis/dphi.png>
+Package pdftex.def Info: ashish_thesis/dphi.png  used on input line 358.
+(pdftex.def)             Requested size: 426.79135pt x 158.88176pt.
+<ashish_thesis/D4R1_S2_drdphi_cut.png, id=1112, 1090.57437pt x 423.08063pt>
+File: ashish_thesis/D4R1_S2_drdphi_cut.png Graphic file (type png)
+<use ashish_thesis/D4R1_S2_drdphi_cut.png>
+Package pdftex.def Info: ashish_thesis/D4R1_S2_drdphi_cut.png  used on input li
+ne 368.
+(pdftex.def)             Requested size: 426.79135pt x 165.56888pt.
+<ashish_thesis/D4R2_S2_drdphicut.png, id=1113, 1093.08376pt x 434.12187pt>
+File: ashish_thesis/D4R2_S2_drdphicut.png Graphic file (type png)
+<use ashish_thesis/D4R2_S2_drdphicut.png>
+Package pdftex.def Info: ashish_thesis/D4R2_S2_drdphicut.png  used on input lin
+e 379.
+(pdftex.def)             Requested size: 426.79135pt x 169.49895pt.
+<ashish_thesis/D4R3_S2_drdphi_cut.png, id=1114, 1091.57813pt x 425.08812pt>
+File: ashish_thesis/D4R3_S2_drdphi_cut.png Graphic file (type png)
+<use ashish_thesis/D4R3_S2_drdphi_cut.png>
+Package pdftex.def Info: ashish_thesis/D4R3_S2_drdphi_cut.png  used on input li
+ne 389.
+(pdftex.def)             Requested size: 426.79135pt x 166.2053pt.
+<ashish_thesis/D4R5_drdphicut.png, id=1115, 1075.51813pt x 429.10312pt>
+File: ashish_thesis/D4R5_drdphicut.png Graphic file (type png)
+<use ashish_thesis/D4R5_drdphicut.png>
+Package pdftex.def Info: ashish_thesis/D4R5_drdphicut.png  used on input line 3
+99.
+(pdftex.def)             Requested size: 426.79135pt x 170.2763pt.
+<ashish_thesis/D4R1S2_fit.png, id=1116, 676.5275pt x 346.79562pt>
+File: ashish_thesis/D4R1S2_fit.png Graphic file (type png)
+<use ashish_thesis/D4R1S2_fit.png>
+Package pdftex.def Info: ashish_thesis/D4R1S2_fit.png  used on input line 409.
+(pdftex.def)             Requested size: 426.79135pt x 218.78401pt.
+<ashish_thesis/D4R1S2_dr_dphi_cut.png, id=1117, 1090.0725pt x 428.09938pt>
+File: ashish_thesis/D4R1S2_dr_dphi_cut.png Graphic file (type png)
+<use ashish_thesis/D4R1S2_dr_dphi_cut.png>
+Package pdftex.def Info: ashish_thesis/D4R1S2_dr_dphi_cut.png  used on input li
+ne 419.
+(pdftex.def)             Requested size: 426.79135pt x 167.6113pt.
+<ashish_thesis/D4R2S2_dr_dphi_cut.png, id=1118, 1086.55937pt x 432.61626pt>
+File: ashish_thesis/D4R2S2_dr_dphi_cut.png Graphic file (type png)
+<use ashish_thesis/D4R2S2_dr_dphi_cut.png>
+Package pdftex.def Info: ashish_thesis/D4R2S2_dr_dphi_cut.png  used on input li
+ne 430.
+(pdftex.def)             Requested size: 426.79135pt x 169.92767pt.
+<ashish_thesis/D4R3S2_dr_dphi_cut.png, id=1119, 1094.58937pt x 445.16313pt>
+File: ashish_thesis/D4R3S2_dr_dphi_cut.png Graphic file (type png)
+<use ashish_thesis/D4R3S2_dr_dphi_cut.png>
+Package pdftex.def Info: ashish_thesis/D4R3S2_dr_dphi_cut.png  used on input li
+ne 440.
+(pdftex.def)             Requested size: 426.79135pt x 173.57216pt.
+<ashish_thesis/D4R4S2_dr_dphi_cut.png, id=1120, 1084.55188pt x 429.605pt>
+File: ashish_thesis/D4R4S2_dr_dphi_cut.png Graphic file (type png)
+<use ashish_thesis/D4R4S2_dr_dphi_cut.png>
+Package pdftex.def Info: ashish_thesis/D4R4S2_dr_dphi_cut.png  used on input li
+ne 451.
+(pdftex.def)             Requested size: 426.79135pt x 169.05952pt.
+<ashish_thesis/D4R5S2_dr_dphi_cut.png, id=1121, 1092.08pt x 425.08812pt>
+File: ashish_thesis/D4R5S2_dr_dphi_cut.png Graphic file (type png)
+<use ashish_thesis/D4R5S2_dr_dphi_cut.png>
+Package pdftex.def Info: ashish_thesis/D4R5S2_dr_dphi_cut.png  used on input li
+ne 462.
+(pdftex.def)             Requested size: 426.79135pt x 166.12747pt.
+<ashish_thesis/D4R1S2_fit_PU0p5.png, id=1122, 694.595pt x 356.83313pt>
+File: ashish_thesis/D4R1S2_fit_PU0p5.png Graphic file (type png)
+<use ashish_thesis/D4R1S2_fit_PU0p5.png>
+Package pdftex.def Info: ashish_thesis/D4R1S2_fit_PU0p5.png  used on input line
+ 472.
+(pdftex.def)             Requested size: 426.79135pt x 219.26321pt.
+<ashish_thesis/D4R5_fit_PU0p5.png, id=1123, 679.53876pt x 356.83313pt>
+File: ashish_thesis/D4R5_fit_PU0p5.png Graphic file (type png)
+<use ashish_thesis/D4R5_fit_PU0p5.png>
+Package pdftex.def Info: ashish_thesis/D4R5_fit_PU0p5.png  used on input line 4
+82.
+(pdftex.def)             Requested size: 426.79135pt x 224.11456pt.
+<ashish_thesis/2foldinR.png, id=1124, 498.86375pt x 758.835pt>
+File: ashish_thesis/2foldinR.png Graphic file (type png)
+<use ashish_thesis/2foldinR.png>
+Package pdftex.def Info: ashish_thesis/2foldinR.png  used on input line 551.
+(pdftex.def)             Requested size: 213.39568pt x 324.60217pt.
+<ashish_thesis/moduleoverlapinR_1.png, id=1125, 1098.1025pt x 474.77374pt>
+File: ashish_thesis/moduleoverlapinR_1.png Graphic file (type png)
+<use ashish_thesis/moduleoverlapinR_1.png>
+Package pdftex.def Info: ashish_thesis/moduleoverlapinR_1.png  used on input li
+ne 583.
+(pdftex.def)             Requested size: 426.79135pt x 184.5235pt.
+<ashish_thesis/twofoldinRmethod.png, id=1126, 801.99625pt x 464.73625pt>
+File: ashish_thesis/twofoldinRmethod.png Graphic file (type png)
+<use ashish_thesis/twofoldinRmethod.png>
+Package pdftex.def Info: ashish_thesis/twofoldinRmethod.png  used on input line
+ 595.
+(pdftex.def)             Requested size: 426.79135pt x 247.316pt.
+<ashish_thesis/moduleoverlapfortwofoldinR.png, id=1127, 819.06pt x 540.0175pt>
+File: ashish_thesis/moduleoverlapfortwofoldinR.png Graphic file (type png)
+<use ashish_thesis/moduleoverlapfortwofoldinR.png>
+Package pdftex.def Info: ashish_thesis/moduleoverlapfortwofoldinR.png  used on 
+input line 606.
+(pdftex.def)             Requested size: 426.79135pt x 281.39575pt.
+<ashish_thesis/onetoonemoduleoverlap2xinR_table.png, id=1128, 1151.30125pt x 62
+1.32124pt>
+File: ashish_thesis/onetoonemoduleoverlap2xinR_table.png Graphic file (type png
+)
+<use ashish_thesis/onetoonemoduleoverlap2xinR_table.png>
+Package pdftex.def Info: ashish_thesis/onetoonemoduleoverlap2xinR_table.png  us
+ed on input line 617.
+(pdftex.def)             Requested size: 426.79135pt x 230.32137pt.
+<ashish_thesis/l1l2_2xinr.png, id=1129, 787.94376pt x 452.69125pt>
+File: ashish_thesis/l1l2_2xinr.png Graphic file (type png)
+<use ashish_thesis/l1l2_2xinr.png>
+Package pdftex.def Info: ashish_thesis/l1l2_2xinr.png  used on input line 628.
+(pdftex.def)             Requested size: 426.79135pt x 245.19563pt.
+<ashish_thesis/l3l4_2xinr.png, id=1130, 801.99625pt x 459.7175pt>
+File: ashish_thesis/l3l4_2xinr.png Graphic file (type png)
+<use ashish_thesis/l3l4_2xinr.png>
+Package pdftex.def Info: ashish_thesis/l3l4_2xinr.png  used on input line 637.
+(pdftex.def)             Requested size: 426.79135pt x 244.6452pt.
+<ashish_thesis/l1l2_l3l4_2xinr.png, id=1131, 814.04124pt x 469.755pt>
+File: ashish_thesis/l1l2_l3l4_2xinr.png Graphic file (type png)
+<use ashish_thesis/l1l2_l3l4_2xinr.png>
+Package pdftex.def Info: ashish_thesis/l1l2_l3l4_2xinr.png  used on input line 
+648.
+(pdftex.def)             Requested size: 426.79135pt x 246.28818pt.
+<ashish_thesis/XY_map_2xinphi_2xinr.png, id=1132, 1146.2825pt x 464.73625pt>
+File: ashish_thesis/XY_map_2xinphi_2xinr.png Graphic file (type png)
+<use ashish_thesis/XY_map_2xinphi_2xinr.png>
+Package pdftex.def Info: ashish_thesis/XY_map_2xinphi_2xinr.png  used on input 
+line 658.
+(pdftex.def)             Requested size: 426.79135pt x 173.03468pt.
+<ashish_thesis/l1l2_dr_dphi_D4R1S2.png, id=1133, 1168.365pt x 469.755pt>
+File: ashish_thesis/l1l2_dr_dphi_D4R1S2.png Graphic file (type png)
+<use ashish_thesis/l1l2_dr_dphi_D4R1S2.png>
+Package pdftex.def Info: ashish_thesis/l1l2_dr_dphi_D4R1S2.png  used on input l
+ine 669.
+(pdftex.def)             Requested size: 426.79135pt x 171.59892pt.
+<ashish_thesis/l1l2_drdphi_2xinr_PU200.png, id=1134, 1185.42876pt x 467.7475pt>
+
+File: ashish_thesis/l1l2_drdphi_2xinr_PU200.png Graphic file (type png)
+<use ashish_thesis/l1l2_drdphi_2xinr_PU200.png>
+Package pdftex.def Info: ashish_thesis/l1l2_drdphi_2xinr_PU200.png  used on inp
+ut line 678.
+(pdftex.def)             Requested size: 426.79135pt x 168.40323pt.
+File: ashish_thesis/l1l2_drdphi_2xinr_PU200.png Graphic file (type png)
+<use ashish_thesis/l1l2_drdphi_2xinr_PU200.png>
+Package pdftex.def Info: ashish_thesis/l1l2_drdphi_2xinr_PU200.png  used on inp
+ut line 688.
+(pdftex.def)             Requested size: 426.79135pt x 168.40323pt.
+<ashish_thesis/fit_l1l2_dr_2xinr.png, id=1135, 650.43pt x 447.6725pt>
+File: ashish_thesis/fit_l1l2_dr_2xinr.png Graphic file (type png)
+<use ashish_thesis/fit_l1l2_dr_2xinr.png>
+Package pdftex.def Info: ashish_thesis/fit_l1l2_dr_2xinr.png  used on input lin
+e 699.
+(pdftex.def)             Requested size: 426.79135pt x 293.75702pt.
+<ashish_thesis/fit_l3l4_dr_2xinr.png.png, id=1136, 655.44875pt x 428.60126pt>
+File: ashish_thesis/fit_l3l4_dr_2xinr.png.png Graphic file (type png)
+<use ashish_thesis/fit_l3l4_dr_2xinr.png.png>
+Package pdftex.def Info: ashish_thesis/fit_l3l4_dr_2xinr.png.png  used on input
+ line 710.
+(pdftex.def)             Requested size: 426.79135pt x 279.08455pt.
+<ashish_thesis/residuaL_L1L2_L3L4_2xinr.png, id=1137, 1187.43625pt x 505.89pt>
+File: ashish_thesis/residuaL_L1L2_L3L4_2xinr.png Graphic file (type png)
+<use ashish_thesis/residuaL_L1L2_L3L4_2xinr.png>
+Package pdftex.def Info: ashish_thesis/residuaL_L1L2_L3L4_2xinr.png  used on in
+put line 721.
+(pdftex.def)             Requested size: 426.79135pt x 181.82692pt.
+
+Excluding 'comment' comment.
+<ashish_thesis/D4R1S2_linear_fit_twofoldcoin.png, id=1138, 1115.66812pt x 471.2
+6062pt>
+File: ashish_thesis/D4R1S2_linear_fit_twofoldcoin.png Graphic file (type png)
+<use ashish_thesis/D4R1S2_linear_fit_twofoldcoin.png>
+Package pdftex.def Info: ashish_thesis/D4R1S2_linear_fit_twofoldcoin.png  used 
+on input line 873.
+(pdftex.def)             Requested size: 426.79135pt x 180.27458pt.
+<ashish_thesis/Alldisk_S1_twofoldcoin_residuals.png, id=1139, 1104.125pt x 462.
+72874pt>
+File: ashish_thesis/Alldisk_S1_twofoldcoin_residuals.png Graphic file (type png
+)
+<use ashish_thesis/Alldisk_S1_twofoldcoin_residuals.png>
+Package pdftex.def Info: ashish_thesis/Alldisk_S1_twofoldcoin_residuals.png  us
+ed on input line 883.
+(pdftex.def)             Requested size: 426.79135pt x 178.86777pt.
+<ashish_thesis/Alldisk_S2_twofoldcoin_residuals.png, id=1140, 1113.15875pt x 46
+5.23813pt>
+File: ashish_thesis/Alldisk_S2_twofoldcoin_residuals.png Graphic file (type png
+)
+<use ashish_thesis/Alldisk_S2_twofoldcoin_residuals.png>
+Package pdftex.def Info: ashish_thesis/Alldisk_S2_twofoldcoin_residuals.png  us
+ed on input line 895.
+(pdftex.def)             Requested size: 426.79135pt x 178.37538pt.
+<ashish_thesis/D4R1_z_dr_dphi_total_fake_twofold.png, id=1141, 1432.85312pt x 4
+40.14438pt>
+File: ashish_thesis/D4R1_z_dr_dphi_total_fake_twofold.png Graphic file (type pn
+g)
+<use ashish_thesis/D4R1_z_dr_dphi_total_fake_twofold.png>
+Package pdftex.def Info: ashish_thesis/D4R1_z_dr_dphi_total_fake_twofold.png  u
+sed on input line 905.
+(pdftex.def)             Requested size: 426.79135pt x 131.09737pt.
+<ashish_thesis/D4R5_z_dr_dphi_twofoldcoin_total_fake.png, id=1142, 1419.80438pt
+ x 436.12938pt>
+File: ashish_thesis/D4R5_z_dr_dphi_twofoldcoin_total_fake.png Graphic file (typ
+e png)
+<use ashish_thesis/D4R5_z_dr_dphi_twofoldcoin_total_fake.png>
+Package pdftex.def Info: ashish_thesis/D4R5_z_dr_dphi_twofoldcoin_total_fake.pn
+g  used on input line 916.
+(pdftex.def)             Requested size: 426.79135pt x 131.09935pt.
+<ashish_thesis/fake_rate_D4allring.png, id=1143, 886.81313pt x 473.26813pt>
+File: ashish_thesis/fake_rate_D4allring.png Graphic file (type png)
+<use ashish_thesis/fake_rate_D4allring.png>
+Package pdftex.def Info: ashish_thesis/fake_rate_D4allring.png  used on input l
+ine 927.
+(pdftex.def)             Requested size: 298.75264pt x 159.43585pt.
+
+Overfull \hbox (209.6227pt too wide) in paragraph at lines 956--970
+ [][] 
+ []
+
+
+Overfull \hbox (273.24548pt too wide) in paragraph at lines 978--992
+ [][] 
+ []
+
+<ashish_thesis/D4R1_fake_true_ratio.png, id=1144, 1454.43375pt x 470.75874pt>
+File: ashish_thesis/D4R1_fake_true_ratio.png Graphic file (type png)
+<use ashish_thesis/D4R1_fake_true_ratio.png>
+Package pdftex.def Info: ashish_thesis/D4R1_fake_true_ratio.png  used on input 
+line 996.
+(pdftex.def)             Requested size: 426.79135pt x 138.13994pt.
+<ashish_thesis/D4R5_fake_true_ratio.png, id=1145, 1446.40375pt x 469.25313pt>
+File: ashish_thesis/D4R5_fake_true_ratio.png Graphic file (type png)
+<use ashish_thesis/D4R5_fake_true_ratio.png>
+Package pdftex.def Info: ashish_thesis/D4R5_fake_true_ratio.png  used on input 
+line 1006.
+(pdftex.def)             Requested size: 298.75264pt x 96.92068pt.
+
+LaTeX Warning: File `./2foldinrphi.png' not found on input line 1015.
+
+
+! Package pdftex.def Error: File `./2foldinrphi.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1015 ...idth=0.7\columnwidth]{./2foldinrphi.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[81 <./ashish_thesis/cut_optimization_residual.png>] [82 <./ashish_thesis/dr_dp
+hi_variables.png> <./ashish_thesis/new_variables.png>] [83 <./ashish_thesis/del
+taR.png> <./ashish_thesis/delta_r.png> <./ashish_thesis/dphi.png>] [84 <./ashis
+h_thesis/D4R1_S2_drdphi_cut.png> <./ashish_thesis/D4R2_S2_drdphicut.png>]
+[85 <./ashish_thesis/D4R3_S2_drdphi_cut.png> <./ashish_thesis/D4R5_drdphicut.pn
+g>] [86 <./ashish_thesis/D4R1S2_fit.png> <./ashish_thesis/D4R1S2_dr_dphi_cut.pn
+g>] [87 <./ashish_thesis/D4R2S2_dr_dphi_cut.png> <./ashish_thesis/D4R3S2_dr_dph
+i_cut.png>] [88 <./ashish_thesis/D4R4S2_dr_dphi_cut.png> <./ashish_thesis/D4R5S
+2_dr_dphi_cut.png>] [89 <./ashish_thesis/D4R1S2_fit_PU0p5.png> <./ashish_thesis
+/D4R5_fit_PU0p5.png>] [90 <./ashish_thesis/2foldinR.png>] [91 <./ashish_thesis/
+moduleoverlapinR_1.png> <./ashish_thesis/twofoldinRmethod.png>] [92 <./ashish_t
+hesis/moduleoverlapfortwofoldinR.png> <./ashish_thesis/onetoonemoduleoverlap2xi
+nR_table.png>] [93 <./ashish_thesis/l1l2_2xinr.png> <./ashish_thesis/l3l4_2xinr
+.png>] [94 <./ashish_thesis/l1l2_l3l4_2xinr.png> <./ashish_thesis/XY_map_2xinph
+i_2xinr.png>] [95 <./ashish_thesis/l1l2_dr_dphi_D4R1S2.png> <./ashish_thesis/l1
+l2_drdphi_2xinr_PU200.png>] [96 <./ashish_thesis/fit_l1l2_dr_2xinr.png> <./ashi
+sh_thesis/fit_l3l4_dr_2xinr.png.png>] [97 <./ashish_thesis/residuaL_L1L2_L3L4_2
+xinr.png> <./ashish_thesis/D4R1S2_linear_fit_twofoldcoin.png> <./ashish_thesis/
+Alldisk_S1_twofoldcoin_residuals.png>] [98 <./ashish_thesis/Alldisk_S2_twofoldc
+oin_residuals.png> <./ashish_thesis/D4R1_z_dr_dphi_total_fake_twofold.png> <./a
+shish_thesis/D4R5_z_dr_dphi_twofoldcoin_total_fake.png>] [99 <./ashish_thesis/f
+ake_rate_D4allring.png>] [100 <./ashish_thesis/D4R1_fake_true_ratio.png> <./ash
+ish_thesis/D4R5_fake_true_ratio.png>]
+
+LaTeX Warning: File `./23coin.png' not found on input line 1022.
+
+
+! Package pdftex.def Error: File `./23coin.png' not found: using draft setting.
+
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1022 ...ics[width=0.6\columnwidth]{./23coin.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[101]
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1031--1032
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
+
+ []
+
+
+LaTeX Warning: File `./totalclusters.png' not found on input line 1040.
+
+
+! Package pdftex.def Error: File `./totalclusters.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1040 ...idth=1\columnwidth]{./totalclusters.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[102]
+
+LaTeX Warning: File `./clustersD4R1.png' not found on input line 1049.
+
+
+! Package pdftex.def Error: File `./clustersD4R1.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1049 ...width=1\columnwidth]{./clustersD4R1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[103]
+
+LaTeX Warning: File `./clustersperdisk+z.png' not found on input line 1058.
+
+
+! Package pdftex.def Error: File `./clustersperdisk+z.png' not found: using dra
+ft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1058 ...1 \columnwidth]{./clustersperdisk+z.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[104]
+
+LaTeX Warning: File `./clustersperringD+4.png' not found on input line 1068.
+
+
+! Package pdftex.def Error: File `./clustersperringD+4.png' not found: using dr
+aft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1068 ...1\columnwidth]{./clustersperringD+4.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[105]
+
+LaTeX Warning: File `./totalcoincidences.png' not found on input line 1076.
+
+
+! Package pdftex.def Error: File `./totalcoincidences.png' not found: using dra
+ft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1076 ...1 \columnwidth]{./totalcoincidences.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[106]
+
+LaTeX Warning: File `./totalcoincidencesD4R1.png' not found on input line 1084.
+
+
+
+! Package pdftex.def Error: File `./totalcoincidencesD4R1.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1084 ...olumnwidth]{./totalcoincidencesD4R1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[107]
+
+LaTeX Warning: File `./coincidencesperdisk+z.png' not found on input line 1095.
+
+
+
+! Package pdftex.def Error: File `./coincidencesperdisk+z.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1095 ...olumnwidth]{./coincidencesperdisk+z.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[108]
+
+LaTeX Warning: File `./coincidencesinphiD4R1z+.png' not found on input line 110
+3.
+
+
+! Package pdftex.def Error: File `./coincidencesinphiD4R1z+.png' not found: usi
+ng draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1103 ...umnwidth]{./coincidencesinphiD4R1z+.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[109]
+
+LaTeX Warning: File `./coincidencesinrD4R1z+.png' not found on input line 1112.
+
+
+
+! Package pdftex.def Error: File `./coincidencesinrD4R1z+.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1112 ...olumnwidth]{./coincidencesinrD4R1z+.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[110]
+
+LaTeX Warning: File `./coincidencesperringD+4.png' not found on input line 1123
+.
+
+
+! Package pdftex.def Error: File `./coincidencesperringD+4.png' not found: usin
+g draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1123 ...lumnwidth]{./coincidencesperringD+4.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[111]
+
+LaTeX Warning: File `./coincidencesinphiperringD+4.png' not found on input line
+ 1137.
+
+
+! Package pdftex.def Error: File `./coincidencesinphiperringD+4.png' not found:
+ using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1137 ...idth]{./coincidencesinphiperringD+4.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[112]
+
+LaTeX Warning: File `./coincidencesinrperringD+4.png' not found on input line 1
+148.
+
+
+! Package pdftex.def Error: File `./coincidencesinrperringD+4.png' not found: u
+sing draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1148 ...nwidth]{./coincidencesinrperringD+4.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[113]
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+
+ []
+
+[114] [115]
+Overfull \hbox (43.58209pt too wide) in paragraph at lines 1187--1188
+ [] 
+ []
+
+
+Overfull \hbox (67.91812pt too wide) in paragraph at lines 1215--1216
+ [] 
+ []
+
+[116] Excluding 'comment' comment.) [117]
+\openout2 = `Chapter8/chapter8.aux'.
+
+ (./Chapter8/chapter8.tex) [118
+
+
+
+]
+(./thesis.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 8.
+
+) [119
+
+
+
+
+] (./thesis.ind)
+
+Package natbib Warning: There were undefined citations.
+
+(./thesis.aux (./Portada/Portada.aux) (./Abstract/abstract.aux)
+(./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux)
+(./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux) (./Chapter6/chapter6.aux)
+(./Chapter7/chapter7.aux) (./Chapter8/chapter8.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 8699AFFDAD9B15760536BDDDDEBA91AE;12830.
+ ) 
+Here is how much of TeX's memory you used:
+ 45050 strings out of 478268
+ 1045952 string characters out of 5846347
+ 1457108 words of memory out of 5000000
+ 61588 multiletter control sequences out of 15000+600000
+ 565208 words of font info for 297 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 125i,18n,120p,3753b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/20
+22/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2022
+/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist
+/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
+1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on thesis.pdf (133 pages, 34948841 bytes).
+PDF statistics:
+ 1474 PDF objects out of 1728 (max. 8388607)
+ 1103 compressed objects within 12 object streams
+ 341 named destinations out of 1000 (max. 500000)
+ 88991 words of extra memory for PDF output out of 89155 (max. 10000000)
+
