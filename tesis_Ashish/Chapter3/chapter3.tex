@@ -9,12 +9,23 @@
 %\section{PCC luminometer calibration}
 %\label{sec:vdMcab}
 
-One widely used method for the calibration of luminosity measurement devices is the van der Meer (VdM) scan. This method is named after Simon van der Meer, a Dutch physicist and Nobel laureate, who developed the technique in the 1960s. van der Meer calibration is a technique used to determine the absolute luminosity of colliding beams in particle accelerators. It involves scanning the beams across each other in the horizontal and vertical planes to measure the beam overlap integral, which is proportional to the luminosity. The first step in the VdM calibration is to scan the colliding beams across each other. This is done by displacing the beams in the horizontal (x) and vertical (y) planes independently while keeping the other direction fixed. The scans are performed at several different positions along the collision point, creating a series of data points for each plane. The data points collected during the scans are then fitted with Gaussian function or other suitable function like double gaussian, Poly2G, Poly4G, etc to determine the beam overlap integrals in the x and y directions. The product of the integrals in the two planes yields the total beam overlap integral. %The event rate is proportional to the luminosity and is given by the product of the cross-section ($\sigma$) and luminosity. 
-The beam overlap integral is the integral of the product of the beam overlap width in the horizontal and vertical planes over the entire interaction region. It is an essential parameter in determining the absolute luminosity. 
+%One of the widely used method for the calibration of luminosity measurement devices is the van der Meer (VdM) scan method.
+A prevalent technique for calibrating luminosity measurement devices is the van der Meer (VdM) scan method. This method is named after Simon van der Meer, a Dutch physicist and Nobel laureate, who developed the technique in the 1960s. These scans are performed to relate the collision rate of a given luminometer to the absolute luminosity determined from the measured beam parameters. The proportionality constant is called the visible cross section. It involves scanning the beams across each other in the horizontal and vertical planes to measure the beam overlap integral, which is proportional to the luminosity. The first step in the VdM calibration is to scan the colliding beams across each other. This is done by displacing the beams in the horizontal (x) and vertical (y) planes independently while keeping the other direction fixed as shown in left part of Fig. \ref{fig:vdm_scan_method}. The scans are performed at several different positions along the collision point, creating a series of data points for each plane. The data points collected during the scans are then fitted with Gaussian function or other suitable function like double gaussian, Poly2G, Poly4G, etc as shown in right part of Fig. \ref{fig:vdm_scan_method}  to determine the beam overlap integrals in the x and y directions. The product of the integrals in the two planes yields the total beam overlap integral. %The event rate is proportional to the luminosity and is given by the product of the cross-section ($\sigma$) and luminosity. 
+The beam overlap integral is the integral of the product of the beam overlap width in the horizontal and vertical planes over the entire interaction region \cite{vanderMeer1968}. It is an essential parameter in determining the absolute luminosity. 
 
-\section{van der Meer (vdM) calibration}
 
-van der Meer (vdM) scans are done to measure change in rate as a function of beam overlap that is used to determine the visible cross section $\sigma_{vis}$ of the pixel detector which is a calibration constant in the relation between rate of a quantity (clusters, coincidences) read out by the detector and the instantaneous luminosity. 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{ashish_thesis/vdm_method.png}
+    \caption[Schematic of van der Meer scan]{Left: Scanning the beams across each other (±3$\sigma$) in the transverse plane, horizontal (x-scan) and vertical (y-scan) directions. Right: Rate is measured as a function of beam separation}
+    \label{fig:vdm_scan_method}
+\end{figure}
+
+
+
+\section{van der Meer (vdM) method}
+
+In the van der Meer (vdM) scans,  rate is plotted as a function of beam overlap widths along x and y directions that is used to determine the visible cross section $\sigma_{vis}$ of the pixel detector which is a calibration constant in the relation between rate of a quantity (clusters, coincidences) read out by the detector and the instantaneous luminosity. 
 
 The instantaneous luminosity  per bunch crossing when the crossing angle between the colliding bunches is negligible and bunches collide head on is given by the following integral \cite{CMS-PAS-LUM-13-001}, 
 
@@ -22,7 +33,7 @@ The instantaneous luminosity  per bunch crossing when the crossing angle between
 L_{b} = N_1 N_2 f \int^{+\infty}_{-\infty} \rho_1(x,y) \rho_2(x+\Delta x, y+\Delta y) dx dy 
 \end{equation}
 
-where $N_1, N_2$ are the number of protons in the colliding bunches, f is the LHC orbit frequency whose value is 11246Hz,  $\rho_1(x,y)$ and $\rho_2(x+\Delta x,y+\Delta y)$ are the two dimensional particle density distribution functions for each colliding bunch separated by $\Delta x$ and $\Delta y$ in x and y directions. 
+where $N_1, N_2$ are the number of protons in the colliding bunches, f is the LHC orbit frequency whose value is 11246Hz,  $\rho_1(x,y)$ and $\rho_2(x+\Delta x,y+\Delta y)$ are the two dimensional particle density distribution functions for each colliding bunch separated by $\Delta x$ and $\Delta y$ in x and y directions  \cite{CMS-PAS-LUM-17-004}. 
 
 Assuming complete factorization of particle density distribution function along x and y directions for both the bunches, we get 
 
@@ -93,10 +104,32 @@ where L is the luminosity, $f_{rev}$ is the revolution frequency of the beams, $
 \end{itemize}
 \end{comment}
 
+The calibration of luminosity measurement by the CMS experiment in the 2018 proton-proton data taking at √s = 13 TeV was performed during
+
+
+LHC fill 6868 on June 30 and July 1, 2018 at √s = 13 TeV
+
+Zero-bias triggers on 5 bunch pairs (BCIDs 265, 865, 1780, 2192, and 3380)
+
+recorded events rate is 27.7 kHz. 
+
+
+vdM scans are typically conducted at least once a year to ensure the luminometer is correctly calibrated. Results of these scans are used to normalize the data collected by the experiments during physics run.
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{ashish_thesis/vdm_program_2018.png}
+    \caption[2018 vdM program]{Beam position along x and y is plotted as a function of time showing different types of scans. #3 and #10 are vdM scans, #4 and #9 are offset scans, #5, #7 and #8 are beam imaging scans, #6 is emittance scan.
+}
+    \label{fig:vdm_prog_2018}
+\end{figure}
+
+
 
 \section{Background Estimation}
 
-Background contributions can arise from several sources, such as beam-gas interactions, electronic noise, cosmic rays, or other processes that produce signals in the detectors. These contributions can affect the precision of the luminosity measurement and lead to systematic uncertainties in the calibration. Beam-separation scans can be performed with increased beam separations (i.e., with the beams not fully overlapped). These scans can provide an estimate of the background contributions when the beams are not colliding. Sources of machine induced backgrounds are as follows,
+Background contributions can arise from several sources, such as beam-gas interactions, electronic noise, cosmic rays, or other processes that produce signals in the detectors. These contributions can affect the precision of the luminosity measurement and lead to systematic uncertainties in the calibration. Beam-separation scans are performed with increased beam separations (i.e., with the beams not fully overlapped). These scans can provide an estimate of the background contributions when the beams are not colliding. Sources of machine induced backgrounds are described below.
 
 \begin{itemize}
 
@@ -111,7 +144,7 @@ Background contributions can arise from several sources, such as beam-gas intera
 
 \section{vdM fit model}
 
-The poly2G model, or the "polynomial plus two Gaussians" model, is a fitting function that combines a second-order polynomial function and two Gaussian functions. It is a versatile and flexible model that can be used to fit various types of data, including the PCC rate plot in the context of the Van der Meer (VdM) calibration process. In a PCC rate plot, the event rate is plotted as a function of the beam separation. The poly2G model can be employed to fit the PCC rate plot to extract the beam parameters, such as the beam widths and the center positions, which are essential for the luminosity measurement. The general form of the poly2G model is as follows,
+The poly2G model, or the "Gaussian function with a polynomial term" model, is a fitting function that combines a second-order polynomial function and a Gaussian function. It is a versatile and flexible model that can be used to fit various types of data, including the PCC rate plot in the context of the Van der Meer (VdM) calibration process. In a PCC rate plot, the event rate is plotted as a function of the beam separation. The poly2G model can be employed to fit the PCC rate plot to extract the beam parameters, such as the beam overlap widths and the center positions, which are essential for the luminosity measurement \cite{Cekmecelioglu:2775639}. The general form of the poly2G model is
 
 %\begin{equation}
 %F(x) = p_0 + p_1x + p_2x^2 + A_1 e^{-\frac{1}{2} \left(\frac{x - \mu_1}%{\sigma_1}\right)^2} + A_2 e^{-\frac{1}{2} \left(\frac{x - \mu_2}{\sigma_2}\right)^2}
@@ -124,6 +157,9 @@ Poly2G = Peak  \left [1+r2 \left(\frac{x-\mu} {\frac{\sigma}{1+r2}}\right)^2 \ri
 \end{equation}
 
 where Peak is the maximum PCC rate, $\mu$ is the mean, $\sigma$ and r2 are the fit parameters. 
+
+
+\begin{comment}
 
 The background estimation for the PCC rate is done with two super-separation scans SS1 and SS2. The mean and error are obtained from the $y$ projection of PCC per NB4 plotted as a function of time. The results for five different BCIDs are shown in Table~\ref{tab:vdm:SS1_SS2}, using the reprocessed PCC data for Fill 6868. The overall background correction applied to raw PCC rate is $0.02757\pm0.01987$, which is calculated by taking the average of the mean values of SS1 and SS2.
 
@@ -138,25 +174,25 @@ The background estimation for the PCC rate is done with two super-separation sca
        2192   &  0.02729  &     0.02323  \\
         3380  &  0.02882  &    0.02896   \\
       \end{tabular}
-    \caption{Mean for the background estimated with the SS1 and SS2 data, separately for all five BCIDs and averaged.}
+    \caption[Background in PCC rate]{Mean for the background estimated with the SS1 and SS2 data, separately for all five BCIDs and averaged.}
     \label{tab:vdm:SS1_SS2}
   \end{center}
 \end{table}
 
-Fig. \ref{fig:fitquality} shows chi2/ndof for vdM and imaging scans with an average value of 0.4514 where the Poly2G fit model converges for all BCIDs. Peak value and beam overlap along X and Y are extracted from fit to calculate PCC visible cross section $\sigma_{vis}$. PCC visible cross section for $2\%$ rms common module vetolist is 960.601 $\pm$ 0.851(stat.) mb.
+Fig. \ref{fig:fitquality} shows chi2/ndof for vdM and imaging scans with an average value of 0.4514 where the Poly2G fit model converges for all BCIDs. Peak value and beam overlap along X and Y are extracted from fit to calculate PCC visible cross section. PCC visible cross section for $2\%$ rms common module vetolist is 960.601 $\pm$ 0.851(stat.) mb.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{ashish_thesis/vdM_fit_cveto.png}
-    \caption{vdM fit 2\% rms common veto.}
+    \includegraphics[width=1\textwidth]{ashish_thesis/vdM_fit_cveto.png}
+    \caption[PCC rate fit]{Normalized rates and the resulting fitted poly2G scan curves as a function of the beam separation for a single bunch (BCID 865) as recorded by PCC for a scan in the x (left) and y direction (right). Background subtraction and the corrections  have been applied to the raw data before the fit.}
     \label{fig:fitquality}
 \end{figure}
 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{ashish_thesis/fit_quality_chisquare.png}
-    \caption{chi2/ndof for all vdM and imaging scans.}
+    \includegraphics[width=1\textwidth]{ashish_thesis/fit_quality_chisquare.png}
+    \caption[Fit quality]{chi2/ndof for all vdM and imaging scans.}
     \label{fig:fitquality}
 \end{figure}
 
@@ -166,14 +202,14 @@ The visible cross section per scan is averaged over all BCIDs and its scan to sc
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.7\textwidth]{ashish_thesis/sigma_vis_per_scan.png}
-    \caption{$\sigma_{vis}$ per scan where red line shows the average value.}
+    \includegraphics[width=1\textwidth]{ashish_thesis/sigma_vis_per_scan.png}
+    \caption[PCC visible cross section]{Visible cross section per scan where red line shows the average value.}
     \label{fig:sigmaperscan}
 \end{figure}
 
 
 
-
+\end{comment}
 
 
 

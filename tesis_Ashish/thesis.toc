@@ -1,50 +1,14 @@
 \thispagestyle {empty}
-\contentsline {chapter}{List of figures}{v}{section*.2}%
-\contentsline {chapter}{List of tables}{xiv}{section*.3}%
-\contentsline {chapter}{\numberline {1}Introduction to collider experiments}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Luminosity and its importance in particle physics}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Motivation for precision luminosity measurement}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Large Hadron Collider (LHC) and the CMS Experiment}{3}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Run 1 and Run 2 luminosity measurement}{8}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Luminosity measurement at CMS experiment}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Luminosity measurement methods}{10}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Pixel detector}{15}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Pixel cluster counting (PCC) method}{17}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Advantages of the pixel cluster counting method}{21}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Previous studies related to PCC luminosity measurement}{23}{section.2.5}%
-\contentsline {chapter}{\numberline {3}PCC luminometer calibration}{25}{chapter.3}%
-\contentsline {section}{\numberline {3.1}van der Meer (vdM) calibration}{25}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Background Estimation}{27}{section.3.2}%
-\contentsline {section}{\numberline {3.3}vdM fit model}{28}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Methodology}{31}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Datasets}{31}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Software tools}{36}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Pixel module veto list}{40}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Afterglow corrections}{49}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Systematic uncertainty in PCC luminosity measurement}{51}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Uncertainties associated with the Van der Meer calibration}{51}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Uncertainties associated with physics data taking}{52}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Comparison of PCC with HFOC luminosity}{53}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Results}{54}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Luminosity measurement results using the pixel cluster counting method}{54}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Comparison of the luminosity results for different module veto list}{54}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Comparison of the results with other luminosity measurement techniques}{54}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Final uncertainties in PCC luminosity measurement}{54}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Phase II upgrade of the CMS Tracker}{67}{chapter.7}%
-\contentsline {section}{\numberline {7.1}New Inner tracker and its features}{70}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Phase II TEPX detector}{70}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Phase II CMS simulation samples}{72}{subsection.7.2.1}%
-\contentsline {section}{\numberline {7.3}Luminosity determination using TEPX - counting clusters/coincidences}{75}{section.7.3}%
-\contentsline {subsubsection}{Old algorithm for counting TEPX two fold coincidences}{81}{section*.77}%
-\contentsline {subsection}{\numberline {7.3.1}New algorithm for counting TEPX two fold coincidences}{81}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}TEPX two fold coincidences in phi}{81}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}TEPX two fold coincidences in R}{101}{subsection.7.3.3}%
-\contentsline {subsection}{\numberline {7.3.4}TEPX linearity}{102}{subsection.7.3.4}%
-\contentsline {subsection}{\numberline {7.3.5}Statistical precision for TEPX luminometer}{114}{subsection.7.3.5}%
-\contentsline {section}{\numberline {7.4}Summary of the planned upgrade schedule}{116}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Summary and Plans}{118}{section.7.5}%
-\contentsline {subsection}{\numberline {7.5.1}Summary of the study and its findings}{118}{subsection.7.5.1}%
-\contentsline {subsection}{\numberline {7.5.2}Limitations and potential improvements of the pixel cluster counting method}{118}{subsection.7.5.2}%
-\contentsline {subsection}{\numberline {7.5.3}Future work related to luminosity measurement at the LHC}{118}{subsection.7.5.3}%
-\contentsline {subsection}{\numberline {7.5.4}Conclusion and final remarks}{118}{subsection.7.5.4}%
-\contentsline {chapter}{References}{119}{chapter*.145}%
+\contentsline {chapter}{List of figures}{iv}{section*.2}%
+\contentsline {chapter}{List of tables}{vi}{section*.3}%
+\contentsline {chapter}{\numberline {1}Run 2 Luminosity Measurement}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Datasets}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Software tools}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Module Selection}{11}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Afterglow Model}{19}{section.1.4}%
+\contentsline {section}{\numberline {1.5}vdM Calibration Results}{21}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Luminosity for Physics Fills}{21}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Systematic Uncertainties}{21}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Uncertainties associated with the Van der Meer calibration}{21}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Uncertainties associated with physics data taking}{23}{subsection.1.7.2}%
+\contentsline {chapter}{References}{26}{chapter*.23}%

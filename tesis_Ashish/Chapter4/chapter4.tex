@@ -1,4 +1,4 @@
-\chapter{Methodology}  %Title of the First Chapter
+\chapter{Run 2 Luminosity Measurement}  %Title of the First Chapter
 
 \ifpdf
     \graphicspath{{Chapter4/Figs/Raster/}{Chapter4/Figs/PDF/}{Chapter4/Figs/}}
@@ -9,9 +9,21 @@
 %\section{Methodology}
 %\label{sec:method}
 
+
+%Chapter 4: Run 2 Luminosity Measurement 
+
+%Detector Module selection
+%Afterglow Model
+%vdM Calibration Results
+%Luminosity for Physics Fills
+%Systematic Uncertainties
+
 \section{Datasets}
 
-2018 luminosity data taking is divided into seven periods namely A, B, C, D1, D2, D3 and D4 as shown in Fig. \ref{fig:period_bound}. vdM data is shown during period B corresponding to Fill 6868. Run range for each period is shown in Table \ref{tab:period run ranges}. 
+For studying 2018 PCC dataset, we have divided CMS luminosity data taking into seven periods: A, B, C, D1, D2, D3, and D4, as depicted in % 2018 CMS luminosity data taking is divided into seven periods namely A, B, C, D1, D2, D3 and D4
+as shown in Fig. \ref{fig:period_bound}. During period B, specifically corresponding to Fill 6868, van der Meer (vdM) scans were conducted for calibrating the luminometer.
+%vdM data is shown during period B corresponding to Fill 6868.
+Run range for each period is shown in Table \ref{tab:period run ranges}. 
 
 \begin{figure}[!htp]
 \centering
@@ -127,30 +139,6 @@ This acronym stands for "ALignment and CALibration RECOstruction." It is a data 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \begin{comment}
 
 
@@ -259,7 +247,6 @@ To measure the luminosity using the pixel cluster counting method, pixel detecto
 %To ensure accurate luminosity measurements, it is necessary to correct for various effects, such as detector inefficiencies and pileup (the presence of additional proton-proton collisions in the same bunch crossing). This is achieved through careful calibration of the detector and by using dedicated algorithms to estimate the contribution of pileup to the observed pixel cluster counts.
 
 
-
 \begin{table}
   \begin{center}
     \begin{tabular}{ccccc}  
@@ -298,6 +285,7 @@ To measure the luminosity using the pixel cluster counting method, pixel detecto
 
 
 \begin{itemize}
+
 \item CMSSW: The CMS Software (CMSSW) is a comprehensive software framework developed for the Compact Muon Solenoid (CMS) experiment at the Large Hadron Collider (LHC) at CERN. CMSSW is used for the simulation, processing, and analysis of data collected by the CMS detector. It is designed to handle various tasks, from the generation of simulated events to the reconstruction of raw detector data, calibration, and high-level analysis. CMSSW is composed of several interconnected components and follows a modular architecture to promote flexibility, reusability, and maintainability. Some key aspects of CMSSW include, Event Data Model (EDM): The EDM serves as the foundation of CMSSW, defining the structure and organization of data objects, such as particle candidates, detector hits, and reconstructed vertices. It is designed to handle the storage, retrieval, and manipulation of these objects efficiently. The CMSSW framework is responsible for the management of software modules, the flow of data between modules, and the execution of the necessary tasks. It also handles the scheduling of tasks and the parallelization of processes, enabling efficient use of computing resources. Modules: CMSSW is built upon a collection of software modules, each responsible for a specific task, such as event generation, detector simulation, reconstruction, or analysis. These modules can be combined and customized to create a complete processing chain for a given use case. The software includes a detailed description of the CMS detector geometry, material properties, and readout electronics. This information is used during the simulation and reconstruction processes to accurately model the detector's response to particles. 
 Simulation: CMSSW integrates several external tools and libraries, such as the GEANT4 toolkit, to simulate the passage of particles through the CMS detector. This includes the interactions of particles with the detector material, the production of secondary particles, and the generation of detector signals. Reconstruction: The reconstruction algorithms in CMSSW process the raw detector data, converting it into meaningful physics objects, such as tracks, calorimeter clusters, and particle candidates. These algorithms use a variety of techniques, including pattern recognition, clustering, and fitting, to extract the relevant information from the detector signals. CMSSW includes tools for the calibration of detector components and the alignment of the detector geometry. These tasks are crucial for ensuring the accurate reconstruction of physics objects and the extraction of meaningful results from the data. Analysis: The software provides a rich set of high-level analysis tools and libraries, enabling researchers to perform a wide range of physics analyses, from searches for new particles to precision measurements of Standard Model processes. Data storage and management: CMSSW uses the ROOT data format for the storage and management of data objects. ROOT is a powerful and flexible data storage and processing framework developed at CERN, which provides efficient data handling, advanced statistical analysis tools, and extensive data visualization capabilities.
 
@@ -317,7 +305,7 @@ Simulation: CMSSW integrates several external tools and libraries, such as the G
 
 \end{itemize}
 
-\section{Pixel module veto list}
+\section{Module Selection}
 
 
 The goal of minimizing instabilities in PCC (Pixel Cluster Counting) luminosity measurement is to ensure accurate and consistent results. To achieve this, a pixel module vetolist is created for each run period to keep track of good and bad modules. The stability of each module is determined based on the change in the ratio of module PCC and total PCC, referred to as the module weight as shown in Fig. \ref{fig:mod_weight}.
@@ -521,7 +509,7 @@ The module veto list in particle physics experiments is a list of detector modul
 The inclusion of certain modules in the veto list is based on a careful analysis of the detector performance and the expected background rates in a given experiment. By excluding modules with high background rates or other issues, the analysis can be improved and the accuracy of the measurement can be increased.
 
 
-\section{Afterglow corrections}
+\section{Afterglow Model}
 
 Type 1 and Type 2 afterglow corrections are essential for obtaining accurate PCC measurements. Type 1 afterglow noise, also known as electronic spillover, is caused by the long waveform of the signal in silicon. On the other hand, Type 2 afterglow noise is the exponentially decaying detector activation due to the production of secondary particles when high-energy particles interact with the detector material as shown in Fig. \ref{fig:pcc_afterglow}. Afterglow noise is corrected by creating a model of the afterglow tail of a single colliding bunch, which is then normalized to the luminosity of the colliding bunch crossing. A bunch-by-bunch histogram containing bunch trains undergoes afterglow correction, where the afterglow model is multiplied with the luminosity of each colliding bunch pair and subsequently subtracted from all following bunches. This correction process is performed iteratively for all colliding bunch pairs, ensuring that a given bunch crossing is fully corrected before being used to correct the subsequent bunch crossings. The afterglow correction, or scale factor, is calculated by taking the ratio of the corrected and uncorrected PCC. This scale factor is then applied to individual bunch-by-bunch histograms in the zero bias data. In addition to afterglow corrections, pedestal correction is another important aspect to consider. Pedestal correction refers to the adjustment of baseline values in the detector readout to account for any systematic offsets or drifts. This process involves measuring the detector's output when no signal is present and subtracting this baseline value from the measured signal during data collection. By performing pedestal correction, the accuracy and stability of the detector's measurements are significantly improved, contributing to more reliable PCC measurements.
 
@@ -548,7 +536,112 @@ Afterglow corrections are calculated from cluster rate measurements in empty bun
 \end{figure}
 
 
+\section{vdM Calibration Results}
 
 
+The background estimation for the PCC rate is done with two super-separation scans SS1 and SS2. The mean and error are obtained from the $y$ projection of PCC per NB4 plotted as a function of time. The results for five different BCIDs are shown in Table~\ref{tab:vdm:SS1_SS2}, using the reprocessed PCC data for Fill 6868. The overall background correction applied to raw PCC rate is $0.02757\pm0.01987$, which is calculated by taking the average of the mean values of SS1 and SS2.
 
 
+\begin{table}
+  \begin{center}
+    \begin{tabular}{ccccc}
+    \textbf{BCID}   & \textbf{Mean (SS1)} & \textbf{Mean (SS2)} \\ \hline
+      265     &  0.02902    &  0.02743    \\
+        865  &    0.02572  &     0.0281  \\
+       1780    &  0.02862   &     0.0286  \\
+       2192   &  0.02729  &     0.02323  \\
+        3380  &  0.02882  &    0.02896   \\
+      \end{tabular}
+    \caption[Background in PCC rate]{Mean for the background estimated with the SS1 and SS2 data, separately for all five BCIDs and averaged.}
+    \label{tab:vdm:SS1_SS2}
+  \end{center}
+\end{table}
+
+Fig. \ref{fig:fitquality} shows chi2/ndof for vdM and imaging scans with an average value of 0.4514 where the Poly2G fit model converges for all BCIDs. Peak value and beam overlap along X and Y are extracted from fit to calculate PCC visible cross section. PCC visible cross section for $2\%$ rms common module vetolist is 960.601 $\pm$ 0.851(stat.) mb.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{ashish_thesis/vdM_fit_cveto.png}
+    \caption[PCC rate fit]{Normalized rates and the resulting fitted poly2G scan curves as a function of the beam separation for a single bunch (BCID 865) as recorded by PCC for a scan in the x (left) and y direction (right). Background subtraction and the corrections  have been applied to the raw data before the fit.}
+    \label{fig:fitquality}
+\end{figure}
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{ashish_thesis/fit_quality_chisquare.png}
+    \caption[Fit quality]{chi2/ndof for all vdM and imaging scans.}
+    \label{fig:fitquality}
+\end{figure}
+
+
+The visible cross section per scan is averaged over all BCIDs and its scan to scan variation is shown in Fig. \ref{fig:sigmaperscan}.
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{ashish_thesis/sigma_vis_per_scan.png}
+    \caption[PCC visible cross section]{Visible cross section per scan where red line shows the average value.}
+    \label{fig:sigmaperscan}
+\end{figure}
+
+
+%\newpage
+
+\section{Luminosity for Physics Fills}
+
+
+\section{Systematic Uncertainties}
+
+
+\subsection{Uncertainties associated with the Van der Meer calibration}
+
+\begin{itemize}
+
+
+ \item  Orbit Drift: Refers to the gradual displacement of the beam orbit from its ideal trajectory due to various effects such as ground motion, magnetic field fluctuations, and thermal expansion. This can result in reduced beam intensity and beam quality.
+
+ \item  X-Y Nonfactorization: Refers to the failure of the x and y coordinates of a particle beam to factorize, meaning that the beam profile cannot be expressed as a product of independent x and y profiles. This can result in beam asymmetries and other effects.
+
+ \item Beam-Beam Deflection: Refers to the mutual interaction of two colliding particle beams, resulting in the deflection of the individual beams due to the electromagnetic fields generated by the other beam. This effect can lead to beam losses and reduced luminosity.
+
+ \item Dynamic $\beta$: Refers to the time-varying beta function of a particle beam, which describes the rate at which the beam diverges or converges as it propagates. This effect can be important for beam stability and the control of beam emittance.
+
+
+\item Beam Current Calibration: Refers to the process of accurately measuring the current of a particle beam, which is essential for many beam diagnostics and control systems.
+
+\item Ghosts and Satellites: Refers to unwanted signals in a detector or measurement system that can arise from various sources such as scattered radiation, electronic noise, or interference from other particles. These can lead to inaccurate measurements and reduced data quality.
+
+\item Scan to Scan Variation: Refers to the variation in experimental results obtained from different scans or measurements, which can arise from various sources such as statistical fluctuations, instrument drift, or systematic errors.
+
+\item Bunch to Bunch Variation: Refers to the variation in the properties of individual particle bunches within a beam, such as their intensity, energy spread, or emittance. This effect can be important for beam tuning and optimization.
+
+\item Cross-Detector Consistency: Refers to the agreement between measurements obtained from different detectors or measurement systems. This is important for verifying the accuracy and reliability of experimental results.
+
+\item Background Subtraction: Refers to the process of removing unwanted signals from a measurement or detector system that arise from sources other than the physical phenomenon of interest, such as noise, cosmic rays, or other particles. This is essential for obtaining accurate measurements of the physical signal.
+
+  \end{itemize}
+
+\subsection{Uncertainties associated with physics data taking}
+
+\begin{itemize}
+
+\item Stability: The CMS pixel detector is a complex instrument with many components, including silicon sensors and readout electronics, that must operate consistently and with high precision over long periods. Any variations in the performance of the detector can affect the efficiency of the pixel cluster counting method and lead to uncertainties in the luminosity measurement.
+
+  One example of how the stability of the detector can affect the luminosity measurement is through changes in the detector's noise level. The noise level refers to the level of electronic noise present in the detector, which can interfere with the detection of pixel clusters produced by proton-proton collisions. If the noise level increases, the efficiency of the pixel cluster counting method may decrease, leading to an underestimation of the luminosity. Conversely, if the noise level decreases, the efficiency of the method may increase, leading to an overestimation of the luminosity.
+
+  Another example is changes in the efficiency of the pixel detector. The efficiency of the detector refers to the fraction of proton-proton collisions that produce pixel clusters that can be detected and counted by the method. Any changes in the efficiency of the detector, for example due to changes in the gain or response of the silicon sensors, can lead to uncertainties in the luminosity measurement.
+
+  To mitigate these uncertainties, the CMS collaboration performs regular calibrations and monitoring of the detector performance, as well as cross-checks with other luminosity measurement techniques
+
+  Systematic uncertainties due to stability in the detector itself for the pixel cluster counting method are typically estimated by studying the performance of the method over time and comparing it to simulations or other measurements. Uncertainties due to changes in the noise level and detector efficiency are typically estimated separately and combined to obtain the total systematic uncertainty
+
+\item Linearity: the luminosity obtained from the PCC method is compared to that obtained from the HFOC method for a given set of collisions. Any deviations between the two measurements are used to estimate the linearity uncertainty in the PCC method.
+
+  The linearity uncertainty is typically quantified as a systematic uncertainty in the luminosity measurement, expressed as a percentage of the measured luminosity. This uncertainty can be estimated by fitting the PCC and HFOC measurements to a linear function and calculating the deviation of the PCC measurement from the linear fit.
+
+\item Type 1 afterglow refers to the persistence of charge in the pixels of the detector after a collision event. This charge can be produced by various sources, such as ionization due to the passage of charged particles, or leakage currents in the readout electronics. If this charge is not properly accounted for, it can be mistakenly counted as pixel clusters produced by subsequent collision events, leading to an overestimation of the luminosity.
+
+  Type 2 afterglow refers to the persistence of noise in the detector after a collision event. This noise can be produced by various sources, such as thermal or radiation-induced effects, and can also interfere with subsequent collisions. If this noise is not properly accounted for, it can lead to a reduction in the efficiency of the pixel cluster counting method and an underestimation of the luminosity.
+
+\end{itemize}

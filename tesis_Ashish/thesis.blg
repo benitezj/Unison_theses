@@ -3,27 +3,30 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Portada/Portada.aux
 A level-1 auxiliary file: Abstract/abstract.aux
-A level-1 auxiliary file: Chapter1/chapter1.aux
-A level-1 auxiliary file: Chapter2/chapter2.aux
-A level-1 auxiliary file: Chapter3/chapter3.aux
 A level-1 auxiliary file: Chapter4/chapter4.aux
-A level-1 auxiliary file: Chapter5/chapter5.aux
-A level-1 auxiliary file: Chapter6/chapter6.aux
-A level-1 auxiliary file: Chapter7/chapter7.aux
-A level-1 auxiliary file: Chapter8/chapter8.aux
 The style file: unsrtnat.bst
-Database file #1: References/references.bib
-I was expecting a `,' or a `}'---line 76 of file References/references.bib
+I found no \citation commands---while reading file thesis.aux
+Database file #1: References_original/references.bib
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Reallocated buffer (elt_size=1) to 60000 items from 40000.
+Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
+Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
+Reallocated out_buf (elt_size=1) to 60000 items from 40000.
+Reallocated name_tok (elt_size=4) to 60000 items from 40000.
+Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
+I was expecting a `,' or a `}'---line 348 of file References_original/references.bib
  : 
- : @MISC{lhc_complex,
+ : @article{Atlas_Exp_2008,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "CMS-PAS-LUM-13-001"
-Warning--I didn't find a database entry for "Klein:2017nke"
-Warning--I didn't find a database entry for "Agostinelli:2002hh"
 You've used 0 entries,
             2481 wiz_defined-function locations,
-            567 strings with 4743 characters,
+            554 strings with 4507 characters,
 and the built_in function-call counts, 34 in all, are:
 = -- 0
 > -- 0
@@ -62,4 +65,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 7
-(There was 1 error message)
+(There were 2 error messages)
