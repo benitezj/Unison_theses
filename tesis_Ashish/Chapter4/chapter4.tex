@@ -9,7 +9,6 @@
 %\section{Methodology}
 %\label{sec:method}
 
-
 %Chapter 4: Run 2 Luminosity Measurement 
 
 %Detector Module selection
@@ -18,21 +17,72 @@
 %Luminosity for Physics Fills
 %Systematic Uncertainties
 
-\section{Datasets}
+\section{Dataset}
 
-For studying 2018 PCC dataset, we have divided CMS luminosity data taking into seven periods: A, B, C, D1, D2, D3, and D4, as depicted in % 2018 CMS luminosity data taking is divided into seven periods namely A, B, C, D1, D2, D3 and D4
-as shown in Fig. \ref{fig:period_bound}. During period B, specifically corresponding to Fill 6868, van der Meer (vdM) scans were conducted for calibrating the luminometer.
+For studying the performance of PCC luminometer during 2018 data taking, we have divided CMS luminosity data taking into seven periods: A, B, C, D1, D2, D3, and D4, as depicted in % 2018 CMS luminosity data taking is divided into seven periods namely A, B, C, D1, D2, D3 and D4
+Fig. \ref{fig:period_bound}. Run ranges for each period are shown in Table \ref{tab:period_run_ranges}.
+During period B, specifically corresponding to Fill 6868, van der Meer (vdM) scans were conducted for calibrating the luminometer.
 %vdM data is shown during period B corresponding to Fill 6868.
-Run range for each period is shown in Table \ref{tab:period run ranges}. 
 
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=0.8\textwidth]{ashish_thesis/period_boundary.png}
-\caption{%
-   2018 luminosity data taking periods showing data taking period boundaries and vdM calibration data.
+\includegraphics[width=0.9\textwidth]{ashish_thesis/period_boundary.png}
+\caption[2018 CMS luminosity data taking periods.]{%
+   2018 luminosity data taking periods showing data taking period boundaries and vdM calibration data  \cite{CERNLumiPublicResults}.
 }
 \label{fig:period_bound}
 \end{figure}
+
+
+\begin{table}
+  \begin{center}
+    \begin{tabular}{ccccc}
+    \textbf{Period}   & \textbf{Run range} \\ \hline
+     2018A      &        315252-316995         \\
+     2018B      &        317080-319311         \\
+     2018C      &        319337-320065         \\
+     2018D1     &        320500-321665        \\
+     2018D2     &        321710-322964         \\
+     2018D3     &        323363-324420         \\
+     2018D4     &        324564-325175        \\
+      \end{tabular}
+    \caption[Run ranges]{2018 luminosity data periods with run ranges.}
+    \label{tab:period_run_ranges}
+  \end{center}
+\end{table}
+
+In the study under consideration, we have utilized a series of datasets corresponding to the data-taking periods of 2018, namely 2018A, 2018B, 2018C, and 2018D as shown in Table \ref{tab:datasets}. These datasets have been drawn from the Alignment and Calibration (AlCa) project, an integral component of the Compact Muon Solenoid (CMS) experiment conducted at the Large Hadron Collider. The dataset selection includes two subsets denoted as AlCaPCCRandom and AlCaPCCZeroBias. The AlCaPCCRandom dataset comprises of data where trigger is applied on both colliding and non-colliding bunches, thereby providing a holistic and representative view of the whole dataset. On the other hand, the AlCaPCCZeroBias dataset encapsulates events that have passed the trigger system with no bias where trigger is applied on only colliding bunches, thereby serving as an unbiased reference dataset. In terms of processing, the selected datasets have undergone an Express processing pathway. This rapid processing approach, while less detailed than the full reprocessing, provides valuable and timely insights into the data quality and physics performance. The datasets fall within the ALCARECO (ALignment, CALibration, and REConstruction objects) data tier, which specifically encompasses information pertinent to detector alignment and calibration, forming a crucial resource in our analysis. The timestamps associated with these datasets (e.g., $'13Mar2023\_UL2018\_PCC'$) indicate that they have undergone a reprocessing or update post their initial collection in 2018.
+%This reprocessing phase enhances the scientific value of these datasets, by incorporating improved calibrations and alignment, and updates to the data reconstruction algorithms. Consequently, the reprocessed datasets used in this thesis afford a more accurate and comprehensive representation of the physics events under investigation.
+
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{@{}c@{\hspace{0.5cm}}p{6.5cm}p{6.5cm}@{}}
+    \textbf{Period} & \textbf{Random Trigger Dataset} & \textbf{Zero Bias Dataset} \\
+    2018A & /AlCaLumiPixels/Run2018A-\newline AlCaPCCRandom-15Apr2023\_UL2018\_\newline 315252\_316062\_PCCRandom\_-v1/ALCARECO, \newline /StreamALCALUMIPIXELSEXPRESS/\newline Run2018A-AlCaPCCRandom-Express-v1/ALCARECO & /AlCaLumiPixels/Run2018A-\newline AlCaPCCZeroBias-\newline 13Mar2023\_UL2018\_PCC-v1/ALCARECO \\
+    2018B & /StreamALCALUMIPIXELSEXPRESS/\newline Run2018B-AlCaPCCRandom-Express-v1/ALCARECO & /AlCaLumiPixels/Run2018B-\newline AlCaPCCZeroBias-\newline 13Mar2023\_UL2018\_PCC-v1/ALCARECO \\
+    2018C & /StreamALCALUMIPIXELSEXPRESS/\newline Run2018C-AlCaPCCRandom-Express-v1/ALCARECO & /AlCaLumiPixels/Run2018C-\newline AlCaPCCZeroBias-\newline 13Mar2023\_UL2018\_PCC-v1/ALCARECO \\
+    2018D & /StreamALCALUMIPIXELSEXPRESS/\newline Run2018D-AlCaPCCRandom-Express-v1/ALCARECO & /AlCaLumiPixels/Run2018D-\newline AlCaPCCZeroBias-\newline 13Mar2023\_UL2018\_PCC-v1/ALCARECO \\
+  \end{tabular}
+  \caption[PCC datasets]{Datasets used for studying performance of PCC luminometer \cite{CERNDAS}}
+  \label{tab:datasets}
+\end{table}
+
+
+\begin{comment}
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{@{}c@{\hspace{0.5cm}}p{6.5cm}p{6.5cm}@{}}
+    \textbf{Period} & \textbf{Random Trigger Dataset} & \textbf{Zero Bias Dataset} \\[1em]
+    2018A & /AlCaLumiPixels/Run2018A-\newline AlCaPCCRandom-15Apr2023\_UL2018\_\newline 315252\_316062\_PCCRandom\_-v1/ALCARECO, \newline /StreamALCALUMIPIXELSEXPRESS/\newline Run2018A-AlCaPCCRandom-Express-v1/ALCARECO & /AlCaLumiPixels/Run2018A-\newline AlCaPCCZeroBias-\newline 13Mar2023\_UL2018\_PCC-v1/ALCARECO \\[1em]
+    2018B & /StreamALCALUMIPIXELSEXPRESS/\newline Run2018B-AlCaPCCRandom-Express-v1/ALCARECO & /AlCaLumiPixels/Run2018B-\newline AlCaPCCZeroBias-\newline 13Mar2023\_UL2018\_PCC-v1/ALCARECO \\[1em]
+    2018C & /StreamALCALUMIPIXELSEXPRESS/\newline Run2018C-AlCaPCCRandom-Express-v1/ALCARECO & /AlCaLumiPixels/Run2018C-\newline AlCaPCCZeroBias-\newline 13Mar2023\_UL2018\_PCC-v1/ALCARECO \\[1em]
+    2018D & /StreamALCALUMIPIXELSEXPRESS/\newline Run2018D-AlCaPCCRandom-Express-v1/ALCARECO & /AlCaLumiPixels/Run2018D-\newline AlCaPCCZeroBias-\newline 13Mar2023\_UL2018\_PCC-v1/ALCARECO \\[1em]
+  \end{tabular}
+  \caption{Datasets used for studying performance of PCC luminometer}
+  \label{tab:datasets}
+\end{table}
 
 
 \begin{table}[htbp]
@@ -42,14 +92,20 @@ Run range for each period is shown in Table \ref{tab:period run ranges}.
     2018A & \begin{tabular}{@{}p{5.5cm}@{}}/AlCaLumiPixels/Run2018A-AlCaPCCRandom-15Apr2023\_UL2018\_315252\_316062\_PCCRandom\_-v1/ALCARECO, \\ /StreamALCALUMIPIXELSEXPRESS/Run2018A-AlCaPCCRandom-Express-v1/ALCARECO\end{tabular} & /AlCaLumiPixels/Run2018A-AlCaPCCZeroBias-13Mar2023\_UL2018\_PCC-v1/ALCARECO \\
     2018B & /StreamALCALUMIPIXELSEXPRESS/Run2018B-AlCaPCCRandom-Express-v1/ALCARECO & /AlCaLumiPixels/Run2018B-AlCaPCCZeroBias-13Mar2023\_UL2018\_PCC-v1/ALCARECO \\
     2018C & /StreamALCALUMIPIXELSEXPRESS/Run2018C-AlCaPCCRandom-Express-v1/ALCARECO & /AlCaLumiPixels/Run2018C-AlCaPCCZeroBias-13Mar2023\_UL2018\_PCC-v1/ALCARECO \\
-    2018D & /StreamALCALUMIPIXELSEXPRESS/Run2018D-AlCaPCCRandom-Express-v1/ALCARECO & /AlCaLumiPixels/Run2018D-AlCaPCCZeroBias-PromptReco-v2/ALCARECO \\
+    2018D & /StreamALCALUMIPIXELSEXPRESS/Run2018D-AlCaPCCRandom-Express-v1/ALCARECO & /AlCaLumiPixels/Run2018D-AlCaPCCZeroBias-13Mar2023_UL2018_PCC-v1/ALCARECO \\
   \end{tabular}
-  \caption{Dataset Information}
+  \caption{Datasets used for studying performance of PCC luminometer}
   \label{tab:datasets}
 \end{table}
 
-\textbf{/AlCaLumiPixels/Run2018A-AlCaPCCRandom15Apr2023\_UL2018\_315252\_316062\_PCCRandom\_-v1/ALCARECO} 
 
+\end{comment}
+
+
+
+%\textbf{/AlCaLumiPixels/Run2018A-AlCaPCCRandom15Apr2023\_UL2018\_315252\_316062\_PCCRandom\_-v1/ALCARECO} 
+
+\textbf{\url{/AlCaLumiPixels/Run2018A-AlCaPCCRandom15Apr2023_UL2018_315252_316062_PCCRandom_-v1/ALCARECO}}
 %\textbf{/AlCaLumiPixels/Run2018A-AlCaPCCRandom15Apr2023_UL2018_315252_316062_PCCRandom_-v1/ALCARECO}
 
 \begin{itemize}
@@ -58,7 +114,7 @@ Run range for each period is shown in Table \ref{tab:period run ranges}.
 
 \item AlCaPCCRandom: This tag represents the primary dataset and the trigger path used to collect the data. "PCC" stands for "Pixel Cluster Counting" and is a method for luminosity measurement. "Random" indicates that this dataset was collected using a random trigger, which is a method to sample a fraction of the events by applying trigger on both colliding and non-colliding bunch crossings.
 
-\item $15Apr2023_UL2018_315252_316062_PCCRandom_-v1$: This part represents the processing version, date, and run range of the dataset. "15Apr2023" is the date when this specific version of the dataset was created. "UL2018" indicates that this data has been processed using the "Ultra Legacy" (UL) campaign for the 2018 dataset, which aims to provide the highest quality data for physics analysis. The numbers $"315252_316062"$ represent the range of run numbers included in the dataset. $"PCCRandom_"$ is a reference to the Pixel Cluster Counting method used for luminosity measurement and the random trigger. "v1" denotes the version number of this processed dataset.
+\item $15Apr2023\_UL2018\_315252\_316062\_PCCRandom\_-v1$: This part represents the processing version, date, and run range of the dataset. "15Apr2023" is the date when this specific version of the dataset was created. "UL2018" indicates that this data has been processed using the "Ultra Legacy" (UL) campaign for the 2018 dataset, which aims to provide the highest quality data for physics analysis. The numbers $"315252_316062"$ represent the range of run numbers included in the dataset. $"PCCRandom_"$ is a reference to the Pixel Cluster Counting method used for luminosity measurement and the random trigger. "v1" denotes the version number of this processed dataset.
 
 \item ALCARECO:
 This acronym stands for "ALignment and CALibration RECOstruction." It is a data tier representing the output of specific reconstruction algorithms applied to the raw data to produce high-level objects needed for the alignment and calibration tasks.
@@ -69,7 +125,10 @@ This acronym stands for "ALignment and CALibration RECOstruction." It is a data 
 
 
 
-$\textbf{/StreamALCALUMIPIXELSEXPRESS/Run2018A-AlCaPCCRandom-Express-v1/ALCARECO}$
+%$\textbf{/StreamALCALUMIPIXELSEXPRESS/Run2018A-AlCaPCCRandom-Express-v1/ALCARECO}$
+
+\textbf{\url{/StreamALCALUMIPIXELSEXPRESS/Run2018A-AlCaPCCRandom-Express-v1/ALCARECO}}
+
 
 \begin{itemize}
 
@@ -92,7 +151,10 @@ This acronym stands for "ALignment and CALibration RECOstruction." It is a data 
 
 %$\textbf{/AlCaLumiPixels/Run2018A-AlCaPCCZeroBias-13Mar2023_UL2018_PCC-v1/ALCARECO}$
 
-$\textbf{/AlCaLumiPixels/Run2018A-AlCaPCCZeroBias-13Mar2023\_UL2018\_PCC-v1/ALCARECO}$
+%$\textbf{/AlCaLumiPixels/Run2018A-AlCaPCCZeroBias-13Mar2023\_UL2018\_PCC-v1/ALCARECO}$
+
+\textbf{\url{/AlCaLumiPixels/Run2018A-AlCaPCCZeroBias-13Mar2023_UL2018_PCC-v1/ALCARECO}}
+
 
 \begin{itemize}
 
@@ -108,13 +170,17 @@ This part represents the processing version and the date of the dataset. "13Mar2
 \item ALCARECO:
 This acronym stands for "ALignment and CALibration RECOstruction." It is a data tier representing the output of specific reconstruction algorithms applied to the raw data to produce high-level objects needed for the alignment and calibration tasks.
 
-
 \end{itemize}
 
 %So, to summarize, this dataset is a collection of unbiased events from the CMS experiment during the Run2018A period. It is specifically related to the luminosity measurement using the Pixel Cluster Counting method. The dataset has been processed using the Ultra Legacy campaign, and the output contains high-level objects required for alignment and calibration tasks.
 
+%$\textbf{/AlCaLumiPixels/Run2018D-AlCaPCCZeroBias-PromptReco-v2/ALCARECO}$
 
-$\textbf{/AlCaLumiPixels/Run2018D-AlCaPCCZeroBias-PromptReco-v2/ALCARECO}$
+\begin{comment}
+
+
+\textbf{\url{/AlCaLumiPixels/Run2018D-AlCaPCCZeroBias-PromptReco-v2/ALCARECO}}
+
 
 \begin{itemize}
 
@@ -132,15 +198,13 @@ This acronym stands for "ALignment and CALibration RECOstruction." It is a data 
 
 \end{itemize}
 
+
+\end{comment}
+
 %In summary, this dataset is a collection of unbiased events from the CMS experiment during the Run2018D period, specifically related to the luminosity measurement using the Pixel Cluster Counting method. The dataset has been processed using the Prompt Reconstruction campaign, and the output contains high-level objects required for alignment and calibration tasks.
 
 
-
-
-
-
 \begin{comment}
-
 
 The dataset /StreamALCALUMIPIXELSEXPRESS/Run2018A-AlCaPCCRandom-Express-v1/ALCARECO, is a dataset from the CMS experiment at CERN's Large Hadron Collider (LHC). This dataset is specifically collected for luminosity measurements using pixel cluster counting (PCC) in the CMS detector by applying trigger on colliding and non-colliding bunches. 
 
@@ -165,7 +229,6 @@ The dataset /StreamALCALUMIPIXELSEXPRESS/Run2018A-AlCaPCCRandom-Express-v1/ALCAR
 %\item Dataset storage: The final ALCARECO dataset is stored and made available for analysis by researchers working on alignment, calibration, and luminosity-related studies.
 
 \end{itemize}
-
 
  The dataset /AlCaLumiPixels/Run2018D-AlCaPCCZeroBias-PromptReco-v2/ALCARECO, is specifically collected for luminosity measurements using pixel cluster counting (PCC) in the CMS detector by applying trigger on only colliding bunches. 
 
@@ -231,7 +294,7 @@ AlCaReco: The AlCaReco processing stream is applied after the PromptReco system,
 
 \end{comment}
 
-The calibration of luminosity measurement by the CMS experiment in the 2018 proton-proton data taking at $\sqrt{s}$ = 13 TeV was performed during
+The calibration of luminosity measurement by the CMS experiment luminometers in the 2018 proton-proton data taking at $\sqrt{s}$ = 13 TeV \cite{CMS-PAS-LUM-18-002} was performed during
 
 \begin{itemize}
 \item LHC fill 6868 on June 30 and July 1, 2018 at $\sqrt{s}$ = 13 TeV
@@ -242,10 +305,29 @@ recorded events rate is 27.7 kHz.
 \item a normal VdM scan pair "norm4" and two short emittance scan pairs "emit4" and "emit5" were also performed.
 \end{itemize}
 
-To measure the luminosity using the pixel cluster counting method, pixel detector is divided into modules, each consisting of a number of pixels arranged in a grid. The number of pixel clusters produced in each module per unit time is proportional to the instantaneous luminosity of the collider. To implement this method, the pixel detector is operated in an integrated mode, where the detector is read out at a fixed time interval called a "lumi section". During each lumi section, the number of pixel clusters produced in each module is recorded, the rate of number of pixel clusters and visible cross section is used to determine the instantaneous luminosity of the collider. CMS software (CMSSW) version $10{\_}2{\_}2$  and $10{\_}6{\_}30$ are used for reprocessing PCC data. Datasets can be obtained by applying triggers on all bunches (colliding and non colliding) and only on colliding bunches to get random trigger and zero bias data respectively as described in previous section. Random trigger PCC dataset is reprocessed with new module vetolist to obtain afterglow corrections with improved module stability selections. Zero bias dataset is reprocessed after applying afterglow corrections using same module vetolist with more stringent selections on module stability to obtain PCC luminosity. 
+To measure the luminosity using the pixel detector, pixel cluster count is studied for each module, where a module consists of a number of pixels arranged in a grid. The number of pixel clusters recorded in each module per unit time is proportional to the instantaneous luminosity of the collider. To implement PCC method, the pixel detector is operated in an integrated mode, where the detector is read out at a fixed time interval called a "lumi section". During each lumi section, the number of pixel clusters produced in each module is recorded, the rate of pixel clusters and visible cross section of the detector is used to determine the instantaneous luminosity of the collider. PCC data is reprocessed, a procedure that involves the re-analysis of the data using refined or updated algorithms, calibrations, or detector conditions.
+
+\newpage
+The purpose of reprocessing can be multifold:
+
+\begin{itemize}
+  
+\item Improved Algorithms or Calibration: As experiments progress, there can be improvements in algorithms or calibration techniques used to process the raw data. This can lead to a more accurate or efficient representation of the collected data. Reprocessing allows these improvements to be applied to previously collected data.
+
+\item Changes in Detector Conditions: Detector conditions might change over time due to factors like aging or upgrades. These changes can affect the interpretation of the data. By reprocessing, the data can be reinterpreted to account for these changes.
+
+\item Discovery of Issues or Errors: Sometimes, errors or issues in the original data processing might be discovered. Reprocessing the data allows these errors to be corrected.
+
+\end{itemize}
+  
+In the context of PCC data, reprocessing can lead to a more accurate luminosity measurement, which in turn can affect the interpretation of the physics results derived from the LHC data. The luminosity measurement is crucial because it is directly linked to the determination of cross-sections, a fundamental quantity in the interpretation of the outcomes of high-energy particle physics experiments.
+
+CMS software (CMSSW) version $10{\_}2{\_}2$ is used for reprocessing random trigger PCC dataset and $10{\_}6{\_}30$  \cite{CMSReleaseNotes} is used for reprocessing zero bias PCC datasets. Datasets can be obtained by applying triggers on all bunches (colliding and non colliding) and only on colliding bunches to get random trigger and zero bias data respectively as described in previous section. Random trigger PCC dataset is reprocessed with new module vetolist to obtain afterglow corrections with improved module stability selections. Zero bias dataset is reprocessed after applying afterglow corrections using same module vetolist with more stringent selections on module stability to obtain PCC luminosity. 
 
 %To ensure accurate luminosity measurements, it is necessary to correct for various effects, such as detector inefficiencies and pileup (the presence of additional proton-proton collisions in the same bunch crossing). This is achieved through careful calibration of the detector and by using dedicated algorithms to estimate the contribution of pileup to the observed pixel cluster counts.
 
+
+\begin{comment}
 
 \begin{table}
   \begin{center}
@@ -263,6 +345,9 @@ To measure the luminosity using the pixel cluster counting method, pixel detecto
     \label{tab:period run ranges}
   \end{center}
 \end{table}
+
+
+\end{comment}
 
 
 \section{Software tools}
@@ -287,7 +372,7 @@ To measure the luminosity using the pixel cluster counting method, pixel detecto
 \begin{itemize}
 
 \item CMSSW: The CMS Software (CMSSW) is a comprehensive software framework developed for the Compact Muon Solenoid (CMS) experiment at the Large Hadron Collider (LHC) at CERN. CMSSW is used for the simulation, processing, and analysis of data collected by the CMS detector. It is designed to handle various tasks, from the generation of simulated events to the reconstruction of raw detector data, calibration, and high-level analysis. CMSSW is composed of several interconnected components and follows a modular architecture to promote flexibility, reusability, and maintainability. Some key aspects of CMSSW include, Event Data Model (EDM): The EDM serves as the foundation of CMSSW, defining the structure and organization of data objects, such as particle candidates, detector hits, and reconstructed vertices. It is designed to handle the storage, retrieval, and manipulation of these objects efficiently. The CMSSW framework is responsible for the management of software modules, the flow of data between modules, and the execution of the necessary tasks. It also handles the scheduling of tasks and the parallelization of processes, enabling efficient use of computing resources. Modules: CMSSW is built upon a collection of software modules, each responsible for a specific task, such as event generation, detector simulation, reconstruction, or analysis. These modules can be combined and customized to create a complete processing chain for a given use case. The software includes a detailed description of the CMS detector geometry, material properties, and readout electronics. This information is used during the simulation and reconstruction processes to accurately model the detector's response to particles. 
-Simulation: CMSSW integrates several external tools and libraries, such as the GEANT4 toolkit, to simulate the passage of particles through the CMS detector. This includes the interactions of particles with the detector material, the production of secondary particles, and the generation of detector signals. Reconstruction: The reconstruction algorithms in CMSSW process the raw detector data, converting it into meaningful physics objects, such as tracks, calorimeter clusters, and particle candidates. These algorithms use a variety of techniques, including pattern recognition, clustering, and fitting, to extract the relevant information from the detector signals. CMSSW includes tools for the calibration of detector components and the alignment of the detector geometry. These tasks are crucial for ensuring the accurate reconstruction of physics objects and the extraction of meaningful results from the data. Analysis: The software provides a rich set of high-level analysis tools and libraries, enabling researchers to perform a wide range of physics analyses, from searches for new particles to precision measurements of Standard Model processes. Data storage and management: CMSSW uses the ROOT data format for the storage and management of data objects. ROOT is a powerful and flexible data storage and processing framework developed at CERN, which provides efficient data handling, advanced statistical analysis tools, and extensive data visualization capabilities.
+Simulation: CMSSW integrates several external tools and libraries, such as the GEANT4 toolkit, to simulate the passage of particles through the CMS detector. This includes the interactions of particles with the detector material, the production of secondary particles, and the generation of detector signals. Reconstruction: The reconstruction algorithms in CMSSW process the raw detector data, converting it into meaningful physics objects, such as tracks, calorimeter clusters, and particle candidates. These algorithms use a variety of techniques, including pattern recognition, clustering, and fitting, to extract the relevant information from the detector signals. CMSSW includes tools for the calibration of detector components and the alignment of the detector geometry. These tasks are crucial for ensuring the accurate reconstruction of physics objects and the extraction of meaningful results from the data. Analysis: The software provides a rich set of high-level analysis tools and libraries, enabling researchers to perform a wide range of physics analyses, from searches for new particles to precision measurements of Standard Model processes. Data storage and management: CMSSW uses the ROOT data format for the storage and management of data objects. ROOT is a powerful and flexible data storage and processing framework developed at CERN, which provides efficient data handling, advanced statistical analysis tools, and extensive data visualization capabilities \cite{CMSWorkBook}.
 
 \item Conditions Database (CondDB): The Conditions Database (CondDB) is a centralized data storage and management system used in high-energy physics experiments, such as the Compact Muon Solenoid (CMS) at the Large Hadron Collider (LHC) at CERN. The primary purpose of CondDB is to store non-event-related data, known as "conditions data," which is essential for the proper interpretation and analysis of the experimental data. Conditions data includes information on the detector's configuration, calibration constants, alignment parameters, and other time-dependent data that characterize the performance and status of the detector and its components. Since the conditions data is critical for accurate data processing and analysis, it must be readily accessible and easily managed. CondDB provides a central repository for storing conditions data from various sources, such as detector control systems, calibration measurements, and offline analyses. This centralization simplifies data management and ensures that all data processing tasks have access to the same, consistent information. Time-dependent data management: The database is designed to handle time-dependent data efficiently. Each data record stored in CondDB is associated with a specific time interval, known as the "IOV" (Interval of Validity). This enables the retrieval of the correct conditions data corresponding to a specific data-taking period. Data versioning: CondDB supports versioning of the conditions data, allowing researchers to track changes and updates to the data over time. This feature ensures reproducibility of results and facilitates comparisons between different data processing and analysis workflows. Access control: The database provides fine-grained access control mechanisms, enabling authorized users to read, write, and modify conditions data. This ensures the integrity of the data and prevents unauthorized modifications. CondDB is designed to handle the large volume of conditions data generated by high-energy physics experiments, with efficient data storage and retrieval mechanisms. The database is built on robust and scalable technologies, such as relational databases (e.g., Oracle, MySQL, or PostgreSQL), to ensure high performance and reliability. Integration with data processing frameworks: The Conditions Database is designed to integrate seamlessly with data processing and analysis frameworks, such as the CMS Software (CMSSW). This integration allows for the automatic retrieval and usage of conditions data during the data processing workflow, ensuring the correct data is used at each step of the process.
 
@@ -295,39 +380,82 @@ Simulation: CMSSW integrates several external tools and libraries, such as the G
 
 \item CMS Data Aggregation System (DAS): The CMS Data Aggregation System (DAS) is a data management tool designed for the Compact Muon Solenoid (CMS) experiment at the Large Hadron Collider (LHC) at CERN. It serves as a centralized query system that simplifies the process of locating and accessing various types of CMS data and metadata. DAS aggregates information from multiple data services and presents it in a unified manner, enabling researchers to easily search for and retrieve the data they need for their analyses. DAS provides a unified query language that allows users to perform searches across different data services using a single, consistent syntax. This simplifies the process of data discovery and reduces the learning curve associated with using multiple data services. DAS is designed to aggregate data from various data services within the CMS experiment, including data storage systems, data catalogs, and data processing services. By consolidating this information, DAS enables researchers to easily search for and access the data they need, without having to interact with multiple data services individually. Data caching: To improve performance and reduce the load on the underlying data services, DAS employs a caching mechanism that temporarily stores the results of previous queries. This allows DAS to quickly return results for frequently requested queries, without having to query the data services each time. DAS can merge data from multiple sources, providing users with a consolidated view of the information. This feature simplifies data analysis by eliminating the need for researchers to manually merge data from different sources. DAS supports data transformation operations, such as filtering, sorting, and aggregation, allowing users to customize the output of their queries to meet their specific needs. This feature helps researchers focus on the most relevant information and reduces the amount of data they need to process. DAS is designed to be extensible, enabling the integration of additional data services as needed. This allows DAS to adapt to the evolving needs of the CMS experiment and continue to provide a unified interface for data discovery and access. DAS offers a web-based user interface that allows users to submit queries and view the results using a standard web browser. This makes it easy for researchers to access and use the system, regardless of their location or computing environment. API access: In addition to the web-based user interface, DAS provides an Application Programming Interface (API) that allows users to programmatically submit queries and retrieve results. This enables the integration of DAS with other software tools and workflows used by the CMS experiment.
 
-\item Brilcalc: The brilcalc tool is a software package designed to calculate and analyze luminosity data for the Compact Muon Solenoid (CMS) experiment at the Large Hadron Collider (LHC) at CERN. Luminosity is a crucial parameter in high-energy physics experiments like CMS, as it measures the rate of collisions in a particle accelerator and directly affects the statistical significance of experimental results. Brilcalc serves as a command-line interface (CLI) tool, which allows users to extract, manipulate, and visualize luminosity data from the CMS experiment. It is built upon the BRIL (Beam Radiation Instrumentation and Luminosity) project, which is responsible for the development and maintenance of beam monitoring and luminosity measurement systems at the CMS experiment. Users can extract luminosity data for a specific data-taking period or data range from the CMS database. The data can be filtered by various criteria, such as run number, fill number, and data-taking conditions. Data manipulation: The tool offers the capability to process and manipulate the extracted luminosity data. Users can perform operations such as unit conversion, data scaling, and data normalization to make the data suitable for further analysis. Brilcalc allows users to perform basic statistical analyses on the luminosity data, such as calculating integrated luminosity, average luminosity, and instantaneous luminosity. These analyses help physicists understand the performance of the CMS detector and plan future data-taking strategies. The tool can generate plots and graphs to visualize the luminosity data, making it easier for researchers to interpret the results and identify trends or anomalies. Brilcalc is designed to be extensible, allowing users to develop custom plugins and scripts for advanced data analysis and visualization tasks.
+\item Brilcalc: The brilcalc tool is a software package designed to calculate and analyze luminosity data for the Compact Muon Solenoid (CMS) experiment at the Large Hadron Collider (LHC) at CERN. Luminosity is a crucial parameter in high-energy physics experiments like CMS, as it measures the rate of collisions in a particle accelerator and directly affects the statistical significance of experimental results. Brilcalc serves as a command-line interface (CLI) tool, which allows users to extract, manipulate, and visualize luminosity data from the CMS experiment. It is built upon the BRIL (Beam Radiation Instrumentation and Luminosity) project, which is responsible for the development and maintenance of beam monitoring and luminosity measurement systems at the CMS experiment. Users can extract luminosity data for a specific data-taking period or data range from the CMS database. The data can be filtered by various criteria, such as run number, fill number, and data-taking conditions. Data manipulation: The tool offers the capability to process and manipulate the extracted luminosity data. Users can perform operations such as unit conversion, data scaling, and data normalization to make the data suitable for further analysis. Brilcalc allows users to perform basic statistical analyses on the luminosity data, such as calculating integrated luminosity, average luminosity, and instantaneous luminosity. These analyses help physicists understand the performance of the CMS detector and plan future data-taking strategies. The tool can generate plots and graphs to visualize the luminosity data, making it easier for researchers to interpret the results and identify trends or anomalies. Brilcalc is designed to be extensible, allowing users to develop custom plugins and scripts for advanced data analysis and visualization tasks \cite{CMSLuminosityCalculationGuide}.
 
-\item CERN ROOT: The ROOT data analysis framework, developed by CERN, is widely used in high-energy physics experiments, including CMS. ROOT offers a rich set of tools for data processing, statistical analysis, and visualization. In the context of PCC luminosity measurement, ROOT is employed to analyze and process the output data from CMSSW, perform statistical analyses, and generate plots for data visualization.
+\item CERN ROOT: The ROOT data analysis framework, developed by CERN, is widely used in high-energy physics experiments, including CMS. ROOT offers a rich set of tools for data processing, statistical analysis, and visualization. In the context of PCC luminosity measurement, ROOT is employed to analyze and process the output data from CMSSW, perform statistical analyses, and generate plots for data visualization \cite{ROOT}.
 
 \item Shell/Bash Scripting: Shell and bash scripting are widely used in high-energy physics research to automate repetitive tasks and manage workflows. These scripting languages offer flexibility and portability, allowing researchers to create custom scripts tailored to their specific needs. In the context of PCC luminosity measurement, shell/bash scripts are employed to streamline data processing, automate job submission to HTCondor, and manage the overall workflow, enhancing productivity and reducing the chances of human error.
 
-\item DASgoclient: The DASgoclient is a command-line interface for the CMS Data Aggregation System (DAS). It offers researchers an alternative method for accessing various CMS data services without using the web-based DAS interface. The DASgoclient allows users to query and retrieve data in a more scriptable and automated manner, making it an essential tool for managing datasets and streamlining the data retrieval process for PCC luminosity measurements.
+\item DASgoclient: The DASgoclient is a command-line interface for the CMS Data Aggregation System (DAS). It offers researchers an alternative method for accessing various CMS data services without using the web-based DAS interface. The DASgoclient allows users to query and retrieve data in a more scriptable and automated manner, making it an essential tool for managing datasets and streamlining the data retrieval process for PCC luminosity measurement.
 
 \end{itemize}
 
-\section{Module Selection}
 
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=0.8\textwidth]{ashish_thesis/pcc_stability_begin.png}
+\caption{%                                                                                                                                                                                                      
+   Luminosity fraction of pixel detector for various layer and disks as a function of lumi section after removing low statistics lumi section.
+}
+\label{fig:PCC_stab_begin}
+\end{figure}
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=0.8\textwidth]{ashish_thesis/pixel_layer_disk_noveto_noselection.png}
+\caption{%                                                                                                                                                                                                            
+   Luminosity fraction of pixel detector for various layer and disks as a function of lumi section after removing low statistics lumi section.
+}
+\label{fig:PCC_stab_begin}
+\end{figure}
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=0.8\textwidth]{ashish_thesis/pcc_frac_L0_veto.png}
+\caption{%                                                                                                                                                                                                            
+   Luminosity fraction of pixel detector for various layer and disks as a function of lumi section after removing low statistics lumi section.
+}
+\label{fig:PCC_stab_L0_veto}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\section{Module Selection}
 
 The goal of minimizing instabilities in PCC (Pixel Cluster Counting) luminosity measurement is to ensure accurate and consistent results. To achieve this, a pixel module vetolist is created for each run period to keep track of good and bad modules. The stability of each module is determined based on the change in the ratio of module PCC and total PCC, referred to as the module weight as shown in Fig. \ref{fig:mod_weight}.
 
 \begin{itemize}
+
 \item Lumi section duration: The data collected for luminosity measurements are divided into lumi sections, each lasting for 23.36 seconds.
 
 \item Analyzing module weights: During each lumi section, the module weights for all pixel modules are studied to track their performance over time. This helps in identifying good and bad modules, as shown in Fig. \ref{fig:goodbadmodules}.
 
 \item Pixel detector composition: The pixel detector used for the 2018 luminosity measurement comprises two main components - the BPIX (barrel pixel detector) with 4 barrel layers, and the FPIX (forward pixel detector) with three forward disks. These two components consist of 1184 and 672 pixel modules, respectively.
 
-\item Selection criteria: Only pixel modules that demonstrate consistent and reliable performance throughout the entire 2018 year are considered good and included in the analysis. Modules that do not meet these criteria are classified as bad and excluded from the luminosity measurements.
+\item Selection criteria: Only pixel modules that demonstrate consistent and reliable performance throughout the entire 2018 year are considered good and included in the analysis. Modules that do not meet these criteria are classified as bad and excluded from the luminosity measurement.
+
 \end{itemize}
 
-By carefully analyzing the module weights and excluding the bad modules from the analysis, the instabilities in PCC luminosity measurements can be minimized. This process ensures that the data used for luminosity measurements are of high quality and can produce accurate results.
+By carefully analyzing the module weights and excluding the bad modules from the analysis, the instabilities in PCC luminosity measurement can be minimized. This process ensures that the data used for luminosity measurement is of high quality and can produce precise results.
 
 %To minimize instabilities in PCC luminosity measurement, pixel module vetolist is created for each run period. Module stability is based on change in the ratio of module PCC and total PCC which is defined as module weight. Change in module weights with lumi section (23.36s) is studied for all modules and used to select good and bad modules as shown in Fig. \ref{fig:goodbadmodules}. Pixel detector used for 2018 luminosity measurement consists of 4 barrel layers (BPIX) and three forward disks (FPIX) including 1184 and 672 pixel modules respectively. Only pixel modules that are found to show good performance during the entire 2018 year are selected. 
 
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=0.9\textwidth]{ashish_thesis/Module_weight.png}
-\caption{%
+\includegraphics[width=1\textwidth]{ashish_thesis/Module_weight.png}
+\caption[Steps involved to obtain module weights]{%
    Method to obtain module weights as a function of lumi section for categorizing good and bad modules. X profile of TH2F histogram (module PCC/total PCC per lumi section) is obtained. X profile is then filled in a TGraph after removing points with error $>$ 0.05. TGraph is normalized with the mean of Y projection of TH2F histogram to obtain module stability profile.
 }
 \label{fig:mod_weight}
@@ -337,62 +465,95 @@ By carefully analyzing the module weights and excluding the bad modules from the
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/good_bad_modules.png}
-\caption{%
-   Variation of normalized module weight with time. Modules showing significant change in module weight (shown in right figure) over time having large rms/mean values are used to make module vetolist.
+\caption[Good and bad module weights]{%
+   Change in normalized module weight with time. Modules showing significant change in module weight (shown in right figure) over time having large RMS/mean values are used to make module veto list.
 }
 \label{fig:goodbadmodules}
 \end{figure}
 
-Module vetolist is first created for period B, vdM Fill and then for other periods A, C, D1, D2, D3 and D4 as follows, 
+
+\newpage
+The module veto list is a list of detector modules that are excluded from the analysis of data due to their known or suspected high rate of background events or other issues that could affect the accuracy of the measurement. The inclusion of certain modules in the veto list is based on various factors, including:
+
+\begin{itemize}
+
+\item Radiation damage: The harsh radiation environment in the LHC can cause damage to the silicon pixel sensors over time, leading to increased leakage currents, noise, or reduced charge collection efficiency.
+
+\item Manufacturing defects: Defects in the silicon material or issues during the manufacturing process can result in poorly performing pixel modules. These defects may not be immediately evident but can become more pronounced overtime.
+
+\item Electronic noise: Noisy electronic components or crosstalk between channels can lead to an increased number of false signals or noise in the pixel module data.
+
+\item Temperature variations: Temperature fluctuations can affect the performance of the pixel modules, leading to changes in their noise levels, gain, or charge collection efficiency.
+
+\item High voltage issues: Problems with the high voltage supply to the pixel modules can result in unstable operation, leading to erratic behavior or complete module failure.
+
+\item Partial module failure: A pixel module may suffer from partial failure, with some pixels or readout channels not functioning properly. This can lead to an increased number of dead or noisy pixels in the module.
+
+\item Readout or data acquisition issues: Errors in the readout electronics or data acquisition system can lead to data corruption or loss, affecting the performance of the pixel modules.
+
+\item Calibration issues: Inaccurate or outdated calibration parameters can result in incorrect measurements, leading to the appearance of abnormal behavior in the pixel module data.
+
+\item Firmware or software issues: Bugs in the firmware or software responsible for controlling and reading out the pixel modules can lead to abnormal behavior or incorrect measurements.
+
+\item Mechanical or alignment issues: Mechanical stresses or misalignments during the installation or operation of the pixel detector can affect the performance of the pixel modules or cause them to fail.
+
+\item Contamination or environmental factors: Contamination of the pixel modules by dust, moisture, or other substances can affect their performance or cause them to fail. Similarly, external environmental factors, such as magneticfields or vibrations, can impact the operation of the pixel modules.
+
+\end{itemize}
+
+The inclusion of certain modules in the veto list is based on a careful analysis of the detector performance and the expected background rates in a given experiment. By excluding modules with high background rates or other issues, the analysis can be improved and the accuracy of the measurement can be increased.
+
+
+Module veto list consisting of bad modules is first created for period B, vdM Fill and then for other periods A, C, D1, D2, D3 and D4 as follows, 
 
 Run 2018B and vdM Fill:
 \begin{itemize}
 
-\item Poor statistics lumi sections are removed by applying selection on total PCC Fig. \ref{fig:PCC_cut} and \ref{fig:f_it}.
+\item Poor statistics lumi sections are removed by applying selection on total PCC Fig. \ref{fig:PCC_cut}. % and \ref{fig:f_it}.
 
-\item All barrel layer 1 modules are removed as these modules are significantly affected by dynamic inefficiency effects, where the hit efficiency decreases at higher $L_{inst}$ due to the readout chip not being able to process all of the hits.                                                                              
-\item A loose selection of 7\% based on rms/mean of module weight profile is applied where mean and rms values are obtained from y projection of module weight profile. Modules with significantly large rms/mean are removed with this loose selection as shown in Fig. \ref{fig:outliermodules}. 
+\item All barrel layer 1 modules are removed as these modules are significantly affected by dynamic inefficiency effects, where the hit efficiency decreases at higher instantaneous luminosity due to the readout chip not being able to process all of the hits.
+  
+\item A loose selection of 7\% based on RMS/mean of module weight profile is applied where mean and rms values are obtained from y projection of module weight profile. Modules with significantly large RMS/mean are removed with this loose selection as shown in Fig. \ref{fig:outliermodules}. 
 
-\item Module stability is re-evaluated based on rms/mean values using an iterative method where in each step, appropriate selections are applied to remove bad modules until stable luminosity is attained as sshown in Fig. \ref{fig:sec_it_cut}.                                                      
+\item Module stability is re-evaluated based on RMS/mean values using an iterative method where in each step, appropriate selections are applied to remove bad modules until stable luminosity is attained as sshown in Fig. \ref{fig:sec_it_cut}.                                                      
 \end{itemize}
 
 Run 2018A, C and D:                                                                      
 \begin{itemize}  
 
-\item Period B module veto list is applied to these periods to determine remaining bad modules.
+\item Period B module vetolist is applied to these periods to determine remaining bad modules.
 
 \item same procedure is used as period B. 
 
-\item module weight comparisons between period B and these periods is done and modules with more than 3 sigma change in module weights are removed as shown in Fig. \ref{fig:mod_w_com} and Fig \ref{fig:mod_w_com_1}.      .                                                                             
+\item module weight comparisons between period B and these periods is done and modules with more than 3 sigma change in module weights are removed as shown in %Fig. \ref{fig:mod_w_com} and
+  Fig \ref{fig:mod_w_com_1}.                                                                              
 \end{itemize}
 
 
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=0.7\textwidth]{ashish_thesis/Run2018B_totalPCC_cut.png}
-\caption{%
- Total PCC as a function of lumi section for period 2018B.  Appropriate selection on total PCC is applied to remove low statistics lumi sections.
+\includegraphics[width=1\textwidth]{ashish_thesis/Run2018B_totalPCC_cut.png}
+\caption[Selection to remove low statistics lumi sections]{%
+ Total PCC as a function of lumi section for period 2018B.  Appropriate selection on total PCC shown by the red line is applied to remove low statistics lumi sections.
 }
 \label{fig:PCC_cut}
 \end{figure}
 
 
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=0.7\textwidth]{ashish_thesis/first_iteration.png}
+%\caption{%
+%   A loose cut of 7\% is applied on rms/mean values of module stability profile to remove outlier modules.
+%}
+%\label{fig:f_it}
+%\end{figure}
+
+
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=0.7\textwidth]{ashish_thesis/first_iteration.png}
-\caption{%
-   A loose cut of 7\% is applied on rms/mean values of module stability profile to remove outlier modules.
-}
-\label{fig:f_it}
-\end{figure}
-
-
-
-
-\begin{figure}[!htp]
-\centering
-\includegraphics[width=0.8\textwidth]{ashish_thesis/cut_selection.png}
-\caption{%
+\includegraphics[width=1\textwidth]{ashish_thesis/cut_selection.png}
+\caption[First iteration to remove outlier modules]{%
    RMS/mean of module weight profile for all modules. A loose selection of 7\% is applied to remove bad modules. Appropriate selections are applied in each iterative step to remove other bad modules.
 }
 \label{fig:outliermodules}
@@ -400,35 +561,34 @@ Run 2018A, C and D:
 
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=0.7\textwidth]{ashish_thesis/second_iteration_cut.png}
-\caption{%
+\includegraphics[width=1\textwidth]{ashish_thesis/second_iteration_cut.png}
+\caption[Final iteration to remove outlier modules]{%
  Final selection on RMS/mean of 2\% is applied to obtain module veto list for each period.
 }
 \label{fig:sec_it_cut}
 \end{figure}
 
 
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=1\textwidth]{ashish_thesis/mod_weight_comparison.png}
+%\caption{%
+%   Change in module weights between period A and B for all modules left after applying 2\% rms module vetolist.
+%}
+%\label{fig:mod_w_com}
+%\end{figure}
+
+
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=0.7\textwidth]{ashish_thesis/mod_weight_comparison.png}
-\caption{%
-   Change in module weights between period A and B for all modules left after applying 2\% rms module vetolist.
-}
-\label{fig:mod_w_com}
-\end{figure}
-
-
-
-\begin{figure}[!htp]
-\centering
-\includegraphics[width=0.8\textwidth]{ashish_thesis/mod_weight_comp_1.png}
-\caption{%
-   Projection of change in module weights between period A and B. Modules showing more than 3 sigma change are added to the module vetolist.
+\includegraphics[width=1\textwidth]{ashish_thesis/mod_weight_comp_1.png}
+\caption[Selection to remove modules due to change in module weights across period]{%
+   Projection of change in module weights between period A and B. Modules showing more than 3 sigma change in module weights are added to the module veto list.
 }
 \label{fig:mod_w_com_1}
 \end{figure}
    
- 2\% selection on rms/mean of module weight profile gives the best stability for all pixel detector barrel layers and forward disks. Bad modules found after applying this 2\% selection in the final iterative step are used to constitute a 2 $\%$ rms module veto list for each period as shown in Table \ref{tab:per period veto}. 
+ 2\% selection on RMS/mean of module weight profile gives the best stability for all pixel detector barrel layers and forward disks. Bad modules found after applying this 2\% selection in the final iterative step are used to constitute a 2 $\%$ rms module veto list for each period as shown in Table \ref{tab:per period veto}. 
                                                                                  
 \begin{table}
   \begin{center}
@@ -442,11 +602,52 @@ Run 2018A, C and D:
      2018D3     &  1081  &    775   \\ 
      2018D4     &  1032  &     824  \\ 
       \end{tabular}
-    \caption{2 \% rms module vetolist for each period showing number of good and bad modules.}
+    \caption[Module veto list for each period]{2 \% rms module vetolist for each period showing number of good and bad modules.}
     \label{tab:per period veto}
   \end{center}
 \end{table}
- 
+
+
+\begin{table}[!ht]
+\centering
+\topcaption{%
+    PCC/ HFOC luminosity mean and rms values for new per period vetolist showing variation in mean values across period.
+}
+\begin{tabular}{ccccc}
+    \textbf{Period} & \textbf{mean} & \textbf{rms} &  \textbf{rms/mean} \\ \hline
+    A & 1.006 & 0.004183 & 0.004158 \\
+    B & 0.9981  & 0.003133 & 0.0031389 \\
+    C & 0.9989  & 0.003009 & 0.003012\\
+    D1 & 1.003  & 0.002441 & 0.002433 \\
+    D2 & 1.001  & 0.0029 & 0.00289 \\
+   D3  & 1  & 0.002115 & 0.002115 \\
+   D4  & 1.002  & 0.003673 & 0.003666 \\ 
+\end{tabular}
+\label{tab:pccvis_diffveto}
+\end{table}
+
+
+
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=0.8\textwidth]{ashish_thesis/old_new_veto.png}
+\caption{%
+   klm
+}
+\label{fig:old_new_vetolist}
+\end{figure}
+
+
+
+
+
+
+
+
+
 To further improve the stability of PCC luminometer, $2\%$ rms common module vetolist is created as shown in Table \ref{tab:2commonveto}. Common module veto list is a combination of module veto list of all run periods A, B, C, D1, D2, D3 and D4. Approach to make a common module veto list is to start by combining module vetolists of period A,B and C, then combine A,B, C, D1 and so on. Less than $9\%$ of the pixel modules remain after applying module stability selections to be used for final luminosity measurement. 
 
 \begin{table}
@@ -459,25 +660,71 @@ To further improve the stability of PCC luminometer, $2\%$ rms common module vet
      2018A + B + C + D1 + D2 + D3     &   1668 &   188    \\ 
      2018A + B + C + D1 + D2 + D3 + D4     &  1701 &     155  \\ 
       \end{tabular}
-    \caption{2\% rms common module vetolist. This vetolist is created by combining module vetolists for each period.}
+    \caption[Common module veto list for all periods]{2\% rms common module vetolist. This veto list is created by combining module veto lists for each period.}
     \label{tab:2commonveto}
   \end{center}
 \end{table}
 
-The relative contribution to PCC luminosity from each pixel detector layer and disk after removing low statistics lumi sections and applying 2\% rms common module vetolist is shown in Fig. \ref{fig:stabprof}.
+
 
 
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=0.8\textwidth]{ashish_thesis/ProfileX_combined_testing_LUM_20-001.png}
+\includegraphics[width=1\textwidth]{ashish_thesis/before_after_vdm_stability.png}
 \caption{%
-   Stability profiles of pixel detector layer and disk modules for 2\% rms common module vetolist.
+   Luminosity fraction (stability plots) before and after applying 2\% rms module vetolist.
+}
+\label{fig:b_a_stability_vdm}
+\end{figure}
+
+
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/pcc_layer_disk_mean_rms.png}
+\caption{%
+pcc layer disk mean rms
+}
+\label{fig:pixellalyerdiskmeanrms}
+\end{figure}
+
+
+
+
+
+
+
+
+The relative contribution to PCC luminosity from each pixel detector layer and disk after removing low statistics lumi sections and applying 2\% rms common module vetolist is shown in Fig. \ref{fig:stabprof}.
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=0.8\textwidth]{ashish_thesis/2percentcommonveto_pixellayerdisk.png}
+\caption[Pixel layer/disk stability]{%
+   Stability profiles of pixel detector layer and disk modules for 2\% rms common module veto list.
 }
 \label{fig:stabprof}
 \end{figure}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 %\subsection{Reasons for the inclusion of certain modules in the veto list}
 
+\begin{comment}
+  
 The module veto list in particle physics experiments is a list of detector modules that are excluded from the analysis of data due to their known or suspected high rate of background events or other issues that could affect the accuracy of the measurement. The inclusion of certain modules in the veto list is based on various factors, including:
 
 \begin{itemize}
@@ -508,10 +755,31 @@ The module veto list in particle physics experiments is a list of detector modul
 
 The inclusion of certain modules in the veto list is based on a careful analysis of the detector performance and the expected background rates in a given experiment. By excluding modules with high background rates or other issues, the analysis can be improved and the accuracy of the measurement can be increased.
 
+\end{comment}
 
 \section{Afterglow Model}
 
-Type 1 and Type 2 afterglow corrections are essential for obtaining accurate PCC measurements. Type 1 afterglow noise, also known as electronic spillover, is caused by the long waveform of the signal in silicon. On the other hand, Type 2 afterglow noise is the exponentially decaying detector activation due to the production of secondary particles when high-energy particles interact with the detector material as shown in Fig. \ref{fig:pcc_afterglow}. Afterglow noise is corrected by creating a model of the afterglow tail of a single colliding bunch, which is then normalized to the luminosity of the colliding bunch crossing. A bunch-by-bunch histogram containing bunch trains undergoes afterglow correction, where the afterglow model is multiplied with the luminosity of each colliding bunch pair and subsequently subtracted from all following bunches. This correction process is performed iteratively for all colliding bunch pairs, ensuring that a given bunch crossing is fully corrected before being used to correct the subsequent bunch crossings. The afterglow correction, or scale factor, is calculated by taking the ratio of the corrected and uncorrected PCC. This scale factor is then applied to individual bunch-by-bunch histograms in the zero bias data. In addition to afterglow corrections, pedestal correction is another important aspect to consider. Pedestal correction refers to the adjustment of baseline values in the detector readout to account for any systematic offsets or drifts. This process involves measuring the detector's output when no signal is present and subtracting this baseline value from the measured signal during data collection. By performing pedestal correction, the accuracy and stability of the detector's measurements are significantly improved, contributing to more reliable PCC measurements.
+Type 1 and Type 2 afterglow corrections are very important for precise PCC luminosity measurement. Type 1 afterglow noise, or electronic spillover, arises due to the lingering signal waveform within silicon. Contrarily, Type 2 afterglow noise emanates from the exponentially diminishing activation of the detector caused by the creation of secondary particles when the detector material encounters high-energy particles \cite{CMS-PAS-SMP-12-008}(as depicted in Fig. \ref{fig:pcc_afterglow}).
+
+The rectification of afterglow noise is achieved by constructing a model that replicates the tail of the afterglow from a single collision event. This model is then adjusted according to the luminosity of the event. In an ongoing process of correction, a histogram representing the collision events and containing bunch trains is adjusted, whereby the afterglow model is multiplied by the luminosity of each colliding pair and subsequently deducted from all subsequent collision events. This iterative process is repeated for all colliding pairs, ensuring each event is completely rectified prior to being used for further correction.
+
+The afterglow correction, or the scale factor, is determined by calculating the ratio of the corrected to uncorrected PCC. This factor is then implemented into individual event histograms within the zero bias data.
+
+Apart from afterglow corrections, pedestal correction is another critical component. It signifies the adjustment of baseline values in the detector readout to account for any systematic biases or drifts. The pedestal correction involves monitoring the detector's output in the absence of a signal, and then subtracting this baseline value from the signal collected during data capture. The application of pedestal correction significantly enhances the accuracy and stability of the detector's readings, thereby leading to precision measurement of PCC luminosity.
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/veto_change_same_af.png}
+\caption{%                                                                                                                                                                                                            
+    ratio of scale factor for new and old veto.
+}
+\label{fig:af_change_veto}
+\end{figure}
+
+
+%Type 1 and Type 2 afterglow corrections are essential for obtaining accurate PCC measurements. Type 1 afterglow noise, also known as electronic spillover, is caused by the long waveform of the signal in silicon. On the other hand, Type 2 afterglow noise is the exponentially decaying detector activation due to the production of secondary particles when high-energy particles interact with the detector material as shown in Fig. \ref{fig:pcc_afterglow}. Afterglow noise is corrected by creating a model of the afterglow tail of a single colliding bunch, which is then normalized to the luminosity of the colliding bunch crossing. A bunch-by-bunch histogram containing bunch trains undergoes afterglow correction, where the afterglow model is multiplied with the luminosity of each colliding bunch pair and subsequently subtracted from all following bunches. This correction process is performed iteratively for all colliding bunch pairs, ensuring that a given bunch crossing is fully corrected before being used to correct the subsequent bunch crossings. The afterglow correction, or scale factor, is calculated by taking the ratio of the corrected and uncorrected PCC. This scale factor is then applied to individual bunch-by-bunch histograms in the zero bias data. In addition to afterglow corrections, pedestal correction is another important aspect to consider. Pedestal correction refers to the adjustment of baseline values in the detector readout to account for any systematic offsets or drifts. This process involves measuring the detector's output when no signal is present and subtracting this baseline value from the measured signal during data collection. By performing pedestal correction, the accuracy and stability of the detector's measurements are significantly improved, contributing to more reliable PCC measurements.
 
 %Type 1 and 2 afterglow corrections are measured and applied to the PCC measurement. Type 1 afterglow noise is electronic spillover due to long waveform of the signal 549 in silicon and Type 2 afterglow noise is exponentially decaying detector activation due to production of secondary particles when high energy particles interact with detector material as shown in Fig. 15. Afterglow noise is corrected by making a model of afterglow tail of a single colliding bunch, normalized to the luminosity of the colliding bunch crossing. Bunch-by-bunch histogram containing bunch trains is corrected for afterglow where afterglow models is multi554 plied with the luminosity of each colliding bunch pair and subtracted from all following bunches. This correction is performed iteratively over all colliding bunch pairs such that a given bunch crossing is fully corrected before it is used to correct the succeeding bunch crossings. The afterglow correction (or scale factor) can be calculated by taking the ratio of corrected and uncorrected PCC. This scale factor is applied to individual bunch-by-bunch histograms in the zero bias data.
 
@@ -521,26 +789,119 @@ Type 1 and Type 2 afterglow corrections are essential for obtaining accurate PCC
 
 \item Type 2 afterglow correction: Type 2 afterglow is associated with the activation of detector material due to high-energy particle interactions. When high-energy particles interact with the detector material, they can cause the material to become radioactive. The decay of these radioactive isotopes produces additional signals in the detector, which can lead to an overestimation of the number of pixel clusters. The Type 2 afterglow correction aims to account for these additional signals by subtracting the expected contribution of the activation-induced background from the raw PCC data.
 
-\item Pedestal afterglow correction: The pedestal afterglow refers to the baseline noise level in the detector, which can be influenced by factors such as temperature fluctuations, electronic noise, and radiation damage. This noise can cause an over- or underestimation of the actual number of pixel clusters. The pedestal afterglow correction aims to correct for this by adjusting the raw PCC data based on a measurement of the pedestal noise level.
+\item Pedestal correction: The pedestal correction refers to the baseline noise level in the detector, which can be influenced by factors such as temperature fluctuations, electronic noise, and radiation damage. This noise can cause an over- or underestimation of the actual number of pixel clusters. The pedestal afterglow correction aims to correct for this by adjusting the raw PCC data based on a measurement of the pedestal noise level.
 
 \end{itemize}
 
-
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=0.7\textwidth]{ashish_thesis/afterglow_type1_type2.png}
-\caption{%
+\includegraphics[width=1\textwidth]{ashish_thesis/af_t1_t2.png}
+\caption[Type 1 and type 2 afterglow effect for single colliding bunch]{%
 Afterglow corrections are calculated from cluster rate measurements in empty bunches. Electronic spillover (“Type-1”). Type-1 noise is due to long waveform of the signal in silicon. First empty bunch after bunch train is used to calculate it. Exponentially decaying detector activation (“Type-2”).  Type-2 noise is due to production of secondary particles when high energy particles interact with detector material. All empty bunches after bunch train are used to calculate it.
 }
 \label{fig:pcc_afterglow}
 \end{figure}
 
 
-\section{vdM Calibration Results}
 
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/fill_7036_pattern.png}
+\caption[]{%                                                                                                                                                                                         
+  Afterglow fit model.
+}
+\label{fig:af_fit}
+\end{figure}
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/af_model_fit.png}
+\caption[]{%                                                                                                                                                                                                                                                                  
+  Afterglow fit model.
+}
+\label{fig:af_fit}
+\end{figure}
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/bunch_train.png}
+\caption[]{%                                                                                                                                                                                  
+                                                                                                                                                                                           
+  Afterglow fit model.
+}
+\label{fig:af_fit}
+\end{figure}
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/2wagon_af.png}
+\caption[]{%                                               
+                                                                                                                                   
+  Afterglow fit model.
+}
+\label{fig:af_fit}
+\end{figure}
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/2wagon_fit.png}
+\caption[]{%                                                                                                                                 
+
+  Afterglow fit model.
+}
+\label{fig:af_fit}
+\end{figure}
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/3wagon_af.png}
+\caption[]{%                                                                                  
+                                                                                                                                              
+
+                                                                                       
+  Afterglow fit model.
+}
+\label{fig:af_fit}
+\end{figure}
+
+
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/3wagon_fit.png}
+\caption[]{%                                                                          
+  Afterglow fit model.
+}
+\label{fig:af_fit}
+\end{figure}
+
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/type2_af_parameters.png}
+\caption[]{%                                                                                
+  Afterglow fit model.
+}
+\label{fig:af_fit}
+\end{figure}
+
+
+
+
+\section{vdM calibration results}
 
 The background estimation for the PCC rate is done with two super-separation scans SS1 and SS2. The mean and error are obtained from the $y$ projection of PCC per NB4 plotted as a function of time. The results for five different BCIDs are shown in Table~\ref{tab:vdm:SS1_SS2}, using the reprocessed PCC data for Fill 6868. The overall background correction applied to raw PCC rate is $0.02757\pm0.01987$, which is calculated by taking the average of the mean values of SS1 and SS2.
-
 
 \begin{table}
   \begin{center}
@@ -591,13 +952,12 @@ The visible cross section per scan is averaged over all BCIDs and its scan to sc
 \section{Luminosity for Physics Fills}
 
 
-\section{Systematic Uncertainties}
+\section{Systematic uncertainties}
 
 
-\subsection{Uncertainties associated with the Van der Meer calibration}
+\subsection{van der Meer calibration uncertainties}
 
 \begin{itemize}
-
 
  \item  Orbit Drift: Refers to the gradual displacement of the beam orbit from its ideal trajectory due to various effects such as ground motion, magnetic field fluctuations, and thermal expansion. This can result in reduced beam intensity and beam quality.
 
@@ -607,22 +967,145 @@ The visible cross section per scan is averaged over all BCIDs and its scan to sc
 
  \item Dynamic $\beta$: Refers to the time-varying beta function of a particle beam, which describes the rate at which the beam diverges or converges as it propagates. This effect can be important for beam stability and the control of beam emittance.
 
-
 \item Beam Current Calibration: Refers to the process of accurately measuring the current of a particle beam, which is essential for many beam diagnostics and control systems.
 
 \item Ghosts and Satellites: Refers to unwanted signals in a detector or measurement system that can arise from various sources such as scattered radiation, electronic noise, or interference from other particles. These can lead to inaccurate measurements and reduced data quality.
 
-\item Scan to Scan Variation: Refers to the variation in experimental results obtained from different scans or measurements, which can arise from various sources such as statistical fluctuations, instrument drift, or systematic errors.
+\item Scan to Scan Variation: Refers to the variation in experimental results obtained from different scans or measurements, which can arise from various sources such as statistical fluctuations, instrument drift, or systematic errors as shown in Fig.  \ref{fig:sigmaperscan}.
 
 \item Bunch to Bunch Variation: Refers to the variation in the properties of individual particle bunches within a beam, such as their intensity, energy spread, or emittance. This effect can be important for beam tuning and optimization.
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/sigma_vis_btob_var.png}
+\caption[]{%                                                                                                                                                                            
+ Bunch to bunch variation of PCC visible cross section.  
+}
+\label{fig:sigmavis_btob_variation}
+\end{figure}
+
+
+\begin{tabular}{cccccc}
+\textbf{Scan} & \textbf{Mean} & \textbf{SEM} & \textbf{Standard Deviation} & \textbf{(Standard Deviation/Mean) $\times$ 100} \\
+\hline
+vdm1 & 953621.33 & 2148.68 & 1334.83 & 0.14\% \\
+Img1 & 959386.63 & 2050.61 & 559.37 & 0.058\% \\
+Img3 & 964376.43 & 2213.15 & 2502.04 & 0.26\% \\
+Img4 & 960386.85 & 2163.92 & 2936.50 & 0.31\% \\
+vdm2 & 960566.04 & 2425.60 & 4320.81 & 0.45\% \\
+vdm3 & 964566.94 & 2456.97 & 3928.54 & 0.41\% \\
+vdm4 & 962586.52 & 2419.86 & 3943.24 & 0.41\% \\
+\end{tabular}
+
 
 \item Cross-Detector Consistency: Refers to the agreement between measurements obtained from different detectors or measurement systems. This is important for verifying the accuracy and reliability of experimental results.
 
 \item Background Subtraction: Refers to the process of removing unwanted signals from a measurement or detector system that arise from sources other than the physical phenomenon of interest, such as noise, cosmic rays, or other particles. This is essential for obtaining accurate measurements of the physical signal.
 
-  \end{itemize}
 
-\subsection{Uncertainties associated with physics data taking}
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/SS_background.png}
+\caption[]{%                                                                                                                                                                                                      
+}
+\label{fig:sigmavis_btob_variation}
+\end{figure}
+
+  
+\begin{table}[ht]
+  \begin{subtable}{0.5\linewidth}
+    \centering
+    \begin{tabular}{cc}
+      \textbf{BCID} & \textbf{Mean} \\
+      \hline
+      265 & 0.02902 \\
+      865 & 0.02572 \\
+      1780 & 0.02862 \\
+      2192 & 0.02729 \\
+      3380 & 0.02882 \\
+    \end{tabular}
+    \caption{SS1_{avg}= 0.027894 \pm 0.01249}
+  \end{subtable}%
+  \begin{subtable}{0.5\linewidth}
+    \centering
+    \begin{tabular}{cc}
+      \textbf{BCID} & \textbf{Mean} \\
+      \hline
+      265 & 0.02743 \\
+      865 & 0.0281 \\
+      1780 & 0.0286 \\
+      2192 & 0.02323 \\
+      3380 & 0.02896 \\
+    \end{tabular}
+    \caption{SS2_{avg}= 0.027264 \pm 0.00049}
+  \end{subtable}
+  \caption{SS bkg= 0.02757 +- 0.01987}
+\end{table}
+
+
+%c_rate = r_rate - b_rate
+%d(c_rate)square = d(r_rate)square + d(b_rate)square
+%d(c_rate)/c = sqrt[d(r_rate)square + d(b_rate)square] /c
+%d(c_rate)/c= d(b_rate)/c
+%= 0.00049/4.6 = 0.000106 (0.01%)
+%(delta sigma/sigma)square = (delta R/R) square
+
+
+
+%\begin{equation}
+%c_{rate} = r_{rate} - b_{rate}
+%(dc_{rate})^2 = (dr_{rate})^2 + (db_{rate})^2
+%\end{equation}
+
+%\begin{equation}
+%dc_{rate} = \sqrt{(dr_{\text{rate}})^2 + (db_{\text{rate}})^2}
+%\end{equation}
+
+
+%\begin{equation}
+%$\frac{dc_{rate}}{c_{peak}}$ =$\frac{\sqrt{(dr_{\text{rate}})^2 + (db_{\text{rate}})^2}}{c_{peak}}$
+%\end{equation}
+
+%\begin{equation}
+%$\frac{d(c_{\text{rate}})}{c_{peak}}$ = $\frac{d(b_{\text{rate}})}{c_{peak}}$
+%\frac{0.00049}{4.6} = 0.000106 \text{ (0.01\%)}
+%(\frac{\delta \sigma}{\sigma})^2 = (\frac{\delta R}{R})^2
+%\end{equation}
+
+
+\end{itemize}
+
+
+\begin{equation}
+c_{rate} = r_{rate} - b_{rate}
+\end{equation}
+
+
+\begin{equation}
+(dc_{rate})^2 = (dr_{rate})^2 + (db_{rate})^2
+\end{equation}
+
+\begin{equation}
+dc_{rate} = \sqrt{(dr_{\text{rate}})^2 + (db_{\text{rate}})^2}
+\end{equation}
+
+
+\begin{equation}
+
+$\frac{dc_{rate}}{c_{peak}}$ =$\frac{\sqrt{(dr_{\text{rate}})^2 + (db_{\text{rate}})^2}}{c_{peak}}$
+\end{equation}
+
+\begin{equation}
+
+$\frac{dc_{rate}}{c_{peak}}$ = $\frac{d(b_{rate})}{c_{peak}}$
+
+%\frac{0.00049}{4.6} = 0.000106 \text{ (0.01\%)}                                                                                                                                                                                                                              
+%(\frac{\delta \sigma}{\sigma})^2 = (\frac{\delta R}{R})^2                                                                                                                                                                                                                    
+\end{equation}
+
+
+\subsection{Physics data taking uncertainties}
 
 \begin{itemize}
 
@@ -636,12 +1119,224 @@ The visible cross section per scan is averaged over all BCIDs and its scan to sc
 
   Systematic uncertainties due to stability in the detector itself for the pixel cluster counting method are typically estimated by studying the performance of the method over time and comparing it to simulations or other measurements. Uncertainties due to changes in the noise level and detector efficiency are typically estimated separately and combined to obtain the total systematic uncertainty
 
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/stability_sys.png}
+\caption[]{%                                                                                                                                                                                                                 
+  Stability systematic uncertainty.
+}
+\label{fig:af_fit}
+\end{figure}
+
+
+  
 \item Linearity: the luminosity obtained from the PCC method is compared to that obtained from the HFOC method for a given set of collisions. Any deviations between the two measurements are used to estimate the linearity uncertainty in the PCC method.
 
   The linearity uncertainty is typically quantified as a systematic uncertainty in the luminosity measurement, expressed as a percentage of the measured luminosity. This uncertainty can be estimated by fitting the PCC and HFOC measurements to a linear function and calculating the deviation of the PCC measurement from the linear fit.
 
-\item Type 1 afterglow refers to the persistence of charge in the pixels of the detector after a collision event. This charge can be produced by various sources, such as ionization due to the passage of charged particles, or leakage currents in the readout electronics. If this charge is not properly accounted for, it can be mistakenly counted as pixel clusters produced by subsequent collision events, leading to an overestimation of the luminosity.
 
-  Type 2 afterglow refers to the persistence of noise in the detector after a collision event. This noise can be produced by various sources, such as thermal or radiation-induced effects, and can also interfere with subsequent collisions. If this noise is not properly accounted for, it can lead to a reduction in the efficiency of the pixel cluster counting method and an underestimation of the luminosity.
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/linearity_sys.png}
+\caption[]{%                                                                                                                                                                                                                \
+                                                                                                                                                                                                                             
+  Linearity systematic uncertainty.
+}
+\label{fig:af_fit}
+\end{figure}
+
+
+
+FCN=11192 FROM MIGRAD    STATUS=CONVERGED      40 CALLS          41 TOTAL
+                     EDM=3.66412e-15    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.34306e-07   2.04110e-09   3.00000e-06  -1.82768e+02
+   2  p1           9.92659e-01   2.73960e-05   3.00000e-06  -1.37960e-02
+
+
+
+  
+ \item Afterglow:
+   
+  %Type 1 afterglow refers to the persistence of charge in the pixels of the detector after a collision event. This charge can be produced by various sources, such as ionization due to the passage of charged particles, or leakage currents in the readout electronics. If this charge is not properly accounted for, it can be mistakenly counted as pixel clusters produced by subsequent collision events, leading to an overestimation of the luminosity.
+
+  %Type 2 afterglow refers to the persistence of noise in the detector after a collision event. This noise can be produced by various sources, such as thermal or radiation-induced effects, and can also interfere with subsequent collisions. If this noise is not properly accounted for, it can lead to a reduction in the efficiency of the pixel cluster counting method and an underestimation of the luminosity.
+
+
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/type1_res.png}
+\caption[]{%                                                                                                                                                                                                      
+   Type 1 residual.                                                                                                                                                                                                              
+}
+\label{fig:type1}
+\end{figure}
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/type2_res.png}
+\caption[]{%                                                                                                                                                                                        
+
+  Type 2 residuals.
+}
+\label{fig:type2}
+\end{figure}
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/type1res_frac.png}
+\caption[]{%                                                                                                                                                                                                              
+   Type 1 residual fraction.                                                                                                                                                                                                      
+}
+\label{fig:type2}
+\end{figure}
 
 \end{itemize}
+
+
+
+
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=1\textwidth]{ashish_thesis/h_ProfileX_PCC_HFOCvsHFOC_all.png}
+%\caption[]{%                                                                                                                                                         
+                                                                                                                                                                     
+ %  Type 1 residual fraction.                                                                                                                                         
+
+%}
+%\label{fig:type2}
+%\end{figure}
+
+
+
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all.png}
+\caption[]{%                                                                                                                                                          
+   Type 1 residual fraction.
+
+}
+\label{fig:type2}
+\end{figure}
+
+
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/PCC_HFOCvsHFOC_ProfileX_residuals_all.png}
+\caption[]{%                                                                                                                                                         
+   Type 1 residual fraction.
+
+}
+\label{fig:type2}
+\end{figure}
+
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/PCC_HFOCvsls_all.png}
+\caption[]{%                                                                                                                                                         
+   Type 1 residual fraction.
+
+}
+\label{fig:type2}
+\end{figure}
+
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/PCC_HFOCvsls_ProfileX_all.png}
+\caption[]{%                                                                                                                                                         
+   Type 1 residual fraction.
+
+}
+\label{fig:type2}
+\end{figure}
+
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/PCCvsHFOC_all.png}
+\caption[]{%                                                                                                                                                         
+
+   Type 1 residual fraction.
+
+}
+\label{fig:type2}
+\end{figure}
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/PCCvsHFOC_ProfileX_all.png}
+\caption[]{%                                                                                                                                                         
+
+   Type 1 residual fraction.
+
+}
+\label{fig:type2}
+\end{figure}
+
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/PCCvsHFOC_ProfileX_residuals_all.png}
+\caption[]{%                                                                                                                                                         
+   Type 1 residual fraction.
+
+}
+\label{fig:type2}
+\end{figure}
+
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/PCCvsHFOC_ProjectionY_all.png}
+\caption[]{%                                                                                                                                                         
+
+   Type 1 residual fraction.
+
+}
+\label{fig:type2}
+\end{figure}
+
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/ProjY_ProfileX_h_ratio_all.png}
+\caption[]{%                                                                                                                                                         
+          
+   Type 1 residual fraction.
+
+}
+\label{fig:type2}
+\end{figure}
+
+
+
+

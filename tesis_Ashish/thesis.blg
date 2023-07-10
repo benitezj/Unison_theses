@@ -3,10 +3,29 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Portada/Portada.aux
 A level-1 auxiliary file: Abstract/abstract.aux
+A level-1 auxiliary file: Chapter1/chapter1.aux
+A level-1 auxiliary file: Chapter2/chapter2.aux
+A level-1 auxiliary file: Chapter3/chapter3.aux
 A level-1 auxiliary file: Chapter4/chapter4.aux
+A level-1 auxiliary file: Chapter5/chapter5.aux
+A level-1 auxiliary file: Chapter7/chapter7.aux
+A level-1 auxiliary file: Chapter8/chapter8.aux
 The style file: unsrtnat.bst
-I found no \citation commands---while reading file thesis.aux
 Database file #1: References_original/references.bib
+Repeated entry---line 100 of file References_original/references.bib
+ : @article{Sirunyan:2759951
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 263 of file References_original/references.bib
+ : @techreport{CMS-PAS-LUM-15-001
+ :                               ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "Cekmecelioglu:2775639" isn't style-file defined
+--line 301 of file References_original/references.bib
+Repeated entry---line 331 of file References_original/references.bib
+ : @techreport{CMS-PAS-LUM-18-002
+ :                               ,
+I'm skipping whatever remains of this entry
 Reallocated buffer (elt_size=1) to 40000 items from 20000.
 Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
 Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
@@ -19,50 +38,67 @@ Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
 Reallocated out_buf (elt_size=1) to 60000 items from 40000.
 Reallocated name_tok (elt_size=4) to 60000 items from 40000.
 Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
-I was expecting a `,' or a `}'---line 348 of file References_original/references.bib
+I was expecting a `,' or a `}'---line 426 of file References_original/references.bib
  : 
  : @article{Atlas_Exp_2008,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You've used 0 entries,
+Warning--I didn't find a database entry for "Klein:2017nke"
+Warning--I didn't find a database entry for "Agostinelli:2002hh"
+Warning--empty journal in Herr:941318
+Warning--empty institution in Dainese:2703572
+Warning--empty author in CMS-PAS-EWK-10-004
+Warning--empty author in CMS-PAS-EWK-11-001
+Warning--empty author in CMS-PAS-SMP-12-008
+Warning--empty author in CMS-PAS-LUM-13-001
+Warning--empty author in Sirunyan:2759951
+Warning--empty author in pas_17
+Warning--empty author in pas_18
+Warning--empty author in CMS-PAS-LUM-18-002
+Warning--empty institution in Ayala:2861814
+Warning--empty institution in CMS-DP-2013-003
+Warning--there's a number but no volume in CMS-PAS-LUM-15-001
+Warning--empty author in CMS-PAS-LUM-16-001
+Warning--empty author in CMS-PAS-LUM-17-004
+You've used 29 entries,
             2481 wiz_defined-function locations,
-            554 strings with 4507 characters,
-and the built_in function-call counts, 34 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 11
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
-int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 0
+            731 strings with 9414 characters,
+and the built_in function-call counts, 8159 in all, are:
+= -- 789
+> -- 213
+< -- 21
++ -- 122
+- -- 60
+* -- 543
+:= -- 1257
+add.period$ -- 103
+call.type$ -- 29
+change.case$ -- 69
+chr.to.int$ -- 25
+cite$ -- 54
+duplicate$ -- 458
+empty$ -- 818
+format.name$ -- 89
+if$ -- 1768
+int.to.chr$ -- 5
+int.to.str$ -- 30
+missing$ -- 8
+newline$ -- 169
+num.names$ -- 57
+pop$ -- 216
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 29
 quote$ -- 0
-skip$ -- 1
+skip$ -- 312
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 172
+swap$ -- 61
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 203
+warning$ -- 15
+while$ -- 46
 width$ -- 0
-write$ -- 7
-(There were 2 error messages)
+write$ -- 414
+(There were 4 error messages)

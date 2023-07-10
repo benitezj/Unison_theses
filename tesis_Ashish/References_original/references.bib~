@@ -262,14 +262,38 @@
 
 
 
+@techreport{vanderMeer1968,
+    author = {van der Meer, S.},
+    title = "{Calibration of the Effective Beam Height in the ISR}",
+    institution = {CERN},
+    year = {1968},
+    number = {CERN-ISR-PO/68-31},
+    address = {Geneva},
+}
 
 
 
 
+@techreport{CMS-PAS-LUM-17-004,
+      collaboration = "CMS",
+      title         = "{CMS luminosity measurement for the 2017 data-taking
+                       period at $\sqrt{s} = 13~\mathrm{TeV}$}",
+      institution   = "CERN",
+      reportNumber  = "CMS-PAS-LUM-17-004",
+      address       = "Geneva",
+      year          = "2018",
+      url           = "https://cds.cern.ch/record/2621960",
+}
 
 
-
-
+@thesis{Cekmecelioglu:2775639,
+      author        = "Cekmecelioglu, Yusuf Can",
+      title         = "{Calibration of CMS Luminometers Using van der Meer and
+                       Emittance Scans. Van der Meer ve Emitans Ölçümlerini
+                       Kullanarak CMS Luminosite Dedektörlerinin Kalibrasyonu}",
+      year          = "2021",
+      url           = "https://cds.cern.ch/record/2775639",
+}
 
 
 
