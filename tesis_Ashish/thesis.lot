@@ -4,23 +4,17 @@
 \contentsline {table}{\numberline {2.1}{\ignorespaces \# modules in pixel layers and disks}}{19}{table.caption.13}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Run ranges}}{33}{table.caption.21}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces PCC datasets}}{35}{table.caption.22}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Module veto list for each period}}{53}{table.caption.32}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Common module veto list for all periods}}{54}{table.caption.35}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Background in PCC rate}}{60}{table.caption.49}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces SS bkg= 0.02757 +- 0.01987\relax }}{65}{table.caption.55}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Run ranges}}{33}{table.caption.20}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces PCC datasets}}{35}{table.caption.21}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Module veto list for each period}}{49}{table.caption.30}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces PCC/ HFOC luminosity mean and rms values for new per period vetolist showing variation in mean values across period. \relax }}{52}{table.caption.31}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Run Period and Good Modules\relax }}{52}{table.caption.32}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Common module veto list for all periods}}{52}{table.caption.33}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Layer/Disk Statistics\relax }}{53}{table.caption.35}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces type 2 af parameters\relax }}{55}{table.caption.46}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Background in PCC rate}}{59}{table.caption.47}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces SS bkg= 0.02757 +- 0.01987\relax }}{63}{table.caption.53}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces Systematic Uncertainty\relax }}{68}{table.caption.66}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces SS1 SS1_avg= 0.76804 +- 0.002478\relax }}{86}{table.caption.85}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces SS2. SS2_avg= 0.72026 -+0.002888\relax }}{86}{table.caption.85}%
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Phase II upgrade of CMS tracker datasets\relax }}{93}{table.caption.88}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Events per file for each pileup\relax }}{95}{table.caption.89}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces Events processed for each pileup\relax }}{95}{table.caption.90}%
-\contentsline {table}{\numberline {6.4}{\ignorespaces dr cut values for two fold coincidences in phi for all disks and rings\relax }}{105}{table.caption.121}%
-\contentsline {table}{\numberline {6.5}{\ignorespaces dphi cut values for two fold coincidences in phi for all disks and rings\relax }}{106}{table.caption.122}%
-\contentsline {table}{\numberline {6.6}{\ignorespaces dr mean values obtained from fit for two fold coincidences in phi for all disks and rings\relax }}{107}{table.caption.123}%
-\contentsline {table}{\numberline {6.7}{\ignorespaces Various types of two fold coincidences in R in one TEPX double disk with module overlaps and z separation is shown in the table.\relax }}{110}{table.caption.125}%
-\contentsline {table}{\numberline {6.8}{\ignorespaces Sample Table\relax }}{111}{table.caption.146}%
-\contentsline {table}{\numberline {6.9}{\ignorespaces Sample Table\relax }}{119}{table.caption.147}%
-\contentsline {table}{\numberline {6.10}{\ignorespaces Sample Table\relax }}{119}{table.caption.148}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces SS1 SS1_avg= 0.76804 +- 0.002478\relax }}{82}{table.caption.82}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces SS2. SS2_avg= 0.72026 -+0.002888\relax }}{82}{table.caption.82}%

@@ -392,10 +392,31 @@ Simulation: CMSSW integrates several external tools and libraries, such as the G
 
 
 
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=0.8\textwidth]{ashish_thesis/pcc_stability_begin.png}
+%\caption{%                                                                                                                                                                                          
+ %  Luminosity fraction of pixel detector for various layer and disks as a function of lumi section after removing low statistics lumi section.
+%}
+%\label{fig:PCC_stab_begin}
+%\end{figure}
+
+
+
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=0.8\textwidth]{ashish_thesis/pixel_layer_disk_noveto_noselection.png}
+%\caption{%                                                                                                                                                                                                            
+ %  Luminosity fraction of pixel detector for various layer and disks as a function of lumi section after removing low statistics lumi section.
+%}
+%\label{fig:PCC_stab_begin}
+%\end{figure}
+
+
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=0.8\textwidth]{ashish_thesis/pcc_stability_begin.png}
-\caption{%                                                                                                                                                                                                      
+\includegraphics[width=0.8\textwidth]{ashish_thesis/pixel_layer_disk_noveto.png}
+\caption{%                                                                                                                                                                
    Luminosity fraction of pixel detector for various layer and disks as a function of lumi section after removing low statistics lumi section.
 }
 \label{fig:PCC_stab_begin}
@@ -403,32 +424,26 @@ Simulation: CMSSW integrates several external tools and libraries, such as the G
 
 
 
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=0.8\textwidth]{ashish_thesis/pcc_frac_L0_veto.png}
+%\caption{%                                                                                                                                                                           
+ %  Luminosity fraction of pixel detector for various layer and disks as a function of lumi section after removing low statistics lumi section.
+%}
+%\label{fig:PCC_stab_L0_veto}
+%\end{figure}
+
+
+
+
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=0.8\textwidth]{ashish_thesis/pixel_layer_disk_noveto_noselection.png}
-\caption{%                                                                                                                                                                                                            
-   Luminosity fraction of pixel detector for various layer and disks as a function of lumi section after removing low statistics lumi section.
-}
-\label{fig:PCC_stab_begin}
-\end{figure}
-
-
-
-\begin{figure}[!htp]
-\centering
-\includegraphics[width=0.8\textwidth]{ashish_thesis/pcc_frac_L0_veto.png}
-\caption{%                                                                                                                                                                                                            
+\includegraphics[width=0.8\textwidth]{ashish_thesis/pixel_layer_disk_B0_veto.png}
+\caption{%                                                                                                                                                                           
    Luminosity fraction of pixel detector for various layer and disks as a function of lumi section after removing low statistics lumi section.
 }
 \label{fig:PCC_stab_L0_veto}
 \end{figure}
-
-
-
-
-
-
-
 
 
 
@@ -590,7 +605,8 @@ Run 2018A, C and D:
    
  2\% selection on RMS/mean of module weight profile gives the best stability for all pixel detector barrel layers and forward disks. Bad modules found after applying this 2\% selection in the final iterative step are used to constitute a 2 $\%$ rms module veto list for each period as shown in Table \ref{tab:per period veto}. 
                                                                                  
-\begin{table}
+
+ \begin{table}
   \begin{center}
     \begin{tabular}{ccccc}  
     \textbf{Period}   & \textbf{\# bad modules} & \textbf{\# good modules} \\ \hline
@@ -610,9 +626,9 @@ Run 2018A, C and D:
 
 \begin{table}[!ht]
 \centering
-\topcaption{%
-    PCC/ HFOC luminosity mean and rms values for new per period vetolist showing variation in mean values across period.
-}
+%\topcaption{%
+ %PCC/ HFOC luminosity mean and rms values for new per period vetolist showing variation in mean values across period.
+%}
 \begin{tabular}{ccccc}
     \textbf{Period} & \textbf{mean} & \textbf{rms} &  \textbf{rms/mean} \\ \hline
     A & 1.006 & 0.004183 & 0.004158 \\
@@ -623,23 +639,40 @@ Run 2018A, C and D:
    D3  & 1  & 0.002115 & 0.002115 \\
    D4  & 1.002  & 0.003673 & 0.003666 \\ 
 \end{tabular}
+\caption{%                                                                                                                                                                                              
+ PCC/ HFOC luminosity mean and rms values for new per period vetolist showing variation in mean values across period.
+}
 \label{tab:pccvis_diffveto}
 \end{table}
 
 
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=0.8\textwidth]{ashish_thesis/old_new_veto.png}
+%\caption{%
+ %  klm
+%}
+%\label{fig:old_new_vetolist}
+%\end{figure}
 
 
-
-
-\begin{figure}[!htp]
+\begin{table}[htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{ashish_thesis/old_new_veto.png}
-\caption{%
-   klm
-}
-\label{fig:old_new_vetolist}
-\end{figure}
-
+\label{tab:run-period}
+\begin{tabular}{cccc}
+\textbf{Run period (Old Veto)} & \textbf{Good modules} & \textbf{Run period (New Veto)} & \textbf{Good modules} \\
+\hline
+A & 787 & A & 580 \\
+B & 787 & B & 1054 \\
+C & 787 & C & 780 \\
+D early & 787 & D1 & 687 \\
+ & & D2 & 672 \\
+ & 775 & D3 (323363-323699)  & \\
+D late & 469 & D3 (323700-324420) & 775 \\
+ & 824 & D4 & \\
+\end{tabular}
+\caption{Run Period and Good Modules}
+\end{table}
 
 
 
@@ -681,18 +714,36 @@ To further improve the stability of PCC luminometer, $2\%$ rms common module vet
 
 
 
-\begin{figure}[!htp]
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=1\textwidth]{ashish_thesis/pcc_layer_disk_mean_rms.png}
+%\caption{%
+%pcc layer disk mean rms
+%}
+%\label{fig:pixellalyerdiskmeanrms}
+%\end{figure}
+
+
+
+
+\begin{table}[htbp]
 \centering
-\includegraphics[width=1\textwidth]{ashish_thesis/pcc_layer_disk_mean_rms.png}
-\caption{%
-pcc layer disk mean rms
-}
-\label{fig:pixellalyerdiskmeanrms}
-\end{figure}
-
-
-
-
+%\caption{Layer/Disk Statistics}
+\label{tab:layer-disk}
+\begin{tabular}{cccccc}
+\textbf{Layer/Disk} & \textbf{Good modules} & \textbf{mean} & \textbf{rms} & \textbf{rms/mean} \\
+\hline
+Layer 2 & 0 & 0 & 0 & 0 \\
+Layer 3 & 48 & 0.374681 & 0.000663165 & 0.00176995 \\
+Layer 4 & 79 & 0.356424 & 0.000724235 & 0.00203195 \\
+Disk 1 & 10 & 0.102687 & 0.000535149 & 0.00521144 \\
+Disk 2 & 12 & 0.112508 & 0.000460595 & 0.00409389 \\
+Disk 3 & 6 & 0.0537002 & 0.000282446 & 0.00525967 \\
+Total  & 155 & & \\
+%\multicolumn{2}{c}{} & \multicolumn{2}{r}{155} \\
+\end{tabular}
+\caption{Layer/Disk Statistics}
+\end{table}
 
 
 
@@ -874,7 +925,6 @@ Afterglow corrections are calculated from cluster rate measurements in empty bun
 
 
 
-
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/3wagon_fit.png}
@@ -887,14 +937,30 @@ Afterglow corrections are calculated from cluster rate measurements in empty bun
 
 
 
-\begin{figure}[!htp]
-\centering
-\includegraphics[width=1\textwidth]{ashish_thesis/type2_af_parameters.png}
-\caption[]{%                                                                                
-  Afterglow fit model.
-}
-\label{fig:af_fit}
-\end{figure}
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=1\textwidth]{ashish_thesis/type2_af_parameters.png}
+%\caption[]{%                                                                                
+ % Afterglow fit model.
+%}
+%\label{fig:af_fit}
+%\end{figure}
+
+
+
+
+\begin{table}
+  \centering
+  \begin{tabular}{ccc}
+    \textbf{\# of wagon} & \textbf{a} & \textbf{b} \\
+     \hline
+   1-wagon train  & 0.001246  & 0.01261 \\
+   2-wagon train  & 0.000813 &  0.01219\\
+   3-wagon train  & 0.0008265 &  0.01231\\
+  \end{tabular}
+  \caption{type 2  af parameters}
+\end{table}
+
 
 
 
@@ -1121,14 +1187,14 @@ $\frac{dc_{rate}}{c_{peak}}$ = $\frac{d(b_{rate})}{c_{peak}}$
 
 
 
-\begin{figure}[!htp]
-\centering
-\includegraphics[width=1\textwidth]{ashish_thesis/stability_sys.png}
-\caption[]{%                                                                                                                                                                                                                 
-  Stability systematic uncertainty.
-}
-\label{fig:af_fit}
-\end{figure}
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=1\textwidth]{ashish_thesis/stability_sys.png}
+%\caption[]{%                                                                                                                                                                                                                 
+ % Stability systematic uncertainty.
+%}
+%\label{fig:af_fit}
+%\end{figure}
 
 
   
@@ -1138,15 +1204,15 @@ $\frac{dc_{rate}}{c_{peak}}$ = $\frac{d(b_{rate})}{c_{peak}}$
 
 
 
-\begin{figure}[!htp]
-\centering
-\includegraphics[width=1\textwidth]{ashish_thesis/linearity_sys.png}
-\caption[]{%                                                                                                                                                                                                                \
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=1\textwidth]{ashish_thesis/linearity_sys.png}
+%\caption[]{%                                                                                                                                                                                               %                 \
                                                                                                                                                                                                                              
-  Linearity systematic uncertainty.
-}
-\label{fig:af_fit}
-\end{figure}
+ % Linearity systematic uncertainty.
+%}
+%\label{fig:af_fit}
+%\end{figure}
 
 
 
@@ -1168,39 +1234,98 @@ FCN=11192 FROM MIGRAD    STATUS=CONVERGED      40 CALLS          41 TOTAL
 
 
 
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=1\textwidth]{ashish_thesis/type1_res.png}
+%\caption[]{%                                                                                                                                                                                                      
+ %  Type 1 residual.                                                                                                                                                                                                              
+%}
+%\label{fig:type1}
+%\end{figure}
 
 
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=1\textwidth]{ashish_thesis/type1_res.png}
-\caption[]{%                                                                                                                                                                                                      
-   Type 1 residual.                                                                                                                                                                                                              
+\includegraphics[width=1\textwidth]{ashish_thesis/type1res_gr0p5.png}
+\caption[]{%                                                                                                                                                                                              
+   Type 1 residual.                                                                                                                                                                                       
+
 }
 \label{fig:type1}
 \end{figure}
 
+
+
+
+
+
+
+
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=1\textwidth]{ashish_thesis/type2_res.png}
+%\caption[]{%                                                                                                                                                                                        
+
+ % Type 2 residuals.
+%}
+%\label{fig:type2}
+%\end{figure}
+
+
+
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=1\textwidth]{ashish_thesis/type2res_gr0.5.png}
+%\caption[]{%                                                                                                                                                                                               
+
+ % Type 2 residuals.
+%}
+%\label{fig:type2}
+%\end{figure}
+
+
+
+
+
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=1\textwidth]{ashish_thesis/type2_res.png}
-\caption[]{%                                                                                                                                                                                        
-
-  Type 2 residuals.
-}
+\includegraphics[width=1\textwidth]{ashish_thesis/type2res_gr0.5_rangefixed.png}
+\caption[]{%                                                                                                                                                                                              
+  Type 2 residuals.  Mean value is 0.00267652.
+ }
 \label{fig:type2}
 \end{figure}
 
 
+
+
+
+
+
+
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=1\textwidth]{ashish_thesis/type1res_frac.png}
+%\caption[]{%                                                                                                                                                                                                              
+ %  Type 1 residual fraction.                                                                                                                                                                                                      
+%}
+%\label{fig:type2}
+%\end{figure}
+
+\end{itemize}
+
+
+
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=1\textwidth]{ashish_thesis/type1res_frac.png}
-\caption[]{%                                                                                                                                                                                                              
-   Type 1 residual fraction.                                                                                                                                                                                                      
+\includegraphics[width=1\textwidth]{ashish_thesis/type1frac_gr0p5.png}
+\caption[]{%                                                                                                                                                                                              
+   Type 1 residual fraction.                                                                                                                                                                              
 }
 \label{fig:type2}
 \end{figure}
 
 \end{itemize}
-
 
 
 
@@ -1214,8 +1339,6 @@ FCN=11192 FROM MIGRAD    STATUS=CONVERGED      40 CALLS          41 TOTAL
 %}
 %\label{fig:type2}
 %\end{figure}
-
-
 
 
 
@@ -1336,6 +1459,35 @@ FCN=11192 FROM MIGRAD    STATUS=CONVERGED      40 CALLS          41 TOTAL
 }
 \label{fig:type2}
 \end{figure}
+
+
+
+\begin{table}[htbp]
+\centering
+\caption{Systematic Uncertainty}
+\label{tab:systematic-uncertainty}
+\begin{tabular}{cccc}
+\textbf{N/I} & \textbf{Systematic names} & \textbf{Uncertainty (PAS) [\%]} & \textbf{Uncertainty (Final veto) [\%]} \\
+\hline
+Normalization & length scale & &  \\
+ & Orbit drift &  &  \\
+ & X-Y nonfactorization & 2 & 0.4 \\
+ & Beam-beam deflection & -- & -- \\
+ & Dynamic beta & -- & -- \\
+ & Beam current calibration & -- & -- \\
+ & Ghost and satellite & -- & -- \\
+ & Scan to scan variation & 0.3 & 0.3 \\
+ & Bunch to bunch variation & 0.3 & 0.1 \\
+ & Cross detector consistency & -- & -- \\
+ & Background subtraction & 0.1 & 0.06 \\
+Integration & Afterglow & 0.5 & 0.3 \\
+ & Cross detector stability & 0.6 & 0.24 \\
+ & Linearity & 1.1 & 0.35 \\
+Total & -- & 2.47 & 0.813 \\
+\end{tabular}
+\end{table}
+
+
 
 
 

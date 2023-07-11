@@ -1,6 +1,6 @@
 \thispagestyle {empty}
 \contentsline {chapter}{List of figures}{v}{section*.2}%
-\contentsline {chapter}{List of tables}{xiii}{section*.3}%
+\contentsline {chapter}{List of tables}{vii}{section*.3}%
 \contentsline {chapter}{\numberline {1}Introduction to collider experiments}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Luminosity and its importance in particle physics}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Motivation for precision luminosity measurement}{2}{section.1.2}%
@@ -20,33 +20,16 @@
 \contentsline {section}{\numberline {4.1}Dataset}{33}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Software tools}{38}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Module Selection}{43}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Afterglow Model}{55}{section.4.4}%
-\contentsline {section}{\numberline {4.5}vdM calibration results}{57}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Luminosity for Physics Fills}{61}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Systematic uncertainties}{61}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}van der Meer calibration uncertainties}{61}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Physics data taking uncertainties}{65}{subsection.4.7.2}%
-\contentsline {chapter}{\numberline {5}Run 3 Luminosity Measurement}{80}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Detector Module selection}{80}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Afterglow Model}{80}{section.5.2}%
-\contentsline {section}{\numberline {5.3}vdM Calibration Results}{80}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Luminosity for Physics Fills}{86}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Systematic uncertainties}{86}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Phase II upgrade of the CMS Tracker}{88}{chapter.6}%
-\contentsline {section}{\numberline {6.1}New Inner tracker and its features}{91}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Phase II TEPX detector}{91}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Phase II CMS simulation samples}{92}{subsection.6.2.1}%
-\contentsline {section}{\numberline {6.3}Luminosity determination using TEPX - counting clusters/coincidences}{94}{section.6.3}%
-\contentsline {subsubsection}{Old algorithm for counting TEPX two fold coincidences}{99}{section*.97}%
-\contentsline {subsection}{\numberline {6.3.1}New algorithm for counting TEPX two fold coincidences}{99}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}TEPX two fold coincidences in phi}{99}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}TEPX two fold coincidences in R}{120}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}TEPX linearity}{121}{subsection.6.3.4}%
-\contentsline {subsection}{\numberline {6.3.5}Statistical precision for TEPX luminometer}{127}{subsection.6.3.5}%
-\contentsline {section}{\numberline {6.4}Summary of the planned upgrade schedule}{128}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Summary and Plans}{136}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Summary of the study and its findings}{136}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}Limitations and potential improvements of the pixel cluster counting method}{136}{subsection.6.5.2}%
-\contentsline {subsection}{\numberline {6.5.3}Future work related to luminosity measurement at the LHC}{136}{subsection.6.5.3}%
-\contentsline {subsection}{\numberline {6.5.4}Conclusion and final remarks}{136}{subsection.6.5.4}%
-\contentsline {chapter}{References}{137}{chapter*.188}%
+\contentsline {section}{\numberline {4.4}Afterglow Model}{54}{section.4.4}%
+\contentsline {section}{\numberline {4.5}vdM calibration results}{55}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Luminosity for Physics Fills}{60}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Systematic uncertainties}{60}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}van der Meer calibration uncertainties}{60}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Physics data taking uncertainties}{64}{subsection.4.7.2}%
+\contentsline {chapter}{\numberline {5}Run 3 Luminosity Measurement}{76}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Detector Module selection}{76}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Afterglow Model}{76}{section.5.2}%
+\contentsline {section}{\numberline {5.3}vdM Calibration Results}{76}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Luminosity for Physics Fills}{82}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Systematic uncertainties}{82}{section.5.5}%
+\contentsline {chapter}{References}{84}{chapter*.83}%

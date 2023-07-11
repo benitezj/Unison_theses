@@ -8,8 +8,6 @@ A level-1 auxiliary file: Chapter2/chapter2.aux
 A level-1 auxiliary file: Chapter3/chapter3.aux
 A level-1 auxiliary file: Chapter4/chapter4.aux
 A level-1 auxiliary file: Chapter5/chapter5.aux
-A level-1 auxiliary file: Chapter7/chapter7.aux
-A level-1 auxiliary file: Chapter8/chapter8.aux
 The style file: unsrtnat.bst
 Database file #1: References_original/references.bib
 Repeated entry---line 100 of file References_original/references.bib
@@ -43,8 +41,6 @@ I was expecting a `,' or a `}'---line 426 of file References_original/references
  : @article{Atlas_Exp_2008,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Klein:2017nke"
-Warning--I didn't find a database entry for "Agostinelli:2002hh"
 Warning--empty journal in Herr:941318
 Warning--empty institution in Dainese:2703572
 Warning--empty author in CMS-PAS-EWK-10-004
@@ -62,7 +58,7 @@ Warning--empty author in CMS-PAS-LUM-16-001
 Warning--empty author in CMS-PAS-LUM-17-004
 You've used 29 entries,
             2481 wiz_defined-function locations,
-            731 strings with 9414 characters,
+            725 strings with 9310 characters,
 and the built_in function-call counts, 8159 in all, are:
 = -- 789
 > -- 213
