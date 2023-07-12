@@ -9,6 +9,10 @@
     author = {{CMS Collaboration, "The CMS experiment at the CERN LHC", \textit{JINST} \textbf{3} S08004, 2008, doi: 10.1088/1748-0221/3/08/s08004}}
 }
 
+@article{beam_halo,
+    author = {{S. Orfanelli et al, "A novel Beam Halo Monitor for the CMS experiment at the LHC", \textit{JINST} \textbf{10} P11011, 2015, doi: 10.1088/1748-0221/10/11/P11011}}
+}
+
 @book{thomson_2013, 
 		author={{M. Thomson, \textit{Modern Particle Physics}, Cambridge University Press, New York, 2013}}
 }
@@ -37,6 +41,9 @@ author={{A. Belyaev and R. Douglas, \textit{The Basics of Nuclear and Particle P
       author = {{CMS Collaboration, "The Phase-2 Upgrade of the CMS Beam Radiation, Instrumentation, and Luminosity Detectors: Conceptual Design", CMS Public Note CMS-NOTE-2019-008, 2020}}
 }
 
+@article{lumi_uncertainties,
+      author = {{CMS Collaboration, "Measurement of inclusive W and Z boson production cross sections in pp collisions at $\sqrt{s}$ = 13 TeV", CMS Physics Analysis Summaries CMS-PAS-SMP-15-004, 2015}}
+}
 
 @MISC{wikicern,
     author = {{Online resource: "CMS Luminosity - Public Results", 2023, URL https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults }}
@@ -66,6 +73,18 @@ author={{A. Belyaev and R. Douglas, \textit{The Basics of Nuclear and Particle P
 
 @MISC{hl-lhc,
     	author = {{O. Aberle et al, "High-Luminosity Large Hadron Collider (HL-LHC): Technical design report", CERN-2020-010, 2020, doi: 10.23731/CYRM-2020-0010 [last actualization in URL https://hilumilhc.web.cern.ch/content/hl-lhc-project]}}
+}
+
+@MISC{ROOT,
+    	author = {{ROOT Data Analysis Framework, "An open-source data analysis framework used by high energy physics and others, release 6.28/04, " URL https://root.cern}}
+}
+
+@MISC{PyROOT,
+    	author = {{ROOT Data Analysis Framework, "Python interface: PyROOT, " URL https://root.cern/manual/python/}}
+}
+
+@MISC{HD5,
+    	author = {{The HDF Group, "HDF5", Last Modified: June 23, 2023, "URL https://portal.hdfgroup.org/display/HDF5/HDF5}}
 }
 
 @article{det_summary,
@@ -108,11 +127,34 @@ $\sqrt{s}$ = 13 TeV in 2015 and 2016 at CMS, \textit{Eur. Phys. J. C} \textbf{81
 	author = {{S. Müller, "Simulation of beam-induced backgrounds in comparison with data from the {CMS} pixel and other inner radii detectors", \textit{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment} 650 \textbf{1}, 2011, doi: https://doi.org/10.1016/j.nima.2010.11.082}}
 }
 
+@article{LHC_bunch_populations,
+      author = {{G. Anders et al., "Study of the relative LHC bunch populations for luminosity calibration", Technical Report CERN-ATS-Note-2012-028 PERF, 2012}}
+}
+
+@article{DCCT_calibration_studies,
+      author = {{C. Barschel et al., "Results of the LHC DCCT calibration studies", Technical Report CERN-ATS-Note-2012-026 PERF, 2012}}
+}
+
+@article{BI_calibration,
+      author = {{M. Klute, C. Medlock, and J. Salfeld-Nebgen, "Beam imaging and luminosity calibration", JINST 12 (2017) P03018, doi:10.1088/1748-0221/12/03/P03018, arXiv:1603.03566}}
+}
+
+@article{Measuring_luminosity,
+      author = {{J. Knolle, "Measuring luminosity and the ttZ production cross section with the CMS experiment". PhD thesis, Universität Hamburg, 2020. CERN-THESIS-2020-185, DESY-THESIS-2020-020. doi:10.3204/PUBDB-2020-03187}}
+}
+
+@article{ghost_charge,
+      author = {{A. Alici et al., "Study of the LHC ghost charge and satellite bunches for luminosity calibration.", Technical Report CERN-ATS-Note-2012-029 PERF, 2012}}
+}
+
+@article{vertex,
+      author = {{CMS collaboration, "Description and performance of track and primary-vertex reconstruction with the CMS tracker", \textit{JINST} \textbf{9}, doi: 10.1088/1748-0221/9/10/P10009, 2014}}
+}
+
 
 @BIBNOTE{lumi_motiv,
   note = {M.L. Mangano, Motivations and precision targets for an accurate luminosity determination at the LHC, \emph{CERN-Proceedings-2011-011}, \url{https://cds.cern.ch/record/1347440}},
 }
-
 
 
 @BIBNOTE{test1,

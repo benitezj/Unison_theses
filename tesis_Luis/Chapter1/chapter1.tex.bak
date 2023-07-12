@@ -7,7 +7,7 @@ Particle physics is the branch of physics that focuses on studying the fundament
 
 \section{Particle Physics and The Standard Model}
 
-The universe is composed of several different particles. Atoms consist of negatively charged electrons $(e^{-})$, which are in a bound state, orbiting a central nucleus that is composed of electrically neutral neutrons $(n)$ and positively charged protons $(p)$. The electrostatic attraction between opposite charges binds the electrons to the nucleus, while the protons and neutrons are held together by the strong nuclear force. The fundamental interactions of particle physics are completed by gravity and the weak force. The weak force drives nuclear decays $\beta$ and nuclear fusion, whereas gravity, despite being extremely weak, is universally attractive and, thus, shapes the large-scale structure of the universe.
+The universe is composed of several different particles. Atoms consist of negatively charged electrons $(e^{-})$, which are in a bound state, orbiting a central nucleus that is composed of electrically neutral neutrons $(n)$ and positively charged protons $(p)$. The electrostatic attraction between opposite charges binds the electrons to the nucleus, while the protons and neutrons are held together by the nuclear force. The interactions between these particle also include the gravity and the weak force. The weak force drives nuclear radioactivity, whereas gravity, despite being extremely weak, is universally attractive and, thus, shapes the large-scale structure of the universe.
 While this is a simple physical model, at higher energy scales, more complex structures are observed, leading to the discovery of 17 fundamental particles that make up our entire universe. These particles are categorized into two groups: fermions, which possess a spin of $1/2$, and bosons, which have an integer spin. \cite{thomson_2013}.\\
 
 Matter is composed of fermions, which consist of twelve fundamental particles classified into two types: leptons and quarks. These particles are organized into three generations, with each higher generation member having a greater mass than its corresponding particle in the previous generation. The group of six leptons includes three charged particles: electron ($e$\textsuperscript{-}), muon (${\mu}$\textsuperscript{-}), and tau (${\tau}$\textsuperscript{-}), as well as their corresponding neutrinos: electron-neutrino ($\nu_{e}$), muon-neutrino ($\nu_{\mu}$), and tau-neutrino ($\nu_{\tau}$). On the other hand, quarks can only be found in hadrons. The quark group consists of the up quark ($u$), down quark ($d$), charm quark ($c$), strange quark ($s$), top quark ($t$), and bottom quark ($b$) \cite{griff,thomson_2013}. The properties of these twelve particles are summarized in Table \ref{tab:table1}.
@@ -52,17 +52,17 @@ Bosons serve as mediators of interactions between fermions by exchanging particl
   \end{center}
 \end{table}
 
-All the particles mentioned are described by the Standard Model of particle physics (SM), which is the best theoretical model to date for providing a successful description of experimental data. However, most of this data comes from particle colliders since these particles can only be produced and studied through collisions at high energy.
+All the particles mentioned are described by the Standard Model of particle physics (SM), which is the best theoretical model to date for providing a successful description of experimental data. However, most of this data comes from particle colliders since these particles can be produced and studied through collisions at high energy.
 
 \section{Particle Colliders and production cross section}
 
 Particle physics has experienced significant advances in recent times due to high-energy particle accelerators. These accelerators function as powerful microscopes capable of examining the tiniest inner structures of matter and their constituent particles like electrons, protons, neutrons, neutrinos, and quarks. Additionally, these accelerators have the potential to solve questions about new fundamental components of the universe that remain undiscovered, including dark matter and dark energy.\\
 
-Particle colliders produce and accelerate beams of charged particles at relativistic speeds using electromagnetic fields. When the beams collide at high energies, individual interactions known as events are generated. These collisions produce several particles (such as the Higgs boson),these particles  can not be observed directly because immediately they transform or decay into other particles. They are measured and identified by a wide range of experiments (particle detectors), whose technologies, techniques and designs are based on the properties of the particles and on the nature of their interactions with matter \cite{thomson_2013}.\\
+Particle colliders produce and accelerate beams of charged particles at relativistic speeds using electromagnetic fields. When the beams collide at high energies, individual interactions known as events are generated. These collisions produce several particles (such as the Higgs boson), most of these particles  can not be observed directly because immediately they transform or decay into other particles. They are measured and identified by a wide range of experiments (particle detectors), whose technologies, techniques and designs are based on the properties of the particles and on the nature of their interactions with matter \cite{thomson_2013}.\\
 
-In general, particle detector is typically constructed as a cylindrical or polygonal barrel section, oriented parallel to the incoming colliding beams. Two flat end caps seal the cylindrical structure, ensuring nearly complete solid angle coverage all the way down to the beam pipe. This detector comprises multiple layers, each designed to detect the different particles generated during collisions \cite{thomson_2013}.\\
+In general, a particle detector is typically constructed as a cylindrical or polygonal barrel section, oriented parallel to the incoming colliding beams. Two flat end caps seal the cylindrical structure, ensuring nearly complete solid angle coverage all the way down to the beam pipe. This detector comprises multiple layers, each designed to detect the different particles generated during collisions \cite{thomson_2013}.\\
 
-Particle colliders are evaluated based on two important measures, which are the energy of the particle beams and the rate at which particles collide (luminosity). The amount of energy that is available to create new particles and study their properties is particularly significant because it determines the range of particles that can be detected or investigated. During experiments, particles are accelerated and directed towards each other, and when they collide, they produce new particles and interactions that can be analyzed by scientists.\\
+Particle colliders are evaluated based on two important measures, which are the available center of mass energy and the rate at which particles collide (luminosity). The amount of energy that is available to create new particles and study their properties is particularly significant because it determines the range of particles that can be produced. During experiments, particles are accelerated and directed toward each other, and when they collide, they produce new particles and interactions that can be analyzed by scientists.\\
 
 Colliding beam machines are capable of achieving significantly higher energies at the point where the beams intersect and scatter. When the particles in the beams have equal energy and opposite momentum (equal mass), the experiment occurs in the center-of-mass (CM) frame. This allows for the entire energy delivered by the accelerator to be utilized in generating high-mass particles \cite{undergraduate_accelerators_chapter}. In particle physics, the Lorentz invariant quantity $s$ represents the square of the total incoming energy and is defined as:
 
@@ -73,10 +73,10 @@ Where  \textbf{$p$} and $E$ are the momenta and the energy of each incoming part
 
 The second important parameter used to evaluate the performance of colliders is luminosity, which measures the accelerator's ability to produce the necessary number of interactions. It is determined by the proportionality factor between the quantum mechanical probability for the interaction (known as the cross section) and the number of events for a specific physics process per second ($R$) \cite{ref_lib_vol3}.\\
 
-The technical meaning of "cross section" in particle physics is quite different from its common usage, while "cross section" typically refers to a slice of an object, in particle physics, it often refers to the probability that two particles will collide and react in a specific manner. When two beams cross in a particle accelerator, a variety of different processes can occur and  the cross section of a given process depends on the type and energy of the colliding particles.
+The technical meaning of "cross section" in particle physics is quite different from its common usage, while "cross section" typically refers to a slice of an object, in particle physics, it quantifies the probability of a collision and is a property of the interaction of one particle with another, this is expressed in units of square meters. When two beams cross in a particle accelerator, a variety of different processes can occur and  the cross section of a given process depends on the type and energy of the colliding particles.
 At the Large Hadron Collider (LHC), certain particles such as  $W^{\pm}$ and $Z^{0}$ bosons have large cross sections , making their observation more frequent, while the production of a Higgs boson has a much lower cross section, making it more difficult to produce \cite{thomson_2013}.\\
 
-To explain this concept more clearly, let's consider a simple scenario where a beam of particles of type $a$ passes through a region of space that contains particles of type $b$. The interaction rate between the two types of particles depends on the number of particles per unit volume of type $b$, denoted as $n_{b}$, and the flux of the incident particles, denoted as $\phi_{a}$. The rate of interaction per target particle of type $b$ can be expressed as follows \cite{thomson_2013}:
+To explain this concept more clearly, let's consider a simple scenario where a beam of particles of type $a$ passes through a region of space that contains particles of type $b$. The interaction rate between the two types of particles depends on the number of particles per unit volume of type $b$, denoted as $n_{b}$, and the flux of the incident particles, denoted as $\phi_{a}$. The rate of interaction per target particle of type $b$ can be expressed as follows:
 
 \begin{equation*}
   r_{b}=\sigma \phi_{a}
@@ -88,7 +88,7 @@ The essence of fundamental physics can be encapsulated in the interaction cross 
   \begin{figure}[h!]
     \centering
 \includegraphics[scale=.35]{Chapter1/cross_section.png} 
- \caption[Cross section illustration]{Left hand (a): single incident particle of type $a$ traversing a region containing particles of type $b$. Right-hand plot (b): projected view of the region traversed by the incident particle in time $\delta t$ \cite{thomson_2013}.}
+ \caption[Cross section illustration]{Left hand (a): single incident particle of type $a$ traversing a region containing particles of type $b$. Right-hand plot (b): projected view of the region traversed by the incident particle in time $\delta t$.}
     \label{cross_section}
   \end{figure}
 \end{center}
@@ -205,11 +205,23 @@ Where the value of $\mathcal{L}_{inst}$ is evaluated over time $T$ (excluding po
 
 The integrated luminosity has units of $cm^{-2}$ and is often expressed in inverse barn ($1 barn= 10^{-24}cm^{2}$). \\
 
-Precisely understanding luminosity is really important for physics analyses like finding new particles, measuring known particle properties, or detecting rare processes. The techniques used to figure out signal rates are quite advanced now. We understand things like detector biases, acceptances, background subtraction, and reconstruction efficiencies at levels that are better than one percent. Because of this, the accuracy of our physics measurements is mainly affected by uncertainties in luminosity. If we can increase the precision of luminosity measurements, then physicists will have a better understanding of their observations and be able to explore parts of physics that we don't currently know about \cite{luminosity_importance}.
+Precisely understanding luminosity is really important for physics analyses like finding new particles, measuring known particle properties, or detecting rare processes. The accuracy of our physics measurements is mainly affected by uncertainties in luminosity. If we can increase the precision of luminosity measurements, then physicists will have a better understanding of their observations and be able to explore parts of physics that we don't currently know about \cite{luminosity_importance}.
+
+An example of this can be seen in Fig. \ref{lumi_incertainty}, which illustrates the production of $W$ and $Z$ bosons in the large hadron collider. In this figure, the inner error bars represent the experimental uncertainties, while the outer error bars encompass the uncertainties in the theoretical predictions. Additionally, the shaded box indicates the uncertainties in the luminosity measurement, which is bigger that statistical and other systematics uncertainties \cite{lumi_uncertainties}.
+
+\begin{center}
+  \begin{figure}[h]
+    \centering
+\includegraphics[scale=.28]{Chapter1/lumi_uncertainty.png} 
+ \caption[Luminosity uncertainty in a process]{Production of $W^+$, $W^-$, $W$ and $Z$ bosons and their theoretical predictions. The shaded box indicates the uncertainties in the luminosity measurement, showing that is bigger than the experimental (blue bars) and heoretical (green bars) uncertainties. The measurements and theoretical predictions values are on the right}
+    \label{lumi_incertainty}
+  \end{figure}
+\end{center}
+
 
 \section{The Large Hadron Collider}
  
-The Large Hadron Collider (LHC) is the world's biggest and most potent particle accelerator. It became operational on 10th September 2008 and is the most recent addition to CERN's accelerator complex. The LHC consists of a 27-kilometre ring that contains superconducting magnets, and various structures are used to accelerate particles as they move along the ring. Inside the accelerator, two particle beams travel at almost the speed of light until they collide. The beams move in opposite directions in separate beam pipes, which are kept at an ultrahigh vacuum.\\ 
+The Large Hadron Collider (LHC) is the world's biggest and most potent particle accelerator. It became operational on 10th September 2008 and is the most recent addition to CERN's accelerator complex. The LHC consists of a 27-kilometer ring that contains superconducting magnets, and various structures are used to accelerate particles as they move along the ring. Inside the accelerator, two particle beams travel at almost the speed of light until they collide. The beams move in opposite directions in separate beam pipes, which are kept at an ultra-high vacuum.\\ 
 
 Superconducting electromagnets generate a powerful magnetic field that guides the particle beams around the accelerator ring. These magnets are made up of coils of a unique electric cable that functions in a superconducting state. In this state, the cable can conduct electricity with zero resistance or energy loss. The accelerator uses a variety of magnets, including 1232 dipole magnets that are 15 metres in length and bend the beams, and 392 quadrupole magnets that are 5-7 metres long and focus the beams. Just before the collision, a different type of magnet is employed to "squeeze" the particles together, increasing the likelihood of collisions. To keep these magnets in the superconducting state, they must be cooled to a temperature as low as -271.3°C \cite{LHC}.\\
 
@@ -238,7 +250,7 @@ The integrated luminosity for each of these runs and years, and their correspond
 %-  en incertidumbre  no conocida, dejar solamente 2022
 \begin{table}[h!]
     \begin{center}
-    \caption[Integrated luminosity values delivered by each Run and year]{Integrated luminosity values delivered by each Run}
+    \caption[Integrated luminosity values delivered by each Run and year]{Integrated luminosity values delivered by each Run (precision values ​​for the years 2017 and 2018 show preliminary results)}
 	\label{lumi_values}
 \begin{tabular}{cccc}
 \textbf{Period} & \textbf{Energy $\sqrt{s}$} & \begin{tabular}[c]{@{}c@{}}\textbf{Integrated}\\\textbf{Luminosity}\end{tabular} & \textbf{Precision}    \\ 
@@ -254,7 +266,7 @@ Run 3(2022) \cite{wikicern} & 13.6 TeV                                          
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
+
   \begin{center}
   \begin{figure}[ht]
     \centering

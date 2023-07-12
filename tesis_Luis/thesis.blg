@@ -14,8 +14,8 @@ A level-1 auxiliary file: Chapter5/chapter5.aux
 The style file: unsrtnat.bst
 Database file #1: References/references.bib
 Warning--entry type for "concept_of_luminosity" isn't style-file defined
---line 54 of file References/references.bib
-I was expecting a `,' or a `}'---line 76 of file References/references.bib
+--line 61 of file References/references.bib
+I was expecting a `,' or a `}'---line 95 of file References/references.bib
  : 
  : @MISC{lhc_complex,
 (Error may have been on previous line)
@@ -38,6 +38,10 @@ Warning--empty year in ref_lib_vol3
 Warning--empty year in ref_lib_vol3
 Warning--empty year in concept_of_luminosity
 Warning--empty year in luminosity_importance
+Warning--empty title in lumi_uncertainties
+Warning--empty journal in lumi_uncertainties
+Warning--empty year in lumi_uncertainties
+Warning--empty year in lumi_uncertainties
 Warning--empty year in LHC
 Warning--empty year in lhc_complex
 Warning--empty year in hl-lhc
@@ -86,53 +90,72 @@ Warning--empty title in vdM_sketch
 Warning--empty journal in vdM_sketch
 Warning--empty year in vdM_sketch
 Warning--empty year in vdM_sketch
+Warning--empty year in ROOT
+Warning--empty year in HD5
+Warning--empty year in PyROOT
+Warning--empty title in beam_halo
+Warning--empty journal in beam_halo
+Warning--empty year in beam_halo
+Warning--empty year in beam_halo
 Warning--empty title in bkg_source
 Warning--empty journal in bkg_source
 Warning--empty year in bkg_source
 Warning--empty year in bkg_source
+Warning--empty title in ghost_charge
+Warning--empty journal in ghost_charge
+Warning--empty year in ghost_charge
+Warning--empty year in ghost_charge
+Warning--empty title in LHC_bunch_populations
+Warning--empty journal in LHC_bunch_populations
+Warning--empty year in LHC_bunch_populations
+Warning--empty year in LHC_bunch_populations
+Warning--empty title in DCCT_calibration_studies
+Warning--empty journal in DCCT_calibration_studies
+Warning--empty year in DCCT_calibration_studies
+Warning--empty year in DCCT_calibration_studies
 Warning--empty title in Statistical_Data_Analysis
 Warning--empty journal in Statistical_Data_Analysis
 Warning--empty year in Statistical_Data_Analysis
 Warning--empty year in Statistical_Data_Analysis
-You've used 23 entries,
+You've used 31 entries,
             2481 wiz_defined-function locations,
-            616 strings with 8808 characters,
-and the built_in function-call counts, 5683 in all, are:
-= -- 375
-> -- 161
-< -- 23
-+ -- 92
-- -- 46
-* -- 362
-:= -- 847
-add.period$ -- 23
-call.type$ -- 23
-change.case$ -- 23
-chr.to.int$ -- 23
-cite$ -- 97
-duplicate$ -- 392
-empty$ -- 661
-format.name$ -- 69
-if$ -- 1153
+            637 strings with 10077 characters,
+and the built_in function-call counts, 7628 in all, are:
+= -- 505
+> -- 217
+< -- 31
++ -- 124
+- -- 62
+* -- 479
+:= -- 1133
+add.period$ -- 31
+call.type$ -- 31
+change.case$ -- 31
+chr.to.int$ -- 31
+cite$ -- 128
+duplicate$ -- 524
+empty$ -- 891
+format.name$ -- 93
+if$ -- 1553
 int.to.chr$ -- 1
-int.to.str$ -- 24
-missing$ -- 19
-newline$ -- 77
-num.names$ -- 69
-pop$ -- 333
+int.to.str$ -- 32
+missing$ -- 24
+newline$ -- 101
+num.names$ -- 93
+pop$ -- 444
 preamble$ -- 1
-purify$ -- 23
+purify$ -- 31
 quote$ -- 0
-skip$ -- 248
+skip$ -- 341
 stack$ -- 0
-substring$ -- 46
-swap$ -- 29
+substring$ -- 62
+swap$ -- 40
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 155
-warning$ -- 74
-while$ -- 46
+type$ -- 211
+warning$ -- 97
+while$ -- 62
 width$ -- 0
-write$ -- 168
+write$ -- 224
 (There was 1 error message)

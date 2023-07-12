@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -42,6 +42,13 @@
 {P. Traczyk, Online article : "Why precision luminosity measurements matter",
   2022, URL
   https://home.cern/news/news/physics/why-precision-luminosity-measurements-matter}.
+
+\bibitem[{CMS Collaboration, "Measurement of inclusive W and Z boson production
+  cross sections in pp collisions at $\sqrt{s}$ = 13 TeV", CMS Physics Analysis
+  Summaries CMS-PAS-SMP-15-004, 2015}()]{lumi_uncertainties}
+{CMS Collaboration, "Measurement of inclusive W and Z boson production cross
+  sections in pp collisions at $\sqrt{s}$ = 13 TeV", CMS Physics Analysis
+  Summaries CMS-PAS-SMP-15-004, 2015}.
 
 \bibitem[{Online article: "The Large Hadron Collider", 2023, URL
   https://home.cern/science /accelerators/large-hadron-collider}()]{LHC}
@@ -142,6 +149,29 @@
 {O. Karacheban, "Performance of the BRIL luminometers at CMS in Run 2", CMS
   Public Note CMS-CR-2019-140, 2019, doi: 10.22323/1.364.0194}.
 
+\bibitem[{ROOT Data Analysis Framework, "An open-source data analysis framework
+  used by high energy physics and others, release 6.28/04, " URL
+  https://root.cern}()]{ROOT}
+{ROOT Data Analysis Framework, "An open-source data analysis framework used by
+  high energy physics and others, release 6.28/04, " URL https://root.cern}.
+
+\bibitem[{The HDF Group, "HDF5", Last Modified: June 23, 2023, "URL
+  https://portal.hdfgroup.org/display/HDF5/HDF5}()]{HD5}
+{The HDF Group, "HDF5", Last Modified: June 23, 2023, "URL
+  https://portal.hdfgroup.org/display/HDF5/HDF5}.
+
+\bibitem[{ROOT Data Analysis Framework, "Python interface: PyROOT, " URL
+  https://root.cern/manual/python/}()]{PyROOT}
+{ROOT Data Analysis Framework, "Python interface: PyROOT, " URL
+  https://root.cern/manual/python/}.
+
+\bibitem[{S. Orfanelli et al, "A novel Beam Halo Monitor for the CMS experiment
+  at the LHC", \textit{JINST} \textbf{10} P11011, 2015, doi:
+  10.1088/1748-0221/10/11/P11011}()]{beam_halo}
+{S. Orfanelli et al, "A novel Beam Halo Monitor for the CMS experiment at the
+  LHC", \textit{JINST} \textbf{10} P11011, 2015, doi:
+  10.1088/1748-0221/10/11/P11011}.
+
 \bibitem[{S. Müller, "Simulation of beam-induced backgrounds in comparison
   with data from the {CMS} pixel and other inner radii detectors",
   \textit{Nuclear Instruments and Methods in Physics Research Section A:
@@ -153,6 +183,25 @@
   Instruments and Methods in Physics Research Section A: Accelerators,
   Spectrometers, Detectors and Associated Equipment} 650 \textbf{1}, 2011, doi:
   https://doi.org/10.1016/j.nima.2010.11.082}.
+
+\bibitem[{A. Alici et al., "Study of the LHC ghost charge and satellite bunches
+  for luminosity calibration.", Technical Report CERN-ATS-Note-2012-029 PERF,
+  2012}()]{ghost_charge}
+{A. Alici et al., "Study of the LHC ghost charge and satellite bunches for
+  luminosity calibration.", Technical Report CERN-ATS-Note-2012-029 PERF,
+  2012}.
+
+\bibitem[{G. Anders et al., "Study of the relative LHC bunch populations for
+  luminosity calibration", Technical Report CERN-ATS-Note-2012-028 PERF,
+  2012}()]{LHC_bunch_populations}
+{G. Anders et al., "Study of the relative LHC bunch populations for luminosity
+  calibration", Technical Report CERN-ATS-Note-2012-028 PERF, 2012}.
+
+\bibitem[{C. Barschel et al., "Results of the LHC DCCT calibration studies",
+  Technical Report CERN-ATS-Note-2012-026 PERF,
+  2012}()]{DCCT_calibration_studies}
+{C. Barschel et al., "Results of the LHC DCCT calibration studies", Technical
+  Report CERN-ATS-Note-2012-026 PERF, 2012}.
 
 \bibitem[{G. Cowan, \textit{Statistical Data Analysis}, Oxford University Press
   (Oxford Series), New York, NY, 1998}()]{Statistical_Data_Analysis}
