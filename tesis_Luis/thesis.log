@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  11 JUL 2023 13:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.13)  16 JUL 2023 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2096,23 +2096,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
  []
 
 [32]
-<Chapter4/BX_282_Rates_SS1.png, id=602, 1326.9575pt x 637.38126pt>
+<Chapter4/BX_282_Rates_SS1.png, id=602, 1297.84875pt x 638.385pt>
 File: Chapter4/BX_282_Rates_SS1.png Graphic file (type png)
 <use Chapter4/BX_282_Rates_SS1.png>
 Package pdftex.def Info: Chapter4/BX_282_Rates_SS1.png  used on input line 62.
-(pdftex.def)             Requested size: 341.43437pt x 164.0035pt.
+(pdftex.def)             Requested size: 341.43437pt x 167.94385pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
  []
 
-<Chapter4/ss1_histo_bx282.png, id=605, 1330.9725pt x 652.4375pt>
+<Chapter4/ss1_histo_bx282.png, id=605, 1270.7475pt x 607.26875pt>
 File: Chapter4/ss1_histo_bx282.png Graphic file (type png)
 <use Chapter4/ss1_histo_bx282.png>
 Package pdftex.def Info: Chapter4/ss1_histo_bx282.png  used on input line 74.
-(pdftex.def)             Requested size: 346.0447pt x 169.62975pt.
+(pdftex.def)             Requested size: 343.10641pt x 163.96475pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
 
 [33 <./Chapter4/BX_282_Rates_SS1.png> <./Chapter4/ss1_histo_bx282.png>]
 <Chapter4/interpolation2.png, id=614, 789.95125pt x 669.50125pt>
@@ -2442,34 +2447,34 @@ Package pdftex.def Info: Chapter4/DGConst_peak.png  used on input line 275.
 (pdftex.def)             Requested size: 204.85802pt x 134.5045pt.
  [39 <./Chapter4/DGConst_chi2.png> <./Chapter4/DGConst_CapSigma.png> <./Chapter
 4/DGConst_peak.png>]
-<Chapter4/DGConst_xsec.png, id=678, 1082.0425pt x 674.52pt>
+<Chapter4/DGConst_xsec.png, id=679, 1082.0425pt x 674.52pt>
 File: Chapter4/DGConst_xsec.png Graphic file (type png)
 <use Chapter4/DGConst_xsec.png>
-Package pdftex.def Info: Chapter4/DGConst_xsec.png  used on input line 296.
+Package pdftex.def Info: Chapter4/DGConst_xsec.png  used on input line 299.
 (pdftex.def)             Requested size: 324.61525pt x 202.35756pt.
  [40 <./Chapter4/DGConst_xsec.png>]
-<Chapter4/xsec_perscan_v2.png, id=692, 853.1875pt x 652.4375pt>
+<Chapter4/xsec_perscan_v2.png, id=693, 853.1875pt x 652.4375pt>
 File: Chapter4/xsec_perscan_v2.png Graphic file (type png)
 <use Chapter4/xsec_perscan_v2.png>
-Package pdftex.def Info: Chapter4/xsec_perscan_v2.png  used on input line 323.
+Package pdftex.def Info: Chapter4/xsec_perscan_v2.png  used on input line 326.
 (pdftex.def)             Requested size: 341.26895pt x 260.97037pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
 
 [41 <./Chapter4/xsec_perscan_v2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
 
  []
 
@@ -2542,6 +2547,25 @@ Underfull \hbox (badness 3942) in paragraph at lines 165--167
 -ROOT, " URL
  []
 
+
+Underfull \hbox (badness 2253) in paragraph at lines 180--184
+[]\T1/ptm/m/n/12 (+20) S. Müller, "Sim-u-la-tion of beam-induced back-grounds i
+n com-par-i-son with
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 180--184
+\T1/ptm/m/n/12 (+20) data from the CMS pixel and other in-ner radii de-tec-tors
+", \T1/ptm/m/it/12 (+20) Nu-clear In-
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 180--184
+\T1/ptm/m/it/12 (+20) stru-ments and Meth-ods in Physics Re-search Sec-tion A \
+T1/ptm/m/n/12 (+20) 650 \T1/ptm/b/n/12 (+20) 1\T1/ptm/m/n/12 (+20) , 2011, doi:
+
+ []
+
 ) [46] (./thesis.ind) (./thesis.aux (./Portada/Portada.aux)
 (./Dedication/dedication.aux) (./Acknowledgement/acknowledgement.aux)
 (./Abstract/abstract.aux) (./Abstract/resumen.aux) (./Chapter1/chapter1.aux)
@@ -2554,12 +2578,12 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 678E6095230BBE8A59A0F287184B75E3;5591.
  ) 
 Here is how much of TeX's memory you used:
- 44083 strings out of 478287
- 1010578 string characters out of 5849289
- 1412322 words of memory out of 5000000
- 60898 multiletter control sequences out of 15000+600000
- 555092 words of font info for 288 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 44075 strings out of 480129
+ 1010508 string characters out of 5893409
+ 1407627 words of memory out of 5000000
+ 60662 multiletter control sequences out of 15000+600000
+ 554417 words of font info for 282 fonts, out of 8000000 for 9000
+ 81 hyphenation exceptions out of 8191
  125i,19n,120p,1105b,969s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
@@ -2573,10 +2597,10 @@ blic/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr
 /texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (53 pages, 5405054 bytes).
+Output written on thesis.pdf (53 pages, 5305622 bytes).
 PDF statistics:
- 822 PDF objects out of 1000 (max. 8388607)
- 668 compressed objects within 7 object streams
+ 823 PDF objects out of 1000 (max. 8388607)
+ 669 compressed objects within 7 object streams
  183 named destinations out of 1000 (max. 500000)
  85909 words of extra memory for PDF output out of 89155 (max. 10000000)
 

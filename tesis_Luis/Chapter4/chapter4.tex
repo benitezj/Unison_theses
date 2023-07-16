@@ -65,13 +65,13 @@ In order to illustrate a SS period for this analisys, the Fig. \ref{ssp_wide_bx2
 \end{figure}
 \end{center}
 
-To estimate the background value, the mean value of  the  distribution of $<\text{PCC}>$ is computed. The mean and error for each super separation (SS) period are obtained taking the $y$ projection from the values showed the Fig \ref{ssp_wide_bx282}. 
-To illustrate this process Fig. \ref{ss1_hist_282} displays the $<\text{PCC}>$ distribution for SS period I, specifically for BCID 282. The same plot and analysis was done  for each BCID.\\
+To estimate the background value and its conrresponding statistical error (SEM) for each super separation period, the mean value and the standard deviation are taken from the distribution resulting  by making a Y-projection from the rates of $<\text{PCC}>$ shown in the Fig \ref{ssp_wide_bx282}. 
+To illustrate this process Fig. \ref{ss1_hist_282} displays a distribution for these values for the SS period I, specifically for BCID 282. The same plot and analysis were done  for each BCID.\\
 
 \begin{center}
   \begin{figure}[h!]
     \centering
-    \includegraphics[scale=.26]{Chapter4/ss1_histo_bx282.png}
+    \includegraphics[scale=.27]{Chapter4/ss1_histo_bx282.png}
     \caption[$<\text{PCC}>$ profile for BCID 282 from SS period I]{profile of the $<\text{PCC}>$  for BCID 282 from SS period I.} 
     \label{ss1_hist_282}
   \end{figure}
@@ -122,7 +122,7 @@ To illustrate this process Fig. \ref{ss1_hist_282} displays the $<\text{PCC}>$ d
   \end{center}
 \end{table}
 
-Table  \ref{ss_per_bx} shows the results for five different BCIDs, using the reprocessed PCC data for Fill 8381, where the error is calculated as $AvgErr=\sqrt{SEM_1^2 + \cdots + SEM_N}/N$. This analysis reveals notable inconsistencies in the background values obtained from the two Super Separation (SS) periods and the utilization of an average background value for all scans affected the quality of the fit. 
+Table  \ref{ss_per_bx} shows the results for five different BCIDs, using the reprocessed PCC data for Fill 8381, where the error is calculated as $AvgErr=\sqrt{SEM_1^2 + \cdots + SEM_N}/N$. This analysis reveals notable inconsistencies in the background values obtained from the two Super Separation (SS) periods and the utilization of an average background value for all scans affected the quality of the fit.\\ 
 
 This circumstance prompted the implementation of a specific background value for each scan, corresponding to the time at which the scan was taken. This was achieved through an interpolation between the two background values from the SS periods. Figure \ref{interpolation} shows this procedure and the corresponding values for each scan, where the scan  times is taken from the  mean of the full scan (x and y scans) and the error asigned to these values is the mean of the two SS background errors divided by $\sqrt{2}$ assuming that there are not correlation between them. These values will be applied to each respective scan, resulting in a more consistent analysis aligned with the behavior of the background.
 
@@ -284,11 +284,14 @@ The $\sigma_{vis}$ for each BCID (vdM and BI scans) is then computed from the fi
  \sigma_{vis}= \pi \Sigma_{x} \Sigma_{y}(peak_{x}+peak_{y})
  \end{equation}
 
-Figure \ref{sigmavis_perbcid} shows the  value of $\sigma_{vis}$ per BCID for all the scans where the error on $\sigma_{vis}$ is assigned as: 
+Figure \ref{sigmavis_perbcid} depicts the  value of $\sigma_{vis}$ per BCID for all the scans, where the error on $\sigma_{vis}$ is assigned as shown in Eq. \ref{sigma_err}, where $P=(peak_{x}+peak_{y})/2$
+
 
 \begin{equation}
 \sigma_{vis\text{Err}}= 2 \pi \sqrt{ (\Sigma_{y} \cdot P \cdot \Sigma_{x\text{Err}})^{2} + (\Sigma_{x} \cdot P \cdot \Sigma_{y \text{Err}})^{2} + (\Sigma_{x} \Sigma_{y} P_{\text{Err}})^{2} }
+\label{sigma_err}
 \end{equation}
+
 
 \begin{center}
   \begin{figure}[h!]

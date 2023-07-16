@@ -119,7 +119,7 @@ Warning--empty year in Statistical_Data_Analysis
 Warning--empty year in Statistical_Data_Analysis
 You've used 31 entries,
             2481 wiz_defined-function locations,
-            637 strings with 10077 characters,
+            637 strings with 9987 characters,
 and the built_in function-call counts, 7628 in all, are:
 = -- 505
 > -- 217
