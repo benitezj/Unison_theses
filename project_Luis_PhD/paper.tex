@@ -16,17 +16,18 @@
 \usepackage[utf8]{inputenc} 
 \usepackage{lastpage}
 
+
 \def\Student{Luis Enrique Cuevas  Picos}
 \def\Title{THESIS PROJECT PROPOSAL}
 \def\Prog{Doctorado en Ciencias (F\'{i}sica) }
 \def\Dept{Departamento de Investigac\'{i}on en Fis\'{i}ca}
 \def\Institution{Universidad de Sonora}
 \def\Director{Dr. Jos\'{e} Feliciano Ben\'{i}tez Rubio}
-\def\ProjectTitle{Measurement of the luminosity in proton-proton collisions at the CMS experiment of the Large Hadron Collider}
+\def\ProjectTitle{Luminosity measurement using Pixel Cluster Counting in the CMS experiment}
 \def\ResearchLine{F\'{i}sica de Part\'{i}culas}
 
 %%header and footer
-\lhead{\Student\ / \ \Dept}
+\lhead{\Student\ / \Prog}
 \rhead{\Title}
 \rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
 
@@ -34,8 +35,7 @@
 %%%%%%%comands
 \newcommand{\SubItem}[1]{ {\setlength\itemindent{15pt} \item[-] #1} }
 \newcommand{\lumi}[1]{{#1~fb$^{-1}$}}
-\newcommand{\instlumi}[1]{#1$\times 10^{34}$ cm$^{-2}$s$^{-1}$} }
-
+\newcommand{\instlumi}[1]{#1$\times 10^{34}$ cm$^{-2}$s$^{-1}$}
   
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -48,7 +48,7 @@
 \hspace{0pt}
 \vfill
 {\scshape\Large \Title \par}
-project revised 2023-2
+%project revised 2023-2
   
   \vspace{2cm}
   {
@@ -101,9 +101,8 @@ project revised 2023-2
     {\itshape\textbf{Abstract}\par}
   \end{center}
   
-  \vspace{1 cm}
- 
-  
+  \vspace{0.5cm}
+   
   This research project proposes...     
 
   \hspace{2pt}
@@ -131,23 +130,25 @@ This particle has been identified as the Higgs boson by measuring its properties
 
 Luminosity, $L$, is a key parameter at particle colliders along with the energy available in the collision.
 $L$ is one of the  main figures of merit that quantify the potential for observing new particles and measuring their properties.
-The instantaneous luminosity $L(t)$ is the process-independent ratio between the rate $R(t)$ of events produced per unit time and the cross section for a given process $\sigma$: $L(t) = R(t)/\sigma$.
+The instantaneous luminosity $L(t)$ is the process-independent ratio between the rate $R(t)$ of events produced per unit time and the cross section for a given process $\sigma$:  $R(t) = \sigma L(t)$.
 During Run 1 (2011-2012) LHC reached a peak instantaneous luminosity of \instlumi{0.77} and delivered an integrated luminosity of about \lumi{25} with a precision of about 2.0\% 
 \footnote{1 barn is a unit of area corresponding to $10^{-24}$ cm${^2}$ and 1 femtobarn (fb) = $10^{-39}$ cm$^{2}$. For comparison, the total Higgs production cross section is 48600 fb.}.
 In the first part of Run 2 (2015-2016), the delivered luminosity has been measured to be \lumi{38.4} with an unprecedented precision of 1.3\% \cite{Sirunyan:2021qkt}.
-For the second part of Run 2 (2017-2018), the integrated luminosity is about \lumi{78}, but its precise value and uncertainty remain to be determined and is one of the main objectives of this thesis project \cite{CMS:2018elu}.
+For the second part of Run 2 (2017-2018), the integrated luminosity is about \lumi{78}, but its precise value and uncertainty remain to be determined \cite{CMS:2018elu}.
+The plan of the LHC till year 2038 is to obtain datasets with up to 10 times higher values of instanteneous luminosities in the final phase.
+The LHC Run 3 began in 2022 and will last until 2024, with an expected integrated luminosity of about \lumi{300}. 
 
-The plan of the LHC till year 2038 is to obtain datasets with up to 10 times higher values of instanteneous luminosities in the final phase, the  High Luminosity LHC (HL-LHC), and corresponding integrated luminosities of order \lumi{3000} as shown in Figure~\ref{figure6}.
-These final datasets will provide  precise measurements of the properties of the Higgs boson and other SM particles as shown in Fig. ~\ref{figureKappasUncs}.
+The  High Luminosity LHC (HL-LHC), and corresponding integrated luminosities of order \lumi{3000} as shown in Figure~\ref{figure6}.
+These datasets will provide  precise measurements of the properties of the Higgs boson and other SM particles as shown in Fig. ~\ref{figureKappasUncs}.
 This figure shows that one of the dominant uncertainties which remain to be determined is due to the luminosity measurement.
-In this project, we also perform studies for the design and construction of an upgraded luminosity measurement system to be installed for CMS in the HL-LHC phase}\cite{Collaboration:2706512}.
 
-
-
+ 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\columnwidth]{./LHCcomplex.png}
-  \caption{Diagram of the LHC accelerator complex located near Geneva, Switzerland. The complex consists of three accelerator stages: the proton (p) or lead (Pb) source, the Proton Synchrotron (PS), the Super Proton Synchrotron (SPS), and the 27 km LHC ring. Four collision points are shown corresponding to the ALICE, ATLAS, LHCb, and CMS detectors  \cite{Mobs:2684277}. }
+  \includegraphics[width=0.6\columnwidth]{./LHCcomplex.png}
+  \caption{
+    Diagram of the LHC accelerator complex located near Geneva, Switzerland. The complex consists of three accelerator stages: the proton (p) or lead (Pb) source, the Proton Synchrotron (PS), the Super Proton Synchrotron (SPS), and the 27 km LHC ring. Four collision points are shown corresponding to the ALICE, ATLAS, LHCb, and CMS detectors  \cite{Mobs:2684277}.
+  }
   \label{figure5}
 \end{figure}
 
@@ -155,7 +156,9 @@ In this project, we also perform studies for the design and construction of an u
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\columnwidth]{./HLLHCLumi.png}
-  \caption{Projected performance of the LHC until 2038, which shows the preliminary dates for prolonged stops (LS) of the LHC and luminosities. Points show instantaneous luminosity while the line shows luminosity accumulated \cite{collaborations2019report}.}
+  \caption{
+    Projected performance of the LHC until 2038, which shows the preliminary dates for prolonged stops (LS) of the LHC and luminosities. Points show instantaneous luminosity while the line shows luminosity accumulated \cite{collaborations2019report}.
+  }
   \label{figure6}
 \end{figure}
 
@@ -176,42 +179,26 @@ In this project, we also perform studies for the design and construction of an u
 
 \section{PROPOSAL}
 
-This project propose...
+In this project, we aim to make the most precise measurements of the luminosity for the Run 2 (2017-2018) as well as for the Run 3 data taking period (2022-2024).
+In addition we expect to perform studies for the design and construction of an upgraded luminosity measurement system to be installed for CMS in the HL-LHC phase \cite{Collaboration:2706512}.
+
 
 \section{GENERAL OBJECTIVE}
 
-The main objective of this work is to perform... 
+The main objective of this work is to improve on the precision of the preliminary luminosity measurements for the different datasets with the aim to provide a final precision at the level of 1\%.
+This precision is needed for the measurement of many important physics processes, like the Higgs boson production crossection, which define the Standard Model of particle physics. 
 
 \section{HYPOTHESIS}
 
-As mentioned in the introduction...
+Based on the previous work on the Run 2 (2015-2016) datasets which have achieved a precision at the level of 1.3\%, we expect that a precision at this level or lower will be possible due to the improved methods we are developing.
+For reference, the current precision on the Run 2 (2017-2018) and Run 3 (2022) datasets is above 2\%~\cite{Sirunyan:2021qkt}. 
 
-
-\section{SPECIFIC OBJECTIVES}
-
-For the Run 2 luminosity measurement:
-\begin{itemize}
-\item understand the CMS pixel detector layout including the barrel layers and endcap disks and their constituent modules,
-\item study the stability of the modules in the different layers or disks of the pixel detector and select the stable components,
-\item calculate the visible cross section corresponding to the PCC rate for proton-proton colisions at 13 TeV using the selected pixel detector components,
-\item study the stability and linearity of the PCC luminosity measurement by comparing to other CMS luminometers as a measurement of the systematic uncertainties,
-\item determine the delivered luminosity per lumisection (23 second intervals) and the total integrated luminosity and determine the corresponding uncertainty.
-\end{itemize}
-
-\par
-For the development of the HL-LHC upgrade system:
-\begin{itemize}
-\item study the different parts of the TEPX detector.
-\item study the pixel cluster counting at the HL-LHC conditions using simulations of the TEPX detector.
-\item develop an algorithm for counting cluster coincidences using sensor layers of the same disk in the TEPX detector in order to reduce backgrounds.
-\item determine the linearity and statistical precision of the PCC method and coincidence counting method for the TEPX detector and its constituent parts (disks and rings).
-\end{itemize}
 
 
 \section{METHODOLOGY}
 
 
-The CMS experiment is located at one of the four interaction points of LHC.
+The CMS experiment is located at one of the four interaction points of the LHC.
 The CMS detector has the form of a cylindrical onion, with several concentric layers of components.
 A powerful magnet is used to bend charged particles as they move away from the point of collision to identify the charge and measure their momentum.
 A silicon tracker, made of about 75 million electronic sensors arranged in concentric layers, measures the curvature of charged particles with very high precision \cite{Chatrchyan:2008aa}.
@@ -223,7 +210,7 @@ The Pixel detector consists of 4 concentric cylindrical layers in the barrel and
 Each detector part is composed of pixel sensors, a schematic of one sensor is shown in Figure~\ref{fig:pixeldet}.
 The entire Pixel detector contains 1856 sensor modules and a total of 65 million pixels.
 
-The PCC method consists of the reconstruction of track clusters produced by charged particle tracks as shown in Figure~\ref{fig:trackcluster}.
+The PCC method consists of the reconstruction of track clusters produced by charged particle tracks as shown in Figure~\ref{fig:bunchcrossing}.
 Due to the fine granularity of the pixel sensors and the large number of total pixels, the hit occupancy in the sensors remains very small, order of 1\%, during normal collisions.
 This low occupancy makes the PCC  very linear as a function of pileup, an essential property of a good luminometer.
 
@@ -235,16 +222,17 @@ For the upgrade part of this project, the research consists of studying the expe
 The current design of the this tracker is shown in Figure~\ref{fig:tepx}, where the TEPX part consists of the last 4 disks at $|z|>170$ cm. In the same figure a transverse view of one disk is shown, and shows the layout of the sensor modules along phi for each ring in the disk.
 Studies will be performed using simulated samples with HL-LHC beam conditions, currently the expected pileup for these conditions is about 200 proton collisions per bunch crossing.
 The linearity of the cluster counting algorithm will be studied.
-In addition, a new algorithm will be developed to detect cluster coincidences between consecutive layers of a disk.
-It is expected that coincidences will be less sensitive to backgrounds in HL-LHC pileup conditions and therefore a more robust luminosity measurement can be performed.
+In addition, a new algorithm may be developed to detect cluster coincidences between consecutive layers of a disk.
+%It is expected that coincidences will be less sensitive to backgrounds in HL-LHC pileup conditions and therefore a more robust luminosity measurement can be performed.
 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\columnwidth]{./cms12.png}
+  \includegraphics[width=0.65\columnwidth]{./cms12.png}
   \caption{Transverse view of the CMS detector showing the silicon tracker, electromagnetic calorimeter, hadron calorimeter, superconducting solenoid and muon chambers \cite{Chatrchyan:2008aa}.}
   \label{fig:CMS}
 \end{figure}
+
 
 \begin{figure}[H]
   \centering
@@ -261,13 +249,13 @@ It is expected that coincidences will be less sensitive to backgrounds in HL-LHC
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\columnwidth]{./bunchcrossing.jpg}
-  \includegraphics[width=0.4\columnwidth]{./vectorhit1.jpg}
+  \includegraphics[width=0.48\columnwidth]{./bunchcrossing.jpg}
+  \includegraphics[width=0.48\columnwidth]{./vectorhit1.jpg}
   \caption{
-    Left: Diagram showing the collision of two proton bunches at LHC, bunches contain about $10^{11}$ protons  \cite{deMaria:2008zzb}.
-    Right: diagram showing example tracks originating from the collision at the beamspot and producing clusters at the pixel sensors in two detector layers.
+    Left: Dagram showing the collision of two proton bunches at LHC, bunches contain about $10^{11}$ protons  \cite{deMaria:2008zzb}.
+    Right: diagram showing example tracks originating from the collision and producing hits in the pixel detector layers.
   }
-  \label{fig:trackcluster}
+  \label{fig:bunchcrossing}
 \end{figure}
 
 
@@ -285,17 +273,38 @@ It is expected that coincidences will be less sensitive to backgrounds in HL-LHC
 
 
 
+\section{SPECIFIC OBJECTIVES}
+
+For the Run 2 and Run 3 luminosity measurements:
+\begin{itemize}
+\item understand the CMS pixel detector layout including the barrel layers and endcap disks and their constituent modules,
+\item study the stability of the modules in the different layers or disks of the pixel detector and select the stable components,
+\item calculate the calibration constant (visible crossection) corresponding to 13 TeV proton-proton collision data,
+\item study the stability and linearity of the PCC luminosity measurement by comparing to other CMS luminometers,
+\item determine the instantaneous and the total integrated luminosity,
+\item determine the systematic uncertainties on the calibration constant and on the integrated luminosity.
+\end{itemize}
+
+\par
+For the development of the HL-LHC upgrade system:
+\begin{itemize}
+\item study the different parts of the TEPX detector,
+\item study the pixel cluster counting at the HL-LHC conditions using simulations of the TEPX detector,
+\item develop algorithms for pixel  cluster counting and coincidence counting,
+\item determine the linearity and  precision of the different methods.
+\end{itemize}
+
 
 \section{EXPECTED RESULTS}
 
 From this project two main publications are expected:
 \begin{itemize}
-\item
-For the Run 2 luminosity mesurement, the student will perform the studies for the selection of good modules for calculating luminosity using the PCC method.
-From past performance of this algorithm it is expected that this measurement will give one of the best linearity and stability systematic uncertainties for the integrated luminosity value.
+\item For the Run 2 luminosity mesurement, studies of the selection of good detector modules, calibration, background estimation, and calculation of the integrated luminosity, including the systematic uncertainties will be completed.
 The results of these studies will be published in a peer-reviewed scientific journal.
-\item
-For the development of the HL-LHC upgrade system, we expect to produce a Technical Design Report (TDR) with the proposed design and algorithms to use the TEPX detector. This document will be published in the CERN document server (CDS) and submitted to the LHC committee for approval of required funding for the construction and operation of the system.
+\item For the Run 3 luminosity measurement, no measurement of the luminosity precision has been performed at this moment.
+Similar studies as for the Run 2 dataset will be performed completed and a preliminary result of the luminosity measurement will be published.
+\item For the development of the HL-LHC upgrade system, the work  will be based on the previously published Technical Design Report (TDR) with the proposed design and algorithms to use the TEPX detector.
+It is expected that this work will be presented at conferences and used for the final design and construction of the system to be installed in the LS3 (2025-2027).  
 \end{itemize}
 
 Also, the student will become a part of an international experiment and is expected to present his results at national or international scientific conferences.
@@ -307,41 +316,45 @@ Also, the student will become a part of an international experiment and is expec
 \begin{itemize}
 
 \item {\bf Semester 1 (2023-2)}:
-  \SubItem{ Readings on Standard Model of particle physics theory}
-  \SubItem{ Basic Linux computing skills (\textsc{Bash, Emacs, Root})}
-  \SubItem{ Initial planning of the analysis strategy}
+  \SubItem{ Readings on Standard Model of physics theory, LHC, and CMS experiments}
+  \SubItem{ Review of the literature.}
+  \SubItem{ Master Linux computing and data analysis  skills (\textsc{Bash, Emacs, Root, HTCondor parallel processing})}
+  \SubItem{ Complete work on the 2022 luminosity measurement for a preliminary  publication.}
 
 \item {\bf Semester 2 (2024-1)}:
   \SubItem{ Course I on particle physics, particle detection, or data analysis}
-  \SubItem{ Readings on the LHC and CMS experiments}
-  \SubItem{ Basic Linux computing skills (\textsc{Bash, Emacs, Root})}
-  \SubItem{ Computing accounts at CERN and Fermilab}
-  \SubItem{ Studies of the TEPX luminometer upgrade}
-
+  \SubItem{ Continue readings on Standard Model of physics theory, LHC, and CMS experiments}
+  \SubItem{ Master Linux computing and data analysis  skills (\textsc{Bash, Emacs, Root, HTCondor parallel processing})}
+  \SubItem{ Complete work on the Run 2 luminosity measurement for a final  publication.}
+  \SubItem{ Start work on the 2023 dataset luminosity measurement. }
+  
 \item {\bf Semester 3 (2024-2)}:
   \SubItem{ Course II on particle physics, particle detection, or  data analysis}
-  \SubItem{ Studies of the TEPX luminometer upgrade}
-
+  \SubItem{ Complete work on the 2023 dataset luminosity measurement. }
+  \SubItem{ Start work on the 2024 dataset luminosity measurement. }
+  
 \item {\bf Semester 4 (2025-1)}:
-  \SubItem{ Completion of the TEPX luminometer studies for the TDR document}
-  \SubItem{ Studies of the LHC Run 2 data using the PCC method}
+  \SubItem{ Continue work on the 2024 dataset luminosity measurement. }
+  \SubItem{ Start studies on the TEPX luminometer for the HL-LHC}
   \SubItem{ Writing of the monograph}
 
 \item {\bf Semester 5 (2025-2)}:
-  \SubItem{ Publication of the TDR document in CDS and submission to the LHCC for review}
+  \SubItem{ Complete work on the 2024 dataset luminosity measurement. }
+  \SubItem{ Complete studies on the TEPX luminometer for the HL-LHC}
   \SubItem{ Presentation at national or international conferences of the TEPX upgrade studies}
-  \SubItem{ Studies of the LHC Run 2 data using the PCC method}
   
 \item {\bf Semester 6 (2026-1)}:
-  \SubItem{ Completion of the studies of the Run 2 data luminosity measurement}
-  \SubItem{ Writing of the Run 2 data luminosity measurement publication and review within the CMS collaboration}
+  \SubItem{ Start final studies of the Run 3 data luminosity measurement for publication in a peer reviewed journal}
 
 \item {\bf Semester 7 (2026-2)}:
-  \SubItem{ Publication of the Run 2 data luminosity measurement in a peer reviewed journal}
-
-\item {\bf Semester 8 (2027-1)}: 
-  \SubItem{ Presentations at national or international conferences for both the Run 2 luminosity measurement and TEPX luminometer for HL-LHC}
+  \SubItem{ Completion of the studies of the Run 3 data luminosity measurement for publication in a peer reviewed journal}
+  \SubItem{ Presentations at national or international conferences of the luminosity measurements and TEPX luminometer for HL-LHC}
   \SubItem{ Writing of the Ph.D thesis}
+  
+\item {\bf Semester 8 (2027-1)}: 
+  \SubItem{ Publication of the Run 3 data luminosity measurement in a peer reviewed journal}
+  \SubItem{ Presentations at national or international conferences of the luminosity measurements and TEPX luminometer for HL-LHC}
+  \SubItem{ Defense of the Ph.D thesis}
   
 \end{itemize}
 
