@@ -213,14 +213,21 @@ The entire Pixel detector contains 1856 sensor modules and a total of 124 millio
 
 The PCC method consists of the reconstruction of track clusters produced by charged particle tracks as shown in Figure~\ref{fig:bunchcrossing}.
 Due to the fine granularity of the pixel sensors and the large number of total pixels, the hit occupancy in the sensors remains very small, order of 1\%, during normal collisions.
-This low occupancy makes the PCC  very linear as a function of pileup, an essential property of a good luminometer.
+This low occupancy makes the PCC  very linear as a function of pileup, an essential property of a good luminometer \cite{Sirunyan:2021qkt}.
 
 The calibration of the luminometer consists of a van der Meer (vdM) scan performed in a special LHC run usually at the beginning of the run period (year).
-In this calibration setup, proton beams are moved across each other in separation steps of about 100 micrometers, by measuring the rates of clusters with the PCC algorithm and knowledge of the beam parameters during the vdM conditions, the calibration constant ($\sigma_{vis}$) is determined.
-This calibration constant is then used to normalize the measured PCC rates during normal running throughout the data-taking year.
+These scans are performed by varying the separation between the beams in each direction ($x$ and $y$) at a fixed number of separation steps of about 100 micrometers. Then these rates are fitted by a Gaussian function to obtain the beam overlaps $\Sigma_{x,y}$ and the peak rate of clusters $R(0,0)$ \cite{CMS:2018}. A schematic view of this methos is shown in Fig. \ref{vdMSketch}. 
+Finally the calibration constant ($\sigma_{vis}$) is determined as Eq.\ref{sigmavis_eq}.
+
+\begin{equation}
+  \sigma_{vis}=\frac{2\pi \Sigma_{x} \Sigma_{y} R(0, 0)}{N_{1}N_{2} f}
+  \label{sigmavis_eq}
+\end{equation}
+Where $f$  is the LHC frecuency and $N_{1},N_{2}$ are the buch current used to normalize  the rates.
+This calibration constant is then used to determine the luminosity during a normal running throughout the data-taking year \cite{CMS:2018}.
 
 For the upgrade part of this project, the research consists of studying the expected performance of the TEPX disks of the CMS tracker in the HL-LHC phase.
-The current design of the this tracker is shown in Figure~\ref{fig:tepx}, where the TEPX part consists of the last 4 disks at $|z|>170$ cm. In the same figure a transverse view of one disk is shown, and shows the layout of the sensor modules along phi for each ring in the disk.
+The current design of the this tracker is shown in Figure~\ref{fig:tepx}, where the TEPX part consists of the last 4 disks at $|z|>170$ cm. In the same figure a transverse view of one disk is shown, and shows the layout of the sensor modules along phi for each ring in the disk \cite{Klein:2017nke}.
 Studies will be performed using simulated samples with HL-LHC beam conditions, currently the expected pileup for these conditions is about 200 proton collisions per bunch crossing.
 The linearity of the cluster counting algorithm will be studied.
 In addition, a new algorithm may be developed to detect cluster coincidences between consecutive layers of a disk.
@@ -260,6 +267,15 @@ In addition, a new algorithm may be developed to detect cluster coincidences bet
 \end{figure}
 
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{./vdm_sketch.png}
+  \caption{
+   Sketch of a vdM scan in x and y planes. The sketch is an example of
+the fit of the resulting cluster rates \cite{vdMSketch}.
+  }
+  \label{vdMSketch}
+\end{figure}
 
 \begin{figure}[H]
   \centering
