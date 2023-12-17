@@ -133,7 +133,6 @@
 
 %\usepackage[perpage]{footmisc} %Range of footnote options
 
-
 % *****************************************************************************
 % *************************** Bibliography  and References ********************
 
@@ -146,7 +145,7 @@
 
 % If you would like to use biblatex for your reference management, as opposed to the default `natbibpackage` pass the option `custombib` in the document class. Comment out the previous line to make sure you don't load the natbib package. Uncomment the following lines and specify the location of references.bib file
 
-\RequirePackage[backend=biber, style=numeric-comp, citestyle=numeric, sorting=nyt, url=false, doi=true, natbib=true]{biblatex}
+\RequirePackage[backend=biber, style=numeric-comp, citestyle=numeric, sorting=nyt, url=True, doi=true, natbib=true]{biblatex}
 \addbibresource{References/references} %Location of references.bib only for biblatex, Do not omit the .bib extension from the filename.
 
 \fi
@@ -154,6 +153,22 @@
 % changes the default name `Bibliography` -> `References'
 \renewcommand{\bibname}{References}
 
+%\RequirePackage[backend=biber, style=numeric-comp, citestyle=numeric, sorting=nyt, url=false, doi=true, natbib=true]{biblatex}
+%\addbibresource{/Users/ashishsehrawat/Desktop/Unison_theses/tesis_Ashish/References_original/references.bib}
+%\printbibliography
+
+% Remove 'URL: ' before URLs
+%\DeclareFieldFormat{url}{\url{#1}}
+
+%\renewcommand{\bibname}{References}
+
+%\RequirePackage[backend=biber, style=numeric-comp, citestyle=numeric, sorting=nyt, url=false, doi=true, natbib=true]{biblatex}
+%\addbibresource{References/references.bib} % Make sure the path is correct
+
+% Ensure that URLs are not formatted with the "URL" text
+%\DeclareFieldFormat*{url}{\href{#1}{\nolinkurl{#1}}}
+
+%\renewcommand{\bibname}{References}
 
 % ******************************************************************************
 % ************************* User Defined Commands ******************************
@@ -170,7 +185,6 @@
 
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{2}
-
 
 % ******************************* Nomenclature *********************************
 

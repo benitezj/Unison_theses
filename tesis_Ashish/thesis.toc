@@ -1,35 +1,43 @@
 \thispagestyle {empty}
 \contentsline {chapter}{List of figures}{v}{section*.2}%
-\contentsline {chapter}{List of tables}{vii}{section*.3}%
+\contentsline {chapter}{List of tables}{viii}{section*.3}%
 \contentsline {chapter}{\numberline {1}Introduction to collider experiments}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Luminosity and its importance in particle physics}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Motivation for precision luminosity measurement}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Large Hadron Collider (LHC) and the CMS Experiment}{4}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Run 1 and Run 2 luminosity measurement}{9}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Luminosity measurement at CMS experiment}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Luminosity measurement methods}{12}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Pixel detector}{17}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Pixel cluster counting (PCC) method}{18}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Advantages of the pixel cluster counting method}{23}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Previous studies on PCC luminosity measurement}{25}{section.2.5}%
-\contentsline {chapter}{\numberline {3}PCC luminometer calibration}{28}{chapter.3}%
-\contentsline {section}{\numberline {3.1}van der Meer (vdM) method}{28}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Background Estimation}{31}{section.3.2}%
-\contentsline {section}{\numberline {3.3}vdM fit model}{32}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Run 2 Luminosity Measurement}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Dataset}{33}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Software tools}{38}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Module Selection}{43}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Afterglow Model}{54}{section.4.4}%
-\contentsline {section}{\numberline {4.5}vdM calibration results}{55}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Luminosity for Physics Fills}{60}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Systematic uncertainties}{60}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}van der Meer calibration uncertainties}{60}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Physics data taking uncertainties}{64}{subsection.4.7.2}%
-\contentsline {chapter}{\numberline {5}Run 3 Luminosity Measurement}{76}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Detector Module selection}{76}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Afterglow Model}{76}{section.5.2}%
-\contentsline {section}{\numberline {5.3}vdM Calibration Results}{76}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Luminosity for Physics Fills}{82}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Systematic uncertainties}{82}{section.5.5}%
-\contentsline {chapter}{References}{84}{chapter*.83}%
+\contentsline {section}{\numberline {1.4}Run 1, Run 2 and Run 3 luminosity measurement}{8}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Luminosity measurement at CMS experiment}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Luminosity measurement methods}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Pixel detector}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Pixel cluster counting (PCC) method}{16}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Luminometer calibration}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}van der Meer (vdM) method}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Background estimation}{23}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Fit model}{24}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Run 2 Luminosity Measurement}{26}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Dataset}{26}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Detector module selection}{28}{section.4.2}%
+\contentsline {section}{\numberline {4.3}vdM calibration results}{35}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Luminosity for physics fill}{38}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Afterglow backgrounds}{40}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}PCC instantaneous and integrated luminosity}{43}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Systematic uncertainties}{45}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}vdM calibration uncertainties}{45}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Integration uncertainties}{48}{subsection.4.6.2}%
+\contentsline {chapter}{\numberline {5}Run 3 Luminosity Measurement}{53}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Dataset}{53}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Detector module selection}{53}{section.5.2}%
+\contentsline {section}{\numberline {5.3}vdM calibration results}{58}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Luminosity for physics fills}{61}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Afterglow background corrections}{62}{subsection.5.4.1}%
+\contentsline {section}{\numberline {5.5}PCC instantaneous and integrated luminosity}{64}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Systematic uncertainties}{66}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}vdM calibration uncertainties}{66}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Integration uncertainties}{69}{subsection.5.6.2}%
+\contentsline {chapter}{\numberline {6}TEPX luminometer for HL-LHC}{76}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Tracker Endcap Pixel (TEPX) detector}{79}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Phase II CMS tracker simulation samples}{80}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Luminosity measurement using TEPX}{81}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Statistical precision for TEPX luminometer}{99}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Summary of the planned upgrade schedule}{99}{section.6.5}%
+\contentsline {chapter}{References}{101}{chapter*.106}%

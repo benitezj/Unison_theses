@@ -1,4 +1,4 @@
- % ******************************* PhD Thesis Template **************************
+% ******************************* PhD Thesis Template **************************
 % Please have a look at the README.md file for info on how to use the template
 
 \documentclass[a4paper,12pt,times,numbered,print,custommargin,index,custombib,oneside]{Classes/PhDThesisPSnPDF}
@@ -16,6 +16,19 @@
 \usepackage{booktabs}
 \setlength\cftparskip{0pt}
 \setlength\cftbeforechapskip{0pt}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false,
+    linkcolor=black,
+    citecolor=black,
+    filecolor=black,
+    pdfborder={0 0 0},
+    % ... any other options you have set
+}
+
+\usepackage{datetime}
+\newdateformat{mydateformat}{\THEDAY\ \monthname[\THEMONTH], \THEYEAR}
 
 % ******************************************************************************
 % ******************************* Class Options ********************************
@@ -153,7 +166,7 @@
 	\include{Chapter4/chapter4}
 	\include{Chapter5/chapter5}
         %\include{Chapter6/chapter6}
-        %\include{Chapter7/chapter7}
+        \include{Chapter7/chapter7}
         %\include{Chapter8/chapter8}
         
 	% ********************************** Back Matter *******************************
@@ -168,12 +181,12 @@
 		% Reference styles: http://sites.stat.psu.edu/~surajit/present/bib.htm
 		
 		%\bibliographystyle{acm}
-		\bibliographystyle{unsrtnat} % Use for unsorted references  
-	%	\bibliographystyle{plainnat} % use this to have URLs listed in References
+	        %\bibliographystyle{unsrtnat} % Use for unsorted references
+                \bibliographystyle{myunsrtnat}
+		%\bibliographystyle{plainnat} % use this to have URLs listed in References
 		\cleardoublepage
 		\bibliography{References_original/references} % Path to your References.bib file
-		
-		
+				
 		% If you would like to use BibLaTeX for your references, pass `custombib' as
 		% an option in the document class. The location of 'reference.bib' should be
 		% specified in the preamble.tex file in the custombib section.

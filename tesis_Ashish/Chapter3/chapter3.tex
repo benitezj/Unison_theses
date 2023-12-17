@@ -1,4 +1,4 @@
-\chapter{PCC luminometer calibration}  %Title of the First Chapter
+\chapter{Luminometer calibration}  %Title of the First Chapter
 
 \ifpdf
     \graphicspath{{Chapter3/Figs/Raster/}{Chapter3/Figs/PDF/}{Chapter3/Figs/}}
@@ -10,59 +10,60 @@
 %\label{sec:vdMcab}
 
 %One of the widely used method for the calibration of luminosity measurement devices is the van der Meer (VdM) scan method.
-A prevalent technique for calibrating luminosity measurement devices is the van der Meer (VdM) scan method. This method is named after Simon van der Meer, a Dutch physicist and Nobel laureate, who developed the technique in the 1960s. These scans are performed to relate the collision rate of a given luminometer to the absolute luminosity determined from the measured beam parameters. The proportionality constant is called the visible cross section. It involves scanning the beams across each other in the horizontal and vertical planes to measure the beam overlap integral, which is proportional to the luminosity. The first step in the VdM calibration is to scan the colliding beams across each other. This is done by displacing the beams in the horizontal (x) and vertical (y) planes independently while keeping the other direction fixed as shown in left part of Fig. \ref{fig:vdm_scan_method}. The scans are performed at several different positions along the collision point, creating a series of data points for each plane. The data points collected during the scans are then fitted with Gaussian function or other suitable function like double gaussian, Poly2G, Poly4G, etc as shown in right part of Fig. \ref{fig:vdm_scan_method}  to determine the beam overlap integrals in the x and y directions. The product of the integrals in the two planes yields the total beam overlap integral. %The event rate is proportional to the luminosity and is given by the product of the cross-section ($\sigma$) and luminosity. 
-The beam overlap integral is the integral of the product of the beam overlap width in the horizontal and vertical planes over the entire interaction region \cite{vanderMeer1968}. It is an essential parameter in determining the absolute luminosity. 
+A prevalent technique for calibrating luminosity measurement devices is the van der Meer (vdM) scan method. This method is named after Simon van der Meer, a Dutch physicist and Nobel laureate, who developed the technique in the 1960s. These scans are performed to relate the detection rate of a given luminometer to the absolute luminosity determined from the measured beam parameters. The proportionality constant is called the visible cross section. It involves scanning the beams across each other in the horizontal and vertical planes to measure the beam overlap integral, which is proportional to the luminosity. The first step in the vdM calibration is to scan the colliding beams across each other. This is done by displacing the beams in the horizontal (x) and vertical (y) planes independently while keeping the other direction fixed as shown in left part of Fig. \ref{fig:vdm_scan_method}. The scans are performed at several different positions along the collision point, creating a series of data points for each plane. The data points collected during the scans are then fitted with  suitable function like single, double gaussian as shown in right part of Fig. \ref{fig:vdm_scan_method}  to determine the beam overlap integrals in the x and y directions. %The product of the integrals in the two planes yields the total beam overlap integral. The event rate is proportional to the luminosity and is given by the product of the cross-section ($\sigma$) and luminosity. 
+The total beam overlap is the product of beam overlap width in the horizontal and vertical planes over the entire interaction region \cite{vanderMeer1968}. It is an essential parameter in determining the absolute luminosity to calculate visible cross section. 
 
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{ashish_thesis/vdm_method.png}
-    \caption[Schematic of van der Meer scan]{Left: Scanning the beams across each other (±3$\sigma$) in the transverse plane, horizontal (x-scan) and vertical (y-scan) directions. Right: Rate is measured as a function of beam separation}
+    \caption[vdM Scan Schematic]{Left: Scanning the beams across each other (±3$\sigma$) in the transverse plane, horizontal (x-scan) and vertical (y-scan) directions. Right: Rate is measured as a function of beam separation \cite{karacheban2017luminosity}.}
     \label{fig:vdm_scan_method}
 \end{figure}
 
-
-
 \section{van der Meer (vdM) method}
 
-In the van der Meer (vdM) scans,  rate is plotted as a function of beam overlap widths along x and y directions that is used to determine the visible cross section $\sigma_{vis}$ of the pixel detector which is a calibration constant in the relation between rate of a quantity (clusters, coincidences) read out by the detector and the instantaneous luminosity. 
+In the van der Meer (vdM) scans,  rate is plotted as a function of beam separation along x and y directions that is used to determine the visible cross section $\sigma_{vis}$.
+%of the pixel detector which is a calibration constant in the relation between rate of a quantity (clusters, coincidences) read out by the detector and the instantaneous luminosity. 
 
 The instantaneous luminosity  per bunch crossing when the crossing angle between the colliding bunches is negligible and bunches collide head on is given by the following integral \cite{CMS-PAS-LUM-13-001}, 
 
 \begin{equation}
-L_{b} = N_1 N_2 f \int^{+\infty}_{-\infty} \rho_1(x,y) \rho_2(x+\Delta x, y+\Delta y) dx dy 
+L_{b} = N_1 N_2 f \int^{+\infty}_{-\infty} \rho_1(x,y) \rho_2(x, y) dx dy 
 \end{equation}
 
-where $N_1, N_2$ are the number of protons in the colliding bunches, f is the LHC orbit frequency whose value is 11246Hz,  $\rho_1(x,y)$ and $\rho_2(x+\Delta x,y+\Delta y)$ are the two dimensional particle density distribution functions for each colliding bunch separated by $\Delta x$ and $\Delta y$ in x and y directions  \cite{CMS-PAS-LUM-17-004}. 
+where $N_1, N_2$ are the number of protons in the colliding bunches, f is the LHC orbit frequency whose value is 11246 Hz,  $\rho_1(x,y)$ and $\rho_2(x,y)$ are the two dimensional particle density distribution functions for each colliding bunch in x and y directions  \cite{CMS-PAS-LUM-17-004}. 
 
 Assuming complete factorization of particle density distribution function along x and y directions for both the bunches, we get 
 
 \begin{equation}
-L_{b} = N_1 N_2 f \int^{+\infty}_{-\infty} \rho_{1x}(x) \rho_{2x}(x+\Delta x)  dx   \int^{+\infty}_{-\infty} \rho_{1y}(y) \rho_{2y}(y+\Delta y)  dy 
+L_{b} = N_1 N_2 f \int^{+\infty}_{-\infty} \rho_{1x}(x) \rho_{2x}(x)  dx   \int^{+\infty}_{-\infty} \rho_{1y}(y) \rho_{2y}(y)  dy 
 \end{equation}
 
-where $\rho_1(x,y) = \rho_{1x}(x) \rho_{1y} (y)$ and $\rho_2(x,y) = \rho_{2x}(x+\Delta x) \rho_{2y} (y+\Delta y)$ 
+where $\rho_1(x,y) = \rho_{1x}(x) \rho_{1y} (y)$ and $\rho_2(x,y) = \rho_{2x}(x) \rho_{2y} (y)$ 
 
-The vdM scan determines the bunch  overlap integrals $\int \rho_{x1} (x) \rho_{x2} (x+\Delta x) dx$ and  $\int \rho_{y1}(y) \rho_{y2} (y+\Delta y) dy$ by measuring pixel clusters rate as a function of bunch separation $\Delta x$ and $\Delta y$ along x and y directions as shown in Fig. 14. 
-
-\begin{equation}
-\int \rho_{x1} (x) \rho_{x2} (x+\Delta x) dx = \frac{R_x(0)}{\int R_x(\Delta x)dx} 
-\end{equation}
+The vdM scan determines the bunch  overlap integrals $\int \rho_{1x} (x) \rho_{2x} (x) dx$ and  $\int \rho_{1y}(y) \rho_{2y} (y) dy$ by measuring pixel clusters rate as a function of beam separation $\Delta x$ and $\Delta y$ along x and y directions. 
 
 \begin{equation}
-\int \rho_{y1} (y) \rho_{y2} (y+\Delta y) dy = \frac{R_y(0)}{\int R_y(\Delta y)dy} 
-\end{equation}
-
-where $R_x(0)$ is the measured cluster rate along x direction when the bunch separation is zero and $R_x(\Delta x)$ is the measured cluster rate when bunches are separated by distance $\Delta x$ and $R_y(0)$ is the measured cluster rate along y direction when the bunch separation is zero and $R_y(\Delta y)$ is the measured cluster rate when bunches are separated by distance $\Delta y$. 
-
-Bunch overlap widths $\Sigma_x$ and $\Sigma_y$ along x and y directions are defined as 
-
-\begin{equation}
-\Sigma_x = \frac{1}{\sqrt{2 \pi}} \frac{\int R_x(\Delta x)dx}{R_x(0)} 
+\int \rho_{1x} (x) \rho_{2x} (x) dx = \frac{R_x(0)}{\int R_x(\Delta x)d \Delta x} 
 \end{equation}
 
 \begin{equation}
-\Sigma_y =  \frac{1}{\sqrt{2 \pi}} \frac{\int R_y(\Delta y)dy}{R_y(0)} 
+\int \rho_{1y} (y) \rho_{2y} (y) dy = \frac{R_y(0)}{\int R_y(\Delta y)d \Delta y} 
+\end{equation}
+
+where $R_x(0)$ is the measured cluster rate along x direction when the beam separation is zero and $R_x(\Delta x)$ is the measured cluster rate when beams are separated by distance $\Delta x$ and $R_y(0)$ is the measured cluster rate along y direction when the beam separation is zero and $R_y(\Delta y)$ is the measured cluster rate when beams are separated by distance $\Delta y$. 
+
+We define the quantities $\Sigma_x$ and $\Sigma_y$:
+
+%Bunch overlap widths $\Sigma_x$ and $\Sigma_y$ along x and y directions are defined as \cite{White:1308187}
+
+\begin{equation}
+\Sigma_x = \frac{1}{\sqrt{2 \pi}} \frac{\int R_x(\Delta x)d \Delta x}{R_x(0)} 
+\end{equation}
+
+\begin{equation}
+\Sigma_y =  \frac{1}{\sqrt{2 \pi}} \frac{\int R_y(\Delta y)d \Delta y}{R_y(0)} 
 \end{equation}
 
 Thus, the expression for instantaneous luminosity is given by 
@@ -77,7 +78,7 @@ and the PCC visible cross section defined in terms of beam parameters and rate i
 \sigma_{vis} = \frac{2 \pi \Sigma_x \Sigma_y R(0)}{N_1 N_2} 
 \end{equation}
 
-where R(0) is the peak cluster rate measured by the pixel detector after applying appropriate stability module selection.
+where R(0) is the peak cluster rate. % measured by the pixel detector after applying appropriate stability module selection.
 
 
 %Van der Meer (vdM) calibration is a method used in particle physics experiments to calibrate the absolute luminosity measurement of particle colliders. The principle behind the vdM calibration is based on the measurement of the beam size and the beam crossing angle, which are used to calculate the luminosity. The vdM calibration procedure involves the following steps,
@@ -104,17 +105,19 @@ where L is the luminosity, $f_{rev}$ is the revolution frequency of the beams, $
 \end{itemize}
 \end{comment}
 
+
+\begin{comment}
 The calibration of luminosity measurement by the CMS experiment in the 2018 proton-proton data taking at √s = 13 TeV was performed during
+  
+\begin{itemize}
+\item LHC fill 6868 on June 30 and July 1, 2018 at √s = 13 TeV
 
+\item Zero-bias triggers on 5 bunch pairs (BCIDs 265, 865, 1780, 2192, and 3380)
 
-LHC fill 6868 on June 30 and July 1, 2018 at √s = 13 TeV
+\item recorded events rate is 27.7 kHz. 
+\end{itemize}
 
-Zero-bias triggers on 5 bunch pairs (BCIDs 265, 865, 1780, 2192, and 3380)
-
-recorded events rate is 27.7 kHz. 
-
-
-vdM scans are typically conducted at least once a year to ensure the luminometer is correctly calibrated. Results of these scans are used to normalize the data collected by the experiments during physics run.
+vdM scans are typically conducted at least once a year to ensure the luminometer is correctly calibrated. Results of these scans that is the visible cross section is used to normalize the data collected by the experiments during physics run.
 
 
 \begin{figure}[h]
@@ -125,8 +128,7 @@ vdM scans are typically conducted at least once a year to ensure the luminometer
     \label{fig:vdm_prog_2018}
 \end{figure}
 
-
-
+\end{comment}
 
 %\begin{figure}[!htp]
 %\centering
@@ -138,8 +140,7 @@ vdM scans are typically conducted at least once a year to ensure the luminometer
 %\end{figure}
 
 
-
-\section{Background Estimation}
+\section{Background estimation}
 
 Background contributions can arise from several sources, such as beam-gas interactions, electronic noise, cosmic rays, or other processes that produce signals in the detectors. These contributions can affect the precision of the luminosity measurement and lead to systematic uncertainties in the calibration. Beam-separation scans are performed with increased beam separations (i.e., with the beams not fully overlapped). These scans can provide an estimate of the background contributions when the beams are not colliding. Sources of machine induced backgrounds are described below.
 
@@ -154,9 +155,12 @@ Background contributions can arise from several sources, such as beam-gas intera
 \end{itemize}
 
 
-\section{vdM fit model}
+\section{Fit model}
 
-The poly2G model, or the "Gaussian function with a polynomial term" model, is a fitting function that combines a second-order polynomial function and a Gaussian function. It is a versatile and flexible model that can be used to fit various types of data, including the PCC rate plot in the context of the Van der Meer (VdM) calibration process. In a PCC rate plot, the event rate is plotted as a function of the beam separation. The poly2G model can be employed to fit the PCC rate plot to extract the beam parameters, such as the beam overlap widths and the center positions, which are essential for the luminosity measurement \cite{Cekmecelioglu:2775639}. The general form of the poly2G model is
+The poly2G model, or the "Gaussian function with a polynomial term" model, is a fitting function that combines a second-order polynomial function and a Gaussian function. It is a versatile and flexible model that can be used to fit various types of data, including the PCC data in the context of the vdM calibration. %In a PCC rate plot, the rate is plotted as a function of the beam separation.
+The Poly2G model can be employed to fit the PCC rates %to display data and fit model in the plot
+and extract the beam parameters, beam overlap integrals and peak rates  needed for the determination of the calibration constant  %such as the beam overlap widths and the beam center positions, which are essential for the luminosity measurement
+\cite{Cekmecelioglu:2775639}. The Poly2G function has additional degrees of freedom compared to a single Gaussian but fewer than a DG (Double Gaussian), allowing for better convergence. The general form of the Poly2G model is
 
 %\begin{equation}
 %F(x) = p_0 + p_1x + p_2x^2 + A_1 e^{-\frac{1}{2} \left(\frac{x - \mu_1}%{\sigma_1}\right)^2} + A_2 e^{-\frac{1}{2} \left(\frac{x - \mu_2}{\sigma_2}\right)^2}
@@ -165,10 +169,71 @@ The poly2G model, or the "Gaussian function with a polynomial term" model, is a 
 %F(x) is the value of the fitting function at position x. $p_0$, $p_1$, and $p_2$ are the coefficients of the second-order polynomial function. $A_1$ and $A_2$ are the amplitudes of the two Gaussian functions. $\mu_1$ and $\mu_2$ are the means (center positions) of the two Gaussian functions. $\sigma_1$ and $\sigma_2$ are the standard deviations (widths) of the two Gaussian functions. This equation describes the poly2G model, which combines a second-order polynomial function with two Gaussian functions. The various parameters $(p_0, p_1, p_2, A_1, A_2, \mu_1, \mu_2, \sigma_1, \sigma_2)$ can be adjusted to fit the PCC rate plot in the context of the Van der Meer calibration process. The polynomial component of the poly2G model accounts for the background contributions and any underlying trends in the data, while the Gaussian components represent the signal from the colliding beams. By fitting the PCC rate plot with the poly2G model, the beam parameters can be extracted, and any background contributions can be effectively separated from the signal.
 
 \begin{equation}
-Poly2G = Peak  \left [1+r2 \left(\frac{x-\mu} {\frac{\sigma}{1+r2}}\right)^2 \right] exp \left[-\frac{1}{2}\left(\frac{x-\mu}{\frac{\sigma}{1+r2}}\right)^2\right]
+F(x) = Peak  \left [1+r_2 \left(\frac{\Delta x-\mu} {\frac{\sigma}{1+r_2}}\right)^2 \right] exp \left[-\frac{1}{2}\left(\frac{\Delta x-\mu}{\frac{\sigma}{1+r_2}}\right)^2\right]
 \end{equation}
 
-where Peak is the maximum PCC rate, $\mu$ is the mean, $\sigma$ and r2 are the fit parameters. 
+where Peak is the maximum PCC rate, $\mu$ is the mean, $\sigma$ and $r_2$ are the fit parameters. 
+
+
+To determine the beam overlap $\Sigma$ in this model, we calculate the area under the Poly2G curve between $-\infty$ and  +$\infty$ and divide by its peak value. We integrate the poly2G function
+%\[
+%F(x) = \text{Peak} \left[ 1 + r_2 \left( \frac{x - \mu}{\frac{\sigma}{1 + r_2}} \right)^2 \right] \exp \left[ -\frac{1}{2} \left( \frac{x - \mu}{\frac{\sigma}{1 + r_2}} \right)^2 \right]
+%\]
+from \(-\infty\) to \(+\infty\) using the substitution method.
+
+\begin{equation}
+z = \frac{x - \mu}{\frac{\sigma}{1 + r_2}} ,   dx = \frac{\sigma}{1 + r_2} dz 
+\end{equation}
+
+With this substitution, the function becomes:
+
+\begin{equation}
+F(z) = \text{Peak} \left[ 1 + r_2 z^2 \right] \exp\left(-\frac{1}{2} z^2\right)
+\end{equation}
+  
+The integral is then:
+
+\begin{equation}
+I = \text{Peak} \int_{-\infty}^{\infty} \left[ 1 + r_2 z^2 \right] \exp\left(-\frac{1}{2} z^2\right) \frac{\sigma}{1 + r_2} dz
+\end{equation}
+
+%Breaking this into two parts:
+
+%\begin{equation}  
+%I_1 & = \text{Peak} \int_{-\infty}^{\infty} \exp\left(-\frac{1}{2} z^2\right) \frac{\sigma}{1 + r_2} dz = \text{Peak} \sqrt{2\pi} \frac{\sigma}{1 + r_2} \\
+%\end{equation}
+
+
+%\begin{equation}
+%I_2 & = \text{Peak} r_2 \int_{-\infty}^{\infty} z^2 \exp\left(-\frac{1}{2} z^2\right) \frac{\sigma}{1 + r_2} dz = \text{Peak} r_2 \sqrt{2\pi} \frac{\sigma}{1 + r_2}
+%\end{equation}
+
+
+Thus:
+\[ I = \frac{\text{Peak} \sqrt{2\pi} \sigma (1 + r_2) }{1+r_2} = \text{Peak} \sqrt{2\pi} \sigma \]
+
+Dividing by the \(\text{Peak}\) value:
+\[ \frac{I}{\text{Peak}} = \sqrt{2\pi} \sigma  \]
+
+Beam overlap width for Poly2G fit function is
+\begin{equation}
+ \Sigma = \frac{ \sqrt{2\pi} \sigma}{\sqrt{2 \pi}} = \sigma 
+\end{equation}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \begin{comment}
