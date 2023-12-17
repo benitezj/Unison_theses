@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  17 DEC 2023 22:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  17 DEC 2023 23:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1342,9 +1342,6 @@ h' as default language. on input line 137.
  (./thesis.aux (./Portada/Portada.aux)
 (./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
 (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux
-
-LaTeX Warning: Label `fig:stabprof1' multiply defined.
-
 
 LaTeX Warning: Label `tab:systematic-uncertainty' multiply defined.
 
@@ -2899,10 +2896,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 396FD09EF7B2258F64D60BC721F2A56C;9442.
  ) 
 Here is how much of TeX's memory you used:
- 44910 strings out of 478268
- 1035372 string characters out of 5846347
- 1416294 words of memory out of 5000000
- 61438 multiletter control sequences out of 15000+600000
+ 44911 strings out of 478268
+ 1035391 string characters out of 5846347
+ 1416353 words of memory out of 5000000
+ 61439 multiletter control sequences out of 15000+600000
  607630 words of font info for 412 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,14n,120p,2949b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
