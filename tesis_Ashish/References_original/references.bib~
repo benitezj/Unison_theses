@@ -17,7 +17,6 @@
   howpublished = {BRIL Tracker Luminosity Meeting},
   year         = {2023},
   month        = {7 Aug},
-  day          = {7},
   url          = {https://indico.cern.ch/event/1313815/},
 }
 
@@ -75,9 +74,7 @@
   title = {Luminosity Measurement at CMS},
   howpublished = {KCMS Seminar},
   year = {2021},
-  month = {Sep},
-  day = {22},
-  note = {\url{https://www.desy.de/~ameyer/luminosity_kcms_210922.pdf}},
+  month = {22 Sep},
   url = {https://www.desy.de/~ameyer/luminosity_kcms_210922.pdf},
 }
 
@@ -99,11 +96,10 @@
 
 @inproceedings{Sehrawat2023,
   author = {Sehrawat, Ashish and Benitez, Jose and Cuevas, Luis},
-  title = "{2017, 2018 PCC Data Reprocessing}"},
-  booktitle = {LUM-20-001 Authors Meeting},
+  title = "{2017, 2018 PCC Data Reprocessing}",
+  howpublished = {LUM-20-001 Authors Meeting},
   year = {2023},
-  address = {CERN},
-  note = {\url{https://indico.cern.ch/event/1316986/}}
+  url = {https://indico.cern.ch/event/1316986/}
 }
 
 
@@ -134,7 +130,7 @@
     title = "{TEPX linearity in 2x coincidences}",
     year = "2020",
     url = "https://indico.cern.ch/event/969098/",
-    note = "Presentation given at BRIL Ph2 Simulations Meeting, CERN, 28 October 2020",
+    howpublished = "BRIL Ph2 Simulations Meeting, CERN, 28 October",
     organization = "CERN",
     address = "Europe/Zurich",
 }
@@ -143,10 +139,10 @@
 
 @misc{Haranko2023,
     author = "Haranko, Mykyta",
-    title = "TEPX as the new luminosity detector for BRIL - online pixel clustering on FPGA",
-    howpublished = "CMX coffee seminars",
+    title = "{TEPX as the new luminosity detector for BRIL - online pixel clustering on FPGA}",
+    howpublished = "CMS coffee seminars",
+    month = "23 July",
     year = "2023",
-    note = "[Online; accessed 23-July-2023]",
     url = "https://indico.cern.ch/event/997208/"
 }
 
@@ -202,7 +198,6 @@
       address       = "Geneva",
       year          = "2021",
       url           = "https://cds.cern.ch/record/2759074",
-      note          = "This is the final version, approved by the LHCC",
 }
 
 
@@ -222,12 +217,11 @@
 
 @article{Herr:941318,
       author        = "Herr, Werner and Muratori, B",
-      title         = "{Concept of luminosity}",
+      title         = "Concept of luminosity",
       year          = "2006",
       url           = "https://cds.cern.ch/record/941318",
       doi           = "10.5170/CERN-2006-002.361",
 }
-
 
 @techreport{Dainese:2703572,
       author        = "Dainese, Andrea and Mangano, Michelangelo and Meyer,
@@ -254,8 +248,6 @@
     year = "2008",
     url = "https://cds.cern.ch/record/1129810",
 }
-
-
 
 
 @techreport{CMS-PAS-EWK-10-004,
@@ -497,6 +489,7 @@
     year = {1968},
     number = {CERN-ISR-PO/68-31},
     address = {Geneva},
+   url = "https://cds.cern.ch/record/296752?ln=en",
 }
 
 

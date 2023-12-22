@@ -98,7 +98,7 @@ FUNCTION {output.nonnull}
         }
         { output.state before.all =
             'write$
-            { add.period$ " " * write$ }
+            { add.period$ ", " * write$ }
           if$
         }
       if$
@@ -107,6 +107,8 @@ FUNCTION {output.nonnull}
   if$
   s
 }
+
+
 
 FUNCTION {output}
 { duplicate$ empty$
@@ -123,8 +125,9 @@ FUNCTION {output.check}
   if$
 }
 
+
 FUNCTION {fin.entry}
-{ add.period$
+{ add.comma$
   write$
   newline$
 }
@@ -285,14 +288,14 @@ FUNCTION {format.issn}
 FUNCTION {format.url}
 { url empty$
     { "" }
-    { new.block "\url{" url * "}" * }
+    { new.block "\texttt{\url{" url * "}}" * }
   if$
 }
 
 FUNCTION {format.doi}
 { doi empty$
     { "" }
-    { new.block "\doi{" doi * "}" * }
+    { new.block "doi:\texttt{" doi * "}" * }
   if$
 }
 

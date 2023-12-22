@@ -20,19 +20,14 @@
 \contentsline {table}{\numberline {5.5}{\ignorespaces Bunch to bunch variation of visible cross section. $N_b$ is the number of bunches in the vdM scan.\relax }}{68}{table.caption.62}%
 \contentsline {table}{\numberline {5.6}{\ignorespaces Systematic uncertainty in luminosity measurement (\%)\relax }}{75}{table.caption.68}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Phase II simulated samples}}{80}{table.caption.70}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Events processed for each pileup\relax }}{80}{table.caption.71}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Events processed for each pileup\relax }}{81}{table.caption.72}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces dr offset values}}{87}{table.caption.79}%
 \contentsline {table}{\numberline {6.3}{\ignorespaces dr cut values}}{87}{table.caption.80}%
-\contentsline {table}{\numberline {6.4}{\ignorespaces dphi cut values}}{87}{table.caption.81}%
-\contentsline {table}{\numberline {6.5}{\ignorespaces dr offset values}}{87}{table.caption.82}%
-\contentsline {table}{\numberline {6.6}{\ignorespaces dr mean values (L1L2)}}{89}{table.caption.84}%
-\contentsline {table}{\numberline {6.7}{\ignorespaces dphi cut values (L1L2)}}{89}{table.caption.85}%
-\contentsline {table}{\numberline {6.8}{\ignorespaces dr cut values (L1L2)}}{89}{table.caption.86}%
-\contentsline {table}{\numberline {6.9}{\ignorespaces dphi cut values (L3L4)}}{90}{table.caption.87}%
-\contentsline {table}{\numberline {6.10}{\ignorespaces dphi cut values (L3L4)}}{90}{table.caption.88}%
-\contentsline {table}{\numberline {6.11}{\ignorespaces dr mean values (L3L4)}}{90}{table.caption.89}%
-\contentsline {table}{\numberline {6.12}{\ignorespaces Fake rate for Disk 4 all rings\relax }}{92}{table.caption.91}%
-\contentsline {table}{\numberline {6.13}{\ignorespaces TEPX two fold coincidences fake rate\relax }}{92}{table.caption.92}%
-\contentsline {table}{\numberline {6.14}{\ignorespaces TEPX two coincidences efficiency\relax }}{93}{table.caption.93}%
-\contentsline {table}{\numberline {6.15}{\ignorespaces Expected stat. precision of TEPX under low pileup}}{99}{table.caption.104}%
-\contentsline {table}{\numberline {6.16}{\ignorespaces Expected stat. precision of TEPX under high pileup}}{99}{table.caption.105}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces dphi cut values}}{88}{table.caption.81}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces dr mean values (L1L2)}}{88}{table.caption.84}%
+\contentsline {table}{\numberline {6.6}{\ignorespaces dr cut values (L1L2)}}{89}{table.caption.85}%
+\contentsline {table}{\numberline {6.7}{\ignorespaces dphi cut values (L1L2)}}{89}{table.caption.86}%
+\contentsline {table}{\numberline {6.8}{\ignorespaces Fake rate for Disk 4 for pileup 200\relax }}{91}{table.caption.88}%
+\contentsline {table}{\numberline {6.9}{\ignorespaces TEPX two fold coincidences fake rate and efficiency\relax }}{91}{table.caption.89}%
+\contentsline {table}{\numberline {6.10}{\ignorespaces Expected stat. precision of TEPX under low pileup}}{96}{table.caption.96}%
+\contentsline {table}{\numberline {6.11}{\ignorespaces Expected stat. precision of TEPX under high pileup}}{96}{table.caption.97}%
