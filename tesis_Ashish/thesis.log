@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  22 DEC 2023 23:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  23 DEC 2023 01:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1491,7 +1491,7 @@ or `english'. on input line 137.
 \openout2 = `Portada/Portada.aux'.
 
  (./Portada/Portada.tex
-<unison-logo.png, id=179, 321.2pt x 321.2pt>
+<unison-logo.png, id=183, 321.2pt x 321.2pt>
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
 Package pdftex.def Info: unison-logo.png  used on input line 24.
@@ -1630,7 +1630,7 @@ Chapter 1.
 
 
 ] [2]
-<ashish_thesis/lumi_precision.png, id=471, 722.7pt x 705.63625pt>
+<ashish_thesis/lumi_precision.png, id=476, 722.7pt x 705.63625pt>
 File: ashish_thesis/lumi_precision.png Graphic file (type png)
 <use ashish_thesis/lumi_precision.png>
 Package pdftex.def Info: ashish_thesis/lumi_precision.png  used on input line 5
@@ -1643,7 +1643,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<ashish_thesis/lhc_schematic.png, id=481, 853.1875pt x 649.42625pt>
+<ashish_thesis/lhc_schematic.png, id=486, 853.1875pt x 649.42625pt>
 File: ashish_thesis/lhc_schematic.png Graphic file (type png)
 <use ashish_thesis/lhc_schematic.png>
 Package pdftex.def Info: ashish_thesis/lhc_schematic.png  used on input line 83
@@ -1657,13 +1657,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
  [6]
-<ashish_thesis/cms_exp.png, id=503, 687.56876pt x 492.84125pt>
+<ashish_thesis/cms_exp.png, id=508, 687.56876pt x 492.84125pt>
 File: ashish_thesis/cms_exp.png Graphic file (type png)
 <use ashish_thesis/cms_exp.png>
 Package pdftex.def Info: ashish_thesis/cms_exp.png  used on input line 141.
 (pdftex.def)             Requested size: 320.0935pt x 229.43953pt.
  [7]
-<ashish_thesis/CMS_luminosity.png, id=514, 578.16pt x 433.62pt>
+<ashish_thesis/CMS_luminosity.png, id=519, 578.16pt x 433.62pt>
 File: ashish_thesis/CMS_luminosity.png Graphic file (type png)
 <use ashish_thesis/CMS_luminosity.png>
 Package pdftex.def Info: ashish_thesis/CMS_luminosity.png  used on input line 1
@@ -1681,13 +1681,13 @@ Chapter 2.
 
 
 ] [11] [12] [13]
-<ashish_thesis/luminometer_cms.png, id=561, 760.8425pt x 609.27625pt>
+<ashish_thesis/luminometer_cms.png, id=566, 760.8425pt x 609.27625pt>
 File: ashish_thesis/luminometer_cms.png Graphic file (type png)
 <use ashish_thesis/luminometer_cms.png>
 Package pdftex.def Info: ashish_thesis/luminometer_cms.png  used on input line 
 74.
 (pdftex.def)             Requested size: 384.1096pt x 307.60304pt.
-<ashish_thesis/luminometer_cms_pseudo.png, id=564, 687.56876pt x 365.365pt>
+<ashish_thesis/luminometer_cms_pseudo.png, id=569, 687.56876pt x 365.365pt>
 File: ashish_thesis/luminometer_cms_pseudo.png Graphic file (type png)
 <use ashish_thesis/luminometer_cms_pseudo.png>
 Package pdftex.def Info: ashish_thesis/luminometer_cms_pseudo.png  used on inpu
@@ -1695,14 +1695,14 @@ t line 84.
 (pdftex.def)             Requested size: 384.1096pt x 204.10683pt.
  [14 <./ashish_thesis/luminometer_cms.png>] [15 <./ashish_thesis/luminometer_cm
 s_pseudo.png (PNG copy)>]
-<ashish_thesis/phaseI_upgrade_pixel_detector.png, id=583, 1036.37187pt x 282.55
+<ashish_thesis/phaseI_upgrade_pixel_detector.png, id=588, 1036.37187pt x 282.55
 562pt>
 File: ashish_thesis/phaseI_upgrade_pixel_detector.png Graphic file (type png)
 <use ashish_thesis/phaseI_upgrade_pixel_detector.png>
 Package pdftex.def Info: ashish_thesis/phaseI_upgrade_pixel_detector.png  used 
 on input line 102.
 (pdftex.def)             Requested size: 426.79135pt x 116.3616pt.
-<ashish_thesis/silicon_pixel_module.png, id=586, 866.73813pt x 252.945pt>
+<ashish_thesis/silicon_pixel_module.png, id=591, 866.73813pt x 252.945pt>
 File: ashish_thesis/silicon_pixel_module.png Graphic file (type png)
 <use ashish_thesis/silicon_pixel_module.png>
 Package pdftex.def Info: ashish_thesis/silicon_pixel_module.png  used on input 
@@ -1716,7 +1716,7 @@ Excluding 'comment' comment. [19] Excluding 'comment' comment.) [20]
 
 (./Chapter3/chapter3.tex
 Chapter 3.
-<ashish_thesis/vdm_method.png, id=620, 870.75313pt x 362.85562pt>
+<ashish_thesis/vdm_method.png, id=625, 870.75313pt x 362.85562pt>
 File: ashish_thesis/vdm_method.png Graphic file (type png)
 <use ashish_thesis/vdm_method.png>
 Package pdftex.def Info: ashish_thesis/vdm_method.png  used on input line 19.
@@ -1747,7 +1747,7 @@ Excluding 'comment' comment. [23] [24] Excluding 'comment' comment.) [25]
 
 (./Chapter4/chapter4.tex
 Chapter 4.
-<ashish_thesis/period_boundary.png, id=669, 513.92pt x 347.2975pt>
+<ashish_thesis/period_boundary.png, id=674, 513.92pt x 347.2975pt>
 File: ashish_thesis/period_boundary.png Graphic file (type png)
 <use ashish_thesis/period_boundary.png>
 Package pdftex.def Info: ashish_thesis/period_boundary.png  used on input line 
@@ -1760,13 +1760,13 @@ Package pdftex.def Info: ashish_thesis/period_boundary.png  used on input line
 
  <./ashish_thesis/period_boundary.png>] Excluding 'comment' comment.
 Excluding 'comment' comment. [27] Excluding 'comment' comment.
-<ashish_thesis/Module_weight_2.png, id=685, 1589.43813pt x 913.91437pt>
+<ashish_thesis/Module_weight_2.png, id=690, 1589.43813pt x 913.91437pt>
 File: ashish_thesis/Module_weight_2.png Graphic file (type png)
 <use ashish_thesis/Module_weight_2.png>
 Package pdftex.def Info: ashish_thesis/Module_weight_2.png  used on input line 
 287.
 (pdftex.def)             Requested size: 426.79135pt x 245.39354pt.
-<ashish_thesis/good_bad_modules_1.png, id=686, 1678.27pt x 583.68062pt>
+<ashish_thesis/good_bad_modules_1.png, id=691, 1678.27pt x 583.68062pt>
 File: ashish_thesis/good_bad_modules_1.png Graphic file (type png)
 <use ashish_thesis/good_bad_modules_1.png>
 Package pdftex.def Info: ashish_thesis/good_bad_modules_1.png  used on input li
@@ -1775,20 +1775,20 @@ ne 297.
  [28] [29 <./ashish_thesis/Module_weight_2.png> <./ashish_thesis/good_bad_modul
 es_1.png>]
 [30]
-<ashish_thesis/cut_selection_1.png, id=704, 698.61pt x 473.77pt>
+<ashish_thesis/cut_selection_1.png, id=709, 698.61pt x 473.77pt>
 File: ashish_thesis/cut_selection_1.png Graphic file (type png)
 <use ashish_thesis/cut_selection_1.png>
 Package pdftex.def Info: ashish_thesis/cut_selection_1.png  used on input line 
 379.
 (pdftex.def)             Requested size: 341.43437pt x 231.54932pt.
-<ashish_thesis/3percent_cut_1.png, id=705, 3290.2925pt x 1107.13625pt>
+<ashish_thesis/3percent_cut_1.png, id=710, 3290.2925pt x 1107.13625pt>
 File: ashish_thesis/3percent_cut_1.png Graphic file (type png)
 <use ashish_thesis/3percent_cut_1.png>
 Package pdftex.def Info: ashish_thesis/3percent_cut_1.png  used on input line 3
 90.
 (pdftex.def)             Requested size: 426.79135pt x 143.5949pt.
  Excluding 'comment' comment.
-<ashish_thesis/mod_weight_comp_2.png, id=706, 698.61pt x 473.77pt>
+<ashish_thesis/mod_weight_comp_2.png, id=711, 698.61pt x 473.77pt>
 File: ashish_thesis/mod_weight_comp_2.png Graphic file (type png)
 <use ashish_thesis/mod_weight_comp_2.png>
 Package pdftex.def Info: ashish_thesis/mod_weight_comp_2.png  used on input lin
@@ -1797,7 +1797,7 @@ e 447.
  [31 <./ashish_thesis/cut_selection_1.png>]
 [32 <./ashish_thesis/3percent_cut_1.png (PNG copy)> <./ashish_thesis/mod_weight
 _comp_2.png>] Excluding 'comment' comment.
-<ashish_thesis/before_after_vdm_stability_1.png, id=717, 1626.57687pt x 577.658
+<ashish_thesis/before_after_vdm_stability_1.png, id=722, 1626.57687pt x 577.658
 13pt>
 File: ashish_thesis/before_after_vdm_stability_1.png Graphic file (type png)
 <use ashish_thesis/before_after_vdm_stability_1.png>
@@ -1806,7 +1806,7 @@ n input line 509.
 (pdftex.def)             Requested size: 426.79135pt x 151.5626pt.
  Excluding 'comment' comment.
 [33 <./ashish_thesis/before_after_vdm_stability_1.png>]
-<ashish_thesis/2percentcommonveto_pixellayerdisk_1.png, id=725, 1585.42313pt x 
+<ashish_thesis/2percentcommonveto_pixellayerdisk_1.png, id=730, 1585.42313pt x 
 562.1pt>
 File: ashish_thesis/2percentcommonveto_pixellayerdisk_1.png Graphic file (type 
 png)
@@ -1815,7 +1815,7 @@ Package pdftex.def Info: ashish_thesis/2percentcommonveto_pixellayerdisk_1.png
  used on input line 633.
 (pdftex.def)             Requested size: 426.79135pt x 151.31445pt.
  [34 <./ashish_thesis/2percentcommonveto_pixellayerdisk_1.png>] [35]
-<ashish_thesis/vdm_program_2018.png, id=739, 1645.64813pt x 436.12938pt>
+<ashish_thesis/vdm_program_2018.png, id=744, 1645.64813pt x 436.12938pt>
 File: ashish_thesis/vdm_program_2018.png Graphic file (type png)
 <use ashish_thesis/vdm_program_2018.png>
 Package pdftex.def Info: ashish_thesis/vdm_program_2018.png  used on input line
@@ -2055,13 +2055,13 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 [36 <./ashish_thesis/vdm_program_2018.png>]
-<ashish_thesis/SS1_SS2_bkg_pcc_1.png, id=747, 991.705pt x 486.31688pt>
+<ashish_thesis/SS1_SS2_bkg_pcc_1.png, id=752, 991.705pt x 486.31688pt>
 File: ashish_thesis/SS1_SS2_bkg_pcc_1.png Graphic file (type png)
 <use ashish_thesis/SS1_SS2_bkg_pcc_1.png>
 Package pdftex.def Info: ashish_thesis/SS1_SS2_bkg_pcc_1.png  used on input lin
 e 702.
 (pdftex.def)             Requested size: 426.79135pt x 209.29027pt.
-<ashish_thesis/vdM_fit_cveto_1.png, id=749, 1435.3625pt x 843.65187pt>
+<ashish_thesis/vdM_fit_cveto_1.png, id=754, 1435.3625pt x 843.65187pt>
 File: ashish_thesis/vdM_fit_cveto_1.png Graphic file (type png)
 <use ashish_thesis/vdM_fit_cveto_1.png>
 Package pdftex.def Info: ashish_thesis/vdM_fit_cveto_1.png  used on input line 
@@ -2069,7 +2069,7 @@ Package pdftex.def Info: ashish_thesis/vdM_fit_cveto_1.png  used on input line
 (pdftex.def)             Requested size: 426.79135pt x 250.84473pt.
  [37 <./ashish_thesis/SS1_SS2_bkg_pcc_1.png>] [38 <./ashish_thesis/vdM_fit_cvet
 o_1.png>]
-<ashish_thesis/Fill_profile_6961_1.png, id=761, 964.60374pt x 693.59125pt>
+<ashish_thesis/Fill_profile_6961_1.png, id=766, 964.60374pt x 693.59125pt>
 File: ashish_thesis/Fill_profile_6961_1.png Graphic file (type png)
 <use ashish_thesis/Fill_profile_6961_1.png>
 Package pdftex.def Info: ashish_thesis/Fill_profile_6961_1.png  used on input l
@@ -2078,13 +2078,13 @@ ine 758.
  [39 <./ashish_thesis/Fill_profile_6961_1.png>] [40] Excluding 'comment' commen
 t.
 Excluding 'comment' comment.
-<ashish_thesis/fill_7036_pattern_2.png, id=775, 798.985pt x 574.145pt>
+<ashish_thesis/fill_7036_pattern_2.png, id=781, 798.985pt x 574.145pt>
 File: ashish_thesis/fill_7036_pattern_2.png Graphic file (type png)
 <use ashish_thesis/fill_7036_pattern_2.png>
 Package pdftex.def Info: ashish_thesis/fill_7036_pattern_2.png  used on input l
 ine 857.
 (pdftex.def)             Requested size: 426.79135pt x 306.68709pt.
-<ashish_thesis/2018_af_fit_1.png, id=776, 1001.7425pt x 757.32938pt>
+<ashish_thesis/2018_af_fit_1.png, id=782, 1001.7425pt x 757.32938pt>
 File: ashish_thesis/2018_af_fit_1.png Graphic file (type png)
 <use ashish_thesis/2018_af_fit_1.png>
 Package pdftex.def Info: ashish_thesis/2018_af_fit_1.png  used on input line 93
@@ -2092,7 +2092,7 @@ Package pdftex.def Info: ashish_thesis/2018_af_fit_1.png  used on input line 93
 (pdftex.def)             Requested size: 426.79135pt x 322.66386pt.
  [41 <./ashish_thesis/fill_7036_pattern_2.png>]
 [42 <./ashish_thesis/2018_af_fit_1.png>]
-<ashish_thesis/afterglow_correction_factor_1lsblock_315690_1.png, id=789, 1571.
+<ashish_thesis/afterglow_correction_factor_1lsblock_315690_1.png, id=794, 1571.
 8725pt x 577.65813pt>
 File: ashish_thesis/afterglow_correction_factor_1lsblock_315690_1.png Graphic f
 ile (type png)
@@ -2118,7 +2118,7 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 [43 <./ashish_thesis/afterglow_correction_factor_1lsblock_315690_1.png>]
-<ashish_thesis/PCClumivslumisection_2018_1.png, id=796, 983.675pt x 721.19438pt
+<ashish_thesis/PCClumivslumisection_2018_1.png, id=801, 983.675pt x 721.19438pt
 >
 File: ashish_thesis/PCClumivslumisection_2018_1.png Graphic file (type png)
 <use ashish_thesis/PCClumivslumisection_2018_1.png>
@@ -2128,7 +2128,7 @@ Package pdftex.def Info: ashish_thesis/PCClumivslumisection_2018_1.png  used on
 
 [44 <./ashish_thesis/PCClumivslumisection_2018_1.png>]
 Excluding 'comment' comment. [45] Excluding 'comment' comment. [46]
-<ashish_thesis/sigma_vis_btob_var_1.png, id=822, 1098.60437pt x 658.46pt>
+<ashish_thesis/sigma_vis_btob_var_1.png, id=827, 1098.60437pt x 658.46pt>
 File: ashish_thesis/sigma_vis_btob_var_1.png Graphic file (type png)
 <use ashish_thesis/sigma_vis_btob_var_1.png>
 Package pdftex.def Info: ashish_thesis/sigma_vis_btob_var_1.png  used on input 
@@ -2140,14 +2140,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [47 <./ashish_thesis/sigma_vis_btob_var_1.png>] Excluding 'comment' comment.
 Excluding 'comment' comment.
-<ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png, id=833, 944.52875pt x 731.23187
+<ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png, id=838, 944.52875pt x 731.23187
 pt>
 File: ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png Graphic file (type png)
 <use ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png>
 Package pdftex.def Info: ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png  used on
  input line 1283.
 (pdftex.def)             Requested size: 341.43437pt x 264.33672pt.
-<ashish_thesis/ProjY_ProfileX_h_ratio_all_1.png, id=834, 1037.8775pt x 784.4306
+<ashish_thesis/ProjY_ProfileX_h_ratio_all_1.png, id=839, 1037.8775pt x 784.4306
 2pt>
 File: ashish_thesis/ProjY_ProfileX_h_ratio_all_1.png Graphic file (type png)
 <use ashish_thesis/ProjY_ProfileX_h_ratio_all_1.png>
@@ -2156,7 +2156,7 @@ n input line 1305.
 (pdftex.def)             Requested size: 341.43437pt x 258.06094pt.
  [48] [49 <./ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png> <./ashish_thesis/Pr
 ojY_ProfileX_h_ratio_all_1.png>]
-<ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png, id=844, 1590.44188pt x 585.18
+<ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png, id=849, 1590.44188pt x 585.18
 625pt>
 File: ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png Graphic file (type png)
 <use ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png>
@@ -2197,7 +2197,7 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 [50 <./ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png>]
-<ashish_thesis/type1res_gr0p5_1.png, id=850, 1551.29562pt x 570.63188pt>
+<ashish_thesis/type1res_gr0p5_1.png, id=855, 1551.29562pt x 570.63188pt>
 File: ashish_thesis/type1res_gr0p5_1.png Graphic file (type png)
 <use ashish_thesis/type1res_gr0p5_1.png>
 Package pdftex.def Info: ashish_thesis/type1res_gr0p5_1.png  used on input line
@@ -2412,7 +2412,7 @@ Excluding 'comment' comment.) [51 <./ashish_thesis/type1res_gr0p5_1.png>]
 
  (./Chapter5/chapter5.tex
 Chapter 5.
-<ashish_thesis/2022_lumi_datasets.png, id=866, 2255.42625pt x 1214.5375pt>
+<ashish_thesis/2022_lumi_datasets.png, id=871, 2255.42625pt x 1214.5375pt>
 File: ashish_thesis/2022_lumi_datasets.png Graphic file (type png)
 <use ashish_thesis/2022_lumi_datasets.png>
 Package pdftex.def Info: ashish_thesis/2022_lumi_datasets.png  used on input li
@@ -2424,13 +2424,13 @@ ne 34.
 
 
 ]
-<ashish_thesis/2022_good_module_1.png, id=873, 706.13812pt x 542.52687pt>
+<ashish_thesis/2022_good_module_1.png, id=878, 706.13812pt x 542.52687pt>
 File: ashish_thesis/2022_good_module_1.png Graphic file (type png)
 <use ashish_thesis/2022_good_module_1.png>
 Package pdftex.def Info: ashish_thesis/2022_good_module_1.png  used on input li
 ne 75.
 (pdftex.def)             Requested size: 209.1301pt x 160.67317pt.
-<ashish_thesis/2022_bad_module_1.png, id=874, 683.05188pt x 539.01375pt>
+<ashish_thesis/2022_bad_module_1.png, id=879, 683.05188pt x 539.01375pt>
 File: ashish_thesis/2022_bad_module_1.png Graphic file (type png)
 <use ashish_thesis/2022_bad_module_1.png>
 Package pdftex.def Info: ashish_thesis/2022_bad_module_1.png  used on input lin
@@ -2438,14 +2438,14 @@ e 81.
 (pdftex.def)             Requested size: 209.1301pt x 165.02814pt.
  [54 <./ashish_thesis/2022_lumi_datasets.png (PNG copy)> <./ashish_thesis/2022_
 good_module_1.png> <./ashish_thesis/2022_bad_module_1.png>]
-<ashish_thesis/stability_deviation_2022_1.png, id=884, 980.66376pt x 700.6175pt
+<ashish_thesis/stability_deviation_2022_1.png, id=889, 980.66376pt x 700.6175pt
 >
 File: ashish_thesis/stability_deviation_2022_1.png Graphic file (type png)
 <use ashish_thesis/stability_deviation_2022_1.png>
 Package pdftex.def Info: ashish_thesis/stability_deviation_2022_1.png  used on 
 input line 112.
 (pdftex.def)             Requested size: 426.79135pt x 304.90512pt.
-<ashish_thesis/linearity_deviation_2022_1.png, id=885, 1630.09pt x 576.1525pt>
+<ashish_thesis/linearity_deviation_2022_1.png, id=890, 1630.09pt x 576.1525pt>
 File: ashish_thesis/linearity_deviation_2022_1.png Graphic file (type png)
 <use ashish_thesis/linearity_deviation_2022_1.png>
 Package pdftex.def Info: ashish_thesis/linearity_deviation_2022_1.png  used on 
@@ -2455,14 +2455,14 @@ input line 122.
 Excluding 'comment' comment. [55 <./ashish_thesis/stability_deviation_2022_1.pn
 g>] [56 <./ashish_thesis/linearity_deviation_2022_1.png>]
 Excluding 'comment' comment. Excluding 'comment' comment.
-<ashish_thesis/PCC_stability_2022_L0veto_4.png, id=906, 942.01938pt x 711.15688
+<ashish_thesis/PCC_stability_2022_L0veto_4.png, id=911, 942.01938pt x 711.15688
 pt>
 File: ashish_thesis/PCC_stability_2022_L0veto_4.png Graphic file (type png)
 <use ashish_thesis/PCC_stability_2022_L0veto_4.png>
 Package pdftex.def Info: ashish_thesis/PCC_stability_2022_L0veto_4.png  used on
  input line 323.
 (pdftex.def)             Requested size: 298.75264pt x 225.53479pt.
-<ashish_thesis/2022_pcc_stability_2.png, id=907, 933.98938pt x 704.13063pt>
+<ashish_thesis/2022_pcc_stability_2.png, id=912, 933.98938pt x 704.13063pt>
 File: ashish_thesis/2022_pcc_stability_2.png Graphic file (type png)
 <use ashish_thesis/2022_pcc_stability_2.png>
 Package pdftex.def Info: ashish_thesis/2022_pcc_stability_2.png  used on input 
@@ -2471,7 +2471,7 @@ line 331.
 
 Excluding 'comment' comment. [57 <./ashish_thesis/PCC_stability_2022_L0veto_4.p
 ng>]
-<ashish_thesis/2022_vdM.png, id=914, 966.10938pt x 349.80687pt>
+<ashish_thesis/2022_vdM.png, id=919, 966.10938pt x 349.80687pt>
 File: ashish_thesis/2022_vdM.png Graphic file (type png)
 <use ashish_thesis/2022_vdM.png>
 Package pdftex.def Info: ashish_thesis/2022_vdM.png  used on input line 368.
@@ -2545,14 +2545,14 @@ l.415 ...ption{SS2_{avg}= 0.0779018 -+ 0.00060436}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<ashish_thesis/2022_vdM_fit_1.png, id=924, 1185.93062pt x 647.41875pt>
+<ashish_thesis/2022_vdM_fit_1.png, id=929, 1185.93062pt x 647.41875pt>
 File: ashish_thesis/2022_vdM_fit_1.png Graphic file (type png)
 <use ashish_thesis/2022_vdM_fit_1.png>
 Package pdftex.def Info: ashish_thesis/2022_vdM_fit_1.png  used on input line 4
 32.
 (pdftex.def)             Requested size: 426.79135pt x 232.99153pt.
 Excluding 'comment' comment.
-<ashish_thesis/2022_sigma_vis_per_scan.png, id=925, 513.92pt x 385.44pt>
+<ashish_thesis/2022_sigma_vis_per_scan.png, id=930, 513.92pt x 385.44pt>
 File: ashish_thesis/2022_sigma_vis_per_scan.png Graphic file (type png)
 <use ashish_thesis/2022_sigma_vis_per_scan.png>
 Package pdftex.def Info: ashish_thesis/2022_sigma_vis_per_scan.png  used on inp
@@ -2560,7 +2560,7 @@ ut line 475.
 (pdftex.def)             Requested size: 341.43437pt x 256.07912pt.
  [59 <./ashish_thesis/2022_vdM.png>] [60 <./ashish_thesis/2022_vdM_fit_1.png> <
 ./ashish_thesis/2022_sigma_vis_per_scan.png>]
-<ashish_thesis/Fill_profile_8274_1.png, id=939, 901.3675pt x 666.99188pt>
+<ashish_thesis/Fill_profile_8274_1.png, id=944, 901.3675pt x 666.99188pt>
 File: ashish_thesis/Fill_profile_8274_1.png Graphic file (type png)
 <use ashish_thesis/Fill_profile_8274_1.png>
 Package pdftex.def Info: ashish_thesis/Fill_profile_8274_1.png  used on input l
@@ -2568,13 +2568,13 @@ ine 501.
 (pdftex.def)             Requested size: 426.79135pt x 315.81686pt.
 
 [61 <./ashish_thesis/Fill_profile_8274_1.png>]
-<ashish_thesis/run_361957_ls_block_1.png, id=947, 878.28125pt x 662.475pt>
+<ashish_thesis/run_361957_ls_block_1.png, id=952, 878.28125pt x 662.475pt>
 File: ashish_thesis/run_361957_ls_block_1.png Graphic file (type png)
 <use ashish_thesis/run_361957_ls_block_1.png>
 Package pdftex.def Info: ashish_thesis/run_361957_ls_block_1.png  used on input
  line 543.
 (pdftex.def)             Requested size: 341.43437pt x 257.54541pt.
-<ashish_thesis/afterglow_fit_2022_1.png, id=948, 798.985pt x 574.145pt>
+<ashish_thesis/afterglow_fit_2022_1.png, id=953, 798.985pt x 574.145pt>
 File: ashish_thesis/afterglow_fit_2022_1.png Graphic file (type png)
 <use ashish_thesis/afterglow_fit_2022_1.png>
 Package pdftex.def Info: ashish_thesis/afterglow_fit_2022_1.png  used on input 
@@ -2583,14 +2583,14 @@ line 552.
  Excluding 'comment' comment.
 Excluding 'comment' comment. [62] [63 <./ashish_thesis/run_361957_ls_block_1.pn
 g> <./ashish_thesis/afterglow_fit_2022_1.png>]
-<ashish_thesis/PCClumivslumisection_2022.png, id=961, 795.97375pt x 602.25pt>
+<ashish_thesis/PCClumivslumisection_2022.png, id=966, 795.97375pt x 602.25pt>
 File: ashish_thesis/PCClumivslumisection_2022.png Graphic file (type png)
 <use ashish_thesis/PCClumivslumisection_2022.png>
 Package pdftex.def Info: ashish_thesis/PCClumivslumisection_2022.png  used on i
 nput line 679.
 (pdftex.def)             Requested size: 426.79135pt x 322.91275pt.
  [64] [65 <./ashish_thesis/PCClumivslumisection_2022.png>] [66]
-<ashish_thesis/2022_sigma_vis_btob_variation.png, id=978, 513.92pt x 385.44pt>
+<ashish_thesis/2022_sigma_vis_btob_variation.png, id=983, 513.92pt x 385.44pt>
 File: ashish_thesis/2022_sigma_vis_btob_variation.png Graphic file (type png)
 <use ashish_thesis/2022_sigma_vis_btob_variation.png>
 Package pdftex.def Info: ashish_thesis/2022_sigma_vis_btob_variation.png  used 
@@ -2598,7 +2598,7 @@ on input line 745.
 (pdftex.def)             Requested size: 341.43437pt x 256.07912pt.
  [67] [68 <./ashish_thesis/2022_sigma_vis_btob_variation.png>] Excluding 'comme
 nt' comment.
-<ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png, id=990, 764.35562pt x 592.
+<ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png, id=995, 764.35562pt x 592.
 2125pt>
 File: ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png Graphic file (type png
 )
@@ -2606,7 +2606,7 @@ File: ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png Graphic file (type png
 Package pdftex.def Info: ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png  us
 ed on input line 917.
 (pdftex.def)             Requested size: 426.79135pt x 330.66983pt.
-<ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1.png, id=991, 793.96625pt x 591
+<ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1.png, id=996, 793.96625pt x 591
 .71063pt>
 File: ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1.png Graphic file (type pn
 g)
@@ -2616,7 +2616,7 @@ sed on input line 932.
 (pdftex.def)             Requested size: 426.79135pt x 318.07437pt.
  [69] [70 <./ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png>] [71 <./ashish
 _thesis/ProjY_ProfileX_h_ratio_all_2022_1.png>] Excluding 'comment' comment.
-<ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1.png, id=1007, 825.58438pt x 6
+<ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1.png, id=1012, 825.58438pt x 6
 06.265pt>
 File: ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1.png Graphic file (type p
 ng)
@@ -2625,13 +2625,13 @@ Package pdftex.def Info: ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1.png
 used on input line 1002.
 (pdftex.def)             Requested size: 298.75264pt x 219.39308pt.
  [72 <./ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1.png>]
-<ashish_thesis/afterglow_t1res_vsinstlumi_1.png, id=1013, 698.61pt x 473.77pt>
+<ashish_thesis/afterglow_t1res_vsinstlumi_1.png, id=1018, 698.61pt x 473.77pt>
 File: ashish_thesis/afterglow_t1res_vsinstlumi_1.png Graphic file (type png)
 <use ashish_thesis/afterglow_t1res_vsinstlumi_1.png>
 Package pdftex.def Info: ashish_thesis/afterglow_t1res_vsinstlumi_1.png  used o
 n input line 1026.
 (pdftex.def)             Requested size: 426.79135pt x 289.43303pt.
-<ashish_thesis/afterglow_t2res_vsinstlumi_1.png, id=1014, 698.61pt x 473.77pt>
+<ashish_thesis/afterglow_t2res_vsinstlumi_1.png, id=1019, 698.61pt x 473.77pt>
 File: ashish_thesis/afterglow_t2res_vsinstlumi_1.png Graphic file (type png)
 <use ashish_thesis/afterglow_t2res_vsinstlumi_1.png>
 Package pdftex.def Info: ashish_thesis/afterglow_t2res_vsinstlumi_1.png  used o
@@ -2650,17 +2650,17 @@ Chapter 6.
 
 
 ]
-<ashish_thesis/tepx_tt_1.png, id=1040, 918.43124pt x 358.33875pt>
+<ashish_thesis/tepx_tt_1.png, id=1045, 918.43124pt x 358.33875pt>
 File: ashish_thesis/tepx_tt_1.png Graphic file (type png)
 <use ashish_thesis/tepx_tt_1.png>
 Package pdftex.def Info: ashish_thesis/tepx_tt_1.png  used on input line 17.
 (pdftex.def)             Requested size: 426.79135pt x 166.5219pt.
-<ashish_thesis/tepx_DD.png, id=1041, 570.13pt x 577.65813pt>
+<ashish_thesis/tepx_DD.png, id=1046, 570.13pt x 577.65813pt>
 File: ashish_thesis/tepx_DD.png Graphic file (type png)
 <use ashish_thesis/tepx_DD.png>
 Package pdftex.def Info: ashish_thesis/tepx_DD.png  used on input line 24.
 (pdftex.def)             Requested size: 256.07741pt x 259.45895pt.
-<ashish_thesis/tepx_alllayer.png, id=1042, 240.9pt x 923.45pt>
+<ashish_thesis/tepx_alllayer.png, id=1047, 240.9pt x 923.45pt>
 File: ashish_thesis/tepx_alllayer.png Graphic file (type png)
 <use ashish_thesis/tepx_alllayer.png>
 Package pdftex.def Info: ashish_thesis/tepx_alllayer.png  used on input line 32
@@ -2701,7 +2701,7 @@ l.210 \end{comment}
                    
 Things are pretty mixed up, but I think the worst is over.
 
-<ashish_thesis/tepx_clusters_1.png, id=1068, 798.985pt x 774.895pt>
+<ashish_thesis/tepx_clusters_1.png, id=1073, 798.985pt x 774.895pt>
 File: ashish_thesis/tepx_clusters_1.png Graphic file (type png)
 <use ashish_thesis/tepx_clusters_1.png>
 Package pdftex.def Info: ashish_thesis/tepx_clusters_1.png  used on input line 
@@ -2722,20 +2722,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
-<ashish_thesis/tepx_D4R!_clusters._allpu_1.png, id=1082, 798.985pt x 574.145pt>
+<ashish_thesis/tepx_D4R!_clusters._allpu_1.png, id=1087, 798.985pt x 574.145pt>
 
 File: ashish_thesis/tepx_D4R!_clusters._allpu_1.png Graphic file (type png)
 <use ashish_thesis/tepx_D4R!_clusters._allpu_1.png>
 Package pdftex.def Info: ashish_thesis/tepx_D4R!_clusters._allpu_1.png  used on
  input line 240.
 (pdftex.def)             Requested size: 426.79135pt x 306.68709pt.
-<ashish_thesis/michigan_2.png, id=1083, 1681.78313pt x 616.80438pt>
+<ashish_thesis/michigan_2.png, id=1088, 1681.78313pt x 616.80438pt>
 File: ashish_thesis/michigan_2.png Graphic file (type png)
 <use ashish_thesis/michigan_2.png>
 Package pdftex.def Info: ashish_thesis/michigan_2.png  used on input line 248.
 (pdftex.def)             Requested size: 426.79135pt x 156.52539pt.
 [83]
-<ashish_thesis/michigan_3.png, id=1089, 1669.23625pt x 609.77812pt>
+<ashish_thesis/michigan_3.png, id=1094, 1669.23625pt x 609.77812pt>
 File: ashish_thesis/michigan_3.png Graphic file (type png)
 <use ashish_thesis/michigan_3.png>
 Package pdftex.def Info: ashish_thesis/michigan_3.png  used on input line 256.
@@ -2743,14 +2743,14 @@ Package pdftex.def Info: ashish_thesis/michigan_3.png  used on input line 256.
  [84 <./ashish_thesis/tepx_D4R!_clusters._allpu_1.png> <./ashish_thesis/michiga
 n_2.png>] Excluding 'comment' comment. Excluding 'comment' comment.
 Excluding 'comment' comment.
-<ashish_thesis/dr_dphi_variables1_1.png, id=1097, 662.97687pt x 314.67563pt>
+<ashish_thesis/dr_dphi_variables1_1.png, id=1102, 662.97687pt x 314.67563pt>
 File: ashish_thesis/dr_dphi_variables1_1.png Graphic file (type png)
 <use ashish_thesis/dr_dphi_variables1_1.png>
 Package pdftex.def Info: ashish_thesis/dr_dphi_variables1_1.png  used on input 
 line 456.
 (pdftex.def)             Requested size: 298.75264pt x 141.79958pt.
  Excluding 'comment' comment. [85 <./ashish_thesis/michigan_3.png>]
-<ashish_thesis/D4R1_S2_drdphi_cut_1.png, id=1108, 1576.89125pt x 553.06625pt>
+<ashish_thesis/D4R1_S2_drdphi_cut_1.png, id=1113, 1576.89125pt x 553.06625pt>
 File: ashish_thesis/D4R1_S2_drdphi_cut_1.png Graphic file (type png)
 <use ashish_thesis/D4R1_S2_drdphi_cut_1.png>
 Package pdftex.def Info: ashish_thesis/D4R1_S2_drdphi_cut_1.png  used on input 
@@ -2768,14 +2768,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [86 <./ashish_thesis/dr_dphi_variables1_1.png> <./ashish_thesis/D4R1_S2_drdphi_
 cut_1.png>]
-<ashish_thesis/twofoldinphi_sch.png, id=1116, 836.12375pt x 638.385pt>
+<ashish_thesis/twofoldinphi_sch.png, id=1121, 836.12375pt x 638.385pt>
 File: ashish_thesis/twofoldinphi_sch.png Graphic file (type png)
 <use ashish_thesis/twofoldinphi_sch.png>
 Package pdftex.def Info: ashish_thesis/twofoldinphi_sch.png  used on input line
  693.
 (pdftex.def)             Requested size: 426.79135pt x 325.86426pt.
  [87 <./ashish_thesis/twofoldinphi_sch.png>]
-<ashish_thesis/twofoldinr_exam.png, id=1126, 490.83376pt x 828.09375pt>
+<ashish_thesis/twofoldinr_exam.png, id=1131, 490.83376pt x 828.09375pt>
 File: ashish_thesis/twofoldinr_exam.png Graphic file (type png)
 <use ashish_thesis/twofoldinr_exam.png>
 Package pdftex.def Info: ashish_thesis/twofoldinr_exam.png  used on input line 
@@ -2785,7 +2785,7 @@ Package pdftex.def Info: ashish_thesis/twofoldinr_exam.png  used on input line
 Excluding 'comment' comment. Excluding 'comment' comment. [88 <./ashish_thesis/
 twofoldinr_exam.png>] Excluding 'comment' comment.
 Excluding 'comment' comment.
-<ashish_thesis/l1l2_l3l4_2xinr.png, id=1131, 795.47188pt x 615.80063pt>
+<ashish_thesis/l1l2_l3l4_2xinr.png, id=1136, 795.47188pt x 615.80063pt>
 File: ashish_thesis/l1l2_l3l4_2xinr.png Graphic file (type png)
 <use ashish_thesis/l1l2_l3l4_2xinr.png>
 Package pdftex.def Info: ashish_thesis/l1l2_l3l4_2xinr.png  used on input line 
@@ -2797,20 +2797,20 @@ Overfull \hbox (53.04878pt too wide) in paragraph at lines 1089--1104
  []
 
 Excluding 'comment' comment.
-<ashish_thesis/tepx_D4R1_coin_allpu_1.png, id=1147, 798.985pt x 574.145pt>
+<ashish_thesis/tepx_D4R1_coin_allpu_1.png, id=1153, 798.985pt x 574.145pt>
 File: ashish_thesis/tepx_D4R1_coin_allpu_1.png Graphic file (type png)
 <use ashish_thesis/tepx_D4R1_coin_allpu_1.png>
 Package pdftex.def Info: ashish_thesis/tepx_D4R1_coin_allpu_1.png  used on inpu
 t line 1161.
 (pdftex.def)             Requested size: 426.79135pt x 306.68709pt.
  [91]
-<ashish_thesis/michigan_1.png, id=1154, 1686.3pt x 620.81938pt>
+<ashish_thesis/michigan_1.png, id=1159, 1686.3pt x 620.81938pt>
 File: ashish_thesis/michigan_1.png Graphic file (type png)
 <use ashish_thesis/michigan_1.png>
 Package pdftex.def Info: ashish_thesis/michigan_1.png  used on input line 1169.
 
 (pdftex.def)             Requested size: 426.79135pt x 157.118pt.
-<ashish_thesis/michigan_4.png, id=1155, 1669.23625pt x 614.79688pt>
+<ashish_thesis/michigan_4.png, id=1160, 1669.23625pt x 614.79688pt>
 File: ashish_thesis/michigan_4.png Graphic file (type png)
 <use ashish_thesis/michigan_4.png>
 Package pdftex.def Info: ashish_thesis/michigan_4.png  used on input line 1177.
@@ -2819,20 +2819,20 @@ Package pdftex.def Info: ashish_thesis/michigan_4.png  used on input line 1177.
  [92 <./ashish_thesis/tepx_D4R1_coin_allpu_1.png> <./ashish_thesis/michigan_1.p
 ng>] Excluding 'comment' comment.
 Excluding 'comment' comment.
-<ashish_thesis/tepx_threefold_coincidences.png, id=1164, 654.94687pt x 580.6693
+<ashish_thesis/tepx_threefold_coincidences.png, id=1169, 654.94687pt x 580.6693
 7pt>
 File: ashish_thesis/tepx_threefold_coincidences.png Graphic file (type png)
 <use ashish_thesis/tepx_threefold_coincidences.png>
 Package pdftex.def Info: ashish_thesis/tepx_threefold_coincidences.png  used on
  input line 1282.
 (pdftex.def)             Requested size: 426.79135pt x 378.38753pt.
-<ashish_thesis/tepx_threefold_allpu.png, id=1165, 817.55438pt x 593.71812pt>
+<ashish_thesis/tepx_threefold_allpu.png, id=1170, 817.55438pt x 593.71812pt>
 File: ashish_thesis/tepx_threefold_allpu.png Graphic file (type png)
 <use ashish_thesis/tepx_threefold_allpu.png>
 Package pdftex.def Info: ashish_thesis/tepx_threefold_allpu.png  used on input 
 line 1290.
 (pdftex.def)             Requested size: 426.79135pt x 309.94916pt.
-<ashish_thesis/TEPX_threefold_linearity.png, id=1166, 1675.25874pt x 659.96562p
+<ashish_thesis/TEPX_threefold_linearity.png, id=1171, 1675.25874pt x 659.96562p
 t>
 File: ashish_thesis/TEPX_threefold_linearity.png Graphic file (type png)
 <use ashish_thesis/TEPX_threefold_linearity.png>
@@ -2856,7 +2856,7 @@ Overfull \hbox (24.95291pt too wide) in paragraph at lines 1341--1354
  [][] 
  []
 
-Excluding 'comment' comment.) [96] (./thesis.bbl
+Excluding 'comment' comment. [96]) [97] (./thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 9--14
 []\T1/ptm/m/n/12 (+20) Werner Herr and B Mu-ra-tori.  Con-cept of lu-mi-nos-ity
 .  2006.
@@ -2924,7 +2924,7 @@ Underfull \hbox (badness 2452) in paragraph at lines 92--97
 ele-scope for Lu-mi-
  []
 
-[97
+[98
 
 
 
@@ -2984,7 +2984,7 @@ Underfull \hbox (badness 2556) in paragraph at lines 174--179
 -459, 2014.
  []
 
-[98]
+[99]
 Underfull \hbox (badness 10000) in paragraph at lines 190--195
 \T1/cmtt/m/n/12 contributions / 3406100 / attachments / 1856391 / 3049263 / sli
 des _ VdM _ OMC _
@@ -2996,7 +2996,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--202
 Palm _ LHC _ beam _
  []
 
-) [99] (./thesis.ind) (./thesis.aux (./Portada/Portada.aux)
+) [100] (./thesis.ind) (./thesis.aux (./Portada/Portada.aux)
 (./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
 (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux)
 (./Chapter7/chapter7.aux))
@@ -3004,13 +3004,13 @@ Palm _ LHC _ beam _
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 083868665E80B2AA9BBAB71AC3CD2259;9452.
+(rerunfilecheck)             Checksum: 2A31DBD7D663CA75C1A6CD3200C7BC67;9579.
  ) 
 Here is how much of TeX's memory you used:
- 44863 strings out of 478268
- 1033790 string characters out of 5846347
- 1416093 words of memory out of 5000000
- 61411 multiletter control sequences out of 15000+600000
+ 44866 strings out of 478268
+ 1033822 string characters out of 5846347
+ 1416092 words of memory out of 5000000
+ 61412 multiletter control sequences out of 15000+600000
  607630 words of font info for 412 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,14n,120p,2949b,1011s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3027,10 +3027,10 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (107 pages, 28329861 bytes).
+Output written on thesis.pdf (108 pages, 28332413 bytes).
 PDF statistics:
- 1404 PDF objects out of 1440 (max. 8388607)
- 1141 compressed objects within 12 object streams
- 314 named destinations out of 1000 (max. 500000)
- 135358 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 1413 PDF objects out of 1440 (max. 8388607)
+ 1149 compressed objects within 12 object streams
+ 316 named destinations out of 1000 (max. 500000)
+ 135366 words of extra memory for PDF output out of 154059 (max. 10000000)
 

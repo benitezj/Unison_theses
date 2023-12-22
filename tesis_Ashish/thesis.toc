@@ -41,4 +41,5 @@
 \contentsline {subsection}{\numberline {6.2.2}TEPX two fold coincidences}{85}{subsection.6.2.2}%
 \contentsline {section}{\numberline {6.3}TEPX three fold coincidences}{93}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Statistical precision for TEPX luminometer}{96}{section.6.4}%
-\contentsline {chapter}{References}{97}{chapter*.98}%
+\contentsline {section}{\numberline {6.5}Conclusion}{97}{section.6.5}%
+\contentsline {chapter}{References}{98}{chapter*.98}%
