@@ -39,7 +39,7 @@
 \contentsline {section}{\numberline {6.2}TEPX Luminomter Simulation}{81}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}Linearity of TEPX clusters}{83}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}TEPX two fold coincidences}{85}{subsection.6.2.2}%
-\contentsline {section}{\numberline {6.3}TEPX three fold coincidences}{93}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Statistical precision for TEPX luminometer}{96}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Conclusion}{97}{section.6.5}%
+\contentsline {subsection}{\numberline {6.2.3}TEPX three fold coincidences}{93}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Statistical precision for TEPX luminometer}{96}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Conclusion}{97}{section.6.4}%
 \contentsline {chapter}{References}{98}{chapter*.98}%

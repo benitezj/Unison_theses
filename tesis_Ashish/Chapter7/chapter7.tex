@@ -30,7 +30,7 @@ The Outer Tracker is designed for tracking particles over extended radii with si
 \begin{figure}[!htp]
   \centering
   \includegraphics[width=0.2 \columnwidth]{ashish_thesis/tepx_alllayer.png}
-  \caption[TEPX double disk]{ \onehalfspacing R-Z view of the TEPX one double disk showing all four layers L1, L2, L3 and L4. Layer 1 and 3 has Ring 1, 2 and 3 modules, Layer 2 and 4 has Ring 2 and Ring 5 modules.}
+  \caption[TEPX double disk]{ \onehalfspacing R-Z view of the TEPX one double disk showing all four layers L1, L2, L3 and L4. Layer 1 and 3 has Ring 1, 3 and 5 modules, Layer 2 and 4 has Ring 2 and Ring 4 modules.}
   \label{fig:Innertracker_41}
 \end{figure}
 
@@ -1273,7 +1273,7 @@ For Disk 4 Ring 1, fake coincidences are randomly distributed and true coinciden
 
 \end{comment}
 
-\section{TEPX three fold coincidences}
+\subsection{TEPX three fold coincidences}
 
 It is possible to have three fold coincidences in TEPX detector. A three-fold coincidence refers to a situation where three hits occur nearly simultaneously and in a close spatial arrangement originating from the same underlying event. In the current algorithm, we look for another cluster in the lower ring after a two fold coincidence cluster is found. The XY map of three fold coincidences is shown in Fig. \ref{fig:tepx_3foldcoin_allPU_1}. Three fold coincidences under all pileup conditions is shown in Fig.  \ref{fig:tepx_3foldcoin_allPU_2}.  With the current algorithm, three fold coincidences shows non-linearity at high pileup as shown in Fig. \ref{fig:tepx_3foldcoin_allPU_3}. % and Fig.  \ref{fig:tepx_3foldcoin_lowPU}.
 
@@ -1302,7 +1302,7 @@ It is possible to have three fold coincidences in TEPX detector. A three-fold co
 \begin{figure}[!htp]
   \centering
   \includegraphics[width=1\columnwidth]{ashish_thesis/TEPX_threefold_linearity.png}
-  \caption[Disk 4 Ring 2 three Fold Coincidences Linearity]{Left: Simulated mean number of three fold coincidences for all Disk 4 all rings as a function
+  \caption[Disk 4 all rings three Fold Coincidences Linearity]{Left: Simulated mean number of three fold coincidences for all Disk 4 all rings as a function
     of pileup. Right: Deviation from linearity for Disk 4 all rings.}
   \label{fig:tepx_3foldcoin_allPU_3}
 \end{figure}

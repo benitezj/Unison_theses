@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  23 DEC 2023 01:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  24 DEC 2023 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3004,12 +3004,12 @@ Palm _ LHC _ beam _
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2A31DBD7D663CA75C1A6CD3200C7BC67;9579.
+(rerunfilecheck)             Checksum: 4CF3BABB8073BA575BBD01AF30102600;9596.
  ) 
 Here is how much of TeX's memory you used:
  44866 strings out of 478268
- 1033822 string characters out of 5846347
- 1416092 words of memory out of 5000000
+ 1033832 string characters out of 5846347
+ 1416093 words of memory out of 5000000
  61412 multiletter control sequences out of 15000+600000
  607630 words of font info for 412 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3027,7 +3027,7 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (108 pages, 28332417 bytes).
+Output written on thesis.pdf (108 pages, 28332456 bytes).
 PDF statistics:
  1413 PDF objects out of 1440 (max. 8388607)
  1149 compressed objects within 12 object streams
