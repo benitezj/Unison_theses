@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  29 DEC 2023 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  29 DEC 2023 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1357,7 +1357,12 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 137.
  (./thesis.aux (./Portada/Portada.aux)
-(./Abstract/abstract.aux) (./Chapter7/chapter7.aux))
+(./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
+(./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux
+
+LaTeX Warning: Label `tab:systematic-uncertainty' multiply defined.
+
+) (./Chapter5/chapter5.aux) (./Chapter7/chapter7.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
@@ -1486,7 +1491,7 @@ or `english'. on input line 137.
 \openout2 = `Portada/Portada.aux'.
 
  (./Portada/Portada.tex
-<unison-logo.png, id=51, 321.2pt x 321.2pt>
+<unison-logo.png, id=183, 321.2pt x 321.2pt>
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
 Package pdftex.def Info: unison-logo.png  used on input line 24.
@@ -1574,18 +1579,19 @@ n-logo.png>]
 
 
 
-] (./thesis.toc)
+] (./thesis.toc [3
+
+
+])
 \tf@toc=\write8
 \openout8 = `thesis.toc'.
 
- [3
-
-
-] (./thesis.lof
+ [4]
+(./thesis.lof [5]
 ! Misplaced alignment tab character &.
-<argument> ...p 0.5 Cluster Count in D4R1 vs. dr &
-                                                   dphi}}
-l.10 ...4R1 vs. dr & dphi}}{10}{figure.caption.13}
+<argument> ....4}{\ignorespaces Module Linearity &
+                                                   Linearity Deviation Distr...
+l.39 ...tion Distribution}}{56}{figure.caption.48}
                                                   %
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1594,43 +1600,1075 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-)
+! Misplaced alignment tab character &.
+<argument> ...p 0.5 Cluster Count in D4R1 vs. dr &
+                                                   dphi}}
+l.64 ...4R1 vs. dr & dphi}}{85}{figure.caption.78}
+                                                  %
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[6])
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
- [4] (./thesis.lot)
+ [7] (./thesis.lot)
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
- [5] (./thesis.nls)
-\openout2 = `Chapter7/chapter7.aux'.
+ [8] (./thesis.nls)
+\openout2 = `Chapter1/chapter1.aux'.
 
- (./Chapter7/chapter7.tex
+ (./Chapter1/chapter1.tex
 Chapter 1.
 [1
 
 
 
+] [2]
+<ashish_thesis/lumi_precision.png, id=476, 722.7pt x 705.63625pt>
+File: ashish_thesis/lumi_precision.png Graphic file (type png)
+<use ashish_thesis/lumi_precision.png>
+Package pdftex.def Info: ashish_thesis/lumi_precision.png  used on input line 5
+9.
+(pdftex.def)             Requested size: 341.43437pt x 333.37183pt.
+ [3 <./ashish_thesis/lumi_precision.png>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
+9.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<ashish_thesis/lhc_schematic.png, id=486, 853.1875pt x 649.42625pt>
+File: ashish_thesis/lhc_schematic.png Graphic file (type png)
+<use ashish_thesis/lhc_schematic.png>
+Package pdftex.def Info: ashish_thesis/lhc_schematic.png  used on input line 83
+.
+(pdftex.def)             Requested size: 384.1096pt x 292.37784pt.
+ [4] [5 <./ashish_thesis/lhc_schematic.png>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+ [6]
+<ashish_thesis/cms_exp.png, id=508, 687.56876pt x 492.84125pt>
+File: ashish_thesis/cms_exp.png Graphic file (type png)
+<use ashish_thesis/cms_exp.png>
+Package pdftex.def Info: ashish_thesis/cms_exp.png  used on input line 141.
+(pdftex.def)             Requested size: 320.0935pt x 229.43953pt.
+ [7]
+<ashish_thesis/CMS_luminosity.png, id=519, 578.16pt x 433.62pt>
+File: ashish_thesis/CMS_luminosity.png Graphic file (type png)
+<use ashish_thesis/CMS_luminosity.png>
+Package pdftex.def Info: ashish_thesis/CMS_luminosity.png  used on input line 1
+89.
+(pdftex.def)             Requested size: 384.1096pt x 288.0824pt.
+) [8 <./ashish_thesis/cms_exp.png (PNG copy)>] [9 <./ashish_thesis/CMS_luminosi
+ty.png>]
+\openout2 = `Chapter2/chapter2.aux'.
+
+ (./Chapter2/chapter2.tex
+Chapter 2.
+[10
+
+
+
+
+] [11] [12] [13]
+<ashish_thesis/luminometer_cms.png, id=566, 760.8425pt x 609.27625pt>
+File: ashish_thesis/luminometer_cms.png Graphic file (type png)
+<use ashish_thesis/luminometer_cms.png>
+Package pdftex.def Info: ashish_thesis/luminometer_cms.png  used on input line 
+74.
+(pdftex.def)             Requested size: 384.1096pt x 307.60304pt.
+<ashish_thesis/luminometer_cms_pseudo.png, id=569, 687.56876pt x 365.365pt>
+File: ashish_thesis/luminometer_cms_pseudo.png Graphic file (type png)
+<use ashish_thesis/luminometer_cms_pseudo.png>
+Package pdftex.def Info: ashish_thesis/luminometer_cms_pseudo.png  used on inpu
+t line 84.
+(pdftex.def)             Requested size: 384.1096pt x 204.10683pt.
+ [14 <./ashish_thesis/luminometer_cms.png>] [15 <./ashish_thesis/luminometer_cm
+s_pseudo.png (PNG copy)>]
+<ashish_thesis/phaseI_upgrade_pixel_detector.png, id=588, 1036.37187pt x 282.55
+562pt>
+File: ashish_thesis/phaseI_upgrade_pixel_detector.png Graphic file (type png)
+<use ashish_thesis/phaseI_upgrade_pixel_detector.png>
+Package pdftex.def Info: ashish_thesis/phaseI_upgrade_pixel_detector.png  used 
+on input line 102.
+(pdftex.def)             Requested size: 426.79135pt x 116.3616pt.
+<ashish_thesis/silicon_pixel_module.png, id=591, 866.73813pt x 252.945pt>
+File: ashish_thesis/silicon_pixel_module.png Graphic file (type png)
+<use ashish_thesis/silicon_pixel_module.png>
+Package pdftex.def Info: ashish_thesis/silicon_pixel_module.png  used on input 
+line 112.
+(pdftex.def)             Requested size: 426.79135pt x 124.55396pt.
+ [16 <./ashish_thesis/phaseI_upgrade_pixel_detector.png> <./ashish_thesis/silic
+on_pixel_module.png>] [17] [18]
+Excluding 'comment' comment. [19] Excluding 'comment' comment.) [20]
+\openout2 = `Chapter3/chapter3.aux'.
+
+
+(./Chapter3/chapter3.tex
+Chapter 3.
+<ashish_thesis/vdm_method.png, id=625, 870.75313pt x 362.85562pt>
+File: ashish_thesis/vdm_method.png Graphic file (type png)
+<use ashish_thesis/vdm_method.png>
+Package pdftex.def Info: ashish_thesis/vdm_method.png  used on input line 19.
+(pdftex.def)             Requested size: 426.79135pt x 177.8451pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21
+
+
+
+
 ]
-<ashish_thesis/tepx_tt_1.png, id=160, 918.43124pt x 358.33875pt>
+Overfull \hbox (23.69406pt too wide) in paragraph at lines 45--46
+[]\T1/ptm/m/n/12 (-20) The vdM scan de-ter-mines the bunch over-lap in-te-grals
+ $[] \OML/ztmcm/m/it/12 ^^Z[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 x\OT1/ztmcm/
+m/n/12 )\OML/ztmcm/m/it/12 ^^Z[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 x\OT1/ztm
+cm/m/n/12 )\OML/ztmcm/m/it/12 dx$ \T1/ptm/m/n/12 (-20) and $[] \OML/ztmcm/m/it/
+12 ^^Z[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 y\OT1/ztmcm/m/n/12 )\OML/ztmcm/m/
+it/12 ^^Z[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 y\OT1/ztmcm/m/n/12 )\OML/ztmcm
+/m/it/12 dy$
+ []
+
+[22 <./ashish_thesis/vdm_method.png>] Excluding 'comment' comment.
+Excluding 'comment' comment. [23] [24] Excluding 'comment' comment.) [25]
+\openout2 = `Chapter4/chapter4.aux'.
+
+
+(./Chapter4/chapter4.tex
+Chapter 4.
+<ashish_thesis/period_boundary.png, id=674, 513.92pt x 347.2975pt>
+File: ashish_thesis/period_boundary.png Graphic file (type png)
+<use ashish_thesis/period_boundary.png>
+Package pdftex.def Info: ashish_thesis/period_boundary.png  used on input line 
+29.
+(pdftex.def)             Requested size: 384.1096pt x 259.57689pt.
+[26
+
+
+
+
+ <./ashish_thesis/period_boundary.png>] Excluding 'comment' comment.
+Excluding 'comment' comment. [27] Excluding 'comment' comment.
+<ashish_thesis/Module_weight_2.png, id=690, 1589.43813pt x 913.91437pt>
+File: ashish_thesis/Module_weight_2.png Graphic file (type png)
+<use ashish_thesis/Module_weight_2.png>
+Package pdftex.def Info: ashish_thesis/Module_weight_2.png  used on input line 
+287.
+(pdftex.def)             Requested size: 426.79135pt x 245.39354pt.
+<ashish_thesis/good_bad_modules_1.png, id=691, 1678.27pt x 583.68062pt>
+File: ashish_thesis/good_bad_modules_1.png Graphic file (type png)
+<use ashish_thesis/good_bad_modules_1.png>
+Package pdftex.def Info: ashish_thesis/good_bad_modules_1.png  used on input li
+ne 297.
+(pdftex.def)             Requested size: 426.79135pt x 148.43135pt.
+ [28] [29 <./ashish_thesis/Module_weight_2.png> <./ashish_thesis/good_bad_modul
+es_1.png>]
+[30]
+<ashish_thesis/cut_selection_1.png, id=709, 698.61pt x 473.77pt>
+File: ashish_thesis/cut_selection_1.png Graphic file (type png)
+<use ashish_thesis/cut_selection_1.png>
+Package pdftex.def Info: ashish_thesis/cut_selection_1.png  used on input line 
+379.
+(pdftex.def)             Requested size: 341.43437pt x 231.54932pt.
+<ashish_thesis/3percent_cut_1.png, id=710, 3290.2925pt x 1107.13625pt>
+File: ashish_thesis/3percent_cut_1.png Graphic file (type png)
+<use ashish_thesis/3percent_cut_1.png>
+Package pdftex.def Info: ashish_thesis/3percent_cut_1.png  used on input line 3
+90.
+(pdftex.def)             Requested size: 426.79135pt x 143.5949pt.
+ Excluding 'comment' comment.
+<ashish_thesis/mod_weight_comp_2.png, id=711, 698.61pt x 473.77pt>
+File: ashish_thesis/mod_weight_comp_2.png Graphic file (type png)
+<use ashish_thesis/mod_weight_comp_2.png>
+Package pdftex.def Info: ashish_thesis/mod_weight_comp_2.png  used on input lin
+e 447.
+(pdftex.def)             Requested size: 298.75264pt x 202.60384pt.
+ [31 <./ashish_thesis/cut_selection_1.png>]
+[32 <./ashish_thesis/3percent_cut_1.png (PNG copy)> <./ashish_thesis/mod_weight
+_comp_2.png>] Excluding 'comment' comment.
+<ashish_thesis/before_after_vdm_stability_1.png, id=722, 1626.57687pt x 577.658
+13pt>
+File: ashish_thesis/before_after_vdm_stability_1.png Graphic file (type png)
+<use ashish_thesis/before_after_vdm_stability_1.png>
+Package pdftex.def Info: ashish_thesis/before_after_vdm_stability_1.png  used o
+n input line 509.
+(pdftex.def)             Requested size: 426.79135pt x 151.5626pt.
+ Excluding 'comment' comment.
+[33 <./ashish_thesis/before_after_vdm_stability_1.png>]
+<ashish_thesis/2percentcommonveto_pixellayerdisk_1.png, id=730, 1585.42313pt x 
+562.1pt>
+File: ashish_thesis/2percentcommonveto_pixellayerdisk_1.png Graphic file (type 
+png)
+<use ashish_thesis/2percentcommonveto_pixellayerdisk_1.png>
+Package pdftex.def Info: ashish_thesis/2percentcommonveto_pixellayerdisk_1.png 
+ used on input line 633.
+(pdftex.def)             Requested size: 426.79135pt x 151.31445pt.
+ [34 <./ashish_thesis/2percentcommonveto_pixellayerdisk_1.png>] [35]
+<ashish_thesis/vdm_program_2018.png, id=744, 1645.64813pt x 436.12938pt>
+File: ashish_thesis/vdm_program_2018.png Graphic file (type png)
+<use ashish_thesis/vdm_program_2018.png>
+Package pdftex.def Info: ashish_thesis/vdm_program_2018.png  used on input line
+ 692.
+(pdftex.def)             Requested size: 426.79135pt x 113.1048pt.
+
+! Illegal parameter number in definition of \caption@tempa.
+<to be read again> 
+                   3
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \caption@tempa.
+<to be read again> 
+                   1
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \caption@tempa.
+<to be read again> 
+                   4
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \caption@tempa.
+<to be read again> 
+                   9
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \caption@tempa.
+<to be read again> 
+                   5
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \caption@tempa.
+<to be read again> 
+                   7
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \caption@tempa.
+<to be read again> 
+                   8
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \caption@tempa.
+<to be read again> 
+                   6
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ...showing different types of scans. ##
+                                                  3 and ##10 are vdM scans, ...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ...different types of scans. ##3 and ##
+                                                  10 are vdM scans, ##4 and ...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ...cans. ##3 and ##10 are vdM scans, ##
+                                                  4 and ##9 are offset scans...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ...3 and ##10 are vdM scans, ##4 and ##
+                                                  9 are offset scans, ##5, #...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ...ns, ##4 and ##9 are offset scans, ##
+                                                  5, ##7 and ##8 are beam im...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ...#4 and ##9 are offset scans, ##5, ##
+                                                  7 and ##8 are beam imaging...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ...#9 are offset scans, ##5, ##7 and ##
+                                                  8 are beam imaging scans, ...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ...7 and ##8 are beam imaging scans, ##
+                                                  6 is emittance scan.
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...showing different types of scans. ##
+                                                  3 and ##10 are vdM scans, ...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...different types of scans. ##3 and ##
+                                                  10 are vdM scans, ##4 and ...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...cans. ##3 and ##10 are vdM scans, ##
+                                                  4 and ##9 are offset scans...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...3 and ##10 are vdM scans, ##4 and ##
+                                                  9 are offset scans, ##5, #...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...ns, ##4 and ##9 are offset scans, ##
+                                                  5, ##7 and ##8 are beam im...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...#4 and ##9 are offset scans, ##5, ##
+                                                  7 and ##8 are beam imaging...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...#9 are offset scans, ##5, ##7 and ##
+                                                  8 are beam imaging scans, ...
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...7 and ##8 are beam imaging scans, ##
+                                                  6 is emittance scan.
+l.693 ...eam imaging scans, #6 is emittance scan.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[36 <./ashish_thesis/vdm_program_2018.png>]
+<ashish_thesis/SS1_SS2_bkg_pcc_1.png, id=752, 991.705pt x 486.31688pt>
+File: ashish_thesis/SS1_SS2_bkg_pcc_1.png Graphic file (type png)
+<use ashish_thesis/SS1_SS2_bkg_pcc_1.png>
+Package pdftex.def Info: ashish_thesis/SS1_SS2_bkg_pcc_1.png  used on input lin
+e 702.
+(pdftex.def)             Requested size: 426.79135pt x 209.29027pt.
+<ashish_thesis/vdM_fit_cveto_1.png, id=754, 1435.3625pt x 843.65187pt>
+File: ashish_thesis/vdM_fit_cveto_1.png Graphic file (type png)
+<use ashish_thesis/vdM_fit_cveto_1.png>
+Package pdftex.def Info: ashish_thesis/vdM_fit_cveto_1.png  used on input line 
+729.
+(pdftex.def)             Requested size: 426.79135pt x 250.84473pt.
+ [37 <./ashish_thesis/SS1_SS2_bkg_pcc_1.png>] [38 <./ashish_thesis/vdM_fit_cvet
+o_1.png>]
+<ashish_thesis/Fill_profile_6961_1.png, id=766, 964.60374pt x 693.59125pt>
+File: ashish_thesis/Fill_profile_6961_1.png Graphic file (type png)
+<use ashish_thesis/Fill_profile_6961_1.png>
+Package pdftex.def Info: ashish_thesis/Fill_profile_6961_1.png  used on input l
+ine 758.
+(pdftex.def)             Requested size: 384.1096pt x 276.19333pt.
+ [39 <./ashish_thesis/Fill_profile_6961_1.png>] [40] Excluding 'comment' commen
+t.
+Excluding 'comment' comment.
+<ashish_thesis/fill_7036_pattern_2.png, id=781, 798.985pt x 574.145pt>
+File: ashish_thesis/fill_7036_pattern_2.png Graphic file (type png)
+<use ashish_thesis/fill_7036_pattern_2.png>
+Package pdftex.def Info: ashish_thesis/fill_7036_pattern_2.png  used on input l
+ine 857.
+(pdftex.def)             Requested size: 426.79135pt x 306.68709pt.
+<ashish_thesis/2018_af_fit_1.png, id=782, 1001.7425pt x 757.32938pt>
+File: ashish_thesis/2018_af_fit_1.png Graphic file (type png)
+<use ashish_thesis/2018_af_fit_1.png>
+Package pdftex.def Info: ashish_thesis/2018_af_fit_1.png  used on input line 93
+1.
+(pdftex.def)             Requested size: 426.79135pt x 322.66386pt.
+ [41 <./ashish_thesis/fill_7036_pattern_2.png>]
+[42 <./ashish_thesis/2018_af_fit_1.png>]
+<ashish_thesis/afterglow_correction_factor_1lsblock_315690_1.png, id=794, 1571.
+8725pt x 577.65813pt>
+File: ashish_thesis/afterglow_correction_factor_1lsblock_315690_1.png Graphic f
+ile (type png)
+<use ashish_thesis/afterglow_correction_factor_1lsblock_315690_1.png>
+Package pdftex.def Info: ashish_thesis/afterglow_correction_factor_1lsblock_315
+690_1.png  used on input line 970.
+(pdftex.def)             Requested size: 426.79135pt x 156.84239pt.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.983 ...entire 2018 is calculated to be 60.47 fb^
+                                                  {-1}.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.984 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[43 <./ashish_thesis/afterglow_correction_factor_1lsblock_315690_1.png>]
+<ashish_thesis/PCClumivslumisection_2018_1.png, id=801, 983.675pt x 721.19438pt
+>
+File: ashish_thesis/PCClumivslumisection_2018_1.png Graphic file (type png)
+<use ashish_thesis/PCClumivslumisection_2018_1.png>
+Package pdftex.def Info: ashish_thesis/PCClumivslumisection_2018_1.png  used on
+ input line 988.
+(pdftex.def)             Requested size: 426.79135pt x 312.9027pt.
+
+[44 <./ashish_thesis/PCClumivslumisection_2018_1.png>]
+Excluding 'comment' comment. [45] Excluding 'comment' comment. [46]
+<ashish_thesis/sigma_vis_btob_var_1.png, id=827, 1098.60437pt x 658.46pt>
+File: ashish_thesis/sigma_vis_btob_var_1.png Graphic file (type png)
+<use ashish_thesis/sigma_vis_btob_var_1.png>
+Package pdftex.def Info: ashish_thesis/sigma_vis_btob_var_1.png  used on input 
+line 1089.
+(pdftex.def)             Requested size: 298.75264pt x 179.05254pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[47 <./ashish_thesis/sigma_vis_btob_var_1.png>] Excluding 'comment' comment.
+Excluding 'comment' comment.
+<ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png, id=838, 944.52875pt x 731.23187
+pt>
+File: ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png Graphic file (type png)
+<use ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png>
+Package pdftex.def Info: ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png  used on
+ input line 1283.
+(pdftex.def)             Requested size: 341.43437pt x 264.33672pt.
+<ashish_thesis/ProjY_ProfileX_h_ratio_all_1.png, id=839, 1037.8775pt x 784.4306
+2pt>
+File: ashish_thesis/ProjY_ProfileX_h_ratio_all_1.png Graphic file (type png)
+<use ashish_thesis/ProjY_ProfileX_h_ratio_all_1.png>
+Package pdftex.def Info: ashish_thesis/ProjY_ProfileX_h_ratio_all_1.png  used o
+n input line 1305.
+(pdftex.def)             Requested size: 341.43437pt x 258.06094pt.
+ [48] [49 <./ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png> <./ashish_thesis/Pr
+ojY_ProfileX_h_ratio_all_1.png>]
+<ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png, id=849, 1590.44188pt x 585.18
+625pt>
+File: ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png Graphic file (type png)
+<use ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png>
+Package pdftex.def Info: ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png  used 
+on input line 1389.
+(pdftex.def)             Requested size: 426.79135pt x 157.02911pt.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1391 ...s 7.2e^{-7} $in units of$ (Hz/ub)^{-1}.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1391 ...s 7.2e^{-7} $in units of$ (Hz/ub)^{-1}.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1391 ...s 7.2e^{-7} $in units of$ (Hz/ub)^{-1}.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1391 ...s 7.2e^{-7} $in units of$ (Hz/ub)^{-1}.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[50 <./ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png>]
+<ashish_thesis/type1res_gr0p5_1.png, id=855, 1551.29562pt x 570.63188pt>
+File: ashish_thesis/type1res_gr0p5_1.png Graphic file (type png)
+<use ashish_thesis/type1res_gr0p5_1.png>
+Package pdftex.def Info: ashish_thesis/type1res_gr0p5_1.png  used on input line
+ 1428.
+(pdftex.def)             Requested size: 426.79135pt x 156.98955pt.
+
+! Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.1484 \end{itemize}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.1484 \end{itemize}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.1484 \end{itemize}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.1484 \end{itemize}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.1484 \end{itemize}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.1484 \end{itemize}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.1484 \end{itemize}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.1484 \end{itemize}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.1484 \end{itemize}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.1484 \end{itemize}
+                    
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.1484 \end{itemize}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.1484 \end{itemize}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.1484 \end{itemize}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.1484 \end{itemize}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.1484 \end{itemize}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.1484 \end{itemize}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.1484 \end{itemize}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.1484 \end{itemize}
+                    
+I'm forgetting what you said and using zero instead.
+
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1484 \end{itemize}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.1484 \end{itemize}
+                    
+Things are pretty mixed up, but I think the worst is over.
+
+Excluding 'comment' comment.) [51 <./ashish_thesis/type1res_gr0p5_1.png>]
+[52]
+\openout2 = `Chapter5/chapter5.aux'.
+
+ (./Chapter5/chapter5.tex
+Chapter 5.
+<ashish_thesis/2022_lumi_datasets.png, id=871, 2255.42625pt x 1214.5375pt>
+File: ashish_thesis/2022_lumi_datasets.png Graphic file (type png)
+<use ashish_thesis/2022_lumi_datasets.png>
+Package pdftex.def Info: ashish_thesis/2022_lumi_datasets.png  used on input li
+ne 34.
+(pdftex.def)             Requested size: 426.79135pt x 229.81937pt.
+[53
+
+
+
+
+]
+<ashish_thesis/2022_good_module_1.png, id=878, 706.13812pt x 542.52687pt>
+File: ashish_thesis/2022_good_module_1.png Graphic file (type png)
+<use ashish_thesis/2022_good_module_1.png>
+Package pdftex.def Info: ashish_thesis/2022_good_module_1.png  used on input li
+ne 75.
+(pdftex.def)             Requested size: 209.1301pt x 160.67317pt.
+<ashish_thesis/2022_bad_module_1.png, id=879, 683.05188pt x 539.01375pt>
+File: ashish_thesis/2022_bad_module_1.png Graphic file (type png)
+<use ashish_thesis/2022_bad_module_1.png>
+Package pdftex.def Info: ashish_thesis/2022_bad_module_1.png  used on input lin
+e 81.
+(pdftex.def)             Requested size: 209.1301pt x 165.02814pt.
+ [54 <./ashish_thesis/2022_lumi_datasets.png (PNG copy)> <./ashish_thesis/2022_
+good_module_1.png> <./ashish_thesis/2022_bad_module_1.png>]
+<ashish_thesis/stability_deviation_2022_1.png, id=889, 980.66376pt x 700.6175pt
+>
+File: ashish_thesis/stability_deviation_2022_1.png Graphic file (type png)
+<use ashish_thesis/stability_deviation_2022_1.png>
+Package pdftex.def Info: ashish_thesis/stability_deviation_2022_1.png  used on 
+input line 112.
+(pdftex.def)             Requested size: 426.79135pt x 304.90512pt.
+<ashish_thesis/linearity_deviation_2022_1.png, id=890, 1630.09pt x 576.1525pt>
+File: ashish_thesis/linearity_deviation_2022_1.png Graphic file (type png)
+<use ashish_thesis/linearity_deviation_2022_1.png>
+Package pdftex.def Info: ashish_thesis/linearity_deviation_2022_1.png  used on 
+input line 122.
+(pdftex.def)             Requested size: 426.79135pt x 150.84229pt.
+
+Excluding 'comment' comment. [55 <./ashish_thesis/stability_deviation_2022_1.pn
+g>] [56 <./ashish_thesis/linearity_deviation_2022_1.png>]
+Excluding 'comment' comment. Excluding 'comment' comment.
+<ashish_thesis/PCC_stability_2022_L0veto_4.png, id=911, 942.01938pt x 711.15688
+pt>
+File: ashish_thesis/PCC_stability_2022_L0veto_4.png Graphic file (type png)
+<use ashish_thesis/PCC_stability_2022_L0veto_4.png>
+Package pdftex.def Info: ashish_thesis/PCC_stability_2022_L0veto_4.png  used on
+ input line 323.
+(pdftex.def)             Requested size: 298.75264pt x 225.53479pt.
+<ashish_thesis/2022_pcc_stability_2.png, id=912, 933.98938pt x 704.13063pt>
+File: ashish_thesis/2022_pcc_stability_2.png Graphic file (type png)
+<use ashish_thesis/2022_pcc_stability_2.png>
+Package pdftex.def Info: ashish_thesis/2022_pcc_stability_2.png  used on input 
+line 331.
+(pdftex.def)             Requested size: 298.75264pt x 225.2297pt.
+
+Excluding 'comment' comment. [57 <./ashish_thesis/PCC_stability_2022_L0veto_4.p
+ng>]
+<ashish_thesis/2022_vdM.png, id=919, 966.10938pt x 349.80687pt>
+File: ashish_thesis/2022_vdM.png Graphic file (type png)
+<use ashish_thesis/2022_vdM.png>
+Package pdftex.def Info: ashish_thesis/2022_vdM.png  used on input line 368.
+(pdftex.def)             Requested size: 426.79135pt x 154.52931pt.
+ [58 <./ashish_thesis/2022_pcc_stability_2.png>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.398 ...bcaption{SS1_{avg}= 0.039022 +- 0.000613}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 398.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 398.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.398 ...bcaption{SS1_{avg}= 0.039022 +- 0.000613}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.398 ...bcaption{SS1_{avg}= 0.039022 +- 0.000613}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.398 ...bcaption{SS1_{avg}= 0.039022 +- 0.000613}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.415 ...ption{SS2_{avg}= 0.0779018 -+ 0.00060436}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.415 ...ption{SS2_{avg}= 0.0779018 -+ 0.00060436}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.415 ...ption{SS2_{avg}= 0.0779018 -+ 0.00060436}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.415 ...ption{SS2_{avg}= 0.0779018 -+ 0.00060436}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+<ashish_thesis/2022_vdM_fit_1.png, id=929, 1185.93062pt x 647.41875pt>
+File: ashish_thesis/2022_vdM_fit_1.png Graphic file (type png)
+<use ashish_thesis/2022_vdM_fit_1.png>
+Package pdftex.def Info: ashish_thesis/2022_vdM_fit_1.png  used on input line 4
+32.
+(pdftex.def)             Requested size: 426.79135pt x 232.99153pt.
+Excluding 'comment' comment.
+<ashish_thesis/2022_sigma_vis_per_scan.png, id=930, 513.92pt x 385.44pt>
+File: ashish_thesis/2022_sigma_vis_per_scan.png Graphic file (type png)
+<use ashish_thesis/2022_sigma_vis_per_scan.png>
+Package pdftex.def Info: ashish_thesis/2022_sigma_vis_per_scan.png  used on inp
+ut line 475.
+(pdftex.def)             Requested size: 341.43437pt x 256.07912pt.
+ [59 <./ashish_thesis/2022_vdM.png>] [60 <./ashish_thesis/2022_vdM_fit_1.png> <
+./ashish_thesis/2022_sigma_vis_per_scan.png>]
+<ashish_thesis/Fill_profile_8274_1.png, id=944, 901.3675pt x 666.99188pt>
+File: ashish_thesis/Fill_profile_8274_1.png Graphic file (type png)
+<use ashish_thesis/Fill_profile_8274_1.png>
+Package pdftex.def Info: ashish_thesis/Fill_profile_8274_1.png  used on input l
+ine 501.
+(pdftex.def)             Requested size: 426.79135pt x 315.81686pt.
+
+[61 <./ashish_thesis/Fill_profile_8274_1.png>]
+<ashish_thesis/run_361957_ls_block_1.png, id=952, 878.28125pt x 662.475pt>
+File: ashish_thesis/run_361957_ls_block_1.png Graphic file (type png)
+<use ashish_thesis/run_361957_ls_block_1.png>
+Package pdftex.def Info: ashish_thesis/run_361957_ls_block_1.png  used on input
+ line 543.
+(pdftex.def)             Requested size: 341.43437pt x 257.54541pt.
+<ashish_thesis/afterglow_fit_2022_1.png, id=953, 798.985pt x 574.145pt>
+File: ashish_thesis/afterglow_fit_2022_1.png Graphic file (type png)
+<use ashish_thesis/afterglow_fit_2022_1.png>
+Package pdftex.def Info: ashish_thesis/afterglow_fit_2022_1.png  used on input 
+line 552.
+(pdftex.def)             Requested size: 341.43437pt x 245.35316pt.
+ Excluding 'comment' comment.
+Excluding 'comment' comment. [62] [63 <./ashish_thesis/run_361957_ls_block_1.pn
+g> <./ashish_thesis/afterglow_fit_2022_1.png>]
+<ashish_thesis/PCClumivslumisection_2022.png, id=966, 795.97375pt x 602.25pt>
+File: ashish_thesis/PCClumivslumisection_2022.png Graphic file (type png)
+<use ashish_thesis/PCClumivslumisection_2022.png>
+Package pdftex.def Info: ashish_thesis/PCClumivslumisection_2022.png  used on i
+nput line 679.
+(pdftex.def)             Requested size: 426.79135pt x 322.91275pt.
+ [64] [65 <./ashish_thesis/PCClumivslumisection_2022.png>] [66]
+<ashish_thesis/2022_sigma_vis_btob_variation.png, id=983, 513.92pt x 385.44pt>
+File: ashish_thesis/2022_sigma_vis_btob_variation.png Graphic file (type png)
+<use ashish_thesis/2022_sigma_vis_btob_variation.png>
+Package pdftex.def Info: ashish_thesis/2022_sigma_vis_btob_variation.png  used 
+on input line 745.
+(pdftex.def)             Requested size: 341.43437pt x 256.07912pt.
+ [67] [68 <./ashish_thesis/2022_sigma_vis_btob_variation.png>] Excluding 'comme
+nt' comment.
+<ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png, id=995, 764.35562pt x 592.
+2125pt>
+File: ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png Graphic file (type png
+)
+<use ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png>
+Package pdftex.def Info: ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png  us
+ed on input line 917.
+(pdftex.def)             Requested size: 426.79135pt x 330.66983pt.
+<ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1.png, id=996, 793.96625pt x 591
+.71063pt>
+File: ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1.png Graphic file (type pn
+g)
+<use ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1.png>
+Package pdftex.def Info: ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1.png  u
+sed on input line 932.
+(pdftex.def)             Requested size: 426.79135pt x 318.07437pt.
+ [69] [70 <./ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png>] [71 <./ashish
+_thesis/ProjY_ProfileX_h_ratio_all_2022_1.png>] Excluding 'comment' comment.
+<ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1.png, id=1012, 825.58438pt x 6
+06.265pt>
+File: ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1.png Graphic file (type p
+ng)
+<use ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1.png>
+Package pdftex.def Info: ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1.png  
+used on input line 1002.
+(pdftex.def)             Requested size: 298.75264pt x 219.39308pt.
+ [72 <./ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1.png>]
+<ashish_thesis/afterglow_t1res_vsinstlumi_1.png, id=1018, 698.61pt x 473.77pt>
+File: ashish_thesis/afterglow_t1res_vsinstlumi_1.png Graphic file (type png)
+<use ashish_thesis/afterglow_t1res_vsinstlumi_1.png>
+Package pdftex.def Info: ashish_thesis/afterglow_t1res_vsinstlumi_1.png  used o
+n input line 1026.
+(pdftex.def)             Requested size: 426.79135pt x 289.43303pt.
+<ashish_thesis/afterglow_t2res_vsinstlumi_1.png, id=1019, 698.61pt x 473.77pt>
+File: ashish_thesis/afterglow_t2res_vsinstlumi_1.png Graphic file (type png)
+<use ashish_thesis/afterglow_t2res_vsinstlumi_1.png>
+Package pdftex.def Info: ashish_thesis/afterglow_t2res_vsinstlumi_1.png  used o
+n input line 1037.
+(pdftex.def)             Requested size: 426.79135pt x 289.43303pt.
+ [73 <./ashish_thesis/afterglow_t1res_vsinstlumi_1.png>]
+[74 <./ashish_thesis/afterglow_t2res_vsinstlumi_1.png>]
+Excluding 'comment' comment.) [75]
+\openout2 = `Chapter7/chapter7.aux'.
+
+ (./Chapter7/chapter7.tex
+Chapter 6.
+[76
+
+
+
+
+]
+<ashish_thesis/tepx_tt_1.png, id=1043, 918.43124pt x 358.33875pt>
 File: ashish_thesis/tepx_tt_1.png Graphic file (type png)
 <use ashish_thesis/tepx_tt_1.png>
 Package pdftex.def Info: ashish_thesis/tepx_tt_1.png  used on input line 28.
 (pdftex.def)             Requested size: 426.79135pt x 166.5219pt.
-<ashish_thesis/tepx_DD.png, id=161, 570.13pt x 577.65813pt>
+<ashish_thesis/tepx_DD.png, id=1044, 570.13pt x 577.65813pt>
 File: ashish_thesis/tepx_DD.png Graphic file (type png)
 <use ashish_thesis/tepx_DD.png>
 Package pdftex.def Info: ashish_thesis/tepx_DD.png  used on input line 35.
 (pdftex.def)             Requested size: 213.39568pt x 216.20699pt.
- [2 <./ashish_thesis/tepx_tt_1.png>]
-<ashish_thesis/tepx_alllayer.png, id=170, 240.9pt x 923.45pt>
+ [77 <./ashish_thesis/tepx_tt_1.png>]
+<ashish_thesis/tepx_alllayer.png, id=1051, 240.9pt x 923.45pt>
 File: ashish_thesis/tepx_alllayer.png Graphic file (type png)
 <use ashish_thesis/tepx_alllayer.png>
 Package pdftex.def Info: ashish_thesis/tepx_alllayer.png  used on input line 43
 .
 (pdftex.def)             Requested size: 42.68173pt x 163.60704pt.
- [3 <./ashish_thesis/tepx_DD.png> <./ashish_thesis/tepx_alllayer.png>] Excludin
-g 'comment' comment.
+ [78 <./ashish_thesis/tepx_DD.png> <./ashish_thesis/tepx_alllayer.png>] Excludi
+ng 'comment' comment.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 12.
 
@@ -1664,22 +2702,23 @@ l.219 \end{comment}
                    
 Things are pretty mixed up, but I think the worst is over.
 
-[4]
-<ashish_thesis/tepx_clusters_1.png, id=189, 798.985pt x 774.895pt>
+[79]
+<ashish_thesis/tepx_clusters_1.png, id=1069, 798.985pt x 774.895pt>
 File: ashish_thesis/tepx_clusters_1.png Graphic file (type png)
 <use ashish_thesis/tepx_clusters_1.png>
 Package pdftex.def Info: ashish_thesis/tepx_clusters_1.png  used on input line 
 227.
 (pdftex.def)             Requested size: 298.75264pt x 289.7454pt.
- [5]
-<ashish_thesis/tepx_D4R!_clusters._allpu_1.png, id=194, 798.985pt x 574.145pt>
+ [80]
+<ashish_thesis/tepx_D4R!_clusters._allpu_1.png, id=1074, 798.985pt x 574.145pt>
+
 File: ashish_thesis/tepx_D4R!_clusters._allpu_1.png Graphic file (type png)
 <use ashish_thesis/tepx_D4R!_clusters._allpu_1.png>
 Package pdftex.def Info: ashish_thesis/tepx_D4R!_clusters._allpu_1.png  used on
  input line 237.
 (pdftex.def)             Requested size: 298.75264pt x 214.68182pt.
- [6 <./ashish_thesis/tepx_clusters_1.png> <./ashish_thesis/tepx_D4R!_clusters._
-allpu_1.png>]
+ [81 <./ashish_thesis/tepx_clusters_1.png> <./ashish_thesis/tepx_D4R!_clusters.
+_allpu_1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
@@ -1694,149 +2733,284 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
-<ashish_thesis/michigan_2.png, id=202, 1681.78313pt x 616.80438pt>
+<ashish_thesis/michigan_2.png, id=1082, 1681.78313pt x 616.80438pt>
 File: ashish_thesis/michigan_2.png Graphic file (type png)
 <use ashish_thesis/michigan_2.png>
 Package pdftex.def Info: ashish_thesis/michigan_2.png  used on input line 265.
 (pdftex.def)             Requested size: 426.79135pt x 156.52539pt.
-[7]
-<ashish_thesis/michigan_3.png, id=207, 1669.23625pt x 609.77812pt>
+[82]
+<ashish_thesis/michigan_3.png, id=1087, 1669.23625pt x 609.77812pt>
 File: ashish_thesis/michigan_3.png Graphic file (type png)
 <use ashish_thesis/michigan_3.png>
 Package pdftex.def Info: ashish_thesis/michigan_3.png  used on input line 273.
 (pdftex.def)             Requested size: 426.79135pt x 155.90541pt.
- Excluding 'comment' comment. [8 <./ashish_thesis/michigan_2.png> <./ashish_the
-sis/michigan_3.png>] Excluding 'comment' comment.
+ Excluding 'comment' comment. [83 <./ashish_thesis/michigan_2.png> <./ashish_th
+esis/michigan_3.png>] Excluding 'comment' comment.
 Excluding 'comment' comment.
-<ashish_thesis/dr_dphi_variables1_1.png, id=217, 662.97687pt x 314.67563pt>
+<ashish_thesis/dr_dphi_variables1_1.png, id=1097, 662.97687pt x 314.67563pt>
 File: ashish_thesis/dr_dphi_variables1_1.png Graphic file (type png)
 <use ashish_thesis/dr_dphi_variables1_1.png>
 Package pdftex.def Info: ashish_thesis/dr_dphi_variables1_1.png  used on input 
 line 473.
 (pdftex.def)             Requested size: 298.75264pt x 141.79958pt.
  Excluding 'comment' comment.
-<ashish_thesis/D4R1_S2_drdphi_cut_1.png, id=222, 1576.89125pt x 553.06625pt>
+<ashish_thesis/D4R1_S2_drdphi_cut_1.png, id=1102, 1576.89125pt x 553.06625pt>
 File: ashish_thesis/D4R1_S2_drdphi_cut_1.png Graphic file (type png)
 <use ashish_thesis/D4R1_S2_drdphi_cut_1.png>
 Package pdftex.def Info: ashish_thesis/D4R1_S2_drdphi_cut_1.png  used on input 
 line 510.
 (pdftex.def)             Requested size: 426.79135pt x 149.68433pt.
- [9 <./ashish_thesis/dr_dphi_variables1_1.png>] Excluding 'comment' comment. [1
-0 <./ashish_thesis/D4R1_S2_drdphi_cut_1.png>]
-<ashish_thesis/twofoldinphi_sch.png, id=235, 836.12375pt x 638.385pt>
+ [84 <./ashish_thesis/dr_dphi_variables1_1.png>] Excluding 'comment' comment. [
+85 <./ashish_thesis/D4R1_S2_drdphi_cut_1.png>]
+<ashish_thesis/twofoldinphi_sch.png, id=1115, 836.12375pt x 638.385pt>
 File: ashish_thesis/twofoldinphi_sch.png Graphic file (type png)
 <use ashish_thesis/twofoldinphi_sch.png>
 Package pdftex.def Info: ashish_thesis/twofoldinphi_sch.png  used on input line
  710.
 (pdftex.def)             Requested size: 256.07741pt x 195.52051pt.
-<ashish_thesis/twofoldinr_exam.png, id=240, 490.83376pt x 828.09375pt>
+<ashish_thesis/twofoldinr_exam.png, id=1120, 490.83376pt x 828.09375pt>
 File: ashish_thesis/twofoldinr_exam.png Graphic file (type png)
 <use ashish_thesis/twofoldinr_exam.png>
 Package pdftex.def Info: ashish_thesis/twofoldinr_exam.png  used on input line 
 725.
 (pdftex.def)             Requested size: 128.0387pt x 216.0069pt.
  Excluding 'comment' comment.
-Excluding 'comment' comment. [11 <./ashish_thesis/twofoldinphi_sch.png> <./ashi
+Excluding 'comment' comment. [86 <./ashish_thesis/twofoldinphi_sch.png> <./ashi
 sh_thesis/twofoldinr_exam.png>] Excluding 'comment' comment.
 Excluding 'comment' comment.
-<ashish_thesis/l1l2_l3l4_2xinr.png, id=246, 795.47188pt x 615.80063pt>
+<ashish_thesis/l1l2_l3l4_2xinr.png, id=1126, 795.47188pt x 615.80063pt>
 File: ashish_thesis/l1l2_l3l4_2xinr.png Graphic file (type png)
 <use ashish_thesis/l1l2_l3l4_2xinr.png>
 Package pdftex.def Info: ashish_thesis/l1l2_l3l4_2xinr.png  used on input line 
 1072.
 (pdftex.def)             Requested size: 426.79135pt x 330.38501pt.
- [12] [13 <./ashish_thesis/l1l2_l3l4_2xinr.png>]
+ [87] [88 <./ashish_thesis/l1l2_l3l4_2xinr.png>]
 Excluding 'comment' comment. Excluding 'comment' comment.
-<ashish_thesis/tepx_D4R1_coin_allpu_1.png, id=261, 798.985pt x 574.145pt>
+<ashish_thesis/tepx_D4R1_coin_allpu_1.png, id=1141, 798.985pt x 574.145pt>
 File: ashish_thesis/tepx_D4R1_coin_allpu_1.png Graphic file (type png)
 <use ashish_thesis/tepx_D4R1_coin_allpu_1.png>
 Package pdftex.def Info: ashish_thesis/tepx_D4R1_coin_allpu_1.png  used on inpu
 t line 1204.
 (pdftex.def)             Requested size: 298.75264pt x 214.68182pt.
- [14]
-<ashish_thesis/michigan_1.png, id=268, 1686.3pt x 620.81938pt>
+ [89]
+<ashish_thesis/michigan_1.png, id=1149, 1686.3pt x 620.81938pt>
 File: ashish_thesis/michigan_1.png Graphic file (type png)
 <use ashish_thesis/michigan_1.png>
 Package pdftex.def Info: ashish_thesis/michigan_1.png  used on input line 1212.
 
 (pdftex.def)             Requested size: 426.79135pt x 157.118pt.
-<ashish_thesis/michigan_4.png, id=269, 1669.23625pt x 614.79688pt>
+<ashish_thesis/michigan_4.png, id=1150, 1669.23625pt x 614.79688pt>
 File: ashish_thesis/michigan_4.png Graphic file (type png)
 <use ashish_thesis/michigan_4.png>
 Package pdftex.def Info: ashish_thesis/michigan_4.png  used on input line 1220.
 
 (pdftex.def)             Requested size: 426.79135pt x 157.18858pt.
- [15 <./ashish_thesis/tepx_D4R1_coin_allpu_1.png> <./ashish_thesis/michigan_1.p
+ [90 <./ashish_thesis/tepx_D4R1_coin_allpu_1.png> <./ashish_thesis/michigan_1.p
 ng>]
 Excluding 'comment' comment. Excluding 'comment' comment.
-<ashish_thesis/tepx_threefold_coincidences.png, id=278, 654.94687pt x 580.66937
-pt>
+<ashish_thesis/tepx_threefold_coincidences.png, id=1159, 654.94687pt x 580.6693
+7pt>
 File: ashish_thesis/tepx_threefold_coincidences.png Graphic file (type png)
 <use ashish_thesis/tepx_threefold_coincidences.png>
 Package pdftex.def Info: ashish_thesis/tepx_threefold_coincidences.png  used on
  input line 1325.
 (pdftex.def)             Requested size: 213.39568pt x 189.19376pt.
- [16 <./ashish_thesis/michigan_4.png> <./ashish_thesis/tepx_threefold_coinciden
+ [91 <./ashish_thesis/michigan_4.png> <./ashish_thesis/tepx_threefold_coinciden
 ces.png>]
-<ashish_thesis/tepx_threefold_allpu.png, id=285, 817.55438pt x 593.71812pt>
+<ashish_thesis/tepx_threefold_allpu.png, id=1166, 817.55438pt x 593.71812pt>
 File: ashish_thesis/tepx_threefold_allpu.png Graphic file (type png)
 <use ashish_thesis/tepx_threefold_allpu.png>
 Package pdftex.def Info: ashish_thesis/tepx_threefold_allpu.png  used on input 
 line 1333.
 (pdftex.def)             Requested size: 298.75264pt x 216.95444pt.
-<ashish_thesis/TEPX_threefold_linearity.png, id=286, 1675.25874pt x 659.96562pt
->
+<ashish_thesis/TEPX_threefold_linearity.png, id=1167, 1675.25874pt x 659.96562p
+t>
 File: ashish_thesis/TEPX_threefold_linearity.png Graphic file (type png)
 <use ashish_thesis/TEPX_threefold_linearity.png>
 Package pdftex.def Info: ashish_thesis/TEPX_threefold_linearity.png  used on in
 put line 1347.
 (pdftex.def)             Requested size: 426.79135pt x 168.13292pt.
- [17 <./ashish_thesis/tepx_threefold_allpu.png> <./ashish_thesis/TEPX_threefold
+ [92 <./ashish_thesis/tepx_threefold_allpu.png> <./ashish_thesis/TEPX_threefold
 _linearity.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1356--1357
 
  []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1380.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1380.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1380.
-Excluding 'comment' comment. [18] [19] [20]) [21] (./thesis.bbl) [22
+Excluding 'comment' comment. [93] [94] [95]) [96] (./thesis.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 9--14
+[]\T1/ptm/m/n/12 (+20) Werner Herr and B Mu-ra-tori.  Con-cept of lu-mi-nos-ity
+.  2006.
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.29 ...ck doi:\texttt{10.1142/9789814327183_0009}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.29 ...ck doi:\texttt{10.1142/9789814327183_0009}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.30 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.30 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 60--65
+[]\T1/ptm/m/n/12 (+20) Precision lu-mi-nos-ity mea-sure-ment in proton-proton c
+ol-li-sions at $[] \OT1/ztmcm/m/n/12 =$ \T1/ptm/m/n/12 (+20) 13
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 60--65
+\T1/ptm/m/n/12 (+20) TeV in 2015 and 2016 at CMS.  \T1/ptm/m/it/12 (+20) Eur. P
+hys. J. C\T1/ptm/m/n/12 (+20) , 81(9):800, 2021.
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 60--65
+\T1/ptm/m/n/12 (+20) doi:\T1/cmtt/m/n/12 10.1140/epjc/s10052-021-09538-2\T1/ptm
+/m/n/12 (+20) .  []$\T1/cmtt/m/n/12 https : / / cds . cern . ch / record /
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 92--97
+[]\T1/ptm/m/n/12 (+20) Paul Lu-jan.  Per-for-mance of the Pixel Lu-mi-nos-ity T
+ele-scope for Lu-mi-
+ []
+
+[97
 
 
 
 
 ]
-(./thesis.ind) (./thesis.aux (./Portada/Portada.aux) (./Abstract/abstract.aux)
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   S
+l.155 ...esults#Summary_proton_proton_collisions}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   S
+l.155 ...esults#Summary_proton_proton_collisions}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 153--156
+[]\T1/ptm/m/n/12 (+20) LumiPublicResults: Sum-mary proton-proton col-li-sions, 
+2023.  []$\T1/cmtt/m/n/12 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
+\T1/cmtt/m/n/12 / / twiki . cern . ch / twiki / bin / view / CMSPublic / LumiPu
+blicResults #
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--166
+\T1/cmtt/m/n/12 813285 / contributions / 3406090 / attachments / 1854474 / 3047
+632 / Orbit .
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 168--172
+[]\T1/ptm/m/n/12 (+20) Gabriella Pasz-tor, Pe-ter Ma-jor.  LUM-POG Meet-ing, Ma
+y 2023.  []$\T1/cmtt/m/n/12 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--172
+\T1/cmtt/m/n/12 / / indico . cern . ch / event / 1286308 / contributions / 5407
+486 / attachments /
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 174--179
+[]\T1/ptm/m/n/12 (+20) W. Herr and T. Pieloni.  Beam-Beam Ef-fects.  pages 431-
+-459, 2014.
+ []
+
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 190--195
+\T1/cmtt/m/n/12 contributions / 3406100 / attachments / 1856391 / 3049263 / sli
+des _ VdM _ OMC _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--202
+\T1/cmtt/m/n/12 3406074 / attachments / 1855657 / 3047803 / LumiDays _ 2019 _ M
+Palm _ LHC _ beam _
+ []
+
+) [99] (./thesis.ind) (./thesis.aux (./Portada/Portada.aux)
+(./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
+(./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux)
 (./Chapter7/chapter7.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 15B6E0808A3053432406196E0C675754;2023.
+(rerunfilecheck)             Checksum: 78E3B82D4E85736506B749012249DB39;9529.
  ) 
 Here is how much of TeX's memory you used:
- 43713 strings out of 478268
- 1004394 string characters out of 5846347
- 1399190 words of memory out of 5000000
- 60708 multiletter control sequences out of 15000+600000
- 577137 words of font info for 313 fonts, out of 8000000 for 9000
+ 44861 strings out of 478268
+ 1033715 string characters out of 5846347
+ 1416037 words of memory out of 5000000
+ 61409 multiletter control sequences out of 15000+600000
+ 607630 words of font info for 412 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,11n,120p,2633b,802s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,14n,120p,2949b,1011s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/2
-022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/202
-2/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dis
-t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/ti
-mes/utmri8a.pfb>
-Output written on thesis.pdf (27 pages, 8885323 bytes).
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/20
+22/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2022
+/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist
+/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
+1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on thesis.pdf (107 pages, 28333932 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 294 compressed objects within 3 object streams
- 74 named destinations out of 1000 (max. 500000)
- 109252 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 1406 PDF objects out of 1440 (max. 8388607)
+ 1143 compressed objects within 12 object streams
+ 314 named destinations out of 1000 (max. 500000)
+ 135366 words of extra memory for PDF output out of 154059 (max. 10000000)
 
