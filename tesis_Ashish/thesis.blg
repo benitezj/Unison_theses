@@ -3,38 +3,16 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Portada/Portada.aux
 A level-1 auxiliary file: Abstract/abstract.aux
-A level-1 auxiliary file: Chapter1/chapter1.aux
-A level-1 auxiliary file: Chapter2/chapter2.aux
-A level-1 auxiliary file: Chapter3/chapter3.aux
-A level-1 auxiliary file: Chapter4/chapter4.aux
-A level-1 auxiliary file: Chapter5/chapter5.aux
 A level-1 auxiliary file: Chapter7/chapter7.aux
 The style file: myunsrtnat.bst
 add.comma$ is an unknown function---line 130 of file myunsrtnat.bst
 Database file #1: References_original/references.bib
 Warning--entry type for "sehrawat2020" isn't style-file defined
 --line 122 of file References_original/references.bib
-Repeated entry---line 304 of file References_original/references.bib
- : %@article{Sirunyan:2759951
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 463 of file References_original/references.bib
- : @techreport{CMS-PAS-LUM-15-001
- :                               ,
-I'm skipping whatever remains of this entry
-Warning--entry type for "Cekmecelioglu:2775639" isn't style-file defined
---line 502 of file References_original/references.bib
-Warning--string name "cern" is undefined
---line 514 of file References_original/references.bib
-Repeated entry---line 530 of file References_original/references.bib
- : @techreport{CMS-PAS-LUM-18-002
- :                               ,
-I'm skipping whatever remains of this entry
-Warning--string name "cern" is undefined
---line 543 of file References_original/references.bib
-Repeated entry---line 657 of file References_original/references.bib
- : @misc{babaev2023impact
- :                       ,
+You're missing a field name---line 305 of file References_original/references.bib
+ :  
+ :  %     author        = "Sirunyan, Albert M and Tumasyan, et al.",
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 You're missing a field name---line 707 of file References_original/references.bib
  :   
@@ -66,61 +44,45 @@ I was expecting a `,' or a `}'---line 807 of file References_original/references
  : @article{Atlas_Exp_2008,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--empty journal in Herr:941318
-Warning--empty institution in Dainese:2703572
-Warning--empty author in CMS-PAS-EWK-10-004
-Warning--empty author in CMS-PAS-EWK-11-001
-Warning--empty author in CMS-PAS-SMP-12-008
-Warning--empty author in CMS-PAS-LUM-13-001
-Warning--empty author in Sirunyan:2759951
-Warning--empty author in pas_17
-Warning--empty author in pas_18
-Warning--empty author in CMS-PAS-LUM-18-002
-Warning--there's a number but no volume in CMS-PAS-LUM-15-001
-Warning--empty author in CMS-PAS-LUM-16-001
-Warning--empty author in CMS-PAS-LUM-17-004
-Warning--empty journal in Herr:1982430
-Warning--empty journal in Alici:1427728
-Warning--empty booktitle in Sehrawat2023
-You've used 40 entries,
+You've used 4 entries,
             2480 wiz_defined-function locations,
-            790 strings with 11780 characters,
-and the built_in function-call counts, 12137 in all, are:
-= -- 1097
-> -- 490
-< -- 26
-+ -- 227
-- -- 146
-* -- 851
-:= -- 1923
-add.period$ -- 104
-call.type$ -- 40
-change.case$ -- 92
-chr.to.int$ -- 39
-cite$ -- 68
-duplicate$ -- 637
-empty$ -- 1160
-format.name$ -- 186
-if$ -- 2616
-int.to.chr$ -- 2
-int.to.str$ -- 41
-missing$ -- 11
-newline$ -- 232
-num.names$ -- 84
-pop$ -- 331
+            582 strings with 5213 characters,
+and the built_in function-call counts, 1203 in all, are:
+= -- 119
+> -- 36
+< -- 4
++ -- 18
+- -- 10
+* -- 66
+:= -- 211
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 10
+chr.to.int$ -- 4
+cite$ -- 4
+duplicate$ -- 61
+empty$ -- 110
+format.name$ -- 15
+if$ -- 251
+int.to.chr$ -- 1
+int.to.str$ -- 5
+missing$ -- 1
+newline$ -- 32
+num.names$ -- 12
+pop$ -- 25
 preamble$ -- 1
-purify$ -- 40
+purify$ -- 4
 quote$ -- 0
-skip$ -- 437
+skip$ -- 42
 stack$ -- 0
-substring$ -- 231
-swap$ -- 94
-text.length$ -- 3
+substring$ -- 33
+swap$ -- 6
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 280
-warning$ -- 16
-while$ -- 67
+type$ -- 28
+warning$ -- 0
+while$ -- 10
 width$ -- 0
-write$ -- 565
-(There were 11 error messages)
+write$ -- 68
+(There were 8 error messages)
