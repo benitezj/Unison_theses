@@ -27,7 +27,7 @@
   title        = "{2022 Module Veto}",
   howpublished = "{BRIL Tracker Luminosity Meeting}",
   year         = {2023},
-  month        = {24 Jul},
+  month        = {24 July},
   url          = {https://indico.cern.ch/event/1310080/},
 }
 
@@ -54,7 +54,7 @@
 }
 
 
-@phdthesis{karacheban2017luminosity,
+@misc{karacheban2017luminosity,
   author = {Karacheban, Olena},
   title = {Luminosity Measurement at CMS},
   school = {Brandenburgische Technische Universität Cottbus-Senftenberg},
@@ -76,30 +76,24 @@
   url = {https://www.desy.de/~ameyer/luminosity_kcms_210922.pdf},
 }
 
-@article{Alici:1427728,
-      author        = "Alici, A and Anders, G and Bacchetta, N and Balagura, V
-                       and Barschel, C and Bravin, E and Burkhardt, H and
-                       Ferro-Luzzi, M and Gagliardi, M and Gras, J J and
-                       Heinemann, B and Hopchev, P and Huhtinen, M and Jeff, A and
-                       Kozanecki, W and Pagan Griso, S and Panman, J and White, S
-                       and Zuranski, A",
+@misc{Alici:1427728,
+      author        = "{Alici, A et al.}",
       title         = "{Study of the LHC ghost charge and satellite bunches for
-                       luminosity calibration.}",
+                       luminosity calibration}",
       year          = "2012",
       url           = "https://cds.cern.ch/record/1427728",
 }
 
 
-@inproceedings{Sehrawat2023,
-  author = {Sehrawat, Ashish and Benitez, Jose and Cuevas, Luis},
+@misc{Sehrawat2023,
+  author = "{Sehrawat, Ashish and Benitez, Jose and Cuevas, Luis}",
   title = "{2017, 2018 PCC Data Reprocessing}",
   howpublished = {LUM-20-001 Authors Meeting},
-  year = {2023},
-  url = {https://indico.cern.ch/event/1316986/}
+  year = "{2023}",
+  url = "https://indico.cern.ch/event/1316986/",
 }
 
-
-@thesis{White:1308187,
+@misc{White:1308187,
       author        = "White, Simon Mathieu",
       title         = "{Determination of the Absolute Luminosity at the LHC}",
       year          = "2010",
@@ -108,7 +102,7 @@
 }
 
 
-@online{dabrowski2020,
+@misc{dabrowski2020,
     author = "Dabrowski, Anne and Sehrawat, Ashish and Barrera, Cristina Oropeza and Pasztor, Gabriella and Auzinger, Georg and Rubio, Jose Feliciano Benitez and Mercado, Joseph Yadiel Cordero",
     title = "{TEPX studies}",
     year = "2020",
@@ -119,7 +113,7 @@
 
 
 
-@online{sehrawat2020,
+@misc{sehrawat2020,
     author = "Sehrawat, Ashish",
     title = "{TEPX linearity in 2x coincidences}",
     year = "2020",
@@ -208,15 +202,17 @@
     year = "2003"
 }
 
-@article{Herr:941318,
+
+@misc{Herr:941318,
       author        = "Herr, Werner and Muratori, B",
-      title         = "Concept of luminosity",
-      year          = "2006",
-      doi           = "10.5170/CERN-2006-002.361",
+      title         = "{Concept of luminosity}",
+      year          = 2006,
       url           = "https://cds.cern.ch/record/941318",
+      doi           = "10.5170/CERN-2006-002.361",
 }
 
-@techreport{Dainese:2703572,
+
+@misc{Dainese:2703572,
       author        = "Dainese, Andrea and Mangano, Michelangelo and Meyer,
                        Andreas B and Nisati, Aleandro and Salam, Gavin and
                        Vesterinen, Mika Anton",
@@ -245,7 +241,7 @@
 
 @techreport{CMS-PAS-EWK-10-004,
       collaboration = "CMS",
-      title         = "{Measurement of CMS Luminosity }",
+      title         = "{Measurement of CMS Luminosity}",
       institution   = "CERN",
       reportNumber  = "CMS-PAS-EWK-10-004",
       address       = "1900. Geneva",
@@ -295,9 +291,6 @@
       url           = "https://cds.cern.ch/record/2759951",
       doi           = "10.1140/epjc/s10052-021-09538-2",
 }
-
-
-
 
 
 %@article{Sirunyan:2759951,
@@ -433,7 +426,7 @@
 
 @article{Adam:2748381,
      author = "Adam, W. and Bergauer, et al.",
-     collaboration = "CMSTrackerGroupoftheCMS",
+     collaboration = "CMS",
      title = "{The CMS Phase-1 Pixel Detector Upgrade}",
      archivePrefix = "arXiv", eprint = "2012.14304",
      journal = "JINST",
@@ -472,7 +465,6 @@
 
 
 
-
 @techreport{vanderMeer1968,
     author = {van der Meer, S.},
     title = "{Calibration of the Effective Beam Height in the ISR}",
@@ -501,8 +493,7 @@
 @thesis{Cekmecelioglu:2775639,
       author        = "Cekmecelioglu, Yusuf Can",
       title         = "{Calibration of CMS Luminometers Using van der Meer and
-                       Emittance Scans. Van der Meer ve Emitans Ölçümlerini
-                       Kullanarak CMS Luminosite Dedektörlerinin Kalibrasyonu}",
+                       Emittance Scans.}",
       year          = "2021",
       url           = "https://cds.cern.ch/record/2775639",
 }
@@ -545,16 +536,12 @@
   url = {https://cmssdt.cern.ch/SDT/ReleaseNotes/}
 }
 
-
-
 @misc{CMSWorkBook,
   author = CERN,
   title = {{CMS Public Wiki: WorkBook}},
   year = {Accessed: 2023},
   url = {https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBook}
 }
-
-
 
 
 @misc{ROOT,
@@ -576,8 +563,6 @@
 
 
 
-
-
 @misc{CERNBeamBeam,
   author = "{Werner Herr}",
   title = "{Beam-Beam Interactions}",
@@ -586,8 +571,7 @@
 }
 
 
-
-@article{Herr:1982430,
+@misc{Herr:1982430,
       author        = "Herr, W. and Pieloni, T.",
       title         = "{Beam-Beam Effects}",
       archivePrefix = "arXiv",
@@ -599,28 +583,22 @@
        url           = "https://cds.cern.ch/record/1982430",
 }
 
-
-
-
 @misc{CERNOribLumi,
   author = "{J. Wenninger}",
-  title = "{LHC Lumi Days 2019}",
+  title = "{LHC beam orbit and collision position determination & control}",
   url = "https://indico.cern.ch/event/813285/contributions/3406090/attachments/1854474/3047632/Orbit.LumiWS.June19.pdf",
   year = 2019
 }
 
 
-
 @misc{CERNLUMPOG,
   author = "{Gabriella Pasztor, Peter Major}",
-  title = "{LUMPOG Meeting}",
+  title = "{2017-18 Luminous region analysis}",
   url = "https://indico.cern.ch/event/1286308/contributions/5407486/attachments/2648514/4585020/2023_05_16_LUMPog_meeting.pdf",
   year = 2023,
-  month = "May",
+  month = "16, May",
   day = 16
 }
-
-
 
 @misc{CERNVdMOMC,
   author = "{Hector Garcia-Morales, et. al}",
@@ -641,7 +619,7 @@
 
 
 @misc{babaev2023impact,
-      title={Impact of Beam-Beam Effects on Absolute Luminosity Calibrations at the CERN Large Hadron Collider}, 
+      title="{Impact of Beam-Beam Effects on Absolute Luminosity Calibrations at the CERN Large Hadron Collider}", 
       author={A. Babaev and T. Barklow and O. Karacheban and W. Kozanecki and I. Kralik and A. Mehta and G. Pasztor and T. Pieloni and D. Stickland and C. Tambasco and R. Tomas and J. Wanćzyk},
       year={2023},
       url = "https://arxiv.org/abs/2306.10394",
@@ -649,21 +627,6 @@
       archivePrefix={arXiv},
       primaryClass={physics.acc-ph}
 }
-
-
-
-
-@misc{babaev2023impact,
-      title={Impact of Beam-Beam Effects on Absolute Luminosity Calibrations at the CERN Large Hadron Collider}, 
-      author={A. Babaev and T. Barklow and O. Karacheban and W. Kozanecki and I. Kralik and A. Mehta and G. Pasztor and T. Pieloni and D. Stickland and C. Tambasco and R. Tomas and J. Wanćzyk},
-      year={2023},
-      eprint={2306.10394},
-      archivePrefix={arXiv},
-      primaryClass={physics.acc-ph}
-}
-
-
-
 
 
 
@@ -675,10 +638,6 @@
   url = {https://indico.cern.ch/event/1230737/#preview:4429889},
   urldate = {2023-07-21},
 }
-
-
-
-
 
 @online{calibratedRunIIIPCC,
   author = {Jose Feliciano Benitez and Luis Enrique Cuevas Picos and Sam Higginbotham},
@@ -993,7 +952,7 @@ doi = {10.1140/epjc/s10052-021-09538-2}
 }
 
 @MISC{wikicern,
-    author = {{CMSPublic Web. CMS Luminosity - Public Results}},
+    author = {{CMS Public Web. CMS Luminosity - Public Results}},
     title = {Delivered luminosity versus time for 2010-2012 and 2015-2018 (pp data only)},
     year = {2022},
     note = {[Online; accessed September 23, 2022]},
@@ -1096,7 +1055,7 @@ doi = {10.1140/epjc/s10052-021-09538-2}
 
 
 @MISC{wikicern_cc,
-    author = {{CMSPublic Web. CMS Luminosity - Public Results}},
+    author = {{CMS Public Web. CMS Luminosity - Public Results}},
     title = {Delivered luminosity versus time for 2010-2012 and 2015-2018 (pp data only)},
     year = {2023},
     url = {https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}
@@ -1242,8 +1201,6 @@ abstract = {The response for pp-collisions and machine-induced background in CMS
 @BIBNOTE{lumi_motiv,
   note = {M.L. Mangano, Motivations and precision targets for an accurate luminosity determination at the LHC, \emph{CERN-Proceedings-2011-011}, \url{https://cds.cern.ch/record/1347440}},
 }
-
-
 
 @BIBNOTE{test1,
   note = {Smith, P \& Benn, J 2012, This is a freeform reference, {\fontfamily{qcr}\selectfont

@@ -224,19 +224,42 @@ A.~Babaev\href {https://arxiv.org/abs/2306.10394}{ {et~al.}, ``{Impact of
   Upgrade of the CMS Beam Radiation Instrumentation and Luminosity
   Detectors}'',} technical report, CERN, Geneva, 2021.
 
+\bibitem{CERN-LHCC-2017-009}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{The Phase-2 Upgrade of the CMS
+  Tracker}'',} technical report, CERN, Geneva, 2017.
+\newblock
+  \href{http://dx.doi.org/10.17181/CERN.QZ28.FLHW}{\doi{10.17181/CERN.QZ28.FLHW}}.
+
 \bibitem{Collaboration:2706512}
 \href {https://cds.cern.ch/record/2706512}{{CMS} Collaboration, ``{The Phase-2
   Upgrade of the CMS Beam Radiation, Instrumentation, and Luminosity Detectors:
   Conceptual Design}'',} technical report, CERN, Geneva, 2020.
+
+\bibitem{Haranko2023}
+\href {https://indico.cern.ch/event/997208/}{M.~Haranko, ``{TEPX as the new
+  luminosity detector for BRIL - online pixel clustering on FPGA}''.} CMS
+  coffee seminars, 23 July, 2023.
+\newblock \url {https://indico.cern.ch/event/997208/}.
 
 \bibitem{GEANT4:2002zbu}
 \hrefCMSnoop {}{{GEANT4} Collaboration, ``{GEANT4--a simulation toolkit}'',}
   \textit{ Nucl. Instrum. Meth. A} \textbf{ 506} (2003) 250--303,
   \href{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{\doi{10.1016/S0168-9002(03)01368-8}}.
 
+\bibitem{dabrowski2020}
+A.~Sehrawat\href {https://indico.cern.ch/event/879305/}{ {et~al.}, ``{TEPX
+  studies}'',} 2020.
+\newblock Presentation given at BRIL Ph2 Simulation Meeting. \url
+  {https://indico.cern.ch/event/879305/}.
+
 \bibitem{sehrawat2020}
-\href {https://indico.cern.ch/event/969098/}{A.~Sehrawat, ``{TEPX linearity in
+\href {https://indico.cern.ch/event/969098/}{A.~Sehrawat, ``{TEPX linearity of
   2x coincidences}''.} BRIL Ph2 Simulations Meeting, CERN, 28 October, 2020.
 \newblock \url {https://indico.cern.ch/event/969098/}.
+
+\bibitem{BRIL2021}
+\href {https://indico.cern.ch/event/1011510/}{{Ashish Sehrawat}, ``{Update on
+  2x coincidences}''.} BRIL Ph2 Simulations Meeting, 24, feb, {2021}.
+\newblock \url {https://indico.cern.ch/event/1011510/}.
 
 \end{thebibliography}\endgroup
