@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  29 DEC 2023 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  29 DEC 2023 23:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2653,24 +2653,24 @@ Chapter 6.
 <ashish_thesis/tepx_tt_1.png, id=1043, 918.43124pt x 358.33875pt>
 File: ashish_thesis/tepx_tt_1.png Graphic file (type png)
 <use ashish_thesis/tepx_tt_1.png>
-Package pdftex.def Info: ashish_thesis/tepx_tt_1.png  used on input line 28.
+Package pdftex.def Info: ashish_thesis/tepx_tt_1.png  used on input line 27.
 (pdftex.def)             Requested size: 426.79135pt x 166.5219pt.
 <ashish_thesis/tepx_DD.png, id=1044, 570.13pt x 577.65813pt>
 File: ashish_thesis/tepx_DD.png Graphic file (type png)
 <use ashish_thesis/tepx_DD.png>
-Package pdftex.def Info: ashish_thesis/tepx_DD.png  used on input line 35.
+Package pdftex.def Info: ashish_thesis/tepx_DD.png  used on input line 34.
 (pdftex.def)             Requested size: 213.39568pt x 216.20699pt.
  [77 <./ashish_thesis/tepx_tt_1.png>]
 <ashish_thesis/tepx_alllayer.png, id=1051, 240.9pt x 923.45pt>
 File: ashish_thesis/tepx_alllayer.png Graphic file (type png)
 <use ashish_thesis/tepx_alllayer.png>
-Package pdftex.def Info: ashish_thesis/tepx_alllayer.png  used on input line 43
+Package pdftex.def Info: ashish_thesis/tepx_alllayer.png  used on input line 42
 .
 (pdftex.def)             Requested size: 42.68173pt x 163.60704pt.
  [78 <./ashish_thesis/tepx_DD.png> <./ashish_thesis/tepx_alllayer.png>] Excludi
 ng 'comment' comment.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-12.
+11.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -2689,7 +2689,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.219 \end{comment}
+l.218 \end{comment}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2698,7 +2698,7 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.219 \end{comment}
+l.218 \end{comment}
                    
 Things are pretty mixed up, but I think the worst is over.
 
@@ -2707,7 +2707,7 @@ Things are pretty mixed up, but I think the worst is over.
 File: ashish_thesis/tepx_clusters_1.png Graphic file (type png)
 <use ashish_thesis/tepx_clusters_1.png>
 Package pdftex.def Info: ashish_thesis/tepx_clusters_1.png  used on input line 
-227.
+226.
 (pdftex.def)             Requested size: 298.75264pt x 289.7454pt.
  [80]
 <ashish_thesis/tepx_D4R!_clusters._allpu_1.png, id=1074, 798.985pt x 574.145pt>
@@ -2715,34 +2715,34 @@ Package pdftex.def Info: ashish_thesis/tepx_clusters_1.png  used on input line
 File: ashish_thesis/tepx_D4R!_clusters._allpu_1.png Graphic file (type png)
 <use ashish_thesis/tepx_D4R!_clusters._allpu_1.png>
 Package pdftex.def Info: ashish_thesis/tepx_D4R!_clusters._allpu_1.png  used on
- input line 237.
+ input line 236.
 (pdftex.def)             Requested size: 298.75264pt x 214.68182pt.
  [81 <./ashish_thesis/tepx_clusters_1.png> <./ashish_thesis/tepx_D4R!_clusters.
 _allpu_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
 <ashish_thesis/michigan_2.png, id=1082, 1681.78313pt x 616.80438pt>
 File: ashish_thesis/michigan_2.png Graphic file (type png)
 <use ashish_thesis/michigan_2.png>
-Package pdftex.def Info: ashish_thesis/michigan_2.png  used on input line 265.
+Package pdftex.def Info: ashish_thesis/michigan_2.png  used on input line 264.
 (pdftex.def)             Requested size: 426.79135pt x 156.52539pt.
 [82]
 <ashish_thesis/michigan_3.png, id=1087, 1669.23625pt x 609.77812pt>
 File: ashish_thesis/michigan_3.png Graphic file (type png)
 <use ashish_thesis/michigan_3.png>
-Package pdftex.def Info: ashish_thesis/michigan_3.png  used on input line 273.
+Package pdftex.def Info: ashish_thesis/michigan_3.png  used on input line 272.
 (pdftex.def)             Requested size: 426.79135pt x 155.90541pt.
  Excluding 'comment' comment. [83 <./ashish_thesis/michigan_2.png> <./ashish_th
 esis/michigan_3.png>] Excluding 'comment' comment.
@@ -2751,14 +2751,14 @@ Excluding 'comment' comment.
 File: ashish_thesis/dr_dphi_variables1_1.png Graphic file (type png)
 <use ashish_thesis/dr_dphi_variables1_1.png>
 Package pdftex.def Info: ashish_thesis/dr_dphi_variables1_1.png  used on input 
-line 473.
+line 472.
 (pdftex.def)             Requested size: 298.75264pt x 141.79958pt.
  Excluding 'comment' comment.
 <ashish_thesis/D4R1_S2_drdphi_cut_1.png, id=1102, 1576.89125pt x 553.06625pt>
 File: ashish_thesis/D4R1_S2_drdphi_cut_1.png Graphic file (type png)
 <use ashish_thesis/D4R1_S2_drdphi_cut_1.png>
 Package pdftex.def Info: ashish_thesis/D4R1_S2_drdphi_cut_1.png  used on input 
-line 510.
+line 509.
 (pdftex.def)             Requested size: 426.79135pt x 149.68433pt.
  [84 <./ashish_thesis/dr_dphi_variables1_1.png>] Excluding 'comment' comment. [
 85 <./ashish_thesis/D4R1_S2_drdphi_cut_1.png>]
@@ -2766,13 +2766,13 @@ line 510.
 File: ashish_thesis/twofoldinphi_sch.png Graphic file (type png)
 <use ashish_thesis/twofoldinphi_sch.png>
 Package pdftex.def Info: ashish_thesis/twofoldinphi_sch.png  used on input line
- 710.
+ 709.
 (pdftex.def)             Requested size: 256.07741pt x 195.52051pt.
 <ashish_thesis/twofoldinr_exam.png, id=1120, 490.83376pt x 828.09375pt>
 File: ashish_thesis/twofoldinr_exam.png Graphic file (type png)
 <use ashish_thesis/twofoldinr_exam.png>
 Package pdftex.def Info: ashish_thesis/twofoldinr_exam.png  used on input line 
-725.
+724.
 (pdftex.def)             Requested size: 128.0387pt x 216.0069pt.
  Excluding 'comment' comment.
 Excluding 'comment' comment. [86 <./ashish_thesis/twofoldinphi_sch.png> <./ashi
@@ -2782,7 +2782,7 @@ Excluding 'comment' comment.
 File: ashish_thesis/l1l2_l3l4_2xinr.png Graphic file (type png)
 <use ashish_thesis/l1l2_l3l4_2xinr.png>
 Package pdftex.def Info: ashish_thesis/l1l2_l3l4_2xinr.png  used on input line 
-1072.
+1071.
 (pdftex.def)             Requested size: 426.79135pt x 330.38501pt.
  [87] [88 <./ashish_thesis/l1l2_l3l4_2xinr.png>]
 Excluding 'comment' comment. Excluding 'comment' comment.
@@ -2790,19 +2790,19 @@ Excluding 'comment' comment. Excluding 'comment' comment.
 File: ashish_thesis/tepx_D4R1_coin_allpu_1.png Graphic file (type png)
 <use ashish_thesis/tepx_D4R1_coin_allpu_1.png>
 Package pdftex.def Info: ashish_thesis/tepx_D4R1_coin_allpu_1.png  used on inpu
-t line 1204.
+t line 1203.
 (pdftex.def)             Requested size: 298.75264pt x 214.68182pt.
  [89]
 <ashish_thesis/michigan_1.png, id=1149, 1686.3pt x 620.81938pt>
 File: ashish_thesis/michigan_1.png Graphic file (type png)
 <use ashish_thesis/michigan_1.png>
-Package pdftex.def Info: ashish_thesis/michigan_1.png  used on input line 1212.
+Package pdftex.def Info: ashish_thesis/michigan_1.png  used on input line 1211.
 
 (pdftex.def)             Requested size: 426.79135pt x 157.118pt.
 <ashish_thesis/michigan_4.png, id=1150, 1669.23625pt x 614.79688pt>
 File: ashish_thesis/michigan_4.png Graphic file (type png)
 <use ashish_thesis/michigan_4.png>
-Package pdftex.def Info: ashish_thesis/michigan_4.png  used on input line 1220.
+Package pdftex.def Info: ashish_thesis/michigan_4.png  used on input line 1219.
 
 (pdftex.def)             Requested size: 426.79135pt x 157.18858pt.
  [90 <./ashish_thesis/tepx_D4R1_coin_allpu_1.png> <./ashish_thesis/michigan_1.p
@@ -2813,7 +2813,7 @@ Excluding 'comment' comment. Excluding 'comment' comment.
 File: ashish_thesis/tepx_threefold_coincidences.png Graphic file (type png)
 <use ashish_thesis/tepx_threefold_coincidences.png>
 Package pdftex.def Info: ashish_thesis/tepx_threefold_coincidences.png  used on
- input line 1325.
+ input line 1324.
 (pdftex.def)             Requested size: 213.39568pt x 189.19376pt.
  [91 <./ashish_thesis/michigan_4.png> <./ashish_thesis/tepx_threefold_coinciden
 ces.png>]
@@ -2821,18 +2821,18 @@ ces.png>]
 File: ashish_thesis/tepx_threefold_allpu.png Graphic file (type png)
 <use ashish_thesis/tepx_threefold_allpu.png>
 Package pdftex.def Info: ashish_thesis/tepx_threefold_allpu.png  used on input 
-line 1333.
+line 1332.
 (pdftex.def)             Requested size: 298.75264pt x 216.95444pt.
 <ashish_thesis/TEPX_threefold_linearity.png, id=1167, 1675.25874pt x 659.96562p
 t>
 File: ashish_thesis/TEPX_threefold_linearity.png Graphic file (type png)
 <use ashish_thesis/TEPX_threefold_linearity.png>
 Package pdftex.def Info: ashish_thesis/TEPX_threefold_linearity.png  used on in
-put line 1347.
+put line 1346.
 (pdftex.def)             Requested size: 426.79135pt x 168.13292pt.
  [92 <./ashish_thesis/tepx_threefold_allpu.png> <./ashish_thesis/TEPX_threefold
 _linearity.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1356--1357
+Underfull \hbox (badness 10000) in paragraph at lines 1355--1356
 
  []
 
@@ -2867,7 +2867,7 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  44858 strings out of 478268
  1033686 string characters out of 5846347
- 1414944 words of memory out of 5000000
+ 1415944 words of memory out of 5000000
  61410 multiletter control sequences out of 15000+600000
  607289 words of font info for 409 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2885,7 +2885,7 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (107 pages, 28327102 bytes).
+Output written on thesis.pdf (107 pages, 28327111 bytes).
 PDF statistics:
  1441 PDF objects out of 1728 (max. 8388607)
  1178 compressed objects within 12 object streams
