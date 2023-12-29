@@ -6,30 +6,41 @@
     \graphicspath{{Chapter7/Figs/Vector/}{Chapter7/Figs/}}
 \fi
 
-The Phase II upgrade of the CMS Tracker is a crucial project undertaken to maintain the effectiveness of the CMS experiment during the High Luminosity LHC (HL-LHC) phase, which is expected to start in 2029. The HL-LHC will significantly increase the instantaneous luminosity, leading to a higher number of proton-proton collisions per bunch crossing. Instantaneous luminosity will increase to an unprecedented value of $7.5 \times 10^{34} cm^{-2} \: s^{-1}$ which corresponds to 200 proton-proton collisions per bunch crossing. This higher collision rate poses several challenges, including increased radiation levels, higher data rates, and more complex event environment. Run 2 pixel detector will not be able to handle these extreme radiation environment, resolve nearby particle tracks and operate properly to give a reliable estimate of the instantaneous luminosity for such a high pileup. That is why it will be replaced by a new pixel detector. The Phase II upgrade of the CMS tracker comprises of two main components: the Inner Tracker (IT) and the Outer Tracker (OT) \cite{collaboration:2759074}. The Inner Tracker consists of three main sub-components: the Tracker Endcap Pixel detector (TEPX), the Tracker Forward Pixel detector (TFPX), and the Tracker Barrel Pixel (TBPX) detector as shown in Fig. \ref{fig:Innertracker}.  The Outer Tracker is responsible for detecting charged particles in the outer region of the CMS detector. It consists of two key subsystems: the silicon strip tracker and the silicon macro pixel tracker \cite{RoyChowdhury:2729279}.
+The Phase II upgrade of the CMS Tracker is a crucial project undertaken to maintain the effectiveness of the CMS experiment during the High Luminosity LHC (HL-LHC) phase, which is expected to start in 2029. The HL-LHC will significantly increase the instantaneous luminosity, leading to a higher number of proton-proton collisions per bunch crossing. Instantaneous luminosity will increase to an unprecedented value of $7.5 \times 10^{34} cm^{-2} \: s^{-1}$ which corresponds to 200 proton-proton collisions per bunch crossing. This higher collision rate poses several challenges, including increased radiation levels, higher data rates, and more complex event environment. Run 2 pixel detector will not be able to handle these extreme radiation environment, resolve nearby particle tracks and operate properly to give a reliable estimate of the instantaneous luminosity for such a high pileup. That is why it will be replaced by a new pixel detector. The Phase II upgrade of the CMS tracker comprises of two main components: the Inner Tracker (IT) and the Outer Tracker (OT) \cite{collaboration:2759074}. The Inner Tracker consists of three main sub-components: the Tracker Endcap Pixel detector (TEPX), the Tracker Forward Pixel detector (TFPX), and the Tracker Barrel Pixel (TBPX) detector as shown in Fig. \ref{fig:Innertracker}.  %The Outer Tracker is responsible for detecting charged particles in the outer region of the CMS detector. It consists of two key subsystems: the silicon strip tracker and the silicon macro pixel tracker \cite{RoyChowdhury:2729279}.
 
-The TBPX occupies the central region along the \( z \)-axis from 0 to just below 300~mm, employing 360 units of \( 1 \times 2 \) modules and 504 units of \( 2 \times 2 \) modules. The TFPX extends from approximately 300~mm to 600~mm in the \( z \)-direction, with 832 units of \( 1 \times 2 \) and 896 units of \( 2 \times 2 \) modules. The TEPX covers a broader range from about 600~mm to over 2500~mm and includes 768 units of \( 1 \times 2 \) and 992 units of \( 2 \times 2 \) modules. TEPX consists of four double disks per side with each double disk consisting of five rings as shown in Fig. \ref{fig:Innertracker_40} having 20, 28, 36, 44 and 48 modules respectively. One double disk has four surfaces with +Z side consisting of modules with even module number in front layers (L1 $\&$ L2) and modules with odd module number in back layers (L3 $\&$ L4) from Ring 1 to Ring 4 and for Ring 5, modules with odd module number in front layers and modules with even module number in back layers as shown in Fig.   \ref{fig:Innertracker_41}.   For -Z side, four surfaces contain modules with odd module number in front layer and modules with even module number in back layer from Ring 1 to Ring 4 and for Ring 5, modules with even module number in front layer and modules with odd module number in back layer.  TEPX will have better radiation tolerance, increased granularity, improved two-track separation, improved estimation of hit rate and statistical precision, extending tracking acceptance beyond $|\eta|=4$. Collectively, these sub-detectors boast around 1.947 billion pixels across 13,488 pixel chips, spanning a silicon area of 4.87 square meters.
+Data Acquisition (DAQ) system for the Phase II CMS Tracker must handle the increased data rates and complexity associated with the high-luminosity phase of the LHC (HL-LHC). The HL-LHC is expected to achieve a peak luminosity which is around 5-7 times higher than the current LHC design luminosity which the DAQ system must handle. The upgraded CMS Tracker will generate a large amount of data due to the increased granularity of the pixel and strip sensors. The data rates from the tracker modules are expected to be several terabits per second (Tbps) during the HL-LHC operation. The Level-1 Trigger system in the PhaseII Upgrade is designed to accept events at a rate of up to 750 kHz. The DAQ system must handle the transmission of trigger primitives to the Level-1 Trigger system and buffer the full event data until the t\
+rigger decision is made. The high-speed optical links used for data transmission between the Front-End Electronics (FEE) and off-detector electronics are expected to operate at data rates of 10-25 Gbps or higher to handle the large data volumes generated by the upgraded tracker.
 
-The Outer Tracker is designed for tracking particles over extended radii with six "barrel" layers for \( |z| < 1200 \)~mm and five "endcap" double-discs for \( 1200 \text{~mm} < |z| < 2700 \)~mm. The modules are radially placed from about 21~cm to 112~cm. It features 2S modules with 2032 strips each and PS modules with 1920 strips and 30,720 macro-pixels of about 1.5~mm size. The PS modules are located in the innermost three layers (200--600~mm radial distance) for precise \( z \)-coordinate measurement, while the 2S modules are positioned in the outer layers beyond 600~mm, with various strip lengths to cater to different tracking requirements.
+The TBPX occupies the central region along the \( z \)-axis from 0 to just below 300~mm, employing 360 units of \( 1 \times 2 \) modules (modules with two readout chips) and 504 units of \( 2 \times 2 \) modules (modules with four readout chips). The TFPX extends from approximately 300~mm to 600~mm in the \( z \)-direction, with 832 units of \( 1 \times 2 \) and 896 units of \( 2 \times 2 \) modules. The TEPX covers a broader range from about 600~mm to over 2500~mm and includes 768 units of \( 1 \times 2 \) and 992 units of \( 2 \times 2 \) modules.
+
+The TEPX consists of four double disks per side with each double disk consisting of five rings of modules as shown in Fig. \ref{fig:Innertracker_40}. The rings have 20, 28, 36, 44 and 48 modules respectively.  The first two inner rings are equipped with \(1 \times 2\) modules, while the more extensive \(2 \times 2\) modules are mounted on the three outer rings. This design is further enhanced by the unique arrangement of modules in four layers as shown in Fig.   \ref{fig:Innertracker_41}. This allows for modules to be mounted on both the front and back sides of a disk, creating an overlap in the r-\(\phi\) direction. Additionally, by mounting modules at varying radii on the two disk that form each double-disk, overlap in the radial direction (r) is also accomplished. 
+
+%One double disk has four surfaces with +Z side consisting of modules with even module number in front layers (L1 $\&$ L2) and modules with odd module number in back layers (L3 $\&$ L4) from Ring 1 to Ring 4 and for Ring 5, modules with odd module number in front layers and modules with even module number in back layers as shown in Fig.   \ref{fig:Innertracker_41}.
+
+%For -Z side, four surfaces contain modules with odd module number in front layer and modules with even module number in back layer from Ring 1 to Ring 4 and for Ring 5, modules with even module number in front layer and modules with odd module number in back layer.
+
+TEPX will have better radiation tolerance, increased granularity, improved two-track separation, improved estimation of hit rate and statistical precision, extending tracking acceptance beyond $|\eta|=4$. Collectively, these sub-detectors boast around 1.947 billion pixels across 13,488 pixel chips, spanning a silicon area of 4.87 square meters.
+
+%The Outer Tracker is designed for tracking particles over extended radii with six "barrel" layers for \( |z| < 1200 \)~mm and five "endcap" double-discs for \( 1200 \text{~mm} < |z| < 2700 \)~mm. The modules are radially placed from about 21~cm to 112~cm. It features 2S modules with 2032 strips each and PS modules with 1920 strips and 30,720 macro-pixels of about 1.5~mm size. The PS modules are located in the innermost three layers (200--600~mm radial distance) for precise \( z \)-coordinate measurement, while the 2S modules are positioned in the outer layers beyond 600~mm, with various strip lengths to cater to different tracking requirements.
 
 \begin{figure}[!htp]
   \centering
   \includegraphics[width=1 \columnwidth]{ashish_thesis/tepx_tt_1.png}
-  \caption[Phase II CMS Inner Tracker]{ \onehalfspacing A layout of the CMS Phase II inner tracker showing four TEPX disks, eight TFPX disks and four barrel layers.}
+  \caption[Phase II CMS Inner Tracker]{ \onehalfspacing A layout of the CMS Phase II Inner Tracker showing four TEPX disks, eight TFPX disks and four TBPX layers.}
   \label{fig:Innertracker}
 \end{figure}
 
-\begin{figure}[!htp]
+\begin{figure}[H]
   \centering
-  \includegraphics[width=0.6 \columnwidth]{ashish_thesis/tepx_DD.png}
-  \caption[TEPX double disk]{ \onehalfspacing View of one TEPX disk in the $r-\phi$ plane; individual pixel modules on two planes (double-disk) and five rings are outlined by yellow rectangles. The planes are separated in z by about 1 cm. The first plane holds modules on both front and back faces, with alternating rings to cover the gaps in r; the second plane holds modules in the same way as the first plane, but with an offset in phi to cover the gaps in phi.}
+  \includegraphics[width=0.5 \columnwidth]{ashish_thesis/tepx_DD.png}
+  \caption[TEPX double disk]{ \onehalfspacing View of one TEPX disk in the $r-\phi$ plane; individual pixel modules on two planes (double-disk) and five rings are outlined by yellow rectangles. The planes are separated in z by about 1 cm. The first plane holds modules on both front and back faces, with alternating rings to cover the gaps in r; the second plane holds modules in the same way as the first plane, but with an offset in $\phi$ to cover the gaps in $\phi$.}
   \label{fig:Innertracker_40}
 \end{figure}
 
 
-\begin{figure}[!htp]
+\begin{figure}[H]
   \centering
-  \includegraphics[width=0.2 \columnwidth]{ashish_thesis/tepx_alllayer.png}
+  \includegraphics[width=0.1 \columnwidth]{ashish_thesis/tepx_alllayer.png}
   \caption[TEPX double disk]{ \onehalfspacing R-Z view of the TEPX one double disk showing all four layers L1, L2, L3 and L4. Layer 1 and 3 has Ring 1, 3 and 5 modules, Layer 2 and 4 has Ring 2 and Ring 4 modules.}
   \label{fig:Innertracker_41}
 \end{figure}
@@ -37,22 +48,20 @@ The Outer Tracker is designed for tracking particles over extended radii with si
 
 
 \newpage
-\section{Tracker as a Luminometer}
+\section{TEPX Luminometer}
 
+TEPX is designed to function as a high-precision online bunch-by-bunch luminometer, primarily uses pixel cluster counting for luminosity measurement, a method involving the detection and counting of pixel clusters formed by charged particles from the proton collisions. Additionally, TEPX benefits from coincidence counting due to overlapping modules which enhances accuracy and enables systematic studies. %Positioned as part of the forward extension of the Inner Tracker detector,
+TEPX features a sophisticated dedicated trigger system for sampling all relevant bunch crossings in an unbiased manner. This system operates at a baseline trigger rate of 75 kHz, which is 10$\%$  of the 750 kHz allocated for physics data. %In terms of data acquisition,
+TEPX adapts to different operational conditions: during standard physics runs, it maintains a baseline luminosity trigger rate of 75 kHz, while during van der Meer (vdM) scans, this rate can significantly increase, potentially up to 1 MHz. TEPX readout rate (E-link speed) is estimated to be approximately 1330 Gbps at a pileup of 200  \cite{Collaboration:2706512}.
+%The DAQ system of TEPX is designed to handle substantial data rates, with link bandwidth requirements varying from about 79.2 Gb/s at a trigger rate of 825 kHz during nominal physics operations to up to 24 Gb/s at the standard rate of 75 kHz  \cite{Collaboration:2706512}.
 
-TEPX is designed to function as a high-precision online bunch-by-bunch luminometer, primarily uses pixel cluster counting for luminosity measurement, a method involving the detection and counting of pixel clusters formed due to particle interactions. Additionally, TEPX benefits from coincidence counting in overlapping modules for enhanced accuracy and systematic studies. Positioned as part of the forward extension of the Inner Tracker detector, TEPX features a sophisticated dedicated trigger system for sampling all relevant bunch crossings in an unbiased manner. This system operates at a baseline trigger rate of 75 kHz, which is 10$\%$  of the 750 kHz allocated for physics. In terms of data acquisition, TEPX adapts to different operational conditions: during standard physics runs, it maintains a baseline luminosity trigger rate of 75 kHz, while during van der Meer (vdM) scans, this rate can significantly increase, potentially up to 1 MHz. The DAQ system of TEPX is designed to handle substantial data rates, with link bandwidth requirements varying from about 79.2 Gb/s at a trigger rate of 825 kHz during nominal physics operations to up to 24 Gb/s at the standard rate of 75 kHz  \cite{Collaboration:2706512}.
-
-
-TEPX Disk 4 Ring 1 (D4R1), located in the innermost ring of the last disk of the Inner Tracker Endcap Pixel Detector, is uniquely designed for measuring luminosity and beam-induced background (BIB). D4R1 is optimally placed due to its low radius, large active area, and high z position, making it highly sensitive and efficient for these measurements. D4R1's operational model is distinct from the rest of TEPX. It employs the entire available trigger rate and readout bandwidth, which varies based on operational mode (binary readout or Time-over-Threshold information). This capability ranges from a trigger rate of 825 kHz (similar to the rest of TEPX) up to several MHz, limited by readout bandwidth and the available e-link capacity. In nominal physics conditions, the baseline trigger rate for D4R1 is 825 kHz, while in van der Meer (vdM) conditions, it is 2 MHz, with the potential to reach between 5 and 10 MHz in certain scenarios. 
+TEPX Disk 4 Ring 1 (D4R1) is located in the innermost ring of the last double-disk of the TEPX, is uniquely designed for measuring luminosity and beam-induced background (BIB). D4R1 is optimally placed due to its low radius, large active area, and high z position, making it highly sensitive and efficient for these measurements. The D4R1 operational model is distinct from the rest of TEPX. It employs the entire available trigger rate and readout bandwidth, which varies based on operational mode (binary readout or Time-over-Threshold information). This capability ranges from a trigger rate of 825 kHz (similar to the rest of TEPX) up to several MHz, limited by readout bandwidth and the available e-link capacity. In nominal physics conditions, the baseline trigger rate for D4R1 is 825 kHz, while in van der Meer (vdM) conditions, it is 2 MHz, with the potential to reach between 5 and 10 MHz in certain scenarios. 
 
 %A significant advantage of D4R1 is its independence from the CMS central services, particularly during special beam conditions like machine development and LHC ramp. This independence allows for luminosity measurements and BIB analysis even outside stable beams, providing vital data to improve accelerator performance. D4R1 operates on the LHC clock, enabling it to measure BIB throughout the full LHC machine cycle, including during ramp phases when the radio frequency clock, and consequently the bunch clock, increases significantly. To maintain this independent yet synchronized operation with the rest of CMS, a special clocking scheme is employed. This scheme involves the BRIL trigger board (BTB) and a Data Transmission Hub (DTH), which interfaces with the central TCDS2 system to receive all necessary signals, including clocks, triggers, and synchronization commands. This setup ensures that D4R1 can operate on the LHC clock while remaining synchronized with CMS during various operational phases, including the ramp and stable beams.
 
-
-The Outer Tracker (OT) Layer 6 of the CMS will play a pivotal role in luminosity measurement, trigger, and data acquisition for the CMS experiment. It is designed to perform bunch-by-bunch measurements. This is achieved by utilizing a technique called "coincidence counting," which involves detecting two-hit coincidences on two closely spaced silicon sensors, also known as "stubs." This system operates at the full 40 MHz bunch-crossing frequency, which is essential for capturing the high-frequency data required for accurate and timely analysis.
-
+%The Outer Tracker (OT) Layer 6 of the CMS will play a pivotal role in luminosity measurement, trigger, and data acquisition for the CMS experiment. It is designed to perform bunch-by-bunch measurements. This is achieved by utilizing a technique called "coincidence counting," which involves detecting two-hit coincidences on two closely spaced silicon sensors, also known as "stubs." This system operates at the full 40 MHz bunch-crossing frequency, which is essential for capturing the high-frequency data required for accurate and timely analysis.
 
 %As part of the forward extension of the Inner Tracker detector, TEPX features an advanced dedicated trigger system. This system is crucial for sampling all relevant bunch crossings in an unbiased manner, operating at a trigger rate of 75 kHz, which constitutes 10$\%$ of the 750 kHz allocated for physics. For luminosity measurements, TEPX primarily employs pixel cluster counting, a technique that counts the number of pixel clusters formed due to particle interactions within the detector. Additionally, TEPX is capable of coincidence counting in overlapping modules, enhancing measurement accuracy and aiding in systematic studies. This method counts coincident events in neighboring modules. In terms of data acquisition, TEPX adapts to varying operational conditions: during standard physics runs, it manages a baseline luminosity trigger rate of 75 kHz, while during van der Meer (vdM) scans, this rate can increase considerably, potentially up to 1 MHz. The DAQ system of TEPX is designed to handle substantial data rates, with link bandwidth requirements varying from about 79.2 Gb/s at a trigger rate of 825 kHz during nominal physics operations to up to 24 Gb/s at the standard rate of 75 kHz. This sophisticated combination of trigger systems, pixel cluster counting, and adaptable DAQ capabilities highlights TEPX's vital role in accurate luminosity measurement across different CMS operational scenarios.
-
 
 \begin{comment}
 
@@ -87,7 +96,7 @@ The Outer Tracker (OT) Layer 6 of the CMS will play a pivotal role in luminosity
 
 \end{comment}
 
-Data Acquisition (DAQ) system for the Phase II CMS Tracker must handle the increased data rates and complexity associated with the high-luminosity phase of the LHC (HL-LHC). The HL-LHC is expected to achieve a peak luminosity which is around 5-7 times higher than the current LHC design luminosity which the DAQ system must handle. The upgraded CMS Tracker will generate a large amount of data due to the increased granularity of the pixel and strip sensors. The data rates from the tracker modules are expected to be several terabits per second (Tbps) during the HL-LHC operation. The Level-1 Trigger system in the Phase II Upgrade is designed to accept events at a rate of up to 750 kHz. The DAQ system must handle the transmission of trigger primitives to the Level-1 Trigger system and buffer the full event data until the trigger decision is made. The high-speed optical links used for data transmission between the Front-End Electronics (FEE) and off-detector electronics are expected to operate at data rates of 10-25 Gbps or higher to handle the large data volumes generated by the upgraded tracker.
+%Data Acquisition (DAQ) system for the Phase II CMS Tracker must handle the increased data rates and complexity associated with the high-luminosity phase of the LHC (HL-LHC). The HL-LHC is expected to achieve a peak luminosity which is around 5-7 times higher than the current LHC design luminosity which the DAQ system must handle. The upgraded CMS Tracker will generate a large amount of data due to the increased granularity of the pixel and strip sensors. The data rates from the tracker modules are expected to be several terabits per second (Tbps) during the HL-LHC operation. The Level-1 Trigger system in the Phase II Upgrade is designed to accept events at a rate of up to 750 kHz. The DAQ system must handle the transmission of trigger primitives to the Level-1 Trigger system and buffer the full event data until the trigger decision is made. The high-speed optical links used for data transmission between the Front-End Electronics (FEE) and off-detector electronics are expected to operate at data rates of 10-25 Gbps or higher to handle the large data volumes generated by the upgraded tracker.
 
 %\section{Tracker Endcap Pixel (TEPX) detector}
 
@@ -161,7 +170,7 @@ Data Acquisition (DAQ) system for the Phase II CMS Tracker must handle the incre
   \begin{tabular}{ccc}
      \textbf{Pileup} & \textbf{Number of events processed} \\
      \hline
-     noPU & 100000  \\
+     %noPU & 100000  \\
      0.5 &  100600 \\
      1&    87400\\
       1.5& 74900 \\
@@ -209,21 +218,29 @@ Count accumulator: It will receive final data bit and increment cluster count.
 
 \end{comment}
 
+Fig. \ref{fig:tepx_cl} shows the location of TEPX clusters in Disk 4 in the XY plane (Z is the direction of the beam) from a simulated sample with a pileup of 200. %Clusters refer to groups of hits in the pixel detector.
+It consists of five concentric rings that are color-coded to indicate the density of clusters within the detector. It is transitioning from blue (low density) to red (high density), with the hottest regions indicating the overlap modules within the rings. The granularity of the data is high, with the number of bins set to 1000 for both axes and a bin size of 0.1 cm, allowing for a detailed visualization of the clusters across the disk.
+%The TEPX disk in this map consists of 5 rings which are concentric rings of pixel modules at different radial distances from the beamline.
 
-
-Fig. \ref{fig:tepx_cl} shows the location of TEPX clusters in Disk 4 in the XY plane (Z is the direction of the beam) from a simulated sample with a pileup of 200. %Clusters refer to groups of hits in the pixel detector. 
-The TEPX disk in this map consists of 5 rings which are concentric rings of pixel modules at different radial distances from the beamline.
-
-\begin{figure}[!htp]
+\begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\columnwidth]{ashish_thesis/tepx_clusters_1.png}
-  \caption[TEPX Cluster Map]{TEPX cluster map in the XY plane for pileup 200 simulated sample. Map showing coordinates of TEPX clusters in CMS global coordinate system. It shows clusters in one TEPX disk consisting of 5 rings. Hot regions are showing the module overlap for all rings (red, orange, green, yellow). Number of x bins is 1000, x bins range from -40 to 40. x bin size is 0.1 cm. Number of y bins is 1000, y bins range from -40 to 40. y bin size is 0.1 cm.}
+  \includegraphics[width=0.7\columnwidth]{ashish_thesis/tepx_clusters_1.png}
+  \caption[TEPX Cluster Map]{TEPX cluster map in the XY plane for pileup 200 simulated sample. %Map showing coordinates of TEPX clusters in CMS global coordinate system.
+    It shows clusters in one TEPX disk consisting of 5 rings. Hot regions are showing the module overlap. %for all rings (red, orange, green, yellow). Number of x bins is 1000, x bins range from -40 to 40.
+    x bin size is 0.1 cm and %Number of y bins is 1000, y bins range from -40 to 40.
+    y bin size is 0.1 cm.}
   \label{fig:tepx_cl}
 \end{figure}
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{ashish_thesis/tepx_D4R!_clusters._allpu_1.png}
+  \caption[D4R1 Clusters All Pileup]{Distribution of number of clusters for TEPX Disk 4 Ring 1 for all pileup samples.}
+  \label{fig:tepx_cl_allPU}
+\end{figure}
 
+\newpage
 \subsection{Linearity of TEPX clusters}
-
 
 Linearity is one of the systematic uncertainty in the calculation of instantaneous luminosity and PCC visible cross section $\sigma_{vis}$. A linear relation between the number of clusters and pileup (PU) imply that \\
 
@@ -235,12 +252,12 @@ Linearity indicates that the PCC visible cross section $\sigma_{vis}$ does not d
 
 The number of clusters per pp collision in Disk 4 Ring 1 varies from 0 to 2600 as a function of pileup. At pileup 200, mean number of cluster per pp collision is 2200 as shown in Fig. \ref{fig:tepx_cl_allPU}. The peak of the distribution drops as pileup increases because we have processed different number of events for different pileup values. Under low pileup conditions which is crucial for vdM calibration, number of clusters varies from 0 to 35. For average pileup value of 0.5 (vdM conditions), number of clusters varies between 0 and 12. Linearity results for simulated TEPX clusters from low to high pileup values are shown in  Fig. \ref{fig:CMS_4205} and  \ref{fig:CMS_4206}. Non-linearity is within 1 \% for entire pileup range.
 
-\begin{figure}[!htp]
-  \centering
-  \includegraphics[width=1\columnwidth]{ashish_thesis/tepx_D4R!_clusters._allpu_1.png}
-  \caption[D4R1 Clusters All Pileup]{Distribution of number of clusters for TEPX Disk 4 Ring 1 for all pileup values.}
-  \label{fig:tepx_cl_allPU}
-\end{figure}
+%\begin{figure}[!htp]
+ % \centering
+  %\includegraphics[width=0.6\columnwidth]{ashish_thesis/tepx_D4R!_clusters._allpu_1.png}
+  %\caption[D4R1 Clusters All Pileup]{Distribution of number of clusters for TEPX Disk 4 Ring 1 for all pileup values.}
+  %\label{fig:tepx_cl_allPU}
+%\end{figure}
 
 
 \begin{figure}[H]
@@ -298,9 +315,9 @@ The number of clusters per pp collision in Disk 4 Ring 1 varies from 0 to 2600 a
 \end{comment}
 
 
-\subsection{TEPX two fold coincidences}
+\subsection{TEPX two-fold coincidences}
 
-Two fold coincidences are clusters in modules overlap regions formed by modules in front and back layers of TEPX disk. There are two types of two fold coincidences namely in phi and r. Two fold coincidence in phi involve modules overlap in the same ring  of one double disk and two fold coincidence in r require modules overlap between successive rings of one double disk.  wo fold coincidences are better way to distinguish between a real hit and random electrical noise. They are more likely to be real hit than random electrical noise. Luminosity determination based on counting coincidences has an advantage over clusters that afterglow effects are tiny in the case of coincidences. 
+Two-fold coincidences are clusters in modules overlap regions formed by modules in front and back layers of TEPX disk. There are two types of two-fold coincidences namely in $\phi$ and r. Two-fold coincidence in $\phi$ involve modules overlap in the same ring  of one double disk and two-fold coincidence in r require modules overlap between successive rings of one double disk.  Two-fold coincidences are better way to distinguish between a real hit and random electrical noise. They are more likely to be real hit than random electrical noise. Luminosity determination based on counting coincidences has an advantage over clusters that afterglow effects are tiny in the case of coincidences. 
 %as shown in Fig. \ref{fig:cluster_ring_4000}. 
  %(shown in Fig. \ref{fig:cluster_ring_73})
   %as depicted in Fig. \ref{fig:cluster_ring_74}. 
@@ -448,7 +465,7 @@ In order to reduce fake two fold coincidences for high pileup, we tried more str
 
 \end{comment}
 
-A new algorithm for luminosity measurement based on counting two fold coincidences is proposed that applies selections using dr and $d\phi$ variables (shown in Fig. \ref{fig:drdphi_diagram}) to minimize non-linearity for high pileup as these variables take into account track angle and its curvature \cite{sehrawat2020}.  Proper selections are applied for each TEPX disk based on these variables using low pileup simulated samples and then these selections are extrapolated to high pileup samples for suppressing fake coincidences.
+A new algorithm for luminosity measurement based on counting two-fold coincidences is proposed that applies selections using dr and $d\phi$ variables (shown in Fig. \ref{fig:drdphi_diagram}) to minimize non-linearity for high pileup as these variables take into account track angle and its curvature \cite{sehrawat2020}.  Proper selections are applied for each TEPX disk based on these variables using low pileup simulated samples and then these selections are extrapolated to high pileup samples for suppressing fake coincidences.
 
 
 \begin{figure}[!htp]
@@ -482,17 +499,17 @@ A new algorithm for luminosity measurement based on counting two fold coincidenc
 
 \end{comment}
 
-We study the two fold coincidences in phi for all TEPX Disk and rings using dr, dphi variable for pileup 0.5 and apply nominal selection of 0.15 cm on dr and 0.04 on dphi variable in order to remove fake coincidences. 
+We study the two-fold coincidences in phi for all TEPX Disk and rings using dr, dphi variable for pileup 0.5 and apply pre-selection of 0.15 cm on dr and 0.04 on dphi variable in order to remove fake coincidences. 
 
-The dr, dphi distribution showing true, fake, total two fold coincidences for Disk 4 Ring 1 for pileup 0.5 is shown in Fig. \ref{fig:cluster_dr_dphi_dist}. After obtaining these distributions for all TEPX disks and rings, we carry out fit of the true coincidences distribution (shown in red  color) to obtain mean and standard deviation of these distributions. Two standard deviation cut is applied on the dr variable. The mean values are shown in Table \ref{tab:mdr_cuts_offset_values}. The  standard deviation values of the fit to true coincidences for all disks and rings are shown in Table \ref{tab:disk_values}. %Example fits are shown in Fig. \ref{fig:cluster_ring_1003}, \ref{fig:cluster_ring_70}, \ref{fig:cluster_ring_71}. 
-Similarly, two sigma cut is applied on the dphi variable as well. The standard deviation values for dphi variable are shown in Table \ref{tab:mdphi_cuts_values}. While doing the fit, mean value for dphi variable is set to zero. %The mean is taken as the offset value and standard deviation is used as the selection on dr, dphi variables as shown in Table \ref{tab:disk_values}, \ref{tab:mdphi_cuts_values} and \ref{tab:mdr_cuts_offset_values}. 
-The mean of the fit is taken as the offset value and standard deviation is used as the cut on dr, dphi variables.
+The dr, dphi distribution showing true, fake, total two-fold coincidences for Disk 4 Ring 1 for pileup 0.5 is shown in Fig. \ref{fig:cluster_dr_dphi_dist}. After obtaining these distributions for all TEPX disks and rings, we carry out fit of the true coincidences distribution (shown in red color) to obtain mean and standard deviation of these distributions. A two-standard-deviation selection is applied on the dr value about the mean. The mean values are shown in Table \ref{tab:mdr_cuts_offset_values}. The  standard deviation values of the fit to true coincidences for all disks and rings are shown in Table \ref{tab:disk_values}. %Example fits are shown in Fig. \ref{fig:cluster_ring_1003}, \ref{fig:cluster_ring_70}, \ref{fig:cluster_ring_71}. 
+Similarly, two-sigma cut is applied on the dphi variable as well. The standard deviation values for dphi variable are shown in Table \ref{tab:mdphi_cuts_values}. While doing the fit, mean value for dphi variable is set to zero. %The mean is taken as the offset value and standard deviation is used as the selection on dr, dphi variables as shown in Table \ref{tab:disk_values}, \ref{tab:mdphi_cuts_values} and \ref{tab:mdr_cuts_offset_values}. 
+%The mean of the fit is taken as the offset value and standard deviation is used as the cut on dr, dphi variables.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/D4R1_S2_drdphi_cut_1.png}
-\caption[Pileup 0.5 Cluster Count in D4R1 (+Z) vs. dr & dphi]{%
-  Distribution of cluster count as a function of dr and dphi variables for pileup 0.5 for disk 4 Ring 1 (+Z). Appropriate selection on dr, dphi are used to minimize fake two fold coincidences.
+\caption[Pileup 0.5 Cluster Count in D4R1 vs. dr & dphi]{%
+  Distribution of cluster count as a function of dr and dphi variables for pileup 0.5 for Disk 4 Ring 1. The black curve represents the total two-fold coincidence counts, the red curve depicts the true two-fold coincidence counts, and the green curve indicates the fake two-fold coincidence counts.
 }
 \label{fig:cluster_dr_dphi_dist}
 \end{figure}
@@ -686,28 +703,28 @@ The mean of the fit is taken as the offset value and standard deviation is used 
 \end{table}
 
 \newpage
-A plot of two fold coincidences in phi after applying all selection based on standard deviation values of all TEPX disks and rings is shown in Fig. \ref{fig:cluster_ring_720}.
+A plot of two-fold coincidences in phi after applying all selection based on standard deviation values of all TEPX disks and rings is shown in Fig. \ref{fig:cluster_ring_720}.
 
 \begin{figure}[!htp]
 \centering
-\includegraphics[width=1\textwidth]{ashish_thesis/twofoldinphi_sch.png}
+\includegraphics[width=0.6\textwidth]{ashish_thesis/twofoldinphi_sch.png}
 \caption[Map Of Two Fold Coincidences in phi]{%                                                                                                                                                       
   Map of two fold coincidences in phi showing all module overlap regions.
 }
 \label{fig:cluster_ring_720}
 \end{figure}
 
-Simlarly, we also studied two fold coincidences in r which arise from module overlaps between successive rings by only considering one to one module overlap between first two and last two layers in one TEPX double disk.  %Table \ref{table:two_fold_coincidences} categorizes various types of two-fold coincidences in r, observed in the TEPX detector. These coincidences are labeled from A to L and arise due to the module overlap in different layers within a single TEPX double disk. The 'dz' column quantifies the spatial separation along beam axis between the coinciding layers,  the z coordinates for Layers L1 to L4 within the TEPX detector is also mentioned. These coordinates provide a precise location for each layer, contributing to the understanding of where these two fold coincidences are likely to occur. The two fold coincidence in r map showing module overlap regions for different types is shown in Fig. \ref{fig:cluster_ring_770}.
+Simlarly, we also studied two-fold coincidences in r which arise from module overlaps between successive rings by only considering one to one module overlap between first two and last two layers in one TEPX double disk.  %Table \ref{table:two_fold_coincidences} categorizes various types of two-fold coincidences in r, observed in the TEPX detector. These coincidences are labeled from A to L and arise due to the module overlap in different layers within a single TEPX double disk. The 'dz' column quantifies the spatial separation along beam axis between the coinciding layers,  the z coordinates for Layers L1 to L4 within the TEPX detector is also mentioned. These coordinates provide a precise location for each layer, contributing to the understanding of where these two fold coincidences are likely to occur. The two fold coincidence in r map showing module overlap regions for different types is shown in Fig. \ref{fig:cluster_ring_770}.
  A one-to-one overlapping of modules is considered between L1L2 and L3L4 module overlap as shown in Fig. \ref{fig:cluster_ring_72034}. %as shown in Fig. \ref{tab:my_label2}. 
  %The distributions for dr, dphi distribution depicting fake, true, total two fold coincidence in r for pileup 0.5 and 200 are shown in Fig. \ref{fig:cluster_ring_81} and \ref{fig:cluster_ring_82} respectively.
  Fit is done to pileup 0.5 distribution of true coincidences for both L1L2 and L3L4 coincidences in r. %as shown in Fig. \ref{fig:cluster_ring_83} and \ref{fig:cluster_ring_84}. 
-  Fit results for all disks and rings are shown from  Table \ref{tab:my_label_55} to \ref{tab:my_label_54}. Two standard deviation selections are applied on dr, dphi variables. After applying all selections obtained from the fits, we plotted the XY map of two fold coincidences in r for L1L2 and L3L4 combined as shown in \ref{fig:cluster_ring_79}.
+  Fit results for all disks and rings are shown from  Table \ref{tab:my_label_55} to \ref{tab:my_label_54}. Similarly, two-sigma standard deviation selections are applied on dr, dphi variables. After applying all selections, the XY map of two-fold coincidences in r for L1L2 and L3L4 combined as shown in \ref{fig:cluster_ring_79}.
 
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.3\textwidth]{ashish_thesis/twofoldinr_exam.png}
 \caption[Examples of two fold coincidences in r]{%                                                                                                                                                       
-  Map of two fold coincidences in r showing all module overlap regions.
+  Definition of two-fold coincidences in r from the module overlap regions.
 }
 \label{fig:cluster_ring_72034}
 \end{figure}
@@ -903,10 +920,10 @@ p5 & 6.68e-02 & 1.24e-03  \\
 
 \begin{table}[H]
   \centering
-  \caption[dr mean values (L1L2)]{dr mean values obtained from fit for all disks and rings for coincidences in r}
+  \caption[dr mean values]{dr mean values (cm) obtained from fit for all disks and rings for coincidences in r}
 \begin{tabular}{ccccc}
  & \multicolumn{4}{c}{\textbf{Ring}} \\
-\textbf{Disk} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} \\
+\textbf{Disk} & \textbf{1-2} & \textbf{2-3} & \textbf{3-4} & \textbf{4-5} \\
 \hline
 %-4 & 0.0230881 & 0.0309854 & 0.0387241 & 0.0464962 \\ 
 %-3 & 0.0199761 & 0.0270206 & 0.0338467 & 0.0403068 \\ 
@@ -923,10 +940,10 @@ p5 & 6.68e-02 & 1.24e-03  \\
 
 \begin{table}[H]
   \centering
-  \caption[dr cut values (L1L2)]{dr standard deviation values obtained from fit for all disks and rings for coincidences in r}
+  \caption[dr cut values]{dr standard deviation (sigma) values obtained from fit for all disks and rings for coincidences in r}
 \begin{tabular}{ccccc}
  & \multicolumn{4}{c}{\textbf{Ring}} \\
-\textbf{Disk} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} \\
+\textbf{Disk} & \textbf{1-2} & \textbf{2-3} & \textbf{3-4} & \textbf{4-5} \\
 \hline
 %-4 & 0.00458531 & 0.00466448 & 0.00486059 & 0.0052905 \\ 
 %-3 & 0.00444971 & 0.0046465 & 0.00472138 & 0.00490022 \\ 
@@ -944,10 +961,10 @@ p5 & 6.68e-02 & 1.24e-03  \\
 
 \begin{table}[H]
   \centering
-  \caption[dphi cut values (L1L2)]{dphi standard deviation values obtained from fit for all disks and rings for coincidences in r}
+  \caption[dphi cut values]{dphi standard deviation values obtained from fit for all disks and rings for coincidences in r}
 \begin{tabular}{ccccc}
  & \multicolumn{4}{c}{\textbf{Ring}} \\
-\textbf{Disk} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} \\
+\textbf{Disk} & \textbf{1-2} & \textbf{2-3} & \textbf{3-4} & \textbf{4-5} \\
 \hline
 %-4 & 0.000628313 & 0.000828659 & 0.000975585 & 0.00101984 \\ 
 %-3 & 0.000545699 & 0.000722289 & 0.00081899 & 0.000918094 \\ 
@@ -1071,7 +1088,7 @@ The new algorithm is able to remove physics noise at high pileup as can be seen 
   \centering
   \caption{Fake rate for Disk 4 for pileup 200}
   \begin{tabular}{cc}
-    \textbf{Disk 4} & \textbf{Fake two fold coincidence rate (\%)} \\
+    \textbf{Disk 4} & \textbf{Fake two-fold coincidence rate (\%)} \\
     \hline
     Ring 1 &  1.1\\
     Ring 2 &  1.9\\
@@ -1082,12 +1099,13 @@ The new algorithm is able to remove physics noise at high pileup as can be seen 
   \label{tab:sample}
 \end{table}
 
-
+\begin{comment}
+  
 \begin{table}[H]
   \centering
-  \caption{TEPX two fold coincidences fake rate and efficiency}
+  \caption{TEPX two-fold coincidences fake rate and efficiency}
   \begin{tabular}{ccccc}
-    \textbf{Pileup} & \textbf{Fake 2xinphi (\%)} & \textbf{Fake 2xinr (\%)} & \textbf{Efficiency 2xinphi (\%)} & \textbf{Efficiency 2xinr (\%)} \\
+    \textbf{Pileup} & \textbf{Fake rate 2-fold in phi (\%)} & \textbf{Fake rate 2-fold in r (\%)} & \textbf{Efficiency 2-fold in phi (\%)} & \textbf{Efficiency 2-fold in r (\%)} \\
     \hline
     0.5  & 0.78 & 0.99 & 99.21 & 99.00 \\
     1    & 0.79 & 1.01 & 99.20 & 98.98 \\
@@ -1102,6 +1120,31 @@ The new algorithm is able to remove physics noise at high pileup as can be seen 
   \end{tabular}
   \label{tab:combined_sample}
 \end{table}
+
+\end{comment}
+  
+\begin{table}[H]
+  \centering
+  \caption{TEPX two-fold coincidences fake rate and efficiency}
+  \begin{tabular}{ccccc}
+    & \multicolumn{2}{c}{\textbf{Fake rate (\%)}} & \multicolumn{2}{c}{\textbf{Efficiency (\%)}} \\
+    %\cline{2-5}
+    \textbf{Pileup}  & \textbf{2-fold in phi} & \textbf{2-fold in r} & \textbf{2-fold in phi} & \textbf{2-fold in r} \\
+    \hline
+    0.5  & 0.78 & 0.99 & 99.21 & 99.00 \\
+    1    & 0.79 & 1.01 & 99.20 & 98.98 \\
+    1.5  & 0.80 & 1.02 & 99.19 & 98.97 \\
+    2    & 0.79 & 1.02 & 99.20 & 98.97 \\
+    10   & 0.83 & 1.04 & 99.16 & 98.95 \\
+    30   & 0.94 & 1.09 & 99.05 & 98.90 \\
+    50   & 1.04 & 1.14 & 98.95 & 98.85 \\
+    100  & 1.31 & 1.29 & 98.68 & 98.70 \\
+    140  & 1.53 & 1.41 & 98.46 & 98.58 \\
+    200  & 1.85 & 1.57 & 98.14 & 98.42 \\
+  \end{tabular}
+  \label{tab:combined_sample}
+\end{table}
+
 
 
 
@@ -1154,12 +1197,12 @@ The new algorithm is able to remove physics noise at high pileup as can be seen 
 
 %Ratio of the integrals for fake & total coincidence for dr & dphi distributions is 3454/145988 = 0.023
 
-It is important to study how the number of two fold coincidences after final selections change with pileup for precise luminosity measurement. Number of two fold coincidences increases with pileup. Distribution of two fold coincidences for TEPX Disk 4 Ring 1 for all pileup values is shown in Fig. \ref{fig:tepx_coin_allPU}. For pileup 200, mean two fold coincidences is around 270. Under vdM conditions, it range from 0 to 13. The new algorithm is able to suppress non-linearity at high pileup values as shown in Fig.  \ref{fig:CMS_420}  and \ref{fig:CMS_4207}. Non-linearity is within 1 \% for entire pileup range.
+It is important to study how the number of two-fold coincidences after final selections change with pileup for precise luminosity measurement. Distribution of two-fold coincidences for TEPX Disk 4 Ring 1 for all pileup values is shown in Fig. \ref{fig:tepx_coin_allPU}. For pileup 200, mean two-fold coincidences is around 270. Under vdM conditions, it range from 0 to 13. The new algorithm is able to suppress non-linearity at high pileup values as shown in Fig.  \ref{fig:CMS_420}  and \ref{fig:CMS_4207}. Non-linearity is within 1 \% for entire pileup range.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\columnwidth]{ashish_thesis/tepx_D4R1_coin_allpu_1.png}
-  \caption[TEPX D4R1 Two Fold Coincidences All Pileup]{Distribution of number of two fold coincidences for TEPX Disk 4 Ring 1 for all pileup values.}
+  \includegraphics[width=0.7\columnwidth]{ashish_thesis/tepx_D4R1_coin_allpu_1.png}
+  \caption[TEPX D4R1 Two-Fold Coincidences All Pileup]{Distribution of number of two-fold coincidences for TEPX Disk 4 Ring 1 for all pileup values.}
   \label{fig:tepx_coin_allPU}
 \end{figure}
 
@@ -1167,7 +1210,7 @@ It is important to study how the number of two fold coincidences after final sel
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\columnwidth]{ashish_thesis/michigan_1.png}
-  \caption[TEPX two fold coincidences fit And residuals]{\onehalfspacing Left: Simulated mean number of two fold coincidences for TEPX disks as a function of pileup. A line is fitted between pileup values of 0 and 2, and then extrapolated up to a pileup of 200. Right: Deviation from linearity for two fold coincidences for TEPX disks. The non-linearity is calculated as the relative difference between the data points and the values of the fit function at the respective pileup value.}
+  \caption[TEPX two-fold coincidences fit And residuals]{\onehalfspacing Left: Simulated mean number of two-fold coincidences for TEPX disks as a function of pileup. A line is fitted between pileup values of 0 and 2, and then extrapolated up to a pileup of 200. Right: The relative difference between the data points and the values of the fit function at the respective pileup value.}
   \label{fig:CMS_420}
 \end{figure}
 
@@ -1175,7 +1218,7 @@ It is important to study how the number of two fold coincidences after final sel
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\columnwidth]{ashish_thesis/michigan_4.png}
-  \caption[TEPX two fold coincidences fit And residuals]{\onehalfspacing Left: Simulated mean number of two fold coincidences in phi for TEPX Disk 4 Ring 1 as a function of pileup. A line is fitted between pileup values of 0 and 2, and then extrapolated up to a pileup of 200. Right: Deviation from linearity for two fold coincidences in phi for TEPX Disk 4 Ring 1. The non-linearity is calculated as the relative difference between the data points and the values of the fit function at the respective pileup value.}
+  \caption[TEPX two-fold coincidences fit And residuals]{\onehalfspacing Left: Simulated mean number of two-fold coincidences in phi for TEPX Disk 4 Ring 1 as a function of pileup. A line is fitted between pileup values of 0 and 2, and then extrapolated up to a pileup of 200. Right: The relative difference between the data points and the values of the fit function at the respective pileup value.}
   \label{fig:CMS_4207}
 \end{figure}
 
@@ -1273,21 +1316,21 @@ For Disk 4 Ring 1, fake coincidences are randomly distributed and true coinciden
 
 \end{comment}
 
-\subsection{TEPX three fold coincidences}
+\subsection{TEPX three-fold coincidences}
 
-It is possible to have three fold coincidences in TEPX detector. A three-fold coincidence refers to a situation where three hits occur nearly simultaneously and in a close spatial arrangement originating from the same underlying event. In the current algorithm, we look for another cluster in the lower ring after a two fold coincidence cluster is found. The XY map of three fold coincidences is shown in Fig. \ref{fig:tepx_3foldcoin_allPU_1}. Three fold coincidences under all pileup conditions is shown in Fig.  \ref{fig:tepx_3foldcoin_allPU_2}.  With the current algorithm, three fold coincidences shows non-linearity at high pileup as shown in Fig. \ref{fig:tepx_3foldcoin_allPU_3}. % and Fig.  \ref{fig:tepx_3foldcoin_lowPU}.
+It is possible to have three fold coincidences in TEPX detector. A three-fold coincidence refers to a situation where three hits occur nearly simultaneously and in a close spatial arrangement originating from the same underlying event. In the current algorithm, we look for another cluster in the lower ring after a two fold coincidence cluster in phi or r is found. The XY map of three-fold coincidences is shown in Fig. \ref{fig:tepx_3foldcoin_allPU_1}. Three-fold coincidences under all pileup conditions is shown in Fig.  \ref{fig:tepx_3foldcoin_allPU_2}.  With the current algorithm, three-fold coincidences shows non-linearity at high pileup as shown in Fig. \ref{fig:tepx_3foldcoin_allPU_3}. % and Fig.  \ref{fig:tepx_3foldcoin_lowPU}.
 
-\begin{figure}[!htp]
+\begin{figure}[H]
   \centering
-  \includegraphics[width=1\columnwidth]{ashish_thesis/tepx_threefold_coincidences.png}
-  \caption[Regions in XY plane showing three fold coincidences]{X vs Y map of three fold coincidences.}
+  \includegraphics[width=0.5\columnwidth]{ashish_thesis/tepx_threefold_coincidences.png}
+  \caption[Regions in XY plane showing three-fold coincidences]{X vs Y map of three fold coincidences.}
   \label{fig:tepx_3foldcoin_allPU_1}
 \end{figure}
 
-
-\begin{figure}[!htp]
+\newpage
+\begin{figure}[H]
   \centering
-  \includegraphics[width=1\columnwidth]{ashish_thesis/tepx_threefold_allpu.png}
+  \includegraphics[width=0.7\columnwidth]{ashish_thesis/tepx_threefold_allpu.png}
   \caption[TEPX Disk 4 Ring 2 Three Fold Coincidences]{Distribution of number of three fold coincidences for TEPX Disk 4 Ring 2 for all pileup values.}
   \label{fig:tepx_3foldcoin_allPU_2}
 \end{figure}
@@ -1299,16 +1342,17 @@ It is possible to have three fold coincidences in TEPX detector. A three-fold co
   %\label{fig:tepx_3foldcoin_allPU}
 %\end{figure}
 
-\begin{figure}[!htp]
+\begin{figure}[H]
   \centering
   \includegraphics[width=1\columnwidth]{ashish_thesis/TEPX_threefold_linearity.png}
-  \caption[Disk 4 all rings three Fold Coincidences Linearity]{Left: Simulated mean number of three fold coincidences for all Disk 4 all rings as a function
-    of pileup. Right: Deviation from linearity for Disk 4 all rings.}
+  \caption[Disk 4 all rings Three-Fold Coincidences Linearity]{Left: Simulated mean number of three-fold coincidences for all Disk 4 all rings as a function
+    of pileup. Right: Deviation from linearity for Disk 4 all rings, the relative difference between the data points and the values of the fit function at the respective pileup value.}
   \label{fig:tepx_3foldcoin_allPU_3}
 \end{figure}
 
 \newpage
 \section{Statistical precision for TEPX luminometer}
+
 Statistical precision is another uncertainty that need to be considered for precise luminosity measurement. It must be kept minimal to achieve 1 $\%$ accuracy for HL-LHC luminosity measurement.
 
 Relative statistical uncertainty in $\%$ = $\frac{\sqrt{N}}{N} \times 100$ \\
@@ -1318,37 +1362,37 @@ where N = (Number of counts per event)$\times$(Trigger Frequency)$\times$(Time I
 
 \begin{table}[htbp]
   \centering
-  \caption[Expected stat. precision of TEPX under low pileup] {Expected statistical precision (in $\%$) in head-on collisions during typical vdM conditions with pileup of 0.5 for TEPX clusters and two fold coincidences over different integration time period.}
+  \caption[Expected stat. precision of TEPX under low pileup] {Expected statistical precision (in $\%$) in head-on collisions during typical vdM conditions with pileup of 0.5 for TEPX clusters and two-fold coincidences over different integration time period.}
 \begin{tabular}{lcccc}
-vdM (PU 0.5) & Readout Rate (kHz) & 1 bx, 1s & 1 bx, 30s & 100 bx, 30s\\
+vdM (PU 0.5) & Trigger Rate (kHz) & 1 bx, 1s & 1 bx, 30s\\
 \hline
-TEPXD4R1 Clusters&1000&1.82&0.332 & 0.0332\\
-TEPXD4R1 2x Coincidences in phi &1000&5.98&1.09 & 0.109\\
-TEPXD4R1 2x Coincidences in r &1000&11.1&2.02 & 0.202\\
-TEPXD4R1 2x Coincidences &1000&5.27&0.962 & 0.0962\\
-TEPX Clusters&500&0.709&0.129 & 0.0129\\
-TEPX 2x Coincidences in phi &500&2.65&0.485 & 0.0485\\
-TEPX 2x Coincidences in r &500&4.59&0.838 & 0.0838\\
-TEPX 2x Coincidences &500&2.3&0.42 & 0.042\\
+TEPXD4R1 Clusters&1000&1.82&0.332\\
+TEPXD4R1 2x Coincidences in phi &1000&5.98&1.09\\
+TEPXD4R1 2x Coincidences in r &1000&11.1&2.02\\
+TEPXD4R1 2x Coincidences &1000&5.27&0.962\\
+TEPX Clusters&500&0.709&0.129\\
+TEPX 2x Coincidences in phi &500&2.65&0.485\\
+TEPX 2x Coincidences in r &500&4.59&0.838\\
+TEPX 2x Coincidences &500&2.3&0.42\\
 \end{tabular}
 \end{table}
 
 
 \begin{table}[htbp]
 \centering
-\caption[Expected stat. precision of TEPX under high pileup]{Expected statistical precision (in $\%$) in head-on collisions during physics conditions with pileup of 200 for TEPX clusters and two fold coincidences over different integration time period.}
+\caption[Expected stat. precision of TEPX under high pileup]{Expected statistical precision (in $\%$) in head-on collisions during physics conditions with pileup of 200 for TEPX clusters and two-fold coincidences over different integration time period.}
 \begin{small} % this command will decrease the font size
 \begin{tabular}{lcccc}
-Algorithm & Readout Rate (kHz) & 1 bx, 1s & 2500 bx, 1s & 2500 bx, 1 LS \\
+Algorithm & Trigger Rate (kHz) & 1 bx, 1s & 2500 bx, 1s\\
 \hline
-TEPXD4R1 Clusters & 825 & 0.1 & 0.002 & 0.000414 \\
-TEPXD4R1 2x Coincidences in phi & 825 & 0.329 & 0.00659 & 0.00136 \\
-TEPXD4R1 2x Coincidences in r & 825 & 0.61 & 0.0122 & 0.00252 \\
-TEPXD4R1 2x Coincidences & 825 & 0.29 & 0.0058 & 0.0012 \\
-TEPX Clusters & 75 & 0.0915 & 0.00183 & 0.000379 \\
-TEPX 2x Coincidences in phi & 75 & 0.343 & 0.00685 & 0.00142 \\
-TEPX 2x Coincidences in r & 75 & 0.593 & 0.0119 & 0.00245 \\
-TEPX 2x Coincidences & 75 & 0.297 & 0.00594 & 0.00123 \\
+TEPXD4R1 Clusters & 825 & 0.1 & 0.002  \\
+TEPXD4R1 2x Coincidences in phi & 825 & 0.329 & 0.00659 \\
+TEPXD4R1 2x Coincidences in r & 825 & 0.61 & 0.0122  \\
+TEPXD4R1 2x Coincidences & 825 & 0.29 & 0.0058  \\
+TEPX Clusters & 75 & 0.0915 & 0.00183  \\
+TEPX 2x Coincidences in phi & 75 & 0.343 & 0.00685 \\
+TEPX 2x Coincidences in r & 75 & 0.593 & 0.0119  \\
+TEPX 2x Coincidences & 75 & 0.297 & 0.00594  \\
 \end{tabular}
 \end{small}
 \end{table}
