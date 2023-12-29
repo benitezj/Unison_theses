@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  29 DEC 2023 22:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  29 DEC 2023 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2841,8 +2841,20 @@ Excluding 'comment' comment. [93] [94] [95]) [96] (./thesis.bbl [97
 
 
 
-] [98])
-[99] (./thesis.ind) (./thesis.aux (./Portada/Portada.aux)
+]
+! Misplaced alignment tab character &.
+<argument> ...d collision position determination &
+                                                   control}'',
+l.147   control}'',}
+                     2019.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[98]) [99] (./thesis.ind) (./thesis.aux (./Portada/Portada.aux)
 (./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
 (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux)
 (./Chapter7/chapter7.aux))
@@ -2853,11 +2865,11 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 78E3B82D4E85736506B749012249DB39;9529.
  ) 
 Here is how much of TeX's memory you used:
- 44857 strings out of 478268
- 1033676 string characters out of 5846347
+ 44858 strings out of 478268
+ 1033686 string characters out of 5846347
  1414944 words of memory out of 5000000
  61410 multiletter control sequences out of 15000+600000
- 607173 words of font info for 408 fonts, out of 8000000 for 9000
+ 607289 words of font info for 409 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,14n,120p,2949b,1103s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -2873,10 +2885,10 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (107 pages, 28327476 bytes).
+Output written on thesis.pdf (107 pages, 28327102 bytes).
 PDF statistics:
- 1436 PDF objects out of 1440 (max. 8388607)
- 1173 compressed objects within 12 object streams
+ 1441 PDF objects out of 1728 (max. 8388607)
+ 1178 compressed objects within 12 object streams
  314 named destinations out of 1000 (max. 500000)
  135366 words of extra memory for PDF output out of 154059 (max. 10000000)
 

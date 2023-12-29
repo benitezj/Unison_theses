@@ -5,15 +5,17 @@
 \providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}
 
 \bibitem{Herr:941318}
-\hrefCMSnoop {}{W.~Herr and B.~Muratori, ``Concept of luminosity'',}
-  \href{http://dx.doi.org/10.5170/CERN-2006-002.361}{\doi{10.5170/CERN-2006-002.361}}.
+\hrefCMSnoop {}{W.~Herr and B.~Muratori, ``{Concept of luminosity}'',} 2006.
+\newblock
+  \href{http://dx.doi.org/10.5170/CERN-2006-002.361}{\doi{10.5170/CERN-2006-002.361}},
+  \url {https://cds.cern.ch/record/941318}.
 
 \bibitem{Dainese:2703572}
 A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
-  and Perspectives for the HE-LHC}'',} technical report, Geneva, Switzerland,
-  2019.
+  and Perspectives for the HE-LHC}'',} 2019.
 \newblock
-  \href{http://dx.doi.org/10.23731/CYRM-2019-007}{\doi{10.23731/CYRM-2019-007}}.
+  \href{http://dx.doi.org/10.23731/CYRM-2019-007}{\doi{10.23731/CYRM-2019-007}},
+  \url {https://cds.cern.ch/record/2703572}.
 
 \bibitem{lhc_complex}
 \hrefCMSnoop {}{E.~Halkiadakis, ``{Introduction to the LHC Experiments}'',} in
@@ -31,7 +33,7 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
 
 \bibitem{CMS-PAS-EWK-10-004}
 \href {https://cds.cern.ch/record/1279145}{{CMS} Collaboration, ``{Measurement
-  of CMS Luminosity }'',} technical report, CERN, 1900. Geneva, 1900.
+  of CMS Luminosity}'',} technical report, CERN, 1900. Geneva, 1900.
 
 \bibitem{CMS-PAS-EWK-11-001}
 \href {https://cds.cern.ch/record/1376102}{{CMS} Collaboration, ``{Absolute
@@ -66,10 +68,9 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
   13~\mathrm{TeV}$}'',} technical report, CERN, Geneva, 2019.
 
 \bibitem{wikicern_cc}
-\href
-  {https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}{{CMSPublic
-  Web. CMS Luminosity - Public Results}, ``Delivered luminosity versus time for
-  2010-2012 and 2015-2018 (pp data only)'',} 2023.
+\href {https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}{{CMS
+  Public Web. CMS Luminosity - Public Results}, ``Delivered luminosity versus
+  time for 2010-2012 and 2015-2018 (pp data only)'',} 2023.
 \newblock \url
   {https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}.
 
@@ -96,9 +97,8 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
 \newblock \url {https://www.desy.de/~ameyer/luminosity_kcms_210922.pdf}.
 
 \bibitem{Adam:2748381}
-\hrefCMSnoop {}{{CMSTrackerGroupoftheCMS} Collaboration, ``{The CMS Phase-1
-  Pixel Detector Upgrade}'',} \textit{ JINST} \textbf{ 16} (2021), no.~02,
-  P02027,
+\hrefCMSnoop {}{{CMS} Collaboration, ``{The CMS Phase-1 Pixel Detector
+  Upgrade}'',} \textit{ JINST} \textbf{ 16} (2021), no.~02, P02027,
   \href{http://dx.doi.org/10.1088/1748-0221/16/02/P02027}{\doi{10.1088/1748-0221/16/02/P02027}},
   \href{http://www.arXiv.org/abs/2012.14304}{\texttt{arXiv:2012.14304}}.
 
@@ -115,9 +115,8 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
 \bibitem{karacheban2017luminosity}
 \href
   {https://inspirehep.net/files/8d8d8093e6a9771eeb441c6527f6822c}{O.~Karacheban,
-  ``Luminosity Measurement at CMS''}.
-\newblock Dissertation, Brandenburgische Technische Universität
-  Cottbus-Senftenberg, Jan, 2017.
+  ``Luminosity measurement at cms'',} Jan, 2017.
+\newblock \url {https://inspirehep.net/files/8d8d8093e6a9771eeb441c6527f6822c}.
 
 \bibitem{CMS-PAS-LUM-17-004}
 \href {https://cds.cern.ch/record/2621960}{{CMS} Collaboration, ``{CMS
@@ -126,9 +125,7 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
 
 \bibitem{Cekmecelioglu:2775639}
 \href {https://cds.cern.ch/record/2775639}{Y.~C. Cekmecelioglu, ``{Calibration
-  of CMS Luminometers Using van der Meer and Emittance Scans. Van der Meer ve
-  Emitans Ölçümlerini Kullanarak CMS Luminosite Dedektörlerinin
-  Kalibrasyonu}'',} 2021.
+  of CMS Luminometers Using van der Meer and Emittance Scans.}'',} 2021.
 \newblock \url {https://cds.cern.ch/record/2775639}.
 
 \bibitem{CERNLumiPublicResults}
@@ -146,26 +143,29 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
 \bibitem{CERNOribLumi}
 \href
   {https://indico.cern.ch/event/813285/contributions/3406090/attachments/1854474/3047632/Orbit.LumiWS.June19.pdf}{{J.
-  Wenninger}, ``{LHC Lumi Days 2019}'',} 2019.
+  Wenninger}, ``{LHC beam orbit and collision position determination &
+  control}'',} 2019.
 \newblock \url
   {https://indico.cern.ch/event/813285/contributions/3406090/attachments/1854474/3047632/Orbit.LumiWS.June19.pdf}.
 
 \bibitem{CERNLUMPOG}
 \href
   {https://indico.cern.ch/event/1286308/contributions/5407486/attachments/2648514/4585020/2023_05_16_LUMPog_meeting.pdf}{{Gabriella
-  Pasztor, Peter Major}, ``{LUMPOG Meeting}'',} May, 2023.
+  Pasztor, Peter Major}, ``{2017-18 Luminous region analysis}'',} 16, May,
+  2023.
 \newblock \url
   {https://indico.cern.ch/event/1286308/contributions/5407486/attachments/2648514/4585020/2023_05_16_LUMPog_meeting.pdf}.
 
 \bibitem{Herr:1982430}
-\hrefCMSnoop {}{W.~Herr and T.~Pieloni, ``{Beam-Beam Effects}'',}
+\hrefCMSnoop {}{W.~Herr and T.~Pieloni, ``{Beam-Beam Effects}'',} 2014.
+\newblock
   \href{http://dx.doi.org/10.5170/CERN-2014-009.431}{\doi{10.5170/CERN-2014-009.431}},
-  \href{http://www.arXiv.org/abs/1601.05235}{\texttt{arXiv:1601.05235}}.
+  \url {https://cds.cern.ch/record/1982430}.
 
 \bibitem{babaev2023impact}
-A.~Babaev\href {https://arxiv.org/abs/2306.10394}{ {et~al.}, ``Impact of
-  beam-beam effects on absolute luminosity calibrations at the cern large
-  hadron collider'',} 2023.
+A.~Babaev\href {https://arxiv.org/abs/2306.10394}{ {et~al.}, ``{Impact of
+  Beam-Beam Effects on Absolute Luminosity Calibrations at the CERN Large
+  Hadron Collider}'',} 2023.
 \newblock \url {https://arxiv.org/abs/2306.10394}.
 
 \bibitem{CERNVdMOMC}
@@ -185,18 +185,20 @@ A.~Babaev\href {https://arxiv.org/abs/2306.10394}{ {et~al.}, ``Impact of
   {https://indico.cern.ch/event/813285/contributions/3406074/attachments/1855657/3047803/LumiDays_2019_MPalm_LHC_beam_current_measurement_performance_and_issues.pdf}.
 
 \bibitem{Alici:1427728}
-A.~Alici\href {https://cds.cern.ch/record/1427728}{ {et~al.}, ``{Study of the
-  LHC ghost charge and satellite bunches for luminosity calibration.}'',}.
+\href {https://cds.cern.ch/record/1427728}{{Alici, A et al.}, ``{Study of the
+  LHC ghost charge and satellite bunches for luminosity calibration}'',} 2012.
+\newblock \url {https://cds.cern.ch/record/1427728}.
 
 \bibitem{Sehrawat2023}
-\href {https://indico.cern.ch/event/1316986/}{A.~Sehrawat, J.~Benitez, and
-  L.~Cuevas, ``{2017, 2018 PCC Data Reprocessing}'',}
-\newblock 2023.
+\href {https://indico.cern.ch/event/1316986/}{{Sehrawat, Ashish and Benitez,
+  Jose and Cuevas, Luis}, ``{2017, 2018 PCC Data Reprocessing}''.} LUM-20-001
+  Authors Meeting, {2023}.
+\newblock \url {https://indico.cern.ch/event/1316986/}.
 
 \bibitem{bril2023moduleveto}
 \href {https://indico.cern.ch/event/1310080/}{{Ashish Sehrawat and Jose
   Feliciano Benitez}, ``{2022 Module Veto}''.} {BRIL Tracker Luminosity
-  Meeting}, 24 Jul, 2023.
+  Meeting}, 24 July, 2023.
 \newblock \url {https://indico.cern.ch/event/1310080/}.
 
 \bibitem{bril2023vdmrecalibration}
