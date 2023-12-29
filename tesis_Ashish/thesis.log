@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  29 DEC 2023 21:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  29 DEC 2023 22:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2836,147 +2836,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1356--1357
 
  []
 
-Excluding 'comment' comment. [93] [94] [95]) [96] (./thesis.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 9--14
-[]\T1/ptm/m/n/12 (+20) Werner Herr and B Mu-ra-tori.  Con-cept of lu-mi-nos-ity
-.  2006.
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.29 ...ck doi:\texttt{10.1142/9789814327183_0009}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.29 ...ck doi:\texttt{10.1142/9789814327183_0009}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.30 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.30 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 1960) in paragraph at lines 60--65
-[]\T1/ptm/m/n/12 (+20) Precision lu-mi-nos-ity mea-sure-ment in proton-proton c
-ol-li-sions at $[] \OT1/ztmcm/m/n/12 =$ \T1/ptm/m/n/12 (+20) 13
- []
-
-
-Underfull \hbox (badness 3612) in paragraph at lines 60--65
-\T1/ptm/m/n/12 (+20) TeV in 2015 and 2016 at CMS.  \T1/ptm/m/it/12 (+20) Eur. P
-hys. J. C\T1/ptm/m/n/12 (+20) , 81(9):800, 2021.
- []
-
-
-Underfull \hbox (badness 2884) in paragraph at lines 60--65
-\T1/ptm/m/n/12 (+20) doi:\T1/cmtt/m/n/12 10.1140/epjc/s10052-021-09538-2\T1/ptm
-/m/n/12 (+20) .  []$\T1/cmtt/m/n/12 https : / / cds . cern . ch / record /
- []
-
-
-Underfull \hbox (badness 2452) in paragraph at lines 92--97
-[]\T1/ptm/m/n/12 (+20) Paul Lu-jan.  Per-for-mance of the Pixel Lu-mi-nos-ity T
-ele-scope for Lu-mi-
- []
-
-[97
+Excluding 'comment' comment. [93] [94] [95]) [96] (./thesis.bbl [97
 
 
 
 
-]
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   S
-l.155 ...esults#Summary_proton_proton_collisions}}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \Hy@tempa.
-<to be read again> 
-                   S
-l.155 ...esults#Summary_proton_proton_collisions}}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-
-Underfull \hbox (badness 5985) in paragraph at lines 153--156
-[]\T1/ptm/m/n/12 (+20) LumiPublicResults: Sum-mary proton-proton col-li-sions, 
-2023.  []$\T1/cmtt/m/n/12 https :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--156
-\T1/cmtt/m/n/12 / / twiki . cern . ch / twiki / bin / view / CMSPublic / LumiPu
-blicResults #
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--166
-\T1/cmtt/m/n/12 813285 / contributions / 3406090 / attachments / 1854474 / 3047
-632 / Orbit .
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 168--172
-[]\T1/ptm/m/n/12 (+20) Gabriella Pasz-tor, Pe-ter Ma-jor.  LUM-POG Meet-ing, Ma
-y 2023.  []$\T1/cmtt/m/n/12 https :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--172
-\T1/cmtt/m/n/12 / / indico . cern . ch / event / 1286308 / contributions / 5407
-486 / attachments /
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 174--179
-[]\T1/ptm/m/n/12 (+20) W. Herr and T. Pieloni.  Beam-Beam Ef-fects.  pages 431-
--459, 2014.
- []
-
-[98]
-Underfull \hbox (badness 10000) in paragraph at lines 190--195
-\T1/cmtt/m/n/12 contributions / 3406100 / attachments / 1856391 / 3049263 / sli
-des _ VdM _ OMC _
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--202
-\T1/cmtt/m/n/12 3406074 / attachments / 1855657 / 3047803 / LumiDays _ 2019 _ M
-Palm _ LHC _ beam _
- []
-
-) [99] (./thesis.ind) (./thesis.aux (./Portada/Portada.aux)
+] [98])
+[99] (./thesis.ind) (./thesis.aux (./Portada/Portada.aux)
 (./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
 (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux)
 (./Chapter7/chapter7.aux))
@@ -2987,13 +2853,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 78E3B82D4E85736506B749012249DB39;9529.
  ) 
 Here is how much of TeX's memory you used:
- 44861 strings out of 478268
- 1033715 string characters out of 5846347
- 1416037 words of memory out of 5000000
- 61409 multiletter control sequences out of 15000+600000
- 607630 words of font info for 412 fonts, out of 8000000 for 9000
+ 44857 strings out of 478268
+ 1033676 string characters out of 5846347
+ 1414944 words of memory out of 5000000
+ 61410 multiletter control sequences out of 15000+600000
+ 607173 words of font info for 408 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,14n,120p,2949b,1011s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,14n,120p,2949b,1103s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
@@ -3007,10 +2873,10 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (107 pages, 28333932 bytes).
+Output written on thesis.pdf (107 pages, 28327476 bytes).
 PDF statistics:
- 1406 PDF objects out of 1440 (max. 8388607)
- 1143 compressed objects within 12 object streams
+ 1436 PDF objects out of 1440 (max. 8388607)
+ 1173 compressed objects within 12 object streams
  314 named destinations out of 1000 (max. 500000)
  135366 words of extra memory for PDF output out of 154059 (max. 10000000)
 
