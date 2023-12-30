@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  30 DEC 2023 00:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  30 DEC 2023 23:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2836,22 +2836,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1355--1356
 
  []
 
-
-Package natbib Warning: Citation `Collaboration:2759074' on page 93 undefined o
-n input line 1359.
-
-
-Package natbib Warning: Citation `Collaboration:2759074' on page 93 undefined o
-n input line 1359.
-
-
-Package natbib Warning: Citation `Collaboration:2759074' on page 93 undefined o
-n input line 1377.
-
-
-Package natbib Warning: Citation `Collaboration:2759074' on page 93 undefined o
-n input line 1377.
-
 Excluding 'comment' comment. [93] [94] [95]) [96] (./thesis.bbl [97
 
 
@@ -2870,13 +2854,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[98]) [99] (./thesis.ind)
-
-Package natbib Warning: There were undefined citations.
-
-(./thesis.aux (./Portada/Portada.aux) (./Abstract/abstract.aux)
-(./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux)
-(./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux) (./Chapter7/chapter7.aux))
+[98]) [99] (./thesis.ind) (./thesis.aux (./Portada/Portada.aux)
+(./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
+(./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux)
+(./Chapter7/chapter7.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2884,10 +2865,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 78E3B82D4E85736506B749012249DB39;9529.
  ) 
 Here is how much of TeX's memory you used:
- 44874 strings out of 478268
- 1034002 string characters out of 5846347
- 1415006 words of memory out of 5000000
- 61422 multiletter control sequences out of 15000+600000
+ 44878 strings out of 478268
+ 1034119 string characters out of 5846347
+ 1416024 words of memory out of 5000000
+ 61425 multiletter control sequences out of 15000+600000
  607289 words of font info for 409 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,14n,120p,2949b,1103s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2904,10 +2885,10 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (107 pages, 28329932 bytes).
+Output written on thesis.pdf (107 pages, 28330514 bytes).
 PDF statistics:
- 1458 PDF objects out of 1728 (max. 8388607)
- 1195 compressed objects within 12 object streams
- 318 named destinations out of 1000 (max. 500000)
+ 1465 PDF objects out of 1728 (max. 8388607)
+ 1200 compressed objects within 12 object streams
+ 319 named destinations out of 1000 (max. 500000)
  135366 words of extra memory for PDF output out of 154059 (max. 10000000)
 

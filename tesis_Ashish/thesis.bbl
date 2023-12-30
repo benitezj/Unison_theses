@@ -185,7 +185,7 @@ A.~Babaev\href {https://arxiv.org/abs/2306.10394}{ {et~al.}, ``{Impact of
   {https://indico.cern.ch/event/813285/contributions/3406074/attachments/1855657/3047803/LumiDays_2019_MPalm_LHC_beam_current_measurement_performance_and_issues.pdf}.
 
 \bibitem{Alici:1427728}
-\href {https://cds.cern.ch/record/1427728}{{Alici, A et al.}, ``{Study of the
+\href {https://cds.cern.ch/record/1427728}{{A Alici, et al.}, ``{Study of the
   LHC ghost charge and satellite bunches for luminosity calibration}'',} 2012.
 \newblock \url {https://cds.cern.ch/record/1427728}.
 
@@ -219,10 +219,11 @@ A.~Babaev\href {https://arxiv.org/abs/2306.10394}{ {et~al.}, ``{Impact of
   Tracker Luminosity Meeting, 7 Aug, 2023.
 \newblock \url {https://indico.cern.ch/event/1313815/}.
 
-\bibitem{collaboration:2759074}
-\href {https://cds.cern.ch/record/2759074}{C.~Collaboration, ``{The Phase-2
-  Upgrade of the CMS Beam Radiation Instrumentation and Luminosity
-  Detectors}'',} technical report, CERN, Geneva, 2021.
+\bibitem{RoyChowdhury:2729279}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{The Phase-2 Upgrade of the CMS Outer
+  Tracker}'',} technical report, CERN, Geneva, 2020.
+\newblock
+  \href{http://dx.doi.org/10.1016/j.nima.2020.164432}{\doi{10.1016/j.nima.2020.164432}}.
 
 \bibitem{CERN-LHCC-2017-009}
 \hrefCMSnoop {}{{CMS} Collaboration, ``{The Phase-2 Upgrade of the CMS
@@ -261,5 +262,10 @@ A.~Sehrawat\href {https://indico.cern.ch/event/879305/}{ {et~al.}, ``{TEPX
 \href {https://indico.cern.ch/event/1011510/}{{Ashish Sehrawat}, ``{Update on
   2x coincidences}''.} BRIL Ph2 Simulations Meeting, 24, feb, {2021}.
 \newblock \url {https://indico.cern.ch/event/1011510/}.
+
+\bibitem{Collaboration:275907420}
+\href {https://cds.cern.ch/record/2759074}{{CMS} Collaboration, ``{The Phase-2
+  Upgrade of the CMS Beam Radiation Instrumentation and Luminosity
+  Detectors}'',} technical report, CERN, Geneva, 2021.
 
 \end{thebibliography}\endgroup
