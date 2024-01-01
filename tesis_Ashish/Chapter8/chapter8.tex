@@ -1,4 +1,4 @@
-\chapter{Future work}  %Title of the First Chapter                                                                                                                             
+\chapter{Summary}  %Title of the First Chapter                                                                                                                             
 
 \ifpdf
     \graphicspath{{Chapter8/Figs/Raster/}{Chapter8/Figs/PDF/}{Chapter8/Figs/}}
@@ -6,11 +6,28 @@
     \graphicspath{{Chapter8/Figs/Vector/}{Chapter8/Figs/}}
 \fi
 
+The research presented in this thesis on the PCC luminometer offers profound insights and advancements in luminosity measurement. The meticulous analysis and improvement in PCC luminosity analysis, including the development of a comprehensive module veto list and innovative calibration techniques, have significantly enhanced the precision of luminosity measurement. The implementation of afterglow correction methodologies addresses residual signals, ensuring the accuracy of the PCC data. Alongside these achievements, this thesis also contributes substantially to the Phase II upgrade of the CMS detector. The Phase II upgrade is a major, multi-year project, currently in its design and development phase, with full operation expected to commence in 2029.
+%This upgrade encompasses the installation of new pixel and strip detectors, a timing layer, and an advanced data acquisition system. The new carbon-fiber support structure for the upgraded tracker, scheduled for installation between 2022 and 2023, is part of this extensive revamp. The period from 2024 to 2026 will see the installation of these new detectors and electronics, followed by a crucial phase of commissioning and testing from 2027 to 2028 to ensure optimal functionality.
+The advancements in the PCC luminometer, combined with the upcoming Phase II upgrades, position the CMS detector at the forefront of particle physics research. The improvements in luminosity measurement techniques and detector capabilities will enable more precise and accurate experiments, paving the way for groundbreaking discoveries in understanding the fundamental forces and particles of our universe. The comprehensive approach and innovative methodologies developed in this thesis are pivotal contributions to the field, enhancing not only current research capabilities but also setting a solid foundation for future explorations in high-energy particle physics.
 
-\section{Summary and Plans} 
-\label{sec:con}
+Chapter 1 of the thesis lays the groundwork for understanding the critical role of luminosity in particle physics, particularly in the Large Hadron Collider (LHC). The chapter highlights ongoing advancements in enhancing luminosity measurement precision, notably through the CMS pixel detector.
 
-\subsection{Summary of the study and its findings}
-\subsection{Limitations and potential improvements of the pixel cluster counting method}
-\subsection{Future work related to luminosity measurement at the LHC}
-\subsection{Conclusion and final remarks}
+In Chapter 2, we provide a comprehensive overview of the methods and technologies used to measure luminosity at the CMS detector. It focuses on various luminosity measurement methods, the role of the pixel detector, and the pixel cluster counting (PCC) method. It details the importance of precise luminosity measurement for understanding particle interactions, the challenges involved, and the advancements made in this field, particularly with the PCC method's implementation and its impact on enhancing the accuracy of luminosity measurements.
+
+In Chapter 3, we discuss the calibration of luminosity measurement devices using the van der Meer (vdM) scan method. It explains the technique developed by Simon van der Meer for relating the detection rate of a luminometer to absolute luminosity. This involves scanning colliding beams across each other and measuring the beam overlap integral, which is proportional to luminosity. The chapter also covers background estimation to account for various sources of noise. Rate is fitted with gaussian plus polynomial model, a fitting function used to fit signal in the vdM calibration process.
+
+In Chapter 4, the results from Run 2 (2017 and 2018) are comprehensively detailed. %For the year 2018, the integrated luminosity was calculated to be \(60.47 \, \text{fb}^{-1}\).
+The visible cross section was accurately determined as \(960.54 \pm 0.85 \, (\text{stat.}) \, \text{mb}\). A total of 155 good pixel modules were selected for the final luminosity measurement. Systematic uncertainties were meticulously quantified, including scan to scan (\(0.3\%\)), bunch to bunch (\(0.1\%\)), afterglow (\(0.3\%\)), linearity (\(0.4\%\)), and cross detector stability (\(0.3\%\)). Work is ongoing to complete this measurement. The total uncertainty is expected to be order of 1\%. 
+
+In Chapter 5, significant results from the PCC luminosity measurement during Run 3 (2022) are outlined. %The chapter reports that the PCC integrated luminosity for 2022 was computed to be \(38.61 \, \text{fb}^{-1}\) .
+Furthermore, a comprehensive analysis of systematic uncertainties in the luminosity measurement for the year 2022 is presented. These uncertainties encompass a range of factors including calibration (1.3\%), integration (0.8\%), and other specific sources such as beam current (0.2\%), orbit drift (0.3\%), and cross-detector linearity (0.54\%), culminating in a total uncertainty of \(1.5\%\).
+
+Chapter 6 of the thesis on the TEPX luminometer for the High Luminosity Large Hadron Collider (HL-LHC) addresses the challenges and solutions in luminosity measurement for the anticipated HL-LHC phase starting in 2029. %With the HL-LHC set to increase instantaneous luminosity to up to 200 proton-proton collisions per bunch crossing, the TEPX luminometer is designed for high-precision, real-time measurement using pixel cluster counting and coincidence counting. This setup enhances accuracy and handles the expected increase in radiation levels, data rates, and event complexity. The TEPX system is noted for its linearity, indicating its effectiveness as a luminometer as the PCC visible cross section remains constant across various luminosity levels.
+Advanced algorithms using dr and $d\phi$ variables effectively manage non-linearity and suppress fake coincidences at high pileup levels, maintaining non-linearity within 1\% across the pileup range. Furthermore, the system achieves high efficiency and low fake rates in complex luminosity conditions. Statistical precision is also emphasized as a critical factor for achieving the targeted 0.1\% accuracy in HL-LHC luminosity measurement.
+
+
+
+
+
+
+

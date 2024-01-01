@@ -219,6 +219,11 @@ A.~Babaev\href {https://arxiv.org/abs/2306.10394}{ {et~al.}, ``{Impact of
   Tracker Luminosity Meeting, 7 Aug, 2023.
 \newblock \url {https://indico.cern.ch/event/1313815/}.
 
+\bibitem{CERN2022}
+\href {https://hilumilhc.web.cern.ch/article/ls3-schedule-change}{{CERN},
+  ``{High Luminosity LHC Project: LS3 schedule change}'',} {07 Mar}, {2022}.
+\newblock \url {https://hilumilhc.web.cern.ch/article/ls3-schedule-change}.
+
 \bibitem{RoyChowdhury:2729279}
 \hrefCMSnoop {}{{CMS} Collaboration, ``{The Phase-2 Upgrade of the CMS Outer
   Tracker}'',} technical report, CERN, Geneva, 2020.
@@ -230,6 +235,11 @@ A.~Babaev\href {https://arxiv.org/abs/2306.10394}{ {et~al.}, ``{Impact of
   Tracker}'',} technical report, CERN, Geneva, 2017.
 \newblock
   \href{http://dx.doi.org/10.17181/CERN.QZ28.FLHW}{\doi{10.17181/CERN.QZ28.FLHW}}.
+
+\bibitem{Collaboration:275907420}
+\href {https://cds.cern.ch/record/2759074}{{CMS} Collaboration, ``{The Phase-2
+  Upgrade of the CMS Beam Radiation Instrumentation and Luminosity
+  Detectors}'',} technical report, CERN, Geneva, 2021.
 
 \bibitem{Collaboration:2706512}
 \href {https://cds.cern.ch/record/2706512}{{CMS} Collaboration, ``{The Phase-2
@@ -247,6 +257,13 @@ A.~Babaev\href {https://arxiv.org/abs/2306.10394}{ {et~al.}, ``{Impact of
   \textit{ Nucl. Instrum. Meth. A} \textbf{ 506} (2003) 250--303,
   \href{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{\doi{10.1016/S0168-9002(03)01368-8}}.
 
+\bibitem{cmssw_2024}
+\href
+  {https://github.com/cms-sw/cmssw/blob/master/RecoLocalTracker/SiPixelClusterizer/plugins/PixelThresholdClusterizer.cc}{{CMS
+  Collaboration}, ``{Pixel cluster reconstruction algorithm}'',} 28 Mar 2006.
+\newblock \url
+  {https://github.com/cms-sw/cmssw/blob/master/RecoLocalTracker/SiPixelClusterizer/plugins/PixelThresholdClusterizer.cc}.
+
 \bibitem{dabrowski2020}
 A.~Sehrawat\href {https://indico.cern.ch/event/879305/}{ {et~al.}, ``{TEPX
   studies}'',} 2020.
@@ -262,10 +279,5 @@ A.~Sehrawat\href {https://indico.cern.ch/event/879305/}{ {et~al.}, ``{TEPX
 \href {https://indico.cern.ch/event/1011510/}{{Ashish Sehrawat}, ``{Update on
   2x coincidences}''.} BRIL Ph2 Simulations Meeting, 24, feb, {2021}.
 \newblock \url {https://indico.cern.ch/event/1011510/}.
-
-\bibitem{Collaboration:275907420}
-\href {https://cds.cern.ch/record/2759074}{{CMS} Collaboration, ``{The Phase-2
-  Upgrade of the CMS Beam Radiation Instrumentation and Luminosity
-  Detectors}'',} technical report, CERN, Geneva, 2021.
 
 \end{thebibliography}\endgroup

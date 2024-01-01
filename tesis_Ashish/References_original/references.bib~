@@ -189,7 +189,8 @@
 
 
 @techreport{Collaboration:275907420,
-      author        = "CMS",
+      author        = "The CMS Collaboration",
+      collaboration = "CMS",
       title         = "{The Phase-2 Upgrade of the CMS Beam Radiation
                        Instrumentation and Luminosity Detectors}",
       institution   = "CERN",
