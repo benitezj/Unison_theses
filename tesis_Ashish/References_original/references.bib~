@@ -1,3 +1,23 @@
+@misc{cmssw_2024,
+  author = "{CMS Collaboration}",
+  title = "{Pixel cluster reconstruction algorithm}",
+  year = {28 Mar 2006},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  url = {https://github.com/cms-sw/cmssw/blob/master/RecoLocalTracker/SiPixelClusterizer/plugins/PixelThresholdClusterizer.cc}
+}
+
+
+
+
+@misc{CERN2022,
+  author = "{CERN}",
+  title = "{High Luminosity LHC Project: LS3 schedule change}",
+  year = "{2022}",
+  month = "{07 Mar}",
+  url = {https://hilumilhc.web.cern.ch/article/ls3-schedule-change}
+}
+
 @misc{BRIL2021,
     author = "{Ashish Sehrawat}",
     title = "{Update on 2x coincidences}",

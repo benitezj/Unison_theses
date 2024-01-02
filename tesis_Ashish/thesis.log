@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  1 JAN 2024 08:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  2 JAN 2024 04:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2406,8 +2406,12 @@ l.1484 \end{itemize}
                     
 Things are pretty mixed up, but I think the worst is over.
 
-Excluding 'comment' comment.) [51 <./ashish_thesis/type1res_gr0p5_1.png>]
-[52]
+Excluding 'comment' comment.
+Overfull \hbox (7.96053pt too wide) in paragraph at lines 1712--1732
+ [][] 
+ []
+
+) [51 <./ashish_thesis/type1res_gr0p5_1.png>] [52]
 \openout2 = `Chapter5/chapter5.aux'.
 
  (./Chapter5/chapter5.tex
@@ -2862,7 +2866,7 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  44914 strings out of 478268
  1035335 string characters out of 5846347
- 1418620 words of memory out of 5000000
+ 1418619 words of memory out of 5000000
  61452 multiletter control sequences out of 15000+600000
  607289 words of font info for 409 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2880,7 +2884,7 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (106 pages, 28351838 bytes).
+Output written on thesis.pdf (106 pages, 28351802 bytes).
 PDF statistics:
  1474 PDF objects out of 1728 (max. 8388607)
  1208 compressed objects within 13 object streams
