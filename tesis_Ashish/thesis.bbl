@@ -33,7 +33,7 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
 
 \bibitem{CMS-PAS-EWK-10-004}
 \href {https://cds.cern.ch/record/1279145}{{CMS} Collaboration, ``{Measurement
-  of CMS Luminosity}'',} technical report, CERN, 1900. Geneva, 1900.
+  of CMS Luminosity}'',} technical report, CERN, 1900. Geneva, 2011.
 
 \bibitem{CMS-PAS-EWK-11-001}
 \href {https://cds.cern.ch/record/1376102}{{CMS} Collaboration, ``{Absolute
@@ -58,13 +58,13 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
   \href{http://www.arXiv.org/abs/2104.01927}{\texttt{arXiv:2104.01927}}.
 
 \bibitem{pas_17}
-\href {https://cds.cern.ch/record/2621960}{{CMS Collaboration} Collaboration,
-  ``{CMS luminosity measurement for the 2017 data-taking period at $\sqrt{s} =
+\href {https://cds.cern.ch/record/2621960}{{CMS} Collaboration, ``{CMS
+  luminosity measurement for the 2017 data-taking period at $\sqrt{s} =
   13~\mathrm{TeV}$}'',} technical report, CERN, Geneva, 2018.
 
 \bibitem{pas_18}
-\href {https://cds.cern.ch/record/2676164}{{CMS Collaboration} Collaboration,
-  ``{CMS luminosity measurement for the 2018 data-taking period at $\sqrt{s} =
+\href {https://cds.cern.ch/record/2676164}{{CMS} Collaboration, ``{CMS
+  luminosity measurement for the 2018 data-taking period at $\sqrt{s} =
   13~\mathrm{TeV}$}'',} technical report, CERN, Geneva, 2019.
 
 \bibitem{wikicern_cc}
@@ -73,11 +73,6 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
   time for 2010-2012 and 2015-2018 (pp data only)'',} 2023.
 \newblock \url
   {https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}.
-
-\bibitem{CMS-PAS-LUM-18-002}
-\href {https://cds.cern.ch/record/2676164}{{CMS} Collaboration, ``{CMS
-  luminosity measurement for the 2018 data-taking period at $\sqrt{s} =
-  13~\mathrm{TeV}$}'',} technical report, CERN, Geneva, 2019.
 
 \bibitem{Lujan:2017kvh}
 \hrefCMSnoop {}{{CMS} Collaboration, ``{Performance of the Pixel Luminosity
@@ -101,6 +96,11 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
   Upgrade}'',} \textit{ JINST} \textbf{ 16} (2021), no.~02, P02027,
   \href{http://dx.doi.org/10.1088/1748-0221/16/02/P02027}{\doi{10.1088/1748-0221/16/02/P02027}},
   \href{http://www.arXiv.org/abs/2012.14304}{\texttt{arXiv:2012.14304}}.
+
+\bibitem{CMS-PAS-LUM-18-002}
+\href {https://cds.cern.ch/record/2676164}{{CMS} Collaboration, ``{CMS
+  luminosity measurement for the 2018 data-taking period at $\sqrt{s} =
+  13~\mathrm{TeV}$}'',} technical report, CERN, Geneva, 2019.
 
 \bibitem{CMS-PAS-LUM-16-001}
 \href {https://cds.cern.ch/record/2235781}{{CMS} Collaboration, ``{CMS
@@ -277,7 +277,7 @@ A.~Sehrawat\href {https://indico.cern.ch/event/879305/}{ {et~al.}, ``{TEPX
 
 \bibitem{BRIL2021}
 \href {https://indico.cern.ch/event/1011510/}{{Ashish Sehrawat}, ``{Update on
-  2x coincidences}''.} BRIL Ph2 Simulations Meeting, 24, feb, {2021}.
+  2x coincidences}''.} BRIL Ph2 Simulations Meeting, 24, Feb, {2021}.
 \newblock \url {https://indico.cern.ch/event/1011510/}.
 
 \end{thebibliography}\endgroup

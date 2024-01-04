@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  4 JAN 2024 04:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  4 JAN 2024 05:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1681,13 +1681,13 @@ Chapter 2.
 
 
 ] [11] [12] [13]
-<ashish_thesis/luminometer_cms.png, id=566, 760.8425pt x 609.27625pt>
+<ashish_thesis/luminometer_cms.png, id=565, 760.8425pt x 609.27625pt>
 File: ashish_thesis/luminometer_cms.png Graphic file (type png)
 <use ashish_thesis/luminometer_cms.png>
 Package pdftex.def Info: ashish_thesis/luminometer_cms.png  used on input line 
 74.
 (pdftex.def)             Requested size: 384.1096pt x 307.60304pt.
-<ashish_thesis/luminometer_cms_pseudo.png, id=569, 687.56876pt x 365.365pt>
+<ashish_thesis/luminometer_cms_pseudo.png, id=568, 687.56876pt x 365.365pt>
 File: ashish_thesis/luminometer_cms_pseudo.png Graphic file (type png)
 <use ashish_thesis/luminometer_cms_pseudo.png>
 Package pdftex.def Info: ashish_thesis/luminometer_cms_pseudo.png  used on inpu
@@ -1695,14 +1695,14 @@ t line 84.
 (pdftex.def)             Requested size: 384.1096pt x 204.10683pt.
  [14 <./ashish_thesis/luminometer_cms.png>] [15 <./ashish_thesis/luminometer_cm
 s_pseudo.png (PNG copy)>]
-<ashish_thesis/phaseI_upgrade_pixel_detector.png, id=588, 1036.37187pt x 282.55
+<ashish_thesis/phaseI_upgrade_pixel_detector.png, id=587, 1036.37187pt x 282.55
 562pt>
 File: ashish_thesis/phaseI_upgrade_pixel_detector.png Graphic file (type png)
 <use ashish_thesis/phaseI_upgrade_pixel_detector.png>
 Package pdftex.def Info: ashish_thesis/phaseI_upgrade_pixel_detector.png  used 
 on input line 102.
 (pdftex.def)             Requested size: 426.79135pt x 116.3616pt.
-<ashish_thesis/silicon_pixel_module.png, id=591, 866.73813pt x 252.945pt>
+<ashish_thesis/silicon_pixel_module.png, id=590, 866.73813pt x 252.945pt>
 File: ashish_thesis/silicon_pixel_module.png Graphic file (type png)
 <use ashish_thesis/silicon_pixel_module.png>
 Package pdftex.def Info: ashish_thesis/silicon_pixel_module.png  used on input 
@@ -2885,7 +2885,7 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (108 pages, 26355965 bytes).
+Output written on thesis.pdf (108 pages, 26355856 bytes).
 PDF statistics:
  1479 PDF objects out of 1728 (max. 8388607)
  1214 compressed objects within 13 object streams
