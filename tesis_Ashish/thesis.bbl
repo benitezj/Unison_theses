@@ -129,11 +129,6 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
   Release Notes}'',} 2023.
 \newblock \url {https://cmssdt.cern.ch/SDT/ReleaseNotes/}.
 
-\bibitem{CMS-PAS-LUM-18-002}
-\hrefCMSnoop {}{{CMS} Collaboration, ``{CMS luminosity measurement for the 2018
-  data-taking period at $\sqrt{s} = 13~\mathrm{TeV}$}'',} 2019,
-  CMS-PAS-LUM-18-002, https://cds.cern.ch/record/2676164.
-
 \bibitem{CERNOribLumi}
 \href
   {https://indico.cern.ch/event/813285/contributions/3406090/attachments/1854474/3047632/Orbit.LumiWS.June19.pdf}{{J.

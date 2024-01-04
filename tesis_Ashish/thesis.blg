@@ -111,45 +111,45 @@ Repeated entry---line 985 of file References_original/references.bib
  : @techreport{pas_18
  :                   ,
 I'm skipping whatever remains of this entry
-You've used 48 entries,
+You've used 47 entries,
             2556 wiz_defined-function locations,
-            922 strings with 13917 characters,
-and the built_in function-call counts, 9466 in all, are:
-= -- 883
-> -- 177
+            920 strings with 13881 characters,
+and the built_in function-call counts, 9319 in all, are:
+= -- 872
+> -- 176
 < -- 1
-+ -- 78
++ -- 77
 - -- 30
-* -- 744
-:= -- 971
-add.period$ -- 84
-call.type$ -- 48
-change.case$ -- 44
+* -- 733
+:= -- 961
+add.period$ -- 83
+call.type$ -- 47
+change.case$ -- 43
 chr.to.int$ -- 0
-cite$ -- 48
-duplicate$ -- 627
-empty$ -- 1284
+cite$ -- 47
+duplicate$ -- 616
+empty$ -- 1258
 format.name$ -- 33
-if$ -- 2437
+if$ -- 2398
 int.to.chr$ -- 0
-int.to.str$ -- 48
+int.to.str$ -- 47
 missing$ -- 17
-newline$ -- 185
+newline$ -- 182
 num.names$ -- 27
-pop$ -- 441
+pop$ -- 428
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 323
+skip$ -- 318
 stack$ -- 0
 substring$ -- 130
-swap$ -- 203
+swap$ -- 201
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 38
-width$ -- 50
-write$ -- 513
+width$ -- 49
+write$ -- 505
 (There were 19 error messages)
