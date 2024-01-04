@@ -32,23 +32,23 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
   \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{\doi{10.1088/1748-0221/3/08/S08004}}.
 
 \bibitem{CMS-PAS-EWK-10-004}
-\href {https://cds.cern.ch/record/1279145}{{CMS} Collaboration, ``{Measurement
-  of CMS Luminosity}'',} technical report, CERN, 1900. Geneva, 2011.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Measurement of CMS Luminosity}'',}
+  2011, CMS-PAS-EWK-10-004, https://cds.cern.ch/record/1279145.
 
 \bibitem{CMS-PAS-EWK-11-001}
-\href {https://cds.cern.ch/record/1376102}{{CMS} Collaboration, ``{Absolute
-  Calibration of Luminosity Measurement at CMS: Summer 2011 Update}'',}
-  technical report, CERN, Geneva, 2011.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Absolute Calibration of Luminosity
+  Measurement at CMS: Summer 2011 Update}'',} 2011, CMS-PAS-EWK-11-001,
+  https://cds.cern.ch/record/1376102.
 
 \bibitem{CMS-PAS-SMP-12-008}
-\href {https://cds.cern.ch/record/1434360}{{CMS} Collaboration, ``{Absolute
-  Calibration of the Luminosity Measurement at CMS: Winter 2012 Update}'',}
-  technical report, CERN, Geneva, 2012.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Absolute Calibration of the Luminosity
+  Measurement at CMS: Winter 2012 Update}'',} 2012, CMS-PAS-SMP-12-008,
+  https://cds.cern.ch/record/1434360.
 
 \bibitem{CMS-PAS-LUM-13-001}
-\href {https://cds.cern.ch/record/1598864}{{CMS} Collaboration, ``{CMS
-  Luminosity Based on Pixel Cluster Counting - Summer 2013 Update}'',}
-  technical report, CERN, Geneva, 2013.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{CMS Luminosity Based on Pixel Cluster
+  Counting - Summer 2013 Update}'',} 2013, CMS-PAS-LUM-13-001,
+  https://cds.cern.ch/record/1598864.
 
 \bibitem{Sirunyan:2759951}
 \hrefCMSnoop {}{{CMS} Collaboration, ``{Precision luminosity measurement in
@@ -58,14 +58,14 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
   \href{http://www.arXiv.org/abs/2104.01927}{\texttt{arXiv:2104.01927}}.
 
 \bibitem{pas_17}
-\href {https://cds.cern.ch/record/2621960}{{CMS} Collaboration, ``{CMS
-  luminosity measurement for the 2017 data-taking period at $\sqrt{s} =
-  13~\mathrm{TeV}$}'',} technical report, CERN, Geneva, 2018.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{CMS luminosity measurement for the 2017
+  data-taking period at $\sqrt{s} = 13~\mathrm{TeV}$}'',} 2018,
+  CMS-PAS-LUM-17-004, https://cds.cern.ch/record/2621960.
 
 \bibitem{pas_18}
-\href {https://cds.cern.ch/record/2676164}{{CMS} Collaboration, ``{CMS
-  luminosity measurement for the 2018 data-taking period at $\sqrt{s} =
-  13~\mathrm{TeV}$}'',} technical report, CERN, Geneva, 2019.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{CMS luminosity measurement for the 2018
+  data-taking period at $\sqrt{s} = 13~\mathrm{TeV}$}'',} 2019,
+  CMS-PAS-LUM-18-002, https://cds.cern.ch/record/2676164.
 
 \bibitem{wikicern_cc}
 \href {https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}{{CMS
@@ -98,19 +98,19 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
   \href{http://www.arXiv.org/abs/2012.14304}{\texttt{arXiv:2012.14304}}.
 
 \bibitem{CMS-PAS-LUM-18-002}
-\href {https://cds.cern.ch/record/2676164}{{CMS} Collaboration, ``{CMS
-  luminosity measurement for the 2018 data-taking period at $\sqrt{s} =
-  13~\mathrm{TeV}$}'',} technical report, CERN, Geneva, 2019.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{CMS luminosity measurement for the 2018
+  data-taking period at $\sqrt{s} = 13~\mathrm{TeV}$}'',} 2019,
+  CMS-PAS-LUM-18-002, https://cds.cern.ch/record/2676164.
 
 \bibitem{CMS-PAS-LUM-16-001}
-\href {https://cds.cern.ch/record/2235781}{{CMS} Collaboration, ``{CMS
-  Luminosity Calibration for the pp Reference Run at
-  $\sqrt{s}=5.02~\mathrm{TeV}$}'',} technical report, CERN, Geneva, 2016.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{CMS Luminosity Calibration for the pp
+  Reference Run at $\sqrt{s}=5.02~\mathrm{TeV}$}'',} 2016, CMS-PAS-LUM-16-001,
+  https://cds.cern.ch/record/2235781.
 
 \bibitem{vanderMeer1968}
-\href {https://cds.cern.ch/record/296752?ln=en}{S.~van~der Meer, ``{Calibration
-  of the Effective Beam Height in the ISR}'',} Technical Report
-  CERN-ISR-PO/68-31, CERN, Geneva, 1968.
+\hrefCMSnoop {}{S.~van~der Meer, ``{Calibration of the Effective Beam Height in
+  the ISR}'',} 1968, CERN-ISR-PO/68-31,
+  https://cds.cern.ch/record/296752?ln=en.
 
 \bibitem{karacheban2017luminosity}
 \href
@@ -119,9 +119,9 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
 \newblock \url {https://inspirehep.net/files/8d8d8093e6a9771eeb441c6527f6822c}.
 
 \bibitem{CMS-PAS-LUM-17-004}
-\href {https://cds.cern.ch/record/2621960}{{CMS} Collaboration, ``{CMS
-  luminosity measurement for the 2017 data-taking period at $\sqrt{s} =
-  13~\mathrm{TeV}$}'',} technical report, CERN, Geneva, 2018.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{CMS luminosity measurement for the 2017
+  data-taking period at $\sqrt{s} = 13~\mathrm{TeV}$}'',} 2018,
+  CMS-PAS-LUM-17-004, https://cds.cern.ch/record/2621960.
 
 \bibitem{Cekmecelioglu:2775639}
 \href {https://cds.cern.ch/record/2775639}{Y.~C. Cekmecelioglu, ``{Calibration
@@ -195,6 +195,13 @@ A.~Babaev\href {https://arxiv.org/abs/2306.10394}{ {et~al.}, ``{Impact of
   Authors Meeting, {2023}.
 \newblock \url {https://indico.cern.ch/event/1316986/}.
 
+\bibitem{Hayrapetyan:2870088}
+\href {https://cds.cern.ch/record/2870088}{{CMS} Collaboration, ``{Development
+  of the CMS detector for the CERN LHC Run 3}'',} technical report, CERN,
+  Geneva, 2023.
+\newblock
+  \href{http://www.arXiv.org/abs/2309.05466}{\texttt{arXiv:2309.05466}}.
+
 \bibitem{bril2023moduleveto}
 \href {https://indico.cern.ch/event/1310080/}{{Ashish Sehrawat and Jose
   Feliciano Benitez}, ``{2022 Module Veto}''.} {BRIL Tracker Luminosity
@@ -239,12 +246,14 @@ A.~Babaev\href {https://arxiv.org/abs/2306.10394}{ {et~al.}, ``{Impact of
 \bibitem{Collaboration:275907420}
 \href {https://cds.cern.ch/record/2759074}{{CMS} Collaboration, ``{The Phase-2
   Upgrade of the CMS Beam Radiation Instrumentation and Luminosity
-  Detectors}'',} technical report, CERN, Geneva, 2021.
+  Detectors}'',} technical report, CERN, Geneva, 2021,
+  https://cds.cern.ch/record/2759074.
 
 \bibitem{Collaboration:2706512}
 \href {https://cds.cern.ch/record/2706512}{{CMS} Collaboration, ``{The Phase-2
   Upgrade of the CMS Beam Radiation, Instrumentation, and Luminosity Detectors:
-  Conceptual Design}'',} technical report, CERN, Geneva, 2020.
+  Conceptual Design}'',} technical report, CERN, Geneva, 2020,
+  https://cds.cern.ch/record/2706512.
 
 \bibitem{Haranko2023}
 \href {https://indico.cern.ch/event/997208/}{M.~Haranko, ``{TEPX as the new
@@ -279,5 +288,15 @@ A.~Sehrawat\href {https://indico.cern.ch/event/879305/}{ {et~al.}, ``{TEPX
 \href {https://indico.cern.ch/event/1011510/}{{Ashish Sehrawat}, ``{Update on
   2x coincidences}''.} BRIL Ph2 Simulations Meeting, 24, Feb, {2021}.
 \newblock \url {https://indico.cern.ch/event/1011510/}.
+
+\bibitem{sehrawat2022optimisation}
+\hrefCMSnoop {}{A.~Sehrawat, ``{Optimisation of the CMS Tracker Endcap Pixel
+  Detector as a Precision Luminometer and Background Monitor at the HL-LHC}'',}
+  in \textit{ Proceedings of the European Physical Society Conference on High
+  Energy Physics (EPS-HEP2021)}, volume 398, p.~Article No. 744, European
+  Physical Society.
+\newblock 2022.
+\newblock Published on May 12, 2022.
+  \href{http://dx.doi.org/10.22323/1.398.0744}{\doi{10.22323/1.398.0744}}.
 
 \end{thebibliography}\endgroup

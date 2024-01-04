@@ -12,93 +12,143 @@ A level-1 auxiliary file: Chapter7/chapter7.aux
 A level-1 auxiliary file: Chapter8/chapter8.aux
 The style file: cms_unsrt.bst
 Database file #1: References_original/references.bib
-Repeated entry---line 325 of file References_original/references.bib
+You're missing a field name---line 303 of file References_original/references.bib
+ :       
+ :       %url           = "https://cds.cern.ch/record/1279145",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 315 of file References_original/references.bib
+ :       
+ :       %url           = "https://cds.cern.ch/record/1376102",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 328 of file References_original/references.bib
+ :       
+ :       %url           = "https://cds.cern.ch/record/1598864",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 350 of file References_original/references.bib
  : %@article{Sirunyan:2759951
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 480 of file References_original/references.bib
- : @techreport{CMS-PAS-LUM-15-001
- :                               ,
+You're missing a field name---line 383 of file References_original/references.bib
+ :       
+ :       %url           = "https://cds.cern.ch/record/2676164",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 395 of file References_original/references.bib
+ :       
+ :       %url           = "https://cds.cern.ch/record/1434360",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 500 of file References_original/references.bib
+ :       
+ :       %url           = "https://cds.cern.ch/record/2235781",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 505 of file References_original/references.bib
+ : @misc{CMS-PAS-LUM-15-001
+ :                         ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 525 of file References_original/references.bib
+ :     
+ :     %url = "https://cds.cern.ch/record/296752?ln=en",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 539 of file References_original/references.bib
+ :       
+ :       %url           = {https://cds.cern.ch/record/2621960},
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "Cekmecelioglu:2775639" isn't style-file defined
---line 518 of file References_original/references.bib
+--line 543 of file References_original/references.bib
 Warning--string name "cern" is undefined
---line 529 of file References_original/references.bib
+--line 554 of file References_original/references.bib
+You're missing a field name---line 578 of file References_original/references.bib
+ :       
+ :       %url           = {https://cds.cern.ch/record/2676164},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--string name "cern" is undefined
---line 558 of file References_original/references.bib
-You're missing a field name---line 690 of file References_original/references.bib
+--line 583 of file References_original/references.bib
+You're missing a field name---line 715 of file References_original/references.bib
  :   
  :   %author = {Jose Feliciano Benitez and Luis Enrique Cuevas Picos and Sam Higginbotham},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 705 of file References_original/references.bib
- :   
- :   %author = {Antonio Paredes Sotelo and Jose Feliciano Benitez and Sam Higginbotham},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 718 of file References_original/references.bib
- :   
- :   %author = {Antonio Paredes Sotelo and Jose Feliciano Benitez and Sam Higginbotham},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 You're missing a field name---line 730 of file References_original/references.bib
+ :   
+ :   %author = {Antonio Paredes Sotelo and Jose Feliciano Benitez and Sam Higginbotham},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 743 of file References_original/references.bib
+ :   
+ :   %author = {Antonio Paredes Sotelo and Jose Feliciano Benitez and Sam Higginbotham},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 755 of file References_original/references.bib
  :   
  :   %title = {2022 Veto List},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 740 of file References_original/references.bib
+You're missing a field name---line 765 of file References_original/references.bib
  :   
  :   %author = {Antonio Paredes Sotelo and Jose Feliciano Benitez and Sam Higginbotham},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 790 of file References_original/references.bib
+I was expecting a `,' or a `}'---line 815 of file References_original/references.bib
  : 
  : @article{Atlas_Exp_2008,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 967 of file References_original/references.bib
+You're missing a field name---line 979 of file References_original/references.bib
+ :       
+ :       %url           = "https://cds.cern.ch/record/2621960",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 992 of file References_original/references.bib
  : @techreport{pas_18
  :                   ,
 I'm skipping whatever remains of this entry
-You've used 47 entries,
+You've used 49 entries,
             2556 wiz_defined-function locations,
-            912 strings with 13307 characters,
-and the built_in function-call counts, 8848 in all, are:
-= -- 834
-> -- 176
+            927 strings with 14109 characters,
+and the built_in function-call counts, 9663 in all, are:
+= -- 898
+> -- 182
 < -- 1
-+ -- 77
-- -- 30
-* -- 751
-:= -- 982
-add.period$ -- 79
-call.type$ -- 47
-change.case$ -- 51
++ -- 80
+- -- 31
+* -- 760
+:= -- 999
+add.period$ -- 85
+call.type$ -- 49
+change.case$ -- 45
 chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 584
-empty$ -- 1174
-format.name$ -- 33
-if$ -- 2236
+cite$ -- 49
+duplicate$ -- 643
+empty$ -- 1312
+format.name$ -- 34
+if$ -- 2486
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 19
-newline$ -- 179
-num.names$ -- 27
-pop$ -- 347
+int.to.str$ -- 49
+missing$ -- 20
+newline$ -- 188
+num.names$ -- 28
+pop$ -- 449
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 244
+skip$ -- 324
 stack$ -- 0
-substring$ -- 100
-swap$ -- 171
+substring$ -- 130
+swap$ -- 206
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 37
-width$ -- 49
-write$ -- 524
-(There were 9 error messages)
+while$ -- 39
+width$ -- 51
+write$ -- 523
+(There were 19 error messages)
