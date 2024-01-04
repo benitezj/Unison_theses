@@ -91,12 +91,6 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
   \href{http://dx.doi.org/10.1088/1748-0221/16/02/P02027}{\doi{10.1088/1748-0221/16/02/P02027}},
   \href{http://www.arXiv.org/abs/2012.14304}{\texttt{arXiv:2012.14304}}.
 
-\bibitem{CMS-PAS-LUM-15-001}
-\href {https://cds.cern.ch/record/2041834}{{CMS Collaboration}, ``{Measurement
-  of Luminosity using the CMS Hadron Forward Calorimeters in pp Collisions at
-  $\sqrt{s} = 13$ TeV}'',} \textit{ CMS Physics Analysis Summary} (2015),
-  no.~CMS-PAS-LUM-15-001,.
-
 \bibitem{CMS-PAS-LUM-16-001}
 \hrefCMSnoop {}{{CMS} Collaboration, ``{CMS Luminosity Calibration for the pp
   Reference Run at $\sqrt{s}=5.02~\mathrm{TeV}$}'',} 2016, CMS-PAS-LUM-16-001,
