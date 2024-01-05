@@ -191,29 +191,10 @@ A.~Babaev\href {https://arxiv.org/abs/2306.10394}{ {et~al.}, ``{Impact of
 \newblock
   \href{http://www.arXiv.org/abs/2309.05466}{\texttt{arXiv:2309.05466}}.
 
-\bibitem{bril2023moduleveto}
-\href {https://indico.cern.ch/event/1310080/}{{Ashish Sehrawat and Jose
-  Feliciano Benitez}, ``{2022 Module Veto}''.} {BRIL Tracker Luminosity
-  Meeting}, 24 July, 2023.
-\newblock \url {https://indico.cern.ch/event/1310080/}.
-
-\bibitem{bril2023vdmrecalibration}
-\href {https://indico.cern.ch/event/1313815/}{J.~F. Benitez and L.~E.
-  Cuevas~Picos, ``{2022 vdM Recalibration}''.} BRIL Tracker Luminosity Meeting,
-  Aug, 2023.
-\newblock \url {https://indico.cern.ch/event/1313815/}.
-
-\bibitem{bril2023afterglow}
-\href {https://indico.cern.ch/event/1288108/}{A.~Sehrawat and J.~F. Benitez,
-  ``{Afterglow Correction Studies}''.} BRIL Tracker Luminosity Meeting, 22 May,
-  2023.
-\newblock \url {https://indico.cern.ch/event/1288108/}.
-
-\bibitem{bril2023randomzerobias}
-\href {https://indico.cern.ch/event/1313815/}{A.~Sehrawat, J.~F. Benitez, and
-  L.~E. Cuevas~Picos, ``{2022 Random and ZeroBias Data Reprocessing}''.} BRIL
-  Tracker Luminosity Meeting, 7 Aug, 2023.
-\newblock \url {https://indico.cern.ch/event/1313815/}.
+\bibitem{pas_22}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{CMS luminosity measurement for the 2022
+  data-taking period at $\sqrt{s} = 13.6~\mathrm{TeV}$}'',} 2023, CMS PAS
+  LUM-22-001.
 
 \bibitem{CERN2022}
 \href {https://hilumilhc.web.cern.ch/article/ls3-schedule-change}{{CERN},
