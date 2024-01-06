@@ -31,15 +31,15 @@
 \contentsline {section}{\numberline {5.4}Luminosity for physics fills}{61}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Afterglow background corrections}{62}{subsection.5.4.1}%
 \contentsline {section}{\numberline {5.5}PCC instantaneous and integrated luminosity}{64}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Systematic uncertainties}{66}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}vdM calibration uncertainties}{66}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}Integration uncertainties}{69}{subsection.5.6.2}%
-\contentsline {chapter}{\numberline {6}TEPX luminometer for HL-LHC}{76}{chapter.6}%
-\contentsline {section}{\numberline {6.1}TEPX Luminometer}{79}{section.6.1}%
-\contentsline {section}{\numberline {6.2}TEPX Luminomter Simulation}{80}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Linearity of TEPX clusters}{82}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}TEPX two-fold coincidences}{83}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}TEPX three-fold coincidences}{91}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}Statistical precision}{94}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Summary}{95}{chapter.7}%
-\contentsline {chapter}{References}{97}{chapter*.98}%
+\contentsline {section}{\numberline {5.6}Systematic uncertainties}{65}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}vdM calibration uncertainties}{65}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Integration uncertainties}{68}{subsection.5.6.2}%
+\contentsline {chapter}{\numberline {6}TEPX luminometer for HL-LHC}{75}{chapter.6}%
+\contentsline {section}{\numberline {6.1}TEPX Luminometer}{78}{section.6.1}%
+\contentsline {section}{\numberline {6.2}TEPX Luminomter Simulation}{79}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Linearity of TEPX clusters}{81}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}TEPX two-fold coincidences}{82}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}TEPX three-fold coincidences}{90}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Statistical precision}{93}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Summary}{94}{chapter.7}%
+\contentsline {chapter}{References}{96}{chapter*.98}%
