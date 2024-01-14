@@ -1,6 +1,6 @@
 \thispagestyle {empty}
-\contentsline {chapter}{List of figures}{v}{section*.2}%
-\contentsline {chapter}{List of tables}{viii}{section*.3}%
+\contentsline {chapter}{List of figures}{vii}{section*.3}%
+\contentsline {chapter}{List of tables}{x}{section*.4}%
 \contentsline {chapter}{\numberline {1}Introduction to collider experiments}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Luminosity and its importance in particle physics}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Motivation for precision luminosity measurement}{2}{section.1.2}%
@@ -42,4 +42,4 @@
 \contentsline {subsection}{\numberline {6.2.3}TEPX three-fold coincidences}{90}{subsection.6.2.3}%
 \contentsline {section}{\numberline {6.3}Statistical precision}{93}{section.6.3}%
 \contentsline {chapter}{\numberline {7}Summary}{94}{chapter.7}%
-\contentsline {chapter}{References}{96}{chapter*.98}%
+\contentsline {chapter}{References}{96}{chapter*.99}%
