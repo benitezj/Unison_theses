@@ -1136,9 +1136,9 @@ Table \ref{tab:sigmavis_btob_values} provides statistical data of the PCC visibl
 
 \begin{table}[h]
   \centering
-  \caption[$\sigma_{vis}$ bunch variation uncertainty]{Bunch to bunch variation of PCC visible cross section. The “bunch spread” is determined as the standard deviation (STD) of the bunches divided by the mean.}
+  \caption[$\sigma_{vis}$ bunch variation uncertainty]{Bunch to bunch variation of PCC visible cross section. The “bunch spread” is determined as the standard deviation (STD) of the bunches divided by the mean. SEM is the standard error on the mean}
 \begin{tabular}{cccccc}
-\textbf{Scan} & \textbf{Mean} & \textbf{STD} & \textbf{(STD/Mean) [\%]} \\
+\textbf{Scan} & \textbf{Mean} & \textbf{STD} & \textbf{(SEM/$\sigma_{vis}$) [\%]} \\
 \hline
 vdM1 & 953621.33 & 1334.83 & 0.14 \\
 Img1 & 959386.63 & 559.37 & 0.058 \\
@@ -1737,20 +1737,22 @@ Total & -- & 2.47 & 0.739 \\
 \begin{tabular}{cccc}
   \textbf{}&\textbf{Systematics} &\textbf{Uncertainty [\%]} \\
 \hline
-Normalization  & Length scale & -  \\
- & Orbit drift &  -  \\
- & x-y nonfactorization & - \\
- & Beam-beam deflection + Dynamic $\beta^{*}$  & - \\
- & Beam current calibration  & - \\
- & Ghost and satellite & - \\
+Normalization  & Length scale & 0.2  \\
+ & Orbit drift &  0.1  \\
+ & x-y nonfactorization & 2.0 \\
+ & Beam-beam deflection + Dynamic $\beta^{*}$  & 0.2 \\
+ & Beam current calibration  & 0.2 \\
+ & Ghost and satellite & 0.1 \\
  & Scan to scan variation & 0.3 \\
  & Bunch to bunch variation & 0.1 \\
  & Cross detector consistency  & 0.5 \\
- & Background subtraction  & 0.1 \\
+& Background subtraction  & 0.1 \\
+\hline
 Integration & Afterglow  &  0.3 \\
  & Cross detector stability & 0.3 \\
- & Linearity  & 0.4 \\
-%Total &  &  1.08 \\
+& Linearity  & 0.4 \\
+\hline
+Total &  &  2.2 \\
 \end{tabular}
 %\caption[Systematic uncertainty]{Systematic uncertainty during calibration and physics data taking for PAS and final veto.}
 \label{tab:systematic-uncertainty}

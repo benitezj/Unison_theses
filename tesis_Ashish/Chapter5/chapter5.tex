@@ -96,9 +96,9 @@ For module evaluation, the steps include:
 \begin{enumerate}
     \item Lumi sections with low statistics are removed based on total PCC.
     \item All barrel Layer-0 modules are sidestepped due to their vulnerability to dynamic inefficiency.
-    \item An intial filtering removes modules with 7\% average deviation of the module weight from its mean (shown in Fig. \ref{fig:stab_deviation_2022}). %Subsequent adjustments tighten this criterion, illustrated by further refinements to 2\% and 0.8\% respectively.
+    \item An intial filtering removes modules with 2\% average deviation of the module weight from its mean (shown in Fig. \ref{fig:stab_deviation_2022}). %Subsequent adjustments tighten this criterion, illustrated by further refinements to 2\% and 0.8\% respectively.
 
-    \item Module stability is reviewed using an iterative method. In the case of the 2022F dataset, we introduce additional criteria at 2\% and 0.8\%. For different data periods, the specific values used depend on how good the initial module list is.
+    \item Module stability is reviewed using an iterative method. In the case of the 2022F dataset, we introduce additional criteria of 0.8\%. For different data periods, the specific values used depend on how good the initial module list is.
 
     \item The selection of modules based on their linearity relies on assessing the average deviation of the module weight v.s. the average PCC per module (shown in Fig. \ref{fig:lin_deviation_2022}). This process typically requires either one or two iterations. To illustrate, during the 2022F period, we first apply a 0.4\% selection criterion, followed by a more stringent 0.25\% selection.
 
@@ -157,7 +157,10 @@ For module evaluation, the steps include:
 
 %This process is iterative, employing different selection thresholds at each stage to systematically identify and exclude bad modules. Figure \ref{fig:period_bound_4} illustrates the RMS over mean module weight distribution, after second iterative selection step have been completed. Here, a stricter selection criterion of 4\% is applied. This means that any modules with an RMS to mean ratio exceeding 4\%, even after all previous selection stages, are added to the veto list for each period. These modules' data are excluded from the luminosity measurements for their respective period. Table \ref{tab:bad_modules} delivers a comprehensive rundown of omitted modules for the 2022 dataset.  %The entire process, as depicted in these figures, is intended to ensure that the PCC luminosity measurement rely solely on data from the most stable and reliable modules, thereby enhancing the accuracy and precision of these measurement.
 
-Table \ref{tab:bad_modules} presents a quantitative summary of malfunctioning or "bad" modules across various periods. BPIX Layer0 has 96 bad modules. As we progress through the various periods in 2022 (from F to D), there is a general trend of increasing bad modules, both for stability and linearity considerations. This suggests that as time progresses, the number of malfunctioning modules tends to grow. The highest number of bad modules for stability is observed in the 2022D period with 1653 bad modules. On the other hand, the 2022D period also has the highest for linearity with 1677 bad modules. The vdM fill has 1693 bad modules, which is slightly higher than those in the 2022D period for stability but slightly less for linearity. There seems to be a consistent observation that for each given period, the number of bad modules under linearity considerations is either equal to or slightly higher than those under stability considerations \cite{pas_22}. % \cite{bril2023moduleveto}.
+Table \ref{tab:bad_modules} presents a quantitative summary of malfunctioning or "bad" modules across various periods. BPIX Layer0 has 96 bad modules. As we progress through the various periods in 2022 (from F to D), there is a general trend of increasing bad modules, both for stability and linearity considerations. The total number of bad modules  added to the veto list grows in each period due to the sequential or iterative nature of the procedure where the veto list for each period starts with the veto from the previous period \cite{pas_22}.
+
+
+This suggests that as time progresses, the number of malfunctioning modules tends to grow. The highest number of bad modules for stability is observed in the 2022D period with 1653 bad modules. On the other hand, the 2022D period also has the highest for linearity with 1677 bad modules. The vdM fill has 1693 bad modules, which is slightly higher than those in the 2022D period for stability but slightly less for linearity. There seems to be a consistent observation that for each given period, the number of bad modules under linearity considerations is either equal to or slightly higher than those under stability considerations \cite{pas_22}. % \cite{bril2023moduleveto}.
 
 \begin{table}[h]
   \centering
@@ -351,7 +354,6 @@ vdM fill & 1693 \\
   \label{fig:stabprof_69}
 \end{figure}
 
-
 \end{comment}
 
 \newpage
@@ -513,7 +515,7 @@ The Fill cycle in Run 3 includes a leveling part in order to control the very hi
 Corrections are introduced to the PCC measurement to mitigate background effects. The considered background contributions for physics fills are:
 
 \begin{itemize}
-    \item \textbf{Pedestal}: Represents a consistent noise in the pixel cluster count.
+    %\item \textbf{Pedestal}: Represents a consistent noise in the pixel cluster count.
     
     \item \textbf{Afterglow (Out-of-time counts)}:
     \begin{itemize}
@@ -666,9 +668,30 @@ Type 2 residual as a function of instantaneous luminosity for period 2022F. Thes
 
 \newpage
 Background estimations are obtained from the Random trigger datasets, processed in 50 LS blocks. The corrections, determined from these backgrounds, are subsequently applied to the zero-bias data. %Post-fitting residuals help in verifying the accuracy of the process.
-While Type 1 residuals are minimal, Type 2 shows a slight deviation of around 0.2\%.
+While Type 1 residuals are minimal, Type 2 shows a slight deviation of around 0.2\% as shown in Fig. \ref{fig:period_bound_45}.
 
-Comparable patterns are observed for 2022 periods E, F and G. During periods C and D, data was limited to the "AlCALumiPixelsEXPRESS" stream with an outdated module selection. Consequently, direct re-evaluation became unfeasible. As a solution, stored afterglow corrections, bolstered by a 1.008 factor from period E data, were applied.
+Comparable patterns are observed for 2022 periods E, F and G. During periods C and D, data was limited to the "AlCALumiPixelsEXPRESS" stream with an outdated module selection. Consequently, direct re-evaluation became unfeasible. As a solution, stored afterglow corrections evaluated in the CMS prompt calibration stage, corrected by a factor 1.008 from period E data, were applied.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/afterglow_t1res_vsinstlumi_1.png}
+\caption[2022 PCC Type 1 Afterglow Residuals]{%                                                                                                                                                                             
+ PCC afterglow correction type 1 residual as a function of instantaneous luminosity for period Run 2022F. The residual fraction is given by the ratio of the luminosity of the first empty bunch immediately following a colliding bunch to the luminosity of the colliding bunch.
+
+}
+\label{fig:period_bound_44}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/afterglow_t2res_vsinstlumi_1.png}
+\caption[2022 PCC Type 2 Afterglow Residuals]{%
+  Type 2 residual as a function of instantaneous luminosity for period 2022F. These are given by the ratio of the luminosity of the second and following empty bunches after a colliding bunch to the luminosity of the colliding bunch.
+}
+\label{fig:period_bound_45}
+\end{figure}
 
 \section{PCC instantaneous and integrated luminosity}
 
@@ -676,7 +699,7 @@ PCC instantaneous luminosity provides a measure of the collider performance and 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{ashish_thesis/PCClumivslumisection_2022.png}
+\includegraphics[width=0.9\textwidth]{ashish_thesis/PCClumivslumisection_2022.png}
 \caption[2022 PCC Inst. Luminosity]{%
   PCC instantaneous luminosity as a function of lumi section for entire 2022 year.
   
@@ -684,7 +707,7 @@ PCC instantaneous luminosity provides a measure of the collider performance and 
 \label{fig:period_bound_1000045}
 \end{figure}
 
-\newpage
+
 \section{Systematic uncertainties}
 
 Various sources of systematic uncertainty come into play, affecting the precision of the results. These uncertainties arise from factors such as detector calibrations, alignment, temporal drifts in the detector response, modeling of the beam conditions, and potential nonlinearities in the detector response. Each of these factors necessitates careful calibration, modeling, and validation processes to ensure the highest accuracy in the luminosity measurement. %Addressing these systematic uncertainties is pivotal for the CMS collaboration to draw meaningful and reliable conclusions from its data.
@@ -765,9 +788,9 @@ If significant variations are observed, it may be necessary to adjust the analys
 
 \begin{table}[!htp]
   \centering
-  \caption[Bunch uncertainty]{Bunch to bunch variation of visible cross section. $N_b$ is the number of bunches in the vdM scan.}
+  \caption[Bunch uncertainty]{Bunch to bunch variation of visible cross section (as shown in Fig. \ref{fig:period_bound_99}). $N_b$ is the number of bunches in the vdM scan. SEM is the standard error on the mean.}
 \begin{tabular}{cccc}
-\textbf{Scan} & \textbf{$\sigma_{vis}$ [mb]} & \textbf{RMS [mb]} & $\frac{\frac{\textbf{RMS}}{\sqrt{N_b}}}{\sigma_{\textbf{vis}}}$ [\%] \\
+\textbf{Scan} & \textbf{$\sigma_{vis}$ [mb]} & \textbf{RMS [mb]} & (SEM/$\sigma_{vis}$) [\%] \\
 \hline
 vdM1 & 1065.09 & 2.89 & 0.1286 \\
 Img1 & 1070.14 & 3.94 & 0.1746 \\
@@ -778,6 +801,8 @@ vdM4 & 1080.37 & 2.09 & 0.0920 \\
 \label{tab:my_label}
 %\caption{Bunch to bunch variation of visible cross section. $N_b$ is the number of bunches in the vdM scan.}
 \end{table}
+
+%$\frac{\frac{\textbf{RMS}}{\sqrt{N_b}}}{\sigma_{\textbf{vis}}}$
 
 
 \newpage
@@ -852,8 +877,6 @@ vdM4 & 1080.37 & 2.09 & 0.0920 \\
     %\caption{PCC background rate for five BCIDs during super separation scans 1 and 2. Average PCC background rate is calculated by averaging over all five BCIDs.}
     \label{table:side_by_side}
 \end{table}
-
-
 
 
 %\begin{comment}
@@ -1020,25 +1043,25 @@ The left plot in figure \ref{fig:stabprof2_2000} provides a comparison of the li
 %\label{fig:period_bound_44}
 %\end{figure}
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=1\textwidth]{ashish_thesis/afterglow_t1res_vsinstlumi_1.png}
-\caption[2022 PCC Type 1 Afterglow Residuals]{%                                                                                                                                                                             
- PCC afterglow correction type 1 residual as a function of instantaneous luminosity for period Run 2022F. The residual fraction is given by the ratio of the luminosity of the first empty bunch immediately following a colliding bunch to the luminosity of the colliding bunch.
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=1\textwidth]{ashish_thesis/afterglow_t1res_vsinstlumi_1.png}
+%\caption[2022 PCC Type 1 Afterglow Residuals]{%                                                                                                                                                                             
+ %PCC afterglow correction type 1 residual as a function of instantaneous luminosity for period Run 2022F. The residual fraction is given by the ratio of the luminosity of the first empty bunch immediately following a colliding bunch to the luminosity of the colliding bunch.
 
-}
-\label{fig:period_bound_44}
-\end{figure}
+%}
+%\label{fig:period_bound_44}
+%\end{figure}
 
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=1\textwidth]{ashish_thesis/afterglow_t2res_vsinstlumi_1.png}
-\caption[2022 PCC Type 2 Afterglow Residuals]{%
-  Type 2 residual as a function of instantaneous luminosity for period 2022F. These are given by the ratio of the luminosity of the second and following empty bunches after a colliding bunch to the luminosity of the colliding bunch.
-}
-\label{fig:period_bound_45}
-\end{figure}
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=1\textwidth]{ashish_thesis/afterglow_t2res_vsinstlumi_1.png}
+%\caption[2022 PCC Type 2 Afterglow Residuals]{%
+ % Type 2 residual as a function of instantaneous luminosity for period 2022F. These are given by the ratio of the luminosity of the second and following empty bunches after a colliding bunch to the luminosity of the colliding bunch.
+%}
+%\label{fig:period_bound_45}
+%\end{figure}
 
 \end{itemize}
 
