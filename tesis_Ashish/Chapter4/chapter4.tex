@@ -264,7 +264,7 @@ Simulation: CMSSW integrates several external tools and libraries, such as the G
 
 \section{Detector module selection}
 
-The goal of minimizing instabilities in PCC luminosity measurement is to ensure precise and consistent results. To achieve this, a pixel module veto list is created for each period to keep track of  bad modules. The stability of each module is determined based on the change in the ratio of module PCC and total PCC, referred to as the module weight as shown in Fig. \ref{fig:mod_weight}.
+The goal of minimizing instabilities in PCC luminosity measurement is to ensure precise and consistent results. To achieve this, a pixel module veto list is created for each period to keep track of  bad modules. The stability of each module is determined based on the change in the ratio of module PCC and total PCC, referred to as the module weight. %as shown in Fig. \ref{fig:mod_weight}.
 
 %\begin{itemize}
 
@@ -282,14 +282,14 @@ By carefully analyzing the module weights and excluding the bad modules from the
 
 %To minimize instabilities in PCC luminosity measurement, pixel module vetolist is created for each run period. Module stability is based on change in the ratio of module PCC and total PCC which is defined as module weight. Change in module weights with lumi section (23.36s) is studied for all modules and used to select good and bad modules as shown in Fig. \ref{fig:goodbadmodules}. Pixel detector used for 2018 luminosity measurement consists of 4 barrel layers (BPIX) and three forward disks (FPIX) including 1184 and 672 pixel modules respectively. Only pixel modules that are found to show good performance during the entire 2018 year are selected. 
 
-\begin{figure}[!htp]
-\centering
-\includegraphics[width=1\textwidth]{ashish_thesis/Module_weight_2.png}
-\caption[Module Weight]{%
-   Method to obtain module weights as a function of lumi section for categorizing good and bad modules. X profile of TH2F histogram (module PCC/total PCC per lumi section) is obtained. X profile is then filled in a TGraph after removing points with error $>$ 0.05. TGraph is normalized with the mean of Y projection of TH2F histogram to obtain module stability profile.
-}
-\label{fig:mod_weight}
-\end{figure}
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=1\textwidth]{ashish_thesis/Module_weight_2.png}
+%\caption[Module Weight]{%
+ %  Method to obtain module weights as a function of lumi section for categorizing good and bad modules. X profile of TH2F histogram (module PCC/total PCC per lumi section) is obtained. X profile is then filled in a TGraph after removing points with error $>$ 0.05. TGraph is normalized with the mean of Y projection of TH2F histogram to obtain module stability profile.
+%}
+%\label{fig:mod_weight}
+%\end{figure}
 
 
 \begin{figure}[!htp]
@@ -325,7 +325,7 @@ The module veto list is a list of detector modules that are excluded from the an
 
 \item Mechanical or alignment issues: Mechanical stresses or misalignments during the installation or operation of the pixel detector can affect the performance of the pixel modules or cause them to fail.
 
-\item Contamination or environmental factors: Contamination of the pixel modules by dust, moisture, or other substances can affect their performance or cause them to fail. Similarly, external environmental factors, such as magneticfields or vibrations, can impact the operation of the pixel modules.
+\item Contamination or environmental factors: Contamination of the pixel modules by dust, moisture, or other substances can affect their performance or cause them to fail. Similarly, external environmental factors, such as magnetic fields or vibrations, can impact the operation of the pixel modules.
 
 \end{itemize}
 
@@ -501,7 +501,7 @@ Table \ref{tab:pccvis_diffveto} depicts the mean and RMS values of PCC/HFOC lumi
 \end{comment}
 
 Figure \ref{fig:b_a_stability_vdm} shows the stability plots of the relative contribution to luminosity from pixel layers/disks before and after applying the module veto in the vdM calibration period. %This veto list application is essential for maintaining data quality as it helps to filter out data from modules showing more than 2\% variability in their RMS/mean, considered potentially large.
-The plots provide a comparative view of how the luminosity fraction has been impacted by the application of this veto list. The 'before' plot shows greater variability, reflecting the natural fluctuations in luminosity across different layers or disks  during each lumi section. In contrast, the 'after' plot  display a more stable profile, indicating that the module selection has effectively reduced the variance in luminosity fraction readings, enhancing data stability. %This figure plays a crucial role in visualizing the impact of implementing stringent data vetting procedures in the analysis of luminosity measurement.
+The plots provide a comparative view of how the luminosity fraction has been impacted by the application of this veto list. The 'before' plot shows greater variability, reflecting the fluctuations in luminosity across different layers or disks  during each lumi section. In contrast, the 'after' plot  display a more stable profile, indicating that the module selection has effectively reduced the variance in luminosity fraction readings, enhancing data stability. %This figure plays a crucial role in visualizing the impact of implementing stringent data vetting procedures in the analysis of luminosity measurement.
 %An improvement in the stability of various PCC layer and disk for the whole Period B after applying new veto list shown in Fig. \ref{fig:old_new_periodB}.
 
 \begin{figure}[!htp]
@@ -626,8 +626,6 @@ The relative contribution to PCC luminosity from each pixel detector layer and d
 %\label{fig:stabprof}
 %\end{figure}
 
-
-
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=\textwidth]{ashish_thesis/2percentcommonveto_pixellayerdisk_1.png}
@@ -650,7 +648,8 @@ The relative contribution to PCC luminosity from each pixel detector layer and d
   %\label{fig:stabprof_4333}
 %\end{figure}
 
-Table \ref{tab:layer-disk} presents the statistics of good modules across different layers and disks for final module veto list. The layers and disks are divided into five categories: Layer 3, Layer 4, Disk 1, Disk 2, and Disk 3. For each of these categories, the number of good modules, mean, RMS, and the ratio of RMS to mean are provided. Layer 2 has no good modules and all statistical parameters are zero. Layer 3, on the other hand, has 48 good modules with a mean value of 0.374681, an RMS of 0.000663165 and an RMS-to-mean ratio of 0.00176995, indicating low variability. Layer 4 shows a slightly larger count of good modules with 79, and similar statistical parameters to Layer 3, albeit with a slightly higher RMS and RMS-to-mean ratio, suggesting slightly greater variability. When it comes to the disk categories, Disk 1 and Disk 2 each have 10 and 12 good modules respectively. Their mean values are lower than those of the layers, as are their RMS values, although their RMS-to-mean ratios are higher, suggesting greater relative variability in these categories. Disk 3 has the fewest good modules with only 6, and it presents the highest RMS-to-mean ratio among all categories, indicating the highest relative variability. %The total number of good modules across all layers and disks is 155.
+Table \ref{tab:layer-disk} presents the statistics of good modules across different layers and disks for final module veto list. The layers and disks are divided into five categories: Layer 3, Layer 4, Disk 1, Disk 2, and Disk 3. For each of these categories, the number of good modules, mean, RMS, and the ratio of RMS to mean are provided. Layer 2 has no good modules. %and all statistical parameters are zero.
+Layer 3, on the other hand, has 48 good modules with a mean value of 0.374681, an RMS of 0.000663165 and an RMS-to-mean ratio of 0.00176995, indicating low variability. Layer 4 shows a slightly larger count of good modules with 79, and similar statistical parameters to Layer 3, albeit with a slightly higher RMS and RMS-to-mean ratio, suggesting slightly greater variability. When it comes to the disk categories, Disk 1 and Disk 2 each have 10 and 12 good modules respectively. Their mean values are lower than those of the layers, as are their RMS values, although their RMS-to-mean ratios are higher, suggesting greater relative variability in these categories. Disk 3 has the fewest good modules with only 6, and it presents the highest RMS-to-mean ratio among all categories, indicating the highest relative variability. %The total number of good modules across all layers and disks is 155.
 %It's noteworthy that the table does not provide an aggregated mean, RMS, or RMS-to-mean ratio across all categories.
 
 \begin{table}[!htp]
@@ -738,6 +737,17 @@ The $\sigma_{vis}$ value obtained by averaging all scans is for final module vet
    % \label{fig:sigmaperscan}
 %\end{figure}
 
+PCC visible cross section for various bunch crossing across different scans is shown in Fig. \ref{fig:sigmavis_btob_variation}. The data points exhibit a scatter around the mean value, with no apparent systematic bias, as they are distributed both above and below this average. While there is a certain level of precision suggested by the proximity of the points to the mean line, the varying lengths of the error bars indicate a range in measurement uncertainty. This variability in precision could be attributed to fluctuating experimental conditions inherent to each BCID. %Overall, the experiment seems to have achieved a degree of accuracy, given that the measurements are clustered around the mean, yet the spread indicated by the error bars suggests that there is potential for optimizing the precision
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=0.7\textwidth]{ashish_thesis/sigma_vis_btob_var_1.png}
+\caption[$\sigma_{vis}$ Bunch Variation]{%                                                                                                                                                       
+ Bunch to bunch variation of PCC visible cross section.
+}
+\label{fig:sigmavis_btob_variation}
+\end{figure}
+
 \newpage
 \section{Luminosity for physics fill}
 
@@ -783,8 +793,14 @@ In the afterglow correction process, following steps are involved.
 
 Moreover, pedestal correction is essential. It signifies the adjustment of baseline values in the detector due to electronics noise. This procedure ensures accurate and stable readings from the pixel detector, culminating in precision PCC luminosity measurements. %An example of the afterglow correction factor including type 1, type 2 and pedestal corrections is shown in Fig. \ref{fig:af_change_veto}. 
 
-For accurately modeling the afterglow effect in raw data, a composite function is utilized. It includes parameters for the Type 1 afterglow and an exponentially decaying model for Type 2, taking both amplitude and decay width into account. The model is summed over all bunch crossings. Fill 9036, shown in \ref{fig:af_fit40} and encompassing 900 colliding bunches, serves as the foundation for estimating the Type 2 afterglow parameters. A fit is performed to one wagon train, then two, and finally three, refining the parameters for Type 2 afterglow and minimizing the residuals of both afterglow types. Fit plots for single colliding bunch is shown in \ref{fig:af_fit99}. The values of type 2 afterglow parameter amplitude (a) and decay width (b) for different wagon trains are shown in Table \ref{fig:af_fit4000}. 
-                                                                                                                                                                                  
+For accurately modeling the afterglow effect in raw data, a composite function is utilized. It includes parameters for the Type 1 afterglow and an exponentially decaying model for Type 2, taking both amplitude and decay width into account. The model is summed over all bunch crossings.
+
+\begin{equation}
+F(x) = \sum_{k=0}^{N_{\text{bcid}}} N_k \left[ (x - k == 0) + A  (x - k == 1) + B  \exp(-C  (x - k - 1))  (x - k \geq 1) \right]
+\end{equation}
+
+Fill 9036, shown in \ref{fig:af_fit40} and encompassing 900 colliding bunches, serves as the foundation for estimating the Type 2 afterglow parameters. A fit is performed to one wagon train, then two, and finally three, refining the parameters for Type 2 afterglow and minimizing the residuals of both afterglow types. Fit plots for single train is shown in \ref{fig:af_fit99}. The values of type 2 afterglow parameter amplitude (B) and decay width (C) for different wagon trains are shown in Table \ref{fig:af_fit4000}. 
+
 \begin{comment}
 
 Type 1 and Type 2 afterglow corrections are very important for precise PCC luminosity measurement. Type 1 afterglow noise, or electronic spillover, arises due to the lingering signal waveform within silicon after actual collision event. Contrarily, Type 2 afterglow noise emanates from the exponentially diminishing activation of the detector caused by the creation of secondary particles when the detector material encounters high-energy particles \cite{CMS-PAS-SMP-12-008} (as depicted in Fig. \ref{fig:pcc_afterglow}).
@@ -799,9 +815,10 @@ The afterglow correction in PCC luminosity measurement is a compensatory procedu
 
 Apart from afterglow corrections, pedestal correction is another critical component. It signifies the adjustment of baseline values in the detector readout to account for any systematic biases or drifts. The pedestal correction involves monitoring the detector's output in the absence of a signal, and then subtracting this baseline value from the signal collected during data capture. The application of pedestal correction significantly enhances the accuracy and stability of the pixel detector's readings, thereby leading to precision measurement of PCC luminosity.
 
-\begin{figure}[!htp]
+\newpage
+\begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{ashish_thesis/veto_change_same_af.png}
+\includegraphics[width=0.7\textwidth]{ashish_thesis/veto_change_same_af.png}
 \caption[Afterglow background ratio]{%                                                                                                                                                                         
     Ratio of afterglow scale factor for new per period veto and old veto.
 }
@@ -851,10 +868,10 @@ The model used for fitting the afterglow in PCC raw data consists of a parameter
 
 \end{comment}
 
-
-\begin{figure}[!htp]
+\newpage
+\begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{ashish_thesis/fill_7036_pattern_2.png}
+\includegraphics[width=0.8\textwidth]{ashish_thesis/fill_7036_pattern_2.png}
 \caption[7036 Fill Patern]{%                                                                                                                                                                                         
   Fill 7036 pattern (900 b fill).
 }
@@ -926,9 +943,9 @@ The model used for fitting the afterglow in PCC raw data consists of a parameter
 %\label{fig:af_fit99}
 %\end{figure}
 
-\begin{figure}[!htp]
+\begin{figure}[H]
   \centering
-    \includegraphics[width=\textwidth]{ashish_thesis/2018_af_fit_1.png} 
+    \includegraphics[width=0.75\textwidth]{ashish_thesis/2018_af_fit_1.png} 
   %\hfill % or \hspace{5mm} for a specific horizontal space                                                                                                  
   %\begin{subfigure}[b]{0.49\textwidth}
    % \includegraphics[width=\textwidth]{ashish_thesis/2018_af_fit_residuals.png}                                                                                     
@@ -953,7 +970,7 @@ The model used for fitting the afterglow in PCC raw data consists of a parameter
   \centering
   \caption[Type 2 afterglow parameters estimation]{Type 2 afterglow parameters obtained from fit to raw pcc data}
   \begin{tabular}{ccc}
-    \textbf{\# of wagon} & \textbf{a} & \textbf{b} \\
+    \textbf{\# of wagon} & \textbf{B} & \textbf{C} \\
      \hline
    %1-wagon train  & 0.001246  & 0.01261 \\
    2-wagon train  & 0.000813 &  0.01219\\
@@ -965,23 +982,33 @@ The model used for fitting the afterglow in PCC raw data consists of a parameter
 
 The scale factor for one 50 lumi section block in run number 315690 is shown in Fig. \ref{fig:af_change_veto}. It provides an overview of the afterglow scale factor applied to the raw PCC. On the left, both the raw and corrected PCC for all bunch crossings are displayed, showing the variations between the initial data and the adjusted counts. The right side specifically highlights the afterglow scale factor for a single 50 lumi section block, representing the afterglow correction applied for final module veto.
 
-\begin{figure}[!htp]
+\newpage
+\begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{ashish_thesis/afterglow_correction_factor_1lsblock_315690_1.png}
+\includegraphics[width=0.8\textwidth]{ashish_thesis/afterglow_correction_factor_1lsblock_315690_2.png}
 \caption[Run 315690 Afterglow Background]{%                                                                                                                                                                                                                                                                                                
- Left: Raw and corrected PCC for all bunch crossings. Right: Afterglow scale factor for one 50 lumi section block in run 315690 for the final module veto.
+ Raw and corrected PCC for all bunch crossings.
 }
 \label{fig:af_change_veto}
 \end{figure}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{ashish_thesis/afterglow_correction_factor_1lsblock_315690_3.png}
+\caption[Run 315690 Afterglow Background]{%
+  Afterglow scale factor for one 50 lumi section block in run 315690 for the final module veto.
+}
+\label{fig:af_change_veto}
+\end{figure}
+
+
 \section{PCC instantaneous and integrated luminosity}
 
-Instantaneous luminosity refers to the rate of collisions at any given moment in time. It is a snapshot of the experiment's performance and is represented as \( L_{\text{inst}} \). The unit of instantaneous luminosity is often Hertz per micro barn $(Hz/ub)$. Integrated luminosity is the accumulation of instantaneous luminosity over a specific time period. Mathematically, it is defined as:
+Instantaneous luminosity is proportional to the rate of collisions at any given moment in time. It is a snapshot of the experiment's performance and is represented as \( L_{\text{inst}} \). The unit of instantaneous luminosity is often Hertz per micro barn $(Hz/ub)$. Integrated luminosity is the accumulation of instantaneous luminosity over a specific time period. Mathematically, it is defined as:
 \[
 \text{Integrated Luminosity} = \int (\text{Instantaneous Luminosity}) \, dt
 \]
-The unit of integrated luminosity is typically inverse femtobarns (\( \text{fb}^{-1} \)). Integrated luminosity can be understood as the sum of all instantaneous luminosities over the duration of the experiment, enhancing the statistical significance of the data collected. It serves as a measure of the total number of events recorded by the experiment, crucial for robust statistical analysis. When plotted as a function of lumi sections, PCC instantaneous and integrated luminosity offer distinct yet complementary insights into the experiment's performance. In plots that feature luminosity as a function of these lumi sections, the x-axis enumerates the lumi sections while the y-axis presents the luminosity values.  For instantaneous luminosity, discrete data points are plotted for each lumi section, providing immediate, lumi section specific measurements of the collision rate as shown in Fig. \ref{fig:PCC_inst_2018}. These points can fluctuate based on a variety of factors, such as beam conditions or adjustments to the accelerator. On the other hand, integrated luminosity is represented by a continuously ascending curve. Each point on this curve accumulates the instantaneous luminosity values up to that specific lumi section. %The integrated luminosity for entire 2018 is calculated to be 60.47 fb^{-1}.
-
+The unit of integrated luminosity is typically inverse femtobarns (\( \text{fb}^{-1} \)). Integrated luminosity can be understood as the sum of all instantaneous luminosities over the duration of the experiment, enhancing the statistical significance of the data collected. It serves as a measure of the total number of events recorded by the experiment, crucial for robust statistical analysis. When plotted as a function of lumi sections, PCC instantaneous and integrated luminosity offer distinct yet complementary insights into the experiment's performance. In plots that feature luminosity as a function of these lumi sections, the x-axis enumerates the lumi sections while the y-axis presents the luminosity values.  For instantaneous luminosity, discrete data points are plotted for each lumi section, providing immediate, lumi section specific measurements of the collision rate as shown in Fig. \ref{fig:PCC_inst_2018}. These points can fluctuate based on a variety of factors, such as beam conditions or adjustments to the accelerator. On the other hand, integrated luminosity is represented by a continuously ascending curve. %Each point on this curve accumulates the instantaneous luminosity values up to that specific lumi section. %The integrated luminosity for entire 2018 is calculated to be 60.47 fb^{-1}.
 
 \begin{figure}[!htp]
 \centering
@@ -991,7 +1018,6 @@ The unit of integrated luminosity is typically inverse femtobarns (\( \text{fb}^
 }
 \label{fig:PCC_inst_2018}
 \end{figure}
-
 
 \newpage
 \section{Systematic uncertainties}
@@ -1083,15 +1109,14 @@ The nonfactorizability of the density distribution can also affect the effective
 
 \item Bunch to Bunch Variation: It means the $\sigma_{vis}$  varies from one bunch to another bunch.
 
-
-\begin{figure}[!htp]
-\centering
-\includegraphics[width=0.7\textwidth]{ashish_thesis/sigma_vis_btob_var_1.png}
-\caption[$\sigma_{vis}$ Bunch Variation]{%                                                                                                                                                                   
- Bunch to bunch variation of PCC visible cross section.  
-}
-\label{fig:sigmavis_btob_variation}
-\end{figure}
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=0.7\textwidth]{ashish_thesis/sigma_vis_btob_var_1.png}
+%\caption[$\sigma_{vis}$ Bunch Variation]{%                                                                                                                                                                   
+ %Bunch to bunch variation of PCC visible cross section.  
+%}
+%\label{fig:sigmavis_btob_variation}
+%\end{figure}
 
 %\begin{tabular}{cccccc}
 %\textbf{Scan} & \textbf{Mean} & \textbf{SEM} & \textbf{Standard Deviation} & \textbf{(Standard Deviation/Mean) $\times$ 100} \\
