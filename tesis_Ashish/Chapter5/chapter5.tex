@@ -423,7 +423,7 @@ Figure \ref{fig:period_bound_50} which depict how the detected event rate varies
 %Background subtraction and beam corrections have been applied to the raw data to account for noise.
 %Chi2/ndof for all vdM and Imaging Scans:
 %Figure \ref{fig:period_bound_51} provide an indication of the quality of the fits to the scan data.
-The $\chi^2$ statistic measures the discrepancy between the observed event rates and the values predicted by the double Gaussian fit, while ndof (number of degrees of freedom) accounts for the complexity of the fit. A value of  $\chi^2$/ndof close to 1 can be seen in the statistics box which signifies a good fit. PCC visible cross section is 1076 $\pm$ 0.9 (stat) mb as shown in Fig. \ref{fig:period_bound_105} \cite{pas_22} %\cite{bril2023vdmrecalibration}.
+The $\chi^2$ statistic measures the discrepancy between the observed event rates and the values predicted by the double Gaussian fit, while ndof (number of degrees of freedom) accounts for the complexity of the fit. A value of  $\chi^2$/ndof close to 1 can be seen in the statistics box which signifies a good fit. PCC visible cross section is 1076 $\pm$ 0.9 (stat) mb. The bunch to bunch variation and scan to scan variation of PCC visible cross section is shown in Fig. \ref{fig:period_bound_99} and Fig. \ref{fig:period_bound_105} \cite{pas_22} %\cite{bril2023vdmrecalibration}.
 
 %Beam Overlap Widths for each vdM and Imaging Scans:
 %Figure \ref{fig:period_bound_52} show the beam overlap widths, or the widths of the double gaussian fit, for each scan. %The overlap width essentially gives the size of the beam at the interaction point and is used to calculate the absolute luminosity. Comparison of these widths across different scans can reveal variations in the beam size over time.
@@ -472,6 +472,16 @@ The $\chi^2$ statistic measures the discrepancy between the observed event rates
 
 %PCC visible cross section is 1076 $\pm$ 0.9 (stat) mb as shown in Fig. \ref{fig:period_bound_105}.
 
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=0.8\textwidth]{ashish_thesis/2022_sigma_vis_btob_variation.png}
+\caption[$\sigma_{vis}$ Bunch Variation]{%                                                                                                                                                        
+  Bunch to bunch variation of PCC visible cross section where the red line is the average value. Red band depicts the $\pm$ one RMS of the values.
+}
+\label{fig:period_bound_99}
+\end{figure}
+
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.8\textwidth]{ashish_thesis/2022_sigma_vis_per_scan.png}
@@ -507,7 +517,7 @@ The Fill cycle in Run 3 includes a leveling part in order to control the very hi
 \label{fig:period_bound_111}
 \end{figure}
 
-\newpage
+%\newpage
 \subsection{Afterglow background corrections}
 
 %Figure \ref{fig:period_bound_44} and  \ref{fig:period_bound_45} describe the residuals of the PCC afterglow correction model fit as a function of instantaneous luminosity. The afterglow effect in PCC luminosity measurement refers to the lingering response of the detector to a previous collision event, which could lead to a systematic overestimate of the luminosity in subsequent bunch crossings.
@@ -675,7 +685,7 @@ Comparable patterns are observed for 2022 periods E, F and G. During periods C a
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{ashish_thesis/afterglow_t1res_vsinstlumi_1.png}
+\includegraphics[width=0.9\textwidth]{ashish_thesis/afterglow_t1res_vsinstlumi_1.png}
 \caption[2022 PCC Type 1 Afterglow Residuals]{%                                                                                                                                                                             
  PCC afterglow correction type 1 residual as a function of instantaneous luminosity for period Run 2022F. The residual fraction is given by the ratio of the luminosity of the first empty bunch immediately following a colliding bunch to the luminosity of the colliding bunch.
 
@@ -686,7 +696,7 @@ Comparable patterns are observed for 2022 periods E, F and G. During periods C a
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{ashish_thesis/afterglow_t2res_vsinstlumi_1.png}
+\includegraphics[width=0.9\textwidth]{ashish_thesis/afterglow_t2res_vsinstlumi_1.png}
 \caption[2022 PCC Type 2 Afterglow Residuals]{%
   Type 2 residual as a function of instantaneous luminosity for period 2022F. These are given by the ratio of the luminosity of the second and following empty bunches after a colliding bunch to the luminosity of the colliding bunch.
 }
@@ -759,17 +769,17 @@ The number of interaction points (vertices) observed depends on the proton densi
 
 %Factorization bias in VdM calibration is due to the assumption of factorizable beam shapes. This can be addressed by reconstructing transverse proton densities during a VdM fill, enabling a comparison of the luminous area to expected outcomes. The beam-imaging method, applied by CMS, uses reconstructed vertices to extract proton densities. Other methods, like diagonal and offset scans, examine different luminous area sections to understand factorization biases. CMS has explored these methods, with recent studies ongoing from 2022 data.
 
-\item Bunch to bunch uncertainty: The "bunch to bunch variation of PCC visible cross section" refer to how much the measured visible cross-section (and thus, the measured luminosity) changes from one bunch crossing to another as shown in Fig. \ref{fig:period_bound_99}. Variations could arise from different factors such as varying numbers of protons per bunch, spatial distribution of protons within the bunches, and the specific conditions of the pixel detector at the time of each bunch crossing. %These variations are important to monitor as they can impact the precision of the luminosity measurement, which in turn affects the accuracy of the results obtained from the physics analyses conducted with the data.
+\item Bunch to bunch uncertainty: The "bunch to bunch variation of PCC visible cross section" refer to how much the measured visible cross-section (and thus, the measured luminosity) changes from one bunch crossing to another. Variations could arise from different factors such as varying numbers of protons per bunch, spatial distribution of protons within the bunches, and the specific conditions of the pixel detector at the time of each bunch crossing. %These variations are important to monitor as they can impact the precision of the luminosity measurement, which in turn affects the accuracy of the results obtained from the physics analyses conducted with the data.
 If significant variations are observed, it may be necessary to adjust the analysis to account for these differences. 
 
-\begin{figure}[!htp]
-\centering
-\includegraphics[width=0.8\textwidth]{ashish_thesis/2022_sigma_vis_btob_variation.png}
-\caption[$\sigma_{vis}$ Bunch Variation]{%                                                                                                                                             
-  Bunch to bunch variation of PCC visible cross section where the red line is the average value. Red band depicts the $\pm$ one RMS of the values.
-}
-\label{fig:period_bound_99}
-\end{figure}
+%\begin{figure}[!htp]
+%\centering
+%\includegraphics[width=0.8\textwidth]{ashish_thesis/2022_sigma_vis_btob_variation.png}
+%\caption[$\sigma_{vis}$ Bunch Variation]{%                                                                                                                                             
+ % Bunch to bunch variation of PCC visible cross section where the red line is the average value. Red band depicts the $\pm$ one RMS of the values.
+%}
+%\label{fig:period_bound_99}
+%\end{figure}
 
 %\begin{table}[!htp]
  % \centering
@@ -803,7 +813,6 @@ vdM4 & 1080.37 & 2.09 & 0.0920 \\
 \end{table}
 
 %$\frac{\frac{\textbf{RMS}}{\sqrt{N_b}}}{\sigma_{\textbf{vis}}}$
-
 
 \newpage
 \item Scan to scan uncertainty: PCC visible cross section can exhibit change from one scan to the next. These variations could be due to slight changes in the experimental conditions. The results for each scan are plotted after averaging over five BCIDs. Each point on this graph represent the result from one scan. A red line is drawn to indicate the average value of the visible cross-section over all the scans. This average value provide a useful comparison point to evaluate the consistency of the individual scan results and identify any potential anomalies or systematic errors.
@@ -880,7 +889,6 @@ vdM4 & 1080.37 & 2.09 & 0.0920 \\
 
 
 %\begin{comment}
-
 
 \begin{table}[h]
     \centering
@@ -972,7 +980,6 @@ To quantify the linearity systematic uncertainty, the slope variability of the d
 %}
 %\label{fig:kinknon1_}
 %\end{figure}
-
   
 %\begin{figure}[!htp]
 %\centering
