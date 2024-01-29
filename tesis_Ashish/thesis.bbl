@@ -4,6 +4,11 @@
 \makeatother
 \providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}
 
+\bibitem{pas_22}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{CMS luminosity measurement for the 2022
+  data-taking period at $\sqrt{s} = 13.6~\mathrm{TeV}$}'',} 2023, CMS PAS
+  LUM-22-001.
+
 \bibitem{Herr:941318}
 \hrefCMSnoop {}{W.~Herr and B.~Muratori, ``{Concept of luminosity}'',} 2006.
 \newblock
@@ -190,11 +195,6 @@ A.~Babaev\href {https://arxiv.org/abs/2306.10394}{ {et~al.}, ``{Impact of
   Geneva, 2023.
 \newblock
   \href{http://www.arXiv.org/abs/2309.05466}{\texttt{arXiv:2309.05466}}.
-
-\bibitem{pas_22}
-\hrefCMSnoop {}{{CMS} Collaboration, ``{CMS luminosity measurement for the 2022
-  data-taking period at $\sqrt{s} = 13.6~\mathrm{TeV}$}'',} 2023, CMS PAS
-  LUM-22-001.
 
 \bibitem{CERN2022}
 \href {https://hilumilhc.web.cern.ch/article/ls3-schedule-change}{{CERN},
