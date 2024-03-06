@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  29 JAN 2024 22:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  6 MAR 2024 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2639,7 +2639,7 @@ Chapter 7.
 ! Misplaced alignment tab character &.
 <argument> ...d collision position determination &
                                                    control}'',
-l.141   control}'',}
+l.142   control}'',}
                      2019.
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2662,7 +2662,7 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  44896 strings out of 478268
  1035931 string characters out of 5846347
- 1417157 words of memory out of 5000000
+ 1418157 words of memory out of 5000000
  61453 multiletter control sequences out of 15000+600000
  595577 words of font info for 390 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2680,10 +2680,10 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (109 pages, 25147999 bytes).
+Output written on thesis.pdf (109 pages, 25148080 bytes).
 PDF statistics:
- 1456 PDF objects out of 1728 (max. 8388607)
- 1189 compressed objects within 12 object streams
+ 1460 PDF objects out of 1728 (max. 8388607)
+ 1193 compressed objects within 12 object streams
  322 named destinations out of 1000 (max. 500000)
  125126 words of extra memory for PDF output out of 128383 (max. 10000000)
 
