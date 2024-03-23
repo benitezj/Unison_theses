@@ -80,6 +80,23 @@ A.~Dainese\hrefCMSnoop {}{ {et~al.}, ``{Report on the Physics at the HL-LHC,
 \newblock \url
   {https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}.
 
+\bibitem{CMS-PAS-LUM-13-002}
+\href {https://cds.cern.ch/record/1643269}{{CMS} Collaboration, ``{Luminosity
+  Calibration for the 2013 Proton-Lead and Proton-Proton Data Taking}'',}
+  technical report, CERN, Geneva, 2014.
+
+\bibitem{CMS-PAS-LUM-17-002}
+\href {https://cds.cern.ch/record/2628652}{{CMS} Collaboration, ``{CMS
+  luminosity measurement using 2016 proton-nucleus collisions at
+  nucleon-nucleon center-of-mass energy of 8.16 TeV}'',} technical report,
+  CERN, Geneva, 2018.
+
+\bibitem{CMS-PAS-LUM-18-001}
+\href {https://cds.cern.ch/record/2809613}{{CMS} Collaboration, ``{CMS
+  luminosity measurement using nucleus-nucleus collisions at
+  $\sqrt{\smash[b]{s_{_{\mathrm{NN}}}}}=5.02\,\text{TeV}$ in 2018}'',}
+  technical report, CERN, Geneva, 2022.
+
 \bibitem{Lujan:2017kvh}
 \hrefCMSnoop {}{{CMS} Collaboration, ``{Performance of the Pixel Luminosity
   Telescope for Luminosity Measurement at CMS during Run2}'',} \textit{ PoS}

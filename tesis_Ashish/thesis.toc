@@ -42,4 +42,4 @@
 \contentsline {subsection}{\numberline {6.2.3}TEPX three-fold coincidences}{91}{subsection.6.2.3}%
 \contentsline {section}{\numberline {6.3}Statistical precision}{94}{section.6.3}%
 \contentsline {chapter}{\numberline {7}Summary}{95}{chapter.7}%
-\contentsline {chapter}{References}{97}{chapter*.99}%
+\contentsline {chapter}{References}{97}{chapter*.100}%
