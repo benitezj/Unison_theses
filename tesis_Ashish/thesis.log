@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  15 MAR 2024 20:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  23 MAR 2024 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1735,11 +1735,12 @@ Excluding 'comment' comment. [19] Excluding 'comment' comment.) [20]
 
 (./Chapter3/chapter3.tex
 Chapter 3.
-<ashish_thesis/vdm_method.png, id=627, 870.75313pt x 362.85562pt>
-File: ashish_thesis/vdm_method.png Graphic file (type png)
-<use ashish_thesis/vdm_method.png>
-Package pdftex.def Info: ashish_thesis/vdm_method.png  used on input line 20.
-(pdftex.def)             Requested size: 426.79135pt x 177.8451pt.
+<ashish_thesis/vdm_method_new.png, id=627, 1557.82pt x 639.38875pt>
+File: ashish_thesis/vdm_method_new.png Graphic file (type png)
+<use ashish_thesis/vdm_method_new.png>
+Package pdftex.def Info: ashish_thesis/vdm_method_new.png  used on input line 2
+0.
+(pdftex.def)             Requested size: 426.79135pt x 175.16414pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1759,7 +1760,7 @@ it/12 ^^Z[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 y\OT1/ztmcm/m/n/12 )\OML/ztmcm
 /m/it/12 dy$
  []
 
-[22 <./ashish_thesis/vdm_method.png>] Excluding 'comment' comment.
+[22 <./ashish_thesis/vdm_method_new.png>] Excluding 'comment' comment.
 Excluding 'comment' comment. [23] [24] Excluding 'comment' comment.) [25]
 \openout2 = `Chapter4/chapter4.aux'.
 
@@ -2664,7 +2665,7 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  44896 strings out of 478268
- 1036078 string characters out of 5846347
+ 1036106 string characters out of 5846347
  1417157 words of memory out of 5000000
  61453 multiletter control sequences out of 15000+600000
  595577 words of font info for 390 fonts, out of 8000000 for 9000
@@ -2683,7 +2684,7 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (109 pages, 24744112 bytes).
+Output written on thesis.pdf (109 pages, 25303143 bytes).
 PDF statistics:
  1461 PDF objects out of 1728 (max. 8388607)
  1193 compressed objects within 12 object streams
