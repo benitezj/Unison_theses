@@ -21,13 +21,13 @@
 
 For studying the performance of PCC luminometer during 2018 data taking, we have divided CMS luminosity data taking into seven periods: A, B, C, D1, D2, D3, and D4, as depicted in % 2018 CMS luminosity data taking is divided into seven periods namely A, B, C, D1, D2, D3 and D4
 Fig. \ref{fig:period_bound}. Run ranges for each period are shown in Table \ref{tab:period_run_ranges}.
-During period B, specifically corresponding to Fill 6868, van der Meer (vdM) scans were conducted for calibrating the PCC luminometer.
+During period B, specifically corresponding to fill 6868, van der Meer (vdM) scans were conducted for calibrating the PCC luminometer.
 %vdM data is shown during period B corresponding to Fill 6868.
 
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.9\textwidth]{ashish_thesis/period_boundary.png}
-\caption[2018 CMS Luminosity Data Period]{%
+\caption[2018 CMS luminosity data period]{%
    2018 luminosity data taking periods showing data taking period boundaries and vdM calibration data (1 July in period B)  \cite{CERNLumiPublicResults}.
 }
 \label{fig:period_bound}
@@ -295,7 +295,7 @@ By carefully analyzing the module weights and excluding the bad modules from the
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/good_bad_modules_1.png}
-\caption[Good/Bad Module Weights]{%
+\caption[Good/Bad module weights]{%
    Change in normalized module weight with time. Modules showing significant change in module weight (shown in right figure) over time having large RMS/mean values are used to make module veto list.
 }
 \label{fig:goodbadmodules}
@@ -331,9 +331,9 @@ The module veto list is a list of detector modules that are excluded from the an
 
 %The inclusion of certain modules in the veto list is based on a careful analysis of the detector performance and the expected background rates in a given experiment. By excluding modules with high background rates or other issues, the analysis can be improved and the accuracy of the measurement can be increased.
 
-Module veto list consisting of bad modules is first created for period B, vdM Fill and then for other periods A, C, D1, D2, D3 and D4 as follows, 
+Module veto list consisting of bad modules is first created for period B, vdM fill and then for other periods A, C, D1, D2, D3 and D4 as follows, 
 
-Run 2018B and vdM Fill:
+Run 2018B and vdM fill:
 \begin{itemize}
 
 \item Poor statistics lumi sections are removed by applying selection on total PCC. %Fig. \ref{fig:PCC_cut}. % and \ref{fig:f_it}.
@@ -377,7 +377,7 @@ Run 2018A, C and D:
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.8\textwidth]{ashish_thesis/cut_selection_1.png}
-\caption[First Iteration For Outlier Module Removal]{%
+\caption[First iteration for outlier modules]{%
    A loose selection of 7\% is applied to remove bad modules. Appropriate selections are applied in each iterative step to remove other bad modules.
 }
 \label{fig:outliermodules}
@@ -395,7 +395,7 @@ Run 2018A, C and D:
       %  \includegraphics[width=1.0\linewidth]{ashish_thesis/second_iteration_cut.png}
     %\end{minipage}
     
-    \caption[Second and Final Iteration For Outlier Module Removal]{%
+    \caption[Second and final iteration for outlier modules]{%
         Left: Second iteration on RMS/mean of 3\% is applied to remove more bad modules. 
         Right: Final iteration on RMS/mean of 2\% is applied to obtain module veto list for each period.
     }
@@ -440,7 +440,7 @@ Run 2018A, C and D:
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.7\textwidth]{ashish_thesis/mod_weight_comp_2.png}
-\caption[Module Weights Change Removal]{%
+\caption[Module weights change removal]{%
    Projection of change in module weights between period A and B. Modules showing more than 3 sigma change in module weights are added to the module veto list.
 }
 \label{fig:mod_w_com_1}
@@ -486,7 +486,7 @@ Table \ref{tab:pccvis_diffveto} depicts the mean and RMS values of PCC/HFOC lumi
    D3  & 1  & 0.002115 & 0.002115 \\
    D4  & 1.002  & 0.003673 & 0.003666 \\ 
 \end{tabular}
-\caption[Mean value change for PCC/HFOC across period.]{%                                                                                                                                       
+\caption[Mean value change for PCC/HFOC across period]{%                                                                                                                                       
  PCC/ HFOC luminosity mean and rms values for  per period veto list showing variation in mean values across period.
 }
 \label{tab:pccvis_diffveto}
@@ -502,8 +502,8 @@ The plots provide a comparative view of how the luminosity fraction has been imp
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/before_after_vdm_stability_1.png}
-\caption[PCC vdM Stability]{%                                                                                                                                                                      
-   Luminosity fraction per layer or disk (stability plots) before (no veto) and after applying the final module veto with 2\% RMS/mean selection for the vdM fill data.
+\caption[PCC vdM stability]{%                                                                                                                                                                      
+   Luminosity fraction per layer or disk (stability plots) before (no veto) and after applying the final module veto with 2\% RMS/mean selection for the vdM fill 6868 data.
 }
 \label{fig:b_a_stability_vdm}
 \end{figure}
@@ -523,7 +523,7 @@ Table \ref{tab:runperiod_oldnew} details the number of "Good Modules" across dif
 
 \begin{table}
   \centering
-  \caption{Run Period and Good Modules}
+  \caption{Run period and good modules}
 \begin{tabular}{cccc}
 \textbf{Run period (Old Veto)} & \textbf{Good modules} & \textbf{Run period (New Veto)} & \textbf{Good modules} \\
 \hline
@@ -554,7 +554,6 @@ D late & 469 & D3 (323700-324420) & 775 \\
 %To reduce the variation in mean values across periods thereby improving the stability of PCC luminometer, a common module veto list is created using the 2\% RMS/mean selection as shown in Table \ref{tab:2commonveto}.
 
 Table \ref{tab:2commonveto} shows the number of modules for a common selection over the entire year. Common module veto list is a combination of module veto list of all run periods A, B, C, D1, D2, D3 and D4. Approach to make a common module veto list is to start by combining module vetolists of period A,B and C, then combine A,B, C, D1 and so on. Less than $9\%$ of the pixel modules remain after applying module stability selections to be used for final luminosity measurement. The total number of good modules across all layers and disks is 155.
-
 
 \begin{table}
   \begin{center}
@@ -624,7 +623,7 @@ The relative contribution to PCC luminosity from each pixel detector layer and d
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=\textwidth]{ashish_thesis/2percentcommonveto_pixellayerdisk_1.png}
-\caption[PCC Stability For Physics Runs]{Left: Luminosity fraction of pixel detector for various layer and disks as a function of lumi section for a module selection excluding only the BPIX Layer 0 for the full 2018 zero-bias dataset. Right: Stability profiles of pixel detector layer and disk for final module veto list.}
+\caption[PCC stability for physics runs]{Left: Luminosity fraction of pixel detector for various layer and disks as a function of lumi section for a module selection excluding only the BPIX Layer 0 for the full 2018 zero-bias dataset. Right: Stability profiles of pixel detector layer and disk for final module veto list.}
 \label{fig:stabprof_4333}
 \end{figure}
 
@@ -686,12 +685,11 @@ vdM scans are typically conducted at least once a year to ensure the luminometer
 \begin{figure}[!htp]
     \centering
     \includegraphics[width=1\textwidth]{ashish_thesis/vdm_program_2018.png}
-    \caption[2018 vdM Program]{Beam position along x and y is plotted as a function of time showing different types of scans. #3 and #10 are vdM scans, #4 and #9 are offset scans, #5, #7 and #8 are beam imaging scans, #6 is emittance scan \cite{pas_18}.}
+    \caption[2018 vdM program]{Beam position along x and y is plotted as a function of time showing different types of scans. #3 and #10 are vdM scans, #4 and #9 are offset scans, #5, #7 and #8 are beam imaging scans, #6 is emittance scan \cite{pas_18}.}
     \label{fig:vdm_prog_2018}
 \end{figure}
 
-The vdM data (LHC fill 6868) is processed using the final module selection. The background estimation for the PCC rate is done with two super-separation scans SS1 and SS2. The mean and error are obtained from the $y$ projection of PCC rates per NB4 plotted as a function of time as shown in Fig. \ref{fig:sigmavis_ss_backg}. The results for five different BCIDs are shown in Table \ref{tab:vdm:SS1_SS2}, using the reprocessed PCC data for Fill 6868. The overall background correction applied to raw PCC rate is $0.02757\pm0.01987$, which is calculated by taking the average of the mean values of SS1 and SS2.
-
+The vdM data (LHC fill 6868) is processed using the final module selection. The background estimation for the PCC rate is done with two super-separation scans SS1 and SS2. The mean and error are obtained from the $y$ projection of PCC rates per NB4 plotted as a function of time as shown in Fig. \ref{fig:sigmavis_ss_backg}. The results for five different BCIDs are shown in Table \ref{tab:vdm:SS1_SS2}, using the reprocessed PCC data for fill 6868. The overall background correction applied to raw PCC rate is $0.02757\pm0.01987$, which is calculated by taking the average of the mean values of SS1 and SS2.
 
 \begin{figure}[!htp]
 \centering
@@ -700,10 +698,9 @@ The vdM data (LHC fill 6868) is processed using the final module selection. The 
 \label{fig:sigmavis_ss_backg}
 \end{figure}
 
-
 \begin{table}
   \begin{center}
-    \caption[2018 PCC Background]{Mean for the background estimated with the SS1 and SS2 data, separately for all five BCIDs and averaged.}
+    \caption[2018 PCC background]{Mean for the background estimated with the SS1 and SS2 data, separately for all five BCIDs and averaged.}
     \begin{tabular}{ccccc}
     \textbf{BCID}   & \textbf{Mean (SS1)} & \textbf{Mean (SS2)} \\ \hline
       265     &  0.02902    &  0.02743    \\
@@ -724,7 +721,7 @@ The $\sigma_{vis}$ value obtained by averaging all scans for the final module ve
 \begin{figure}[!htp]
     \centering
     \includegraphics[width=1\textwidth]{ashish_thesis/vdM_fit_cveto_1.png}
-    \caption[PCC Rate Fit]{Rates and the resulting fitted Poly2G scan curves as a function of the beam separation for a single bunch (BCID 265) as recorded by PCC for vdM1 scan in the x (left) and y direction (right). Background subtraction and the beam corrections have been applied to the raw data before the fit.}
+    \caption[PCC rate fit]{Rates and the resulting fitted Poly2G scan curves as a function of the beam separation for a single bunch (BCID 265) as recorded by PCC for vdM1 scan in the x (left) and y direction (right). Background subtraction and the beam corrections have been applied to the raw data before the fit. Residual is defined as (Data-fit)/fit}
     \label{fig:fitquality}
 \end{figure}
 
@@ -740,7 +737,7 @@ The PCC visible cross section for various bunch crossing across different scans 
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.7\textwidth]{ashish_thesis/sigma_vis_btob_var_1.png}
-\caption[$\sigma_{vis}$ Bunch Variation]{%                                                                                                                                                       
+\caption[$\sigma_{vis}$ bunch variation]{%                                                                                                                                                       
  Bunch to bunch variation of PCC visible cross section.
 }
 \label{fig:sigmavis_btob_variation}
@@ -751,7 +748,7 @@ The PCC visible cross section for various bunch crossing across different scans 
 
 The LHC operates in cycles known as "fills." A fill is a period during which the LHC is filled with protons and provides collisions for its experiments. The luminosity profile of a fill is a graphical representation of the instantaneous luminosity as a function of time for the entire duration of that fill. Before the actual data taking begins, there is a phase of beam injection, acceleration, and stabilization. During this period, no collisions are taking place, so the luminosity is zero. Once the beams are accelerated to their maximum energy and brought into collision, there is a rapid rise in luminosity. This is the point where the luminosity reaches its highest value, known as the peak luminosity. After the peak, the luminosity starts to decrease. This period, known as "stable beams", is when most of the data is collected. The reason for the decrease in luminosity over time is the reduction in the number of protons in the beams due to collisions.
 %As the protons in the beams collide, the number of protons, and hence the luminosity, diminishes.
-The rate of this decrease can be influenced by various factors, including beam dynamics, losses, and the efficiency of the collider's operation. The fill concludes when the number of protons is too low to provide useful data, or if there's a technical issue, leading to a beam dump. At this point, the luminosity drops to zero. The total duration of a fill can vary. Some fills last only a few hours, while others can extend for over a day, depending on operational efficiency and the goals for that specific fill. Fill profile for Fill 6961 during 2018 data taking is shown in Fig. \ref{fig:Fill6961} with
+The rate of this decrease can be influenced by various factors, including beam dynamics, losses, and the efficiency of the collider's operation. The fill concludes when the number of protons is too low to provide useful data, or if there's a technical issue, leading to a beam dump. At this point, the luminosity drops to zero. The total duration of a fill can vary. Some fills last only a few hours, while others can extend for over a day, depending on operational efficiency and the goals for that specific fill. fill profile for fill 6961 during 2018 data taking is shown in Fig. \ref{fig:Fill6961} with
 
 \begin{itemize}
   
@@ -766,7 +763,7 @@ The rate of this decrease can be influenced by various factors, including beam d
 \begin{figure}[!htp]
     \centering
     \includegraphics[width=0.9\textwidth]{ashish_thesis/Fill_profile_6961_1.png}
-    \caption[Fill 6961 Profile]{Typical lumi profile for LHC Fill during 2018 data taking period for Fill 6961.}
+    \caption[fill 6961 profile]{Typical lumi profile for LHC fill during 2018 data taking period for fill 6961.}
     \label{fig:Fill6961}
 \end{figure}
 
@@ -799,7 +796,7 @@ For accurately modeling the afterglow effect in raw data, a composite function i
 F(x) = \sum_{k=0}^{N_{\text{bcid}}} N_k \left[ (x - k == 0) + A  (x - k == 1) + B  \exp(-C  (x - k - 1))  (x - k \geq 1) \right]
 \end{equation}
 
-Fill 9036, shown in \ref{fig:af_fit40} and encompassing 900 colliding bunches, serves as the foundation for estimating the Type 2 afterglow parameters. A fit is performed to one wagon train, then two, and finally three, refining the parameters for Type 2 afterglow and minimizing the residuals of both afterglow types. Fit plots for single train is shown in Fig. \ref{fig:af_fit99}. The values of type 2 afterglow parameter amplitude (B) and decay width (C) for different wagon trains are shown in Table Fig. \ref{fig:af_fit4000}. 
+fill 9036, shown in \ref{fig:af_fit40} and encompassing 900 colliding bunches, serves as the foundation for estimating the Type 2 afterglow parameters. A fit is performed to one wagon train, then two, and finally three, refining the parameters for Type 2 afterglow and minimizing the residuals of both afterglow types. Fit plots for single train is shown in Fig. \ref{fig:af_fit99}. The values of type 2 afterglow parameter amplitude (B) and decay width (C) for different wagon trains are shown in Table Fig. \ref{fig:af_fit4000}. 
 
 \begin{comment}
 
@@ -872,8 +869,8 @@ The model used for fitting the afterglow in PCC raw data consists of a parameter
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{ashish_thesis/fill_7036_pattern_2.png}
-\caption[7036 Fill Patern]{%                                                                                                                                                                                         
-  Fill 7036 pattern (900 b fill).
+\caption[7036 fill patern]{%                                                                                                                                                                                         
+  fill 7036 pattern (900 b fill).
 }
 \label{fig:af_fit40}
 \end{figure}
@@ -950,7 +947,7 @@ The model used for fitting the afterglow in PCC raw data consists of a parameter
   %\begin{subfigure}[b]{0.49\textwidth}
    % \includegraphics[width=\textwidth]{ashish_thesis/2018_af_fit_residuals.png}                                                                                     
   %\end{subfigure}
-  \caption[Afterglow Effect Fit]{Fit to single train to estimate afterglow parameters.}
+  \caption[Afterglow effect fit]{Fit to single train to estimate afterglow parameters.}
   \label{fig:af_fit99}
 \end{figure}
 
@@ -1004,7 +1001,7 @@ The scale factor for one 50 lumi section block in run number 315690 is shown in 
 
 \section{PCC instantaneous and integrated luminosity}
 
-Instantaneous luminosity is proportional to the rate of collisions at any given moment in time. It is a snapshot of the experiment's performance and is represented as \( L_{\text{inst}} \). The unit of instantaneous luminosity is often Hertz per micro barn $(Hz/ub)$. Integrated luminosity is the accumulation of instantaneous luminosity over a specific time period. Mathematically, it is defined as:
+Instantaneous luminosity is proportional to the rate of collisions at any given moment in time. It is a snapshot of the experiment performance and is represented as \( L_{\text{inst}} \). The unit of instantaneous luminosity is often Hertz per micro barn $(Hz/ub)$. Integrated luminosity is the accumulation of instantaneous luminosity over a specific time period. Mathematically, it is defined as:
 \[
 \text{Integrated Luminosity} = \int (\text{Instantaneous Luminosity}) \, dt
 \]
@@ -1013,7 +1010,7 @@ The unit of integrated luminosity is typically inverse femtobarns (\( \text{fb}^
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/PCClumivslumisection_2018_1.png}
-\caption[2018 PCC Inst. Luminosity]{%                                                                                                                                                                   
+\caption[2018 PCC inst. luminosity]{%                                                                                                                                                                   
  2018 PCC instantaneous luminosity as a function of lumi section.
 }
 \label{fig:PCC_inst_2018}
@@ -1028,7 +1025,9 @@ The luminosity measurement at CMS experiment is influenced by various systematic
 
 \begin{itemize}
 
-\item Orbit Drift: Orbit drift in particle accelerators refers to the slight deviation or shift in the trajectory of circulating particle beams from their intended path. This drift can be caused by a myriad of factors, including imperfections in the magnetic fields guiding the beams, external disturbances, and even minute ground movements or temperature fluctuations affecting the accelerator components. The precision with which beams are aligned in colliders like the LHC is crucial for maximizing the number of particle collisions, and hence the luminosity. When an orbit drift occurs, the overlap of the colliding beams may become suboptimal, leading to a reduced instantaneous luminosity. This reduction can influence the effectiveness of the experiments conducted, potentially introducing uncertainties in the luminosity measurement \cite{CERNOribLumi}.
+\item Orbit Drift: Orbit drift in particle accelerators refers to the slight deviation or shift in the trajectory of circulating particle beams from their intended path. This drift can be caused by a myriad of factors, including imperfections in the magnetic fields guiding the beams, external disturbances, and even minute ground movements or temperature fluctuations affecting the accelerator components. The precision with which beams are aligned in colliders like the LHC is crucial for maximizing the number of particle collisions, and hence the luminosity. When an orbit drift occurs, the overlap of the colliding beams may become suboptimal, leading to a reduced instantaneous luminosity. This reduction can influence the effectiveness of the experiments conducted, potentially introducing uncertainties in the luminosity measurement \cite{CERNOribLumi}. To calculate the systematic uncertainty due to orbit drift in luminosity measurement, the process begins with measuring the particle beam positions during vdM scans using systems like DOROS BPM and arc BPMs. Corrections are applied based on linear interpolations of these positions to account for any drift from the intended paths, crucial for maintaining optimal beam overlaps and accurate collision counts. The impact of these corrections on the visible cross section is then assessed. Systematic uncertainty is estimated by comparing corrected visible cross section values from both measurement systems, with an additional peak position correction applied for discrepancies at the head-on position. This comprehensive approach consolidates the uncertainties from orbit drift and peak position corrections into a single value.
+
+%Orbit drift impacts beam path alignment, crucial for maximizing collision rates and, consequently, luminosity, use systems like DOROS BPM and arc BPMs to measure beam positions during vdM scans, detecting any drift, correct for orbit drift by linearly interpolating measured beam positions around each VdM scan, adjusting nominal beam separations to reflect actual positions, evaluate how these corrections affect the visible cross section, compare corrected visible cross section values from DOROS and arc BPM measurements to estimate uncertainty. The systematic uncertainty encompasses both orbit drift and peak position corrections, ensuring accuracy in luminosity measurements essential for particle physics experiments.
 
 \begin{comment}
     
@@ -1062,8 +1061,9 @@ Post-experiment corrections: After the data are collected, a detailed analysis o
 
  %\cite{CERNOribLumi}.
 
-\item  X-Y non-factorization: The luminosity calibration often relies on methods that factorize the beam overlap integral into two separate integrals in the horizontal (X) and vertical (Y) directions. When this factorization is not valid or precise, the XY non-factorization comes into play. It essentially refers to the systematic uncertainty arising from the inability to perfectly separate or factorize the beam profiles in the horizontal and vertical dimensions. A variety of reasons can lead to XY non-factorization. One of the main causes is the complex shape and dynamics of the colliding beams. While in an ideal scenario, the beams might be perfectly Gaussian in shape and independent in X and Y dimensions, real-world effects such as beam-beam interactions, intrabeam scattering, or external perturbations can introduce correlations between the two dimensions. This means that the actual overlap of the beams cannot be simply represented as a product of their profiles in X and Y. The luminosity is a direct measure of how many collisions are happening per unit of time and area, and it depends on the overlap of the colliding beams. If the beams' profiles in the X and Y dimensions are not factorized correctly, it can lead to an inaccurate representation of their overlap, thus introducing a systematic uncertainty in the luminosity measurement \cite{CERNLUMPOG}.
+\item  X-Y non-factorization: The luminosity calibration often relies on methods that factorize the beam overlap integral into two separate integrals in the horizontal (X) and vertical (Y) directions. When this factorization is not valid or precise, the XY non-factorization comes into play. It essentially refers to the systematic uncertainty arising from the inability to perfectly separate or factorize the beam profiles in the horizontal and vertical dimensions. A variety of reasons can lead to XY non-factorization. One of the main causes is the complex shape and dynamics of the colliding beams. While in an ideal scenario, the beams might be perfectly Gaussian in shape and independent in X and Y dimensions, real-world effects such as beam-beam interactions, intrabeam scattering, or external perturbations can introduce correlations between the two dimensions. This means that the actual overlap of the beams cannot be simply represented as a product of their profiles in X and Y. The luminosity is a direct measure of how many collisions are happening per unit of time and area, and it depends on the overlap of the colliding beams. If the beams' profiles in the X and Y dimensions are not factorized correctly, it can lead to an inaccurate representation of their overlap, thus introducing a systematic uncertainty in the luminosity measurement \cite{CERNLUMPOG}. To determine the systematic uncertainty due to X-Y non-factorization in luminosity, a series of specialized beam imaging scans are conducted to capture the actual profiles and overlaps of the colliding beams, challenging the common assumption that beam densities in the X and Y dimensions can be independently factorized. Data from these scans are used to model the beam shapes, incorporating potential X-Y correlations using various mathematical functions. Simulated vdM scans based on these models then predict the expected luminosity, accounting for the non-factorizable nature of the beams. By comparing these predictions with actual vdM scan results which assume factorizable beam profiles a correction factor is estimated to adjust the luminosity. The systematic uncertainty related to X-Y non-factorization is finally determined by evaluating the correction factor variability and the model fit quality, ensuring the adjustment accurately reflects the true beam interactions and their impact on the measured luminosity.
 
+  
 %This is crucial because any error in luminosity calibration directly impacts the normalization of the cross-section measurements and, thus, the results and interpretations of the physics processes under study \cite{CERNLUMPOG}.
 
 \begin{comment}
@@ -1085,8 +1085,8 @@ The nonfactorizability of the density distribution can also affect the effective
 
 \end{comment}
 
-\item Beam-Beam Deflection: refers to the change in trajectory of the individual particles in the beam as they pass near each other in the interaction point, due to their electromagnetic interaction \cite{Herr:1982430}. In a perfect scenario, each beam of protons would stay focused and keep their trajectory constant throughout the process. However, when two beams cross each other, the electromagnetic fields of the protons in one beam can exert forces on the protons in the other beam, causing them to deviate from their initial trajectory \cite{babaev2023impact}.
-  
+\item Beam-Beam Deflection: refers to the change in trajectory of the individual particles in the beam as they pass near each other in the interaction point, due to their electromagnetic interaction \cite{Herr:1982430}. In a perfect scenario, each beam of protons would stay focused and keep their trajectory constant throughout the process. However, when two beams cross each other, the electromagnetic fields of the protons in one beam can exert forces on the protons in the other beam, causing them to deviate from their initial trajectory \cite{babaev2023impact}. Systematic uncertainty due to beam-beam deflection is computed by modeling the electromagnetic interactions that cause proton beams to deflect when collidingaffecting luminosity. Sophisticated simulations predict the deflection impact, allowing for the derivation of a correction factor to adjust luminosity. This uncertainty is quantified by evaluating the correction factor variability and confidence across various conditions.
+
 %Refers to the mutual interaction of two colliding particle beams, resulting in the deflection of the individual beams due to the electromagnetic fields generated by the other beam. This effect can lead to beam losses and reduced luminosity \cite{CERNBeamBeam}
 %\cite{Herr:1982430} \cite{babaev2023impact}.
 
@@ -1095,13 +1095,14 @@ The nonfactorizability of the density distribution can also affect the effective
  %and so on. These measurements have their own uncertainties, which can further contribute to the uncertainty in β* and thus the luminosity.
   %Refers to the time-varying beta function of a particle beam, which describes the rate at which the beam diverges or converges as it propagates. This effect can be important for beam stability and the control of beam emittance
  % \cite{CERNVdMOMC}.
-
-\item Beam Current Calibration:  Beam current calibration ensures that the \( N \) value (number of particles per bunch) used in the luminosity equation is accurate. If the calibration is off, the derived value of \( N \) from the instruments like beam current transformers will be inaccurate, leading to errors in the calculated luminosity $\( L_{inst} \)$. As the luminosity dependence on number of particles per bunch is \( N^2 \), even small errors in beam current calibration can significantly affect the accuracy of $\( L_{inst} \)$ \cite{CERNLumiDays}.
+The systematic uncertainty due to dynamic $\beta$ effects is quantified based on beam transport simulations that incorporate both the defocusing effects of beam-beam interactions and the scaling of these effects to the actual beam energies, $\beta$ settings, and measured beam widths. The correction and its uncertainty are derived from the modeling of how each beam, under the influence of the other, experiences changes in its focusing properties, thereby affecting the overlap and, consequently, the luminosity. The correction is essential to account for the fact that the presence of one beam influences the focusing properties of the other, leading to adjustments in the measured beam sizes and the calculated luminosity.
+ 
+\item Beam Current Calibration:  Beam current calibration ensures that the \( N \) value (number of particles per bunch) used in the luminosity equation is accurate. If the calibration is off, the derived value of \( N \) from the instruments like beam current transformers will be inaccurate, leading to errors in the calculated luminosity $L_{inst}$. As the luminosity dependence on number of particles per bunch is $N^2$, even small errors in beam current calibration can significantly affect the accuracy of $L_{inst}$ \cite{CERNLumiDays}. The systematic uncertainty due to Beam Current Calibration is computed by considering uncertainties from two main sources: the precision of the DC Current Transformers (DCCT) measurements and the correction for spurious charges (ghost and satellite charges) that do not contribute to the luminosity. These uncertainties stem from the normalization process where Fast Beam Current Transformers (FBCT) measurements are adjusted based on the more accurate total beam current readings from the DCCT, and from the adjustments made to account for non-contributing charges detected during the calibration process. The combination of these factors determines the overall systematic uncertainty associated with calibrating the beam currents.
 
 %Refers to the process of accurately measuring the current of a particle beam, which is essential for many beam diagnostics and control systems \cite{CERNLumiDays}.
 
-\item Ghosts and Satellites: The ghost charge refers to the unintended or unexpected particles present in slots within the LHC beam that are nominally supposed to be empty. This term encapsulates the stray particles that aren't part of the primary, intended bunch structure of the beam. Ghost charges can originate from remnants of previous fills or injections into the LHC. When protons are injected and circulated within the accelerator, not all of them are perfectly grouped into the designated bunch structures. Some can linger outside the primary bunches, leading to these unintended ghost charges. The presence of ghost charges can significantly impact the luminosity measurement. Ghost charges can lead to additional, unexpected collisions when they interact with particles from the opposing beam. If these ghost-induced collisions are not accounted for, the luminosity can be overestimated. In the LHC, with its 400 MHz RF, there are 35640 RF bins, each about 2.5 ns long. Though only every tenth bin is typically filled with a particle bunch, stray particles are found in neighboring bins. These stray bunches within a \(\pm 12.5 \) ns range of a filled RF bin are termed \textit{"satellite bunches"}, distinct from main bunches and can influence precision luminosity measurement.
- \cite{Alici:1427728}.
+\item Ghosts and Satellites: The ghost charge refers to the unintended or unexpected particles present in slots within the LHC beam that are nominally supposed to be empty. This term encapsulates the stray particles that aren't part of the primary, intended bunch structure of the beam. Ghost charges can originate from remnants of previous fills or injections into the LHC. When protons are injected and circulated within the accelerator, not all of them are perfectly grouped into the designated bunch structures. Some can linger outside the primary bunches, leading to these unintended ghost charges. The presence of ghost charges can significantly impact the luminosity measurement. Ghost charges can lead to additional, unexpected collisions when they interact with particles from the opposing beam. If these ghost-induced collisions are not accounted for, the luminosity can be overestimated. In the LHC, with its 400 MHz RF, there are 35640 RF bins, each about 2.5 ns long. Though only every tenth bin is typically filled with a particle bunch, stray particles are found in neighboring bins. These stray bunches within a \(\pm 12.5 \) ns range of a filled RF bin are termed \textit{"satellite bunches"}, distinct from main bunches and can influence precision luminosity measurement \cite{Alici:1427728}.
+The systematic uncertainty due to ghosts and satellites is computed by first measuring these spurious charges using specific detection methods, such as the LHC longitudinal density monitors (LDM) and the beam-gas imaging method, which provide an assessment of the presence of non-colliding protons within the beam. These charges, known as ghosts (protons in nominally empty bunch slots) and satellites (protons outside the main RF bucket but within the colliding bunch crossing), do not contribute to the luminosity but are included in the total beam current measurement. To accurately account for the luminosity, corrections are made to the beam intensities to exclude the contributions from these spurious charges. The correction ensures that the calculated luminosity accurately reflects only the colliding protons that contribute to collisions. The uncertainty associated with this correction is derived from the precision and variability of the measurements used to quantify the ghost and satellite charges. This includes considering the limitations and variability inherent in the measurement methods (LDM and beam-gas imaging), as well as the fluctuating nature of these spurious charges over time and under different beam conditions.
 
   %Refers to unwanted signals in a detector or measurement system that can arise from various sources such as scattered radiation, electronic noise, or interference from other particles. These can lead to inaccurate measurements and reduced data quality \cite{Alici:1427728}.
 
@@ -1152,8 +1153,8 @@ vdM4 & 962586.52 & 3943.24 & 0.41 \\
 \label{tab:sigmavis_btob_values}
 \end{table}
 
-\item Cross-Detector Consistency: Refers to the agreement between measurements obtained from different detectors or measurement systems. This is important for verifying the accuracy and reliability of experimental results. A head-on lumi phase during vdm fill is used.
-
+\item Cross-Detector Consistency: Refers to the agreement between measurements obtained from different detectors or measurement systems. This is important for verifying the accuracy and reliability of experimental results. A head-on lumi phase during vdm fill is used. The systematic uncertainty is computed by comparing luminosity measurement across various detectors over the data-taking period. This involves analyzing the ratios of luminosity measurement between pairs of detectors, assessing their stability and linearity under different conditions, and identifying any systematic deviations. The variability and consistency between detectors are quantified, typically using the standard deviation of these ratios, after excluding periods with known issues. The overall systematic uncertainty reflects the largest observed deviations and variability among the detectors, ensuring a conservative estimate that accounts for differences in detector responses and operational conditions.
+  
 \item Background Subtraction: Refers to the process of removing unwanted signals from a measurement or detector system that arise from sources other than the physical phenomenon of interest, such as noise, cosmic rays, or other particles. Machine induced backgrounds are subtracted from raw PCC rate as described in section 4.3. %Corrected rate is given by the difference between the raw rate and the background rate. Uncertainty in the background propagate to uncertainty in the rate as follows,
 
 \begin{comment}
@@ -1306,7 +1307,7 @@ The standard deviation of ratio of luminosity from best and second best luminome
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.8\textwidth]{ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png}
-\caption[Luminosity Ratio Profile]{Profile of the PCC/HFOC luminosity as a function of lumi section.}
+\caption[Luminosity ratio profile]{Profile of the PCC/HFOC luminosity as a function of lumi section.}
 \label{fig:stabprof_7098}
 \end{figure}
 
@@ -1328,7 +1329,7 @@ The standard deviation of ratio of luminosity from best and second best luminome
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.8\textwidth]{ashish_thesis/ProjY_ProfileX_h_ratio_all_1.png}
-\caption[Projection Of Luminosity Ratio Profile]{%                                                                                                                                                                            
+\caption[Projection of luminosity ratio profile]{%                                                                                                                                                                            
 Distribution of the ratio of PCC/HFOC luminosity evaluated per 50 lumi section blocks. 
 }
 \label{fig:stabprof1}
@@ -1451,10 +1452,9 @@ ine change in detector response over different luminosity levels. Slope of the l
 \begin{figure}[h]
   \centering
   \includegraphics[width=1\textwidth]{ashish_thesis/type1res_gr0p5_1.png}
-  \caption[PCC Afterglow Residuals]{Left: PCC afterglow correction type 1 residual as a function of instantaneous luminosity. The residual fraction is given by the ratio of the luminosity of the first empty bunch immediately following a colliding bunch to the luminosity of the colliding bunch. Right: Type 2 residual as a function of instantaneous luminosity. These are given by the ratio of the luminosity of the second empty bunches after a colliding bunch to the luminosity of the colliding bunch. Random trigger PCC dataset for all periods are used to make these plots \cite{Sehrawat2023}.}
+  \caption[PCC afterglow residuals]{Left: PCC afterglow correction type 1 residual as a function of instantaneous luminosity. The residual fraction is given by the ratio of the luminosity of the first empty bunch immediately following a colliding bunch to the luminosity of the colliding bunch. Right: Type 2 residual as a function of instantaneous luminosity. These are given by the ratio of the luminosity of the second empty bunches after a colliding bunch to the luminosity of the colliding bunch. Random trigger PCC dataset for all periods are used to make these plots \cite{Sehrawat2023}.}
   \label{fig:stabprof_4012}
 \end{figure}
-
 
 %\begin{figure}[!htp]
 %\centering
@@ -1716,7 +1716,7 @@ Integration & Afterglow & 0.5 & 0.003 \bigoplus$ 0.27 \\
  & Linearity & 1.1 & 0.35 \\
 Total & -- & 2.47 & 0.739 \\
 \end{tabular}
-\caption[Systematic uncertainty]{Systematic uncertainty during calibration and physics data taking for PAS and final veto.}
+\caption[2018 systematic uncertainty]{Systematic uncertainty during calibration and physics data taking for PAS and final veto.}
 \label{tab:systematic-uncertainty}
 \end{table}
 
@@ -1725,7 +1725,7 @@ Total & -- & 2.47 & 0.739 \\
 
 \begin{table}[htbp]
   \centering
-  \caption[2018 Luminosity systematic uncertainty]{Systematic uncertainty during calibration and physics data taking for the final veto for the 2018 PCC luminosity measurement \cite{pas_18}.}
+  \caption[2018 luminosity systematic uncertainty]{Systematic uncertainty during calibration and physics data taking for the final veto for the 2018 PCC luminosity measurement \cite{pas_18}.}
 \label{tab:systematic-uncertainty}
 \begin{tabular}{cccc}
   \textbf{}&\textbf{Systematics} &\textbf{Uncertainty [\%]} \\

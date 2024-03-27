@@ -94,7 +94,31 @@ L_{inst} = \frac{-ln(N/N_0)}{\sigma_{vis}}
 \end{equation}
 
 where $L_{inst}$ is the luminosity, N is the number of events with zero particles detected in the region of interest, $N_0$ is the total number of events, $\sigma_{vis}$ is the visible cross-section. One advantage is that it is a simple and robust method that does not require sophisticated detectors or calibration procedures. However, it can be affected by background events, such as cosmic rays or beam-gas interactions. \\
-The HFET algorithm measures luminosity by summing transverse energy deposits in the HF calorimeter cells. It relies on the direct proportionality between the total transverse energy and the particle flux from the interaction point. Accurate calibration of calorimeter cells is crucial for this method, as it ensures that the aggregate transverse energy accurately reflects the luminosity of the particle collisions \cite{Sirunyan:2759951.
+The HFET algorithm measures luminosity by summing transverse energy deposits in the HF calorimeter cells. It relies on the direct proportionality between the total transverse energy and the particle flux from the interaction point. Accurate calibration of calorimeter cells is crucial for this method, as it ensures that the aggregate transverse energy accurately reflects the luminosity of the particle collisions \cite{Sirunyan:2759951}.
+
+%The Hadron Forward Transverse Energy (HFET) algorithm is a method used to determine the luminosity of particle collisions. This method is based on the direct proportionality between the transverse energy deposited in the Hadron Forward calorimeter cells and the particle flux from the collision point.
+
+The measurement of instantaneous luminosity, $L_{inst}$, using the HFET algorithm involves the following steps:
+
+\begin{enumerate}
+  \item Initialize the total transverse energy sum: 
+  \[ \Sigma E_T = 0 \]
+  
+  \item For each calorimeter cell, do:
+  \begin{enumerate}
+    \item Measure the transverse energy \( E_{T,\text{cell}} \).
+    \item Update the total transverse energy sum: 
+    \[ \Sigma E_T = \Sigma E_T + E_{T,\text{cell}} \]
+  \end{enumerate}
+  
+  \item Correct the total transverse energy sum for background energy:
+  \[ \Sigma E_T = \Sigma E_T - E_{T,\text{background}} \]
+  
+  \item Multiply by a calibration constant \( k \) to obtain the luminosity:
+  \[ L_{inst} = \( k \ \times \Sigma E_T \]
+\end{enumerate}
+
+The calibration constant \( k \) is empirically determined through a series of calibration procedures, van der Meer scans. The constant accounts for the proportionality between the aggregate transverse energy and the actual luminosity of the particle collisions.
 
 %The Missing Energy method is an alternative approach for luminosity measurement in the HF Calorimeter. This method relies on measuring the total transverse energy (Et) deposited in the calorimeter and comparing it with the expected average transverse energy for inelastic collisions. The idea behind the MET method is that the total transverse energy should be conserved in a collision event. Inelastic collisions are expected to produce a certain amount of transverse energy on average, which can be estimated from simulations and theoretical calculations. The missing energy in an event is defined as the difference between the expected average transverse energy and the measured transverse energy in the HF Calorimeter. For each bunch crossing, the missing energy is calculated, and a distribution of missing energy values is obtained. This distribution is then fitted to a functional form, which includes a term for the inelastic collisions and terms for various background processes (e.g., detector noise, beam-gas interactions). The fit allows extracting the number of inelastic collisions, which can then be used to calculate the luminosity. The MET method is sensitive to the energy scale calibration of the detector and the modeling of background processes. However, it provides an independent and complementary measurement to the ZC method, which helps to reduce systematic uncertainties in the luminosity determination \cite{Sirunyan:2759951}.
 
@@ -119,7 +143,7 @@ However, the DT muon rate luminometer is not independently calibrated during the
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.9\textwidth]{ashish_thesis/luminometer_cms.png}
-\caption[CMS Luminometers]{%
+\caption[CMS luminometers]{%
    CMS detector with all of the luminosity measurement devices showing PLT, BCM1F, HF, DT, PCC and RAMSES \cite{meyer2021luminosity}. 
 }
 \label{fig:lumino_cms}
@@ -129,7 +153,7 @@ However, the DT muon rate luminometer is not independently calibrated during the
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.9\textwidth]{ashish_thesis/luminometer_cms_pseudo.png}
-\caption[CMS luminometers Location]{%
+\caption[CMS luminometers location]{%
     Cross section of the CMS detector in the r-z plane showing all Run 2 luminometers PLT, BCM1F, DTs, and HF location. The two RAMSES monitors used as a luminometer in Run 2 are located directly behind HF \cite{Sirunyan:2759951}. 
 }
 \label{fig:lumino_cms_pseudo}
@@ -147,7 +171,7 @@ The pixel detector is also designed to operate at a high radiation level, with a
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/phaseI_upgrade_pixel_detector.png}
-\caption[Pixel Detector Layout]{%
+\caption[Pixel detector layout]{%
    Layout of the CMS Phase-1 upgraded pixel detector in longitudinal view \cite{Adam:2748381}. 
 }
 \label{fig:phaseI_upgrade}
@@ -157,7 +181,7 @@ The pixel detector is also designed to operate at a high radiation level, with a
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/silicon_pixel_module.png}
-\caption[Pixel Module Design]{%
+\caption[Pixel module design]{%
    Pixel detector modules for BPIX L1 (left), BPIX L2-4 (middle), and
 the FPIX detector (right) \cite{Adam:2748381}. 
 }

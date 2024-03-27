@@ -26,13 +26,13 @@
 
 \section{Dataset}
 
-To investigate the performance of the PCC luminometer during the 2022 data collection period \cite{Hayrapetyan:2870088}, we segment CMS luminosity data into five distinct periods:  C, D, E, F, and G, as illustrated in Figure \ref{fig:period_bound_1}. The run ranges associated with each of these periods are outlined in Fig. \ref{fig:period_bound_1}. Notably, during period F, specifically during Fill 8381, van der Meer (vdM) scans were implemented to calibrate the PCC luminometer. For our current analysis, we employ dataset that align with the 2022 luminosity measurement periods, specifically 2022C, 2022D, 2022E, 2022F and Run 2022G as highlighted in Table \ref{tab:my_label_1}. We extracted these datasets from the Alignment and Calibration (AlCa) project, a critical aspect of the CMS experiment. The selected datasets encompass two subcategories, namely Random trigger and Zero Bias similar to Run 2 PCC dataset. %The Random trigger dataset includes data where triggers are applied to both colliding and non-colliding bunches and the Zero Bias dataset consists of events that have successfully navigated the trigger system without any bias (no use of CMS detector signal), in this case, the trigger is applied exclusively to the colliding bunches.
+To investigate the performance of the PCC luminometer during the 2022 data collection period \cite{Hayrapetyan:2870088}, we segment CMS luminosity data into five distinct periods:  C, D, E, F, and G, as illustrated in Figure \ref{fig:period_bound_1}. The run ranges associated with each of these periods are outlined in Fig. \ref{fig:period_bound_1}. Notably, during period F, specifically during fill 8381, van der Meer (vdM) scans were implemented to calibrate the PCC luminometer. For our current analysis, we employ dataset that align with the 2022 luminosity measurement periods, specifically 2022C, 2022D, 2022E, 2022F and Run 2022G as highlighted in Table \ref{tab:my_label_1}. We extracted these datasets from the Alignment and Calibration (AlCa) project, a critical aspect of the CMS experiment. The selected datasets encompass two subcategories, namely Random trigger and Zero Bias similar to Run 2 PCC dataset. %The Random trigger dataset includes data where triggers are applied to both colliding and non-colliding bunches and the Zero Bias dataset consists of events that have successfully navigated the trigger system without any bias (no use of CMS detector signal), in this case, the trigger is applied exclusively to the colliding bunches.
 
 \begin{figure}[!htp]
   \centering
   %\caption[2018 CMS luminosity data taking periods]{ 2022 luminosity data taking periods showing data taking period boundaries.}
 \includegraphics[width=1\textwidth]{ashish_thesis/2022_lumi_datasets.png}
-\caption[2022 CMS Luminosity Data Periods]{%                                                                                                                                              
+\caption[2022 CMS luminosity data periods]{%                                                                                                                                              
    2022 luminosity data taking periods showing data taking period boundaries.
 }
 \label{fig:period_bound_1}
@@ -82,7 +82,7 @@ The method for selecting reliable modules based on their performance, using the 
   %\caption{}                                                                                                                                                                 
   \label{fig:sub2}
 \end{subfigure}
-\caption[Good/Bad Module Weight Profile]{Module weight profile as a function of lumi section showing good (left) and bad (right) module during Run 2022F. The horizontal red line is the mean of the module weight.}
+\caption[Good/Bad module weight profile]{Module weight profile as a function of lumi section showing good (left) and bad (right) module during Run 2022F. The horizontal red line is the mean of the module weight.}
 \label{fig:test}
 \end{figure}
 
@@ -110,7 +110,7 @@ For module evaluation, the steps include:
   \centering
   %\caption[2018 CMS luminosity data taking periods]{ 2022 luminosity data taking periods showing data taking period boundaries.}                                                                                              
 \includegraphics[width=1\textwidth]{ashish_thesis/stability_deviation_2022_1.png}
-\caption[Module Weight Standard Deviation]{%
+\caption[Module weight standard deviation]{%
   During Run 2022F, the distribution illustrates the average deviation of the module weight over it's mean for all modules.
 }
 \label{fig:stab_deviation_2022}
@@ -120,7 +120,7 @@ For module evaluation, the steps include:
   \centering
   %\caption[2018 CMS luminosity data taking periods]{ 2022 luminosity data taking periods showing data taking period boundaries.}                                                                                              
 \includegraphics[width=1\textwidth]{ashish_thesis/linearity_deviation_2022_1.png}
-\caption[Module Linearity & Linearity Deviation Distribution]{%
+\caption[Module linearity & linearity deviation distribution]{%
  Left: Linearity profile, module weight as a function of average PCC per module for one module in Run 2022F. Right: For all modules in Run 2022F, the distribution displays average deviations of the module weight divided by their mean derived from their linearity profiles.
 }
 \label{fig:lin_deviation_2022}
@@ -325,7 +325,7 @@ vdM fill & 1693 \\
 \begin{figure}[!htp]
   \centering
   \includegraphics[width=0.7\textwidth]{ashish_thesis/PCC_stability_2022_L0veto_4.png}
-  \caption[Luminosity Fractions w/o Layer 0 Modules]{Luminosity fraction of pixel detector for various layers and disks as a function of lumi section for the entire 2022 data with all Layer 0 modules vetoed.}
+  \caption[Luminosity fractions w/o layer 0 modules]{Luminosity fraction of pixel detector for various layers and disks as a function of lumi section for the entire 2022 data with all Layer 0 modules vetoed.}
   \label{fig:stabprof_69a}
 \end{figure}
 
@@ -333,7 +333,7 @@ vdM fill & 1693 \\
 \begin{figure}[!htp]
   \centering
   \includegraphics[width=0.7\textwidth]{ashish_thesis/2022_pcc_stability_2.png}
-  \caption[Stability Profiles For Final Veto]{Stability profiles of pixel detector layers and disk modules for the final module veto list.}
+  \caption[Stability profiles for final veto]{Stability profiles of pixel detector layers and disk modules for the final module veto list.}
   \label{fig:stabprof_69b}
 \end{figure}
 
@@ -364,12 +364,12 @@ The vdM calibration involves varying the position of the colliding proton beams 
 
 %The key steps of the vdM calibration procedure: Beam Separation Scans: Two beams are made to collide, and the number of collisions (events) is counted. The beam separation in either the horizontal or vertical direction is then progressively increased, and the change in the number of events is measured. This procedure allows for the determination of the spatial distribution of each beam, referred to as the beam profile. Fitting of Scan Data: The beam profiles obtained from the scans are then used to fit a function to the event rate as a function of beam separation. The maximum of this function gives the event rate when the beams are perfectly overlapped. Calculation of Luminosity: The luminosity is directly proportional to the event rate at perfect overlap and inversely proportional to the area of the beam profiles. Using these relationships, the absolute luminosity can be calculated. Calibration of the Detector: The calibration constant or visible cross section obtained from absolute luminosity and peak rate during vdM calibration is then used to calibrate the detector.
 
-THe vdM scan was performed in November 2022, during the LHC fills 8379 and 8381. In fill 8381 on 10–11 Nov 2022, data was collected when 144 paired bunches of particles were colliding, with additional unpaired bunches also present. Various scan pairs were conducted, including four vdM scans, two Beam Imaging (BI) scans, and one length scale scan. Each of these scans consists of two examinations in the x and y transverse planes. In the vdM scan, beams were separated by a distance correlating to six times transverse beam size and then moved across each other in 25 steps. Each step lasted 30 seconds and moved the beams by half of their transverse size. For the BI scans, one beam remained fixed while the other moved in 19 steps, over a distance of up to 4.5 times its transverse size. The length scale scan involved beams being separated by a constant distance and moved in both directions in five steps. The scan program during Fill 8381 is shown in Fig. \ref{fig:2022_vdM_program}.
+The vdM scan was performed in November 2022, during the LHC fills 8379 and 8381. In fill 8381 on 10–11 Nov 2022, data was collected when 144 paired bunches of particles were colliding, with additional unpaired bunches also present. Various scan pairs were conducted, including four vdM scans, two Beam Imaging (BI) scans, and one length scale scan. Each of these scans consists of two examinations in the x and y transverse planes. In the vdM scan, beams were separated by a distance correlating to six times transverse beam size and then moved across each other in 25 steps. Each step lasted 30 seconds and moved the beams by half of their transverse size. For the BI scans, one beam remained fixed while the other moved in 19 steps, over a distance of up to 4.5 times its transverse size. The length scale scan involved beams being separated by a constant distance and moved in both directions in five steps. The scan program during fill 8381 is shown in Fig. \ref{fig:2022_vdM_program}.
 
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/2022_vdM.png}
-\caption[2022 vdM Program]{%                                                                                                                                             
+\caption[2022 vdM program]{%                                                                                                                                             
   2022 vdM calibration program. In LHC fill 8381, proton beam positions were recorded, including four vdM scans, two BI scans, one LS scan, and two SS periods \cite{pas_22}.
 }
 \label{fig:2022_vdM_program}
@@ -433,7 +433,7 @@ The $\chi^2$ statistic measures the discrepancy between the observed event rates
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/2022_PCC_vdM_fit_new.png}
-\caption[2022 PCC vdM Fit]{%                                                                                                                                              
+\caption[2022 PCC vdM fit]{%                                                                                                                                              
   Rates and the resulting fitted double Gaussian scan curves as a function of the beam separation for a single bunch (BCID 282) as recorded by PCC for a vdM1 scan in the x (left) and y direction (right). Beam corrections have been applied to the raw data before the fit.
 }
 \label{fig:period_bound_50}
@@ -476,7 +476,7 @@ The $\chi^2$ statistic measures the discrepancy between the observed event rates
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.8\textwidth]{ashish_thesis/2022_sigma_vis_btob_variation.png}
-\caption[$\sigma_{vis}$ Bunch Variation]{%                                                                                                                                                        
+\caption[$\sigma_{vis}$ bunch variation]{%                                                                                                                                                        
   Bunch to bunch variation of PCC visible cross section where the red line is the average value. Red band depicts the $\pm$ one RMS of the values.
 }
 \label{fig:period_bound_99}
@@ -485,7 +485,7 @@ The $\chi^2$ statistic measures the discrepancy between the observed event rates
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.8\textwidth]{ashish_thesis/2022_PCC_sigmavis_per_scan_new.png}
-\caption[2022 PCC Visible Cross Section]{%                                                                                                                                                                               
+\caption[2022 PCC visible cross section]{%                                                                                                                                                                               
   Visible cross section per scan where red line shows the average value. Red band depicts the $\pm$ one RMS of the values.
 }
 \label{fig:period_bound_105}
@@ -511,7 +511,7 @@ The fill cycle in Run 3 includes a leveling part in order to control the very hi
 \begin{figure}[H]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/Fill_profile_8274_1.png}
-\caption[Fill 8274 Luminosity Profile]{%                                                                                                                                                                                         
+\caption[Fill 8274 luminosity profile]{%                                                                                                                                                                                         
   PCC luminosity profile for fill 8395.
 }
 \label{fig:period_bound_111}
@@ -555,7 +555,7 @@ is summed over all bunch crossings. Fit perfomed for 4 wagon train is shown in F
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.8\textwidth]{ashish_thesis/run_361957_ls_block_1.png}
-\caption[Raw PCC Run 361957]{%                                                                                                                                           
+\caption[Raw PCC run 361957]{%                                                                                                                                           
  PCC per bx for fill 8307 for one 50 LS block. The first and ninth train are used to fit the afterglow tail.
 }
 \label{fig:period_bound_101}
@@ -564,7 +564,7 @@ is summed over all bunch crossings. Fit perfomed for 4 wagon train is shown in F
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.8\textwidth]{ashish_thesis/afterglow_fit_2022_1.png}
-\caption[Afterglow Fit 4-wagon]{%                                                                                                                                                                                                                                                                                      
+\caption[Afterglow fit 4-wagon]{%                                                                                                                                                                                                                                                                                      
  Fit to 4-wagon train.
 }
 \label{fig:period_bound_102}
@@ -619,7 +619,7 @@ is summed over all bunch crossings. Fit perfomed for 4 wagon train is shown in F
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/afterglow_t1res_vsinstlumi.png}
-\caption[2022 PCC Type 1 Afterglow Residuals]{%                                                                                                                                             
+\caption[2022 PCC Type 1 afterglow residuals]{%                                                                                                                                             
  PCC afterglow correction type 1 residual as a function of instantaneous luminosity for period Run 2022F. The residual fraction is given by the ratio of the luminosity of the first empty bunch immediately following a colliding bunch to the luminosity of the colliding bunch.
 
 }
@@ -631,8 +631,8 @@ is summed over all bunch crossings. Fit perfomed for 4 wagon train is shown in F
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/afterglow_t2res_vsinstlumi.png}
-\caption[2022 PCC Type 2 Afterglow Residuals]{%                                                                                                                                             
-Type 2 residual as a function of instantaneous luminosity for period 2022F. These are given by the ratio of the luminosity of the second and following empty bunches after a colliding bunch to the luminosity of the colliding bunch.
+\caption[2022 PCC type 2 afterglow residuals]{%                                                                                                                                             
+Type 2 residual as a function of instantaneous luminosity for period 2022F. These are given by the ratio of the luminosity of the second empty bunches after a colliding bunch to the luminosity of the colliding bunch.
 }
 \label{fig:period_bound_45}
 \end{figure}
@@ -688,7 +688,7 @@ Comparable patterns are observed for 2022 periods E, F and G. During periods C a
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{ashish_thesis/afterglow_t1res_vsinstlumi_1.png}
-\caption[2022 PCC Type 1 Afterglow Residuals]{%                                                                                                                                                                             
+\caption[2022 PCC type 1 afterglow residuals]{%                                                                                                                                                                             
  PCC afterglow correction type 1 residual as a function of instantaneous luminosity for period Run 2022F. The residual fraction is given by the ratio of the luminosity of the first empty bunch immediately following a colliding bunch to the luminosity of the colliding bunch.
 
 }
@@ -699,7 +699,7 @@ Comparable patterns are observed for 2022 periods E, F and G. During periods C a
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{ashish_thesis/afterglow_t2res_vsinstlumi_1.png}
-\caption[2022 PCC Type 2 Afterglow Residuals]{%
+\caption[2022 PCC type 2 afterglow residuals]{%
   Type 2 residual as a function of instantaneous luminosity for period 2022F. These are given by the ratio of the luminosity of the second and following empty bunches after a colliding bunch to the luminosity of the colliding bunch.
 }
 \label{fig:period_bound_45}
@@ -712,7 +712,7 @@ PCC instantaneous luminosity provides a measure of the collider performance and 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{ashish_thesis/PCClumivslumisection_2022.png}
-\caption[2022 PCC Inst. Luminosity]{%
+\caption[2022 PCC inst. luminosity]{%
   PCC instantaneous luminosity as a function of lumi section for entire 2022 year.
   
 }
@@ -841,7 +841,7 @@ vdM4 & 1080.37 & 2.09 & 0.0920 \\
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/SS_bkg_2022.png}
-\caption[2022 Backgound Estimation]{%                                                                                                                                              
+\caption[2022 backgound estimation]{%                                                                                                                                              
   2D histogram filled with the Avg. PCC evaluated per NB4, during the Super-Separation window.
 }
 \label{fig:ssbkg_2022}
@@ -954,7 +954,7 @@ Fig. \ref{fig:stabprof1_79} shows the projection of the luminosity ratio using 5
    % \includegraphics[width=\textwidth]{ashish_thesis/PCCvsHFOC_ProjectionY_all_2022.png}
     %\caption{Image 2}                                                                                                                                                             
   %\end{subfigure}
-  \caption[Luminosity Ratio Profile]{Profile of the PCC/HFET luminosity as a function of integrated luminosity.} %Right: Histogram filled with the ratio of PCC/HFET luminosity per lumi section.}
+  \caption[Luminosity ratio profile]{Profile of the PCC/HFET luminosity as a function of integrated luminosity.} %Right: Histogram filled with the ratio of PCC/HFET luminosity per lumi section.}
 \label{fig:stabprof_78}
 \end{figure}
 
@@ -962,7 +962,7 @@ Fig. \ref{fig:stabprof1_79} shows the projection of the luminosity ratio using 5
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1_new.png}
-\caption[Projection of Luminosity Ratio Profile]{%                                                                                                                                                                                           
+\caption[Projection of luminosity ratio profile]{%                                                                                                                                                                                           
  Distribution of the ratio of PCC/HFET luminosity evaluated per 50 lumi section blocks.
 }
 \label{fig:stabprof1_79}
@@ -1002,7 +1002,7 @@ The plot in Fig. \ref{fig:stabprof2_2000} shows the ratio of luminosity values o
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=0.6\textwidth]{ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1.png}
-\caption[PCC Response To Luminosity]{%                                                                                                                                                                
+\caption[PCC response to luminosity]{%                                                                                                                                                                
    Ratio of PCC/HFET luminosity plotted as a function of HFET luminosity to determine change in detector response over different luminosity levels.                                                    
 }
 \label{fig:lin_unc}
