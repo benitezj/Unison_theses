@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  28 MAR 2024 04:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  28 MAR 2024 04:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2231,13 +2231,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: ashish_thesis/type1res_gr0p5_1.png Graphic file (type png)
 <use ashish_thesis/type1res_gr0p5_1.png>
 Package pdftex.def Info: ashish_thesis/type1res_gr0p5_1.png  used on input line
- 1454.
+ 1455.
 (pdftex.def)             Requested size: 426.79135pt x 156.98955pt.
 
 ! Undefined control sequence.
 \enit@enditemize ->\enit@after 
                                \endlist \ifx \enit@series \relax \else \ifnu...
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2248,7 +2248,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@enditemize ...x \else \ifnum \enit@resuming 
                                                   =\@ne \enit@setresumekeys ...
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2259,7 +2259,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    =
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2268,7 +2268,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \enit@setresumekeys ...xpandafter {\enit@savekeys 
                                                   }\xdef \enit@afterlist {#2...
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2279,7 +2279,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@setresumekeys ...it@toks }\ifnum \enit@type 
                                                   =\z@ #3\def \enit@noexcs {...
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2290,7 +2290,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    =
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2299,7 +2299,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 <argument> enit@resume@series@\enit@series 
                                            
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2310,7 +2310,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@setresumekeys ...me@#1}{\csname c@\@listctr 
                                                   \endcsname \the \csname c@...
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2321,7 +2321,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@setresumekeys ...e \the \csname c@\@listctr 
                                                   \endcsname }\fi }
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2332,14 +2332,14 @@ and I'll forget about whatever was undefined.
 ! You can't use `\relax' after \the.
 <recently read> \c@ 
                     
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 I'm forgetting what you said and using zero instead.
 
 ! Undefined control sequence.
 \enit@enditemize ...ist \fi \ifnum \enit@resuming 
                                                   =\thr@@ \enit@setresumekey...
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2350,7 +2350,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    =
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2359,7 +2359,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \enit@setresumekeys ...xpandafter {\enit@savekeys 
                                                   }\xdef \enit@afterlist {#2...
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2370,7 +2370,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@setresumekeys ...it@toks }\ifnum \enit@type 
                                                   =\z@ #3\def \enit@noexcs {...
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2381,7 +2381,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    =
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2390,7 +2390,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \enit@setresumekeys ...me@#1}{\csname c@\@listctr 
                                                   \endcsname \the \csname c@...
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2401,7 +2401,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@setresumekeys ...e \the \csname c@\@listctr 
                                                   \endcsname }\fi }
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2412,7 +2412,7 @@ and I'll forget about whatever was undefined.
 ! You can't use `\relax' after \the.
 <recently read> \c@ 
                     
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 I'm forgetting what you said and using zero instead.
 
@@ -2423,7 +2423,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2432,7 +2432,7 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.1505 \end{itemize}
+l.1506 \end{itemize}
                     
 Things are pretty mixed up, but I think the worst is over.
 
@@ -2960,7 +2960,7 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (110 pages, 25315872 bytes).
+Output written on thesis.pdf (110 pages, 25315868 bytes).
 PDF statistics:
  1527 PDF objects out of 1728 (max. 8388607)
  1247 compressed objects within 13 object streams
