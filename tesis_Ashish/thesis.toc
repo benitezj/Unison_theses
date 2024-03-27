@@ -1,45 +1,8 @@
 \thispagestyle {empty}
-\contentsline {chapter}{List of figures}{vi}{section*.3}%
-\contentsline {chapter}{List of tables}{ix}{section*.4}%
-\contentsline {chapter}{\numberline {1}Introduction to collider experiments}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Luminosity and its importance in particle physics}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Motivation for precision luminosity measurement}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Large Hadron Collider (LHC) and the CMS Experiment}{4}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Run 1, Run 2 and Run 3 luminosity measurement}{8}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Luminosity measurement at CMS experiment}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Luminosity measurement methods}{11}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Pixel detector}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Pixel cluster counting (PCC) method}{15}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Luminometer calibration}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}van der Meer (vdM) method}{21}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Background estimation}{23}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Fit model}{24}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Run 2 Luminosity Measurement}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Dataset}{26}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Detector module selection}{28}{section.4.2}%
-\contentsline {section}{\numberline {4.3}vdM calibration results}{34}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Luminosity for physics fill}{38}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Afterglow backgrounds}{40}{subsection.4.4.1}%
-\contentsline {section}{\numberline {4.5}PCC instantaneous and integrated luminosity}{45}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Systematic uncertainties}{47}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}vdM calibration uncertainties}{47}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Integration uncertainties}{50}{subsection.4.6.2}%
-\contentsline {chapter}{\numberline {5}Run 3 Luminosity Measurement}{55}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Dataset}{55}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Detector module selection}{55}{section.5.2}%
-\contentsline {section}{\numberline {5.3}vdM calibration results}{60}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Luminosity for physics fills}{63}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Afterglow background corrections}{64}{subsection.5.4.1}%
-\contentsline {section}{\numberline {5.5}PCC instantaneous and integrated luminosity}{68}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Systematic uncertainties}{68}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}vdM calibration uncertainties}{69}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}Integration uncertainties}{71}{subsection.5.6.2}%
-\contentsline {chapter}{\numberline {6}TEPX luminometer for HL-LHC}{76}{chapter.6}%
-\contentsline {section}{\numberline {6.1}TEPX Luminometer}{79}{section.6.1}%
-\contentsline {section}{\numberline {6.2}TEPX Luminomter Simulation}{80}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Linearity of TEPX clusters}{82}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}TEPX two-fold coincidences}{83}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}TEPX three-fold coincidences}{91}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}Statistical precision}{94}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Summary}{95}{chapter.7}%
-\contentsline {chapter}{References}{97}{chapter*.100}%
+\contentsline {chapter}{List of figures}{v}{section*.3}%
+\contentsline {chapter}{List of tables}{vi}{section*.4}%
+\contentsline {chapter}{\numberline {1}Luminometer calibration}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}van der Meer (vdM) method}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Background estimation}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Fit model}{4}{section.1.3}%
+\contentsline {chapter}{References}{6}{chapter*.6}%

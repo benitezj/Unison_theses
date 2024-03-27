@@ -1,3 +1,59 @@
+
+@techreport{Dragicevic:2262932,
+      author        = "Dragicevic, M. and et al.",
+      title         = "{Test Beam Performance Measurements for the Phase I
+                       Upgrade of the CMS Pixel Detector. Test Beam Performance
+                       Measurements for the Phase I Upgrade of the CMS Pixel
+                       Detector}",
+      institution   = "CERN",
+      archivePrefix = "arXiv",
+      eprint        = "1706.00222",
+      reportNumber  = "CMS-NOTE-2017-002, CERN-CMS-NOTE-2017-002",
+      address       = "Geneva",
+      year          = "2017",
+      url           = "https://cds.cern.ch/record/2262932",
+      doi           = "10.1088/1748-0221/12/05/P05022",
+}
+
+
+@techreport{CMS-PAS-LUM-13-002,
+      collaboration = "CMS",
+      title         = "{Luminosity Calibration for the 2013 Proton-Lead and
+                       Proton-Proton Data Taking}",
+      institution   = "CERN",
+      reportNumber  = "CMS-PAS-LUM-13-002",
+      address       = "Geneva",
+      year          = "2014",
+      url           = "https://cds.cern.ch/record/1643269",
+}
+
+@techreport{CMS-PAS-LUM-17-002,
+      collaboration = "CMS",
+      title         = "{CMS luminosity measurement using 2016 proton-nucleus
+                       collisions at nucleon-nucleon center-of-mass energy of 8.16
+                       TeV}",
+      institution   = "CERN",
+      reportNumber  = "CMS-PAS-LUM-17-002",
+      address       = "Geneva",
+      year          = "2018",
+      url           = "https://cds.cern.ch/record/2628652",
+}
+
+@techreport{CMS-PAS-LUM-18-001,
+      collaboration = "CMS",
+      title         = "{CMS luminosity measurement using nucleus-nucleus
+                       collisions at
+                       $\sqrt{\smash[b]{s_{_{\mathrm{NN}}}}}=5.02\,\text{TeV}$ in
+                       2018}",
+      institution   = "CERN",
+      reportNumber  = "CMS-PAS-LUM-18-001",
+      address       = "Geneva",
+      year          = "2022",
+      url           = "https://cds.cern.ch/record/2809613",
+}
+
+
+
 @misc{pas_22,
       collaboration = "CMS",
       title         = "{Luminosity measurement in proton-proton collisions at

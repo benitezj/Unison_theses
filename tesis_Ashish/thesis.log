@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  24 MAR 2024 00:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  27 MAR 2024 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1341,19 +1341,7 @@ Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 138.
  (./thesis.aux (./Portada/Portada.aux)
 (./Dedication/dedication.aux) (./Abstract/abstract.aux)
-(./Chapter1/chapter1.aux
-
-LaTeX Warning: Label `tab:lumi' multiply defined.
-
-) (./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux
-
-LaTeX Warning: Label `fig:af_change_veto' multiply defined.
-
-
-LaTeX Warning: Label `tab:systematic-uncertainty' multiply defined.
-
-) (./Chapter5/chapter5.aux) (./Chapter7/chapter7.aux) (./Chapter8/chapter8.aux)
-)
+(./Chapter3/chapter3.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
@@ -1374,7 +1362,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
 LaTeX Font Info:    ... okay on input line 138.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
 LaTeX Font Info:    ... okay on input line 138.
- (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count394
 \scratchdimen=\dimen343
@@ -1481,7 +1470,7 @@ or `english'. on input line 138.
 \openout2 = `Portada/Portada.aux'.
 
  (./Portada/Portada.tex
-<unison-logo.png, id=183, 321.2pt x 321.2pt>
+<unison-logo.png, id=35, 321.2pt x 321.2pt>
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
 Package pdftex.def Info: unison-logo.png  used on input line 24.
@@ -1589,175 +1578,47 @@ my insertion and my current dilemma will both disappear.
 
 
 
-] (./thesis.toc [4
-
-
-])
+] (./thesis.toc)
 \tf@toc=\write8
 \openout8 = `thesis.toc'.
 
- [5] (./thesis.lof
-[6]
-! Misplaced alignment tab character &.
-<argument> ....4}{\ignorespaces Module Linearity &
-                                                   Linearity Deviation Distr...
-l.39 ...tion Distribution}}{58}{figure.caption.50}
-                                                  %
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+ [4
 
-! Misplaced alignment tab character &.
-<argument> ...p 0.5 Cluster Count in D4R1 vs. dr &
-                                                   dphi}}
-l.64 ...4R1 vs. dr & dphi}}{84}{figure.caption.80}
-                                                  %
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-[7])
+] (./thesis.lof)
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
- [8] (./thesis.lot)
+ [5]
+(./thesis.lot)
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
- [9] (./thesis.nls)
-\openout2 = `Chapter1/chapter1.aux'.
-
- (./Chapter1/chapter1.tex
-Chapter 1.
-[1
-
-
-
-] [2]
-<ashish_thesis/lumi_precision.png, id=485, 722.7pt x 705.63625pt>
-File: ashish_thesis/lumi_precision.png Graphic file (type png)
-<use ashish_thesis/lumi_precision.png>
-Package pdftex.def Info: ashish_thesis/lumi_precision.png  used on input line 5
-9.
-(pdftex.def)             Requested size: 341.43437pt x 333.37183pt.
- [3 <./ashish_thesis/lumi_precision.png>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
-9.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-<ashish_thesis/lhc_schematic.png, id=495, 853.1875pt x 649.42625pt>
-File: ashish_thesis/lhc_schematic.png Graphic file (type png)
-<use ashish_thesis/lhc_schematic.png>
-Package pdftex.def Info: ashish_thesis/lhc_schematic.png  used on input line 83
-.
-(pdftex.def)             Requested size: 384.1096pt x 292.37784pt.
- [4] [5 <./ashish_thesis/lhc_schematic.png>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
- [6]
-<ashish_thesis/cms_exp.png, id=517, 687.56876pt x 492.84125pt>
-File: ashish_thesis/cms_exp.png Graphic file (type png)
-<use ashish_thesis/cms_exp.png>
-Package pdftex.def Info: ashish_thesis/cms_exp.png  used on input line 141.
-(pdftex.def)             Requested size: 320.0935pt x 229.43953pt.
- [7]
-<ashish_thesis/CMS_luminosity.png, id=528, 578.16pt x 433.62pt>
-File: ashish_thesis/CMS_luminosity.png Graphic file (type png)
-<use ashish_thesis/CMS_luminosity.png>
-Package pdftex.def Info: ashish_thesis/CMS_luminosity.png  used on input line 1
-89.
-(pdftex.def)             Requested size: 384.1096pt x 288.0824pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [8 <./ashish_thesis/cms_exp.png (PNG copy)>] [9 <./ashish_thesis/CMS_luminosi
-ty.png>]
-\openout2 = `Chapter2/chapter2.aux'.
-
- (./Chapter2/chapter2.tex
-Chapter 2.
-[10
-
-
-
-
-] [11]
-Runaway argument?
-{Sirunyan:2759951. 
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.55 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[12]
-<ashish_thesis/luminometer_cms.png, id=576, 760.8425pt x 609.27625pt>
-File: ashish_thesis/luminometer_cms.png Graphic file (type png)
-<use ashish_thesis/luminometer_cms.png>
-Package pdftex.def Info: ashish_thesis/luminometer_cms.png  used on input line 
-78.
-(pdftex.def)             Requested size: 384.1096pt x 307.60304pt.
-<ashish_thesis/luminometer_cms_pseudo.png, id=579, 687.56876pt x 365.365pt>
-File: ashish_thesis/luminometer_cms_pseudo.png Graphic file (type png)
-<use ashish_thesis/luminometer_cms_pseudo.png>
-Package pdftex.def Info: ashish_thesis/luminometer_cms_pseudo.png  used on inpu
-t line 88.
-(pdftex.def)             Requested size: 384.1096pt x 204.10683pt.
- [13] [14 <./ashish_thesis/luminometer_cms.png> <./ashish_thesis/luminometer_cm
-s_pseudo.png (PNG copy)>]
-<ashish_thesis/phaseI_upgrade_pixel_detector.png, id=597, 1036.37187pt x 282.55
-562pt>
-File: ashish_thesis/phaseI_upgrade_pixel_detector.png Graphic file (type png)
-<use ashish_thesis/phaseI_upgrade_pixel_detector.png>
-Package pdftex.def Info: ashish_thesis/phaseI_upgrade_pixel_detector.png  used 
-on input line 106.
-(pdftex.def)             Requested size: 426.79135pt x 116.3616pt.
-<ashish_thesis/silicon_pixel_module.png, id=600, 866.73813pt x 252.945pt>
-File: ashish_thesis/silicon_pixel_module.png Graphic file (type png)
-<use ashish_thesis/silicon_pixel_module.png>
-Package pdftex.def Info: ashish_thesis/silicon_pixel_module.png  used on input 
-line 116.
-(pdftex.def)             Requested size: 426.79135pt x 124.55396pt.
- [15] [16 <./ashish_thesis/phaseI_upgrade_pixel_detector.png> <./ashish_thesis/
-silicon_pixel_module.png>] [17] [18]
-Excluding 'comment' comment. [19] Excluding 'comment' comment.) [20]
+ [6] (./thesis.nls)
 \openout2 = `Chapter3/chapter3.aux'.
 
-
-(./Chapter3/chapter3.tex
-Chapter 3.
-<ashish_thesis/vdm_method_new.png, id=638, 1557.82pt x 639.38875pt>
+ (./Chapter3/chapter3.tex
+Chapter 1.
+<ashish_thesis/vdm_method_new.png, id=80, 1557.82pt x 639.38875pt>
 File: ashish_thesis/vdm_method_new.png Graphic file (type png)
 <use ashish_thesis/vdm_method_new.png>
 Package pdftex.def Info: ashish_thesis/vdm_method_new.png  used on input line 2
 0.
 (pdftex.def)             Requested size: 426.79135pt x 175.16414pt.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+1.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21
-
+[1
 
 
 
 ]
-Overfull \hbox (35.07195pt too wide) in paragraph at lines 46--47
+Overfull \hbox (23.69406pt too wide) in paragraph at lines 46--47
 []\T1/ptm/m/n/12 (-20) The vdM scan de-ter-mines the bunch over-lap in-te-grals
  $[] \OML/ztmcm/m/it/12 ^^Z[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 x\OT1/ztmcm/
 m/n/12 )\OML/ztmcm/m/it/12 ^^Z[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 x\OT1/ztm
@@ -1767,934 +1628,43 @@ it/12 ^^Z[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 y\OT1/ztmcm/m/n/12 )\OML/ztmcm
 /m/it/12 dy$
  []
 
-[22 <./ashish_thesis/vdm_method_new.png>] Excluding 'comment' comment.
-Excluding 'comment' comment. [23] [24] Excluding 'comment' comment.) [25]
-\openout2 = `Chapter4/chapter4.aux'.
+[2 <./ashish_thesis/vdm_method_new.png>] Excluding 'comment' comment.
+Excluding 'comment' comment. [3] [4] Excluding 'comment' comment.) [5]
+(./thesis.bbl) [6
 
 
-(./Chapter4/chapter4.tex
-Chapter 4.
-<ashish_thesis/period_boundary.png, id=687, 513.92pt x 347.2975pt>
-File: ashish_thesis/period_boundary.png Graphic file (type png)
-<use ashish_thesis/period_boundary.png>
-Package pdftex.def Info: ashish_thesis/period_boundary.png  used on input line 
-29.
-(pdftex.def)             Requested size: 384.1096pt x 259.57689pt.
-[26
 
 
-
-
- <./ashish_thesis/period_boundary.png>] Excluding 'comment' comment.
-Excluding 'comment' comment. [27] Excluding 'comment' comment.
-<ashish_thesis/good_bad_modules_1.png, id=702, 1678.27pt x 583.68062pt>
-File: ashish_thesis/good_bad_modules_1.png Graphic file (type png)
-<use ashish_thesis/good_bad_modules_1.png>
-Package pdftex.def Info: ashish_thesis/good_bad_modules_1.png  used on input li
-ne 297.
-(pdftex.def)             Requested size: 426.79135pt x 148.43135pt.
- [28] [29 <./ashish_thesis/good_bad_modules_1.png>]
-<ashish_thesis/cut_selection_1.png, id=715, 698.61pt x 473.77pt>
-File: ashish_thesis/cut_selection_1.png Graphic file (type png)
-<use ashish_thesis/cut_selection_1.png>
-Package pdftex.def Info: ashish_thesis/cut_selection_1.png  used on input line 
-379.
-(pdftex.def)             Requested size: 341.43437pt x 231.54932pt.
-<ashish_thesis/3percent_cut_1.png, id=716, 3290.2925pt x 1107.13625pt>
-File: ashish_thesis/3percent_cut_1.png Graphic file (type png)
-<use ashish_thesis/3percent_cut_1.png>
-Package pdftex.def Info: ashish_thesis/3percent_cut_1.png  used on input line 3
-90.
-(pdftex.def)             Requested size: 426.79135pt x 143.5949pt.
- Excluding 'comment' comment.
-<ashish_thesis/mod_weight_comp_2.png, id=717, 698.61pt x 473.77pt>
-File: ashish_thesis/mod_weight_comp_2.png Graphic file (type png)
-<use ashish_thesis/mod_weight_comp_2.png>
-Package pdftex.def Info: ashish_thesis/mod_weight_comp_2.png  used on input lin
-e 447.
-(pdftex.def)             Requested size: 298.75264pt x 202.60384pt.
-
-Excluding 'comment' comment. [30] [31 <./ashish_thesis/cut_selection_1.png> <./
-ashish_thesis/3percent_cut_1.png (PNG copy)>]
-<ashish_thesis/before_after_vdm_stability_1.png, id=728, 1626.57687pt x 577.658
-13pt>
-File: ashish_thesis/before_after_vdm_stability_1.png Graphic file (type png)
-<use ashish_thesis/before_after_vdm_stability_1.png>
-Package pdftex.def Info: ashish_thesis/before_after_vdm_stability_1.png  used o
-n input line 509.
-(pdftex.def)             Requested size: 426.79135pt x 151.5626pt.
- Excluding 'comment' comment.
-[32 <./ashish_thesis/mod_weight_comp_2.png> <./ashish_thesis/before_after_vdm_s
-tability_1.png>]
-<ashish_thesis/2percentcommonveto_pixellayerdisk_1.png, id=736, 1585.42313pt x 
-562.1pt>
-File: ashish_thesis/2percentcommonveto_pixellayerdisk_1.png Graphic file (type 
-png)
-<use ashish_thesis/2percentcommonveto_pixellayerdisk_1.png>
-Package pdftex.def Info: ashish_thesis/2percentcommonveto_pixellayerdisk_1.png 
- used on input line 631.
-(pdftex.def)             Requested size: 426.79135pt x 151.31445pt.
- [33 <./ashish_thesis/2percentcommonveto_pixellayerdisk_1.png>] [34]
-<ashish_thesis/vdm_program_2018.png, id=750, 1645.64813pt x 436.12938pt>
-File: ashish_thesis/vdm_program_2018.png Graphic file (type png)
-<use ashish_thesis/vdm_program_2018.png>
-Package pdftex.def Info: ashish_thesis/vdm_program_2018.png  used on input line
- 691.
-(pdftex.def)             Requested size: 426.79135pt x 113.1048pt.
-
-! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   3
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   1
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   4
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   9
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   5
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   7
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   8
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   6
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...showing different types of scans. ##
-                                                  3 and ##10 are vdM scans, ...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...different types of scans. ##3 and ##
-                                                  10 are vdM scans, ##4 and ...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...cans. ##3 and ##10 are vdM scans, ##
-                                                  4 and ##9 are offset scans...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...3 and ##10 are vdM scans, ##4 and ##
-                                                  9 are offset scans, ##5, #...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...ns, ##4 and ##9 are offset scans, ##
-                                                  5, ##7 and ##8 are beam im...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...#4 and ##9 are offset scans, ##5, ##
-                                                  7 and ##8 are beam imaging...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...#9 are offset scans, ##5, ##7 and ##
-                                                  8 are beam imaging scans, ...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...7 and ##8 are beam imaging scans, ##
-                                                  6 is emittance scan.
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...showing different types of scans. ##
-                                                  3 and ##10 are vdM scans, ...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...different types of scans. ##3 and ##
-                                                  10 are vdM scans, ##4 and ...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...cans. ##3 and ##10 are vdM scans, ##
-                                                  4 and ##9 are offset scans...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...3 and ##10 are vdM scans, ##4 and ##
-                                                  9 are offset scans, ##5, #...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ns, ##4 and ##9 are offset scans, ##
-                                                  5, ##7 and ##8 are beam im...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...#4 and ##9 are offset scans, ##5, ##
-                                                  7 and ##8 are beam imaging...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...#9 are offset scans, ##5, ##7 and ##
-                                                  8 are beam imaging scans, ...
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...7 and ##8 are beam imaging scans, ##
-                                                  6 is emittance scan.
-l.692 ...eam imaging scans, #6 is emittance scan.}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-<ashish_thesis/SS1_SS2_bkg_pcc_1.png, id=753, 991.705pt x 486.31688pt>
-File: ashish_thesis/SS1_SS2_bkg_pcc_1.png Graphic file (type png)
-<use ashish_thesis/SS1_SS2_bkg_pcc_1.png>
-Package pdftex.def Info: ashish_thesis/SS1_SS2_bkg_pcc_1.png  used on input lin
-e 701.
-(pdftex.def)             Requested size: 426.79135pt x 209.29027pt.
-[35] [36 <./ashish_thesis/vdm_program_2018.png> <./ashish_thesis/SS1_SS2_bkg_pc
-c_1.png>]
-<ashish_thesis/vdM_fit_cveto_1.png, id=765, 1435.3625pt x 843.65187pt>
-File: ashish_thesis/vdM_fit_cveto_1.png Graphic file (type png)
-<use ashish_thesis/vdM_fit_cveto_1.png>
-Package pdftex.def Info: ashish_thesis/vdM_fit_cveto_1.png  used on input line 
-728.
-(pdftex.def)             Requested size: 426.79135pt x 250.84473pt.
-<ashish_thesis/sigma_vis_btob_var_1.png, id=767, 1098.60437pt x 658.46pt>
-File: ashish_thesis/sigma_vis_btob_var_1.png Graphic file (type png)
-<use ashish_thesis/sigma_vis_btob_var_1.png>
-Package pdftex.def Info: ashish_thesis/sigma_vis_btob_var_1.png  used on input 
-line 744.
-(pdftex.def)             Requested size: 298.75264pt x 179.05254pt.
- [37 <./ashish_thesis/vdM_fit_cveto_1.png>] [38 <./ashish_thesis/sigma_vis_btob
-_var_1.png>]
-<ashish_thesis/Fill_profile_6961_1.png, id=779, 964.60374pt x 693.59125pt>
-File: ashish_thesis/Fill_profile_6961_1.png Graphic file (type png)
-<use ashish_thesis/Fill_profile_6961_1.png>
-Package pdftex.def Info: ashish_thesis/Fill_profile_6961_1.png  used on input l
-ine 768.
-(pdftex.def)             Requested size: 384.1096pt x 276.19333pt.
- [39 <./ashish_thesis/Fill_profile_6961_1.png>] [40]
-Excluding 'comment' comment. Excluding 'comment' comment. [41]
-<ashish_thesis/fill_7036_pattern_2.png, id=800, 798.985pt x 574.145pt>
-File: ashish_thesis/fill_7036_pattern_2.png Graphic file (type png)
-<use ashish_thesis/fill_7036_pattern_2.png>
-Package pdftex.def Info: ashish_thesis/fill_7036_pattern_2.png  used on input l
-ine 874.
-(pdftex.def)             Requested size: 341.43437pt x 245.35316pt.
-<ashish_thesis/2018_af_fit_1.png, id=801, 1001.7425pt x 757.32938pt>
-File: ashish_thesis/2018_af_fit_1.png Graphic file (type png)
-<use ashish_thesis/2018_af_fit_1.png>
-Package pdftex.def Info: ashish_thesis/2018_af_fit_1.png  used on input line 94
-8.
-(pdftex.def)             Requested size: 320.0935pt x 241.99211pt.
- [42 <./ashish_thesis/fill_7036_pattern_2.png> <./ashish_thesis/2018_af_fit_1.p
-ng>] [43]
-<ashish_thesis/afterglow_correction_factor_1lsblock_315690_2.png, id=812, 778.9
-1pt x 577.65813pt>
-File: ashish_thesis/afterglow_correction_factor_1lsblock_315690_2.png Graphic f
-ile (type png)
-<use ashish_thesis/afterglow_correction_factor_1lsblock_315690_2.png>
-Package pdftex.def Info: ashish_thesis/afterglow_correction_factor_1lsblock_315
-690_2.png  used on input line 988.
-(pdftex.def)             Requested size: 341.43437pt x 253.2096pt.
-<ashish_thesis/afterglow_correction_factor_1lsblock_315690_3.png, id=813, 753.3
-1438pt x 574.64688pt>
-File: ashish_thesis/afterglow_correction_factor_1lsblock_315690_3.png Graphic f
-ile (type png)
-<use ashish_thesis/afterglow_correction_factor_1lsblock_315690_3.png>
-Package pdftex.def Info: ashish_thesis/afterglow_correction_factor_1lsblock_315
-690_3.png  used on input line 997.
-(pdftex.def)             Requested size: 341.43437pt x 260.4476pt.
-
-[44 <./ashish_thesis/afterglow_correction_factor_1lsblock_315690_2.png> <./ashi
-sh_thesis/afterglow_correction_factor_1lsblock_315690_3.png>]
-<ashish_thesis/PCClumivslumisection_2018_1.png, id=820, 983.675pt x 721.19438pt
->
-File: ashish_thesis/PCClumivslumisection_2018_1.png Graphic file (type png)
-<use ashish_thesis/PCClumivslumisection_2018_1.png>
-Package pdftex.def Info: ashish_thesis/PCClumivslumisection_2018_1.png  used on
- input line 1015.
-(pdftex.def)             Requested size: 426.79135pt x 312.9027pt.
- [45] [46 <./ashish_thesis/PCClumivslumisection_2018_1.png>] Excluding 'comment
-' comment.
-[47] Excluding 'comment' comment. [48] [49] Excluding 'comment' comment.
-Excluding 'comment' comment.
-<ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png, id=859, 944.52875pt x 731.23187
-pt>
-File: ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png Graphic file (type png)
-<use ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png>
-Package pdftex.def Info: ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png  used on
- input line 1308.
-(pdftex.def)             Requested size: 341.43437pt x 264.33672pt.
-<ashish_thesis/ProjY_ProfileX_h_ratio_all_1.png, id=860, 1037.8775pt x 784.4306
-2pt>
-File: ashish_thesis/ProjY_ProfileX_h_ratio_all_1.png Graphic file (type png)
-<use ashish_thesis/ProjY_ProfileX_h_ratio_all_1.png>
-Package pdftex.def Info: ashish_thesis/ProjY_ProfileX_h_ratio_all_1.png  used o
-n input line 1330.
-(pdftex.def)             Requested size: 341.43437pt x 258.06094pt.
- [50] [51 <./ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png> <./ashish_thesis/Pr
-ojY_ProfileX_h_ratio_all_1.png>]
-<ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png, id=870, 1590.44188pt x 585.18
-625pt>
-File: ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png Graphic file (type png)
-<use ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png>
-Package pdftex.def Info: ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png  used 
-on input line 1414.
-(pdftex.def)             Requested size: 426.79135pt x 157.02911pt.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1416 ...s 7.2e^{-7} $in units of$ (Hz/ub)^{-1}.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1416 ...s 7.2e^{-7} $in units of$ (Hz/ub)^{-1}.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1416 ...s 7.2e^{-7} $in units of$ (Hz/ub)^{-1}.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1416 ...s 7.2e^{-7} $in units of$ (Hz/ub)^{-1}.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[52 <./ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png>]
-<ashish_thesis/type1res_gr0p5_1.png, id=877, 1551.29562pt x 570.63188pt>
-File: ashish_thesis/type1res_gr0p5_1.png Graphic file (type png)
-<use ashish_thesis/type1res_gr0p5_1.png>
-Package pdftex.def Info: ashish_thesis/type1res_gr0p5_1.png  used on input line
- 1453.
-(pdftex.def)             Requested size: 426.79135pt x 156.98955pt.
-
-Excluding 'comment' comment.) [53 <./ashish_thesis/type1res_gr0p5_1.png>]
-[54]
-\openout2 = `Chapter5/chapter5.aux'.
-
- (./Chapter5/chapter5.tex
-Chapter 5.
-<ashish_thesis/2022_lumi_datasets.png, id=896, 2255.42625pt x 1214.5375pt>
-File: ashish_thesis/2022_lumi_datasets.png Graphic file (type png)
-<use ashish_thesis/2022_lumi_datasets.png>
-Package pdftex.def Info: ashish_thesis/2022_lumi_datasets.png  used on input li
-ne 34.
-(pdftex.def)             Requested size: 426.79135pt x 229.81937pt.
-[55
-
-
-
-
-]
-<ashish_thesis/2022_good_module_1.png, id=903, 706.13812pt x 542.52687pt>
-File: ashish_thesis/2022_good_module_1.png Graphic file (type png)
-<use ashish_thesis/2022_good_module_1.png>
-Package pdftex.def Info: ashish_thesis/2022_good_module_1.png  used on input li
-ne 75.
-(pdftex.def)             Requested size: 209.1301pt x 160.67317pt.
-<ashish_thesis/2022_bad_module_1.png, id=904, 683.05188pt x 539.01375pt>
-File: ashish_thesis/2022_bad_module_1.png Graphic file (type png)
-<use ashish_thesis/2022_bad_module_1.png>
-Package pdftex.def Info: ashish_thesis/2022_bad_module_1.png  used on input lin
-e 81.
-(pdftex.def)             Requested size: 209.1301pt x 165.02814pt.
- [56 <./ashish_thesis/2022_lumi_datasets.png (PNG copy)> <./ashish_thesis/2022_
-good_module_1.png> <./ashish_thesis/2022_bad_module_1.png>]
-<ashish_thesis/stability_deviation_2022_1.png, id=915, 980.66376pt x 700.6175pt
->
-File: ashish_thesis/stability_deviation_2022_1.png Graphic file (type png)
-<use ashish_thesis/stability_deviation_2022_1.png>
-Package pdftex.def Info: ashish_thesis/stability_deviation_2022_1.png  used on 
-input line 112.
-(pdftex.def)             Requested size: 426.79135pt x 304.90512pt.
-<ashish_thesis/linearity_deviation_2022_1.png, id=916, 1630.09pt x 576.1525pt>
-File: ashish_thesis/linearity_deviation_2022_1.png Graphic file (type png)
-<use ashish_thesis/linearity_deviation_2022_1.png>
-Package pdftex.def Info: ashish_thesis/linearity_deviation_2022_1.png  used on 
-input line 122.
-(pdftex.def)             Requested size: 426.79135pt x 150.84229pt.
-
-Excluding 'comment' comment. [57 <./ashish_thesis/stability_deviation_2022_1.pn
-g>] [58 <./ashish_thesis/linearity_deviation_2022_1.png>]
-Excluding 'comment' comment. Excluding 'comment' comment.
-<ashish_thesis/PCC_stability_2022_L0veto_4.png, id=937, 942.01938pt x 711.15688
-pt>
-File: ashish_thesis/PCC_stability_2022_L0veto_4.png Graphic file (type png)
-<use ashish_thesis/PCC_stability_2022_L0veto_4.png>
-Package pdftex.def Info: ashish_thesis/PCC_stability_2022_L0veto_4.png  used on
- input line 326.
-(pdftex.def)             Requested size: 298.75264pt x 225.53479pt.
-<ashish_thesis/2022_pcc_stability_2.png, id=938, 933.98938pt x 704.13063pt>
-File: ashish_thesis/2022_pcc_stability_2.png Graphic file (type png)
-<use ashish_thesis/2022_pcc_stability_2.png>
-Package pdftex.def Info: ashish_thesis/2022_pcc_stability_2.png  used on input 
-line 334.
-(pdftex.def)             Requested size: 298.75264pt x 225.2297pt.
-
-Excluding 'comment' comment. [59 <./ashish_thesis/PCC_stability_2022_L0veto_4.p
-ng>]
-<ashish_thesis/2022_vdM.png, id=945, 966.10938pt x 349.80687pt>
-File: ashish_thesis/2022_vdM.png Graphic file (type png)
-<use ashish_thesis/2022_vdM.png>
-Package pdftex.def Info: ashish_thesis/2022_vdM.png  used on input line 370.
-(pdftex.def)             Requested size: 426.79135pt x 154.52931pt.
- [60 <./ashish_thesis/2022_pcc_stability_2.png>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.400 ...bcaption{SS1_{avg}= 0.039022 +- 0.000613}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 400.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 400.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.400 ...bcaption{SS1_{avg}= 0.039022 +- 0.000613}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.400 ...bcaption{SS1_{avg}= 0.039022 +- 0.000613}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.400 ...bcaption{SS1_{avg}= 0.039022 +- 0.000613}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.417 ...ption{SS2_{avg}= 0.0779018 -+ 0.00060436}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.417 ...ption{SS2_{avg}= 0.0779018 -+ 0.00060436}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.417 ...ption{SS2_{avg}= 0.0779018 -+ 0.00060436}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.417 ...ption{SS2_{avg}= 0.0779018 -+ 0.00060436}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-<ashish_thesis/2022_PCC_vdM_fit_new.png, id=956, 1185.93062pt x 562.60187pt>
-File: ashish_thesis/2022_PCC_vdM_fit_new.png Graphic file (type png)
-<use ashish_thesis/2022_PCC_vdM_fit_new.png>
-Package pdftex.def Info: ashish_thesis/2022_PCC_vdM_fit_new.png  used on input 
-line 434.
-(pdftex.def)             Requested size: 426.79135pt x 202.46783pt.
-Excluding 'comment' comment.
-<ashish_thesis/2022_sigma_vis_btob_variation.png, id=957, 513.92pt x 385.44pt>
-File: ashish_thesis/2022_sigma_vis_btob_variation.png Graphic file (type png)
-<use ashish_thesis/2022_sigma_vis_btob_variation.png>
-Package pdftex.def Info: ashish_thesis/2022_sigma_vis_btob_variation.png  used 
-on input line 477.
-(pdftex.def)             Requested size: 341.43437pt x 256.07912pt.
-<ashish_thesis/2022_PCC_sigmavis_per_scan_new.png, id=958, 825.0825pt x 606.265
-pt>
-File: ashish_thesis/2022_PCC_sigmavis_per_scan_new.png Graphic file (type png)
-<use ashish_thesis/2022_PCC_sigmavis_per_scan_new.png>
-Package pdftex.def Info: ashish_thesis/2022_PCC_sigmavis_per_scan_new.png  used
- on input line 486.
-(pdftex.def)             Requested size: 341.43437pt x 250.88297pt.
- [61 <./ashish_thesis/2022_vdM.png>] [62 <./ashish_thesis/2022_PCC_vdM_fit_new.
-png> <./ashish_thesis/2022_sigma_vis_btob_variation.png>]
-<ashish_thesis/Fill_profile_8274_1.png, id=970, 901.3675pt x 666.99188pt>
-File: ashish_thesis/Fill_profile_8274_1.png Graphic file (type png)
-<use ashish_thesis/Fill_profile_8274_1.png>
-Package pdftex.def Info: ashish_thesis/Fill_profile_8274_1.png  used on input l
-ine 512.
-(pdftex.def)             Requested size: 426.79135pt x 315.81686pt.
- [63 <./ashish_thesis/2022_PCC_sigmavis_per_scan_new.png>] [64 <./ashish_thesis
-/Fill_profile_8274_1.png>]
-<ashish_thesis/run_361957_ls_block_1.png, id=985, 878.28125pt x 662.475pt>
-File: ashish_thesis/run_361957_ls_block_1.png Graphic file (type png)
-<use ashish_thesis/run_361957_ls_block_1.png>
-Package pdftex.def Info: ashish_thesis/run_361957_ls_block_1.png  used on input
- line 554.
-(pdftex.def)             Requested size: 341.43437pt x 257.54541pt.
-<ashish_thesis/afterglow_fit_2022_1.png, id=986, 798.985pt x 574.145pt>
-File: ashish_thesis/afterglow_fit_2022_1.png Graphic file (type png)
-<use ashish_thesis/afterglow_fit_2022_1.png>
-Package pdftex.def Info: ashish_thesis/afterglow_fit_2022_1.png  used on input 
-line 563.
-(pdftex.def)             Requested size: 341.43437pt x 245.35316pt.
- Excluding 'comment' comment.
-Excluding 'comment' comment. [65 <./ashish_thesis/run_361957_ls_block_1.png>]
-<ashish_thesis/afterglow_t1res_vsinstlumi_1.png, id=992, 698.61pt x 473.77pt>
-File: ashish_thesis/afterglow_t1res_vsinstlumi_1.png Graphic file (type png)
-<use ashish_thesis/afterglow_t1res_vsinstlumi_1.png>
-Package pdftex.def Info: ashish_thesis/afterglow_t1res_vsinstlumi_1.png  used o
-n input line 687.
-(pdftex.def)             Requested size: 384.1096pt x 260.48755pt.
-
-[66 <./ashish_thesis/afterglow_fit_2022_1.png>]
-<ashish_thesis/afterglow_t2res_vsinstlumi_1.png, id=997, 698.61pt x 473.77pt>
-File: ashish_thesis/afterglow_t2res_vsinstlumi_1.png Graphic file (type png)
-<use ashish_thesis/afterglow_t2res_vsinstlumi_1.png>
-Package pdftex.def Info: ashish_thesis/afterglow_t2res_vsinstlumi_1.png  used o
-n input line 698.
-(pdftex.def)             Requested size: 384.1096pt x 260.48755pt.
- [67 <./ashish_thesis/afterglow_t1res_vsinstlumi_1.png> <./ashish_thesis/afterg
-low_t2res_vsinstlumi_1.png>]
-<ashish_thesis/PCClumivslumisection_2022.png, id=1004, 795.97375pt x 602.25pt>
-File: ashish_thesis/PCClumivslumisection_2022.png Graphic file (type png)
-<use ashish_thesis/PCClumivslumisection_2022.png>
-Package pdftex.def Info: ashish_thesis/PCClumivslumisection_2022.png  used on i
-nput line 711.
-(pdftex.def)             Requested size: 384.1096pt x 290.62056pt.
-
-[68 <./ashish_thesis/PCClumivslumisection_2022.png>] [69] [70]
-Excluding 'comment' comment.
-<ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png, id=1025, 764.35562pt x 592
-.2125pt>
-File: ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png Graphic file (type png
-)
-<use ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png>
-Package pdftex.def Info: ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png  us
-ed on input line 946.
-(pdftex.def)             Requested size: 426.79135pt x 330.66983pt.
-<ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1_new.png, id=1026, 642.4pt x 62
-7.34375pt>
-File: ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1_new.png Graphic file (typ
-e png)
-<use ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1_new.png>
-Package pdftex.def Info: ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1_new.pn
-g  used on input line 961.
-(pdftex.def)             Requested size: 426.79135pt x 416.79546pt.
- [71] [72 <./ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png>] [73 <./ashish
-_thesis/ProjY_ProfileX_h_ratio_all_2022_1_new.png>] Excluding 'comment' comment
-.
-<ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1_new.png, id=1043, 964.10187pt
- x 699.11188pt>
-File: ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1_new.png Graphic file (ty
-pe png)
-<use ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1_new.png>
-Package pdftex.def Info: ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1_new.p
-ng  used on input line 1030.
-(pdftex.def)             Requested size: 298.75264pt x 216.6371pt.
- [74 <./ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1_new.png>] Excluding 'c
-omment' comment.) [75]
-\openout2 = `Chapter7/chapter7.aux'.
-
- (./Chapter7/chapter7.tex
-Chapter 6.
-[76
-
-
-
-
-]
-<ashish_thesis/it_newgeometry_.png, id=1070, 985.6825pt x 404.51125pt>
-File: ashish_thesis/it_newgeometry_.png Graphic file (type png)
-<use ashish_thesis/it_newgeometry_.png>
-Package pdftex.def Info: ashish_thesis/it_newgeometry_.png  used on input line 
-30.
-(pdftex.def)             Requested size: 426.79135pt x 175.15239pt.
- [77]
-<ashish_thesis/tepx_DD.png, id=1077, 570.13pt x 577.65813pt>
-File: ashish_thesis/tepx_DD.png Graphic file (type png)
-<use ashish_thesis/tepx_DD.png>
-Package pdftex.def Info: ashish_thesis/tepx_DD.png  used on input line 37.
-(pdftex.def)             Requested size: 213.39568pt x 216.20699pt.
-<ashish_thesis/edited_tepx_alllayer_v5.png, id=1078, 481.8pt x 1846.9pt>
-File: ashish_thesis/edited_tepx_alllayer_v5.png Graphic file (type png)
-<use ashish_thesis/edited_tepx_alllayer_v5.png>
-Package pdftex.def Info: ashish_thesis/edited_tepx_alllayer_v5.png  used on inp
-ut line 46.
-(pdftex.def)             Requested size: 42.68173pt x 163.59296pt.
- [78 <./ashish_thesis/it_newgeometry_.png> <./ashish_thesis/tepx_DD.png>] [79 <
-./ashish_thesis/edited_tepx_alllayer_v5.png>]
-Excluding 'comment' comment.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-12.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment.
-
-! LaTeX Error: \begin{document} ended by \end{comment}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.219 \end{comment}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.219 \end{comment}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-<ashish_thesis/tepx_clusters_2.png, id=1100, 798.985pt x 774.895pt>
-File: ashish_thesis/tepx_clusters_2.png Graphic file (type png)
-<use ashish_thesis/tepx_clusters_2.png>
-Package pdftex.def Info: ashish_thesis/tepx_clusters_2.png  used on input line 
-227.
-(pdftex.def)             Requested size: 298.75264pt x 289.7454pt.
-[80]
-<ashish_thesis/tepx_D4R!_clusters._allpu_1.png, id=1109, 798.985pt x 574.145pt>
-
-File: ashish_thesis/tepx_D4R!_clusters._allpu_1.png Graphic file (type png)
-<use ashish_thesis/tepx_D4R!_clusters._allpu_1.png>
-Package pdftex.def Info: ashish_thesis/tepx_D4R!_clusters._allpu_1.png  used on
- input line 237.
-(pdftex.def)             Requested size: 298.75264pt x 214.68182pt.
- [81 <./ashish_thesis/tepx_clusters_2.png> <./ashish_thesis/tepx_D4R!_clusters.
-_allpu_1.png>]
-<ashish_thesis/michigan_2.png, id=1117, 1681.78313pt x 616.80438pt>
-File: ashish_thesis/michigan_2.png Graphic file (type png)
-<use ashish_thesis/michigan_2.png>
-Package pdftex.def Info: ashish_thesis/michigan_2.png  used on input line 260.
-(pdftex.def)             Requested size: 426.79135pt x 156.52539pt.
-<ashish_thesis/michigan_3.png, id=1118, 1669.23625pt x 609.77812pt>
-File: ashish_thesis/michigan_3.png Graphic file (type png)
-<use ashish_thesis/michigan_3.png>
-Package pdftex.def Info: ashish_thesis/michigan_3.png  used on input line 269.
-(pdftex.def)             Requested size: 426.79135pt x 155.90541pt.
- [82 <./ashish_thesis/michigan_2.png>]
-Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment.
-<ashish_thesis/dr_dphi_variables1_1.png, id=1127, 662.97687pt x 314.67563pt>
-File: ashish_thesis/dr_dphi_variables1_1.png Graphic file (type png)
-<use ashish_thesis/dr_dphi_variables1_1.png>
-Package pdftex.def Info: ashish_thesis/dr_dphi_variables1_1.png  used on input 
-line 471.
-(pdftex.def)             Requested size: 298.75264pt x 141.79958pt.
- Excluding 'comment' comment. [83 <./ashish_thesis/michigan_3.png>]
-<ashish_thesis/D4R1_S2_drdphi_cut_2.png, id=1139, 1585.925pt x 573.14125pt>
-File: ashish_thesis/D4R1_S2_drdphi_cut_2.png Graphic file (type png)
-<use ashish_thesis/D4R1_S2_drdphi_cut_2.png>
-Package pdftex.def Info: ashish_thesis/D4R1_S2_drdphi_cut_2.png  used on input 
-line 509.
-(pdftex.def)             Requested size: 426.79135pt x 154.23422pt.
- Excluding 'comment' comment. [84 <./ashish_thesis/dr_dphi_variables1_1.png> <.
-/ashish_thesis/D4R1_S2_drdphi_cut_2.png>] [85]
-<ashish_thesis/twofoldinr_exam.png, id=1155, 490.83376pt x 828.09375pt>
-File: ashish_thesis/twofoldinr_exam.png Graphic file (type png)
-<use ashish_thesis/twofoldinr_exam.png>
-Package pdftex.def Info: ashish_thesis/twofoldinr_exam.png  used on input line 
-719.
-(pdftex.def)             Requested size: 128.0387pt x 216.0069pt.
-
-Excluding 'comment' comment. Excluding 'comment' comment. [86 <./ashish_thesis/
-twofoldinr_exam.png>] Excluding 'comment' comment.
-Excluding 'comment' comment. [87]
-<ashish_thesis/twofoldinphi_sch_1.png, id=1166, 798.985pt x 774.895pt>
-File: ashish_thesis/twofoldinphi_sch_1.png Graphic file (type png)
-<use ashish_thesis/twofoldinphi_sch_1.png>
-Package pdftex.def Info: ashish_thesis/twofoldinphi_sch_1.png  used on input li
-ne 1068.
-(pdftex.def)             Requested size: 256.07741pt x 248.34982pt.
-<ashish_thesis/l1l2_l3l4_2xinr_2.png, id=1167, 798.985pt x 774.895pt>
-File: ashish_thesis/l1l2_l3l4_2xinr_2.png Graphic file (type png)
-<use ashish_thesis/l1l2_l3l4_2xinr_2.png>
-Package pdftex.def Info: ashish_thesis/l1l2_l3l4_2xinr_2.png  used on input lin
-e 1078.
-(pdftex.def)             Requested size: 256.07741pt x 248.34982pt.
- [88 <./ashish_thesis/twofoldinphi_sch_1.png> <./ashish_thesis/l1l2_l3l4_2xinr_
-2.png>] Excluding 'comment' comment.
-Excluding 'comment' comment. [89]
-<ashish_thesis/tepx_D4R1_coin_allpu_1.png, id=1184, 798.985pt x 574.145pt>
-File: ashish_thesis/tepx_D4R1_coin_allpu_1.png Graphic file (type png)
-<use ashish_thesis/tepx_D4R1_coin_allpu_1.png>
-Package pdftex.def Info: ashish_thesis/tepx_D4R1_coin_allpu_1.png  used on inpu
-t line 1207.
-(pdftex.def)             Requested size: 298.75264pt x 214.68182pt.
-<ashish_thesis/michigan_1.png, id=1185, 1686.3pt x 620.81938pt>
-File: ashish_thesis/michigan_1.png Graphic file (type png)
-<use ashish_thesis/michigan_1.png>
-Package pdftex.def Info: ashish_thesis/michigan_1.png  used on input line 1215.
-
-(pdftex.def)             Requested size: 426.79135pt x 157.118pt.
-<ashish_thesis/michigan_4.png, id=1186, 1669.23625pt x 614.79688pt>
-File: ashish_thesis/michigan_4.png Graphic file (type png)
-<use ashish_thesis/michigan_4.png>
-Package pdftex.def Info: ashish_thesis/michigan_4.png  used on input line 1223.
-
-(pdftex.def)             Requested size: 426.79135pt x 157.18858pt.
- [90 <./ashish_thesis/tepx_D4R1_coin_allpu_1.png> <./ashish_thesis/michigan_1.p
-ng>] Excluding 'comment' comment.
-Excluding 'comment' comment.
-<ashish_thesis/tepx_threefold_coincidences_1.png, id=1196, 798.985pt x 774.895p
-t>
-File: ashish_thesis/tepx_threefold_coincidences_1.png Graphic file (type png)
-<use ashish_thesis/tepx_threefold_coincidences_1.png>
-Package pdftex.def Info: ashish_thesis/tepx_threefold_coincidences_1.png  used 
-on input line 1328.
-(pdftex.def)             Requested size: 341.43437pt x 331.14099pt.
- [91 <./ashish_thesis/michigan_4.png>] [92 <./ashish_thesis/tepx_threefold_coin
-cidences_1.png>]
-<ashish_thesis/tepx_threefold_allpu.png, id=1206, 817.55438pt x 593.71812pt>
-File: ashish_thesis/tepx_threefold_allpu.png Graphic file (type png)
-<use ashish_thesis/tepx_threefold_allpu.png>
-Package pdftex.def Info: ashish_thesis/tepx_threefold_allpu.png  used on input 
-line 1336.
-(pdftex.def)             Requested size: 298.75264pt x 216.95444pt.
-<ashish_thesis/TEPX_threefold_linearity.png, id=1207, 1675.25874pt x 659.96562p
-t>
-File: ashish_thesis/TEPX_threefold_linearity.png Graphic file (type png)
-<use ashish_thesis/TEPX_threefold_linearity.png>
-Package pdftex.def Info: ashish_thesis/TEPX_threefold_linearity.png  used on in
-put line 1350.
-(pdftex.def)             Requested size: 426.79135pt x 168.13292pt.
- [93 <./ashish_thesis/tepx_threefold_allpu.png> <./ashish_thesis/TEPX_threefold
-_linearity.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1359--1360
-
- []
-
-Excluding 'comment' comment.) [94]
-\openout2 = `Chapter8/chapter8.aux'.
-
- (./Chapter8/chapter8.tex
-Chapter 7.
-[95
-
-
-
-
-]) [96] (./thesis.bbl [97
-
-
-
-
-]
-! Misplaced alignment tab character &.
-<argument> ...d collision position determination &
-                                                   control}'',
-l.159   control}'',}
-                     2019.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[98] [99]) [100] (./thesis.ind) (./thesis.aux (./Portada/Portada.aux)
+] (./thesis.ind) (./thesis.aux (./Portada/Portada.aux)
 (./Dedication/dedication.aux) (./Abstract/abstract.aux)
-(./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux)
-(./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux) (./Chapter7/chapter7.aux)
-(./Chapter8/chapter8.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
+(./Chapter3/chapter3.aux))
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4EA7D93AC9DE06754A1971DAE8F79CBA;9395.
+(rerunfilecheck)             Checksum: 8D8BCCA4C0C77F2C9115C8DED1446C2D;1036.
  ) 
 Here is how much of TeX's memory you used:
- 44909 strings out of 478268
- 1036427 string characters out of 5846347
- 1417174 words of memory out of 5000000
- 61462 multiletter control sequences out of 15000+600000
- 595577 words of font info for 390 fonts, out of 8000000 for 9000
+ 43415 strings out of 478268
+ 997923 string characters out of 5846347
+ 1395974 words of memory out of 5000000
+ 60536 multiletter control sequences out of 15000+600000
+ 549445 words of font info for 239 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,12n,120p,2949b,1163s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+ 125i,12n,120p,1104b,911s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
 live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
 ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
 ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 /2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
 2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/20
-22/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2022
-/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist
-/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
-1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
-s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on thesis.pdf (109 pages, 25304495 bytes).
+22/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-di
+st/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
+pe1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on thesis.pdf (12 pages, 1044298 bytes).
 PDF statistics:
- 1484 PDF objects out of 1728 (max. 8388607)
- 1212 compressed objects within 13 object streams
- 326 named destinations out of 1000 (max. 500000)
- 125126 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 75343 words of extra memory for PDF output out of 89155 (max. 10000000)
 
