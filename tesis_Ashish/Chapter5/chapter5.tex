@@ -26,7 +26,7 @@
 
 \section{Dataset}
 
-To investigate the performance of the PCC luminometer during the 2022 data collection period \cite{Hayrapetyan:2870088}, we segment CMS luminosity data into five distinct periods:  C, D, E, F, and G, as illustrated in Figure \ref{fig:period_bound_1}. The run ranges associated with each of these periods are outlined in Fig. \ref{fig:period_bound_1}. Notably, during period F, specifically during Fill 8381, van der Meer (vdM) scans were implemented to calibrate the PCC luminometer. For our current analysis, we employ dataset that align with the 2022 luminosity measurement periods, specifically 2022C, 2022D, 2022E, and 2022F, Run 2022G as highlighted in Table \ref{tab:my_label_1}. We extracted these datasets from the Alignment and Calibration (AlCa) project, a critical aspect of the CMS experiment. The selected datasets encompass two subcategories, namely Random trigger and Zero Bias similar to Run 2 PCC dataset. %The Random trigger dataset includes data where triggers are applied to both colliding and non-colliding bunches and the Zero Bias dataset consists of events that have successfully navigated the trigger system without any bias (no use of CMS detector signal), in this case, the trigger is applied exclusively to the colliding bunches.
+To investigate the performance of the PCC luminometer during the 2022 data collection period \cite{Hayrapetyan:2870088}, we segment CMS luminosity data into five distinct periods:  C, D, E, F, and G, as illustrated in Figure \ref{fig:period_bound_1}. The run ranges associated with each of these periods are outlined in Fig. \ref{fig:period_bound_1}. Notably, during period F, specifically during Fill 8381, van der Meer (vdM) scans were implemented to calibrate the PCC luminometer. For our current analysis, we employ dataset that align with the 2022 luminosity measurement periods, specifically 2022C, 2022D, 2022E, 2022F and Run 2022G as highlighted in Table \ref{tab:my_label_1}. We extracted these datasets from the Alignment and Calibration (AlCa) project, a critical aspect of the CMS experiment. The selected datasets encompass two subcategories, namely Random trigger and Zero Bias similar to Run 2 PCC dataset. %The Random trigger dataset includes data where triggers are applied to both colliding and non-colliding bunches and the Zero Bias dataset consists of events that have successfully navigated the trigger system without any bias (no use of CMS detector signal), in this case, the trigger is applied exclusively to the colliding bunches.
 
 \begin{figure}[!htp]
   \centering
@@ -41,7 +41,7 @@ To investigate the performance of the PCC luminometer during the 2022 data colle
 
 \begin{table}[h]
   \centering
-  \caption[2022 run ranges]{Run periods, run number ranges and dates.}
+  \caption[2022 run ranges]{Run periods, run number ranges and dates for the 2022 data taking period.}
 \begin{tabular}{ccc}
 %\hline
 \textbf{Run Period} & \textbf{Run Number Range} & \textbf{Date} \\
@@ -203,7 +203,8 @@ Total & 163\\
 \end{tabular}
 \end{table}
 
-Table \ref{tab:2022ldmodules} presents the number of good modules in various layers and disks of the pixel detector after a final selection process. Layer 3 has 39 good modules, Layer 4 has 88, Disk 1 has 13, Disk 2 has 19, and Disk 3 has 4, totaling 163 modules. The stability of various pixel layers and disks after removing all modules in Layer 0 and for final veto are shown in Fig. \ref{fig:stabprof_69a}  and Fig. \ref{fig:stabprof_69b} respectively.
+Table \ref{tab:2022ldmodules} presents the number of good modules in various layers and disks of the pixel detector after a final selection process. %Layer 3 has 39 good modules, Layer 4 has 88, Disk 1 has 13, Disk 2 has 19, and Disk 3 has 4, totaling 163 modules.
+The stability of various pixel layers and disks after removing all modules in Layer 0 and for final veto are shown in Fig. \ref{fig:stabprof_69a}  and Fig. \ref{fig:stabprof_69b} respectively.
 
 \begin{comment}
 
@@ -324,7 +325,7 @@ vdM fill & 1693 \\
 \begin{figure}[!htp]
   \centering
   \includegraphics[width=0.7\textwidth]{ashish_thesis/PCC_stability_2022_L0veto_4.png}
-  \caption[Luminosity Fractions w/o Layer 0 Modules]{Luminosity fraction of pixel detector for various layer and disks as a function of lumi section for the entire 2022 data with all Layer 0 modules vetoed.}
+  \caption[Luminosity Fractions w/o Layer 0 Modules]{Luminosity fraction of pixel detector for various layers and disks as a function of lumi section for the entire 2022 data with all Layer 0 modules vetoed.}
   \label{fig:stabprof_69a}
 \end{figure}
 
@@ -332,7 +333,7 @@ vdM fill & 1693 \\
 \begin{figure}[!htp]
   \centering
   \includegraphics[width=0.7\textwidth]{ashish_thesis/2022_pcc_stability_2.png}
-  \caption[Stability Profiles For Final Veto]{Stability profiles of pixel detector layer and disk modules for the final module veto list.}
+  \caption[Stability Profiles For Final Veto]{Stability profiles of pixel detector layers and disk modules for the final module veto list.}
   \label{fig:stabprof_69b}
 \end{figure}
 
@@ -363,13 +364,13 @@ The vdM calibration involves varying the position of the colliding proton beams 
 
 %The key steps of the vdM calibration procedure: Beam Separation Scans: Two beams are made to collide, and the number of collisions (events) is counted. The beam separation in either the horizontal or vertical direction is then progressively increased, and the change in the number of events is measured. This procedure allows for the determination of the spatial distribution of each beam, referred to as the beam profile. Fitting of Scan Data: The beam profiles obtained from the scans are then used to fit a function to the event rate as a function of beam separation. The maximum of this function gives the event rate when the beams are perfectly overlapped. Calculation of Luminosity: The luminosity is directly proportional to the event rate at perfect overlap and inversely proportional to the area of the beam profiles. Using these relationships, the absolute luminosity can be calculated. Calibration of the Detector: The calibration constant or visible cross section obtained from absolute luminosity and peak rate during vdM calibration is then used to calibrate the detector.
 
-van der Meer (vdM) scan was performed in November 2022, during the LHC fills 8379 and 8381. In fill 8381 on 10–11 Nov 2022, data was collected when 144 paired bunches of particles were colliding, with additional unpaired bunches also present, various scan pairs were conducted, including four vdM scans, two Beam Imaging (BI) scans, and one length scale scan. Each of these scans consists of two examinations in the x and y transverse planes. In the vdM scan, beams were separated by a distance correlating to six times transverse beam size and then moved across each other in 25 steps. Each step lasted 30 seconds and moved the beams by half of their transverse size. For the BI scans, one beam remained fixed while the other moved in 19 steps, over a distance of up to 4.5 times its transverse size. The length scale scan involved beams being separated by a constant distance and moved in both directions in five steps. The scan program during Fill 8381 is shown in Fig. \ref{fig:2022_vdM_program}.
+THe vdM scan was performed in November 2022, during the LHC fills 8379 and 8381. In fill 8381 on 10–11 Nov 2022, data was collected when 144 paired bunches of particles were colliding, with additional unpaired bunches also present. Various scan pairs were conducted, including four vdM scans, two Beam Imaging (BI) scans, and one length scale scan. Each of these scans consists of two examinations in the x and y transverse planes. In the vdM scan, beams were separated by a distance correlating to six times transverse beam size and then moved across each other in 25 steps. Each step lasted 30 seconds and moved the beams by half of their transverse size. For the BI scans, one beam remained fixed while the other moved in 19 steps, over a distance of up to 4.5 times its transverse size. The length scale scan involved beams being separated by a constant distance and moved in both directions in five steps. The scan program during Fill 8381 is shown in Fig. \ref{fig:2022_vdM_program}.
 
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/2022_vdM.png}
 \caption[2022 vdM Program]{%                                                                                                                                             
-  2022 vdM calibration program. In LHC fill 8381, proton beam positions were recorded, including four vdM scans, two BI scans, one LS scan, and two SS periods.
+  2022 vdM calibration program. In LHC fill 8381, proton beam positions were recorded, including four vdM scans, two BI scans, one LS scan, and two SS periods \cite{pas_22}.
 }
 \label{fig:2022_vdM_program}
 \end{figure}
@@ -378,7 +379,7 @@ van der Meer (vdM) scan was performed in November 2022, during the LHC fills 837
 
 The result of the calibration is described in
 %Normalized Rates and Resulting Fitted Double Gaussian Scan Curves for Single Bunch in X and Y Directions:
-Figure \ref{fig:period_bound_50} which depict how the detected event rate varies as the beams are scanned across each other in the horizontal (X) and vertical (Y) directions.The rates have been fitted to a double Gaussian curve, which reflects the bell-shaped spatial distribution of the proton bunches. The peaks of these curves correspond to the maximum event rate, which occurs when the beams are perfectly overlapped. The width of the curve gives an indication of the spread of the beam in the respective direction. In the final analysis. a floating constant is used in the fit for the background because the background from the SS1 and SS2 give inconsistent values as shown in Table \ref{table:side_by_side}.
+Figure \ref{fig:period_bound_50} which depicts how the detected event rate varies as the beams are scanned across each other in the horizontal (X) and vertical (Y) directions.The rates have been fitted to a double Gaussian curve, which reflects the bell-shaped spatial distribution of the proton bunches. The peaks of these curves correspond to the maximum event rate, which occurs when the beams are perfectly overlapped. The width of the curve gives an indication of the spread of the beam in the respective direction. In the final analysis. a floating constant is used in the fit for the background because the background from the SS1 and SS2 give inconsistent values as shown in Table \ref{table:side_by_side}.
 
 \begin{table}[!htp]
   \centering
@@ -397,7 +398,7 @@ Figure \ref{fig:period_bound_50} which depict how the detected event rate varies
             3123 & 0.03788 & 0.00132 \\
             3302 & 0.03931 & 0.00130 \\
         \end{tabular}
-        \subcaption{SS1_{avg}= 0.039022 +- 0.000613}
+        \subcaption{SS1_{avg}= 0.0390 +- 0.000613}
     \end{minipage}%                                                                                                                                                                                                  
     \hfill
     \begin{minipage}{0.45\textwidth}
@@ -414,7 +415,7 @@ Figure \ref{fig:period_bound_50} which depict how the detected event rate varies
             3123 & 0.075385 & 0.00127 \\
             3302 & 0.077605 & 0.00139 \\
         \end{tabular}
-        \subcaption{SS2_{avg}= 0.0779018 -+ 0.00060436}
+        \subcaption{SS2_{avg}= 0.077902 -+ 0.00060436}
     \end{minipage}
     %\caption{PCC background rate for five BCIDs during super separation scans 1 and 2. Average PCC background rate is calculated by averaging over all five BCIDs.}                                                 
     \label{table:side_by_side}
@@ -423,7 +424,7 @@ Figure \ref{fig:period_bound_50} which depict how the detected event rate varies
 %Background subtraction and beam corrections have been applied to the raw data to account for noise.
 %Chi2/ndof for all vdM and Imaging Scans:
 %Figure \ref{fig:period_bound_51} provide an indication of the quality of the fits to the scan data.
-The $\chi^2$ statistic measures the discrepancy between the observed event rates and the values predicted by the double Gaussian fit, while ndof (number of degrees of freedom) accounts for the complexity of the fit. A value of  $\chi^2$/ndof close to 1 can be seen in the statistics box which signifies a good fit. PCC visible cross section is 1076 $\pm$ 0.9 (stat) mb. The bunch to bunch variation and scan to scan variation of PCC visible cross section is shown in Fig. \ref{fig:period_bound_99} and Fig. \ref{fig:period_bound_105} \cite{pas_22} %\cite{bril2023vdmrecalibration}.
+The $\chi^2$ statistic measures the discrepancy between the observed event rates and the values predicted by the double Gaussian fit, while ndof (number of degrees of freedom) accounts for the complexity of the fit. A value of  $\chi^2$/ndof close to 1 can be seen in the statistics box which signifies a good fit. The PCC visible cross section is 1076 $\pm$ 0.9 (stat) mb. The bunch to bunch variation and scan to scan variation of the PCC visible cross section is shown in Fig. \ref{fig:period_bound_99} and Fig. \ref{fig:period_bound_105} \cite{pas_22}. %\cite{bril2023vdmrecalibration}.
 
 %Beam Overlap Widths for each vdM and Imaging Scans:
 %Figure \ref{fig:period_bound_52} show the beam overlap widths, or the widths of the double gaussian fit, for each scan. %The overlap width essentially gives the size of the beam at the interaction point and is used to calculate the absolute luminosity. Comparison of these widths across different scans can reveal variations in the beam size over time.
@@ -485,7 +486,7 @@ The $\chi^2$ statistic measures the discrepancy between the observed event rates
 \centering
 \includegraphics[width=0.8\textwidth]{ashish_thesis/2022_PCC_sigmavis_per_scan_new.png}
 \caption[2022 PCC Visible Cross Section]{%                                                                                                                                                                               
-  Visible cross section per scan where red line shows the average value. Red band depicts the RMS of the values.
+  Visible cross section per scan where red line shows the average value. Red band depicts the $\pm$ one RMS of the values.
 }
 \label{fig:period_bound_105}
 \end{figure}
@@ -493,7 +494,7 @@ The $\chi^2$ statistic measures the discrepancy between the observed event rates
 \newpage
 \section{Luminosity for physics fills}
 
-The Fill cycle in Run 3 includes a leveling part in order to control the very high pileup achieved with upgraded LHC beam optics. The Fill luminosity profile for Fill 8274 during 2022 data taking is shown in Fig. \ref{fig:period_bound_111}. This Fill consists of
+The fill cycle in Run 3 includes a leveling part in order to control the very high pileup achieved with upgraded LHC beam optics. The fill luminosity profile for fill 8395 during 2022 data taking is shown in Fig. \ref{fig:period_bound_111}. This fill consists of
 
 \begin{itemize}
   
@@ -511,7 +512,7 @@ The Fill cycle in Run 3 includes a leveling part in order to control the very hi
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/Fill_profile_8274_1.png}
 \caption[Fill 8274 Luminosity Profile]{%                                                                                                                                                                                         
-  PCC luminosity profile for Fill 8395.
+  PCC luminosity profile for fill 8395.
 }
 \label{fig:period_bound_111}
 \end{figure}
@@ -540,7 +541,9 @@ Type-2 parameters, derived from a preceding study using Random trigger data, are
 \begin{equation}
 F(x) = \Sigma_{k=0}^{N_{bcid}} N_k \left[(x-k==0)+\alpha\cdot(x-k==1)+A \cdot e^{-\tau\cdot(x-k-1)}(x-k>=1) \right]
 \end{equation}
-with $k$ denoting the colliding bunch crossing and $x$ indicating the histogram bin. 2022 PCC afterglow model uses run number 361957 for doing fit to type 1 and type 2 afterglow effect in the PCC raw data as shown in Fig. \ref{fig:period_bound_101}. Model consist of a parameter for type 1 afterglow correcton and exponentially decaying function with two parameters amplitude and decay width to model type 2 afterglow correction. Fit function is summed over all bunch crossings. Fit perfomed for 4 wagon train is shown in Fig.  \ref{fig:period_bound_102} in run 361957 to compute type 2 afterglow amplitude and decay width. The values obtained for type 2 afterglow amplitude and decay parameters are 0.0008406 and 0.01047 respectively \cite{pas_22}. %\cite{bril2023afterglow}.
+with $k$ denoting the colliding bunch crossing and $x$ indicating the histogram bin. 2022 PCC afterglow model uses run number 361957 for fitting the type 1 and type 2 afterglow effect in the PCC raw data as shown in Fig. \ref{fig:period_bound_101}. The model consists of a parameter for type 1 afterglow correction and an exponentially decaying function with two parameters, amplitude and decay width, to model type 2 afterglow correction. The fit function
+%correcton and exponentially decaying function with two parameters amplitude and decay width to model type 2 afterglow correction. Fit function
+is summed over all bunch crossings. Fit perfomed for 4 wagon train is shown in Fig.  \ref{fig:period_bound_102} in run 361957 to compute type 2 afterglow amplitude and decay width. The values obtained for type 2 afterglow amplitude and decay parameters are 0.0008406 and 0.01047 respectively \cite{pas_22}. %\cite{bril2023afterglow}.
 %as shown in Table. \ref{table:trains_data}.
 
 %Type 1 Afterglow Effect: This effect pertains to the first empty bunch crossing immediately following a colliding bunch. Fig. \ref{fig:period_bound_44} visualizes the Type 1 residual as a function of instantaneous luminosity. The residual fraction is computed as the ratio of the luminosity measured in the first empty bunch immediately following a colliding bunch to the luminosity of the colliding bunch itself. If the afterglow effect is significant, this ratio will be higher than expected, indicating that some of the signals attributed to the empty bunch actually originate from the preceding colliding bunch due to the afterglow effect. The objective of the Type 1 correction is to account for this lingering response and adjust the measured luminosity appropriately.
@@ -768,7 +771,7 @@ The number of interaction points (vertices) observed depends on the proton densi
 
 %Factorization bias in VdM calibration is due to the assumption of factorizable beam shapes. This can be addressed by reconstructing transverse proton densities during a VdM fill, enabling a comparison of the luminous area to expected outcomes. The beam-imaging method, applied by CMS, uses reconstructed vertices to extract proton densities. Other methods, like diagonal and offset scans, examine different luminous area sections to understand factorization biases. CMS has explored these methods, with recent studies ongoing from 2022 data.
 
-\item Bunch to bunch uncertainty: The "bunch to bunch variation of PCC visible cross section" refer to how much the measured visible cross-section (and thus, the measured luminosity) changes from one bunch crossing to another. Variations could arise from different factors such as varying numbers of protons per bunch, spatial distribution of protons within the bunches, and the specific conditions of the pixel detector at the time of each bunch crossing. %These variations are important to monitor as they can impact the precision of the luminosity measurement, which in turn affects the accuracy of the results obtained from the physics analyses conducted with the data.
+\item Bunch to bunch uncertainty: The "bunch to bunch variation of PCC visible cross section" refer to how much the measured visible cross-section (and thus, the measured luminosity) changes from one bunch crossing to another as shown in Table \refl{tab:my_labeltt}. Variations could arise from different factors such as varying numbers of protons per bunch, spatial distribution of protons within the bunches, and the specific conditions of the pixel detector at the time of each bunch crossing. %These variations are important to monitor as they can impact the precision of the luminosity measurement, which in turn affects the accuracy of the results obtained from the physics analyses conducted with the data.
 If significant variations are observed, it may be necessary to adjust the analysis to account for these differences. 
 
 %\begin{figure}[!htp]
@@ -807,14 +810,14 @@ Img2 & 1075.38 & 2.35 & 0.1040 \\
 vdM3 & 1083.58 & 3.70 & 0.1616 \\
 vdM4 & 1080.37 & 2.09 & 0.0920 \\
 \end{tabular}
-\label{tab:my_label}
+\label{tab:my_labeltt}
 %\caption{Bunch to bunch variation of visible cross section. $N_b$ is the number of bunches in the vdM scan.}
 \end{table}
 
 %$\frac{\frac{\textbf{RMS}}{\sqrt{N_b}}}{\sigma_{\textbf{vis}}}$
 
 \newpage
-\item Scan to scan uncertainty: PCC visible cross section can exhibit change from one scan to the next. These variations could be due to slight changes in the experimental conditions. The results for each scan are plotted after averaging over five BCIDs. Each point on this graph represent the result from one scan. A red line is drawn to indicate the average value of the visible cross-section over all the scans. This average value provide a useful comparison point to evaluate the consistency of the individual scan results and identify any potential anomalies or systematic errors.
+\item Scan to scan uncertainty: PCC visible cross section can exhibit change from one scan to the next. These variations could be due to slight changes in the experimental conditions. The results for each scan are plotted after averaging over five BCIDs as shown in Fig. \ref{fig:period_bound_105}. Each point on this graph represent the result from one scan. A red line is drawn to indicate the average value of the visible cross-section over all the scans. This average value provides a useful comparison point to evaluate the consistency of the individual scan results and identify any potential anomalies or systematic errors.
 
 %\begin{figure}[!htp]
 %\centering
@@ -989,7 +992,8 @@ To quantify the linearity systematic uncertainty, the slope variability of the d
 %\label{fig:kinknon_}
 %\end{figure}
 
-The left plot in figure \ref{fig:stabprof2_2000} provides a comparison of the linearity of PCC luminosity in relation to HFET luminosity. A perfectly linear relationship would imply same luminosity measured by both the luminometers, suggesting an absence of non-linearity in the detector response. The plot in Fig. \ref{fig:stabprof2_2000} shows the ratio of luminosity values obtained using the PCC method to those from the HFET luminometer. The values are plotted as a function of HFET luminosity. The goal of this graph is to examine potential changes in the detector's response across different luminosity levels. If the detector's response was perfectly linear, we do expect the ratio to remain constant across the range of HFET luminosity values. Deviations from a constant ratio indicate non-linearity in the detector response, thereby contributing to systematic uncertainties.
+%The plot in figure \ref{fig:stabprof2_2000} provides a comparison of the linearity of PCC luminosity in relation to HFET luminosity. A perfectly linear relationship would imply same luminosity measured by both the luminometers, suggesting an absence of non-linearity in the detector response.
+The plot in Fig. \ref{fig:stabprof2_2000} shows the ratio of luminosity values obtained using the PCC method to those from the HFET luminometer. The values are plotted as a function of HFET luminosity. The goal of this graph is to examine potential changes in the detector response across different luminosity levels. If the detector response was perfectly linear, we do expect the ratio to remain constant across the range of HFET luminosity values. Deviations from a constant ratio indicate non-linearity in the detector response, thereby contributing to systematic uncertainties.
 
 %Linearity of PCC Compared to HFET and Residuals Obtained After Doing a Linear Fit: The left plot in figure \ref{fig:stabprof2_99} provides a visual comparison of the linearity of PCC luminosity in relation to HFET luminosity. A perfectly linear relationship would imply a constant ratio across all luminosity levels, suggesting an absence of non-linearity in the detector response. On the right, the residuals, i.e., the differences between the observed values (PCC/HFET ratio) and the values predicted by a linear fit, are plotted. If the residuals are randomly scattered around zero across all HFET luminosity values, this would support the assumption of linearity. However, if there's a systematic pattern in the residuals, it would suggest non-linearity, indicating potential sources of systematic uncertainty.
 
@@ -1074,7 +1078,7 @@ Table \ref{table:correction_uncertainties} provides a detailed breakdown of the 
 
 \begin{table}[H]
   \centering
-  \caption[Systematic uncertainty in 2022 luminosity measurement]{Systematic uncertainty in 2022 luminosity measurement (\%) \cite{pas_22}}
+  \caption[Systematic uncertainty in 2022 luminosity measurement]{Systematic uncertainty in 2022 PCC luminosity measurement (\%) \cite{pas_22}}
     \begin{tabular}{l|c}
         \textbf{Source} & \textbf{Uncertainty (\%)} \\
         \hline

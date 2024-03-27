@@ -11,9 +11,8 @@
 
 %One of the widely used method for the calibration of luminosity measurement devices is the van der Meer (VdM) scan method.
 A prevalent technique for calibrating luminosity measurement devices is the van der Meer (vdM) scan method. This method is named after Simon van der Meer, a Dutch physicist and Nobel laureate, who developed the technique in the 1960s. These scans are performed to relate the detection rate of a given luminometer to the absolute luminosity determined from the measured beam parameters. The proportionality constant is called the visible cross section. It involves scanning the beams across each other in the horizontal and vertical planes to measure the beam overlap integral, which is proportional to the luminosity. %The first step in the vdM calibration is to scan the colliding beams across each other.
-This is done by displacing the beams in the horizontal (x) and vertical (y) planes independently while keeping the other direction fixed as shown in left part of Fig. \ref{fig:vdm_scan_method}. The scans are performed at several different positions along the collision point, creating a series of data points for each plane. The data points collected during the scans are then fitted with  suitable function like single, double gaussian as shown in right part of Fig. \ref{fig:vdm_scan_method}  to determine the beam overlap integrals in the x and y directions. %The product of the integrals in the two planes yields the total beam overlap integral. The event rate is proportional to the luminosity and is given by the product of the cross-section ($\sigma$) and luminosity. 
-The total beam overlap is the product of beam overlap width in the horizontal and vertical planes over the entire interaction region \cite{vanderMeer1968}. It is an essential parameter in determining the absolute luminosity to calculate visible cross section. 
-
+This is done by displacing the beams in the horizontal (x) and vertical (y) planes independently while keeping the other direction fixed as shown in the left part of Fig. \ref{fig:vdm_scan_method}. The scans are performed at several different positions along the collision point, creating a series of data points for each plane. The data points collected during the scans are then fitted with  suitable function like single, double gaussian as shown in the right part of Fig. \ref{fig:vdm_scan_method}  to determine the beam overlap integrals in the x and y directions. %The product of the integrals in the two planes yields the total beam overlap integral. The event rate is proportional to the luminosity and is given by the product of the cross-section ($\sigma$) and luminosity. 
+The total beam overlap is the product of the beam overlap width in the horizontal and vertical planes over the entire interaction region \cite{vanderMeer1968}. The total beam overlap is an essential parameter in determining the visible cross section to calculate absolute luminosity. 
 
 \begin{figure}[h]
     \centering
@@ -22,12 +21,12 @@ The total beam overlap is the product of beam overlap width in the horizontal an
     \label{fig:vdm_scan_method}
 \end{figure}
 
-\section{van der Meer (vdM) method}
+\section{vdM method}
 
-In the van der Meer (vdM) scans,  rate is plotted as a function of beam separation along x and y directions that is used to determine the visible cross section $\sigma_{vis}$.
+In the vdM scans, rate is plotted as a function of beam separation along x and y directions that is used to determine the visible cross section $\sigma_{vis}$.
 %of the pixel detector which is a calibration constant in the relation between rate of a quantity (clusters, coincidences) read out by the detector and the instantaneous luminosity. 
 
-The instantaneous luminosity  per bunch crossing when the crossing angle between the colliding bunches is negligible and bunches collide head on is given by the following integral \cite{CMS-PAS-LUM-13-001}, 
+The instantaneous luminosity per bunch crossing when the crossing angle between the colliding bunches is negligible and bunches collide head on is given by the following integral \cite{CMS-PAS-LUM-13-001}, 
 
 \begin{equation}
 L_{b} = N_1 N_2 f \int^{+\infty}_{-\infty} \rho_1(x,y) \rho_2(x, y) dx dy 
@@ -43,7 +42,7 @@ L_{b} = N_1 N_2 f \int^{+\infty}_{-\infty} \rho_{1x}(x) \rho_{2x}(x)  dx   \int^
 
 where $\rho_1(x,y) = \rho_{1x}(x) \rho_{1y} (y)$ and $\rho_2(x,y) = \rho_{2x}(x) \rho_{2y} (y)$ 
 
-The vdM scan determines the bunch  overlap integrals $\int \rho_{1x} (x) \rho_{2x} (x) dx$ and  $\int \rho_{1y}(y) \rho_{2y} (y) dy$ by measuring pixel clusters rate as a function of beam separation $\Delta x$ and $\Delta y$ along x and y directions. 
+The vdM scan determines the bunch  overlap integrals $\int \rho_{1x} (x) \rho_{2x} (x) dx$ and  $\int \rho_{1y}(y) \rho_{2y} (y) dy$ by measuring pixel-cluster rate as a function of beam separation $\Delta x$ and $\Delta y$ along x and y directions. 
 
 \begin{equation}
 \int \rho_{1x} (x) \rho_{2x} (x) dx = \frac{R_x(0)}{\int R_x(\Delta x)d \Delta x} 
@@ -158,7 +157,7 @@ Background contributions can arise from several sources, such as beam-gas intera
 
 \section{Fit model}
 
-The poly2G model, or the "Gaussian function with a polynomial term" model, is a fitting function that combines a second-order polynomial function and a Gaussian function. It is a versatile and flexible model that can be used to fit various types of data, including the PCC data in the context of the vdM calibration. %In a PCC rate plot, the rate is plotted as a function of the beam separation.
+The Poly2G model, or the "Gaussian function with a polynomial term" model, is a fitting function that combines a second-order polynomial function and a Gaussian function. It is a versatile and flexible model that can be used to fit various types of data, including the PCC data in the context of the vdM calibration. %In a PCC rate plot, the rate is plotted as a function of the beam separation.
 The Poly2G model can be employed to fit the PCC rates %to display data and fit model in the plot
 and extract the beam parameters, beam overlap integrals and peak rates  needed for the determination of the calibration constant  %such as the beam overlap widths and the beam center positions, which are essential for the luminosity measurement
 \cite{Cekmecelioglu:2775639}. The Poly2G function has additional degrees of freedom compared to a single Gaussian but fewer than a DG (Double Gaussian), allowing for better convergence. The general form of the Poly2G model is
@@ -176,14 +175,14 @@ F(x) = Peak  \left [1+r_2 \left(\frac{\Delta x-\mu} {\frac{\sigma}{1+r_2}}\right
 where Peak is the maximum PCC rate, $\mu$ is the mean, $\sigma$ and $r_2$ are the fit parameters. 
 
 
-To determine the beam overlap $\Sigma$ in this model, we calculate the area under the Poly2G curve between $-\infty$ and  +$\infty$ and divide by its peak value. We integrate the poly2G function
+To determine the beam overlap $\Sigma$ in this model, we calculate the area under the Poly2G curve between $-\infty$ and  +$\infty$ and divide by its peak value. We integrate the Poly2G function
 %\[
 %F(x) = \text{Peak} \left[ 1 + r_2 \left( \frac{x - \mu}{\frac{\sigma}{1 + r_2}} \right)^2 \right] \exp \left[ -\frac{1}{2} \left( \frac{x - \mu}{\frac{\sigma}{1 + r_2}} \right)^2 \right]
 %\]
 from \(-\infty\) to \(+\infty\) using the substitution method.
 
 \begin{equation}
-z = \frac{x - \mu}{\frac{\sigma}{1 + r_2}} ,   dx = \frac{\sigma}{1 + r_2} dz 
+z = \frac{x - \mu}{\frac{\sigma}{1 + r_2}} ,  \:  dx = \frac{\sigma}{1 + r_2} dz 
 \end{equation}
 
 With this substitution, the function becomes:
@@ -216,23 +215,11 @@ Thus:
 Dividing by the \(\text{Peak}\) value:
 \[ \frac{I}{\text{Peak}} = \sqrt{2\pi} \sigma  \]
 
-Beam overlap width for Poly2G fit function is
+Following the definition presented in equations (3.5) and (3.6), the beam overlap width for the Poly2G fit function is:
+
 \begin{equation}
  \Sigma = \frac{ \sqrt{2\pi} \sigma}{\sqrt{2 \pi}} = \sigma 
 \end{equation}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

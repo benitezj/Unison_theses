@@ -4,7 +4,12 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Portada/Portada.aux
 A level-1 auxiliary file: Dedication/dedication.aux
 A level-1 auxiliary file: Abstract/abstract.aux
+A level-1 auxiliary file: Chapter1/chapter1.aux
+A level-1 auxiliary file: Chapter2/chapter2.aux
 A level-1 auxiliary file: Chapter3/chapter3.aux
+A level-1 auxiliary file: Chapter4/chapter4.aux
+A level-1 auxiliary file: Chapter5/chapter5.aux
+A level-1 auxiliary file: Chapter7/chapter7.aux
 The style file: cms_unsrt.bst
 Database file #1: References_original/references.bib
 You're missing a field name---line 440 of file References_original/references.bib
@@ -22,10 +27,9 @@ You're missing a field name---line 464 of file References_original/references.bi
  :       %url           = "https://cds.cern.ch/record/1598864",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 486 of file References_original/references.bib
- :  
- :  %     author        = "Sirunyan, Albert M and Tumasyan, et al.",
-(Error may have been on previous line)
+Repeated entry---line 485 of file References_original/references.bib
+ : %@article{Sirunyan:2759951
+ :                           ,
 I'm skipping whatever remains of this entry
 You're missing a field name---line 518 of file References_original/references.bib
  :       
@@ -59,11 +63,15 @@ You're missing a field name---line 671 of file References_original/references.bi
 I'm skipping whatever remains of this entry
 Warning--entry type for "Cekmecelioglu:2775639" isn't style-file defined
 --line 675 of file References_original/references.bib
+Warning--string name "cern" is undefined
+--line 685 of file References_original/references.bib
 You're missing a field name---line 708 of file References_original/references.bib
  :       
  :       %url           = {https://cds.cern.ch/record/2676164},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--string name "cern" is undefined
+--line 713 of file References_original/references.bib
 You're missing a field name---line 845 of file References_original/references.bib
  :   
  :   %author = {Jose Feliciano Benitez and Luis Enrique Cuevas Picos and Sam Higginbotham},
@@ -99,50 +107,49 @@ You're missing a field name---line 1109 of file References_original/references.b
  :       %url           = "https://cds.cern.ch/record/2621960",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1130 of file References_original/references.bib
- :       
- :       %url           = "https://cds.cern.ch/record/2676164",
-(Error may have been on previous line)
+Repeated entry---line 1122 of file References_original/references.bib
+ : @techreport{pas_18
+ :                   ,
 I'm skipping whatever remains of this entry
-You've used 5 entries,
+You've used 52 entries,
             2556 wiz_defined-function locations,
-            654 strings with 5952 characters,
-and the built_in function-call counts, 841 in all, are:
-= -- 61
-> -- 17
-< -- 0
-+ -- 8
-- -- 3
-* -- 59
-:= -- 86
-add.period$ -- 7
-call.type$ -- 5
-change.case$ -- 5
+            955 strings with 15106 characters,
+and the built_in function-call counts, 10477 in all, are:
+= -- 1017
+> -- 157
+< -- 1
++ -- 76
+- -- 24
+* -- 864
+:= -- 1078
+add.period$ -- 87
+call.type$ -- 52
+change.case$ -- 57
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 55
-empty$ -- 131
-format.name$ -- 3
-if$ -- 208
+cite$ -- 52
+duplicate$ -- 714
+empty$ -- 1378
+format.name$ -- 27
+if$ -- 2698
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 0
-newline$ -- 24
-num.names$ -- 3
-pop$ -- 59
+int.to.str$ -- 52
+missing$ -- 26
+newline$ -- 196
+num.names$ -- 24
+pop$ -- 433
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 25
+skip$ -- 365
 stack$ -- 0
-substring$ -- 0
-swap$ -- 12
-text.length$ -- 0
+substring$ -- 186
+swap$ -- 247
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 3
-width$ -- 6
-write$ -- 50
+while$ -- 40
+width$ -- 54
+write$ -- 570
 (There were 19 error messages)

@@ -52,7 +52,7 @@ During period B, specifically corresponding to Fill 6868, van der Meer (vdM) sca
   \end{center}
 \end{table}
 
-In the study under consideration, the datasets have been drawn from the Alignment and Calibration (AlCa) project, an integral component of the CMS experiment. The dataset selection includes two subsets: Random trigger and Zero-Bias. The Random trigger dataset comprises of data where trigger is applied on both colliding and non-colliding bunches. On the other hand, the Zero-Bias dataset encapsulates events that have passed the trigger system with no bias which means the colliding bunches are randomly triggered without the use of any CMS detector signal. The list of colliding bunches is detected by an independent system Beam Pick-up Timing system (BPTX) for Experiments. CMS software (CMSSW) version $10{\_}2{\_}2$ is used for reprocessing random trigger PCC dataset and $10{\_}6{\_}30$  \cite{CMSReleaseNotes} is used for reprocessing zero bias PCC datasets.
+In the study under consideration, the datasets have been drawn from the Alignment and Calibration (AlCa) project, an integral component of the CMS experiment. The dataset selection includes two subsets: Random trigger and Zero-Bias. The Random trigger dataset comprises of data where trigger is applied on both colliding and non-colliding bunches. On the other hand, the Zero-Bias dataset encapsulates events that have passed the trigger system with no bias which means the colliding bunches are randomly triggered without the use of any CMS detector signal. The list of colliding bunches is detected by an independent system Beam Pick-up Timing for eXperiments (BPTX). CMS software (CMSSW) version $10{\_}2{\_}2$ is used for reprocessing random trigger PCC dataset and $10{\_}6{\_}30$  \cite{CMSReleaseNotes} is used for reprocessing zero bias PCC datasets.
 
 \begin{comment}
   
@@ -138,11 +138,11 @@ The purpose of reprocessing can be multifold:
 
 \begin{itemize}
   
-\item Improved Algorithms or Calibration: As experiments progress, there can be improvements in algorithms or calibration techniques used to process the raw data. This can lead to a more accurate or efficient representation of the collected data.
+\item Improved algorithms or calibration: As experiments progress, there can be improvements in algorithms or calibration techniques used to process the raw data. This can lead to a more accurate or efficient representation of the collected data.
 
-\item Changes in Detector Conditions: Detector conditions might change over time due to factors like aging or upgrades. These changes can affect the interpretation of the data.
+\item Changes in detector conditions: Detector conditions might change over time due to factors like aging or upgrades. These changes can affect the interpretation of the data.
 
-\item Discovery of Issues or Errors: Sometimes, errors or issues in the original data processing might be discovered.
+\item Discovery of issues or errors: Sometimes, errors or issues in the original data processing might be discovered.
 
 \end{itemize}
   
@@ -340,7 +340,7 @@ Run 2018B and vdM Fill:
 
 \item All barrel layer 1 modules are removed as these modules are significantly affected by dynamic inefficiency effects, where the hit efficiency decreases at higher instantaneous luminosity due to the readout chip not being able to process all of the hits.
   
-\item A loose selection of 7\% based on RMS/mean of module weight profile is applied where mean and RMS values are obtained from y projection of module weight profile. Modules with significantly large RMS/mean are removed with this loose selection as shown in Fig. \ref{fig:outliermodules}. 
+\item A loose selection of 7\% based on RMS/mean of module weight profile is applied where mean and RMS values are obtained from the projection of module weight profile. Modules with significantly large RMS/mean are removed with this loose selection as shown in Fig. \ref{fig:outliermodules}. 
 
 \item Module stability is re-evaluated based on RMS/mean values using an iterative method where in each step, appropriate selections are applied to remove bad modules (shown in Fig. \ref{fig:sec_it_cut}) until stable luminosity is attained.                                                      
 \end{itemize}
@@ -401,11 +401,6 @@ Run 2018A, C and D:
     }
     \label{fig:sec_it_cut}
 \end{figure}
-
-
-
-
-
 
 
 
@@ -674,32 +669,34 @@ Total  & 155 & & \\
 
 \section{vdM calibration results}
 
-The calibration of luminosity measurement by the CMS experiment luminometers in the 2018 proton-proton data taking at $\sqrt{s}$ = 13 TeV \cite{pas_18} was performed during LHC fill 6868 on June 30 and July 1, 2018 at $\sqrt{s}$ = 13 TeV. Zero-bias triggers on 5 bunch pairs (BCIDs 265, 865, 1780, 2192, and 3380) recorded events rate is 27.7 kHz. Trigger is applied on five colliding bunches due to limitation of the recording bandwidth.
+The calibration of luminosity measurement by the CMS experiment luminometers in the 2018 proton-proton data taking at $\sqrt{s}$ = 13 TeV \cite{pas_18} was performed during LHC fill 6868 on June 30 and July 1, 2018 at $\sqrt{s}$ = 13 TeV. Zero-bias triggers on 5 bunch pairs (BCIDs 265, 865, 1780, 2192, and 3380) recorded events at a rate of 27.7 kHz. Trigger is applied on five colliding bunches due to limitation of the recording bandwidth.
 
 %\item "lsc1", was the "constant separation" scan, two beams were separated by 1.4 $\sigma$ and moved together in steps of 1 $\sigma$ across and back. %\item "lsc2", was the "variable separation" scan method, one beam (starting with beam 1) is moved to -2.5 $\sigma$ and then a three-point scan (a "miniscan") is performed with the other beam.                         %a normal VdM scan pair "norm4" and two short emittance scan pairs "emit4" and "emit5" were also performed.     %The 2018 CMS VdM scan program was conducted in two segments, interrupted by an alarm. The first segment involved six x-y scan pairs. Two were short ``emittance'' scans, named ``emit1'' and ``emit2,'' where the beamswere separated by $ \(4\sigma_b\) $ over 9 steps with a 10 second integration time at each step. A standard VdM scan, named ``norm1,'' separated the beams by $\(6\sigma_b \approx 600\)~\mu m$ in 25 steps, with a 30-second duration per step. The ``offset1'' scan followed the same procedure as the standard scans but with a $\(\pm 1.5\sigma_b\)$ separation in the non-scanning direction. Lastly, two sets of ``beam imaging'' scans wereconducted, where one beam remained fixed while the other was moved in 19 steps between $\(+4.5\sigma_b\)$ and $\(-4.5\sigma_b\)$, each lasting 46 seconds per step.                                                      
-The 2018 CMS vdM scan program (shown in Fig. \ref{fig:vdm_prog_2018}) was conducted in two segments, interrupted by an alarm. The first segment involved six x-y scan pairs. Two were short ``emittance'' scans, named ``emit1'' and ``emit2,'' where the beams were separated by \(4\sigma_b\) over 9 steps with a 10-second integration time at each step. A standard vdM scan (described in section 3.1), named ``vdM1,'' separated the beams by \(6\sigma_b \approx 600\)~$\mu$m in 25 steps, with a 30-second duration per step. The ``offset1'' scan followed the same procedure as the standard scans but with a \(\pm 1.5\sigma_b\) separation in the non-scanningdirection. Lastly, two sets of ``beam imaging'' scans were conducted, where one beam remained fixed while the other was moved in 19 steps between \(+4.5\sigma_b\) and \(-4.5\sigma_b\), each lasting 46 seconds per step. The second part of the scan program was conducted in the same fill, approximately 7.5 hours later, and consisted of twelve scan pairs. This included a short emittance scan, ``emit3''; beam imaging scan pairs, ``imag2'' and``imag3''; an offset scan pair, ``offset2''; and two standard vdM scan pairs, ``vdM2'' and ``vdM3''.
+The 2018 CMS vdM scan program (shown in Fig. \ref{fig:vdm_prog_2018}) was conducted in two segments, interrupted by an alarm. The first segment involved six x-y scan pairs. Two were short ``emittance'' scans, named ``emit1'' and ``emit2,'' where the beams were separated by \(4\sigma_b\) (beam size) over 9 steps with a 10-second integration time at each step. A standard vdM scan (described in section 3.1), named ``vdM1,'' separated the beams by \(6\sigma_b \approx 600\)~$\mu$m in 25 steps, with a 30-second duration per step. The ``offset1'' scan followed the same procedure as the standard scans but with a \(\pm 1.5\sigma_b\) separation in the non-scanningdirection. Lastly, two sets of ``beam imaging'' scans were conducted, where one beam remained fixed while the other was moved in 19 steps between \(+4.5\sigma_b\) and \(-4.5\sigma_b\), each lasting 46 seconds per step. The second part of the scan program was conducted in the same fill, approximately 7.5 hours later, and consisted of twelve scan pairs. This included a short emittance scan, ``emit3''; beam imaging scan pairs, ``imag2'' and``imag3''; an offset scan pair, ``offset2''; and two standard vdM scan pairs, ``vdM2'' and ``vdM3''.
 
 Beam Imaging Scans: Beam imaging scans are designed to measure the transverse profile of the beam. They involve moving one beam across the other in steps and measuring the interaction rate (or event rate) at each step. By doing this, the shape or "profile" of the beam in the transverse plane can be obtained. These scans allow for a detailed analysis of the beam shape, which is essential for understanding the beam properties. In a perfect scenario, the density distributions of protons in a bunch would factorize into separate X (horizontal) and Y (vertical) components. However, real beams can have correlations between X and Y (non-factorization). Beam imaging scans help map the 2D profile of the beam and are thus essential for diagnosing and understanding any such correlations. Knowing the 2D profile of the beams is crucial when calculating luminosity, as assumptions made about the factorization of the beam profiles feed into these calculations. By using beam imaging scans, experimenters can assess the validity of the factorization assumption or correct for any observed non-factorization.
 
 Offset Scans: %Offset scans are performed to check for systematic errors in the luminosity measurement, which may arise from various sources.
 They are similar to standard VdM scans but involve an intentional offset in the non-scanning direction. By comparing the results of offset scans with the results of regular scans, one can identify and correct for any systematic discrepancies that are present. Offset scans can help to assess the sensitivity of the luminosity measurement to non-factorization in the transverse plane. For example, if there are correlations between the X and Y distributions of protons (i.e., non-factorization), this could in principle affect the shape of the beam overlap region in the collision point. Offset scans, by changing the relative position of the beams, can help to assess whether such non-factorization has a significant effect on the measured luminosity.
 
-vdM scans are typically conducted at least once a year to ensure the luminometer is correctly calibrated. Results of these scans that is the visible cross section is used to normalize the data collected by the experiments during physics run.
+vdM scans are typically conducted at least once a year to ensure the luminometer is correctly calibrated. The outcomes of these vdM scans, particularly the visible cross-section values, serve as a benchmark to adjust and standardize the data collected during the physics runs. 
+
+%Results of these scans that is the visible cross section is used to normalize the data collected by the experiments during physics run.
 
 \begin{figure}[!htp]
     \centering
     \includegraphics[width=1\textwidth]{ashish_thesis/vdm_program_2018.png}
-    \caption[2018 vdM Program]{Beam position along x and y is plotted as a function of time showing different types of scans. #3 and #10 are vdM scans, #4 and #9 are offset scans, #5, #7 and #8 are beam imaging scans, #6 is emittance scan.}
+    \caption[2018 vdM Program]{Beam position along x and y is plotted as a function of time showing different types of scans. #3 and #10 are vdM scans, #4 and #9 are offset scans, #5, #7 and #8 are beam imaging scans, #6 is emittance scan \cite{pas_18}.}
     \label{fig:vdm_prog_2018}
 \end{figure}
 
-The vdM data (LHC fill 6868) is processed using the final module selection. The background estimation for the PCC rate is done with two super-separation scans SS1 and SS2. The mean and error are obtained from the $y$ projection of PCC per NB4 plotted as a function of time as shown in Fig. \ref{fig:sigmavis_ss_backg}. The results for five different BCIDs are shown in Table \ref{tab:vdm:SS1_SS2}, using the reprocessed PCC data for Fill 6868. The overall background correction applied to raw PCC rate is $0.02757\pm0.01987$, which is calculated by taking the average of the mean values of SS1 and SS2.
+The vdM data (LHC fill 6868) is processed using the final module selection. The background estimation for the PCC rate is done with two super-separation scans SS1 and SS2. The mean and error are obtained from the $y$ projection of PCC rates per NB4 plotted as a function of time as shown in Fig. \ref{fig:sigmavis_ss_backg}. The results for five different BCIDs are shown in Table \ref{tab:vdm:SS1_SS2}, using the reprocessed PCC data for Fill 6868. The overall background correction applied to raw PCC rate is $0.02757\pm0.01987$, which is calculated by taking the average of the mean values of SS1 and SS2.
 
 
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=1\textwidth]{ashish_thesis/SS1_SS2_bkg_pcc_1.png}
-\caption[Background estimation]{2D histogram filled with the Avg. PCC evaluated per NB4, during head-on collisions (high part) and during the Super-Separation window (low part).}
+\caption[Background estimation]{2D histogram filled with the Avg. PCC rate evaluated per NB4, during head-on collisions (high part) and during the Super-Separation window (low part).}
 \label{fig:sigmavis_ss_backg}
 \end{figure}
 
@@ -713,7 +710,8 @@ The vdM data (LHC fill 6868) is processed using the final module selection. The 
         865  &    0.02572  &     0.0281  \\
        1780    &  0.02862   &     0.0286  \\
        2192   &  0.02729  &     0.02323  \\
-        3380  &  0.02882  &    0.02896   \\
+       3380  &  0.02882  &    0.02896   \\
+       Average & 0.02789 & 0.02726  \\
       \end{tabular}
     %\caption[Background in PCC rate]{Mean for the background estimated with the SS1 and SS2 data, separately for all five BCIDs and averaged.}
     \label{tab:vdm:SS1_SS2}
@@ -721,7 +719,7 @@ The vdM data (LHC fill 6868) is processed using the final module selection. The 
 \end{table}
 
 Figure \ref{fig:fitquality} displays the collision rates for a specific particle bunch as one beam is moved across another, with all necessary corrections applied. $\chi^2/ndof$ for vdM and imaging scans has an average value of 0.4514 where the Poly2G fit model converges for all BCIDs. Peak value and beam overlap $\Sigma_x$ and $\Sigma_y$ along X and Y are extracted from fit to calculate $\sigma_{vis}$. %The $\sigma_{vis}$ per scan is averaged over all BCIDs and its scan to scan variation is shown in Fig. \ref{fig:sigmaperscan}.
-The $\sigma_{vis}$ value obtained by averaging all scans is for final module veto list is 960.54 $\pm$ 0.85(stat.) mb.
+The $\sigma_{vis}$ value obtained by averaging all scans for the final module veto list is 960.54 $\pm$ 0.85(stat.) mb.
 
 \begin{figure}[!htp]
     \centering
@@ -737,7 +735,7 @@ The $\sigma_{vis}$ value obtained by averaging all scans is for final module vet
    % \label{fig:sigmaperscan}
 %\end{figure}
 
-PCC visible cross section for various bunch crossing across different scans is shown in Fig. \ref{fig:sigmavis_btob_variation}. The data points exhibit a scatter around the mean value, with no apparent systematic bias, as they are distributed both above and below this average. While there is a certain level of precision suggested by the proximity of the points to the mean line, the varying lengths of the error bars indicate a range in measurement uncertainty. This variability in precision could be attributed to fluctuating experimental conditions inherent to each BCID. %Overall, the experiment seems to have achieved a degree of accuracy, given that the measurements are clustered around the mean, yet the spread indicated by the error bars suggests that there is potential for optimizing the precision
+The PCC visible cross section for various bunch crossing across different scans is shown in Fig. \ref{fig:sigmavis_btob_variation}. The data points exhibit a scatter around the mean value, with no apparent systematic bias, as they are distributed both above and below this average. While there is a certain level of precision suggested by the proximity of the points to the mean line, the varying lengths of the error bars indicate a range in measurement uncertainty. This variability in precision could be attributed to fluctuating experimental conditions inherent to each BCID. %Overall, the experiment seems to have achieved a degree of accuracy, given that the measurements are clustered around the mean, yet the spread indicated by the error bars suggests that there is potential for optimizing the precision
 
 \begin{figure}[!htp]
 \centering
@@ -751,7 +749,9 @@ PCC visible cross section for various bunch crossing across different scans is s
 \newpage
 \section{Luminosity for physics fill}
 
-The LHC operates in cycles known as "fills." A fill is a period during which the LHC is filled with protons and provides collisions for its experiments. The luminosity profile of a fill is a graphical representation of the instantaneous luminosity as a function of time for the entire duration of that fill. Before the actual data taking begins, there is a phase of beam injection, acceleration, and stabilization. During this period, no collisions are taking place, so the luminosity is zero. Once the beams are accelerated to their maximum energy and brought into collision, there is a rapid rise in luminosity. This is the point where the luminosity reaches its highest value, known as the peak luminosity. After the peak, the luminosity starts to decrease. This period, known as "stable beams", is when most of the data is collected. The reason for the decrease in luminosity over time is the reduction in the number of protons in the beams due to collisions. As the protons in the beams collide, the number of protons, and hence the luminosity, diminishes. The rate of this decrease can be influenced by various factors, including beam dynamics, losses, and the efficiency of the collider's operation. The fill concludes when the number of protons is too low to provide useful data, or if there's a technical issue, leading to a beam dump. At this point, the luminosity drops to zero. The total duration of a fill can vary. Some fills last only a few hours, while others can extend for over a day, depending on operational efficiency and the goals for that specific fill. Fill profile for Fill 6961 during 2018 data taking is shown in Fig. \ref{fig:Fill6961} with
+The LHC operates in cycles known as "fills." A fill is a period during which the LHC is filled with protons and provides collisions for its experiments. The luminosity profile of a fill is a graphical representation of the instantaneous luminosity as a function of time for the entire duration of that fill. Before the actual data taking begins, there is a phase of beam injection, acceleration, and stabilization. During this period, no collisions are taking place, so the luminosity is zero. Once the beams are accelerated to their maximum energy and brought into collision, there is a rapid rise in luminosity. This is the point where the luminosity reaches its highest value, known as the peak luminosity. After the peak, the luminosity starts to decrease. This period, known as "stable beams", is when most of the data is collected. The reason for the decrease in luminosity over time is the reduction in the number of protons in the beams due to collisions.
+%As the protons in the beams collide, the number of protons, and hence the luminosity, diminishes.
+The rate of this decrease can be influenced by various factors, including beam dynamics, losses, and the efficiency of the collider's operation. The fill concludes when the number of protons is too low to provide useful data, or if there's a technical issue, leading to a beam dump. At this point, the luminosity drops to zero. The total duration of a fill can vary. Some fills last only a few hours, while others can extend for over a day, depending on operational efficiency and the goals for that specific fill. Fill profile for Fill 6961 during 2018 data taking is shown in Fig. \ref{fig:Fill6961} with
 
 \begin{itemize}
   
@@ -778,11 +778,11 @@ In the precision PCC luminosity measurement, understanding and rectifying the ef
 
 Type 1 Afterglow (Electronic Spillover): This noise arises due to the lingering signal waveform in silicon after an actual collision event.
 
-Type 2 Afterglow (Activation-Induced Background): This noise is a consequence of the gradually diminishing activation of the detector. It occurs when the detector material encounters high-energy particles, leading to the creation and decay of radioactive isotopes \cite{CMS-PAS-SMP-12-008} %(as depicted in Fig. \ref{fig:pcc_afterglow}).
+Type 2 Afterglow (Activation-Induced Background): This noise is a consequence of the gradually diminishing activation of the detector. It occurs when the detector material encounters high-energy particles, leading to the creation and decay of radioactive isotopes \cite{CMS-PAS-SMP-12-008}. %(as depicted in Fig. \ref{fig:pcc_afterglow}).
 
 The afterglow correction process seeks to adjust for these residual signals, which result in background added to the cluster count. The concept of 'afterglow' is intrinsically tied to the detector and the events it records, independent of the specific modules used for data collection. Thus, regardless of any module's performance or operational state, the need for consistent afterglow correction remains.
 
-In the afterglow correction process, following steps are involved.
+In the afterglow correction process, the following steps are involved,
 
 \begin{itemize}
 \item A model is constructed to mirror the afterglow tail from a single colliding bunch using the random trigger data.
@@ -799,7 +799,7 @@ For accurately modeling the afterglow effect in raw data, a composite function i
 F(x) = \sum_{k=0}^{N_{\text{bcid}}} N_k \left[ (x - k == 0) + A  (x - k == 1) + B  \exp(-C  (x - k - 1))  (x - k \geq 1) \right]
 \end{equation}
 
-Fill 9036, shown in \ref{fig:af_fit40} and encompassing 900 colliding bunches, serves as the foundation for estimating the Type 2 afterglow parameters. A fit is performed to one wagon train, then two, and finally three, refining the parameters for Type 2 afterglow and minimizing the residuals of both afterglow types. Fit plots for single train is shown in \ref{fig:af_fit99}. The values of type 2 afterglow parameter amplitude (B) and decay width (C) for different wagon trains are shown in Table \ref{fig:af_fit4000}. 
+Fill 9036, shown in \ref{fig:af_fit40} and encompassing 900 colliding bunches, serves as the foundation for estimating the Type 2 afterglow parameters. A fit is performed to one wagon train, then two, and finally three, refining the parameters for Type 2 afterglow and minimizing the residuals of both afterglow types. Fit plots for single train is shown in Fig. \ref{fig:af_fit99}. The values of type 2 afterglow parameter amplitude (B) and decay width (C) for different wagon trains are shown in Table Fig. \ref{fig:af_fit4000}. 
 
 \begin{comment}
 
@@ -987,7 +987,7 @@ The scale factor for one 50 lumi section block in run number 315690 is shown in 
 \centering
 \includegraphics[width=0.8\textwidth]{ashish_thesis/afterglow_correction_factor_1lsblock_315690_2.png}
 \caption[Run 315690 PCC without and with afterglow correction]{%                                                                                                                                                                                                                                                                                                
- Raw and corrected PCC for all bunch crossings.
+ Raw and corrected PCC rates for all bunch crossings in run 315690.
 }
 \label{fig:af_change_veto}
 \end{figure}
@@ -1062,7 +1062,7 @@ Post-experiment corrections: After the data are collected, a detailed analysis o
 
  %\cite{CERNOribLumi}.
 
-\item  X-Y nonfactorization: The luminosity calibration often relies on methods that factorize the beam overlap integral into two separate integrals in the horizontal (X) and vertical (Y) directions. When this factorization is not valid or precise, the XY non-factorization comes into play. It essentially refers to the systematic uncertainty arising from the inability to perfectly separate or factorize the beam profiles in the horizontal and vertical dimensions. A variety of reasons can lead to XY non-factorization. One of the main causes is the complex shape and dynamics of the colliding beams. While in an ideal scenario, the beams might be perfectly Gaussian in shape and independent in X and Y dimensions, real-world effects such as beam-beam interactions, intrabeam scattering, or external perturbations can introduce correlations between the two dimensions. This means that the actual overlap of the beams cannot be simply represented as a product of their profiles in X and Y. The luminosity is a direct measure of how many collisions are happening per unit of time and area, and it depends on the overlap of the colliding beams. If the beams' profiles in the X and Y dimensions are not factorized correctly, it can lead to an inaccurate representation of their overlap, thus introducing a systematic uncertainty in the luminosity measurement \cite{CERNLUMPOG}.
+\item  X-Y non-factorization: The luminosity calibration often relies on methods that factorize the beam overlap integral into two separate integrals in the horizontal (X) and vertical (Y) directions. When this factorization is not valid or precise, the XY non-factorization comes into play. It essentially refers to the systematic uncertainty arising from the inability to perfectly separate or factorize the beam profiles in the horizontal and vertical dimensions. A variety of reasons can lead to XY non-factorization. One of the main causes is the complex shape and dynamics of the colliding beams. While in an ideal scenario, the beams might be perfectly Gaussian in shape and independent in X and Y dimensions, real-world effects such as beam-beam interactions, intrabeam scattering, or external perturbations can introduce correlations between the two dimensions. This means that the actual overlap of the beams cannot be simply represented as a product of their profiles in X and Y. The luminosity is a direct measure of how many collisions are happening per unit of time and area, and it depends on the overlap of the colliding beams. If the beams' profiles in the X and Y dimensions are not factorized correctly, it can lead to an inaccurate representation of their overlap, thus introducing a systematic uncertainty in the luminosity measurement \cite{CERNLUMPOG}.
 
 %This is crucial because any error in luminosity calibration directly impacts the normalization of the cross-section measurements and, thus, the results and interpretations of the physics processes under study \cite{CERNLUMPOG}.
 
@@ -1090,13 +1090,13 @@ The nonfactorizability of the density distribution can also affect the effective
 %Refers to the mutual interaction of two colliding particle beams, resulting in the deflection of the individual beams due to the electromagnetic fields generated by the other beam. This effect can lead to beam losses and reduced luminosity \cite{CERNBeamBeam}
 %\cite{Herr:1982430} \cite{babaev2023impact}.
 
-\item Dynamic $\beta$: The beta function ($\beta$*) in the context of particle accelerators like the Large Hadron Collider (LHC) is a measure of the beam size at the collision point \cite{CERNVdMOMC}, and it plays a crucial role in determining the luminosity of the collisions. Lower values of $\beta$* lead to smaller beam sizes at the interaction point and thus higher luminosity, as the probability of proton-proton collisions is increased. However, $\beta$* is not necessarily constant during the operation of the LHC. It can vary due to factors such as changes in the accelerator's operating conditions, beam-beam interactions. %This variability, often referred to as "dynamic beta", can contribute to uncertainties in the luminosity measurement.
+\item Dynamic $\beta$: The beta function ($\beta$*) in the context of particle accelerators like the LHC is a measure of the beam size at the collision point \cite{CERNVdMOMC}, and it plays a crucial role in determining the luminosity of the collisions. Lower values of $\beta$* lead to smaller beam sizes at the interaction point and thus higher luminosity, as the probability of proton-proton collisions is increased. However, $\beta$* is not necessarily constant during the operation of the LHC. It can vary due to factors such as changes in the accelerator's operating conditions, beam-beam interactions. %This variability, often referred to as "dynamic beta", can contribute to uncertainties in the luminosity measurement.
  When $\beta$* changes, it can alter the size of the proton beams at the interaction point. As the luminosity is inversely proportional to the square of the beam size, a small change in $\beta$* can lead to a significant change in luminosity. If these changes in $\beta$* are not accurately tracked and accounted for, they can introduce uncertainties in the luminosity measurement. The challenge is that $\beta$* is not directly observable, so its value and any changes in it have to be inferred from other measurements, such as the beam size and position, the orbit drift.
  %and so on. These measurements have their own uncertainties, which can further contribute to the uncertainty in β* and thus the luminosity.
   %Refers to the time-varying beta function of a particle beam, which describes the rate at which the beam diverges or converges as it propagates. This effect can be important for beam stability and the control of beam emittance
  % \cite{CERNVdMOMC}.
 
-\item Beam Current Calibration:  Beam current calibration ensures that the \( N \) value (number of particles per bunch) used in the luminosity equation is accurate. If the calibration is off, the derived value of \( N \) from the instruments like beam current transformers will be inaccurate, leading to errors in the calculated luminosity \( L \). As the luminosity dependence on number of particles per bunch is \( N^2 \), even small errors in beam current calibration can significantly affect the accuracy of \( L \) \cite{CERNLumiDays}.
+\item Beam Current Calibration:  Beam current calibration ensures that the \( N \) value (number of particles per bunch) used in the luminosity equation is accurate. If the calibration is off, the derived value of \( N \) from the instruments like beam current transformers will be inaccurate, leading to errors in the calculated luminosity $\( L_{inst} \)$. As the luminosity dependence on number of particles per bunch is \( N^2 \), even small errors in beam current calibration can significantly affect the accuracy of $\( L_{inst} \)$ \cite{CERNLumiDays}.
 
 %Refers to the process of accurately measuring the current of a particle beam, which is essential for many beam diagnostics and control systems \cite{CERNLumiDays}.
 
@@ -1136,7 +1136,7 @@ Table \ref{tab:sigmavis_btob_values} provides statistical data of the PCC visibl
 
 \begin{table}[h]
   \centering
-  \caption[$\sigma_{vis}$ bunch variation uncertainty]{Bunch to bunch variation of PCC visible cross section. The “bunch spread” is determined as the standard deviation (STD) of the bunches divided by the mean. SEM is the standard error on the mean}
+  \caption[$\sigma_{vis}$ bunch variation uncertainty]{Bunch to bunch variation of PCC visible cross section. The “bunch spread” is determined as the standard deviation (STD) of the bunches divided by the mean visible cross section. SEM is the standard error on the mean}
 \begin{tabular}{cccccc}
 \textbf{Scan} & \textbf{Mean} & \textbf{STD} & \textbf{(SEM/$\sigma_{vis}$) [\%]} \\
 \hline
@@ -1287,7 +1287,7 @@ dc_{\text{rate}} = \sqrt{(dr_{\text{rate}})^2 + (db_{\text{rate}})^2}
 \item Stability: Systematic uncertainties can be introduced due to time-dependent changes in detector performance and environmental conditions. These changes can be influenced by various factors, including detector aging, radiation damage, and fluctuations in noise. A comparison of PCC luminosity with HFOC luminosity as a function of time is shown in Fig. \ref{fig:stabprof_7098} depicting slight instabilities in PCC luminosity over time.
 %Detector Aging and Radiation Damage Detectors used in high-energy physics experiments are subject to aging and radiation damage due to the high-intensity radiation environment they operate in.
 Detector aging can result in time-dependent changes in the detector's performance. For example, as the detector ages or sustains radiation damage, its efficiency may decrease, leading to a reduction in the number of detected events for a given luminosity. %This effect is typically modeled and accounted for in the data analysis, but any inaccuracies in the modeling can introduce a systematic uncertainty.
-Fluctuation in the  noise level in the detector can also fluctuate over time due to changes in the experimental conditions. Noise can lead to spurious signals that can be misinterpreted as genuine events, leading to an overestimate of the luminosity. Conversely, high noise levels can also mask genuine events, leading to an overestimate of the luminosity. %Noise can be suppressed using data analysis techniques, but this is not always perfect, and residual noise can introduce a systematic uncertainty.
+The noise level in the detector can also fluctuate over time due to changes in the experimental conditions. Noise can lead to spurious signals that can be misinterpreted as genuine events, leading to an overestimate of the luminosity. Conversely, high noise levels can also mask genuine events, leading to an underestimate of the luminosity. %Noise can be suppressed using data analysis techniques, but this is not always perfect, and residual noise can introduce a systematic uncertainty.
 The standard deviation of ratio of luminosity from best and second best luminometer is used as stability systematic uncertainty as shown in Fig. \ref{fig:stabprof1}. The standard deviation provides a measure of the spread or dispersion of the measurements. If the measurements are stable, the spread will be small, and the standard deviation will be low. Conversely, if there are time-dependent changes in the detector performance or environmental conditions, the measurements will vary more, and the standard deviation will be higher.
 
   %It arises from time-dependent changes in detector performance or environmental conditions, Detector aging, radiation damage, fluctuation in noise. The standard deviation of ratio of luminosity from first and second best luminometeris used as stability systematic uncertainty.
@@ -1413,12 +1413,12 @@ A linear fit is done to study change in detector response at different luminosit
   \centering
   \includegraphics[width=1\textwidth]{ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png}
   \caption[2018 PCC linearity]{Left: Linearity of PCC compared to HFOC for fill 6961. Right: Ratio of PCC/HFOC luminosity plotted as a function of HFOC luminosity to determ\
-ine change in detector response over different luminosity levels. Slope of the linear fit is 7.2e^{-7} $in units of$ (Hz/ub)^{-1}.}
+ine change in detector response over different luminosity levels. Slope of the linear fit is 7.2e^{-7} $in units of \:$ (Hz/ub)^{-1}.}
   \label{fig:stabprof2}
 \end{figure}
 
 \newpage
-\item Afterglow: Systematic uncertainty due to afterglow background are determined by calculating the mean of the type 1 and type 2 afterglow residuals that are defined as the ratio of the luminosity of the first empty bunch immediately following a colliding bunch to the luminosity of the colliding bunch and ratio of the luminosity of the second and following empty bunches after a colliding bunch to the luminosity of the colliding bunch respectively.
+\item Afterglow: Systematic uncertainty due to afterglow background is determined by calculating the mean of the type 1 and type 2 afterglow residuals that are defined as the ratio of the luminosity of the first empty bunch immediately following a colliding bunch to the luminosity of the colliding bunch and ratio of the luminosity of the second and following empty bunches after a colliding bunch to the luminosity of the colliding bunch respectively.
 
   %Type 1 afterglow refers to the persistence of charge in the pixels of the detector after a collision event. This charge can be produced by various sources, such as ionization due to the passage of charged particles, or leakage currents in the readout electronics. If this charge is not properly accounted for, it can be mistakenly counted as pixel clusters produced by subsequent collision events, leading to an overestimation of the luminosity.
 
@@ -1451,10 +1451,7 @@ ine change in detector response over different luminosity levels. Slope of the l
 \begin{figure}[h]
   \centering
   \includegraphics[width=1\textwidth]{ashish_thesis/type1res_gr0p5_1.png}
-  \caption[PCC Afterglow Residuals]{Left: PCC afterglow correction type 1 residual as a function of instantaneous luminosity. The residual fraction is given by the ratio of\
- the luminosity of the first empty bunch immediately following a colliding bunch to the luminosity of the colliding bunch. Right: Type 2 residual as a function of instantane\
-ous luminosity. These are given by the ratio of the luminosity of the second and following empty bunches after a colliding bunch to the luminosity of the colliding bunch. Ra\
-ndom trigger PCC dataset for all periods are used to make these plots \cite{Sehrawat2023}.}
+  \caption[PCC Afterglow Residuals]{Left: PCC afterglow correction type 1 residual as a function of instantaneous luminosity. The residual fraction is given by the ratio of the luminosity of the first empty bunch immediately following a colliding bunch to the luminosity of the colliding bunch. Right: Type 2 residual as a function of instantaneous luminosity. These are given by the ratio of the luminosity of the second empty bunches after a colliding bunch to the luminosity of the colliding bunch. Random trigger PCC dataset for all periods are used to make these plots \cite{Sehrawat2023}.}
   \label{fig:stabprof_4012}
 \end{figure}
 
@@ -1728,7 +1725,7 @@ Total & -- & 2.47 & 0.739 \\
 
 \begin{table}[htbp]
   \centering
-  \caption[2018 Luminosity systematic uncertainty]{Systematic uncertainty during calibration and physics data taking for the final veto \cite{pas_18}.}
+  \caption[2018 Luminosity systematic uncertainty]{Systematic uncertainty during calibration and physics data taking for the final veto for the 2018 PCC luminosity measurement \cite{pas_18}.}
 \label{tab:systematic-uncertainty}
 \begin{tabular}{cccc}
   \textbf{}&\textbf{Systematics} &\textbf{Uncertainty [\%]} \\
