@@ -2,8 +2,9 @@ This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Portada/Portada.aux
-A level-1 auxiliary file: Dedication/dedication.aux
 A level-1 auxiliary file: Abstract/abstract.aux
+A level-1 auxiliary file: Declaration/declaration.aux
+A level-1 auxiliary file: Dedication/dedication.aux
 A level-1 auxiliary file: Chapter1/chapter1.aux
 A level-1 auxiliary file: Chapter2/chapter2.aux
 A level-1 auxiliary file: Chapter3/chapter3.aux
@@ -113,7 +114,7 @@ Repeated entry---line 1122 of file References_original/references.bib
 I'm skipping whatever remains of this entry
 You've used 52 entries,
             2556 wiz_defined-function locations,
-            955 strings with 15106 characters,
+            956 strings with 15133 characters,
 and the built_in function-call counts, 10477 in all, are:
 = -- 1017
 > -- 157

@@ -1,34 +1,34 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Integrated luminosity and its precision per year}}{10}{table.caption.8}%
-\contentsline {table}{\numberline {1.2}{\ignorespaces Precision for pPb and PbPb collisions}}{10}{table.caption.10}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Integrated luminosity and its precision per year}}{10}{table.caption.9}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Precision for pPb and PbPb collisions}}{10}{table.caption.11}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Number of modules in pixel layers and disks}}{19}{table.caption.15}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Number of modules in pixel layers and disks}}{19}{table.caption.16}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Run ranges for 2022 periods}}{29}{table.caption.18}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Good/bad modules for each period}}{33}{table.caption.23}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Common module veto list}}{35}{table.caption.25}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Final module veto statistics}}{36}{table.caption.27}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces 2018 PCC background}}{38}{table.caption.30}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Type 2 afterglow parameters estimation}}{44}{table.caption.36}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces $\sigma _{vis}$ bunch variation uncertainty}}{52}{table.caption.40}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces 2018 luminosity systematic uncertainty}}{56}{table.caption.45}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Run ranges for 2022 periods}}{29}{table.caption.19}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Good/bad modules for each period}}{33}{table.caption.24}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Common module veto list}}{35}{table.caption.26}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Final module veto statistics}}{36}{table.caption.28}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces 2018 PCC background}}{38}{table.caption.31}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Type 2 afterglow parameters estimation}}{44}{table.caption.37}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces $\sigma _{vis}$ bunch variation uncertainty}}{52}{table.caption.41}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces 2018 luminosity systematic uncertainty}}{56}{table.caption.46}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces 2022 run ranges}}{57}{table.caption.47}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Bad modules per period}}{60}{table.caption.51}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Number of good modules in each layer/disk\relax }}{61}{table.caption.52}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces 2022 PCC background rate}}{63}{table.caption.56}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Bunch uncertainty}}{72}{table.caption.66}%
-\contentsline {table}{\numberline {5.6}{\ignorespaces Systematic uncertainty in 2022 luminosity measurement}}{77}{table.caption.70}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces 2022 run ranges}}{57}{table.caption.48}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Bad modules per period}}{60}{table.caption.52}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Number of good modules in each layer/disk\relax }}{61}{table.caption.53}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces 2022 PCC background rate}}{63}{table.caption.57}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Bunch uncertainty}}{72}{table.caption.67}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Systematic uncertainty in 2022 luminosity measurement}}{77}{table.caption.71}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Events processed for each pileup\relax }}{82}{table.caption.74}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces dr offset values for two-fold in $\phi $}}{87}{table.caption.81}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces dr cut values for two-fold in $\phi $}}{87}{table.caption.82}%
-\contentsline {table}{\numberline {6.4}{\ignorespaces d$\phi $ cut values for two-fold in $\phi $}}{87}{table.caption.83}%
-\contentsline {table}{\numberline {6.5}{\ignorespaces dr mean values for two-fold in r}}{89}{table.caption.85}%
-\contentsline {table}{\numberline {6.6}{\ignorespaces dr cut values for two-fold in r}}{89}{table.caption.86}%
-\contentsline {table}{\numberline {6.7}{\ignorespaces d$\phi $ cut values for two-fold in r}}{89}{table.caption.87}%
-\contentsline {table}{\numberline {6.8}{\ignorespaces Fake rate for Disk 4 for pileup 200\relax }}{91}{table.caption.90}%
-\contentsline {table}{\numberline {6.9}{\ignorespaces TEPX two-fold coincidences fake rate and efficiency\relax }}{91}{table.caption.91}%
-\contentsline {table}{\numberline {6.10}{\ignorespaces Expected stat. precision of TEPX under low pileup}}{96}{table.caption.98}%
-\contentsline {table}{\numberline {6.11}{\ignorespaces Expected stat. precision of TEPX under high pileup}}{96}{table.caption.99}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Events processed for each pileup\relax }}{82}{table.caption.75}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces dr offset values for two-fold in $\phi $}}{87}{table.caption.82}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces dr cut values for two-fold in $\phi $}}{87}{table.caption.83}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces d$\phi $ cut values for two-fold in $\phi $}}{87}{table.caption.84}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces dr mean values for two-fold in r}}{89}{table.caption.86}%
+\contentsline {table}{\numberline {6.6}{\ignorespaces dr cut values for two-fold in r}}{89}{table.caption.87}%
+\contentsline {table}{\numberline {6.7}{\ignorespaces d$\phi $ cut values for two-fold in r}}{89}{table.caption.88}%
+\contentsline {table}{\numberline {6.8}{\ignorespaces Fake rate for Disk 4 for pileup 200\relax }}{91}{table.caption.91}%
+\contentsline {table}{\numberline {6.9}{\ignorespaces TEPX two-fold coincidences fake rate and efficiency\relax }}{91}{table.caption.92}%
+\contentsline {table}{\numberline {6.10}{\ignorespaces Expected stat. precision of TEPX under low pileup}}{96}{table.caption.99}%
+\contentsline {table}{\numberline {6.11}{\ignorespaces Expected stat. precision of TEPX under high pileup}}{96}{table.caption.100}%
