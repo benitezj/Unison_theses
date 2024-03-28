@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  28 MAR 2024 05:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  28 MAR 2024 05:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1626,18 +1626,6 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-! Misplaced alignment tab character &.
-<argument> ...p 0.5 Cluster Count in D4R1 vs. dr &
-                                                   d$\phi $}}
-l.64 ...vs. dr & d$\phi $}}{86}{figure.caption.81}
-                                                  %
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 [8])
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
@@ -2942,7 +2930,7 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  44937 strings out of 478268
  1037103 string characters out of 5846347
- 1417369 words of memory out of 5000000
+ 1417371 words of memory out of 5000000
  61482 multiletter control sequences out of 15000+600000
  595450 words of font info for 388 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2960,7 +2948,7 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (110 pages, 25315856 bytes).
+Output written on thesis.pdf (110 pages, 25315857 bytes).
 PDF statistics:
  1527 PDF objects out of 1728 (max. 8388607)
  1247 compressed objects within 13 object streams
