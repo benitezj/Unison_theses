@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  28 MAR 2024 05:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  30 MAR 2024 07:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2630,63 +2630,9 @@ Package pdftex.def Info: ashish_thesis/PCClumivslumisection_2022.png  used on i
 nput line 714.
 (pdftex.def)             Requested size: 384.1096pt x 290.62056pt.
 
-[70 <./ashish_thesis/PCClumivslumisection_2022.png>] [71]
-! Undefined control sequence.
-l.774 ...ossing to another as shown in Table \refl
-                                                  {tab:my_labeltt}. Variatio...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.774 ...o another as shown in Table \refl{tab:my_
-                                                  labeltt}. Variations could...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.774 ...r as shown in Table \refl{tab:my_labeltt}
-                                                  . Variations could arise f...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.776 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.776 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (1223.4127pt too wide) in paragraph at lines 774--776
-\T1/ptm/m/n/12 (-20) tab:my$[]\OML/ztmcm/m/it/12 abeltt:Variationscouldarisefro
-mdifferentfactorssuchasvaryingnumbersofprotonsperbunch; spatialdistributionofpr
-otonswithinthebunches; andthespecificconditionsofthepixeldetectoratthetimeofeac
-hbunchcrossing:Ifsignificantvariationsareobserved; itmaybenecessarytoadjustthea
-nalysistoaccountforthesedifferences:[]$ 
- []
-
-[72] Excluding 'comment' comment.
-<ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png, id=1055, 764.35562pt x 592
+[70 <./ashish_thesis/PCClumivslumisection_2022.png>] [71] [72]
+Excluding 'comment' comment.
+<ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png, id=1056, 764.35562pt x 592
 .2125pt>
 File: ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png Graphic file (type png
 )
@@ -2694,7 +2640,7 @@ File: ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png Graphic file (type png
 Package pdftex.def Info: ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png  us
 ed on input line 949.
 (pdftex.def)             Requested size: 426.79135pt x 330.66983pt.
-<ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1_new.png, id=1056, 642.4pt x 62
+<ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1_new.png, id=1057, 642.4pt x 62
 7.34375pt>
 File: ashish_thesis/ProjY_ProfileX_h_ratio_all_2022_1_new.png Graphic file (typ
 e png)
@@ -2705,7 +2651,7 @@ g  used on input line 964.
  [73] [74 <./ashish_thesis/PCC_HFOCvsls_ProfileX_all_2022_1.png>] [75 <./ashish
 _thesis/ProjY_ProfileX_h_ratio_all_2022_1_new.png>] Excluding 'comment' comment
 .
-<ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1_new.png, id=1072, 964.10187pt
+<ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1_new.png, id=1073, 964.10187pt
  x 699.11188pt>
 File: ashish_thesis/PCC_HFOCvsHFOC_ProfileX_all_2022_1_new.png Graphic file (ty
 pe png)
@@ -2717,8 +2663,7 @@ ng  used on input line 1034.
 omment' comment.) [77]
 \openout2 = `Chapter7/chapter7.aux'.
 
-
-(./Chapter7/chapter7.tex
+ (./Chapter7/chapter7.tex
 Chapter 6.
 [78
 
@@ -2726,19 +2671,19 @@ Chapter 6.
 
 
 ]
-<ashish_thesis/it_newgeometry_.png, id=1098, 985.6825pt x 404.51125pt>
+<ashish_thesis/it_newgeometry_.png, id=1099, 985.6825pt x 404.51125pt>
 File: ashish_thesis/it_newgeometry_.png Graphic file (type png)
 <use ashish_thesis/it_newgeometry_.png>
 Package pdftex.def Info: ashish_thesis/it_newgeometry_.png  used on input line 
 31.
 (pdftex.def)             Requested size: 426.79135pt x 175.15239pt.
  [79]
-<ashish_thesis/tepx_DD.png, id=1105, 570.13pt x 577.65813pt>
+<ashish_thesis/tepx_DD.png, id=1106, 570.13pt x 577.65813pt>
 File: ashish_thesis/tepx_DD.png Graphic file (type png)
 <use ashish_thesis/tepx_DD.png>
 Package pdftex.def Info: ashish_thesis/tepx_DD.png  used on input line 38.
 (pdftex.def)             Requested size: 213.39568pt x 216.20699pt.
-<ashish_thesis/edited_tepx_alllayer_v5.png, id=1108, 481.8pt x 1846.9pt>
+<ashish_thesis/edited_tepx_alllayer_v5.png, id=1109, 481.8pt x 1846.9pt>
 File: ashish_thesis/edited_tepx_alllayer_v5.png Graphic file (type png)
 <use ashish_thesis/edited_tepx_alllayer_v5.png>
 Package pdftex.def Info: ashish_thesis/edited_tepx_alllayer_v5.png  used on inp
@@ -2780,14 +2725,14 @@ l.220 \end{comment}
                    
 Things are pretty mixed up, but I think the worst is over.
 
-<ashish_thesis/tepx_clusters_2.png, id=1131, 798.985pt x 774.895pt>
+<ashish_thesis/tepx_clusters_2.png, id=1132, 798.985pt x 774.895pt>
 File: ashish_thesis/tepx_clusters_2.png Graphic file (type png)
 <use ashish_thesis/tepx_clusters_2.png>
 Package pdftex.def Info: ashish_thesis/tepx_clusters_2.png  used on input line 
 228.
 (pdftex.def)             Requested size: 298.75264pt x 289.7454pt.
 [82]
-<ashish_thesis/tepx_D4R!_clusters._allpu_1.png, id=1140, 798.985pt x 574.145pt>
+<ashish_thesis/tepx_D4R!_clusters._allpu_1.png, id=1141, 798.985pt x 574.145pt>
 
 File: ashish_thesis/tepx_D4R!_clusters._allpu_1.png Graphic file (type png)
 <use ashish_thesis/tepx_D4R!_clusters._allpu_1.png>
@@ -2796,12 +2741,12 @@ Package pdftex.def Info: ashish_thesis/tepx_D4R!_clusters._allpu_1.png  used on
 (pdftex.def)             Requested size: 298.75264pt x 214.68182pt.
  [83 <./ashish_thesis/tepx_clusters_2.png> <./ashish_thesis/tepx_D4R!_clusters.
 _allpu_1.png>]
-<ashish_thesis/michigan_2.png, id=1148, 1681.78313pt x 616.80438pt>
+<ashish_thesis/michigan_2.png, id=1149, 1681.78313pt x 616.80438pt>
 File: ashish_thesis/michigan_2.png Graphic file (type png)
 <use ashish_thesis/michigan_2.png>
 Package pdftex.def Info: ashish_thesis/michigan_2.png  used on input line 261.
 (pdftex.def)             Requested size: 426.79135pt x 156.52539pt.
-<ashish_thesis/michigan_3.png, id=1151, 1669.23625pt x 609.77812pt>
+<ashish_thesis/michigan_3.png, id=1152, 1669.23625pt x 609.77812pt>
 File: ashish_thesis/michigan_3.png Graphic file (type png)
 <use ashish_thesis/michigan_3.png>
 Package pdftex.def Info: ashish_thesis/michigan_3.png  used on input line 270.
@@ -2809,14 +2754,14 @@ Package pdftex.def Info: ashish_thesis/michigan_3.png  used on input line 270.
  [84 <./ashish_thesis/michigan_2.png>]
 Excluding 'comment' comment. Excluding 'comment' comment.
 Excluding 'comment' comment.
-<ashish_thesis/dr_dphi_variables1_1.png, id=1161, 662.97687pt x 314.67563pt>
+<ashish_thesis/dr_dphi_variables1_1.png, id=1163, 662.97687pt x 314.67563pt>
 File: ashish_thesis/dr_dphi_variables1_1.png Graphic file (type png)
 <use ashish_thesis/dr_dphi_variables1_1.png>
 Package pdftex.def Info: ashish_thesis/dr_dphi_variables1_1.png  used on input 
 line 472.
 (pdftex.def)             Requested size: 298.75264pt x 141.79958pt.
  Excluding 'comment' comment. [85 <./ashish_thesis/michigan_3.png>]
-<ashish_thesis/D4R1_S2_drdphi_cut_2.png, id=1174, 1585.925pt x 573.14125pt>
+<ashish_thesis/D4R1_S2_drdphi_cut_2.png, id=1175, 1585.925pt x 573.14125pt>
 File: ashish_thesis/D4R1_S2_drdphi_cut_2.png Graphic file (type png)
 <use ashish_thesis/D4R1_S2_drdphi_cut_2.png>
 Package pdftex.def Info: ashish_thesis/D4R1_S2_drdphi_cut_2.png  used on input 
@@ -2824,7 +2769,7 @@ line 510.
 (pdftex.def)             Requested size: 426.79135pt x 154.23422pt.
  Excluding 'comment' comment. [86 <./ashish_thesis/dr_dphi_variables1_1.png> <.
 /ashish_thesis/D4R1_S2_drdphi_cut_2.png>] [87]
-<ashish_thesis/twofoldinr_exam.png, id=1191, 490.83376pt x 828.09375pt>
+<ashish_thesis/twofoldinr_exam.png, id=1192, 490.83376pt x 828.09375pt>
 File: ashish_thesis/twofoldinr_exam.png Graphic file (type png)
 <use ashish_thesis/twofoldinr_exam.png>
 Package pdftex.def Info: ashish_thesis/twofoldinr_exam.png  used on input line 
@@ -2834,13 +2779,13 @@ Package pdftex.def Info: ashish_thesis/twofoldinr_exam.png  used on input line
 Excluding 'comment' comment. Excluding 'comment' comment. [88 <./ashish_thesis/
 twofoldinr_exam.png>] Excluding 'comment' comment.
 Excluding 'comment' comment. [89]
-<ashish_thesis/twofoldinphi_sch_1.png, id=1201, 798.985pt x 774.895pt>
+<ashish_thesis/twofoldinphi_sch_1.png, id=1202, 798.985pt x 774.895pt>
 File: ashish_thesis/twofoldinphi_sch_1.png Graphic file (type png)
 <use ashish_thesis/twofoldinphi_sch_1.png>
 Package pdftex.def Info: ashish_thesis/twofoldinphi_sch_1.png  used on input li
 ne 1069.
 (pdftex.def)             Requested size: 256.07741pt x 248.34982pt.
-<ashish_thesis/l1l2_l3l4_2xinr_2.png, id=1202, 798.985pt x 774.895pt>
+<ashish_thesis/l1l2_l3l4_2xinr_2.png, id=1203, 798.985pt x 774.895pt>
 File: ashish_thesis/l1l2_l3l4_2xinr_2.png Graphic file (type png)
 <use ashish_thesis/l1l2_l3l4_2xinr_2.png>
 Package pdftex.def Info: ashish_thesis/l1l2_l3l4_2xinr_2.png  used on input lin
@@ -2849,19 +2794,19 @@ e 1079.
  [90 <./ashish_thesis/twofoldinphi_sch_1.png> <./ashish_thesis/l1l2_l3l4_2xinr_
 2.png>] Excluding 'comment' comment.
 Excluding 'comment' comment. [91]
-<ashish_thesis/tepx_D4R1_coin_allpu_1.png, id=1218, 798.985pt x 574.145pt>
+<ashish_thesis/tepx_D4R1_coin_allpu_1.png, id=1219, 798.985pt x 574.145pt>
 File: ashish_thesis/tepx_D4R1_coin_allpu_1.png Graphic file (type png)
 <use ashish_thesis/tepx_D4R1_coin_allpu_1.png>
 Package pdftex.def Info: ashish_thesis/tepx_D4R1_coin_allpu_1.png  used on inpu
 t line 1206.
 (pdftex.def)             Requested size: 298.75264pt x 214.68182pt.
-<ashish_thesis/michigan_1.png, id=1221, 1686.3pt x 620.81938pt>
+<ashish_thesis/michigan_1.png, id=1222, 1686.3pt x 620.81938pt>
 File: ashish_thesis/michigan_1.png Graphic file (type png)
 <use ashish_thesis/michigan_1.png>
 Package pdftex.def Info: ashish_thesis/michigan_1.png  used on input line 1214.
 
 (pdftex.def)             Requested size: 426.79135pt x 157.118pt.
-<ashish_thesis/michigan_4.png, id=1224, 1669.23625pt x 614.79688pt>
+<ashish_thesis/michigan_4.png, id=1225, 1669.23625pt x 614.79688pt>
 File: ashish_thesis/michigan_4.png Graphic file (type png)
 <use ashish_thesis/michigan_4.png>
 Package pdftex.def Info: ashish_thesis/michigan_4.png  used on input line 1222.
@@ -2870,7 +2815,7 @@ Package pdftex.def Info: ashish_thesis/michigan_4.png  used on input line 1222.
  [92 <./ashish_thesis/tepx_D4R1_coin_allpu_1.png> <./ashish_thesis/michigan_1.p
 ng>] Excluding 'comment' comment.
 Excluding 'comment' comment.
-<ashish_thesis/tepx_threefold_coincidences_1.png, id=1236, 798.985pt x 774.895p
+<ashish_thesis/tepx_threefold_coincidences_1.png, id=1237, 798.985pt x 774.895p
 t>
 File: ashish_thesis/tepx_threefold_coincidences_1.png Graphic file (type png)
 <use ashish_thesis/tepx_threefold_coincidences_1.png>
@@ -2879,13 +2824,13 @@ on input line 1327.
 (pdftex.def)             Requested size: 341.43437pt x 331.14099pt.
  [93 <./ashish_thesis/michigan_4.png>] [94 <./ashish_thesis/tepx_threefold_coin
 cidences_1.png>]
-<ashish_thesis/tepx_threefold_allpu.png, id=1247, 817.55438pt x 593.71812pt>
+<ashish_thesis/tepx_threefold_allpu.png, id=1248, 817.55438pt x 593.71812pt>
 File: ashish_thesis/tepx_threefold_allpu.png Graphic file (type png)
 <use ashish_thesis/tepx_threefold_allpu.png>
 Package pdftex.def Info: ashish_thesis/tepx_threefold_allpu.png  used on input 
 line 1335.
 (pdftex.def)             Requested size: 298.75264pt x 216.95444pt.
-<ashish_thesis/TEPX_threefold_linearity.png, id=1248, 1675.25874pt x 659.96562p
+<ashish_thesis/TEPX_threefold_linearity.png, id=1249, 1675.25874pt x 659.96562p
 t>
 File: ashish_thesis/TEPX_threefold_linearity.png Graphic file (type png)
 <use ashish_thesis/TEPX_threefold_linearity.png>
@@ -2948,10 +2893,10 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (110 pages, 25315857 bytes).
+Output written on thesis.pdf (110 pages, 25315376 bytes).
 PDF statistics:
- 1527 PDF objects out of 1728 (max. 8388607)
- 1247 compressed objects within 13 object streams
+ 1528 PDF objects out of 1728 (max. 8388607)
+ 1248 compressed objects within 13 object streams
  338 named destinations out of 1000 (max. 500000)
  125118 words of extra memory for PDF output out of 128383 (max. 10000000)
 
