@@ -424,7 +424,7 @@ Figure \ref{fig:period_bound_50} which depicts how the detected event rate varie
 %Background subtraction and beam corrections have been applied to the raw data to account for noise.
 %Chi2/ndof for all vdM and Imaging Scans:
 %Figure \ref{fig:period_bound_51} provide an indication of the quality of the fits to the scan data.
-The $\chi^2$ statistic measures the discrepancy between the observed event rates and the values predicted by the double Gaussian fit, while ndof (number of degrees of freedom) accounts for the complexity of the fit. A value of  $\chi^2$/ndof close to 1 can be seen in the statistics box which signifies a good fit. The PCC visible cross section is 1076 $\pm$ 0.9 (stat) mb. The bunch to bunch variation and scan to scan variation of the PCC visible cross section is shown in Fig. \ref{fig:period_bound_99} and Fig. \ref{fig:period_bound_105} \cite{pas_22}. %\cite{bril2023vdmrecalibration}.
+The $\chi^2$ statistic measures the discrepancy between the observed event rates and the values predicted by the double Gaussian fit, while ndof (number of degrees of freedom) accounts for the complexity of the fit. A value of  $\chi^2$/ndof close to 1 can be seen in the statistics box which signifies a good fit. The variation of $\chi^2$/ndof across scans is shown in Fig. \ref{fig:period_bound_510}. From this plot, we can observe that the average fit quality of the data to the model, as measured by the chi-squared per degree of freedom (chi2/ndof), is slightly above the ideal value of 1, with a mean of approximately 1.55. This suggests that the model fits the data reasonably well overall, but there may be some systematic deviation. The consistency of fit quality across different scans, both X and Y, indicates that no significant discrepancy exists between these two scanning directions within the range of values presented.  The change in beam overlap width across scans is shown in Fig. \ref{fig:period_bound_520}. The plot reveals an asymmetry in beam overlap widths, with the X-Scans showing higher CapSigma values than the Y-Scans in all scans, indicating a larger beam width along the X-axis. The Y-Scans exhibit narrower and more uniform widths, suggesting a more stable overlap along the Y-axis. This consistent difference in the overlap widths between the X and Y scans is evident across various vdM and beam imaging scans.The PCC visible cross section is 1076 $\pm$ 0.9 (stat) mb. The bunch to bunch variation and scan to scan variation of the PCC visible cross section is shown in Fig. \ref{fig:period_bound_99} and Fig. \ref{fig:period_bound_105} \cite{pas_22}. %\cite{bril2023vdmrecalibration}.
 
 %Beam Overlap Widths for each vdM and Imaging Scans:
 %Figure \ref{fig:period_bound_52} show the beam overlap widths, or the widths of the double gaussian fit, for each scan. %The overlap width essentially gives the size of the beam at the interaction point and is used to calculate the absolute luminosity. Comparison of these widths across different scans can reveal variations in the beam size over time.
@@ -438,6 +438,27 @@ The $\chi^2$ statistic measures the discrepancy between the observed event rates
 }
 \label{fig:period_bound_50}
 \end{figure}
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/DGConst_chi2.jpeg}
+\caption{%                                                                                                                                                                  
+  $\chi^2$/ndof for all vdM and imaging scans.
+}
+\label{fig:period_bound_510}
+\end{figure}
+
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{ashish_thesis/DGConst_CapSigma.jpeg}
+\caption[Beam overlap widths]{%                                                                                                                                            
+                                                                                                                                                                         
+  Beam overlap widths for each vdM and imaging scans.
+}
+\label{fig:period_bound_520}
+\end{figure}
+
 
 \begin{comment}
   

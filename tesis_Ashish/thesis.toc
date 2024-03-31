@@ -28,17 +28,17 @@
 \contentsline {section}{\numberline {5.1}Dataset}{57}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Detector module selection}{57}{section.5.2}%
 \contentsline {section}{\numberline {5.3}vdM calibration results}{62}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Luminosity for physics fills}{65}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Afterglow background corrections}{66}{subsection.5.4.1}%
-\contentsline {section}{\numberline {5.5}PCC instantaneous and integrated luminosity}{70}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Systematic uncertainties}{70}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}vdM calibration uncertainties}{71}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}Integration uncertainties}{73}{subsection.5.6.2}%
-\contentsline {chapter}{\numberline {6}TEPX luminometer for HL-LHC}{78}{chapter.6}%
-\contentsline {section}{\numberline {6.1}TEPX Luminometer}{81}{section.6.1}%
-\contentsline {section}{\numberline {6.2}TEPX Luminometer Simulation}{82}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Linearity of TEPX clusters}{84}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}TEPX two-fold coincidences}{85}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}TEPX three-fold coincidences}{93}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}Statistical precision}{96}{section.6.3}%
-\contentsline {chapter}{References}{97}{chapter*.101}%
+\contentsline {section}{\numberline {5.4}Luminosity for physics fills}{67}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Afterglow background corrections}{67}{subsection.5.4.1}%
+\contentsline {section}{\numberline {5.5}PCC instantaneous and integrated luminosity}{71}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Systematic uncertainties}{71}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}vdM calibration uncertainties}{72}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Integration uncertainties}{74}{subsection.5.6.2}%
+\contentsline {chapter}{\numberline {6}TEPX luminometer for HL-LHC}{79}{chapter.6}%
+\contentsline {section}{\numberline {6.1}TEPX Luminometer}{82}{section.6.1}%
+\contentsline {section}{\numberline {6.2}TEPX Luminometer Simulation}{83}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Linearity of TEPX clusters}{85}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}TEPX two-fold coincidences}{86}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}TEPX three-fold coincidences}{94}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Statistical precision}{97}{section.6.3}%
+\contentsline {chapter}{References}{98}{chapter*.103}%
