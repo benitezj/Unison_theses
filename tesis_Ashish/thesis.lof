@@ -21,55 +21,56 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces 2018 vdM program}}{37}{figure.caption.29}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Background estimation}}{38}{figure.caption.30}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces PCC rate fit}}{39}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces $\sigma _{vis}$ bunch variation}}{39}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces fill 6961 profile}}{41}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces 7036 fill patern}}{43}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Afterglow effect fit}}{43}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Run 315690 PCC without and with afterglow correction}}{45}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Run 315690 afterglow scale factor}}{45}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces 2018 PCC inst. luminosity}}{47}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Luminosity ratio profile}}{53}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Projection of luminosity ratio profile}}{54}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces 2018 PCC linearity}}{55}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces PCC afterglow residuals}}{55}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Beam overlap widths}}{39}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces $\sigma _{vis}$ bunch variation}}{40}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces fill 6961 profile}}{42}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces 7036 fill patern}}{44}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Afterglow effect fit}}{44}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Run 315690 PCC without and with afterglow correction}}{46}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Run 315690 afterglow scale factor}}{46}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces 2018 PCC inst. luminosity}}{48}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Luminosity ratio profile}}{54}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Projection of luminosity ratio profile}}{55}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces 2018 PCC linearity}}{56}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces PCC afterglow residuals}}{56}{figure.caption.46}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces 2022 CMS luminosity data periods}}{58}{figure.caption.47}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Good/Bad module weight profile}}{58}{figure.caption.49}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Module weight standard deviation}}{59}{figure.caption.50}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Module linearity & linearity deviation distribution}}{60}{figure.caption.51}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Luminosity fractions w/o layer 0 modules}}{61}{figure.caption.54}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Stability profiles for final veto}}{62}{figure.caption.55}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces 2022 vdM program}}{63}{figure.caption.56}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces 2022 PCC vdM fit}}{64}{figure.caption.58}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces $\chi ^2$/ndof for all vdM and imaging scans. \relax }}{65}{figure.caption.59}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Beam overlap widths}}{65}{figure.caption.60}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces $\sigma _{vis}$ bunch variation}}{66}{figure.caption.61}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces 2022 PCC visible cross section}}{66}{figure.caption.62}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Fill 8274 luminosity profile}}{67}{figure.caption.63}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Raw PCC run 361957}}{68}{figure.caption.64}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Afterglow fit 4-wagon}}{69}{figure.caption.65}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces 2022 PCC type 1 afterglow residuals}}{70}{figure.caption.66}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces 2022 PCC type 2 afterglow residuals}}{70}{figure.caption.67}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces 2022 PCC inst. luminosity}}{71}{figure.caption.68}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Luminosity ratio profile}}{75}{figure.caption.70}%
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Projection of luminosity ratio profile}}{76}{figure.caption.71}%
-\contentsline {figure}{\numberline {5.21}{\ignorespaces 2022 PCC linearity}}{77}{figure.caption.72}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 2022 CMS luminosity data periods}}{59}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Good/Bad module weight profile}}{59}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Module weight standard deviation}}{60}{figure.caption.51}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Module linearity & linearity deviation distribution}}{61}{figure.caption.52}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Luminosity fractions w/o layer 0 modules}}{62}{figure.caption.55}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Stability profiles for final veto}}{63}{figure.caption.56}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces 2022 vdM program}}{64}{figure.caption.57}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces 2022 PCC vdM fit}}{65}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces $\chi ^2$/ndof for all vdM and imaging scans. \relax }}{66}{figure.caption.60}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Beam overlap widths}}{66}{figure.caption.61}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces $\sigma _{vis}$ bunch variation}}{67}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces 2022 PCC visible cross section}}{67}{figure.caption.63}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Fill 8274 luminosity profile}}{68}{figure.caption.64}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Raw PCC run 361957}}{69}{figure.caption.65}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Afterglow fit 4-wagon}}{70}{figure.caption.66}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces 2022 PCC type 1 afterglow residuals}}{71}{figure.caption.67}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces 2022 PCC type 2 afterglow residuals}}{71}{figure.caption.68}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces 2022 PCC inst. luminosity}}{72}{figure.caption.69}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Luminosity ratio profile}}{76}{figure.caption.71}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Projection of luminosity ratio profile}}{77}{figure.caption.72}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces 2022 PCC linearity}}{78}{figure.caption.73}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Phase 2 CMS inner tracker}}{81}{figure.caption.74}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces X-Y view of TEPX double-disk}}{81}{figure.caption.75}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces R-Z view of TEPX double-disk}}{82}{figure.caption.76}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces TEPX cluster map}}{84}{figure.caption.78}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces D4R1 clusters all pileup}}{84}{figure.caption.79}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces TEPX clusters linear fit per disk}}{85}{figure.caption.80}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces TEPX clusters linear fit}}{86}{figure.caption.81}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces New variables for two-fold coincidences}}{87}{figure.caption.82}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Pileup 0.5 cluster count in D4R1 vs. dr and d$\phi $}}{87}{figure.caption.83}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Examples of two-fold coincidences in r}}{89}{figure.caption.87}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Map Of two-fold coincidences in $\phi $}}{91}{figure.caption.91}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces L1L2 and L3L4 module overlap map for two-fold coincidences in r}}{91}{figure.caption.92}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces TEPX D4R1 two-fold coincidences all pileup}}{93}{figure.caption.95}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces TEPX two-fold coincidences linear fit per disk}}{93}{figure.caption.96}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces TEPX two-fold coincidences linear fit for Disk 4 Ring 1}}{94}{figure.caption.97}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Regions in XY plane showing three-fold coincidences}}{95}{figure.caption.98}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces TEPX Disk 4 Ring 2 three-fold coincidences}}{96}{figure.caption.99}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Disk 4 all rings three-fold coincidences linearity}}{96}{figure.caption.100}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Phase 2 CMS inner tracker}}{82}{figure.caption.75}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces X-Y view of TEPX double-disk}}{82}{figure.caption.76}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces R-Z view of TEPX double-disk}}{83}{figure.caption.77}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces TEPX cluster map}}{85}{figure.caption.79}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces D4R1 clusters all pileup}}{85}{figure.caption.80}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces TEPX clusters linear fit per disk}}{86}{figure.caption.81}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces TEPX clusters linear fit}}{87}{figure.caption.82}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces New variables for two-fold coincidences}}{88}{figure.caption.83}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Pileup 0.5 cluster count in D4R1 vs. dr and d$\phi $}}{88}{figure.caption.84}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Examples of two-fold coincidences in r}}{90}{figure.caption.88}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Map Of two-fold coincidences in $\phi $}}{92}{figure.caption.92}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces L1L2 and L3L4 module overlap map for two-fold coincidences in r}}{92}{figure.caption.93}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces TEPX D4R1 two-fold coincidences all pileup}}{94}{figure.caption.96}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces TEPX two-fold coincidences linear fit per disk}}{94}{figure.caption.97}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces TEPX two-fold coincidences linear fit for Disk 4 Ring 1}}{95}{figure.caption.98}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Regions in XY plane showing three-fold coincidences}}{96}{figure.caption.99}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces TEPX Disk 4 Ring 2 three-fold coincidences}}{97}{figure.caption.100}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Disk 4 all rings three-fold coincidences linearity}}{97}{figure.caption.101}%
