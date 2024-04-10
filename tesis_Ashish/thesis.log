@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  1 APR 2024 07:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.6)  10 APR 2024 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2177,18 +2177,18 @@ n input line 1340.
 (pdftex.def)             Requested size: 341.43437pt x 258.06094pt.
 
 [54 <./ashish_thesis/PCC_HFOCvsls_ProfileX_all_1.png>]
-<ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png, id=908, 1590.44188pt x 585.18
-625pt>
-File: ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png Graphic file (type png)
-<use ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png>
-Package pdftex.def Info: ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png  used 
-on input line 1424.
-(pdftex.def)             Requested size: 426.79135pt x 157.02911pt.
+Excluding 'comment' comment.
+<ashish_thesis/PCC_lin_2018.png, id=908, 1029.34563pt x 746.28813pt>
+File: ashish_thesis/PCC_lin_2018.png Graphic file (type png)
+<use ashish_thesis/PCC_lin_2018.png>
+Package pdftex.def Info: ashish_thesis/PCC_lin_2018.png  used on input line 143
+6.
+(pdftex.def)             Requested size: 426.79135pt x 309.43051pt.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1426 ....2e^{-7} $in units of \:$ (Hz/ub)^{-1}.}
+l.1437 ...is 0.00154614 in units of (Hz/ub)^{-1}.}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2196,7 +2196,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1426 ....2e^{-7} $in units of \:$ (Hz/ub)^{-1}.}
+l.1437 ...is 0.00154614 in units of (Hz/ub)^{-1}.}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2204,7 +2204,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1426 ....2e^{-7} $in units of \:$ (Hz/ub)^{-1}.}
+l.1437 ...is 0.00154614 in units of (Hz/ub)^{-1}.}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2212,7 +2212,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1426 ....2e^{-7} $in units of \:$ (Hz/ub)^{-1}.}
+l.1437 ...is 0.00154614 in units of (Hz/ub)^{-1}.}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2225,13 +2225,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: ashish_thesis/type1res_gr0p5_1.png Graphic file (type png)
 <use ashish_thesis/type1res_gr0p5_1.png>
 Package pdftex.def Info: ashish_thesis/type1res_gr0p5_1.png  used on input line
- 1464.
+ 1476.
 (pdftex.def)             Requested size: 426.79135pt x 156.98955pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 ! Undefined control sequence.
 \enit@enditemize ->\enit@after 
                                \endlist \ifx \enit@series \relax \else \ifnu...
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2242,7 +2245,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@enditemize ...x \else \ifnum \enit@resuming 
                                                   =\@ne \enit@setresumekeys ...
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2253,7 +2256,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    =
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2262,7 +2265,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \enit@setresumekeys ...xpandafter {\enit@savekeys 
                                                   }\xdef \enit@afterlist {#2...
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2273,7 +2276,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@setresumekeys ...it@toks }\ifnum \enit@type 
                                                   =\z@ #3\def \enit@noexcs {...
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2284,7 +2287,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    =
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2293,7 +2296,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 <argument> enit@resume@series@\enit@series 
                                            
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2304,7 +2307,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@setresumekeys ...me@#1}{\csname c@\@listctr 
                                                   \endcsname \the \csname c@...
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2315,7 +2318,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@setresumekeys ...e \the \csname c@\@listctr 
                                                   \endcsname }\fi }
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2326,14 +2329,14 @@ and I'll forget about whatever was undefined.
 ! You can't use `\relax' after \the.
 <recently read> \c@ 
                     
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 I'm forgetting what you said and using zero instead.
 
 ! Undefined control sequence.
 \enit@enditemize ...ist \fi \ifnum \enit@resuming 
                                                   =\thr@@ \enit@setresumekey...
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2344,7 +2347,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    =
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2353,7 +2356,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \enit@setresumekeys ...xpandafter {\enit@savekeys 
                                                   }\xdef \enit@afterlist {#2...
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2364,7 +2367,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@setresumekeys ...it@toks }\ifnum \enit@type 
                                                   =\z@ #3\def \enit@noexcs {...
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2375,7 +2378,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    =
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2384,7 +2387,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Undefined control sequence.
 \enit@setresumekeys ...me@#1}{\csname c@\@listctr 
                                                   \endcsname \the \csname c@...
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2395,7 +2398,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \enit@setresumekeys ...e \the \csname c@\@listctr 
                                                   \endcsname }\fi }
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2406,7 +2409,7 @@ and I'll forget about whatever was undefined.
 ! You can't use `\relax' after \the.
 <recently read> \c@ 
                     
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 I'm forgetting what you said and using zero instead.
 
@@ -2417,7 +2420,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2426,12 +2429,12 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.1515 \end{itemize}
+l.1527 \end{itemize}
                     
 Things are pretty mixed up, but I think the worst is over.
 
-[56 <./ashish_thesis/PCCvsHFOC_ProfileX_Fill6961_2.png> <./ashish_thesis/type1r
-es_gr0p5_1.png>] Excluding 'comment' comment.) [57]
+Excluding 'comment' comment.) [56 <./ashish_thesis/PCC_lin_2018.png>] [57 <./as
+hish_thesis/type1res_gr0p5_1.png>]
 \openout2 = `Chapter5/chapter5.aux'.
 
  (./Chapter5/chapter5.tex
@@ -2895,8 +2898,8 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  44967 strings out of 478268
- 1037991 string characters out of 5846347
- 1417559 words of memory out of 5000000
+ 1037872 string characters out of 5846347
+ 1417560 words of memory out of 5000000
  61503 multiletter control sequences out of 15000+600000
  595450 words of font info for 388 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2914,7 +2917,7 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (112 pages, 25600359 bytes).
+Output written on thesis.pdf (112 pages, 25638114 bytes).
 PDF statistics:
  1549 PDF objects out of 1728 (max. 8388607)
  1264 compressed objects within 13 object streams
