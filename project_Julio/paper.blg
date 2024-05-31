@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: paper.aux
+The style file: unsrt.bst
+Database file #1: paper.bib
+I was expecting a `,' or a `}'---line 158 of file paper.bib
+ : 
+ : @article{Cepeda:2019klc,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 174 of file paper.bib
+ : 
+ : @techreport{Collaboration:2706512,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Illegal end of database file---line 634 of file paper.bib
+ : 
+ : 
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in Sirunyan:2021qkt
+Warning--empty year in Sirunyan:2021qkt
+Warning--empty author in CMS:2018elu
+Warning--empty journal in CMS:2018elu
+Warning--empty journal in lumi-run3
+Warning--empty journal in Mobs:2684277
+Warning--empty journal in CMS:2018
+Warning--empty journal in Thomsom
+Warning--empty journal in vdMSketch
+You've used 12 entries,
+            1791 wiz_defined-function locations,
+            518 strings with 5484 characters,
+and the built_in function-call counts, 1855 in all, are:
+= -- 165
+> -- 53
+< -- 0
++ -- 25
+- -- 13
+* -- 78
+:= -- 330
+add.period$ -- 44
+call.type$ -- 12
+change.case$ -- 11
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 98
+empty$ -- 190
+format.name$ -- 13
+if$ -- 396
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 11
+newline$ -- 71
+num.names$ -- 11
+pop$ -- 35
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 37
+stack$ -- 0
+substring$ -- 51
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 9
+while$ -- 14
+width$ -- 14
+write$ -- 135
+(There were 3 error messages)
