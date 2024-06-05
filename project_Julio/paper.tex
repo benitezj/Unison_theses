@@ -103,7 +103,7 @@
   
   \vspace{0.5cm}
    
-This research project proposes to enhance the precision of luminosity measurements at the LHC during Run 2 and Run 3. Accurate luminosity measurements are crucial for understanding particle physics, including Higgs boson production. The research involves analyzing the CMS pixel detector, calibrating it for 13.6 TeV collisions, and addressing systematic uncertainties.
+This research project proposes to measure the luminosity from RUN 3 made in 2024 with the CMS data using mainly the PCC method. Accurate luminosity measurements are crucial for understanding particle physics, including Higgs boson production. The research involves analyzing the CMS pixel detector, calibrating it for 13.6 TeV collisions, and addressing systematic uncertainties.
 
   \hspace{2pt}
 \vfill
@@ -189,14 +189,16 @@ The LHC Run 3 began in 2022 and will last until 2024, with an expected integrate
 
 \section{PROPOSAL}
 
-In this project, we aim to make the most precise measurements of the luminosity for the Run 3 data taking period (2022-2024).
+In this project, we aim to make the measurements of the luminosity for the preliminary data from Run 3 take on 2024 using the Pixel Cluster Counting (PCC) method. 
 
 \section{GENERAL OBJECTIVE}
 
-The main objective of this work is to improve on the precision of the preliminary luminosity measurements for the different datasets with the aim to provide a final precision at the level of 1\%.
+
+The main objective of this work is to obtain calibration data for 2024 aiming for a uncertainty less than 2\% in this Run. This is results are important for CMS to compare physical process with the Standard Model, these results are likely to be presented on conferences and reviews on 2025.
 This precision is needed for the measurement of many important physics processes, like the Higgs boson production crossection, which define the Standard Model of particle physics. 
 
 \section{HYPOTHESIS}
+
 
 Based on the previous work on the Run 2 (2015-2016) datasets which have achieved a precision at the level of 1.3\%, we expect that a precision at this level or lower will be possible due to the improved methods we are developing.
 For reference, the current precision on the Run 2 (2017-2018) and Run 3 (2022) datasets is above 2\%~\cite{Sirunyan:2021qkt}. 
@@ -221,6 +223,16 @@ The entire Pixel detector contains 1856 sensor modules and a total of 124 millio
 The PCC method consists of the reconstruction of track clusters produced by charged particle tracks as shown in Figure~\ref{fig:bunchcrossing}.
 Due to the fine granularity of the pixel sensors and the large number of total pixels, the hit occupancy in the sensors remains very small, order of 1\%, during normal collisions.
 This low occupancy makes the PCC  very linear as a function of pileup, an essential property of a good luminometer \cite{Sirunyan:2021qkt}.
+
+In order to evaluate the total number of events we used integrated luminosity, it is a measurement of the collected data size, and it is important value to characterize the performance of an accelerator, defined as: \\ 
+
+
+\begin{center}
+$L_{inst} = \int _{0}^{t} L_{inst}(t') dt'$ \\ 
+\end{center}
+
+
+Because it directly relates to the number of observed events; L_{int} \dot \sigma_{p} = number of events of interest. \\
 
 The calibration of the luminometer consists of a van der Meer (vdM) scan performed in a special LHC run usually at the beginning of the run period (year).
 These scans are performed by varying the separation between the beams in each direction ($x$ and $y$) at a fixed number of separation steps of about 100 micrometers. Then these rates are fitted by a Gaussian function to obtain the beam overlaps $\Sigma_{x,y}$ and the peak rate of clusters $R(0,0)$ \cite{CMS:2018}. A schematic view of this method is shown in Fig. \ref{vdMSketch}. 
@@ -279,18 +291,26 @@ the fit of the resulting cluster rates \cite{vdMSketch}.
   \label{vdMSketch}
 \end{figure}
 
-
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{./integratedlum.png}
+  \caption{
+   Total integrated luminosity from previous data from CMS
+  }
+  \label{Integrated luminosity}
+\end{figure}
 
 
 
 \section{SPECIFIC OBJECTIVES}
 
-For the Run 2 and Run 3 luminosity measurements:
+For Run 3 2024 luminosity measurements:
 \begin{itemize}
 \item Understand the CMS pixel detector layout including the barrel layers and endcap disks and their constituent modules.
-\item Study the stability of the modules in the different layers or disks of the pixel detector and select the stable components.
+\item Study the evolution of the parameters of photon beams
 \item Calculate the calibration constant (visible crossection) corresponding to 13.6 TeV proton-proton collision data.
 \item Study the stability and linearity of the PCC luminosity measurement by comparing to other CMS luminometers.
+\item Study the variation function in function of the scan with time
 \item Determine the instantaneous and the total integrated luminosity.
 \item Determine the systematic uncertainties on the calibration constant and on the integrated luminosity.
 \end{itemize}
@@ -302,15 +322,12 @@ For the Run 2 and Run 3 luminosity measurements:
 \newpage
 \section{EXPECTED RESULTS}
 
-From this project two main publications are expected:
+From this project the following is expected:
 \begin{itemize}
-\item For the Run 2 luminosity mesurement, studies of the selection of good detector modules, calibration, background estimation, and calculation of the integrated luminosity, including the systematic uncertainties will be completed.
-The results of these studies will be published in a peer-reviewed scientific journal.
-\item For the Run 3 luminosity measurement, no measurement of the luminosity precision has been performed at this moment.
-Similar studies as for the Run 2 dataset will be performed completed and a preliminary result of the luminosity measurement will be published.
+\item From 2024 data compute the uncertainty from the calibration to contribute with the luminosity measurement in 2024.  
 \end{itemize}
 
-Additional benefits entail becoming a member of the CMS collaboration, presenting results at international and national scientific conferences, and contributing to the development of new technology for the HL-LHC project.
+
 
 
 

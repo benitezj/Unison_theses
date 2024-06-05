@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  31 MAY 2024 09:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  5 JUN 2024 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -479,41 +479,71 @@ File: ./upsche.png Graphic file (type png)
 Package pdftex.def Info: ./upsche.png  used on input line 182.
 (pdftex.def)             Requested size: 375.80544pt x 210.95251pt.
  [4 <./HLLHCLumi.png> <./upsche.png (PNG copy)>]
-<./cms12.png, id=113, 734.745pt x 511.9125pt>
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.235 ...ates to the number of observed events; L_
+                                                  {int} \dot \sigma_{p} = nu...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.236 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+[5]
+<./cms12.png, id=126, 734.745pt x 511.9125pt>
 File: ./cms12.png Graphic file (type png)
 <use ./cms12.png>
-Package pdftex.def Info: ./cms12.png  used on input line 241.
+Package pdftex.def Info: ./cms12.png  used on input line 253.
 (pdftex.def)             Requested size: 305.33789pt x 212.73656pt.
- [5]
-<./PixelDetectorPhase1.png, id=131, 610.28pt x 184.69pt>
+<./PixelDetectorPhase1.png, id=129, 610.28pt x 184.69pt>
 File: ./PixelDetectorPhase1.png Graphic file (type png)
 <use ./PixelDetectorPhase1.png>
-Package pdftex.def Info: ./PixelDetectorPhase1.png  used on input line 249.
+Package pdftex.def Info: ./PixelDetectorPhase1.png  used on input line 261.
 (pdftex.def)             Requested size: 328.82707pt x 99.51692pt.
-<./PixelSensor.png, id=132, 494.84875pt x 373.395pt>
+<./PixelSensor.png, id=130, 494.84875pt x 373.395pt>
 File: ./PixelSensor.png Graphic file (type png)
 <use ./PixelSensor.png>
-Package pdftex.def Info: ./PixelSensor.png  used on input line 250.
+Package pdftex.def Info: ./PixelSensor.png  used on input line 262.
 (pdftex.def)             Requested size: 126.83586pt x 95.7016pt.
-<./bunchcrossing.jpg, id=135, 433.62pt x 244.66406pt>
+<./bunchcrossing.jpg, id=133, 433.62pt x 244.66406pt>
 File: ./bunchcrossing.jpg Graphic file (type jpg)
 <use ./bunchcrossing.jpg>
-Package pdftex.def Info: ./bunchcrossing.jpg  used on input line 262.
+Package pdftex.def Info: ./bunchcrossing.jpg  used on input line 274.
 (pdftex.def)             Requested size: 225.4804pt x 127.22603pt.
-<./vectorhit1.jpg, id=136, 365.86688pt x 366.61969pt>
+<./vectorhit1.jpg, id=134, 365.86688pt x 366.61969pt>
 File: ./vectorhit1.jpg Graphic file (type jpg)
 <use ./vectorhit1.jpg>
-Package pdftex.def Info: ./vectorhit1.jpg  used on input line 263.
+Package pdftex.def Info: ./vectorhit1.jpg  used on input line 275.
 (pdftex.def)             Requested size: 197.29623pt x 197.70316pt.
  [6 <./cms12.png> <./PixelDetectorPhase1.png> <./PixelSensor.png>]
-<./vdm_sketch.png, id=149, 736.7525pt x 523.9575pt>
+<./vdm_sketch.png, id=150, 736.7525pt x 523.9575pt>
 File: ./vdm_sketch.png Graphic file (type png)
 <use ./vdm_sketch.png>
-Package pdftex.def Info: ./vdm_sketch.png  used on input line 274.
+Package pdftex.def Info: ./vdm_sketch.png  used on input line 286.
 (pdftex.def)             Requested size: 328.82707pt x 233.85191pt.
- [7{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.en
-c} <./bunchcrossing.jpg> <./vectorhit1.jpg> <./vdm_sketch.png (PNG copy)>] [8] 
-[9] (./paper.bbl) [10]
+<./integratedlum.png, id=153, 225.84375pt x 178.6675pt>
+File: ./integratedlum.png Graphic file (type png)
+<use ./integratedlum.png>
+Package pdftex.def Info: ./integratedlum.png  used on input line 296.
+(pdftex.def)             Requested size: 328.82707pt x 260.17352pt.
+ [7 <./bunchcrossing.jpg> <./vectorhit1.jpg> <./vdm_sketch.png (PNG copy)>] [8{
+/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <
+./integratedlum.png>] [9] (./paper.bbl) [10]
 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./paper.aux)
@@ -532,13 +562,13 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: D304E2BB17F75E20E4793E92FBD00258;765.
  ) 
 Here is how much of TeX's memory you used:
- 10372 strings out of 474116
- 160032 string characters out of 5743682
+ 10381 strings out of 474116
+ 160244 string characters out of 5743682
  1937187 words of memory out of 5000000
- 32553 multiletter control sequences out of 15000+600000
+ 32561 multiletter control sequences out of 15000+600000
  565898 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,710b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,710b,473s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -547,23 +577,24 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
 usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
-xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
-ve/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
-2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
-24/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/202
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024
-/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on paper.pdf (12 pages, 2682972 bytes).
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
+live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/202
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/
+texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on paper.pdf (12 pages, 2741798 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 41 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 285 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 112 words of extra memory for PDF output out of 10000 (max. 10000000)
 
