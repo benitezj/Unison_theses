@@ -146,6 +146,26 @@ This particle has been identified as the Higgs boson by measuring its properties
 Luminosity, $L$, is a key parameter at particle colliders along with the energy available in the collision.
 $L$ is one of the  main figures of merit that quantify the potential for observing new particles and measuring their properties.
 The instantaneous luminosity $L(t)$ is the process-independent ratio between the rate $R(t)$ of events produced per unit time and the cross section for a given process $\sigma$:  $R(t) = \sigma L(t)$.
+
+In order to evaluate the total number of events we used integrated luminosity, it is a measurement of the collected data size, and it is important value to characterize the performance of an accelerator, defined as: \\ 
+
+
+\begin{center}
+$L_{inst} = \int _{0}^{t} L_{inst}(t') dt'$ \\ 
+\end{center}
+
+
+Because it directly relates to the number of observed events; $L_{int} \dot \sigma_{p}$ = number of events of interest. \\
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{./integratedlum.png}
+  \caption{
+   Total integrated luminosity from previous data from CMS
+  }
+  \label{Integrated luminosity}
+\end{figure}
+
 During Run 1 (2011-2012) LHC reached a peak instantaneous luminosity of \instlumi{0.77} and delivered an integrated luminosity of about \lumi{25} with a precision of about 2.0\% 
 \footnote{1 barn is a unit of area corresponding to $10^{-24}$ cm${^2}$ and 1 femtobarn (fb) = $10^{-39}$ cm$^{2}$. For comparison, the total Higgs production cross section is 48600 fb.}.
 
@@ -177,14 +197,6 @@ The LHC Run 3 began in 2022 and will last until 2024, with an expected integrate
   \label{figure6}
 \end{figure}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.8\columnwidth]{./upsche.png}
-  \caption{
-    Update performance of the LHC until year 2042, notice that some values are different to those show in figure 4. Points show instantaneous luminosity while the line shows luminosity accumulated \cite{collaborations2019report}.
-  }
-  \label{figure6}
-\end{figure}
 
 
 \section{PROPOSAL}
@@ -194,14 +206,14 @@ In this project, we aim to make the measurements of the luminosity for the preli
 \section{GENERAL OBJECTIVE}
 
 
-The main objective of this work is to obtain calibration data for 2024 aiming for a uncertainty less than 2\% in this Run. This is results are important for CMS to compare physical process with the Standard Model, these results are likely to be presented on conferences and reviews on 2025.
+The main objective of this work is to obtain calibration data for 2024 aiming for a uncertainty less than 2\% in this Run. This results are important for CMS to compare physical process with the Standard Model, these results are likely to be presented on conferences and reviews on 2025.
 This precision is needed for the measurement of many important physics processes, like the Higgs boson production crossection, which define the Standard Model of particle physics. 
 
 \section{HYPOTHESIS}
 
 
-Based on the previous work on the Run 2 (2015-2016) datasets which have achieved a precision at the level of 1.3\%, we expect that a precision at this level or lower will be possible due to the improved methods we are developing.
-For reference, the current precision on the Run 2 (2017-2018) and Run 3 (2022) datasets is above 2\%~\cite{Sirunyan:2021qkt}. 
+Based on the previous work on the Run 2 (2015-2016) datasets which have achieved a uncertainty of  2.3\% \cite{Collaboration:121}, we expect that a precision at 2\% will be possible due to the improved methods we are developing.
+For reference, the current systematic uncertainty on the Run 2 2017 was 2.3\% \cite{Collaboration:122} for 2018 was 2.5\% \cite{Collaboration:123} and for Run 3 (2022) was 1.4\% \cite{Collaboration:124}. 
 
 
 
@@ -215,7 +227,7 @@ A silicon tracker, made of about 75 million electronic sensors arranged in conce
 The electromagnetic calorimeter detects photons and electrons while the hadron calorimeter detects mainly pions and kaons.
 The muons are detected by special chambers placed outside the solenoid as shown in Figure~\ref{fig:CMS}.
 
-The PCC method for measuring luminosity uses the Pixel detector of the CMS tracker, the layout of the  detector used for recording the data during 2016-2018 is shown in Figure~\ref{fig:pixeldet},  this detector is expected to deliver high-quality data until the end of LHC Run 3 (currently expected for 2024).
+The PCC method for measuring luminosity uses the Pixel detector of the CMS tracker, the layout of the  detector used for recording the data during 2016-2018 is shown in Figure~\ref{fig:pixeldet},  this detector is expected to deliver high-quality data until the end of LHC Run 3 (currently expected for 2025).
 The Pixel detector consists of 4 concentric cylindrical layers in the barrel and 3 disks in each endcap.
 Each detector part is composed of pixel sensors, a schematic of one sensor is shown in Figure~\ref{fig:pixeldet}.
 The entire Pixel detector contains 1856 sensor modules and a total of 124 million pixels \cite{TrackerGroupoftheCMS:2020bgg}.
@@ -224,15 +236,6 @@ The PCC method consists of the reconstruction of track clusters produced by char
 Due to the fine granularity of the pixel sensors and the large number of total pixels, the hit occupancy in the sensors remains very small, order of 1\%, during normal collisions.
 This low occupancy makes the PCC  very linear as a function of pileup, an essential property of a good luminometer \cite{Sirunyan:2021qkt}.
 
-In order to evaluate the total number of events we used integrated luminosity, it is a measurement of the collected data size, and it is important value to characterize the performance of an accelerator, defined as: \\ 
-
-
-\begin{center}
-$L_{inst} = \int _{0}^{t} L_{inst}(t') dt'$ \\ 
-\end{center}
-
-
-Because it directly relates to the number of observed events; L_{int} \dot \sigma_{p} = number of events of interest. \\
 
 The calibration of the luminometer consists of a van der Meer (vdM) scan performed in a special LHC run usually at the beginning of the run period (year).
 These scans are performed by varying the separation between the beams in each direction ($x$ and $y$) at a fixed number of separation steps of about 100 micrometers. Then these rates are fitted by a Gaussian function to obtain the beam overlaps $\Sigma_{x,y}$ and the peak rate of clusters $R(0,0)$ \cite{CMS:2018}. A schematic view of this method is shown in Fig. \ref{vdMSketch}. 
@@ -291,28 +294,19 @@ the fit of the resulting cluster rates \cite{vdMSketch}.
   \label{vdMSketch}
 \end{figure}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.7\columnwidth]{./integratedlum.png}
-  \caption{
-   Total integrated luminosity from previous data from CMS
-  }
-  \label{Integrated luminosity}
-\end{figure}
-
-
 
 \section{SPECIFIC OBJECTIVES}
 
 For Run 3 2024 luminosity measurements:
 \begin{itemize}
 \item Understand the CMS pixel detector layout including the barrel layers and endcap disks and their constituent modules.
-\item Study the evolution of the parameters of photon beams
-\item Calculate the calibration constant (visible crossection) corresponding to 13.6 TeV proton-proton collision data.
+\item Study the evolution of the parameters of proton beams
+\item Calculate the calibration constant $\sigma_{vis}$ corresponding to 13.6 TeV proton-proton collision data.
+\item Study the variation of $\sigma_{vis}$ in function of the scan with time
+\item Determine the systematic uncertainties on the calibration constant.
+\item Determine the systematic uncertainties on the integrated luminosity.
 \item Study the stability and linearity of the PCC luminosity measurement by comparing to other CMS luminometers.
-\item Study the variation function in function of the scan with time
 \item Determine the instantaneous and the total integrated luminosity.
-\item Determine the systematic uncertainties on the calibration constant and on the integrated luminosity.
 \end{itemize}
 
 \par
@@ -324,12 +318,36 @@ For Run 3 2024 luminosity measurements:
 
 From this project the following is expected:
 \begin{itemize}
+\item Calibration of the PCC luminometer and the corresponding uncertainty.
+\iten Preliminary measurements of the 2024 integrated luminosity for CMS
 \item From 2024 data compute the uncertainty from the calibration to contribute with the luminosity measurement in 2024.  
+\item A presentation of the results at a national conference. 
+\end{itemize}
+
+\section{Semestral calendary of the project}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{./diagram.jpeg}
+  \caption{
+   Diagram of this project
+  }
+  \label{Grantt Diagram}
+\end{figure}
+
+\section{Abilities to be develop by the student}
+\begin{itemize}
+\item Develop software abilities
+\item Learn programation language  C, C++, Python.
+\item Learn how to use Compute Cluster, Latex, Root, etc.
+\item Data analysis 
+\item Statistical analysis
+\item Review publication
 \end{itemize}
 
 
-
-
+\section{Mobility actions}
+We expect to present the results on a congress the next year 2025. 
 
 
 
