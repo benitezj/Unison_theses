@@ -123,39 +123,13 @@ Scanning input file paper.aux...
 !! Input index error (file = paper.aux, line = 61):
    -- Unknown index keyword \bibdata.
 !! Input index error (file = paper.aux, line = 62):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = paper.aux, line = 63):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = paper.aux, line = 64):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = paper.aux, line = 65):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = paper.aux, line = 66):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = paper.aux, line = 67):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = paper.aux, line = 68):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = paper.aux, line = 69):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = paper.aux, line = 70):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = paper.aux, line = 71):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = paper.aux, line = 72):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = paper.aux, line = 73):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = paper.aux, line = 74):
-   -- Unknown index keyword \providecommand\NAT@force@numbers.
-!! Input index error (file = paper.aux, line = 75):
    -- Unknown index keyword \newlabel.
-!! Input index error (file = paper.aux, line = 76):
+!! Input index error (file = paper.aux, line = 63):
    -- Unknown index keyword \gdef\lastpage@lastpage.
-!! Input index error (file = paper.aux, line = 77):
+!! Input index error (file = paper.aux, line = 64):
    -- Unknown index keyword \gdef\lastpage@lastpageHy.
-!! Input index error (file = paper.aux, line = 78):
+!! Input index error (file = paper.aux, line = 65):
    -- Unknown index keyword \gdef\@abspage@last.
-done (0 entries accepted, 78 rejected).
+done (0 entries accepted, 65 rejected).
 Nothing written in paper.ind.
 Transcript written in paper.ilg.

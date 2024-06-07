@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  6 JUN 2024 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  7 JUN 2024 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -476,72 +476,56 @@ Package pdftex.def Info: ./integratedlum.png  used on input line 162.
 <./LHCcomplex.png, id=81, 762.85pt x 746.79pt>
 File: ./LHCcomplex.png Graphic file (type png)
 <use ./LHCcomplex.png>
-Package pdftex.def Info: ./LHCcomplex.png  used on input line 183.
+Package pdftex.def Info: ./LHCcomplex.png  used on input line 182.
 (pdftex.def)             Requested size: 281.85587pt x 275.92053pt.
 [3 <./integratedlum.png>]
 <./HLLHCLumi.png, id=101, 686.565pt x 431.6125pt>
 File: ./HLLHCLumi.png Graphic file (type png)
 <use ./HLLHCLumi.png>
-Package pdftex.def Info: ./HLLHCLumi.png  used on input line 193.
+Package pdftex.def Info: ./HLLHCLumi.png  used on input line 192.
 (pdftex.def)             Requested size: 375.80544pt x 236.24825pt.
  [4 <./LHCcomplex.png (PNG copy)> <./HLLHCLumi.png>]
-
-Package natbib Warning: Citation `Collaboration:124' on page 5 undefined on inp
-ut line 216.
-
 [5]
-<./cms12.png, id=141, 734.745pt x 511.9125pt>
+<./cms12.png, id=143, 734.745pt x 511.9125pt>
 File: ./cms12.png Graphic file (type png)
 <use ./cms12.png>
-Package pdftex.def Info: ./cms12.png  used on input line 256.
+Package pdftex.def Info: ./cms12.png  used on input line 254.
 (pdftex.def)             Requested size: 305.33789pt x 212.73656pt.
-<./PixelDetectorPhase1.png, id=144, 610.28pt x 184.69pt>
+<./PixelDetectorPhase1.png, id=146, 610.28pt x 184.69pt>
 File: ./PixelDetectorPhase1.png Graphic file (type png)
 <use ./PixelDetectorPhase1.png>
-Package pdftex.def Info: ./PixelDetectorPhase1.png  used on input line 264.
+Package pdftex.def Info: ./PixelDetectorPhase1.png  used on input line 262.
 (pdftex.def)             Requested size: 328.82707pt x 99.51692pt.
-<./PixelSensor.png, id=145, 494.84875pt x 373.395pt>
+<./PixelSensor.png, id=147, 494.84875pt x 373.395pt>
 File: ./PixelSensor.png Graphic file (type png)
 <use ./PixelSensor.png>
-Package pdftex.def Info: ./PixelSensor.png  used on input line 265.
+Package pdftex.def Info: ./PixelSensor.png  used on input line 263.
 (pdftex.def)             Requested size: 126.83586pt x 95.7016pt.
-<./bunchcrossing.jpg, id=148, 433.62pt x 244.66406pt>
+<./bunchcrossing.jpg, id=150, 433.62pt x 244.66406pt>
 File: ./bunchcrossing.jpg Graphic file (type jpg)
 <use ./bunchcrossing.jpg>
-Package pdftex.def Info: ./bunchcrossing.jpg  used on input line 277.
+Package pdftex.def Info: ./bunchcrossing.jpg  used on input line 275.
 (pdftex.def)             Requested size: 225.4804pt x 127.22603pt.
-<./vectorhit1.jpg, id=149, 365.86688pt x 366.61969pt>
+<./vectorhit1.jpg, id=151, 365.86688pt x 366.61969pt>
 File: ./vectorhit1.jpg Graphic file (type jpg)
 <use ./vectorhit1.jpg>
-Package pdftex.def Info: ./vectorhit1.jpg  used on input line 278.
+Package pdftex.def Info: ./vectorhit1.jpg  used on input line 276.
 (pdftex.def)             Requested size: 197.29623pt x 197.70316pt.
  [6 <./cms12.png> <./PixelDetectorPhase1.png> <./PixelSensor.png>]
-<./vdm_sketch.png, id=164, 736.7525pt x 523.9575pt>
+<./vdm_sketch.png, id=166, 736.7525pt x 523.9575pt>
 File: ./vdm_sketch.png Graphic file (type png)
 <use ./vdm_sketch.png>
-Package pdftex.def Info: ./vdm_sketch.png  used on input line 289.
+Package pdftex.def Info: ./vdm_sketch.png  used on input line 287.
 (pdftex.def)             Requested size: 328.82707pt x 233.85191pt.
  [7{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.en
 c} <./bunchcrossing.jpg> <./vectorhit1.jpg> <./vdm_sketch.png (PNG copy)>] [8]
-! Undefined control sequence.
-l.322 \iten
-            Preliminary measurements of the 2024 integrated luminosity for CMS
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<./diag.jpeg, id=184, 633.36626pt x 424.58624pt>
+File: ./diag.jpeg Graphic file (type jpg)
+<use ./diag.jpeg>
+Package pdftex.def Info: ./diag.jpeg  used on input line 329.
+(pdftex.def)             Requested size: 328.82707pt x 220.43626pt.
+ [9 <./diag.jpeg>] (./paper.bbl) [10]
 
-<./diagram.jpeg, id=181, 633.36626pt x 360.34625pt>
-File: ./diagram.jpeg Graphic file (type jpg)
-<use ./diagram.jpeg>
-Package pdftex.def Info: ./diagram.jpeg  used on input line 331.
-(pdftex.def)             Requested size: 328.82707pt x 187.08421pt.
-[9 <./diagram.jpeg>] (./paper.bbl)
-
-Package natbib Warning: There were undefined citations.
-
-[10] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./paper.aux)
  ***********
@@ -553,16 +537,16 @@ L3 programming layer <2024-02-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: E74D8423542C31625F388E527C43F500;1369.
+(rerunfilecheck)             Checksum: 61214CAE08B901F5BB2C4FA4F795B98B;1298.
  ) 
 Here is how much of TeX's memory you used:
- 10392 strings out of 474116
- 160433 string characters out of 5743682
- 1938187 words of memory out of 5000000
- 32568 multiletter control sequences out of 15000+600000
+ 10396 strings out of 474116
+ 160509 string characters out of 5743682
+ 1939187 words of memory out of 5000000
+ 32571 multiletter control sequences out of 15000+600000
  565898 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,710b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,926b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -585,10 +569,10 @@ e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/
 texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on paper.pdf (12 pages, 2666360 bytes).
+Output written on paper.pdf (12 pages, 2671072 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
+ 303 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

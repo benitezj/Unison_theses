@@ -120,7 +120,7 @@ The bosonic sector contains particles which mediate the fundamental forces of na
 There are three generations of fermion particles: the first generation consists of up (u) quark, down (d) quark, electron and electron neutrino, the second generation consist of charm (c) quark, strange (s) quark, muon and muon neutrino, and the third generation has the top (t) quark, bottom (b) quark, tau and tau neutrino.
 The bosonic sector consists of the gauge bosons: gluon, photon, $W^{\pm}$, $Z^0$ which mediate strong nuclear force, electromagnetic force and weak nuclear force respectively.
 The Higgs boson ($H$), is the last of the gauge bosons, it gives mass to the other SM particles via electroweak symmetry breaking mechanism \cite{Chatrchyan:2012xdj}.
-The heavy particles ($W^{\pm}$, $Z^0$, $H$, and top) can only be produced at high energy particle colliders like the Large Hadron Collider (LHC) operating at a center-of-mass energy of 13 TeV in Geneva, Switzerland.
+
 
 \begin{figure}[H]
   \centering
@@ -134,7 +134,7 @@ The heavy particles ($W^{\pm}$, $Z^0$, $H$, and top) can only be produced at hig
 
 
 
-The large hadron collider (LHC) is the world largest and more powerful particle accelerator. It first started in 10 september of 2008 and remains the latest addition to CERN's accelerator complex. The LHC consist of a 27 kilometer ring of superconducting magnets with a number of accelerating structures to boost the energy of the particles along the way. All the controls for the accelerator, its services and technical infrastructure are housed under one roof at the CERN Control Centre. From here, the beams inside the LHC are made to collide at four locations around the accelerator ring, corresponding to the positions of four particle detectors; Atlas, CMS, Alice and LHCb.
+The heavy particles ($W^{\pm}$, $Z^0$, $H$, and top) can only be produced at high energy particle colliders like the Large Hadron Collider (LHC) operating at a center-of-mass energy of 13 TeV in Geneva, Switzerland. The large hadron collider (LHC) is the world largest and most powerful particle accelerator. It first started in 10 september of 2008 and remains the latest addition to CERN's accelerator complex. The LHC consist of a 27 kilometer ring of superconducting magnets with a number of accelerating structures to boost the energy of the particles along the way. All the controls for the accelerator, its services and technical infrastructure are housed under one roof at the CERN Control Centre. From here, the beams inside the LHC are made to collide at four locations around the accelerator ring, corresponding to the positions of four particle detectors; ATLAS, CMS, ALICE and LHCb.
 
 Until the 90s, existence of almost all the SM particles were confirmed except the top quark and the Higgs boson. 
 These had eluded previous experiments due to difficulties in the production and reconstruction of its decay products.
@@ -147,15 +147,15 @@ Luminosity, $L$, is a key parameter at particle colliders along with the energy 
 $L$ is one of the  main figures of merit that quantify the potential for observing new particles and measuring their properties.
 The instantaneous luminosity $L(t)$ is the process-independent ratio between the rate $R(t)$ of events produced per unit time and the cross section for a given process $\sigma$:  $R(t) = \sigma L(t)$.
 
-In order to evaluate the total number of events we used integrated luminosity, it is a measurement of the collected data size, and it is important value to characterize the performance of an accelerator, defined as: \\ 
+In order to evaluate the total number of events we use integrated luminosity, it is a measurement of the collected data size, and it is important value to characterize the performance of an accelerator, defined as: \\ 
 
 
 \begin{center}
-$L_{inst} = \int _{0}^{t} L_{inst}(t') dt'$ \\ 
+$L_{int} = \int _{0}^{t} L(t') dt'$ \\ 
 \end{center}
 
 
-Because it directly relates to the number of observed events; $L_{int} \dot \sigma_{p}$ = number of events of interest. \\
+Because it directly relates to the number of observed events; $L_{int} \sigma$ = number of events of interest. \\
 
 \begin{figure}[H]
   \centering
@@ -172,7 +172,6 @@ During Run 1 (2011-2012) LHC reached a peak instantaneous luminosity of \instlum
 
 In the first part of Run 2 (2015-2016), the delivered luminosity has been measured to be \lumi{38.4} with an unprecedented precision of 1.3\% \cite{Sirunyan:2021qkt}.
 For the second part of Run 2 (2017-2018), the integrated luminosity is about \lumi{78}, but its precise value and uncertainty remain to be determined \cite{CMS:2018elu}.
-The plan of the LHC till year 2038 is to obtain datasets with up to 10 times higher values of instanteneous luminosities in the final phase.
 The LHC Run 3 began in 2022 and will last until 2024, with an expected integrated luminosity of about \lumi{450} \cite{lumi-run3}. 
 
 
@@ -206,14 +205,13 @@ In this project, we aim to make the measurements of the luminosity for the preli
 \section{GENERAL OBJECTIVE}
 
 
-The main objective of this work is to obtain calibration data for 2024 aiming for a uncertainty less than 2\% in this Run. This results are important for CMS to compare physical process with the Standard Model, these results are likely to be presented on conferences and reviews on 2025.
+The main objective of this work is to obtain the calibration constant for the PCC luminometer with 2024 data aiming for a uncertainty less than 2\% in this Run. This results are important for CMS to compare physical process with the Standard Model, these results are likely to be presented on conferences and reviews on 2025.
 This precision is needed for the measurement of many important physics processes, like the Higgs boson production crossection, which define the Standard Model of particle physics. 
 
 \section{HYPOTHESIS}
 
 
-Based on the previous work on the Run 2 (2015-2016) datasets which have achieved a uncertainty of  2.3\% \cite{Collaboration:121}, we expect that a precision at 2\% will be possible due to the improved methods we are developing.
-For reference, the current systematic uncertainty on the Run 2 2017 was 2.3\% \cite{CMS:2018elu} for 2018 was 2.5\% \cite{CMS:2018} and for Run 3 (2022) was 1.4\% \cite{Collaboration:124}. 
+Based on the previous work on the Run 2 (2015-2016) datasets which have achieved a uncertainty of  2.3\% \cite{Collaboration:121}, the current systematic uncertainty on the Run 2 2017 was 2.3\% \cite{CMS:2018elu} for 2018 was 2.5\% \cite{CMS:2018} and for Run 3 (2022) was 1.4\% \cite{Collaboration:124}. We expect that a precision at 2\% will be possible due to the improved methods we are developing.
 
 
 
@@ -238,14 +236,14 @@ This low occupancy makes the PCC  very linear as a function of pileup, an essent
 
 
 The calibration of the luminometer consists of a van der Meer (vdM) scan performed in a special LHC run usually at the beginning of the run period (year).
-These scans are performed by varying the separation between the beams in each direction ($x$ and $y$) at a fixed number of separation steps of about 100 micrometers. Then these rates are fitted by a Gaussian function to obtain the beam overlaps $\Sigma_{x,y}$ and the peak rate of clusters $R(0,0)$ \cite{CMS:2018}. A schematic view of this method is shown in Fig. \ref{vdMSketch}. 
+These scans are performed by varying the separation between the beams in each direction ($x$ and $y$) at a fixed number of separation steps of about 100 micrometers. Then these rates are fitted by a Gaussian model to obtain the beam overlaps $\Sigma_{x,y}$ and the peak rate of clusters $R(0,0)$ \cite{CMS:2018}. A schematic view of this method is shown in Fig. \ref{vdMSketch}. 
 Finally the calibration constant ($\sigma_{vis}$) is determined as Eq.\ref{sigmavis_eq}.
 
 \begin{equation}
   \sigma_{vis}=\frac{R_{det}}{L_{b}}=\frac{2\pi \Sigma_{x} \Sigma_{y} R(0, 0)}{N_{1}N_{2} f}
   \label{sigmavis_eq}
 \end{equation}
-Where $f$  is the LHC frecuency and $N_{1},N_{2}$ are the buch current used to normalize  the rates.
+Where $f$  is the LHC frecuency and $N_{1},N_{2}$ are the number of protons in each colliding bunch, determined from the beam currents.
 This calibration constant is then used to determine the luminosity during a normal running throughout the data-taking year \cite{CMS:2018}.
 
 %It is expected that coincidences will be less sensitive to backgrounds in HL-LHC pileup conditions and therefore a more robust luminosity measurement can be performed.
@@ -319,16 +317,16 @@ For Run 3 2024 luminosity measurements:
 From this project the following is expected:
 \begin{itemize}
 \item Calibration of the PCC luminometer and the corresponding uncertainty.
-\iten Preliminary measurements of the 2024 integrated luminosity for CMS
+\item Preliminary measurements of the 2024 integrated luminosity for CMS
 \item From 2024 data compute the uncertainty from the calibration to contribute with the luminosity measurement in 2024.  
 \item A presentation of the results at a national conference. 
 \end{itemize}
 
-\section{Semestral calendary of the project}
+\section{Calendar of activites}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\columnwidth]{./diagram.jpeg}
+  \includegraphics[width=0.7\columnwidth]{./diag.jpeg}
   \caption{
    Diagram of this project
   }
@@ -339,62 +337,17 @@ From this project the following is expected:
 \begin{itemize}
 \item Develop software abilities
 \item Learn programation language  C, C++, Python.
-\item Learn how to use Compute Cluster, Latex, Root, etc.
-\item Data analysis 
-\item Statistical analysis
-\item Review publication
+\item Learn how to use High Performance Computer, Latex and Root
+\item Data analysis and Statistical analysis
+\item Publication of results
 \end{itemize}
 
 
 \section{Mobility actions}
-We expect to present the results on a congress the next year 2025. 
+We expect to participate in a national conference on a congress the next year 2025. 
 
 
 
-%\begin{itemize}
-%
-%\item {\bf Semester 1 (2023-2)}:
-%  \SubItem{ Readings on Standard Model of physics theory, LHC, and CMS experiments.}
-%  \SubItem{ Review of the literature.}
-%  \SubItem{ Master Linux computing and data analysis  skills (\textsc{Bash, Emacs, Root, HTCondor parallel processing.})}
-%  \SubItem{ Complete work on the 2022 luminosity measurement for a preliminary  publication.}
-%
-%\item {\bf Semester 2 (2024-1)}:
-%  \SubItem{ Course I on particle physics, particle detection, or data analysis.}
-%  \SubItem{ Continue readings on Standard Model of physics theory, LHC, and CMS experiments.}
-%  \SubItem{ Master Linux computing and data analysis  skills (\textsc{Bash, Emacs, Root, HTCondor parallel processing.})}
-%  \SubItem{ Complete work on the Run 2 luminosity measurement for a final  publication.}
-%  \SubItem{ Start work on the 2023 dataset luminosity measurement. }
-%  
-%\item {\bf Semester 3 (2024-2)}:
-%  \SubItem{ Course II on particle physics, particle detection, or  data analysis.}
-%  \SubItem{ Complete work on the 2023 dataset luminosity measurement.}
-%  \SubItem{ Start work on the 2024 dataset luminosity measurement. }
-%  
-%\item {\bf Semester 4 (2025-1)}:
-%  \SubItem{ Continue work on the 2024 dataset luminosity measurement. }
-%  \SubItem{ Start studies on the TEPX luminometer for the HL-LHC.}
-%  \SubItem{ Writing of the monograph.}
-%
-%\item {\bf Semester 5 (2025-2)}:
-%  \SubItem{ Complete work on the 2024 dataset luminosity measurement. }
-%  \SubItem{ Complete studies on the TEPX luminometer for the HL-LHC.}
-%  \SubItem{ Presentation at national or international conferences of the TEPX upgrade studies.}
-%  
-%\item {\bf Semester 6 (2026-1)}:
-%  \SubItem{ Start final studies of the Run 3 data luminosity measurement for publication in a peer reviewed journal.}
-%
-%\item {\bf Semester 7 (2026-2)}:
-%  \SubItem{ Completion of the studies of the Run 3 data luminosity measurement for publication in a peer reviewed journal.}
-%  \SubItem{ Presentations at national or international conferences of the luminosity measurements and TEPX luminometer for HL-LHC.}
-%  \SubItem{ Writing of the Ph.D thesis.}
-%  
-%\item {\bf Semester 8 (2027-1)}: 
-%  \SubItem{ Publication of the Run 3 data luminosity measurement in a peer reviewed journal.}
-%  \SubItem{ Presentations at national or international conferences of the luminosity measurements and TEPX luminometer for HL-LHC.}
-%  \SubItem{ Defense of the Ph.D thesis.}
-%  
-%\end{itemize}
 
 
 \newpage
