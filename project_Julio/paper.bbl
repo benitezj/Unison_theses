@@ -1,11 +1,42 @@
 \begin{thebibliography}{10}
 
-\bibitem{Chatrchyan:2012xdj}
+\bibitem{CMS:2018elu}
+{CMS luminosity measurement for the 2017 data-taking period at $\sqrt{s} =
+  13~\mathrm{TeV}$}.
+\newblock 2018.
+\newblock \url{https://inspirehep.net/literature/1677076}.
+
+\bibitem{TrackerGroupoftheCMS:2020bgg}
+W.~Adam et~al.
+\newblock {The CMS Phase-1 Pixel Detector Upgrade}.
+\newblock {\em JINST}, 16(02):P02027, 2021.
+\newblock \url{https://arxiv.org/abs/2012.14304}.
+
+\bibitem{Chatrchyan:2008aa}
 S.~Chatrchyan et~al.
-\newblock {Observation of a New Boson at a Mass of 125 GeV with the CMS
-  Experiment at the LHC}.
-\newblock {\em Phys. Lett.}, B716:30--61, 2012.
+\newblock {The CMS Experiment at the CERN LHC}.
+\newblock {\em JINST}, 3:S08004, 2008.
 \newblock \url{http://inspirehep.net/record/1124338?ln=es}.
+
+\bibitem{Collaboration:121}
+CMS collaboration.
+\newblock {CMS luminosity measurements for the 2016 data taking period}.
+\newblock Technical report, CERN, Geneva, March 2016.
+\newblock \url{https://cds.cern.ch/record/2257069?ln=en}.
+
+\bibitem{CMS:2018}
+CMS collaboration.
+\newblock {CMS luminosity measurement for the 2018 data-taking period at
+  $\sqrt{s} = 13~\mathrm{TeV}$}.
+\newblock 2019.
+\newblock \url{https://cds.cern.ch/record/2676164?ln=en}.
+
+\bibitem{collaborations2019report}
+CMS Collaboration.
+\newblock Report on the physics at the $\uppercase{HL-LHC}$ and perspectives
+  for the $\uppercase{HE-LHC}$.
+\newblock {\em arXiv:1902.10229}, 2019.
+\newblock \url{https://arxiv.org/abs/1902.10229}.
 
 \bibitem{Sirunyan:2021qkt}
 The~CMS collaboration.
@@ -13,11 +44,11 @@ The~CMS collaboration.
   $\sqrt{s} =$ 13 TeV in 2015 and 2016 at CMS}.
 \newblock \url{https://doi.org/10.1140/epjc/s10052-021-09538-2}.
 
-\bibitem{CMS:2018elu}
-{CMS luminosity measurement for the 2017 data-taking period at $\sqrt{s} =
-  13~\mathrm{TeV}$}.
-\newblock 2018.
-\newblock \url{https://inspirehep.net/literature/1677076}.
+\bibitem{deMaria:2008zzb}
+Riccardo de~Maria.
+\newblock {\em {LHC interaction region upgrade}}.
+\newblock PhD thesis, Ecole Polytechnique, Lausanne, 2008.
+\newblock \url{http://cds.cern.ch/record/1127611?ln=en}.
 
 \bibitem{lumi-run3}
 O.~Aberle et~al.
@@ -27,6 +58,18 @@ O.~Aberle et~al.
 \newblock last actualization in \url
   {https://hilumilhc.web.cern.ch/content/hl-lhc-project}.
 
+\bibitem{Chatrchyan:2012xdj}
+S.~Chatrchyan et~al.
+\newblock {Observation of a New Boson at a Mass of 125 GeV with the CMS
+  Experiment at the LHC}.
+\newblock {\em Phys. Lett.}, B716:30--61, 2012.
+\newblock \url{http://inspirehep.net/record/1124338?ln=es}.
+
+\bibitem{vdMSketch}
+O.~Karacheban.
+\newblock Performance of the bril luminometers at cms in run 2.
+\newblock 2019.
+
 \bibitem{Mobs:2684277}
 Esma Mobs.
 \newblock {The CERN accelerator complex - 2019. Complexe des accélérateurs du
@@ -34,52 +77,9 @@ Esma Mobs.
 \newblock Jul 2019.
 \newblock \url{https://cds.cern.ch/record/2684277?ln=en}.
 
-\bibitem{collaborations2019report}
-CMS Collaboration.
-\newblock Report on the physics at the $\uppercase{HL-LHC}$ and perspectives
-  for the $\uppercase{HE-LHC}$.
-\newblock {\em arXiv:1902.10229}, 2019.
-\newblock \url{https://arxiv.org/abs/1902.10229}.
-
-\bibitem{Collaboration:121}
-CMS collaboration.
-\newblock {CMS luminosity measurements for the 2016 data taking period}.
-\newblock Technical report, CERN, Geneva, March 2016.
-\newblock \url{https://cds.cern.ch/record/2257069?ln=en}.
-
-\bibitem{Chatrchyan:2008aa}
-S.~Chatrchyan et~al.
-\newblock {The CMS Experiment at the CERN LHC}.
-\newblock {\em JINST}, 3:S08004, 2008.
-\newblock \url{http://inspirehep.net/record/1124338?ln=es}.
-
-\bibitem{TrackerGroupoftheCMS:2020bgg}
-W.~Adam et~al.
-\newblock {The CMS Phase-1 Pixel Detector Upgrade}.
-\newblock {\em JINST}, 16(02):P02027, 2021.
-\newblock \url{https://arxiv.org/abs/2012.14304}.
-
-\bibitem{CMS:2018}
-CMS collaboration.
-\newblock {CMS luminosity measurement for the 2018 data-taking period at
-  $\sqrt{s} = 13~\mathrm{TeV}$}.
-\newblock 2019.
-\newblock \url{https://cds.cern.ch/record/2676164?ln=en}.
-
-\bibitem{deMaria:2008zzb}
-Riccardo de~Maria.
-\newblock {\em {LHC interaction region upgrade}}.
-\newblock PhD thesis, Ecole Polytechnique, Lausanne, 2008.
-\newblock \url{http://cds.cern.ch/record/1127611?ln=en}.
-
 \bibitem{Thomsom}
 M.~Thomson.
 \newblock {Modern Particle Physics, Cambridge University Press, New York}.
 \newblock 2013.
-
-\bibitem{vdMSketch}
-O.~Karacheban.
-\newblock Performance of the bril luminometers at cms in run 2.
-\newblock 2019.
 
 \end{thebibliography}

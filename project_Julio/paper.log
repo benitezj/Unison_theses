@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  6 JUN 2024 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  6 JUN 2024 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -486,45 +486,37 @@ Package pdftex.def Info: ./HLLHCLumi.png  used on input line 193.
 (pdftex.def)             Requested size: 375.80544pt x 236.24825pt.
  [4 <./LHCcomplex.png (PNG copy)> <./HLLHCLumi.png>]
 
-Package natbib Warning: Citation `Collaboration:122' on page 5 undefined on inp
-ut line 216.
-
-
-Package natbib Warning: Citation `Collaboration:123' on page 5 undefined on inp
-ut line 216.
-
-
 Package natbib Warning: Citation `Collaboration:124' on page 5 undefined on inp
 ut line 216.
 
 [5]
-<./cms12.png, id=138, 734.745pt x 511.9125pt>
+<./cms12.png, id=141, 734.745pt x 511.9125pt>
 File: ./cms12.png Graphic file (type png)
 <use ./cms12.png>
 Package pdftex.def Info: ./cms12.png  used on input line 256.
 (pdftex.def)             Requested size: 305.33789pt x 212.73656pt.
-<./PixelDetectorPhase1.png, id=141, 610.28pt x 184.69pt>
+<./PixelDetectorPhase1.png, id=144, 610.28pt x 184.69pt>
 File: ./PixelDetectorPhase1.png Graphic file (type png)
 <use ./PixelDetectorPhase1.png>
 Package pdftex.def Info: ./PixelDetectorPhase1.png  used on input line 264.
 (pdftex.def)             Requested size: 328.82707pt x 99.51692pt.
-<./PixelSensor.png, id=142, 494.84875pt x 373.395pt>
+<./PixelSensor.png, id=145, 494.84875pt x 373.395pt>
 File: ./PixelSensor.png Graphic file (type png)
 <use ./PixelSensor.png>
 Package pdftex.def Info: ./PixelSensor.png  used on input line 265.
 (pdftex.def)             Requested size: 126.83586pt x 95.7016pt.
-<./bunchcrossing.jpg, id=145, 433.62pt x 244.66406pt>
+<./bunchcrossing.jpg, id=148, 433.62pt x 244.66406pt>
 File: ./bunchcrossing.jpg Graphic file (type jpg)
 <use ./bunchcrossing.jpg>
 Package pdftex.def Info: ./bunchcrossing.jpg  used on input line 277.
 (pdftex.def)             Requested size: 225.4804pt x 127.22603pt.
-<./vectorhit1.jpg, id=146, 365.86688pt x 366.61969pt>
+<./vectorhit1.jpg, id=149, 365.86688pt x 366.61969pt>
 File: ./vectorhit1.jpg Graphic file (type jpg)
 <use ./vectorhit1.jpg>
 Package pdftex.def Info: ./vectorhit1.jpg  used on input line 278.
 (pdftex.def)             Requested size: 197.29623pt x 197.70316pt.
  [6 <./cms12.png> <./PixelDetectorPhase1.png> <./PixelSensor.png>]
-<./vdm_sketch.png, id=162, 736.7525pt x 523.9575pt>
+<./vdm_sketch.png, id=164, 736.7525pt x 523.9575pt>
 File: ./vdm_sketch.png Graphic file (type png)
 <use ./vdm_sketch.png>
 Package pdftex.def Info: ./vdm_sketch.png  used on input line 289.
@@ -540,7 +532,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./diagram.jpeg, id=179, 633.36626pt x 360.34625pt>
+<./diagram.jpeg, id=181, 633.36626pt x 360.34625pt>
 File: ./diagram.jpeg Graphic file (type jpg)
 <use ./diagram.jpeg>
 Package pdftex.def Info: ./diagram.jpeg  used on input line 331.
@@ -593,10 +585,10 @@ e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/
 texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on paper.pdf (12 pages, 2666338 bytes).
+Output written on paper.pdf (12 pages, 2666360 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
+ 300 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
  46 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
