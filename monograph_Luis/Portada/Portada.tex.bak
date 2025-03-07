@@ -1,0 +1,150 @@
+ %% Aquí comienza el documento.
+\thispagestyle{empty} %% PARA QUITAR FORMATO DE PIES Y ENCABEZADOS DE PÁGINA A LA PORTADA
+%
+%
+%
+%
+%
+%
+%
+%   ESPACIO COMENTADO PARA EVITAR DESAJUSTES POR GENERACIÓN DE NUEVO PÁRRAFO (NO DEJAR ESPACIOS ENTRE MINIPAGES)
+%
+%
+%
+%
+%
+%%%%%%%%% MINIPAGE PARA EL LOGO DEL LADO IZQUIERDO (UNIVERSIDAD) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%
+%\fbox{
+\begin{minipage}[c][0.15\textheight][c]{0.25\textwidth}
+    \begin{center}
+        \includegraphics[height=3.2cm, keepaspectratio=true]{unison-logo.png} %% LOGO IZQUIERDO
+    \end{center}
+\end{minipage}
+%}
+%
+%
+%
+%
+%
+%
+%   ESPACIO COMENTADO PARA EVITAR DESAJUSTES POR GENERACIÓN DE NUEVO PÁRRAFO (NO DEJAR ESPACIOS ENTRE MINIPAGES)
+%
+%
+%
+%
+%
+%%%%%%%%%%%%% MINIPAGE PARA EL CUERPO DE LA PORTADA (NOMBRES, TITULOS, ETC.) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+%
+%
+%
+%
+%\fbox{
+\begin{minipage}[c][0.17\textheight][t]{0.7\textwidth}
+    \begin{center}
+        {\scshape\LARGE UNIVERSIDAD DE SONORA} %% NOMBRE DE LA UNIVERSIDAD
+        \vspace{.5cm}   %% DEFINE EL ESPACIO ENTRE EL NOMBRE DE LA UNIVERSIDAD Y LA LÍNEA DOBLE
+        \hrule height2.5pt  %% DEFINE EL ANCHO DE LA PRIMER LÍNEA
+        \vspace{.1cm}    %% DEFINE EL ESPACIO ENTRE LAS DOS LINEAS
+        \hrule height1pt  %% DEFINE EL ANCHO DE LA SEGUNDA LINEA (NORMALMENTE ES MAS DELGADA)
+        \vspace{.4cm}   %% DEFINE EL ESPACIO ENTRE LA DOBLE LINEA Y EL NOMBRE DE LA DIVISIÓN
+        {\scshape \large Divisi\'on de Ciencias Exactas y Naturales}
+        {\scshape Departamento de Investigaci\'on en F\'isica} %% NOMBRE DE LA DIVISIÓN
+    \end{center}
+\end{minipage}
+%}
+%
+%
+%
+%
+%
+%   ESPACIO COMENTADO PARA EVITAR DESAJUSTES POR GENERACIÓN DE NUEVO PÁRRAFO (NO DEJAR ESPACIOS ENTRE MINIPAGES)
+%
+%
+%
+%
+%
+%
+%   ESPACIO COMENTADO PARA EVITAR DESAJUSTES POR GENERACIÓN DE NUEVO PÁRRAFO (NO DEJAR ESPACIOS ENTRE MINIPAGES)
+%
+%
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%% MINIPAGE PARA EL LOGO DEL LADO DERECHO (DIVISIÓN ACADÉMICA)
+%
+%
+%
+%
+%\fbox{
+
+%
+%
+%
+%
+%
+%    ESPACIO COMENTADO PARA EVITAR DESAJUSTES POR GENERACIÓN DE NUEVO PÁRRAFO (NO DEJAR ESPACIOS ENTRE MINIPAGES)
+%
+%
+%
+%
+%
+%
+%%%%%%% RENGLÓN DE ABAJO DEJADO INTENCIONALMENTE EN BLANCO PARA GENERAR NUEVO COMIENZO DE PÁRRAFO  %%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%
+%
+%  ESPACIO COMENTADO PARA EVITAR DESAJUSTES POR GENERACIÓN DE NUEVO PÁRRAFO (NO DEJAR ESPACIOS ENTRE MINIPAGES)
+%
+%
+%
+%
+%
+%
+%%%%%%%%%%%%%%%% 5TO MINIPAGE PARA EL CUERPO DE LA PORTADA (NOMBRES, TÍTULO, ETC.) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%
+%\fbox{
+\begin{minipage}[l][0.78\textheight][t]{0.1\textwidth}
+    \begin{center}
+    \hskip0pt
+    \vrule width2.5pt height17cm    %% height definde la altura de la linea gruesa
+        \hskip1mm
+        \vrule width1pt height17cm  %% height define la altura de la linea delgada
+        \end{center}
+\end{minipage}
+%}
+%\fbox{
+\begin{minipage}[c][0.78\textheight][t]{0.8\textwidth}
+      \begin{center}
+      \vspace{2cm}
+        {\Large \scshape {Development and calibration of the luminosity measurement system CMS Silicon Pixel Detector}}
+
+        \vspace{3cm}
+
+        \makebox[5cm][c]{\LARGE THESIS}  \\[20pt]
+         in partial fulfillment of the
+requirements for the degree of:\\[5pt]
+        {\Large \textbf{{Maestr\'ia en Ciencias (F\'isica)}}}\\[40pt]
+        By:\\[12pt]
+        \textbf{  {\large Luis Enrique CUEVAS PICOS}}
+
+        \vspace{2cm}
+
+        { \large Director}:\\Dr. Jose Feliciano BENITEZ RUBIO
+
+        \vspace{2.5cm}
+
+        { Hermosillo, Sonora} \hskip2.5cm {July 10, 2023}
+      \end{center}
+\end{minipage}
+%}

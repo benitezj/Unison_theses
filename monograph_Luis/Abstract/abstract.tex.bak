@@ -1,0 +1,7 @@
+\begin{abstract}
+\begin{center}
+    {\huge Abstract}
+\end{center}
+
+The calibration of the CMS Pixel Cluster Counting luminometer from the analysis of the van der Meer scanning program for the  CMS experiment in the  2022 proton-proton collision data-taking at $\sqrt{s}=$13.6 TeV  is described. The data collection period was on November 10 and 11 for the LHC fill 8381, the data collected was reprocessed along with a selection of good modules based on stability studies. The analysis of the van der Meer scans with especific corrections results in the calibration constant  $\sigma_{vis}= 4153.3 \pm 2.7 (\text{stat.}) \pm 30.3 (\text{syst.})\text{ mb}$. 
+\end{abstract}
