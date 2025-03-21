@@ -1,0 +1,106 @@
+\begin{thebibliography}{15}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{M. Thomson, \textit{Modern Particle Physics}, Cambridge University
+  Press, New York, 2013}()]{thomson_2013}
+{M. Thomson, \textit{Modern Particle Physics}, Cambridge University Press, New
+  York, 2013}.
+
+\bibitem[{A. Belyaev and R. Douglas, \textit{The Basics of Nuclear and Particle
+  Physics}, Springer (Undergraduate Texts in Physics Series), Switzerland,
+  2021, doi:
+  https://doi.org/10.1007/978-3-030-80116-8}()]{undergraduate_accelerators_chapter}
+{A. Belyaev and R. Douglas, \textit{The Basics of Nuclear and Particle
+  Physics}, Springer (Undergraduate Texts in Physics Series), Switzerland,
+  2021, doi: https://doi.org/10.1007/978-3-030-80116-8}.
+
+\bibitem[{S. Myers and H. Schopper, \textit{Particle Physics Reference Library,
+  volume 3}, Springer, 2020, doi:
+  https://doi.org/10.1007/978-3-030-34245-6}()]{ref_lib_vol3}
+{S. Myers and H. Schopper, \textit{Particle Physics Reference Library, volume
+  3}, Springer, 2020, doi: https://doi.org/10.1007/978-3-030-34245-6}.
+
+\bibitem[{W. Herr and B. Muratori, "Concept of Luminosity", CERN Document
+  Server, 2016, doi : 10.5170/CERN-2006-002.361}()]{concept_of_luminosity}
+{W. Herr and B. Muratori, "Concept of Luminosity", CERN Document Server, 2016,
+  doi : 10.5170/CERN-2006-002.361}.
+
+\bibitem[{CMS Collaboration, "Measurement of inclusive W and Z boson production
+  cross sections in pp collisions at $\sqrt{s}$ = 13 TeV", CMS Physics Analysis
+  Summary CMS-PAS-SMP-15-004, 2015}()]{lumi_uncertainties}
+{CMS Collaboration, "Measurement of inclusive W and Z boson production cross
+  sections in pp collisions at $\sqrt{s}$ = 13 TeV", CMS Physics Analysis
+  Summary CMS-PAS-SMP-15-004, 2015}.
+
+\bibitem[{Online article: "The Large Hadron Collider", 2023, URL
+  https://home.cern/science /accelerators/large-hadron-collider}()]{LHC}
+{Online article: "The Large Hadron Collider", 2023, URL
+  https://home.cern/science /accelerators/large-hadron-collider}.
+
+\bibitem[{CMS Collaboration, "The CMS experiment at the CERN LHC",
+  \textit{JINST} \textbf{3} S08004, 2008, doi:
+  10.1088/1748-0221/3/08/s08004}()]{CMS_Exp_2008}
+{CMS Collaboration, "The CMS experiment at the CERN LHC", \textit{JINST}
+  \textbf{3} S08004, 2008, doi: 10.1088/1748-0221/3/08/s08004}.
+
+\bibitem[{A.M. Sirunyan et al, "Particle-flow reconstruction and global event
+  description with the CMS detector", \textit{JINST} \textbf{12} P10003, 2017,
+  doi: 10.1088/1748-0221/12/10/p10003}()]{det_summary}
+{A.M. Sirunyan et al, "Particle-flow reconstruction and global event
+  description with the CMS detector", \textit{JINST} \textbf{12} P10003, 2017,
+  doi: 10.1088/1748-0221/12/10/p10003}.
+
+\bibitem[{CMS Collaboration, "CMS luminosity measurement for the 2018
+  data-taking period at $\sqrt{s}$ = 13 TeV", CMS Physics Analysis Summary
+  CMS-PAS-LUM-18-002, 2019}()]{pas_18}
+{CMS Collaboration, "CMS luminosity measurement for the 2018 data-taking period
+  at $\sqrt{s}$ = 13 TeV", CMS Physics Analysis Summary CMS-PAS-LUM-18-002,
+  2019}.
+
+\bibitem[{W. Adam et al, "The CMS Phase-1 pixel detector upgrade",
+  \textit{JINST} \textbf{16} P02027, 2021, doi:
+  10.1088/1748-0221/16/02/p02027}()]{phase1_Pixel_Detector}
+{W. Adam et al, "The CMS Phase-1 pixel detector upgrade", \textit{JINST}
+  \textbf{16} P02027, 2021, doi: 10.1088/1748-0221/16/02/p02027}.
+
+\bibitem[{CMS Collaboration, "Description and performance of track and
+  primary-vertex reconstruction with the CMS tracker", \textit{JINST}
+  \textbf{9} P10009, 2014, doi:
+  10.1088/1748-0221/9/10/p10009}()]{Track_Reco_2014}
+{CMS Collaboration, "Description and performance of track and primary-vertex
+  reconstruction with the CMS tracker", \textit{JINST} \textbf{9} P10009, 2014,
+  doi: 10.1088/1748-0221/9/10/p10009}.
+
+\bibitem[{D. A. Giurgiu, "Pixel Hit Reconstruction with the CMS Detector",
+  physics.ins-det \textbf{2}, 2008,
+  arXiv:0808.3804}()]{Pixel_Hit_Reconstruction}
+{D. A. Giurgiu, "Pixel Hit Reconstruction with the CMS Detector",
+  physics.ins-det \textbf{2}, 2008, arXiv:0808.3804}.
+
+\bibitem[{CMS Collaboration, "Precision luminosity measurement in proton-proton
+  collisions at $\sqrt{s}$ = 13 TeV in 2015 and 2016 at CMS, \textit{Eur. Phys.
+  J. C} \textbf{81} 800, 2021, doi: 10.1140/epjc/s10052-021-09538-2, arXiv:
+  2104.01927}()]{lumi_precise_2015_2016}
+{CMS Collaboration, "Precision luminosity measurement in proton-proton
+  collisions at $\sqrt{s}$ = 13 TeV in 2015 and 2016 at CMS, \textit{Eur. Phys.
+  J. C} \textbf{81} 800, 2021, doi: 10.1140/epjc/s10052-021-09538-2, arXiv:
+  2104.01927}.
+
+\bibitem[{CMS Collaboration, "The Phase-2 Upgrade of the CMS Beam Radiation,
+  Instrumentation, and Luminosity Detectors: Conceptual Design",
+  CMS-NOTE-2019-008, 2020}()]{Phase2_Upgrade}
+{CMS Collaboration, "The Phase-2 Upgrade of the CMS Beam Radiation,
+  Instrumentation, and Luminosity Detectors: Conceptual Design",
+  CMS-NOTE-2019-008, 2020}.
+
+\bibitem[{Online resource: "CMS Luminosity - Public Results", 2023, URL
+  https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults
+  }()]{wikicern}
+{Online resource: "CMS Luminosity - Public Results", 2023, URL
+  https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults }.
+
+\end{thebibliography}

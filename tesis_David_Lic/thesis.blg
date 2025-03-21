@@ -1,0 +1,114 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: Portada/Portada.aux
+A level-1 auxiliary file: Dedication/dedication.aux
+A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
+A level-1 auxiliary file: Abstract/abstract.aux
+A level-1 auxiliary file: Abstract/resumen.aux
+A level-1 auxiliary file: Chapter1/chapter1.aux
+A level-1 auxiliary file: Chapter2/chapter2.aux
+A level-1 auxiliary file: Chapter3/chapter3.aux
+A level-1 auxiliary file: Conclusion/conclusion.aux
+The style file: unsrtnat.bst
+Database file #1: References/references.bib
+Warning--entry type for "concept_of_luminosity" isn't style-file defined
+--line 61 of file References/references.bib
+I was expecting a `,' or a `}'---line 95 of file References/references.bib
+ : 
+ : @MISC{lhc_complex,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty title in thomson_2013
+Warning--empty publisher in thomson_2013
+Warning--empty year in thomson_2013
+Warning--empty year in thomson_2013
+Warning--empty title in undergraduate_accelerators_chapter
+Warning--empty journal in undergraduate_accelerators_chapter
+Warning--empty year in undergraduate_accelerators_chapter
+Warning--empty year in undergraduate_accelerators_chapter
+Warning--empty title in ref_lib_vol3
+Warning--empty journal in ref_lib_vol3
+Warning--empty year in ref_lib_vol3
+Warning--empty year in ref_lib_vol3
+Warning--empty year in concept_of_luminosity
+Warning--empty title in lumi_uncertainties
+Warning--empty journal in lumi_uncertainties
+Warning--empty year in lumi_uncertainties
+Warning--empty year in lumi_uncertainties
+Warning--empty year in LHC
+Warning--empty title in CMS_Exp_2008
+Warning--empty journal in CMS_Exp_2008
+Warning--empty year in CMS_Exp_2008
+Warning--empty year in CMS_Exp_2008
+Warning--empty title in det_summary
+Warning--empty journal in det_summary
+Warning--empty year in det_summary
+Warning--empty year in det_summary
+Warning--empty title in pas_18
+Warning--empty journal in pas_18
+Warning--empty year in pas_18
+Warning--empty year in pas_18
+Warning--empty title in phase1_Pixel_Detector
+Warning--empty journal in phase1_Pixel_Detector
+Warning--empty year in phase1_Pixel_Detector
+Warning--empty year in phase1_Pixel_Detector
+Warning--empty title in Track_Reco_2014
+Warning--empty journal in Track_Reco_2014
+Warning--empty year in Track_Reco_2014
+Warning--empty year in Track_Reco_2014
+Warning--empty title in Pixel_Hit_Reconstruction
+Warning--empty journal in Pixel_Hit_Reconstruction
+Warning--empty year in Pixel_Hit_Reconstruction
+Warning--empty year in Pixel_Hit_Reconstruction
+Warning--empty title in lumi_precise_2015_2016
+Warning--empty journal in lumi_precise_2015_2016
+Warning--empty year in lumi_precise_2015_2016
+Warning--empty year in lumi_precise_2015_2016
+Warning--empty title in Phase2_Upgrade
+Warning--empty journal in Phase2_Upgrade
+Warning--empty year in Phase2_Upgrade
+Warning--empty year in Phase2_Upgrade
+Warning--empty year in wikicern
+You've used 15 entries,
+            2481 wiz_defined-function locations,
+            596 strings with 7243 characters,
+and the built_in function-call counts, 3737 in all, are:
+= -- 247
+> -- 105
+< -- 15
++ -- 60
+- -- 30
+* -- 245
+:= -- 562
+add.period$ -- 15
+call.type$ -- 15
+change.case$ -- 15
+chr.to.int$ -- 15
+cite$ -- 66
+duplicate$ -- 259
+empty$ -- 429
+format.name$ -- 45
+if$ -- 752
+int.to.chr$ -- 1
+int.to.str$ -- 16
+missing$ -- 13
+newline$ -- 53
+num.names$ -- 45
+pop$ -- 219
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 156
+stack$ -- 0
+substring$ -- 30
+swap$ -- 18
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 102
+warning$ -- 51
+while$ -- 30
+width$ -- 0
+write$ -- 112
+(There was 1 error message)
