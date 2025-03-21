@@ -1,6 +1,6 @@
 #!/bin/bash
 
-thesis="thesis";
+thesis="thesis";  #thesis
 
 if [ $1 = "clean" ]
 then

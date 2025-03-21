@@ -1,8 +1,141 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{M. Thomson, \textit{Modern Particle Physics}, Cambridge University
+  Press, New York, 2013}()]{thomson_2013}
+{M. Thomson, \textit{Modern Particle Physics}, Cambridge University Press, New
+  York, 2013}.
+
+\bibitem[{D. Griffiths, \textit{Introduction to Elementary Particles; Second
+  edition}, WILEY-VCH Verlag GmbH & Co. KGaA. Weinheim, Federal Republic of
+  Germany, 2008}()]{griff}
+{D. Griffiths, \textit{Introduction to Elementary Particles; Second edition},
+  WILEY-VCH Verlag GmbH & Co. KGaA. Weinheim, Federal Republic of Germany,
+  2008}.
+
+\bibitem[{A. Belyaev and R. Douglas, \textit{The Basics of Nuclear and Particle
+  Physics}, Springer (Undergraduate Texts in Physics Series), Switzerland,
+  2021, doi:
+  https://doi.org/10.1007/978-3-030-80116-8}()]{undergraduate_accelerators_chapter}
+{A. Belyaev and R. Douglas, \textit{The Basics of Nuclear and Particle
+  Physics}, Springer (Undergraduate Texts in Physics Series), Switzerland,
+  2021, doi: https://doi.org/10.1007/978-3-030-80116-8}.
+
+\bibitem[{S. Myers and H. Schopper, \textit{Particle Physics Reference Library,
+  volume 3}, Springer, 2020, doi:
+  https://doi.org/10.1007/978-3-030-34245-6}()]{ref_lib_vol3}
+{S. Myers and H. Schopper, \textit{Particle Physics Reference Library, volume
+  3}, Springer, 2020, doi: https://doi.org/10.1007/978-3-030-34245-6}.
+
+\bibitem[{W. Herr and B. Muratori, "Concept of Luminosity", CERN Document
+  Server, 2016, doi : 10.5170/CERN-2006-002.361}()]{concept_of_luminosity}
+{W. Herr and B. Muratori, "Concept of Luminosity", CERN Document Server, 2016,
+  doi : 10.5170/CERN-2006-002.361}.
+
+\bibitem[{P. Traczyk, Online article : "Why precision luminosity measurements
+  matter", 2022, URL
+  https://home.cern/news/news/physics/why-precision-luminosity-measurements-matter}()]{luminosity_importance}
+{P. Traczyk, Online article : "Why precision luminosity measurements matter",
+  2022, URL
+  https://home.cern/news/news/physics/why-precision-luminosity-measurements-matter}.
+
+\bibitem[{CMS Collaboration, "Measurement of inclusive W and Z boson production
+  cross sections in pp collisions at $\sqrt{s}$ = 13 TeV", CMS Physics Analysis
+  Summary CMS-PAS-SMP-15-004, 2015}()]{lumi_uncertainties}
+{CMS Collaboration, "Measurement of inclusive W and Z boson production cross
+  sections in pp collisions at $\sqrt{s}$ = 13 TeV", CMS Physics Analysis
+  Summary CMS-PAS-SMP-15-004, 2015}.
+
+\bibitem[{Online article: "The Large Hadron Collider", 2023, URL
+  https://home.cern/science /accelerators/large-hadron-collider}()]{LHC}
+{Online article: "The Large Hadron Collider", 2023, URL
+  https://home.cern/science /accelerators/large-hadron-collider}.
+
+\bibitem[{E. Halkiadakis and U. Rutgers, "Introduction to the LHC Experiments",
+  May 2010, doi: 10.1142/9789814327183\_0009, arXiv: 1004.5564}()]{lhc_complex}
+{E. Halkiadakis and U. Rutgers, "Introduction to the LHC Experiments", May
+  2010, doi: 10.1142/9789814327183\_0009, arXiv: 1004.5564}.
+
+\bibitem[{CMS Collaboration, "CMS luminosity measurement for the 2017
+  data-taking period at $\sqrt{s}$ = 13 TeV", CMS Physics Analysis Summary
+  CMS-PAS-LUM-17-004, 2018}()]{pas_17}
+{CMS Collaboration, "CMS luminosity measurement for the 2017 data-taking period
+  at $\sqrt{s}$ = 13 TeV", CMS Physics Analysis Summary CMS-PAS-LUM-17-004,
+  2018}.
+
+\bibitem[{CMS Collaboration, "CMS luminosity measurement for the 2018
+  data-taking period at $\sqrt{s}$ = 13 TeV", CMS Physics Analysis Summary
+  CMS-PAS-LUM-18-002, 2019}()]{pas_18}
+{CMS Collaboration, "CMS luminosity measurement for the 2018 data-taking period
+  at $\sqrt{s}$ = 13 TeV", CMS Physics Analysis Summary CMS-PAS-LUM-18-002,
+  2019}.
+
+\bibitem[{CMS Collaboration, "CMS Luminosity Based on Pixel Cluster Counting -
+  Summer 2012 Update", CMS Physics Analysis Summary CMS-PAS-LUM-12-001,
+  2012}()]{PCC_PAS_12_001}
+{CMS Collaboration, "CMS Luminosity Based on Pixel Cluster Counting - Summer
+  2012 Update", CMS Physics Analysis Summary CMS-PAS-LUM-12-001, 2012}.
+
+\bibitem[{CMS Collaboration, "Precision luminosity measurement in proton-proton
+  collisions at $\sqrt{s}$ = 13 TeV in 2015 and 2016 at CMS, \textit{Eur. Phys.
+  J. C} \textbf{81} 800, 2021, doi: 10.1140/epjc/s10052-021-09538-2, arXiv:
+  2104.01927}()]{lumi_precise_2015_2016}
+{CMS Collaboration, "Precision luminosity measurement in proton-proton
+  collisions at $\sqrt{s}$ = 13 TeV in 2015 and 2016 at CMS, \textit{Eur. Phys.
+  J. C} \textbf{81} 800, 2021, doi: 10.1140/epjc/s10052-021-09538-2, arXiv:
+  2104.01927}.
+
+\bibitem[{Online resource: "CMS Luminosity - Public Results", 2023, URL
+  https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults
+  }()]{wikicern}
+{Online resource: "CMS Luminosity - Public Results", 2023, URL
+  https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults }.
+
+\bibitem[{CMS Collaboration, "The Phase-2 Upgrade of the CMS Beam Radiation,
+  Instrumentation, and Luminosity Detectors: Conceptual Design",
+  CMS-NOTE-2019-008, 2020}()]{Phase2_Upgrade}
+{CMS Collaboration, "The Phase-2 Upgrade of the CMS Beam Radiation,
+  Instrumentation, and Luminosity Detectors: Conceptual Design",
+  CMS-NOTE-2019-008, 2020}.
+
+\bibitem[{O. Karacheban, "Performance of the BRIL luminometers at CMS in Run
+  2", CMS Public Note CMS-CR-2019-140, 2019, doi:
+  10.22323/1.364.0194}()]{vdM_sketch}
+{O. Karacheban, "Performance of the BRIL luminometers at CMS in Run 2", CMS
+  Public Note CMS-CR-2019-140, 2019, doi: 10.22323/1.364.0194}.
+
+\bibitem[{C. Barschel et al., “Results of the LHC DCCT calibration
+  studies”, Technical Report 2349 CERN-ATS-Note-2012-026 PERF,
+  2012}()]{LHC_DCCT_calibration}
+{C. Barschel et al., “Results of the LHC DCCT calibration studies”,
+  Technical Report 2349 CERN-ATS-Note-2012-026 PERF, 2012}.
+
+\bibitem[{M. Gasior, J. Olexa, and R. Steinhagen, “BPM electronics based on
+  compensated diode detectors — results from development systems”, Conf.
+  Proc. C1204151 (2012)}()]{BPM__electronics}
+{M. Gasior, J. Olexa, and R. Steinhagen, “BPM electronics based on
+  compensated diode detectors — results from development systems”, Conf.
+  Proc. C1204151 (2012)}.
+
+\bibitem[{S. Orfanelli et al, "A novel Beam Halo Monitor for the CMS experiment
+  at the LHC", \textit{JINST} \textbf{10} P11011, 2015, doi:
+  10.1088/1748-0221/10/11/P11011}()]{beam_halo}
+{S. Orfanelli et al, "A novel Beam Halo Monitor for the CMS experiment at the
+  LHC", \textit{JINST} \textbf{10} P11011, 2015, doi:
+  10.1088/1748-0221/10/11/P11011}.
+
+\bibitem[{S. Müller, "Simulation of beam-induced backgrounds in comparison
+  with data from the {CMS} pixel and other inner radii detectors",
+  \textit{Nuclear Instruments and Methods in Physics Research Section A} 650
+  \textbf{1}, 2011, doi:
+  https://doi.org/10.1016/j.nima.2010.11.082}()]{bkg_source}
+{S. Müller, "Simulation of beam-induced backgrounds in comparison with data
+  from the {CMS} pixel and other inner radii detectors", \textit{Nuclear
+  Instruments and Methods in Physics Research Section A} 650 \textbf{1}, 2011,
+  doi: https://doi.org/10.1016/j.nima.2010.11.082}.
 
 \end{thebibliography}

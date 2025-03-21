@@ -12,52 +12,118 @@ A level-1 auxiliary file: Chapter3/chapter3.aux
 A level-1 auxiliary file: Chapter4/chapter4.aux
 A level-1 auxiliary file: Chapter5/chapter5.aux
 The style file: unsrtnat.bst
-I found no \citation commands---while reading file thesis.aux
 Database file #1: References/references.bib
-I was expecting a `,' or a `}'---line 95 of file References/references.bib
+Warning--entry type for "concept_of_luminosity" isn't style-file defined
+--line 70 of file References/references.bib
+I was expecting a `,' or a `}'---line 104 of file References/references.bib
  : 
  : @MISC{lhc_complex,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You've used 0 entries,
+Warning--empty title in thomson_2013
+Warning--empty publisher in thomson_2013
+Warning--empty year in thomson_2013
+Warning--empty year in thomson_2013
+Warning--empty title in griff
+Warning--empty publisher in griff
+Warning--empty year in griff
+Warning--empty year in griff
+Warning--empty title in undergraduate_accelerators_chapter
+Warning--empty journal in undergraduate_accelerators_chapter
+Warning--empty year in undergraduate_accelerators_chapter
+Warning--empty year in undergraduate_accelerators_chapter
+Warning--empty title in ref_lib_vol3
+Warning--empty journal in ref_lib_vol3
+Warning--empty year in ref_lib_vol3
+Warning--empty year in ref_lib_vol3
+Warning--empty year in concept_of_luminosity
+Warning--empty year in luminosity_importance
+Warning--empty title in lumi_uncertainties
+Warning--empty journal in lumi_uncertainties
+Warning--empty year in lumi_uncertainties
+Warning--empty year in lumi_uncertainties
+Warning--empty year in LHC
+Warning--empty year in lhc_complex
+Warning--empty title in pas_17
+Warning--empty journal in pas_17
+Warning--empty year in pas_17
+Warning--empty year in pas_17
+Warning--empty title in pas_18
+Warning--empty journal in pas_18
+Warning--empty year in pas_18
+Warning--empty year in pas_18
+Warning--empty title in PCC_PAS_12_001
+Warning--empty journal in PCC_PAS_12_001
+Warning--empty year in PCC_PAS_12_001
+Warning--empty year in PCC_PAS_12_001
+Warning--empty title in lumi_precise_2015_2016
+Warning--empty journal in lumi_precise_2015_2016
+Warning--empty year in lumi_precise_2015_2016
+Warning--empty year in lumi_precise_2015_2016
+Warning--empty year in wikicern
+Warning--empty title in Phase2_Upgrade
+Warning--empty journal in Phase2_Upgrade
+Warning--empty year in Phase2_Upgrade
+Warning--empty year in Phase2_Upgrade
+Warning--empty title in vdM_sketch
+Warning--empty journal in vdM_sketch
+Warning--empty year in vdM_sketch
+Warning--empty year in vdM_sketch
+Warning--empty title in LHC_DCCT_calibration
+Warning--empty journal in LHC_DCCT_calibration
+Warning--empty year in LHC_DCCT_calibration
+Warning--empty year in LHC_DCCT_calibration
+Warning--empty title in BPM__electronics
+Warning--empty journal in BPM__electronics
+Warning--empty year in BPM__electronics
+Warning--empty year in BPM__electronics
+Warning--empty title in beam_halo
+Warning--empty journal in beam_halo
+Warning--empty year in beam_halo
+Warning--empty year in beam_halo
+Warning--empty title in bkg_source
+Warning--empty journal in bkg_source
+Warning--empty year in bkg_source
+Warning--empty year in bkg_source
+You've used 20 entries,
             2481 wiz_defined-function locations,
-            561 strings with 4662 characters,
-and the built_in function-call counts, 34 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 11
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+            607 strings with 8156 characters,
+and the built_in function-call counts, 4951 in all, are:
+= -- 326
+> -- 140
+< -- 20
++ -- 80
+- -- 40
+* -- 317
+:= -- 739
+add.period$ -- 20
+call.type$ -- 20
+change.case$ -- 20
+chr.to.int$ -- 20
+cite$ -- 85
+duplicate$ -- 342
+empty$ -- 575
+format.name$ -- 60
+if$ -- 1003
 int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 21
+missing$ -- 17
+newline$ -- 68
+num.names$ -- 60
+pop$ -- 291
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 20
 quote$ -- 0
-skip$ -- 1
+skip$ -- 214
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 40
+swap$ -- 25
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 134
+warning$ -- 65
+while$ -- 40
 width$ -- 0
-write$ -- 7
-(There were 2 error messages)
+write$ -- 147
+(There was 1 error message)
