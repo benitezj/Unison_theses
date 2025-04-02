@@ -1,0 +1,54 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Griffiths(2010)]{Griff}
+David Griffiths.
+\newblock \emph{Introduction to elementary particles}.
+\newblock Wiley-VCH, 2010.
+\newblock ISBN 978-3-527-40601-2.
+
+\bibitem[Thomson(2013)]{mppthomson}
+Mark Thomson.
+\newblock \emph{Modern Particle Physics}.
+\newblock Cambridge University Press, 2013.
+\newblock ISBN 978-1-107-03426-6.
+
+\bibitem[Arbuzov(2018)]{LHC}
+A.B. Arbuzov.
+\newblock Quantum field theory and the electroweak standard model.
+\newblock 2018.
+
+\bibitem[Wener~Herr(2006)]{Lum}
+Bruno~Muratori Wener~Herr.
+\newblock Concept of luminosity.
+\newblock \emph{CAS - CERN Accelerator School: Intermediate Accelerator
+  Physics}, pages 361--378, 2006.
+\newblock \doi{10.5170/CERN-2006-002.361}.
+
+\bibitem[Chatrchyan(2008)]{CMS}
+S.~Chatrchyan.
+\newblock The cms experiment at the cern lhc.
+\newblock 2008.
+
+\bibitem[of~the CMS~collaboration(2022)]{pxd}
+CMS Tracker~Grooup of~the CMS~collaboration.
+\newblock The cms phaces-1 pixel detector upgrade.
+\newblock \emph{JINST 16 (2021) P02027}, 2022.
+\newblock \doi{10.1088/1748-0221/16/02/P02027}.
+
+\bibitem[Can(2018)]{Vdm}
+Yusuf Can.
+\newblock \emph{Calibration of CMS luminometer using Van Der Meer and Emittance
+  scans}.
+\newblock Phd thesis, Bogazici University, October 2018.
+
+\bibitem[White(2010)]{Lumvdm}
+Simon White.
+\newblock \emph{Determination of the absolute luminosity at the LHC}.
+\newblock Phd thesis, University of Paris SUD 11, October 2010.
+
+\end{thebibliography}
