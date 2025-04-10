@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  2 APR 2025 13:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  9 APR 2025 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1611,19 +1611,71 @@ and I'll forget about whatever was undefined.
 <LHC.png, id=150, 762.85pt x 746.79pt>
 File: LHC.png Graphic file (type png)
 <use LHC.png>
-Package pdftex.def Info: LHC.png  used on input line 31.
+Package pdftex.def Info: LHC.png  used on input line 32.
 (pdftex.def)             Requested size: 267.0015pt x 261.3804pt.
- [3 <./LHC.png (PNG copy)>]) [4]
+ [3 <./LHC.png (PNG copy)>]
+! Undefined control sequence.
+<recently read> \simga 
+                       
+l.46 ...e number of events per second, the $\simga
+                                                  _{p}$ is the cross section...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \matchcal 
+                          
+l.46 ...a_{p}$ is the cross section and $\matchcal
+                                                  {L}$ the instantanious lum...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<lumii.png, id=159, 351.3125pt x 193.72375pt>
+File: lumii.png Graphic file (type png)
+<use lumii.png>
+Package pdftex.def Info: lumii.png  used on input line 48.
+(pdftex.def)             Requested size: 281.05037pt x 154.9792pt.
+[4 <./lumii.png>]
+<lumi.png, id=169, 442.65375pt x 139.52126pt>
+File: lumi.png Graphic file (type png)
+<use lumi.png>
+Package pdftex.def Info: lumi.png  used on input line 53.
+(pdftex.def)             Requested size: 354.12346pt x 111.61714pt.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.61 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Package natbib Warning: Citation `LHClum1' on page 5 undefined on input line 77
+.
+
+<integratedlum.png, id=170, 225.84375pt x 178.6675pt>
+File: integratedlum.png Graphic file (type png)
+<use integratedlum.png>
+Package pdftex.def Info: integratedlum.png  used on input line 79.
+(pdftex.def)             Requested size: 180.67523pt x 142.93417pt.
+) [5 <./lumi.png>] [6 <./integratedlum.png>]
 \openout2 = `Chapter2/chapter2.aux'.
 
  (./Chapter2/chapter2.tex
 Chapter 2.
-<cms.png, id=168, 734.745pt x 511.9125pt>
+<cms.png, id=186, 734.745pt x 511.9125pt>
 File: cms.png Graphic file (type png)
 <use cms.png>
 Package pdftex.def Info: cms.png  used on input line 8.
 (pdftex.def)             Requested size: 257.1646pt x 179.17206pt.
-<pixeldetector.png, id=170, 610.28pt x 184.69pt>
+<pixeldetector.png, id=188, 610.28pt x 184.69pt>
 File: pixeldetector.png Graphic file (type png)
 <use pixeldetector.png>
 Package pdftex.def Info: pixeldetector.png  used on input line 14.
@@ -1633,7 +1685,7 @@ Overfull \hbox (18.02655pt too wide) in paragraph at lines 14--15
 [][] 
  []
 
-[5
+[7
 
 
 
@@ -1694,12 +1746,12 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-) [6 <./pixeldetector.png>]
+) [8 <./pixeldetector.png>]
 \openout2 = `Chapter3/chapter3.aux'.
 
  (./Chapter3/chapter3.tex
 Chapter 3.
-) [7
+) [9
 
 
 
@@ -1718,18 +1770,21 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [8
+) [10
 
 
 
 
-] (./thesis.bbl) [9
+] (./thesis.bbl) [11
 
 
 
 
 ]
 No file thesis.ind.
+
+Package natbib Warning: There were undefined citations.
+
 (./thesis.aux (./Portada/Portada.aux) (./Chapter1/chapter1.aux)
 (./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux))
  ***********
@@ -1744,13 +1799,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### simple group (level 1) entered at line 29 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 43840 strings out of 474116
- 1005530 string characters out of 5743682
+ 43899 strings out of 474116
+ 1006249 string characters out of 5743682
  1934187 words of memory out of 5000000
- 65183 multiletter control sequences out of 15000+600000
- 630267 words of font info for 210 fonts, out of 8000000 for 9000
+ 65209 multiletter control sequences out of 15000+600000
+ 631564 words of font info for 230 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,12n,121p,1010b,1073s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,12n,121p,1195b,1073s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
@@ -1761,10 +1816,10 @@ cal/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (13 pages, 998257 bytes).
+Output written on thesis.pdf (15 pages, 1107083 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 65227 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 65242 words of extra memory for PDF output out of 74296 (max. 10000000)
 

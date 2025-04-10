@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -21,6 +21,11 @@ Mark Thomson.
 A.B. Arbuzov.
 \newblock Quantum field theory and the electroweak standard model.
 \newblock 2018.
+
+\bibitem[Mobs(2019)]{LHCII}
+Esma Mobs.
+\newblock The cern accelerator complex.
+\newblock July 2019.
 
 \bibitem[Wener~Herr(2006)]{Lum}
 Bruno~Muratori Wener~Herr.

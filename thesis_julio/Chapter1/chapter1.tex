@@ -19,33 +19,62 @@ Almost all the physical phenomena can be explained with only the electron, the e
 
 \includegraphics[scale=0.7]{sm.png}
 
-The fermionic sector contains particle the particles that make up all known matter in the universe and is divided into the leptons and the quarks, both of this particles are divided into three generations, each generation being heavier than the one before. For the leptons we have electron and Its neutrino for the first generation, the second generation is. the $\mu$ and Its neutrino and the third one is the $\tao$ with Its neutrino. In the case of quearks we have the queark up and the quark down for the first generation, the second generation que have the quark charmd and the quark strange and for the third generation que have the quark top and the quark bottom. The bosons are the mediator particles called the gauge bosons already mentions, the photon, the gluon, the bosons $W\pm$ and the boson Z. There is also de Higgs bosson, which is the last gauge bossons and It's the responsible to give mass to the other SM particles  
+The fermionic sector contains particle the particles that make up all known matter in the universe and is divided into the leptons and the quarks, both of this particles are divided into three generations, each generation being heavier than the one before. For the leptons we have electron and Its neutrino for the first generation, the second generation is. the $\mu$ and Its neutrino and the third one is the $\tao$ with Its neutrino. In the case of quarks we have the quark up and the quark down for the first generation, the second generation que have the quark charmd and the quark strange and for the third generation que have the quark top and the quark bottom. The bosons are the mediator particles called the gauge bosons already mentions, the photon, the gluon, the bosons $W\pm$ and the boson Z. There is also de Higgs bosson, which is the last gauge bossons and It's the responsible to give mass to the other SM particles  
 
 
-One of the main sources to obtain elementary particles is particle accelerators, in this you acelerrate a particle into high energy and smash them with a target, with the proper  arrangements of magnets you can study the debris from the collision, for more heavy particles you need higher level of energy to the collision.
+One of the main sources to obtain elementary particles is particle accelerators, in this you accelerate a particle into high energy and smash them with a target, with the proper  arrangements of magnets you can study the debris from the collision, for more heavy particles you need higher level of energy to the collision.
 
 \section{Large Hadron Collider}
 
-The Large Hadron Collider (LHC) is the biggest and powerful particle accelerator in the world, it consist in a 27 kilometers ring with superconducting magnets that boost the energy of the particles alongs the way. It uses proton beams from hydrogen tanks and there is four colliding points corresponding to different particle detectors, the ATLAS, the CMS, ALICE and LHCb. \cite{LHC}
+The Large Hadron Collider (LHC) is the biggest and powerful particle accelerator in the world at this moment, It is a 27 kilometers ring of superconducting magnets, this magnets boost the particles energies to obtain speeds that are close to the light speed before collisions. These particles are introduced as to the accelerator as particles beams this beams travel in opposing directions in tubes that are kept at ultrahigh vacuum, with the help of a electromagnetic field made by the electromagnets operating in superconduct state at low temperatures thanks to liquid helium this particles are guided across the whole accelerator. \cite{LHC}
 
-\includegraphics[scale=0.35]{LHC.png}
+
+ \includegraphics[scale=0.35]{LHC.png}
+
+The LHC is part of an accelerator complex in CERN that is a succession of different machines that increase the energy of the beam of particles before passing into the next one on the sequence the particles at last are introduced on the LHC which is the last element in the sequence. The particles start at the linear accelerator 4 (Linac4) which is the source of the protons beams, it accelerates the particles in this case negative hydrogen ions to 160 MeV to enter the Proton Synchroton Booster (PSB), this is were the hydrogen loses Its two electrons leaving only protons and accelerating the beam to 2 GeV  and then are injected into the Proton Synchroton (PS), in where the protons are accelerated up to 26 GeV and then they are sent into the Super Proton Synchroton (SPS) here they are accelerated up to 450 GeV and then they're finally introduced into two beams pipes on the LHC, it takes about 4 minutes and 20 seconds to fill the LHC rings reaching energies up to 6.5 TeV, there are 4 collisions points where the detectors are located Alice, Atlas, CMS and LHCb, in the collision the total energy is of 13.6 TeV. \cite{LHCII}
+
+The LHC has been working since 2009 with the discovery of the Higgs Boson on 2012 and looking for new physics It has been working on different periods called Runs, Run 1 was on the period of (2009-2013), Run 2 was on (2015-2018), Run 3 is currently on going since 2022. 
 
 
 
 \section{Luminosity}
-Luminosity is as key parameter in particle colliders
 
-The luminosity is a quantity that measures the ability of the acelerator to produce the required number of interactions an is: 
+The performance of a collider is determined by the beam energy and the luminosity, the luminosity is a key parameter in particle colliders is a quantity that measures the ability of a particle accelerator to produce a required number of interactions and is given by: \cite{Lum} 
+
+$\frac{dR}{dt} = \mathcal{L} \cdot \sigma_{p} $ 
+
+In which $\frac{dR}{dt}$ is the number of events per second, the $\simga_{p}$ is the cross section and $\matchcal{L}$ the instantanious luminosity luminosity. The unity of $\mathcal{L}$ is  $cm^{-2} s^{-1}$ a higher luminosity means greater probability that the particles will collide and produce the desired interactions, luminosity can be increased then in two ways, packing more particles into the beams or focusing this beams more.  
+
+ \includegraphics[scale=0.80]{lumii.png}
 
 
-$\frac{dR}{dt} = \mathcal{L} \cdot \sigma_{p} $ \cite{Lum} 
+To compute the luminosity of two there is a few things that need to be taken in consideration. First the density distribution of each beam in the transverse and longitudinal plane, with the. two beams moving towards each other, the position and the time as the cross each other also need to be considered and calling the distance to the collision point $s_{0}$. In principle each of the distributions is different the overlap integral can be written as follow:
+
+ \includegraphics[scale=0.80]{lumi.png}
 
 
-In which \cite{Lum}
+$ N_{1}N{2}fN_{b} K \int \int \int^{\infty}_{-\infty}  \rho_{1} (x,y,s,s_{0}) \rho_{x}(x,y,s,s_{0})  dxdydsds_{0}  $
 
-In order to check the numbers of events the integrated luminosity is used and is defined as: 
+With N1 and N2 being the bunch intensitie, f the revolution frecuency, $N_{b}$ the number of colliding bunches, $\rho_{1}$ and $\rho_{2}$ time dependent beam density distribution functions and K being the Kinematic factor defined as: 
+
+$K = sqrt{(v_{1} - x_{2})^{2} - \frac{(v_{1} x v_{2})^{2}}{c^{2}} }
+
+So now assuming that the velocity on the beams is $v1 = -v2$ and the densities are uncorrelated in all planes the overlap integral takes the form of: \cite{Lumvdm}
+
+$ 2N_{1}N{2}fN_{b} \int \int \int^{\infty}_{-\infty}  \rho_{1x} (x) \rho_{1y}(y) \rho_{1s} (s-s_{0}) \rho_{2x}(x) \rho_{2y}(y) \rho_{2s} (s+s_{0}) dxdydsds_{0}  $
+
+For solving this integral one should known all distributions and an analytical solutions might not be possible and numerical numerical integration might be required.
+
+
+The instantaneous luminosity is important  but the final important number is called integrated luminosity. The integrated luminosity considers the total number of events during a data period is defined as: 
 
 $ L_{int} = \int L (t') dt' $
 
+it is related directly to the number of observed events 
 
+$\mathcal{L}_{int} \cdot \sigma_{p} =$ number of events of interest 
+
+There have been different luminosities reached on the LHC for the Run 1 a luminosity of $0.77 x 10^{34}$ was reached and a integrated luminosity of 25 $fb^{-1}$  with a precision of 2.0\% for the first part and second part of the Run 2 the luminosity measured was of 38.4 $fb^{-1}$ with a precision of 1.3\% and 78$fb^{-1}$ respectively\cite{LHClum}.  The following image show shows the integrated luminosity for the CMS experiment on different years.  
+
+ \includegraphics[scale=1.25]{integratedlum.png}
 
