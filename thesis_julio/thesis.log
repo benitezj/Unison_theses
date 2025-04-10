@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  9 APR 2025 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  10 APR 2025 09:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1487,7 +1487,7 @@ or `english'. on input line 127.
 \openout2 = `Portada/Portada.aux'.
 
  (./Portada/Portada.tex
-<unison-logo.png, id=87, 321.2pt x 321.2pt>
+<unison-logo.png, id=99, 321.2pt x 321.2pt>
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
 Package pdftex.def Info: unison-logo.png  used on input line 24.
@@ -1565,7 +1565,7 @@ No file thesis.nls.
 
 (./Chapter1/chapter1.tex
 Chapter 1.
-<table1.png, id=130, 344.28625pt x 132.495pt>
+<table1.png, id=145, 344.28625pt x 132.495pt>
 File: table1.png Graphic file (type png)
 <use table1.png>
 Package pdftex.def Info: table1.png  used on input line 12.
@@ -1586,7 +1586,7 @@ OK, entering \scrollmode...
 
 
  <./table1.png>]
-<sm.png, id=139, 586.19pt x 429.605pt>
+<sm.png, id=154, 586.19pt x 429.605pt>
 File: sm.png Graphic file (type png)
 <use sm.png>
 Package pdftex.def Info: sm.png  used on input line 20.
@@ -1608,7 +1608,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [2 <./sm.png>]
-<LHC.png, id=150, 762.85pt x 746.79pt>
+<LHC.png, id=165, 762.85pt x 746.79pt>
 File: LHC.png Graphic file (type png)
 <use LHC.png>
 Package pdftex.def Info: LHC.png  used on input line 32.
@@ -1636,13 +1636,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<lumii.png, id=159, 351.3125pt x 193.72375pt>
+<lumii.png, id=175, 351.3125pt x 193.72375pt>
 File: lumii.png Graphic file (type png)
 <use lumii.png>
 Package pdftex.def Info: lumii.png  used on input line 48.
 (pdftex.def)             Requested size: 281.05037pt x 154.9792pt.
 [4 <./lumii.png>]
-<lumi.png, id=169, 442.65375pt x 139.52126pt>
+<lumi.png, id=185, 442.65375pt x 139.52126pt>
 File: lumi.png Graphic file (type png)
 <use lumi.png>
 Package pdftex.def Info: lumi.png  used on input line 53.
@@ -1656,45 +1656,46 @@ l.61
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-Package natbib Warning: Citation `LHClum1' on page 5 undefined on input line 77
-.
-
-<integratedlum.png, id=170, 225.84375pt x 178.6675pt>
+<integratedlum.png, id=188, 225.84375pt x 178.6675pt>
 File: integratedlum.png Graphic file (type png)
 <use integratedlum.png>
 Package pdftex.def Info: integratedlum.png  used on input line 79.
-(pdftex.def)             Requested size: 180.67523pt x 142.93417pt.
+(pdftex.def)             Requested size: 282.30397pt x 223.33382pt.
 ) [5 <./lumi.png>] [6 <./integratedlum.png>]
 \openout2 = `Chapter2/chapter2.aux'.
 
  (./Chapter2/chapter2.tex
 Chapter 2.
-<cms.png, id=186, 734.745pt x 511.9125pt>
+<cms.png, id=205, 734.745pt x 511.9125pt>
 File: cms.png Graphic file (type png)
 <use cms.png>
-Package pdftex.def Info: cms.png  used on input line 8.
+Package pdftex.def Info: cms.png  used on input line 10.
 (pdftex.def)             Requested size: 257.1646pt x 179.17206pt.
-<pixeldetector.png, id=188, 610.28pt x 184.69pt>
-File: pixeldetector.png Graphic file (type png)
-<use pixeldetector.png>
-Package pdftex.def Info: pixeldetector.png  used on input line 14.
-(pdftex.def)             Requested size: 427.19308pt x 129.2821pt.
-
-Overfull \hbox (18.02655pt too wide) in paragraph at lines 14--15
-[][] 
- []
-
 [7
 
 
 
 
  <./cms.png>]
+<pixeldetector.png, id=213, 610.28pt x 184.69pt>
+File: pixeldetector.png Graphic file (type png)
+<use pixeldetector.png>
+Package pdftex.def Info: pixeldetector.png  used on input line 19.
+(pdftex.def)             Requested size: 427.19308pt x 129.2821pt.
+
+Overfull \hbox (18.02655pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+) [8 <./pixeldetector.png>]
+\openout2 = `Chapter3/chapter3.aux'.
+
+ (./Chapter3/chapter3.tex
+Chapter 3.
 ! Argument of \frac  has an extra }.
 <inserted text> 
                 \par 
-l.29 $\sigma_{vis} = \frac{R_{det}}}
+l.22 $\sigma_{vis} = \frac{R_{det}}}
                                     {L_{b}} = \frac{2 \pi \Sigma_{x} \Sigma_...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1707,7 +1708,7 @@ Runaway argument?
 ! Paragraph ended before \frac  was complete.
 <to be read again> 
                    \par 
-l.29 $\sigma_{vis} = \frac{R_{det}}}
+l.22 $\sigma_{vis} = \frac{R_{det}}}
                                     {L_{b}} = \frac{2 \pi \Sigma_{x} \Sigma_...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1716,7 +1717,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.29 $\sigma_{vis} = \frac{R_{det}}}
+l.22 $\sigma_{vis} = \frac{R_{det}}}
                                     {L_{b}} = \frac{2 \pi \Sigma_{x} \Sigma_...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1724,7 +1725,7 @@ you left one out. Proceed, with fingers crossed.
 ! Too many }'s.
 <recently read> }
                  
-l.29 $\sigma_{vis} = \frac{R_{det}}}
+l.22 $\sigma_{vis} = \frac{R_{det}}}
                                     {L_{b}} = \frac{2 \pi \Sigma_{x} \Sigma_...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1732,13 +1733,13 @@ Such booboos are generally harmless, so keep going.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.29 $\sigma_{vis} = \frac{R_{det}}}{L_
+l.22 $\sigma_{vis} = \frac{R_{det}}}{L_
                                        {b}} = \frac{2 \pi \Sigma_{x} \Sigma_...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.29 $\sigma_{vis} = \frac{R_{det}}}{L_{b}}
+l.22 $\sigma_{vis} = \frac{R_{det}}}{L_{b}}
                                             = \frac{2 \pi \Sigma_{x} \Sigma_...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1746,11 +1747,6 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-) [8 <./pixeldetector.png>]
-\openout2 = `Chapter3/chapter3.aux'.
-
- (./Chapter3/chapter3.tex
-Chapter 3.
 ) [9
 
 
@@ -1782,9 +1778,6 @@ and I'll forget about whatever was undefined.
 
 ]
 No file thesis.ind.
-
-Package natbib Warning: There were undefined citations.
-
 (./thesis.aux (./Portada/Portada.aux) (./Chapter1/chapter1.aux)
 (./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux))
  ***********
@@ -1792,20 +1785,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DC26567F8BC74AA4E11700DF5B4A6912;2763.
+(rerunfilecheck)             Checksum: 4BF5F977FC4B057CA216BA0662A5ABA4;3131.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 29 ({)
+### simple group (level 1) entered at line 22 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 43899 strings out of 474116
- 1006249 string characters out of 5743682
- 1934187 words of memory out of 5000000
- 65209 multiletter control sequences out of 15000+600000
- 631564 words of font info for 230 fonts, out of 8000000 for 9000
+ 43912 strings out of 474116
+ 1006407 string characters out of 5743682
+ 1935187 words of memory out of 5000000
+ 65215 multiletter control sequences out of 15000+600000
+ 631792 words of font info for 232 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,12n,121p,1195b,1073s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,12n,121p,1195b,1055s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
@@ -1816,10 +1809,10 @@ cal/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (15 pages, 1107083 bytes).
+Output written on thesis.pdf (15 pages, 1107570 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 65242 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 238 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 65266 words of extra memory for PDF output out of 74296 (max. 10000000)
 

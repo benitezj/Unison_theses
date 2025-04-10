@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -34,6 +34,17 @@ Bruno~Muratori Wener~Herr.
   Physics}, pages 361--378, 2006.
 \newblock \doi{10.5170/CERN-2006-002.361}.
 
+\bibitem[White(2010)]{Lumvdm}
+Simon White.
+\newblock \emph{Determination of the absolute luminosity at the LHC}.
+\newblock Phd thesis, University of Paris SUD 11, October 2010.
+
+\bibitem[collaboration(2024)]{LHClum}
+The~CMS collaboration.
+\newblock Precision luminosity measurement in proton-proton collisions at
+  13.6tev in 2022 at cms.
+\newblock March 2024.
+
 \bibitem[Chatrchyan(2008)]{CMS}
 S.~Chatrchyan.
 \newblock The cms experiment at the cern lhc.
@@ -50,10 +61,5 @@ Yusuf Can.
 \newblock \emph{Calibration of CMS luminometer using Van Der Meer and Emittance
   scans}.
 \newblock Phd thesis, Bogazici University, October 2018.
-
-\bibitem[White(2010)]{Lumvdm}
-Simon White.
-\newblock \emph{Determination of the absolute luminosity at the LHC}.
-\newblock Phd thesis, University of Paris SUD 11, October 2010.
 
 \end{thebibliography}
