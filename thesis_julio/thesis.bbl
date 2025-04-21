@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -45,13 +45,24 @@ The~CMS collaboration.
   13.6tev in 2022 at cms.
 \newblock March 2024.
 
-\bibitem[Chatrchyan(2008)]{CMS}
-S.~Chatrchyan.
+\bibitem[Barney(2003)]{CMS3}
+Dave Barney.
+\newblock An overview of the cms experiment for cern guides.
+\newblock 2003.
+
+\bibitem[collaboration~et al(2008)]{CMS1}
+The~CMS collaboration~et al.
 \newblock The cms experiment at the cern lhc.
-\newblock 2008.
+\newblock \emph{Jinst}, 2008.
+
+\bibitem[Chatrchyan(2006)]{CMS2}
+S.~Chatrchyan.
+\newblock The cms silicon strip tracker.
+\newblock \emph{Journal of physics conference Series 41}, 2006.
+\newblock \doi{10.1088/1742-6596/41/1/011}.
 
 \bibitem[of~the CMS~collaboration(2022)]{pxd}
-CMS Tracker~Grooup of~the CMS~collaboration.
+CMS Tracker~Group of~the CMS~collaboration.
 \newblock The cms phaces-1 pixel detector upgrade.
 \newblock \emph{JINST 16 (2021) P02027}, 2022.
 \newblock \doi{10.1088/1748-0221/16/02/P02027}.

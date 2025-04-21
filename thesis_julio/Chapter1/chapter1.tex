@@ -9,8 +9,12 @@
 
 Elementary particle physics is the study of the particles at the most fundamental level, the constituents of the universe as well as the interactions between them which are called, electromagnetic force, nuclear weak force and nuclear strong force and there is also the gravity force but this one doesn't have a satisfactory quantum theory for it. Each of these forces are mediated by exchange particles, in the case of the electromagnetic force the mediator is the photon, for the strong force the gluons, for the weak force the bosons W and Z and for the gravity we have the hypothetical graviton.  \cite{Griff}  
 
-\includegraphics[scale=1]{table1.png}
-\caption{Forces magnitude compared}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=1]{table1.png}
+    \caption{The magnitude of the four forces compared}
+    \label{fig:four-forces}
+\end{figure}
 
 Each of these forces have a mathematical description for the physical systems of these interactions using the Quantum Field Theory (QFT). The one that describes systems under the electromagnetic force is called Quantum Electrodynamics (QED) this force dictates the electronic structure of atoms being the low energy manifestation of the electromagnetic theory. For the strong force Quantum Chromodynamics (QCD) is the fundamental theory of strong interactions, this force is responsible of maintaining protons and neutrons together in the atomic nucleus. For the weak interactions there is no particular name in the same way as the previous two, this force is is carried by all quarks and leptons and is responsible for the $\beta$ Decay of some radioactive isotopes and nuclear processes of the sun. \cite{mppthomson}   
 
@@ -45,23 +49,16 @@ $\frac{dR}{dt} = \mathcal{L} \cdot \sigma_{p} $
 
 In which $\frac{dR}{dt}$ is the number of events per second, the $\simga_{p}$ is the cross section and $\matchcal{L}$ the instantanious luminosity luminosity. The unity of $\mathcal{L}$ is  $cm^{-2} s^{-1}$ a higher luminosity means greater probability that the particles will collide and produce the desired interactions, luminosity can be increased then in two ways, packing more particles into the beams or focusing this beams more.  
 
- \includegraphics[scale=0.80]{lumii.png}
-
-
 To compute the luminosity of two there is a few things that need to be taken in consideration. First the density distribution of each beam in the transverse and longitudinal plane, with the. two beams moving towards each other, the position and the time as the cross each other also need to be considered and calling the distance to the collision point $s_{0}$. In principle each of the distributions is different the overlap integral can be written as follow:
 
  \includegraphics[scale=0.80]{lumi.png}
 
 
-$ N_{1}N{2}fN_{b} K \int \int \int^{\infty}_{-\infty}  \rho_{1} (x,y,s,s_{0}) \rho_{x}(x,y,s,s_{0})  dxdydsds_{0}  $
-
-With N1 and N2 being the bunch intensitie, f the revolution frecuency, $N_{b}$ the number of colliding bunches, $\rho_{1}$ and $\rho_{2}$ time dependent beam density distribution functions and K being the Kinematic factor defined as: 
-
-$K = sqrt{(v_{1} - x_{2})^{2} - \frac{(v_{1} x v_{2})^{2}}{c^{2}} }
-
-So now assuming that the velocity on the beams is $v1 = -v2$ and the densities are uncorrelated in all planes the overlap integral takes the form of: \cite{Lumvdm}
+%$K = sqrt{(v_{1} - x_{2})^{2} - \frac{(v_{1} x v_{2})^{2}}{c^{2}} }
 
 $ 2N_{1}N{2}fN_{b} \int \int \int^{\infty}_{-\infty}  \rho_{1x} (x) \rho_{1y}(y) \rho_{1s} (s-s_{0}) \rho_{2x}(x) \rho_{2y}(y) \rho_{2s} (s+s_{0}) dxdydsds_{0}  $
+
+With N1 and N2 being the bunch intensity, f the revolution frecuency, $N_{b}$ the number of colliding bunches, $\rho_{1}$ and $\rho_{2}$ time dependent beam density distribution functions, this is assuming the velocity on the beams is $v1 = -v2$ and the densities are uncorrelated in all planes the overlap integral takes the form of: \cite{Lumvdm}
 
 For solving this integral one should known all distributions and an analytical solutions might not be possible and numerical numerical integration might be required.
 
