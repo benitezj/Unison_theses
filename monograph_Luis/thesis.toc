@@ -1,38 +1,34 @@
 \thispagestyle {empty}
-\contentsline {chapter}{List of figures}{vii}{section*.4}%
-\contentsline {chapter}{List of tables}{viii}{section*.5}%
+\contentsline {chapter}{List of figures}{v}{section*.2}%
+\contentsline {chapter}{List of tables}{vii}{section*.3}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Particle Physics and The Standard Model}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Particle Colliders and production cross section}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Luminosity }{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}The Large Hadron Collider}{8}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Results in Luminosity precision for LHC Run 2}{10}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Motivation for precise luminosity measurement}{11}{section.1.6}%
-\contentsline {chapter}{\numberline {2}Experiment Description}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The CMS Experiment}{13}{section.2.1}%
+\contentsline {section}{\numberline {1.2}Luminosity}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}The Large Hadron Collider}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Current Luminosity precision for LHC Run 2}{8}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Experiment Description and PCC method}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The Compact Muon Solenoid}{10}{section.2.1}%
 \contentsline {section}{\numberline {2.2}CMS Luminometers}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}CMS Tracking System}{13}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Silicon Pixel Detector}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Pixel Cluster Reconstruction}{13}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Luminosity Measurement and Calibration}{14}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Pixel Cluster Counting method}{14}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Luminosity calibration: van der Meer method}{16}{section.3.2}%
-\contentsline {section}{\numberline {3.3}2017 and 2018 data Collected}{19}{section.3.3}%
-\contentsline {section}{\numberline {3.4}vdM program and Scan types}{20}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}2017 vdM scan program}{22}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}2018 vdM scan program}{23}{subsection.3.4.2}%
-\contentsline {chapter}{\numberline {4}Analysis and Results}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Data acquisition and processing}{26}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Module selection}{26}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}2017 Pixel Detector module selection}{28}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}2018 Pixel Detector module selection}{29}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Background estimation}{31}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Background estimation for 2017 data}{31}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Background estimation for 2018 data}{31}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Beam Corrections}{31}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Fit Model Selection}{31}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Visible cross section results}{32}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Cross-detector comparisons}{32}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Systematic Uncertainties}{32}{section.4.8}%
-\contentsline {chapter}{\numberline {5}Summary and Outlook}{35}{chapter.5}%
-\contentsline {chapter}{References}{36}{chapter*.28}%
+\contentsline {section}{\numberline {2.3}CMS Tracking System and Pixel Detector}{14}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Pixel Cluster Reconstruction}{18}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Pixel Cluster Counting method}{19}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Luminometer Calibration}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}van der Meer (vdM) method}{22}{section.3.1}%
+\contentsline {section}{\numberline {3.2}vdM program and Scan types}{24}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}2017 vdM scan program}{26}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}2018 vdM scan program}{27}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Data acquisition and processing}{29}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Background estimation}{30}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Beam Corrections}{33}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Visible cross section results}{35}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Cross-detector comparisons in vdM Fill}{38}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Luminosity Measurement}{40}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Physics Data}{40}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Module selection}{42}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}2017 Pixel Detector module selection}{43}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}2018 Pixel Detector module selection}{43}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Afterglow Corrections}{45}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Luminosity integration}{49}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Systematic Uncertainties}{52}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Summary and Outlook}{54}{chapter.5}%
+\contentsline {chapter}{References}{55}{chapter*.48}%

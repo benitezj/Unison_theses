@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  21 MAR 2025 09:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  23 APR 2025 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -556,7 +556,10 @@ Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 
 
 Writing index file thesis.idx
-) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip70
 \multirow@cntb=\count320
@@ -1323,53 +1326,34 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 )
 (./thesis-info.tex)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 128.
+h' as default language. on input line 129.
  (./thesis.aux (./Portada/Portada.aux)
-(./Dedication/dedication.aux) (./Acknowledgement/acknowledgement.aux)
-(./Abstract/abstract.aux) (./Abstract/resumen.aux) (./Chapter1/chapter1.aux)
-(./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux
+(./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
+(./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux
 
-LaTeX Warning: Label `bkg' multiply defined.
-
-
-LaTeX Warning: Label `bkg' multiply defined.
-
-
-LaTeX Warning: Label `BeamPosition_2017' multiply defined.
-
-
-LaTeX Warning: Label `BeamPosition_2017' multiply defined.
-
-
-LaTeX Warning: Label `AnotherImage' multiply defined.
-
-
-LaTeX Warning: Label `BeamPosition_2017' multiply defined.
-
-
-LaTeX Warning: Label `AnotherImage' multiply defined.
+LaTeX Warning: Label `Lumi_2017' multiply defined.
 
 ) (./Chapter5/chapter5.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1387,13 +1371,13 @@ LaTeX Font Info:    ... okay on input line 128.
 ) (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
-LaTeX Info: Redefining \microtypecontext on input line 128.
-Package microtype Info: Applying patch `item' on input line 128.
-Package microtype Info: Applying patch `toc' on input line 128.
-Package microtype Info: Applying patch `eqnum' on input line 128.
+LaTeX Info: Redefining \microtypecontext on input line 129.
+Package microtype Info: Applying patch `item' on input line 129.
+Package microtype Info: Applying patch `toc' on input line 129.
+Package microtype Info: Applying patch `eqnum' on input line 129.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 128.
+Package microtype Warning: Unable to apply patch `footnote' on input line 129.
 
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1401,14 +1385,14 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 128.
+LaTeX Info: Redefining \showhyphens on input line 129.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-Package hyperref Info: Link coloring ON on input line 128.
+Package hyperref Info: Link coloring ON on input line 129.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1421,9 +1405,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count401
 )
-LaTeX Info: Redefining \ref on input line 128.
-LaTeX Info: Redefining \pageref on input line 128.
-LaTeX Info: Redefining \nameref on input line 128.
+LaTeX Info: Redefining \ref on input line 129.
+LaTeX Info: Redefining \pageref on input line 129.
+LaTeX Info: Redefining \nameref on input line 129.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write7
@@ -1476,11 +1460,11 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 128.
+or `english'. on input line 129.
 \openout2 = `Portada/Portada.aux'.
 
  (./Portada/Portada.tex
-<unison-logo.png, id=155, 321.2pt x 321.2pt>
+<unison-logo.png, id=139, 321.2pt x 321.2pt>
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
 Package pdftex.def Info: unison-logo.png  used on input line 24.
@@ -1531,96 +1515,98 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 8
-3.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmss' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-) [1
+)) [1
 
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./unison-logo.png>]
-\openout2 = `Dedication/dedication.aux'.
-
-
-(./Dedication/dedication.tex
-! Missing } inserted.
-<inserted text> 
-                }
-l.9 \end{dedication}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-) [2
-
-
-
-
-]
-\openout2 = `Acknowledgement/acknowledgement.aux'.
-
- (./Acknowledgement/acknowledgement.tex)
 \openout2 = `Abstract/abstract.aux'.
 
- (./Abstract/abstract.tex
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \begin{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) [3
+(./Abstract/abstract.tex) [2
 
 
 
 
 
-
-
-
-]
-\openout2 = `Abstract/resumen.aux'.
-
- (./Abstract/resumen.tex) [4
-
-
-
-
-
-] (./thesis.toc [5
+] (./thesis.toc [3
 
 
 ])
 \tf@toc=\write8
 \openout8 = `thesis.toc'.
 
- [6] (./thesis.lof)
+ [4] (./thesis.lof
+! Misplaced alignment tab character &.
+<argument> ...ross Scans for All Detectors (2017 &
+                                                   2018)}}
+l.25 ...ors (2017 & 2018)}}{38}{figure.caption.29}
+                                                  %
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument> ...y Ratio with PCC Gated BCIDs (2017 &
+                                                   2018)}}
+l.26 ...IDs (2017 & 2018)}}{39}{figure.caption.30}
+                                                  %
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument> ...rage – vdM Head-On Periods (2017 &
+                                                   2018)}}
+l.27 ...ods (2017 & 2018)}}{39}{figure.caption.31}
+                                                  %
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[5]
+! Misplaced alignment tab character &.
+<argument> ...CC) to Mean per 50 LS Blocks (2017 &
+                                                   2018)}}
+l.38 ...cks (2017 & 2018)}}{50}{figure.caption.45}
+                                                  %
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument> ...earity and Luminosity Ratios (2017 &
+                                                   2018)}}
+l.39 ...ios (2017 & 2018)}}{51}{figure.caption.46}
+                                                  %
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+)
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
-
-[7] (./thesis.lot)
+ [6] (./thesis.lot)
 \tf@lot=\write10
 \openout10 = `thesis.lot'.
 
- [8] (./thesis.nls)
+ [7] (./thesis.nls)
 \openout2 = `Chapter1/chapter1.aux'.
 
  (./Chapter1/chapter1.tex
@@ -1654,116 +1640,68 @@ the current column of the current alignment.
 Try to go on, since this might almost work.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
-
- []
-
-[4]
-<Chapter1/cross_section.png, id=329, 948.54375pt x 341.275pt>
+<Chapter1/cross_section.png, id=338, 948.54375pt x 341.275pt>
 File: Chapter1/cross_section.png Graphic file (type png)
 <use Chapter1/cross_section.png>
-Package pdftex.def Info: Chapter1/cross_section.png  used on input line 94.
+Package pdftex.def Info: Chapter1/cross_section.png  used on input line 91.
 (pdftex.def)             Requested size: 331.99529pt x 119.44803pt.
- [5 <./Chapter1/cross_section.png>]
-<Chapter1/luminosity.png, id=342, 1111.15125pt x 482.80376pt>
-File: Chapter1/luminosity.png Graphic file (type png)
-<use Chapter1/luminosity.png>
-Package pdftex.def Info: Chapter1/luminosity.png  used on input line 129.
-(pdftex.def)             Requested size: 277.78712pt x 120.70064pt.
- [6 <./Chapter1/luminosity.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
-
- []
-
-[7]
-! Undefined control sequence.
-l.197   \mathcal{L}_{int} \ndot
-                                \sigma_{p}= \text{number of events of interest}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
-
- []
-
-<Chapter1/lumi_uncertainty.png, id=373, 947.54pt x 706.64pt>
+ [4 <./Chapter1/cross_section.png>]
+<Chapter1/lumi_uncertainty.png, id=352, 947.54pt x 706.64pt>
 File: Chapter1/lumi_uncertainty.png Graphic file (type png)
 <use Chapter1/lumi_uncertainty.png>
-Package pdftex.def Info: Chapter1/lumi_uncertainty.png  used on input line 209.
+Package pdftex.def Info: Chapter1/lumi_uncertainty.png  used on input line 126.
 
 (pdftex.def)             Requested size: 265.30939pt x 197.85785pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-20.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+[5]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+37.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-[8]
-<Chapter1/lhc_complex_fig.png, id=385, 846.16125pt x 683.55376pt>
+[6 <./Chapter1/lumi_uncertainty.png>]
+<Chapter1/lhc_complex_fig.png, id=371, 846.16125pt x 683.55376pt>
 File: Chapter1/lhc_complex_fig.png Graphic file (type png)
 <use Chapter1/lhc_complex_fig.png>
-Package pdftex.def Info: Chapter1/lhc_complex_fig.png  used on input line 227.
+Package pdftex.def Info: Chapter1/lhc_complex_fig.png  used on input line 144.
 (pdftex.def)             Requested size: 380.76904pt x 307.59634pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[9 <./Chapter1/lumi_uncertainty.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 237--239
+ [7 <./Chapter1/lhc_complex_fig.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
 
-[10 <./Chapter1/lhc_complex_fig.png (PNG copy)>]
 
 ! LaTeX Error: Unicode character ​ (U+200B)
                not set up for use with LaTeX.
@@ -1772,7 +1710,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.251 ... 2017 and 2018 show preliminary results)}
+l.168 ... 2017 and 2018 show preliminary results)}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1785,7 +1723,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.251 ... 2017 and 2018 show preliminary results)}
+l.168 ... 2017 and 2018 show preliminary results)}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1798,7 +1736,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.251 ... 2017 and 2018 show preliminary results)}
+l.168 ... 2017 and 2018 show preliminary results)}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1811,35 +1749,196 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.251 ... 2017 and 2018 show preliminary results)}
+l.168 ... 2017 and 2018 show preliminary results)}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<Chapter1/int_lumi_cumulative_pp_2_run2.pdf, id=407, 578.16pt x 433.62pt>
+<Chapter1/int_lumi_cumulative_pp_2_run2.pdf, id=387, 578.16pt x 433.62pt>
 File: Chapter1/int_lumi_cumulative_pp_2_run2.pdf Graphic file (type pdf)
 <use Chapter1/int_lumi_cumulative_pp_2_run2.pdf>
 Package pdftex.def Info: Chapter1/int_lumi_cumulative_pp_2_run2.pdf  used on in
-put line 270.
+put line 187.
 (pdftex.def)             Requested size: 317.98898pt x 238.49173pt.
-) [11] [12 <./Chapter1/int_lumi_cumulative_pp_2_run2.pdf>]
+) [8] [9 <./Chapter1/int_lumi_cumulative_pp_2_run2.pdf>]
 \openout2 = `Chapter2/chapter2.aux'.
 
 
 (./Chapter2/chapter2.tex
 Chapter 2.
-) [13
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+[10
 
 
 
 
 ]
-\openout2 = `Chapter3/chapter3.aux'.
+<Chapter2/CMS_detector_simple.png, id=449, 1113.15875pt x 809.0225pt>
+File: Chapter2/CMS_detector_simple.png Graphic file (type png)
+<use Chapter2/CMS_detector_simple.png>
+Package pdftex.def Info: Chapter2/CMS_detector_simple.png  used on input line 1
+4.
+(pdftex.def)             Requested size: 333.95021pt x 242.70862pt.
 
- (./Chapter3/chapter3.tex
-Chapter 3.
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+[11 <./Chapter2/CMS_detector_simple.png (PNG copy)>]
+<Chapter2/slice_det.png, id=458, 1225.57875pt x 835.12pt>
+File: Chapter2/slice_det.png Graphic file (type png)
+<use Chapter2/slice_det.png>
+Package pdftex.def Info: Chapter2/slice_det.png  used on input line 33.
+(pdftex.def)             Requested size: 367.67647pt x 250.53793pt.
+
+
+! LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...orapidity $\eta$ is defined as $\eta = −
+                                                   ln[tan(\theta/2)]$ \cite{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[12 <./Chapter2/slice_det.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+<Chapter2/detectors.png, id=479, 1078.0275pt x 808.01875pt>
+File: Chapter2/detectors.png Graphic file (type png)
+<use Chapter2/detectors.png>
+Package pdftex.def Info: Chapter2/detectors.png  used on input line 63.
+(pdftex.def)             Requested size: 323.41075pt x 242.4075pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+<Chapter2/strip_layout.png, id=488, 1599.9775pt x 749.80125pt>
+File: Chapter2/strip_layout.png Graphic file (type png)
+<use Chapter2/strip_layout.png>
+Package pdftex.def Info: Chapter2/strip_layout.png  used on input line 81.
+(pdftex.def)             Requested size: 367.98709pt x 172.45065pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+[15 <./Chapter2/detectors.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+<Chapter2/phase1_PixelDetector.png, id=498, 1583.9175pt x 442.65375pt>
+File: Chapter2/phase1_PixelDetector.png Graphic file (type png)
+<use Chapter2/phase1_PixelDetector.png>
+Package pdftex.def Info: Chapter2/phase1_PixelDetector.png  used on input line 
+97.
+(pdftex.def)             Requested size: 411.80884pt x 115.08725pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+[16 <./Chapter2/strip_layout.png (PNG copy)> <./Chapter2/phase1_PixelDetector.p
+ng (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+<Chapter2/modules_drawing.png, id=507, 1740.5025pt x 393.47pt>
+File: Chapter2/modules_drawing.png Graphic file (type png)
+<use Chapter2/modules_drawing.png>
+Package pdftex.def Info: Chapter2/modules_drawing.png  used on input line 112.
+(pdftex.def)             Requested size: 348.09433pt x 78.6926pt.
+<Chapter2/PixelSensor.png, id=514, 494.84875pt x 373.395pt>
+File: Chapter2/PixelSensor.png Graphic file (type png)
+<use Chapter2/PixelSensor.png>
+Package pdftex.def Info: Chapter2/PixelSensor.png  used on input line 123.
+(pdftex.def)             Requested size: 148.45576pt x 112.01936pt.
+<Chapter2/hit.png, id=515, 636.3775pt x 298.11375pt>
+File: Chapter2/hit.png Graphic file (type png)
+<use Chapter2/hit.png>
+Package pdftex.def Info: Chapter2/hit.png  used on input line 123.
+(pdftex.def)             Requested size: 190.91472pt x 89.43481pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+[17 <./Chapter2/modules_drawing.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
+
+ []
+
+<Chapter2/pixel_cluster.png, id=527, 1423.3175pt x 747.79375pt>
+File: Chapter2/pixel_cluster.png Graphic file (type png)
+<use Chapter2/pixel_cluster.png>
+Package pdftex.def Info: Chapter2/pixel_cluster.png  used on input line 141.
+(pdftex.def)             Requested size: 355.8285pt x 186.94797pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ! You can't use `macro parameter character #' in horizontal mode.
-l.19 ...01}. On average, the detector occupancy (#
+l.151 ...1}. On average, the detector occupancy (#
                                                    hit pixels/# total pixels...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1847,84 +1946,384 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.19 ...ge, the detector occupancy (# hit pixels/#
+l.151 ...e, the detector occupancy (# hit pixels/#
                                                    total pixels) is less tha...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[14
-
-
-
-
-]
-<Chapter3/pileup_lineality.png, id=478, 628.3475pt x 461.725pt>
+[18 <./Chapter2/PixelSensor.png> <./Chapter2/hit.png>]
+<Chapter3/pileup_lineality.png, id=542, 628.3475pt x 461.725pt>
 File: Chapter3/pileup_lineality.png Graphic file (type png)
 <use Chapter3/pileup_lineality.png>
-Package pdftex.def Info: Chapter3/pileup_lineality.png  used on input line 28.
+Package pdftex.def Info: Chapter3/pileup_lineality.png  used on input line 160.
+
 (pdftex.def)             Requested size: 219.92491pt x 161.60617pt.
- [15 <./Chapter3/pileup_lineality.png>] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-[17] [18]
-<Chapter3/vdm_sketch.png, id=514, 736.7525pt x 523.9575pt>
-File: Chapter3/vdm_sketch.png Graphic file (type png)
-<use Chapter3/vdm_sketch.png>
-Package pdftex.def Info: Chapter3/vdm_sketch.png  used on input line 114.
-(pdftex.def)             Requested size: 368.37535pt x 261.9781pt.
-<Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2017_Normtag.pdf, id=520, 5
-78.16pt x 433.62pt>
-File: Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2017_Normtag.pdf Graph
-ic file (type pdf)
-<use Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2017_Normtag.pdf>
-Package pdftex.def Info: Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_201
-7_Normtag.pdf  used on input line 143.
-(pdftex.def)             Requested size: 192.0548pt x 144.0412pt.
-<Chapter3/Luminosity/int_lumi_per_day_pp_2017_Normtag.pdf, id=521, 578.16pt x 4
-33.62pt>
-File: Chapter3/Luminosity/int_lumi_per_day_pp_2017_Normtag.pdf Graphic file (ty
-pe pdf)
-<use Chapter3/Luminosity/int_lumi_per_day_pp_2017_Normtag.pdf>
-Package pdftex.def Info: Chapter3/Luminosity/int_lumi_per_day_pp_2017_Normtag.p
-df  used on input line 144.
-(pdftex.def)             Requested size: 192.0548pt x 144.0412pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19 <./Chapter3/vdm_sketch.png (PNG copy)>]
-<Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2018_Normtag.pdf, id=527, 5
-78.16pt x 433.62pt>
+[19 <./Chapter2/pixel_cluster.png>] [20 <./Chapter3/pileup_lineality.png>])
+[21]
+\openout2 = `Chapter3/chapter3.aux'.
+
+ (./Chapter3/chapter3.tex
+Chapter 3.
+[22
+
+
+
+
+] [23]
+<Chapter3/vdm_sketch.png, id=590, 736.7525pt x 523.9575pt>
+File: Chapter3/vdm_sketch.png Graphic file (type png)
+<use Chapter3/vdm_sketch.png>
+Package pdftex.def Info: Chapter3/vdm_sketch.png  used on input line 86.
+(pdftex.def)             Requested size: 294.69577pt x 209.57928pt.
+ [24 <./Chapter3/vdm_sketch.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+
+! LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ...ns except the maximum separation (2.5 −
+                                                   $4 \sigma_{b}$), the numb...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+[26]
+<Chapter3/BeamPosition/doros_vs_time_6016.pdf, id=615, 2590.56824pt x 517.78104
+pt>
+File: Chapter3/BeamPosition/doros_vs_time_6016.pdf Graphic file (type pdf)
+<use Chapter3/BeamPosition/doros_vs_time_6016.pdf>
+Package pdftex.def Info: Chapter3/BeamPosition/doros_vs_time_6016.pdf  used on 
+input line 142.
+(pdftex.def)             Requested size: 440.39078pt x 88.0216pt.
+
+Overfull \hbox (4.49854pt too wide) in paragraph at lines 140--143
+[]  [] 
+ []
+
+[27 <./Chapter3/BeamPosition/doros_vs_time_6016.pdf>]
+<Chapter3/BeamPosition/doros_vs_time_6868.pdf, id=686, 2590.56824pt x 517.78104
+pt>
+File: Chapter3/BeamPosition/doros_vs_time_6868.pdf Graphic file (type pdf)
+<use Chapter3/BeamPosition/doros_vs_time_6868.pdf>
+Package pdftex.def Info: Chapter3/BeamPosition/doros_vs_time_6868.pdf  used on 
+input line 177.
+(pdftex.def)             Requested size: 440.39078pt x 88.0216pt.
+
+Overfull \hbox (4.49854pt too wide) in paragraph at lines 175--178
+[]  [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--197
+
+ []
+
+[29 <./Chapter3/BeamPosition/doros_vs_time_6868.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+ []
+
+[30]
+<Chapter4/scan_rates.png, id=776, 1139.25626pt x 560.0925pt>
+File: Chapter4/scan_rates.png Graphic file (type png)
+<use Chapter4/scan_rates.png>
+Package pdftex.def Info: Chapter4/scan_rates.png  used on input line 225.
+(pdftex.def)             Requested size: 187.77795pt x 115.22992pt.
+<Chapter4/scan_rates_PerBX.png, id=777, 1051.93pt x 635.37375pt>
+File: Chapter4/scan_rates_PerBX.png Graphic file (type png)
+<use Chapter4/scan_rates_PerBX.png>
+Package pdftex.def Info: Chapter4/scan_rates_PerBX.png  used on input line 226.
+
+(pdftex.def)             Requested size: 213.38383pt x 128.0323pt.
+ [31 <./Chapter4/scan_rates.png> <./Chapter4/scan_rates_PerBX.png>]
+<figures/performance_PCC/PCC_Rates_SS1.pdf, id=787, 569.12625pt x 277.035pt>
+File: figures/performance_PCC/PCC_Rates_SS1.pdf Graphic file (type pdf)
+<use figures/performance_PCC/PCC_Rates_SS1.pdf>
+Package pdftex.def Info: figures/performance_PCC/PCC_Rates_SS1.pdf  used on inp
+ut line 239.
+(pdftex.def)             Requested size: 187.7862pt x 128.0379pt.
+<figures/performance_PCC/PCC_Projection_SS1.pdf, id=788, 569.12625pt x 277.035p
+t>
+File: figures/performance_PCC/PCC_Projection_SS1.pdf Graphic file (type pdf)
+<use figures/performance_PCC/PCC_Projection_SS1.pdf>
+Package pdftex.def Info: figures/performance_PCC/PCC_Projection_SS1.pdf  used o
+n input line 240.
+(pdftex.def)             Requested size: 230.46881pt x 128.0379pt.
+
+[32 <./figures/performance_PCC/PCC_Rates_SS1.pdf, page is rotated 90 degrees> <
+./figures/performance_PCC/PCC_Projection_SS1.pdf, page is rotated 90 degrees>]
+! Missing } inserted.
+<inserted text> 
+                }
+l.302 ...al current, denoted as $N_{\mathrm{DCCT}$
+                                                  , is normalized to match t...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[33] [34]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.349 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Excluding 'comment' comment.
+<Chapter4/2017_X_Scan_41.png, id=903, 1020.81375pt x 1156.32pt>
+File: Chapter4/2017_X_Scan_41.png Graphic file (type png)
+<use Chapter4/2017_X_Scan_41.png>
+Package pdftex.def Info: Chapter4/2017_X_Scan_41.png  used on input line 415.
+(pdftex.def)             Requested size: 170.70114pt x 170.70569pt.
+<Chapter4/2018_Y_Scan_2192.png, id=904, 916.42375pt x 1033.8625pt>
+File: Chapter4/2018_Y_Scan_2192.png Graphic file (type png)
+<use Chapter4/2018_Y_Scan_2192.png>
+Package pdftex.def Info: Chapter4/2018_Y_Scan_2192.png  used on input line 416.
+
+(pdftex.def)             Requested size: 170.71034pt x 170.70615pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35]
+<figures/vdMfitting/sigVis/Sigma_vis_6016_new_Per_BCID.png, id=915, 722.7pt x 7
+22.7pt>
+File: figures/vdMfitting/sigVis/Sigma_vis_6016_new_Per_BCID.png Graphic file (t
+ype png)
+<use figures/vdMfitting/sigVis/Sigma_vis_6016_new_Per_BCID.png>
+Package pdftex.def Info: figures/vdMfitting/sigVis/Sigma_vis_6016_new_Per_BCID.
+png  used on input line 441.
+(pdftex.def)             Requested size: 209.1301pt x 209.1255pt.
+<figures/vdMfitting/sigVis/Sigma_vis_6868_new_Per_BCID.png, id=916, 722.7pt x 7
+22.7pt>
+File: figures/vdMfitting/sigVis/Sigma_vis_6868_new_Per_BCID.png Graphic file (t
+ype png)
+<use figures/vdMfitting/sigVis/Sigma_vis_6868_new_Per_BCID.png>
+Package pdftex.def Info: figures/vdMfitting/sigVis/Sigma_vis_6868_new_Per_BCID.
+png  used on input line 442.
+(pdftex.def)             Requested size: 209.1301pt x 209.1255pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36 <./Chapter4/2017_X_Scan_41.png> <./Chapter4/2018_Y_Scan_2192.png>]
+<figures/vdMfitting/sigVis/Sigma_vis_6016_new.png, id=929, 722.7pt x 722.7pt>
+File: figures/vdMfitting/sigVis/Sigma_vis_6016_new.png Graphic file (type png)
+<use figures/vdMfitting/sigVis/Sigma_vis_6016_new.png>
+Package pdftex.def Info: figures/vdMfitting/sigVis/Sigma_vis_6016_new.png  used
+ on input line 469.
+(pdftex.def)             Requested size: 209.1301pt x 209.1255pt.
+<figures/vdMfitting/sigVis/Sigma_vis_6868_new.png, id=930, 722.7pt x 722.7pt>
+File: figures/vdMfitting/sigVis/Sigma_vis_6868_new.png Graphic file (type png)
+<use figures/vdMfitting/sigVis/Sigma_vis_6868_new.png>
+Package pdftex.def Info: figures/vdMfitting/sigVis/Sigma_vis_6868_new.png  used
+ on input line 470.
+(pdftex.def)             Requested size: 209.1301pt x 209.1255pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Excluding 'comment' comment.
+<figures/visible_cross_section_results/sigVisPerScanNormalized_fill6016_XY_EC.p
+df, id=932, 722.7pt x 722.7pt>
+File: figures/visible_cross_section_results/sigVisPerScanNormalized_fill6016_XY
+_EC.pdf Graphic file (type pdf)
+<use figures/visible_cross_section_results/sigVisPerScanNormalized_fill6016_XY_
+EC.pdf>
+Package pdftex.def Info: figures/visible_cross_section_results/sigVisPerScanNor
+malized_fill6016_XY_EC.pdf  used on input line 519.
+(pdftex.def)             Requested size: 209.1301pt x 209.1255pt.
+<figures/visible_cross_section_results/sigVisPerScanNormalized_fill6868_XY_EC.p
+df, id=933, 722.7pt x 722.7pt>
+File: figures/visible_cross_section_results/sigVisPerScanNormalized_fill6868_XY
+_EC.pdf Graphic file (type pdf)
+<use figures/visible_cross_section_results/sigVisPerScanNormalized_fill6868_XY_
+EC.pdf>
+Package pdftex.def Info: figures/visible_cross_section_results/sigVisPerScanNor
+malized_fill6868_XY_EC.pdf  used on input line 521.
+(pdftex.def)             Requested size: 209.1301pt x 209.1255pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37 <./figures/vdMfitting/sigVis/Sigma_vis_6016_new_Per_BCID.png> <./figures/vd
+Mfitting/sigVis/Sigma_vis_6868_new_Per_BCID.png>] [38 <./figures/vdMfitting/sig
+Vis/Sigma_vis_6016_new.png> <./figures/vdMfitting/sigVis/Sigma_vis_6868_new.png
+> <./figures/visible_cross_section_results/sigVisPerScanNormalized_fill6016_XY_
+EC.pdf> <./figures/visible_cross_section_results/sigVisPerScanNormalized_fill68
+68_XY_EC.pdf>]
+<figures/vdMfitting/vdMconsistency/lumi_sum5_fill6016_HFOC-HFET-PLT-PCCHD5div_H
+FET+HFOC+PLT+PCCHD5_ratioTrue_nls10_Xsecleg317.pdf, id=1077, 1084.05pt x 722.7p
+t>
+File: figures/vdMfitting/vdMconsistency/lumi_sum5_fill6016_HFOC-HFET-PLT-PCCHD5
+div_HFET+HFOC+PLT+PCCHD5_ratioTrue_nls10_Xsecleg317.pdf Graphic file (type pdf)
+
+<use figures/vdMfitting/vdMconsistency/lumi_sum5_fill6016_HFOC-HFET-PLT-PCCHD5d
+iv_HFET+HFOC+PLT+PCCHD5_ratioTrue_nls10_Xsecleg317.pdf>
+Package pdftex.def Info: figures/vdMfitting/vdMconsistency/lumi_sum5_fill6016_H
+FOC-HFET-PLT-PCCHD5div_HFET+HFOC+PLT+PCCHD5_ratioTrue_nls10_Xsecleg317.pdf  use
+d on input line 534.
+(pdftex.def)             Requested size: 209.1301pt x 139.40964pt.
+<figures/vdMfitting/vdMconsistency/lumi_sum5_fill6868_HFOC-HFET-PLT-PCCHD5div_H
+FOC+HFET+PLT+PCCHD5_ratioTrue_nls2_Xsecleg318.pdf, id=1078, 1084.05pt x 722.7pt
+>
+File: figures/vdMfitting/vdMconsistency/lumi_sum5_fill6868_HFOC-HFET-PLT-PCCHD5
+div_HFOC+HFET+PLT+PCCHD5_ratioTrue_nls2_Xsecleg318.pdf Graphic file (type pdf)
+<use figures/vdMfitting/vdMconsistency/lumi_sum5_fill6868_HFOC-HFET-PLT-PCCHD5d
+iv_HFOC+HFET+PLT+PCCHD5_ratioTrue_nls2_Xsecleg318.pdf>
+Package pdftex.def Info: figures/vdMfitting/vdMconsistency/lumi_sum5_fill6868_H
+FOC-HFET-PLT-PCCHD5div_HFOC+HFET+PLT+PCCHD5_ratioTrue_nls2_Xsecleg318.pdf  used
+ on input line 535.
+(pdftex.def)             Requested size: 209.1301pt x 139.40964pt.
+<figures/visible_cross_section_results/lumi_sum5_histMean_fill6016_HFOC-HFET-PL
+T-PCCHD5div_HFET+HFOC+PLT+PCCHD5_ratioTrue_nls10_Xsecleg317.pdf, id=1079, 578.1
+6pt x 578.16pt>
+File: figures/visible_cross_section_results/lumi_sum5_histMean_fill6016_HFOC-HF
+ET-PLT-PCCHD5div_HFET+HFOC+PLT+PCCHD5_ratioTrue_nls10_Xsecleg317.pdf Graphic fi
+le (type pdf)
+<use figures/visible_cross_section_results/lumi_sum5_histMean_fill6016_HFOC-HFE
+T-PLT-PCCHD5div_HFET+HFOC+PLT+PCCHD5_ratioTrue_nls10_Xsecleg317.pdf>
+Package pdftex.def Info: figures/visible_cross_section_results/lumi_sum5_histMe
+an_fill6016_HFOC-HFET-PLT-PCCHD5div_HFET+HFOC+PLT+PCCHD5_ratioTrue_nls10_Xsecle
+g317.pdf  used on input line 544.
+(pdftex.def)             Requested size: 209.1301pt x 209.1255pt.
+<figures/visible_cross_section_results/lumi_sum5_histMean_fill6868_HFOC-HFET-PL
+T-PCCHD5div_HFOC+HFET+PLT+PCCHD5_ratioTrue_nls2_Xsecleg318.pdf, id=1080, 578.16
+pt x 578.16pt>
+File: figures/visible_cross_section_results/lumi_sum5_histMean_fill6868_HFOC-HF
+ET-PLT-PCCHD5div_HFOC+HFET+PLT+PCCHD5_ratioTrue_nls2_Xsecleg318.pdf Graphic fil
+e (type pdf)
+<use figures/visible_cross_section_results/lumi_sum5_histMean_fill6868_HFOC-HFE
+T-PLT-PCCHD5div_HFOC+HFET+PLT+PCCHD5_ratioTrue_nls2_Xsecleg318.pdf>
+Package pdftex.def Info: figures/visible_cross_section_results/lumi_sum5_histMe
+an_fill6868_HFOC-HFET-PLT-PCCHD5div_HFOC+HFET+PLT+PCCHD5_ratioTrue_nls2_Xsecleg
+318.pdf  used on input line 545.
+(pdftex.def)             Requested size: 209.1301pt x 209.1255pt.
+ Excluding 'comment' comment.) [39 <./figures/vdMfitting/vdMconsistency/lumi_su
+m5_fill6016_HFOC-HFET-PLT-PCCHD5div_HFET+HFOC+PLT+PCCHD5_ratioTrue_nls10_Xsecle
+g317.pdf> <./figures/vdMfitting/vdMconsistency/lumi_sum5_fill6868_HFOC-HFET-PLT
+-PCCHD5div_HFOC+HFET+PLT+PCCHD5_ratioTrue_nls2_Xsecleg318.pdf> <./figures/visib
+le_cross_section_results/lumi_sum5_histMean_fill6016_HFOC-HFET-PLT-PCCHD5div_HF
+ET+HFOC+PLT+PCCHD5_ratioTrue_nls10_Xsecleg317.pdf> <./figures/visible_cross_sec
+tion_results/lumi_sum5_histMean_fill6868_HFOC-HFET-PLT-PCCHD5div_HFOC+HFET+PLT+
+PCCHD5_ratioTrue_nls2_Xsecleg318.pdf>]
+\openout2 = `Chapter4/chapter4.aux'.
+
+ (./Chapter4/chapter4.tex
+Chapter 4.
+<Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2017_Normtag.pdf, id=1317, 
+578.16pt x 433.62pt>
+File: Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2017_Normtag.pdf Graph
+ic file (type pdf)
+<use Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2017_Normtag.pdf>
+Package pdftex.def Info: Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_201
+7_Normtag.pdf  used on input line 15.
+(pdftex.def)             Requested size: 192.0548pt x 144.0412pt.
+<Chapter3/Luminosity/int_lumi_per_day_pp_2017_Normtag.pdf, id=1318, 578.16pt x 
+433.62pt>
+File: Chapter3/Luminosity/int_lumi_per_day_pp_2017_Normtag.pdf Graphic file (ty
+pe pdf)
+<use Chapter3/Luminosity/int_lumi_per_day_pp_2017_Normtag.pdf>
+Package pdftex.def Info: Chapter3/Luminosity/int_lumi_per_day_pp_2017_Normtag.p
+df  used on input line 16.
+(pdftex.def)             Requested size: 192.0548pt x 144.0412pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2018_Normtag.pdf, id=1319, 
+578.16pt x 433.62pt>
 File: Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2018_Normtag.pdf Graph
 ic file (type pdf)
 <use Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2018_Normtag.pdf>
 Package pdftex.def Info: Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_201
-8_Normtag.pdf  used on input line 155.
+8_Normtag.pdf  used on input line 23.
 (pdftex.def)             Requested size: 192.0548pt x 144.0412pt.
-<Chapter3/Luminosity/int_lumi_per_day_pp_2018_Normtag.pdf, id=528, 578.16pt x 4
-33.62pt>
+<Chapter3/Luminosity/int_lumi_per_day_pp_2018_Normtag.pdf, id=1320, 578.16pt x 
+433.62pt>
 File: Chapter3/Luminosity/int_lumi_per_day_pp_2018_Normtag.pdf Graphic file (ty
 pe pdf)
 <use Chapter3/Luminosity/int_lumi_per_day_pp_2018_Normtag.pdf>
 Package pdftex.def Info: Chapter3/Luminosity/int_lumi_per_day_pp_2018_Normtag.p
-df  used on input line 156.
+df  used on input line 24.
 (pdftex.def)             Requested size: 192.0548pt x 144.0412pt.
- [20 <./Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2017_Normtag.pdf> <.
-/Chapter3/Luminosity/int_lumi_per_day_pp_2017_Normtag.pdf
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40
+
+
+
+
+] Excluding 'comment' comment.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[41 <./Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2017_Normtag.pdf> <./
+Chapter3/Luminosity/int_lumi_per_day_pp_2017_Normtag.pdf
 
 pdfTeX warning: pdflatex (file ./Chapter3/Luminosity/int_lumi_per_day_pp_2017_N
 ormtag.pdf): PDF inclusion: multiple pdfs with page group included in a single 
@@ -1939,262 +2338,157 @@ n a single page
 pdfTeX warning: pdflatex (file ./Chapter3/Luminosity/int_lumi_per_day_pp_2018_N
 ormtag.pdf): PDF inclusion: multiple pdfs with page group included in a single 
 page
->]
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-
- []
-
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 ...ns except the maximum separation (2.5 −
-                                                   4σb), the number of step...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character σ (U+03C3)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 ...xcept the maximum separation (2.5 − 4σ
-                                                  b), the number of steps (7...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
-
- []
-
-[22]
-<Chapter3/BeamPosition/doros_vs_time_6016.pdf, id=734, 2590.56824pt x 517.78104
-pt>
-File: Chapter3/BeamPosition/doros_vs_time_6016.pdf Graphic file (type pdf)
-<use Chapter3/BeamPosition/doros_vs_time_6016.pdf>
-Package pdftex.def Info: Chapter3/BeamPosition/doros_vs_time_6016.pdf  used on 
-input line 216.
-(pdftex.def)             Requested size: 440.39078pt x 88.0216pt.
-
-Overfull \hbox (4.49854pt too wide) in paragraph at lines 214--217
-[]  [] 
- []
-
-[23 <./Chapter3/BeamPosition/doros_vs_time_6016.pdf>]
-<Chapter3/BeamPosition/doros_vs_time_6868.pdf, id=809, 2590.56824pt x 517.78104
-pt>
-File: Chapter3/BeamPosition/doros_vs_time_6868.pdf Graphic file (type pdf)
-<use Chapter3/BeamPosition/doros_vs_time_6868.pdf>
-Package pdftex.def Info: Chapter3/BeamPosition/doros_vs_time_6868.pdf  used on 
-input line 251.
-(pdftex.def)             Requested size: 440.39078pt x 88.0216pt.
-
-Overfull \hbox (4.49854pt too wide) in paragraph at lines 249--252
-[]  [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [24] [25 <./Chapter3/BeamPosition/doros_vs_time_6868.pdf>]
-\openout2 = `Chapter4/chapter4.aux'.
-
-
-(./Chapter4/chapter4.tex
-Chapter 4.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.5 ...the detector's visible cross-section \sigma
-                                                  _{vis}.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.6 
-    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[26
-
-
-
-
-]
-<Chapter4/good_module.png, id=889, 1755.55875pt x 557.08125pt>
+>] [42] Excluding 'comment' comment. [43]
+<Chapter4/good_module.png, id=1529, 1755.55875pt x 557.08125pt>
 File: Chapter4/good_module.png Graphic file (type png)
 <use Chapter4/good_module.png>
-Package pdftex.def Info: Chapter4/good_module.png  used on input line 34.
+Package pdftex.def Info: Chapter4/good_module.png  used on input line 182.
 (pdftex.def)             Requested size: 298.44104pt x 94.70256pt.
-<Chapter4/RMSmean.png, id=890, 806.01125pt x 649.42625pt>
+<Chapter4/RMSmean.png, id=1530, 806.01125pt x 649.42625pt>
 File: Chapter4/RMSmean.png Graphic file (type png)
 <use Chapter4/RMSmean.png>
-Package pdftex.def Info: Chapter4/RMSmean.png  used on input line 34.
+Package pdftex.def Info: Chapter4/RMSmean.png  used on input line 183.
 (pdftex.def)             Requested size: 120.89647pt x 97.40973pt.
- [27 <./Chapter4/good_module.png (PNG copy)> <./Chapter4/RMSmean.png>]
-Excluding 'comment' comment. [28]
-<Chapter4/module_selection/RMSmean.png, id=901, 806.01125pt x 649.42625pt>
-File: Chapter4/module_selection/RMSmean.png Graphic file (type png)
-<use Chapter4/module_selection/RMSmean.png>
-Package pdftex.def Info: Chapter4/module_selection/RMSmean.png  used on input l
-ine 111.
-(pdftex.def)             Requested size: 256.07741pt x 206.32431pt.
-
+ Excluding 'comment' comment.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Excluding 'comment' comment. [29
-
-]
-<Chapter4/module_selection/ProfileX_combined_testing_LUM_20-001.png, id=909, 69
-8.61pt x 473.77pt>
+<Chapter4/module_selection/ProfileX_combined_testing_LUM_20-001.png, id=1533, 6
+98.61pt x 473.77pt>
 File: Chapter4/module_selection/ProfileX_combined_testing_LUM_20-001.png Graphi
 c file (type png)
 <use Chapter4/module_selection/ProfileX_combined_testing_LUM_20-001.png>
 Package pdftex.def Info: Chapter4/module_selection/ProfileX_combined_testing_LU
-M_20-001.png  used on input line 157.
+M_20-001.png  used on input line 227.
 (pdftex.def)             Requested size: 298.7548pt x 199.17pt.
- Excluding 'comment' comment.
-Excluding 'comment' comment. Excluding 'comment' comment. [30 <./Chapter4/modul
-e_selection/RMSmean.png> <./Chapter4/module_selection/ProfileX_combined_testing
-_LUM_20-001.png>] Excluding 'comment' comment. Excluding 'comment' comment.
-[31
 
-] Excluding 'comment' comment.
-<Chapter3/2017_stability/ratio__hfet-pcc-plt-hfocdivmean_PCConly.pdf, id=924, 5
-78.16pt x 578.16pt>
-File: Chapter3/2017_stability/ratio__hfet-pcc-plt-hfocdivmean_PCConly.pdf Graph
-ic file (type pdf)
-<use Chapter3/2017_stability/ratio__hfet-pcc-plt-hfocdivmean_PCConly.pdf>
-Package pdftex.def Info: Chapter3/2017_stability/ratio__hfet-pcc-plt-hfocdivmea
-n_PCConly.pdf  used on input line 439.
-(pdftex.def)             Requested size: 231.2599pt x 231.2599pt.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Overfull \hbox (26.40189pt too wide) in paragraph at lines 439--441
- [][]
- []
-
-<Chapter3/2017_stability/stacked__hfet-pcc-plt-hfocdivmean_PCConly.pdf, id=927,
- 578.16pt x 578.16pt>
-File: Chapter3/2017_stability/stacked__hfet-pcc-plt-hfocdivmean_PCConly.pdf Gra
-phic file (type pdf)
-<use Chapter3/2017_stability/stacked__hfet-pcc-plt-hfocdivmean_PCConly.pdf>
-Package pdftex.def Info: Chapter3/2017_stability/stacked__hfet-pcc-plt-hfocdivm
-ean_PCConly.pdf  used on input line 449.
-(pdftex.def)             Requested size: 231.2599pt x 231.2599pt.
-
-Overfull \hbox (32.40189pt too wide) in paragraph at lines 447--450
- [][] 
- []
+Excluding 'comment' comment. [44 <./Chapter4/good_module.png (PNG copy)> <./Cha
+pter4/RMSmean.png>] [45 <./Chapter4/module_selection/ProfileX_combined_testing_
+LUM_20-001.png>]
+<figures/fill_7036_pattern_2.png, id=1544, 798.985pt x 574.145pt>
+File: figures/fill_7036_pattern_2.png Graphic file (type png)
+<use figures/fill_7036_pattern_2.png>
+Package pdftex.def Info: figures/fill_7036_pattern_2.png  used on input line 26
+5.
+(pdftex.def)             Requested size: 341.43437pt x 245.35316pt.
+<figures/performance_PCC/afterglow.png, id=1547, 1093.08376pt x 804.00375pt>
+File: figures/performance_PCC/afterglow.png Graphic file (type png)
+<use figures/performance_PCC/afterglow.png>
+Package pdftex.def Info: figures/performance_PCC/afterglow.png  used on input l
+ine 282.
+(pdftex.def)             Requested size: 256.07741pt x 188.35204pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapter3/2018_stability/ratio__hfet-pcc-plt-hfocdivmean_PCConly.pdf, id=928, 5
-78.16pt x 578.16pt>
-File: Chapter3/2018_stability/ratio__hfet-pcc-plt-hfocdivmean_PCConly.pdf Graph
-ic file (type pdf)
-<use Chapter3/2018_stability/ratio__hfet-pcc-plt-hfocdivmean_PCConly.pdf>
-Package pdftex.def Info: Chapter3/2018_stability/ratio__hfet-pcc-plt-hfocdivmea
-n_PCConly.pdf  used on input line 462.
-(pdftex.def)             Requested size: 231.2599pt x 231.2599pt.
+[46 <./figures/fill_7036_pattern_2.png>]
+<figures/2018_af_fit_1.png, id=1554, 1001.7425pt x 757.32938pt>
+File: figures/2018_af_fit_1.png Graphic file (type png)
+<use figures/2018_af_fit_1.png>
+Package pdftex.def Info: figures/2018_af_fit_1.png  used on input line 302.
+(pdftex.def)             Requested size: 320.0935pt x 241.99211pt.
+ Excluding 'comment' comment. [47 <./figures/performance_PCC/afterglow.png>]
+<figures/performance_PCC/afterglow_correction_factor_1lsblock_315690_2.png, id=
+1563, 778.91pt x 577.65813pt>
+File: figures/performance_PCC/afterglow_correction_factor_1lsblock_315690_2.png
+ Graphic file (type png)
+<use figures/performance_PCC/afterglow_correction_factor_1lsblock_315690_2.png>
 
-Overfull \hbox (26.40189pt too wide) in paragraph at lines 462--464
- [][]
- []
+Package pdftex.def Info: figures/performance_PCC/afterglow_correction_factor_1l
+sblock_315690_2.png  used on input line 355.
+(pdftex.def)             Requested size: 204.85802pt x 151.924pt.
+<figures/performance_PCC/afterglow_correction_factor_1lsblock_315690_3.png, id=
+1564, 753.31438pt x 574.64688pt>
+File: figures/performance_PCC/afterglow_correction_factor_1lsblock_315690_3.png
+ Graphic file (type png)
+<use figures/performance_PCC/afterglow_correction_factor_1lsblock_315690_3.png>
 
-<Chapter3/2018_stability/stacked__hfet-pcc-plt-hfocdivmean_PCConly.pdf, id=931,
- 578.16pt x 578.16pt>
-File: Chapter3/2018_stability/stacked__hfet-pcc-plt-hfocdivmean_PCConly.pdf Gra
-phic file (type pdf)
-<use Chapter3/2018_stability/stacked__hfet-pcc-plt-hfocdivmean_PCConly.pdf>
-Package pdftex.def Info: Chapter3/2018_stability/stacked__hfet-pcc-plt-hfocdivm
-ean_PCConly.pdf  used on input line 472.
-(pdftex.def)             Requested size: 231.2599pt x 231.2599pt.
-
-Overfull \hbox (32.40189pt too wide) in paragraph at lines 470--473
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Chapter3/2017_stability/means_clean__hfet-pcc-plt-hfocdivmean_PCConly.pdf, id=
-932, 578.16pt x 578.16pt>
-File: Chapter3/2017_stability/means_clean__hfet-pcc-plt-hfocdivmean_PCConly.pdf
+Package pdftex.def Info: figures/performance_PCC/afterglow_correction_factor_1l
+sblock_315690_3.png  used on input line 356.
+(pdftex.def)             Requested size: 204.85802pt x 156.27031pt.
+ Excluding 'comment' comment. [48 <./figures/2018_af_fit_1.png> <./figures/perf
+ormance_PCC/afterglow_correction_factor_1lsblock_315690_2.png> <./figures/perfo
+rmance_PCC/afterglow_correction_factor_1lsblock_315690_3.png>]
+<figures/performance_PCC/Lumi_2017.png, id=1574, 579.6054pt x 400.3758pt>
+File: figures/performance_PCC/Lumi_2017.png Graphic file (type png)
+<use figures/performance_PCC/Lumi_2017.png>
+Package pdftex.def Info: figures/performance_PCC/Lumi_2017.png  used on input l
+ine 403.
+(pdftex.def)             Requested size: 200.59245pt x 138.56354pt.
+<figures/LumiVsTime_fill7270.pdf, id=1575, 569.12625pt x 408.52625pt>
+File: figures/LumiVsTime_fill7270.pdf Graphic file (type pdf)
+<use figures/LumiVsTime_fill7270.pdf>
+Package pdftex.def Info: figures/LumiVsTime_fill7270.pdf  used on input line 40
+4.
+(pdftex.def)             Requested size: 192.0548pt x 137.8623pt.
+ [49 <./figures/performance_PCC/Lumi_2017.png> <./figures/LumiVsTime_fill7270.p
+df, page is rotated 90 degrees>]
+<figures/luminosity_integration_and_uncertainty/ratio__hfet-pcc-plt-hfocdivmean
+_PCConly_17.pdf, id=1626, 578.16pt x 578.16pt>
+File: figures/luminosity_integration_and_uncertainty/ratio__hfet-pcc-plt-hfocdi
+vmean_PCConly_17.pdf Graphic file (type pdf)
+<use figures/luminosity_integration_and_uncertainty/ratio__hfet-pcc-plt-hfocdiv
+mean_PCConly_17.pdf>
+Package pdftex.def Info: figures/luminosity_integration_and_uncertainty/ratio__
+hfet-pcc-plt-hfocdivmean_PCConly_17.pdf  used on input line 423.
+(pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
+<figures/luminosity_integration_and_uncertainty/ratio__hfet-pcc-plt-hfocdivmean
+_PCConly_18.pdf, id=1627, 578.16pt x 578.16pt>
+File: figures/luminosity_integration_and_uncertainty/ratio__hfet-pcc-plt-hfocdi
+vmean_PCConly_18.pdf Graphic file (type pdf)
+<use figures/luminosity_integration_and_uncertainty/ratio__hfet-pcc-plt-hfocdiv
+mean_PCConly_18.pdf>
+Package pdftex.def Info: figures/luminosity_integration_and_uncertainty/ratio__
+hfet-pcc-plt-hfocdivmean_PCConly_18.pdf  used on input line 425.
+(pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
+<figures/luminosity_integration_and_uncertainty/means_clean__hfet-pcc-plt-hfocd
+ivmean_PCConly_17.pdf, id=1628, 578.16pt x 578.16pt>
+File: figures/luminosity_integration_and_uncertainty/means_clean__hfet-pcc-plt-
+hfocdivmean_PCConly_17.pdf Graphic file (type pdf)
+<use figures/luminosity_integration_and_uncertainty/means_clean__hfet-pcc-plt-h
+focdivmean_PCConly_17.pdf>
+Package pdftex.def Info: figures/luminosity_integration_and_uncertainty/means_c
+lean__hfet-pcc-plt-hfocdivmean_PCConly_17.pdf  used on input line 426.
+(pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
+<figures/luminosity_integration_and_uncertainty/means_clean__hfet-pcc-plt-hfocd
+ivmean_PCConly_18.pdf, id=1629, 578.16pt x 578.16pt>
+File: figures/luminosity_integration_and_uncertainty/means_clean__hfet-pcc-plt-
+hfocdivmean_PCConly_18.pdf Graphic file (type pdf)
+<use figures/luminosity_integration_and_uncertainty/means_clean__hfet-pcc-plt-h
+focdivmean_PCConly_18.pdf>
+Package pdftex.def Info: figures/luminosity_integration_and_uncertainty/means_c
+lean__hfet-pcc-plt-hfocdivmean_PCConly_18.pdf  used on input line 428.
+(pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
+ [50 <./figures/luminosity_integration_and_uncertainty/ratio__hfet-pcc-plt-hfoc
+divmean_PCConly_17.pdf> <./figures/luminosity_integration_and_uncertainty/ratio
+__hfet-pcc-plt-hfocdivmean_PCConly_18.pdf> <./figures/luminosity_integration_an
+d_uncertainty/means_clean__hfet-pcc-plt-hfocdivmean_PCConly_17.pdf> <./figures/
+luminosity_integration_and_uncertainty/means_clean__hfet-pcc-plt-hfocdivmean_PC
+Conly_18.pdf>]
+<figures/luminosity_integration_and_uncertainty/linearity_means_clean3.pdf, id=
+1909, 578.16pt x 578.16pt>
+File: figures/luminosity_integration_and_uncertainty/linearity_means_clean3.pdf
  Graphic file (type pdf)
-<use Chapter3/2017_stability/means_clean__hfet-pcc-plt-hfocdivmean_PCConly.pdf>
+<use figures/luminosity_integration_and_uncertainty/linearity_means_clean3.pdf>
 
-Package pdftex.def Info: Chapter3/2017_stability/means_clean__hfet-pcc-plt-hfoc
-divmean_PCConly.pdf  used on input line 486.
-(pdftex.def)             Requested size: 231.2599pt x 231.2599pt.
-
-Overfull \hbox (26.40189pt too wide) in paragraph at lines 486--488
- [][]
- []
-
-<Chapter3/2018_stability/means_clean__hfet-pcc-plt-hfocdivmean_PCConly.pdf, id=
-935, 578.16pt x 578.16pt>
-File: Chapter3/2018_stability/means_clean__hfet-pcc-plt-hfocdivmean_PCConly.pdf
- Graphic file (type pdf)
-<use Chapter3/2018_stability/means_clean__hfet-pcc-plt-hfocdivmean_PCConly.pdf>
-
-Package pdftex.def Info: Chapter3/2018_stability/means_clean__hfet-pcc-plt-hfoc
-divmean_PCConly.pdf  used on input line 496.
-(pdftex.def)             Requested size: 231.2599pt x 231.2599pt.
-
-Overfull \hbox (32.40189pt too wide) in paragraph at lines 494--497
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [32] [33 <./Chapter3/2017_stability/ratio__hfet-pcc-plt-hfocdivmean_PCConly.p
-df> <./Chapter3/2017_stability/stacked__hfet-pcc-plt-hfocdivmean_PCConly.pdf> <
-./Chapter3/2018_stability/ratio__hfet-pcc-plt-hfocdivmean_PCConly.pdf> <./Chapt
-er3/2018_stability/stacked__hfet-pcc-plt-hfocdivmean_PCConly.pdf>] [34 <./Chapt
-er3/2017_stability/means_clean__hfet-pcc-plt-hfocdivmean_PCConly.pdf> <./Chapte
-r3/2018_stability/means_clean__hfet-pcc-plt-hfocdivmean_PCConly.pdf>]
+Package pdftex.def Info: figures/luminosity_integration_and_uncertainty/lineari
+ty_means_clean3.pdf  used on input line 442.
+(pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
+<figures/linearity_7270.pdf, id=1910, 569.12625pt x 408.52625pt>
+File: figures/linearity_7270.pdf Graphic file (type pdf)
+<use figures/linearity_7270.pdf>
+Package pdftex.def Info: figures/linearity_7270.pdf  used on input line 444.
+(pdftex.def)             Requested size: 192.0548pt x 137.8623pt.
+ [51 <./figures/luminosity_integration_and_uncertainty/linearity_means_clean3.p
+df> <./figures/linearity_7270.pdf, page is rotated 90 degrees>]) [52] [53]
 \openout2 = `Chapter5/chapter5.aux'.
 
 
 (./Chapter5/chapter5.tex
 Chapter 5.
-) [35
+) [54
 
 
 
@@ -2228,66 +2522,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--97
 , 2023, URL
  []
 
-[36
+[55
 
 
 
 
 ]
-Underfull \hbox (badness 2253) in paragraph at lines 136--140
+Underfull \hbox (badness 10000) in paragraph at lines 165--167
+[]\T1/ptm/m/n/12 (+20) The HDF Group, "HDF5", Last Mod-i-fied: June 23, 2023, "
+URL
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 180--184
 []\T1/ptm/m/n/12 (+20) S. M�ller, "Sim-u-la-tion of beam-induced back-grounds i
 n com-par-i-son with
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 136--140
+Underfull \hbox (badness 3189) in paragraph at lines 180--184
 \T1/ptm/m/n/12 (+20) data from the CMS pixel and other in-ner radii de-tec-tors
 ", \T1/ptm/m/it/12 (+20) Nu-clear In-
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 136--140
+Underfull \hbox (badness 1584) in paragraph at lines 180--184
 \T1/ptm/m/it/12 (+20) stru-ments and Meth-ods in Physics Re-search Sec-tion A \
 T1/ptm/m/n/12 (+20) 650 \T1/ptm/b/n/12 (+20) 1\T1/ptm/m/n/12 (+20) , 2011, doi:
 
  []
 
-) [37] (./thesis.ind) (./thesis.aux (./Portada/Portada.aux)
-(./Dedication/dedication.aux) (./Acknowledgement/acknowledgement.aux)
-(./Abstract/abstract.aux) (./Abstract/resumen.aux) (./Chapter1/chapter1.aux)
-(./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux)
-(./Chapter5/chapter5.aux))
+
+Underfull \hbox (badness 7116) in paragraph at lines 207--210
+[]\T1/ptm/m/n/12 (+20) CMS Col-lab-o-ra-tion, ^^PAb-so-lute Cal-i-bra-tion of t
+he Lu-mi-nos-ity Mea-sure-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--210
+\T1/ptm/m/n/12 (+20) ment at CMS: Win-ter 2012 Up-date^^Q, 2012, CMS-PAS-SMP-12
+-008,
+ []
+
+[56]) [57] (./thesis.ind) (./thesis.aux (./Portada/Portada.aux)
+(./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux)
+(./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux) (./Chapter5/chapter5.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 98D545AEA51710897CBCB7EA1AFC2FBE;7815.
+(rerunfilecheck)             Checksum: 18AED73CA241ED9270FEB2670C04946D;6635.
  ) 
 Here is how much of TeX's memory you used:
- 43960 strings out of 478287
- 1011907 string characters out of 5849289
- 1412152 words of memory out of 5000000
- 60835 multiletter control sequences out of 15000+600000
- 551607 words of font info for 272 fonts, out of 8000000 for 9000
+ 44236 strings out of 478287
+ 1022991 string characters out of 5849289
+ 1412429 words of memory out of 5000000
+ 61015 multiletter control sequences out of 15000+600000
+ 550711 words of font info for 290 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,16n,120p,1034b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
-s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (45 pages, 3166048 bytes).
+ 125i,16n,120p,1149b,1005s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (64 pages, 9443464 bytes).
 PDF statistics:
- 1502 PDF objects out of 1728 (max. 8388607)
- 821 compressed objects within 9 object streams
- 149 named destinations out of 1000 (max. 500000)
- 83885 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 2137 PDF objects out of 2487 (max. 8388607)
+ 1097 compressed objects within 11 object streams
+ 202 named destinations out of 1000 (max. 500000)
+ 79907 words of extra memory for PDF output out of 89155 (max. 10000000)
 

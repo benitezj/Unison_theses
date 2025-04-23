@@ -2,10 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Portada/Portada.aux
-A level-1 auxiliary file: Dedication/dedication.aux
-A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
 A level-1 auxiliary file: Abstract/abstract.aux
-A level-1 auxiliary file: Abstract/resumen.aux
 A level-1 auxiliary file: Chapter1/chapter1.aux
 A level-1 auxiliary file: Chapter2/chapter2.aux
 A level-1 auxiliary file: Chapter3/chapter3.aux
@@ -14,8 +11,8 @@ A level-1 auxiliary file: Chapter5/chapter5.aux
 The style file: unsrtnat.bst
 Database file #1: References/references.bib
 Warning--entry type for "concept_of_luminosity" isn't style-file defined
---line 70 of file References/references.bib
-I was expecting a `,' or a `}'---line 104 of file References/references.bib
+--line 93 of file References/references.bib
+I was expecting a `,' or a `}'---line 127 of file References/references.bib
  : 
  : @MISC{lhc_complex,
 (Error may have been on previous line)
@@ -61,6 +58,26 @@ Warning--empty journal in lumi_precise_2015_2016
 Warning--empty year in lumi_precise_2015_2016
 Warning--empty year in lumi_precise_2015_2016
 Warning--empty year in wikicern
+Warning--empty title in CMS_Exp_2008
+Warning--empty journal in CMS_Exp_2008
+Warning--empty year in CMS_Exp_2008
+Warning--empty year in CMS_Exp_2008
+Warning--empty title in det_summary
+Warning--empty journal in det_summary
+Warning--empty year in det_summary
+Warning--empty year in det_summary
+Warning--empty title in phase1_Pixel_Detector
+Warning--empty journal in phase1_Pixel_Detector
+Warning--empty year in phase1_Pixel_Detector
+Warning--empty year in phase1_Pixel_Detector
+Warning--empty title in Track_Reco_2014
+Warning--empty journal in Track_Reco_2014
+Warning--empty year in Track_Reco_2014
+Warning--empty year in Track_Reco_2014
+Warning--empty title in Pixel_Hit_Reconstruction
+Warning--empty journal in Pixel_Hit_Reconstruction
+Warning--empty year in Pixel_Hit_Reconstruction
+Warning--empty year in Pixel_Hit_Reconstruction
 Warning--empty title in Phase2_Upgrade
 Warning--empty journal in Phase2_Upgrade
 Warning--empty year in Phase2_Upgrade
@@ -77,6 +94,8 @@ Warning--empty title in BPM__electronics
 Warning--empty journal in BPM__electronics
 Warning--empty year in BPM__electronics
 Warning--empty year in BPM__electronics
+Warning--empty year in ROOT
+Warning--empty year in HD5
 Warning--empty title in beam_halo
 Warning--empty journal in beam_halo
 Warning--empty year in beam_halo
@@ -85,45 +104,65 @@ Warning--empty title in bkg_source
 Warning--empty journal in bkg_source
 Warning--empty year in bkg_source
 Warning--empty year in bkg_source
-You've used 20 entries,
+Warning--empty title in ghost_charge
+Warning--empty journal in ghost_charge
+Warning--empty year in ghost_charge
+Warning--empty year in ghost_charge
+Warning--empty title in LHC_bunch_populations
+Warning--empty journal in LHC_bunch_populations
+Warning--empty year in LHC_bunch_populations
+Warning--empty year in LHC_bunch_populations
+Warning--empty title in DCCT_calibration_studies
+Warning--empty journal in DCCT_calibration_studies
+Warning--empty year in DCCT_calibration_studies
+Warning--empty year in DCCT_calibration_studies
+Warning--empty title in CMS-PAS-SMP-12-008
+Warning--empty journal in CMS-PAS-SMP-12-008
+Warning--empty year in CMS-PAS-SMP-12-008
+Warning--empty year in CMS-PAS-SMP-12-008
+Warning--empty title in CMS:2021xjt
+Warning--empty journal in CMS:2021xjt
+Warning--empty year in CMS:2021xjt
+Warning--empty year in CMS:2021xjt
+You've used 32 entries,
             2481 wiz_defined-function locations,
-            607 strings with 8156 characters,
-and the built_in function-call counts, 4951 in all, are:
-= -- 326
-> -- 140
-< -- 20
-+ -- 80
-- -- 40
-* -- 317
-:= -- 739
-add.period$ -- 20
-call.type$ -- 20
-change.case$ -- 20
-chr.to.int$ -- 20
-cite$ -- 85
-duplicate$ -- 342
-empty$ -- 575
-format.name$ -- 60
-if$ -- 1003
+            638 strings with 10232 characters,
+and the built_in function-call counts, 7921 in all, are:
+= -- 526
+> -- 224
+< -- 32
++ -- 128
+- -- 64
+* -- 515
+:= -- 1183
+add.period$ -- 32
+call.type$ -- 32
+change.case$ -- 32
+chr.to.int$ -- 32
+cite$ -- 139
+duplicate$ -- 550
+empty$ -- 915
+format.name$ -- 96
+if$ -- 1603
 int.to.chr$ -- 1
-int.to.str$ -- 21
-missing$ -- 17
-newline$ -- 68
-num.names$ -- 60
-pop$ -- 291
+int.to.str$ -- 33
+missing$ -- 27
+newline$ -- 104
+num.names$ -- 96
+pop$ -- 465
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 32
 quote$ -- 0
-skip$ -- 214
+skip$ -- 336
 stack$ -- 0
-substring$ -- 40
-swap$ -- 25
+substring$ -- 64
+swap$ -- 39
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 134
-warning$ -- 65
-while$ -- 40
+type$ -- 218
+warning$ -- 107
+while$ -- 64
 width$ -- 0
-write$ -- 147
+write$ -- 231
 (There was 1 error message)

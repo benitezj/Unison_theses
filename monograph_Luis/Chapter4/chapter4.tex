@@ -1,46 +1,116 @@
-\chapter{Analysis and Results}
+\chapter{Luminosity Measurement}
 
-The analysis of the luminosity calibration obtained with the PCC detector for the publication "Precision luminosity measurement at CMS in proton-proton collisions at 13 TeV in 2017 and 2018" was successfully conducted, yielding final results that will be included in the official publication of this study.
+Once the final calibration constant of the PCC detector has been obtained using data primarily from the vdM program, the next step is to apply this calibration to the luminosity measured by the detector throughout the entire year of data acquisition. This chapter will detail the specifications of these so-called physics data and the various analyses conducted to determine the final luminosity, including the analysis of detector modules and background (afterglow) for each year. Additionally, cross-checks with other luminometers will be performed to ultimately determine the final uncertainty in the luminosity measurement.
 
-This chapter presents a detailed explanation of the entire analysis and processing workflow, from raw data acquisition, background analysis, and the selection of valid modules (veto modules), to the final calibration, which consists of the determination of the detector's visible cross-section \sigma_{vis}.
 
-Finally, cross-checks were performed with other luminometers, along with final comparisons against the integrated luminosity of the entire year, to evaluate and determine the final uncertainties.  
+\section{Physics Data}
 
-\section{Data acquisition and processing}
-\label{data}
+
+In June 2017, data collection for the second phase of Run 2 of the Large Hadron Collider (LHC) began, covering the years 2017 and 2018. This period resulted in a total recorded luminosity of \(49.81 \, \text{fb}^{-1}\) for 2017 and \(67.86 \, \text{fb}^{-1}\) for 2018, collected during proton-proton collisions at a center-of-mass energy of \(\sqrt{s} = 13\) TeV.
+
+The data-taking process started with the establishment of stable beams and continued until either the beam was intentionally stopped or temporarily interrupted for beam studies. The total luminosity delivered by the LHC to CMS (in blue) and the luminosity recorded by CMS (in orange) for 2017 and 2018 are illustrated in Figures~\ref{Lumi_2017} and~\ref{Lumi_2018}, respectively~\citep{wikicern}.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.45\textwidth]{Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2017_Normtag.pdf}
+    \includegraphics[width=.45\textwidth]{Chapter3/Luminosity/int_lumi_per_day_pp_2017_Normtag.pdf}
+    \caption[Cumulative day-by-day integrated luminosity in 2017]{(Left) Cumulative daily integrated luminosity. (Right) Daily integrated luminosity, 2017.}
+    \label{Lumi_2017}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.45\textwidth]{Chapter3/Luminosity/int_lumi_per_day_cumulative_pp_2018_Normtag.pdf}
+    \includegraphics[width=.45\textwidth]{Chapter3/Luminosity/int_lumi_per_day_pp_2018_Normtag.pdf}
+    \caption[Cumulative day-by-day integrated luminosity in 2018]{(Left) Cumulative daily integrated luminosity. (Right) Daily integrated luminosity, 2018.}
+    \label{Lumi_2018}
+\end{figure}
+
+The Large Hadron Collider (LHC) operates in cycles known as fills, during which protons are injected, accelerated, and stabilized before collisions begin. Luminosity rises sharply after beam stabilization, reaching a peak before gradually decreasing due to proton depletion. The stable beams phase is when most data is collected. A fill ends when proton levels drop too low or technical issues arise, leading to a controlled beam dump and a sudden drop in luminosity.
+
+Within each fill, data is recorded in runs, which represent continuous periods of data acquisition under stable detector and accelerator conditions. A single fill can contain one or more runs, depending on machine stability and configuration adjustments.
+
+The Pixel Cluster Counting (PCC) physics data from each year is divided into datasets corresponding to specific time periods, defined by a range of runs. In 2017, five datasets were established: B, C, D, E, and F, with their respective run ranges listed in Table~\ref{tab:period_run_ranges_2017}. In 2018, the data was split into seven periods: A, B, C, D1, D2, D3, and D4, detailed in Table~\ref{tab:period_run_ranges_2018}.
+
+\begin{comment}
+\begin{table}[h!]
+  \centering
+  \caption[Run ranges for 2017 periods]{2017 luminosity data periods with run ranges.}
+  \begin{tabular}{cc}
+    \textbf{Period} & \textbf{Run range} \\ \hline
+    2017B & 297046-299329 \\
+    2017C & 299368-302029 \\
+    2017D & 302031-302663 \\
+    2017E & 303824-304797 \\
+    2017F & 305040-306462 \\
+  \end{tabular}
+  \label{tab:period_run_ranges_2017}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \caption[Run ranges for 2018 periods]{2018 luminosity data periods with run ranges.}
+  \begin{tabular}{cc}
+    \textbf{Period} & \textbf{Run range} \\ \hline
+    2018A & 315252-316995 \\
+    2018B & 317080-319311 \\
+    2018C & 319337-320065 \\
+    2018D1 & 320500-321665 \\
+    2018D2 & 321710-322964 \\
+    2018D3 & 323363-324420 \\
+    2018D4 & 324564-325175 \\
+  \end{tabular}
+  \label{tab:period_run_ranges_2018}
+\end{table}
+\end{comment}
+
+\begin{table}[h!]
+  \centering
+  \begin{minipage}[t]{0.45\linewidth}
+    \centering
+    \caption[Run ranges for 2017 periods]{2017 luminosity data periods with run ranges.}
+    \begin{tabular}{cc}
+      \textbf{Period} & \textbf{Run range} \\ \hline
+      2017B & 297046-299329 \\
+      2017C & 299368-302029 \\
+      2017D & 302031-302663 \\
+      2017E & 303824-304797 \\
+      2017F & 305040-306462 \\
+    \end{tabular}
+    \label{tab:period_run_ranges_2017}
+  \end{minipage}%
+  \hspace{0.05\linewidth} % Espacio entre tablas
+  \begin{minipage}[t]{0.45\linewidth}
+    \centering
+    \caption[Run ranges for 2018 periods]{2018 luminosity data periods with run ranges.}
+    \begin{tabular}{cc}
+      \textbf{Period} & \textbf{Run range} \\ \hline
+      2018A & 315252-316995 \\
+      2018B & 317080-319311 \\
+      2018C & 319337-320065 \\
+      2018D1 & 320500-321665 \\
+      2018D2 & 321710-322964 \\
+      2018D3 & 323363-324420 \\
+      2018D4 & 324564-325175 \\
+    \end{tabular}
+    \label{tab:period_run_ranges_2018}
+  \end{minipage}
+\end{table}
+
+
+The datasets used in the analysis are derived from the Alignment and Calibration (AlCa) project within CMS and include two subsets: Random Trigger and Zero-Bias. The Random Trigger dataset contains events triggered in both colliding and non-colliding bunches, while the Zero-Bias dataset consists of unbiased events randomly selected among colliding bunches, identified using the Beam Pick-up Timing for eXperiments (BPTX) system.
+
+The Random Trigger data is reprocessed with an updated module veto list (as described in the next section) to improve background subtraction, known as afterglow corrections, which are further detailed in the next chapter. Similarly, the Zero-Bias dataset undergoes reprocessing with refined afterglow corrections to obtain the total yearly luminosity for PCC and to study stability and linearity in comparison with other luminometers.
+
+In 2017, vdM program was conducted during period C (fill 6016), while in 2018, it took place during period B (fill 6868).
+
 
 \section{Module selection}
 
-To ensure accurate luminosity measurement, a module selection process is performed to exclude modules exhibiting instability or non-linearity across different data-taking periods, as these indicate non-physical shifts in cluster counts. Only stable pixel detector modules are used for PCC rate measurements, excluding defective modules or those significantly affected by readout buffer limitations [25].
 
-The pixel system consists of 1856 modules, all initially considered for luminosity measurement. However, instabilities and non-linear effects can compromise accuracy. To identify "good" and "stable" modules, a selection is made by eliminating underperforming modules based on their relative contribution to the cross section. Modules with consistent contributions across standard physics runs are retained, while those showing significant deviations from the average are excluded.
+The pixel detector experiences time-dependent variations in performance due to factors such as noise, aging, and radiation damage, which affect the number of well-performing modules. To maintain accurate luminosity measurements, a selection is applied to the 1856 pixel detector modules, retaining only those that remain stable and linear across different data-taking periods. Modules exhibiting instability, non-physical shifts in cluster counts, or significant effects from readout buffer limitations are excluded. This selection is based on each module’s relative contribution to the total statistics in standard physics runs, ensuring that only consistently performing modules are used in PCC rate measurements, thereby preserving measurement reliability.
 
-The pixel detector undergoes changes over time due to factors such as detector noise, aging, and radiation damage, leading to variations in the number of well-performing modules. These variations are assessed at a 23-second granularity, matching the luminosity database.
-
-The procesos para module selection follows these steps:
-
-\begin{itemize}
-\item Low statistics lumisections are removed from the analisys for each period.
-\item The innermost layer (layer 0) of the pixel detector is excluded from the analysis due to significant dynamic inefficiency effects \cite{pas_18}. At higher $\mathcal{L}_{inst}$, the hit efficiency in this layer decreases because the readout chip cannot process all of the hits.
-\item A loose selection of 7\% based on RMS/mean from the module weight distribution (changes in the module PCC ratio relative to the total PCC) is applied. Modules with significantly large RMS/mean are removed with this selection as shown in \ref{goodmodule}.
-\item The module stability is re-evaluated based on RMS/mean values using an iterative method where the second iteration is made with a loose selection of 2\%.
-\end{itemize}
-
-%\item Using a stability profile for each module a Mean weight and the corresponding RMS  is calculated. Fig.~\ref{fig:goodbadmodules} shows examples of stability profiles for stable and unstable modules. Fig.~\ref{fig:outliermodules} shows the RMS/Mean values for all modules in this step.
-
-\begin{center}
-  \begin{figure}[h!]
-    \centering
-    \includegraphics[scale=.17]{Chapter4/good_module.png}\includegraphics[scale=.15]{Chapter4/RMSmean.png}
-    \caption[Profile of good and bad modules stability]{ left: stability profile for good and bad modules where weight is plotted as a function of lumi section.  Right: RMS/mean values of module weight for all pixel modules  where each pixel module is represented by a module number index (same happen for the 4\% iteration).} 
-    \label{goodmodule}
-  \end{figure}
-\end{center}
-
-To ensure accuracy, pixel module veto lists were generated for different time periods using the procedure described above. To further improve stability, a common module veto list was created by merging the lists from all periods. Modules consistently identified as "bad" across multiple periods were excluded. The PCC data with zero bias was then reprocessed using this common veto list for the final vdM analysis.
-
-%[25] CMS Collaboration, “Description and performance of track and primary-vertex reconstruction with the CMS tracker”, JINST 9 (2014) P10009, doi:10.1088/1748-0221/9/10/P10009, arXiv:1405.6569
-
+To ensure accuracy, pixel module veto lists were generated for different time periods following the procedure described below for each year. These lists were processed using the data to improve both stability and linearity. Modules that were consistently identified as "bad" across multiple periods were excluded from the analysis. Finally PCC data with ZeroBias triggers was then reprocessed using this common veto list for final vdM analysis.
 
 \subsection{2017 Pixel Detector module selection}
 \label{sec:pcc_perf_moduleselection_2017}
@@ -48,11 +118,11 @@ To ensure accuracy, pixel module veto lists were generated for different time pe
 %% Sam's presentation of the module veto: https://indico.cern.ch/event/704864/contributions/2891738/attachments/1599873/2536088/PCCUpdate20180213.pdf
 
 
-The 2017 PCC data is divided into five periods (datasets) throughout the year: B, C, D, E, and F. The selection of stable ("good") detector modules is based on analyzing each module's cluster count relative to the total (module weight), as described earlier in this section. The module weight is computed for each data period and compared across periods to assess stability.
+The 2017 PCC data is divided into five periods (datasets) throughout the year: B, C, D, E, and F. The selection of stable ("good") detector modules is based on analyzing each module's cluster count relative to the total (module weight). The module weight is computed for each data period and compared across periods to assess stability.
 
 During the final part of the 2017 run, power supply failures led to a significant number of non-operational modules, which were excluded from the final measurement. In particular, the Pixel detector experienced issues with DC-DC power converters during period F, resulting in a large number of unstable modules. Therefore, the stability analysis begins by comparing module weights between periods D and F.
 
-Variations in module weight across periods are used to identify unstable modules. Table~\ref{tab:pcc_2017_module_selections} presents the selection criteria applied in each comparison and the number of modules that meet these criteria.
+Variations in module weight across periods are used to identify unstable modules. The selection threshold applied to the distribution ranged from 3\% to 5\%, depending on each pair of analysis periods. Table~\ref{tab:pcc_2017_module_selections} shows the number of modules that meet these criteria for every analyzed period pair.
 
 \begin{table}[h]
     \caption{PCC 2017 detector module stability selections applied to the module weights}
@@ -91,27 +161,27 @@ Variations in module weight across periods are used to identify unstable modules
 The number of selected modules for the final analysis was \textbf{633 (34.1\%) for 2017}.
 
 
-\clearpage \newpage
 \subsection{2018 Pixel Detector module selection}
 \label{sec:pcc_perf_moduleselection}
 
 
-The recorded data from 2018 is divided into seven periods: A, B, C, D1, D2, D3, and D4. The vdM calibration data (LHC Fill 6868) is part of period B. The module vetolist is first created for period B and the vdM fill, and then extended to the other periods (A, C, D1, D2, D3, and D4).
+%[25] CMS Collaboration, “Description and performance of track and primary-vertex reconstruction with the CMS tracker”, JINST 9 (2014) P10009, doi:10.1088/1748-0221/9/10/P10009, arXiv:1405.6569
 
-To determine the list of good modules, the ZeroBias data is processed by analyzing the cluster count of each module relative to the total count (module weight), following the method described at the beginning of this section. A bootstrap procedure is then applied to remove unstable modules.
+For the year 2018, the selection of good pixel modules is based on the analysis of ZeroBias data by evaluating the contribution of each module to the total cluster count (module weight). This method enables the identification and progressive removal of unstable modules through the analysis of fluctuations in their response. The data for this year is divided into seven periods: A, B, C, D1, D2, D3, and D4. The procedure applied to these periods is as follows.
 
-As explained earlier, as a first steps, for each period, lumisections with poor PCC statistics are removed by applying a selection based on total PCC and all barrel layer 1 modules are excluded due to their significant sensitivity to dynamic inefficiency effects. The following describes the procedure applied to different periods.
+First, the innermost pixel layer (Layer 0) is excluded from the analysis due to its known susceptibility to dynamic inefficiency at high instantaneous luminosity, where the readout chip becomes incapable of processing all incoming signals~\cite{pas_18}.
 
-For period B and the vdM fill, an initial 7\% selection is applied to remove unstable modules. The stability of the remaining modules is then re-evaluated based on updated module weights, and a final 2\% selection is applied using the recalculated RMS/Mean values.
+Then, a two-step selection is applied: initially, a 7\% cut is used to discard modules with large fluctuations. After recalculating the module weights using the updated sample, a refined 2\% cut is applied.
 
-In periods A, C, and D, the module selection from period B serves as the starting point. The same procedure is applied, including the two-step selection with 7\% and 2\% thresholds. Additionally, module weight variations between period B and these periods are examined, and modules with a deviation greater than three sigma from the mean are removed.
+The vdM calibration data (Fill 6868), which belongs to period B, is treated first. Based on this dataset, an initial module veto list is constructed. The same procedure is then extended to the remaining periods—A, C, D1, D2, D3, and D4—using the results from period B as a reference. For each period, the two-step selection is repeated, and additional modules are excluded if their weight deviates by more than three standard deviations from the mean value observed in period B.
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.6\textwidth]{Chapter4/module_selection/RMSmean.png}
-    \caption{rms/mean of module weight profile for all modules. A loose selection of 7\% is applied to remove bad modules. Appropriate selections are applied in each iterative step to remove other bad modules.}
-    \label{fig:outliermodules}
-\end{figure}
+Figure~\ref{goodmodule} illustrates the Profile of good and bad modules and the stability profiles and RMS/mean distribution used for the selection.
+
+\begin{center} \begin{figure}[h!] 
+\centering 
+\includegraphics[scale=.17]{Chapter4/good_module.png}
+\includegraphics[scale=.15]{Chapter4/RMSmean.png} 
+\caption[Profile of good and bad modules stability and module cut of 7\%]{Left: stability profiles of typical good and bad modules, showing the module weight as a function of lumi section. Right: RMS/mean values for all pixel modules, each represented by a module index. The 7\% cut is applied to this distribution in the first iteration.} \label{goodmodule} \end{figure} \end{center}
 
 
 A common module list was created by combining all exclusive module lists from different period combinations. Table~\ref{tab:2commonveto} presents the number of good modules after sequentially combining each period.
@@ -131,7 +201,7 @@ A common module list was created by combining all exclusive module lists from di
 %\newpage
 
 \begin{table}[h]
-\caption{Common module vetolist created by combining module vetolists for each period using a 2\% quality selection as described in the text.}
+\caption[Common Module Vetolist with Quality Selection]{Common module vetolist created by combining module vetolists for each period using a 2\% quality selection.}
     \label{tab:2commonveto}
   \begin{center}
     \begin{tabular}{ccccc}  
@@ -155,7 +225,7 @@ The relative contribution of each pixel detector layer and disk to the total PCC
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\textwidth, height=7cm]{Chapter4/module_selection/ProfileX_combined_testing_LUM_20-001.png}
-    \caption{Stability profiles of Pixel detector layers and disks with the final module selection.}
+    \caption[Stability Profiles of Pixel Layers and Disks After Final Module Selection]{Stability profiles of Pixel detector layers and disks with the final module selection.}
     \label{fig:stabprof}
 \end{figure}
 
@@ -180,326 +250,258 @@ The relative contribution of each pixel detector layer and disk to the total PCC
   \end{center}
 \end{table}
 \end{comment}
- 
 
 
-
-\begin{comment}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\textwidth]{figures/performance_PCC/period_boundary.png}
-    \caption{2018 luminosity data taking periods showing data taking period boundaries and vdM calibration data.}
-    \label{fig:period_bound}
-\end{figure}
-\end{comment}
-
-\begin{comment}
-\begin{table}[h]
-    \caption{2018 luminosity data periods with run ranges.}
-    \label{tab:period run ranges}
-  \begin{center}
-    \begin{tabular}{ccccc}  
-    \textbf{Period}   & \textbf{Run range} \\ \hline
-     2018A      &        315252-316995         \\ 
-     2018B      &        317080-319311         \\ 
-     2018C      &        319337-320065         \\ 
-     2018D1     &        320500-321665        \\ 
-     2018D2     &        321710-322964         \\ 
-     2018D3     &        323363-324420         \\ 
-     2018D4     &        324564-325175        \\ 
-      \end{tabular}
-  \end{center}
-\end{table}
-\end{comment}
+\section{Afterglow Corrections}
 
 
+The extended waveform of the signal recorded in silicon, along with the production of secondary particles from high-energy interactions with the detector material, defines the afterglow effects observed in PCC. The concept of afterglow is inherent to the detector and its recorded events, independent of the specific modules used for data collection. Consequently, a consistent afterglow correction is always necessary, regardless of module performance or operational state.
 
-\clearpage
-\newpage
-\section{Background estimation}
-\label{bkg}
+In precision PCC luminosity measurements, understanding and correcting afterglow effects is crucial. Afterglow corrections are estimated using a dedicated data stream recorded with a random trigger (raw PCC), as mentioned in the previous chapter. It is essential to use raw PCC data from both colliding and non-colliding bunches. Colliding bunches provide genuine signals from particle interactions, while non-colliding bunches capture background noise and any lingering afterglow from previous collisions. This data is collected at a total bandwidth of approximately 500 Hz, covering all bunch crossings in the LHC orbit. For analysis, the data is averaged over periods of approximately 50 lumisections (around 20 minutes). An example of raw data for Fill the 9036 is shown in Fig.~\ref{fig:af_fit40}.
 
 
-To perform accurate fitting of the data, it is necessary to take into account the following background contributions to the PCC rates. These contributions are estimated independently during the Super Separation (SS) periods discussed in the previous section. Three primary sources of beam-induced background should be considered:
-
-\begin{itemize}
-
-\item Beam Halo (BH): This component occurs when the secondary particles reach the experimental cavern from the LHC tunnel. The primary beam halo is  the population of beam protons characterized by offsets in the transverse coordinates, travelling in  radial amplitude around the beam axis and being captured mostly by the LHC collimation system. In every step of the multi-stage cleaning system of the LHC, more halo particles are captured but also secondary showers are created by the interaction of the beam particles with the collimator material. The largest contribution of the  beam halo to the background consist of secondary particles  that stem from the interactions of the beam halo particles at the tertiary collimators and arrive in large radius into the CMS cavern \cite{beam_halo}.
-
-\item  Beam Gas Inelastic (BGI): This component arises from all inelastic interactions between primary beam protons and residual gas in the beam pipe. The interaction rate is largely influenced by the quality of the vacuum in the various beam line elements upstream of CMS, so the source of this contribution is distributed throughout the long straight section \cite{bkg_source}.
-
-\item Beam Gas Elastic (BGE): The elastic beam gas contribution is made up of all the coherent and quasi-elastic, nuclear elastic, and Coulomb scattering for multi-turn beam-gas interactions around the ring.  \cite{bkg_source}.
-
-\end{itemize}
-
-
-\subsection{Background estimation for 2017 data}
-\label{bkg}
-
-\begin{comment}
-For the 2017 vdM calibration program there were no Super-Separation data obtained. For this dataset a different strategy was implemented. In a first analysis the vdM scans have been fit without prior background subtraction on the rates, but including a floating constant term in the fit. However, this constant term was poorly constrained in the fit. A a detailed analysis of the tails of the vdM scans was performed where the PCC rates are studied at the most separated beam positions (last point in the tails), these tail rates have been used to study the background level for each BCID and as a function of time. Significant variation has been observed for different BCID's. 
-
-
-\begin{table}[h]    
-\caption{PCC background estimated for the 2017 vdM fill.}
-\label{tab:vdm_bkg_2017}
-  \begin{center}
-    \begin{tabular}{cc}
-    \textbf{BCID}   & \textbf{Background Rate}  \\  \hline
-      41     &  0.463     \\
-        281  &     0.466   \\
-       872    &   0.434   \\
-       1783  &    0.382   \\
-        2063  &     0.385   \\
-      \end{tabular}
-  \end{center}
-\end{table}
-\end{comment}
-
-
-\subsection{Background estimation for 2018 data}
-\label{bkg}
-\begin{comment}
-In order to illustrate a SS period for this analisys, the Fig. \ref{ssp_wide_bx282}, correspnding to the BCID 282, displays the $<\text{PCC}>$  that is the average of pixel clusters per event in a time of 1.32s (NB4). The lower regions of the plot correspond to a time window of 5 minutes during which the beams were separated by a distance of $6\sigma_{b}$.\\
-
-\begin{center}
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
-\includegraphics[width=.80\textwidth]{Chapter4/BX_282_Rates_SS1.png}
-\caption[Super Separation period I for BCID 282]{Background  level for BCID 282, where $<\text{PCC}>$ is the average of pixel clusters per event in a time of 1.32s (NB4)  . The lower region correspond to the super separation period I.}
-\label{ssp_wide_bx282}
+\includegraphics[width=0.8\textwidth]{figures/fill_7036_pattern_2.png}
+\caption[7036 fill patern]{fill 7036,  and encompassing 900 colliding bunches, serves as the foundation for estimating the afterglow parameters.
+}
+\label{fig:af_fit40}
 \end{figure}
-\end{center}
-
-To estimate the background value and its conrresponding statistical error (SEM) for each super separation period, the mean value and the standard deviation are taken from the distribution resulting  by making a Y-projection from the rates of $<\text{PCC}>$ shown in the Fig \ref{ssp_wide_bx282}. 
-To illustrate this process Fig. \ref{ss1_hist_282} displays a distribution for these values for the SS period I, specifically for BCID 282. The same plot and analysis were done  for each BCID.\\
 
 
-The background estimation for the PCC rates in 2018 is done in two Super-Separation scans (SS1 and SS2) where the beams are separated and the PCC rates correspond to detector noise. 
-An example of a SS period shown in Fig. \ref{fig:SS_rates}, the mean and error are obtained from the $y$ projection of this distribution during the SS period. 
+Two main types of afterglow noise have been identified:
 
+Type 1 Afterglow (Electronic Spillover): This noise originates from the prolonged signal waveform in silicon after a collision event.
 
-The background values  for the five different BCID's in 2017 and 2018 are shown in Table~\ref{tab:vdm_bkg}. 
-For 2018 the background correction applied to the PCC rate is $0.02757 \pm 0.01987$, calculated by taking the average of the BCD's and SS periods. 
-For 2017 each BCID was corrected separately.  
+Type 2 Afterglow (Activation-Induced Background): This exponentially decaying noise results from the activation of detector material by high-energy particles, leading to the production and decay of radioactive isotopes \cite{CMS-PAS-SMP-12-008}.
 
+Both types can be observed in Fig.~\ref{fig:afterglow}.  
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.44\textwidth]{figures/performance_PCC/PCCRawRate2017vdM_bcid41.png}
-    \includegraphics[width=0.54\textwidth,height=0.35\textwidth]{figures/performance_PCC/PCC_Rates_SS1.pdf}
-    \caption{Left: PCC raw rates for BCID  41 in the vdM fill 6016 (2017). 
-    Right: PCC raw rates in Super Separation Period I in fill 6868 (2018) for BCID 265.}
-    \label{fig:SS_rates}
+    \includegraphics[width=0.6\textwidth]{figures/performance_PCC/afterglow.png}
+    \caption[Type 1 and Type 2 Afterglow Responses in CMS Run 315690]{Train and afterglow tail showing type 1 and type 2 afterglow response in CMS Run 315690.}
+    \label{fig:afterglow}
 \end{figure}
 
 
-\begin{table}[h]    
-\caption{PCC background estimated with the SS1 and SS2 data in 2018 for all BCID's.}
-\label{tab:vdm_SS1_SS2}
-  \begin{center}
-    \begin{tabular}{ccccc}
-    \textbf{BCID}   & \textbf{Mean (SS1)} & \textbf{Mean (SS2)} \\ \hline
-      265     &  0.02902    &  0.02743    \\
-        865  &    0.02572  &     0.0281  \\
-       1780    &  0.02862   &     0.0286  \\
-       2192   &  0.02729  &     0.02323  \\
-        3380  &  0.02882  &    0.02896   \\
-      \end{tabular}
-  \end{center}
-\end{table}
+In the afterglow correction process, the following steps are involved:
 
+First, a mathematical fit function is used to model the afterglow tail from a single colliding bunch. This model incorporates parameters for Type 1 afterglow and an exponentially decaying function for Type 2, accounting for both amplitude and decay width. The function is summed over all bunch crossings and fine-tuned based on the luminosity associated with each bunch.tThe model expresses the amount of afterglow as follows:
 
+\begin{equation}
+F(x) = \sum_{k\in colliding } n_k \left[ \delta_{x,k} + A  \delta_{x,k+1} + B e^{-C(x - k - 1)}  \Theta(x-k-1) \right]
+\end{equation}
+
+Where $x$ is the BCID in the orbit, $k$ is an index over colliding bunches, $n_k$ is the cluster count for a colliding BCID excluding the afterglow and he first term $\delta_{x,k}$ corresponds to the colliding bunch. 
+The term $A$ represents the Type 1 afterglow fraction (\( x = k+1 \)). For each 50 LS block, it is determined by iterating the model until a good fit to the data is achieved. This fraction, relative to the colliding bunch, is fitted in each block. 
+and the last terms $B$ and $C$ corresponds to the Type 2 afterglow, which becomes relevant for $x\geq k+1$ and  are obtained from representative fills. This exponentially decaying component is characterized by two parameters: one for normalization relative to the colliding bunch rate and another for the decay constant. An example  for single train fit is shown in Fig. \ref{fig:af_fit99}. 
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.75\textwidth]{figures/2018_af_fit_1.png} 
+  \caption[Afterglow effect fit]{Fit to single train to estimate afterglow parameters.}
+  \label{fig:af_fit99}
+\end{figure}
 
 \begin{comment}
-\begin{table}[h]    
-\caption{PCC background estimated for 2017 and 2018 vdM data.}
-\label{tab:vdm_bkg}
-  \begin{center}
-    \begin{tabular}{|cc|ccc|}
-    \hline\hline
-   \multicolumn{2}{|c|}{\textbf{ 2017 Fill 6016}}   & \multicolumn{3}{|c|}{\textbf{2018 Fill 6868}}  \\ 
-   BCID   & Bkg.  & BCID   &  Bkg.(SS1)  &  Bkg.(SS2) \\ \hline
-    41     &  0.463 &  265     &  0.02902    &  0.02743    \\
-     281  &     0.466 &  865  &    0.02572  &     0.0281  \\
-     872    &   0.434  & 1780    &  0.02862   &     0.0286  \\
-      1783  &    0.382  & 2192   &  0.02729  &     0.02323  \\
-       2063  &     0.385 & 3380  &  0.02882  &    0.02896   \\
-       \hline\hline
-      \end{tabular}
-  \end{center}
-\end{table}
+Fig.~\ref{fig:pcc_type1f} shows the Type 1 parameter $A$ as a function of the PCC for both 2017 and 2018.
 
-
-
-
-\begin{comment}
-\begin{figure}[h]
+\begin{figure}[b]
     \centering
-    \includegraphics[width=0.8\textwidth]{figures/performance_PCC/PCC_Projection_SS1.pdf}
-    \caption{PCC distribution corresponding to the Super Separation Period I for BCID 265.}
-    \label{fig:SS_Projection}
+\includegraphics[width=0.48\textwidth]{figures/performance_PCC/afterglow_t1f_vsinstlumi_2017.png}
+\includegraphics[width=0.48\textwidth]{figures/performance_PCC/afterglow_t1f_vsinstlumi_2018.png}
+    \caption{PCC afterglow type 1 fraction as a function of PCC for the 2017 (left) and 2018 (right) datasets. Each point corresponds to one 50 LS block.}
+    \label{fig:pcc_type1f}
 \end{figure}
 
-Fig. \ref{fig:fitquality} shows chi2/ndof for vdM and imaging scans with an average value of 0.4514 where the Poly2G fit model converges for all BCIDs. Peak value and beam overlap along X and Y are extracted from fit to calculate PCC visible cross section $\sigma_{vis}$. $\sigma_{vis}$ for $2\%$ rms common module vetolist is 960.601 $\pm$ 0.851(stat.) mb.
 
-\begin{figure}[h]
+Fig. \ref{fig:pcc_residuals} shows the distribution residual counts in non-colliding BCID's relative to the average rate in colliding bunches. 
+
+\begin{figure}
     \centering
-    \includegraphics[width=0.6\textwidth]{figures/performance_PCC/fit_quality_chisquare.png}
-    \caption{chi2/ndof for all vdM and imaging scans.}
-    \label{fig:fitquality}
-\end{figure}
-
-The visible cross section per scan is averaged over all BCIDs and its scan to scan variation as shown in Fig. \ref{fig:sigmaperscan}.
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.7\textwidth]{figures/performance_PCC/sigma_vis_per_scan.png}
-    \caption{$\sigma_{vis}$ per scan where red line shows the average value.}
-    \label{fig:sigmaperscan}
+\includegraphics[width=0.48\textwidth]{figures/performance_PCC/afterglow_noncolliding_residual_2017.png}
+\includegraphics[width=0.48\textwidth]{figures/performance_PCC/afterglow_noncolliding_residual_2017.png}
+    \caption{PCC afterglow residuals the 2017 (left) and 2018 (right) datasets. The distributions are filled with the residual cluster count in non-colliding bunches after subtracting the afterglow and dividing by the average cluster count in colliding bunches. The residuals are evaluated for blocks of 50 LS's.}
+    \label{fig:pcc_residuals}
 \end{figure}
 \end{comment}
 
 
+ The values of %of type 1 Fraction (A), 
+ type 2 afterglow parameter amplitude (B) and decay width (C) for both years are shown in Table \ref{fig:af_fit4000}.
+
+%\FloatBarrier
+\begin{table}[H]
+  \centering
+  \caption[Type 2 afterglow parameters estimation]{Type 2 afterglow parameters obtained from fit to raw pcc data for both years}
+  \begin{tabular}{ccc}
+    \textbf{year} & \textbf{B} & \textbf{C} \\
+     \hline
+   %1-wagon train  & 0.001246  & 0.01261 \\
+   2017  & 0.0008228 &  0.01316\\
+   2018  & 0.0008265 &  0.01231\\
+  \end{tabular}
+  %\caption{Type 2 afterglow parameters obtained from fit to raw pcc data}
+  \label{fig:af_fit4000}
+\end{table}
 
 
+The afterglow correction is determined by the ratio of corrected to uncorrected PCC, which serves as a scale factor applied to individual bunch-by-bunch histograms in the zero-bias data. Figure \ref{fig:afterglowcorrection} illustrates this scale factor for a 50-lumi-section block in run 315690. On the left, both the Random PCC data and corrected PCC values are shown for all bunch crossings, highlighting the differences between the initial data and the adjusted counts. On the right, the afterglow scale factor for a single 50-lumi-section block is displayed, representing the correction applied for the final module veto.
 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.48\textwidth]{figures/performance_PCC/afterglow_correction_factor_1lsblock_315690_2.png}
+    \includegraphics[width=0.48\textwidth]{figures/performance_PCC/afterglow_correction_factor_1lsblock_315690_3.png}
+    \caption[PCC Random Rates vs BCID Before and After Afterglow Subtraction (Fill 6639)]{Left: PCC Random rates vs BCID for one 50 LS block in fill 6639 before and after the afterglow subtraction. Right: The ratio of raw and afterglow corrected rates, these ratios are applied to the ZeroBias data for the luminosity measurement.}
+    \label{fig:afterglowcorrection}
+\end{figure}
 
 
+During the correction process, a histogram of collision events, including bunch trains, is adjusted by subtracting the afterglow model, scaled by the luminosity of each colliding pair, from all subsequent events. This ensures that each bunch is fully corrected. Finally, the correction scale factor is defined as the ratio of corrected to uncorrected PCC and is applied to the final PCC in the zero-bias (ZB) data.
 
 
-
-
-
-
-\section{Beam Corrections}
-\label{bbcorrections}
-%https://cms.cern.ch/iCMS/analysisadmin/cadilines?line=LUM-22-001
-
-\section{Fit Model  Selection}
-
-After testing several mathematical fit models, the chosen model with the best fit quality and after applying all the corrections mentioned earlier, was a double Gaussian function:
-%https://gitlab.cern.ch/bril/VdMFramework/-/blob/main/src/plotting/capsigma_over_time.py#L90
-%\begin{equation}
-%DG+Const= C+P \cdot \Biggl[ F \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{1}^{2} } \Biggr) + (1-F) \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 \sigma_{2}^{2} } \Biggr) \Biggr] 
-%\end{equation}
-%\begin{equation}
-%f(x)= P \cdot \Biggl[ F \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2(\frac{\Sigma\cdot R}{F \cdot R+1-F} )^{2} } \Biggr) + (1-F) \cdot \exp \Biggl( \frac{-(x-\bar{x})^{2}}{2 (\frac{\Sigma}{F \cdot R+1-F} )^{2} } \Biggr) \Biggr] 
-%\end{equation}
-%[5] + [2]*([3]*exp(-(x-[4])**2/(2*([0]*[1]/([3]*[1]+1-[3]))**2))
-    %    + (1-[3])*exp(-(x-[4])**2/(2*([0]/([3]*[1]+1-[3]))**2)) )
-%("#Sigma","#sigma_{1}/#sigma_{2}","peak","Frac","Mean","Const")
-%[0] -> [0]*[1]/([3]*[1]+1-[3])
- %[1] -> [0]/([3]*[1]+1-[3])"""
- 
- 
-\begin{equation} 
-Poly4G(x)= A \Biggl[ 1+a_{2} \Biggl( \frac{-(x-\bar{x})}{\sigma} \Biggr)^{2} +a_{4} \Biggl( \frac{-(x-\bar{x})}{\sigma} \Biggr)^{4} \Biggr]\exp \Biggl[ -\frac{-(x-\bar{x})^{2}}{2\sigma^{2}}\Biggr]
-\end{equation}
- 
- 
-\begin{equation} 
-Poly4G(x)= A \Biggl( 1+a_{2} \biggl( \frac{-(x-\bar{x})}{\sigma} \biggr)^{2} +a_{4} \biggl( \frac{-(x-\bar{x})}{\sigma} \biggr)^{4} \Biggr)\exp \Biggl( -\frac{-(x-\bar{x})^{2}}{2\sigma^{2}}\Biggr)
-\end{equation}
- 
-\begin{itemize}
-%\item $C$ is the constant value.
-\item $P$ the $peak$ rate.
-\item $F$ is the fraction of the peak rate attributed to the first Gaussian in the sum.
-\item $x$ is the beam position.
-\item $\bar{x}$ is the mean.
-\item $\Sigma$ is the overlap between the beams.
-\item $R$ is the ratio between the standard deviations of the  Gaussians (first over the second).
-\end{itemize}
-
-
-
-\section{Visible cross section results}
-
-\section{Cross-detector comparisons}
 
 \begin{comment}
-For each luminometer, the calibrations derived using the van der Meer method and the final corrections are applied to the collected data. SBIL measurements are aggregated over time periods corresponding to LHC orbits, each lasting approximately 23.3 seconds (known as a "lumi-section"), and then integrated across the entire year. The luminometers measure the luminosity delivered to CMS by the LHC. However, the luminosity of interest for most physics analyses corresponds to the periods when the CMS detector operated correctly and the data was successfully recorded by its DAQ system. This recorded luminosity is reduced by a factor of (1 - dead time), where the dead time is determined by the CMS timing and control distribution (TCDS) system [21]. The resulting total integrated luminosity is TO DO: X for 2017 and TO DO: Y for 2018.
 
-Normalization uncertainties are considered correlated across the years studied if they arise.
+Figure~\ref{fig:pcc_afterglow} shows per-bunch pixel cluster counts per event from a 2018 fill before and after the application of the OOT corrections in the vicinity of the last bunch train before the abort gap: the increased contribution from spillover is clearly visible for the first bunch after the train on top of the exponential activation tail.
 
-Table 2: Summary of contributions to the relative systematic uncertainty in σvis (in \%) at √s = 13 TeV in 2017 and 2018. The systematic uncertainties are divided into groups affecting the vdM calibration at low luminosity (normalization), and the measurement of the luminosity in physics conditions (integration). The fourth column indicates whether the uncertainties are considered correlated between the two years, while the fifth column contains the accordingly combined uncertainty. TO DO: PCC only calibration is quoted in the table. To be discussed.
 
-The sources of systematic uncertainties that limit the precision of the measured luminosity have been thoroughly discussed above. We categorize these uncertainties into two types, as detailed in Table 2: "normalization" uncertainties, which impact the absolute luminosity scale determined by the vdM scan method, and "integration" uncertainties, which relate to the linearity and stability of response of the detectors.
 
-The dominant sources of normalization uncertainty are associated with transverse factorizability, beam-beam effects, and, to a lesser extent, scan-to-scan variations and cross-detector consistency at vdM (as described in Section 3). Both integration uncertainties (discussed in Section 5) are significant, with each surpassing any individual normalization uncertainty.
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[width=0.66\textwidth]{figures/detector_corrections/PCCAfterglow_zoomed_range.pdf}
+
+\caption{The number of clusters in the pixel tracker per event as a function of the BCIDs for the last bunch train of the orbit, with blue points representing the values before, and red crosses showing the results after the out-of-time corrections are applied. The upper panel focuses on the full count range for colliding and empty BCIDs, while the lower panel shows the empty bunch crossings with a different scale for better visibility. In the lower panel, the red crosses indicating the residual rate are near zero, illustrating the excellent performance of the correction.}
+\label{fig:pcc_afterglow}
+\end{figure*}
+
+
+\begin{figure}
+    \centering
+\includegraphics[width=0.48\textwidth]{figures/performance_PCC/afterglow_avgsf_vsLSBlock_2017.png}
+\includegraphics[width=0.48\textwidth]{figures/performance_PCC/afterglow_avgsf_vsLSBlock_2018.png}
+    \caption{PCC average afterglow scale factors per orbit for the 2017 (left) and 2018 (right) datasets. Each point corresponds to one 50 LS block time ordered during the year.}
+    \label{fig:pcc_afterglow_avgsf}
+\end{figure}
+
 \end{comment}
 
-\begin{figure}[h]
-  %\centering
-  \hspace{-1.9cm}
-  \begin{minipage}{0.48\textwidth}
+
+
+\section{Luminosity integration}
+\label{sec:luminosity_integration_and_uncertainty}
+
+The luminosity integration entails applying the afterglow correction and the absolute vdM calibration to the luminometer rates, with all corrections applied as described in Sec. \ref{bbcorrections} over a full year of physics data-taking. These yearly datasets, collected for each luminometer, are used to estimate systematic uncertainties related to cross-detector consistency (stability) and linearity.
+
+An example of the calibrated instantaneous luminosity for PCC in 2017 is shown in Fig. \ref{Lumi_2017}. The plot on the left displays the calibrated Instantaneous luminosity throughout the entire year where data is presented as discrete measurements for each lumi section, reflecting the collision rate at that specific time. On the right, the luminosity evolution for a single fill (Fill 6120) is shown, where the gradual decrease in luminosity over time is clearly visible, this decline results from the loss of protons as collisions take place during the fill.
+
+
+\begin{figure}[h!]
     \centering
-    \includegraphics[scale=.4]{Chapter3/2017_stability/ratio__hfet-pcc-plt-hfocdivmean_PCConly.pdf}
-    \raggedleft
-    \caption[Doros]{Beam Position at the vdM Scan Program 2017 \cite{lhc_complex}.}
-    \label{BeamPosition_2017}
-  \end{minipage}
-  \hspace{1cm} %\hfill
-  \begin{minipage}{0.48\textwidth}
-    \centering
-    \raisebox{0.3cm}{
-    \includegraphics[scale=.4]{Chapter3/2017_stability/stacked__hfet-pcc-plt-hfocdivmean_PCConly.pdf}
-    }
-    \caption{Another image caption.}
-    \label{AnotherImage}
-  \end{minipage}
+    \includegraphics[width=.47\textwidth]{figures/performance_PCC/Lumi_2017.png}
+    \includegraphics[width=.45\textwidth]{figures/LumiVsTime_fill7270.pdf}
+    %\includegraphics[width=.47\textwidth]{figures/performance_PCC/Lumi_2017_fill_6120.png}
+    \caption[PCC Instantaneous Luminosity (Entire Year 2017) and Fill 7270 (2018)]{2017 PCC instantaneous luminosity as a function of lumi section for the entire year . (right) Instantaneous luminosity as measured offline as a function of time for LHC fill 7270 corresponding to the year 2018. The drops in luminosity correspond to emittance scans performed at the beginning and end of the fill, and to luminosity adjustments steps.}
+    \label{Lumi_2017}
 \end{figure}
 
 
 
-\begin{figure}[h]
-  %\centering
-  \hspace{-1.9cm}
-  \begin{minipage}{0.48\textwidth}
-    \centering
-    \includegraphics[scale=.4]{Chapter3/2018_stability/ratio__hfet-pcc-plt-hfocdivmean_PCConly.pdf}
-    \raggedleft
-    \caption[Doros]{Beam Position at the vdM Scan Program 2017 \cite{lhc_complex}.}
-    \label{BeamPosition_2017}
-  \end{minipage}
-  \hspace{1cm} %\hfill
-  \begin{minipage}{0.48\textwidth}
-    \centering
-    \raisebox{0.3cm}{
-    \includegraphics[scale=.4]{Chapter3/2018_stability/stacked__hfet-pcc-plt-hfocdivmean_PCConly.pdf}
-    }
-    \caption{Another image caption.}
-    \label{AnotherImage}
-  \end{minipage}
+The total CMS luminosity for 2017 and 2018 relies on multiple independently calibrated detectors: HFET, HFOC, PLT, and PCC. The final luminosity is obtained by averaging the measurements from these detectors. Ideally, all detectors would measure the same luminosity, making the average equivalent to any individual measurement. However, differences among the luminometers arise due to statistical fluctuations, applied rate corrections, the limited precision of the absolute calibrations and uncorrected instrumental effects.
+
+Additional variations stem from time-dependent changes in detector performance and environmental conditions. These include factors such as detector aging, radiation damage, and noise fluctuations. In particular, detector aging can lead to gradual degradation in performance over time.
+
+The stability systematic uncertainty is evaluated by assessing the consistency of each individual measurement with respect to the mean luminosity. This is done by computing the ratio of the luminosity measured by each independently calibrated luminometer (HFET, HFOC, PCC, and PLT) to the mean luminosity. Each ratio is averaged over time intervals of approximately 20 minutes (50 lumi sections), as shown in Fig.~\ref{fig:stabilitylinearity:stability}, where the upper row of the figure shows these ratios as a function of integrated luminosity, while the lower row displays their luminosity-weighted averages.
+
+Finally, the standard deviation of the four averaged ratio values is taken as the stability uncertainty, amounting to \textbf{0.21\%} for 2017 and \textbf{0.30\%} for 2018.
+
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.45\textwidth]{figures/luminosity_integration_and_uncertainty/ratio__hfet-pcc-plt-hfocdivmean_PCConly_17.pdf}
+\hspace*{0.05\textwidth}
+\includegraphics[width=0.45\textwidth]{figures/luminosity_integration_and_uncertainty/ratio__hfet-pcc-plt-hfocdivmean_PCConly_18.pdf}
+\includegraphics[width=0.45\textwidth]{figures/luminosity_integration_and_uncertainty/means_clean__hfet-pcc-plt-hfocdivmean_PCConly_17.pdf}
+\hspace*{0.05\textwidth}
+\includegraphics[width=0.45\textwidth]{figures/luminosity_integration_and_uncertainty/means_clean__hfet-pcc-plt-hfocdivmean_PCConly_18.pdf}
+\caption[Luminosity Ratios (HFET, HFOC, PLT, PCC) to Mean per 50 LS Blocks (2017 & 2018)]{The ratio of the luminosity measured by HFET, HFOC, PLT and PCC to their mean per 50 LSblocks for 2017 (left) and 2018 (right). The upper row shows the ratio as a function of integrated luminosity, while the lower row displays the luminosity-weighted average of the ratios. The error bars signify the weighted standard deviation over the 20-minute units. The striped area represents the unweighted standard deviation of the four average ratio values.}
+\label{fig:stabilitylinearity:stability}
+\end{figure}
+
+The linearity systematic uncertainty arises from the fact that a detector’s response may vary at different luminosity levels. This uncertainty is evaluated following the methodology described in previous publications~\cite{pas_17, pas_18}. The method consists of performing a linear fit to the ratio of the detector’s measured instantaneous luminosity to that of a reference luminometer, as a function of the reference single-bunch instantaneous luminosity (SBIL), taking advantage of the natural luminosity decay during each fill.
+
+Only fills with a span of at least 2 Hz/$\mu$b and containing a minimum of five data points are considered. Each point represents an average over approximately six minutes (15 LS). Figure~\ref{fig:stabilitylinearity:linearity3}(right) shows an example of the linearity ratio for 2018 from fill 7272, comparing different detectors to the reference detector HFOC.
+
+Due to their robust linear response, the final publication uses either DT or RAMSES~\cite{CMS:2021xjt} as the reference luminometer. The luminosity-weighted mean and standard deviation of the slopes obtained from comparisons with DT and RAMSES are shown in Figure~\ref{fig:stabilitylinearity:linearity3}. The larger of the two standard deviations is taken as the uncertainty estimate, yielding 0.081\%/(Hz/$\mu$b) for 2017 and 0.082\%/(Hz/$\mu$b) for 2018. The final linearity uncertainty on the integrated luminosity is computed by multiplying these values by the corresponding mean SBIL, resulting in uncertainties of 0.43\% for 2017 and 0.42\% for 2018.
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.45\textwidth]{figures/luminosity_integration_and_uncertainty/linearity_means_clean3.pdf}
+\hspace*{0.05\textwidth}
+\includegraphics[width=0.45\textwidth]{figures/linearity_7270.pdf}
+\caption[Residual Nonlinearity and Luminosity Ratios (2017 & 2018)]{(Right)The luminosity weighted average of the measured residual nonlinearity between the mean luminosity and DT or RAMSES (RAM) for 2017 and 2018. For 2017, the value is reported also for the mean without PCC, which is used for the low pile-up fills. The error bars signify the weighted standard deviation over the individual fills. (left)Ratios of instantaneous luminosity as measured offline by the CMS luminometers as a function of the instantaneous luminosity measured by HFOC for LHC fill 7270. The points correspond to intervals of 40 LS}
+\label{fig:stabilitylinearity:linearity3}
 \end{figure}
 
 
 
 
-\begin{figure}[h]
-  %\centering
-  \hspace{-1.9cm}
-  \begin{minipage}{0.48\textwidth}
-    \centering
-    \includegraphics[scale=.4]{Chapter3/2017_stability/means_clean__hfet-pcc-plt-hfocdivmean_PCConly.pdf}
-    \raggedleft
-    \caption[Doros]{Beam Position at the vdM Scan Program 2017 \cite{lhc_complex}.}
-    \label{BeamPosition_2017}
-  \end{minipage}
-  \hspace{1cm} %\hfill
-  \begin{minipage}{0.48\textwidth}
-    \centering
-    \raisebox{0.3cm}{
-    \includegraphics[scale=.4]{Chapter3/2018_stability/means_clean__hfet-pcc-plt-hfocdivmean_PCConly.pdf}
-    }
-    \caption{Another image caption.}
-    \label{AnotherImage}
-  \end{minipage}
-\end{figure}
+
+
+%The low pileup (low PU) data, recorded in a handful of fills in 2017, featuring an average SBIL of only 0.41 Hz/\(\mu\)b, are handled in an identical manner. In this region, PCC is not available for luminosity measurement due to poor statistical performance. 
+%The sample standard deviation of the remaining three luminosity sources is 0.67\%, which is taken as the consistency uncertainty.
+
+%The linearity uncertainty is estimated using the relative non-linearity slopes derived in high pileup conditions for the mean of HFOC, HFET and PLT with respect to DT and RAMSES. The value used (0.113\%(Hz/\(\mu\)b)$^{-1}$ 
+%is the average relative slope between the three-detector mean and RAMSES. 
+%Multiplied by the mean SBIL in the low pileup era, this results in a 0.04\% uncertainty. 
 
 
 \section{Systematic Uncertainties}
 
 
+The methods used to determine the integrated luminosity for the CMS proton-proton data collected in 2017 and 2018 at 13 TeV, as well as the sources of systematic uncertainty limiting its precision, have been discussed throughout this document. The final uncertainties are grouped into two main categories, normalization and integration. 
+
+
+Normalization includes all uncertainties related to corrections applied during the final detector calibration with the determination of the visible cross section ($\sigma_{\text{vis}}$) using the vdM scan method, as described in Chapters~\ref{bbcorrections} and~\ref{Visible cross section results}. The dominant sources of uncertainty in this category are related to x-y factorizability, scan-to-scan variations, and cross-detector consistency during the vdM fills.
+
+As discussed throughout the calibration corrections, the normalization uncertainties are considered correlated across years when they originate from the same underlying physical processes or instrumental sources, or when an identical methodology is the dominant contributor to the uncertainty. Exceptions include scan-to-scan and bunch-to-bunch variations in the measured $\sigma_{\text{vis}}$, as well as inconsistencies between the results from independent luminometers during the vdM fill. These factors are partly statistical or random in nature, and their underlying causes may vary from year to year.
+
+The second actegory refers to the integration uncertainties, which relate to the efficiency and linearity of the detector response, as discussed in the previous chapter. These uncertainties arise from the stability and linearity of the different luminometers over the course of the entire year. In this case, cross-detector luminosity comparisons are treated as uncorrelated, whereas linearity uncertainties associated with the measured mean luminosity (calculated as the average of the values provided by the four bunch-by-bunch capable systems) are considered correlated.
+
+
+Summing up the normalization and integration uncertainties, which contribute similarly to the total, the relative precision is 0.86\% in 2017 and 0.83\% in the high-pileup periods of 2018. Table \ref{TAB:SystematicError} provides a detailed summary of the uncertainties associated with the two main categories (normalization and integration) as well as the final consistency among the independently calibrated systems.
+
+ 
+
+\begin{table}[H]
+    %\centering
+    \caption[Summary of the luminosity uncertainty components in 2017 and 2018]{Summary of the luminosity uncertainty components in 2017 and 2018, divided into normalization and integration categories.}
+    \label{TAB:SystematicError}
+    \begin{tabular}{|l|l|c|c|}
+      \hline
+      & Source                                        & 2017 [\%] & 2018 [\%] \\
+      \hline\hline
+      \multirow{10}{*}{Normalization} 
+      & \hspace{+2mm} Ghost and satellite charge      & 0.06 & 0.07 \\
+      & \hspace{+2mm} Beam current normalization      & 0.20 & 0.20 \\
+      & \hspace{+2mm} Orbit drift                     & 0.09 & 0.19 \\
+      & \hspace{+2mm} Beam-beam effects               & 0.29 & 0.30 \\
+      & \hspace{+2mm} Length scale calibration        & 0.12 & 0.14 \\
+      & \hspace{+2mm} Transverse factorizability      & 0.33 & 0.36 \\
+      & \hspace{+2mm} Scan to scan variation          & 0.26 & 0.27 \\
+      & \hspace{+2mm} Bunch to bunch variation        & 0.10 & 0.10 \\
+      & \hspace{+2mm} Cross-detector consistency at vdM  & 0.41 & 0.14 \\
+      \hline\hline
+      \multirow{2}{*}{Integration} 
+      & \hspace{+2mm} Cross-detector consistency per year & 0.21 & 0.30 \\
+      & \hspace{+2mm} Linearity                       & 0.43 & 0.42 \\
+      \hline\hline
+      & \textbf{Total normalization uncertainty}      & \textbf{0.71} & \textbf{0.65} \\
+      & \textbf{Total integration uncertainty}        & \textbf{0.48} & \textbf{0.52} \\
+      & \textbf{Total uncertainty}                    & \textbf{0.86} & \textbf{0.83} \\
+      \hline
+    \end{tabular}
+\end{table}
