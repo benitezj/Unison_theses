@@ -21,45 +21,48 @@ Warning--empty journal in LHC
 Warning--empty journal in LHCII
 Warning--empty journal in LHClum
 Warning--empty journal in CMS3
-You've used 12 entries,
+Warning--empty journal in PCC1
+Warning--empty journal in PCC2
+Warning--empty journal in PCC3
+You've used 15 entries,
             2481 wiz_defined-function locations,
-            625 strings with 5735 characters,
-and the built_in function-call counts, 3346 in all, are:
-= -- 297
-> -- 84
-< -- 13
-+ -- 48
-- -- 24
-* -- 163
-:= -- 554
-add.period$ -- 41
-call.type$ -- 12
-change.case$ -- 22
-chr.to.int$ -- 12
-cite$ -- 16
-duplicate$ -- 222
-empty$ -- 340
-format.name$ -- 36
-if$ -- 707
-int.to.chr$ -- 1
-int.to.str$ -- 13
-missing$ -- 12
-newline$ -- 73
-num.names$ -- 36
-pop$ -- 113
+            634 strings with 5954 characters,
+and the built_in function-call counts, 4129 in all, are:
+= -- 360
+> -- 105
+< -- 16
++ -- 62
+- -- 30
+* -- 208
+:= -- 679
+add.period$ -- 50
+call.type$ -- 15
+change.case$ -- 28
+chr.to.int$ -- 13
+cite$ -- 22
+duplicate$ -- 276
+empty$ -- 424
+format.name$ -- 45
+if$ -- 869
+int.to.chr$ -- 3
+int.to.str$ -- 16
+missing$ -- 15
+newline$ -- 88
+num.names$ -- 45
+pop$ -- 146
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 15
 quote$ -- 0
-skip$ -- 135
+skip$ -- 161
 stack$ -- 0
-substring$ -- 56
-swap$ -- 33
+substring$ -- 62
+swap$ -- 42
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 78
-warning$ -- 4
-while$ -- 27
+type$ -- 99
+warning$ -- 7
+while$ -- 33
 width$ -- 0
-write$ -- 160
+write$ -- 193
 (There were 2 error messages)

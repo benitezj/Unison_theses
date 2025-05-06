@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -66,6 +66,22 @@ CMS Tracker~Group of~the CMS~collaboration.
 \newblock The cms phaces-1 pixel detector upgrade.
 \newblock \emph{JINST 16 (2021) P02027}, 2022.
 \newblock \doi{10.1088/1748-0221/16/02/P02027}.
+
+\bibitem[collaboration(2018{\natexlab{a}})]{PCC1}
+The~CMS collaboration.
+\newblock Cms luminosity based on pixel cluster counting -summer 2012 update.
+\newblock March 2018{\natexlab{a}}.
+
+\bibitem[collaboration(2018{\natexlab{b}})]{PCC2}
+The~CMS collaboration.
+\newblock Luminosity measurement at cms.
+\newblock March 2018{\natexlab{b}}.
+
+\bibitem[collaboration(2018{\natexlab{c}})]{PCC3}
+The~CMS collaboration.
+\newblock Precision luminosity measurement in proton-protoncollisions at √s =
+  13 tev in 2015 and 2016 at cms.
+\newblock March 2018{\natexlab{c}}.
 
 \bibitem[Can(2018)]{Vdm}
 Yusuf Can.
