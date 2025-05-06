@@ -2,6 +2,7 @@
 % Please have a look at the README.md file for info on how to use the template
 
 \documentclass[a4paper,12pt,times,numbered,print,custommargin,index,custombib,oneside]{Classes/PhDThesisPSnPDF}
+\usepackage{placeins} 
 \usepackage{multirow}
 \usepackage{comment}
 \usepackage{tocloft}
@@ -126,14 +127,14 @@
 
 % ******************************** Front Matter ********************************
 \begin{document}
-	\linenumbers   %line numbers
+	%\linenumbers   %line numbers
 	\frontmatter
 	\include{Portada/Portada}
-	\include{Dedication/dedication}
+	%\include{Dedication/dedication}
 	%\include{Declaration/declaration}
-	\include{Acknowledgement/acknowledgement}
+	%\include{Acknowledgement/acknowledgement}
 	\include{Abstract/abstract}
-	\include{Abstract/resumen}
+	%\include{Abstract/resumen}
 	
 	% *********************** Adding TOC and List of Figures ***********************
 	

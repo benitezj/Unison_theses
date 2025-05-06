@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{32}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -95,6 +95,39 @@
 {Online resource: "CMS Luminosity - Public Results", 2023, URL
   https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults }.
 
+\bibitem[{CMS Collaboration, "The CMS experiment at the CERN LHC",
+  \textit{JINST} \textbf{3} S08004, 2008, doi:
+  10.1088/1748-0221/3/08/s08004}()]{CMS_Exp_2008}
+{CMS Collaboration, "The CMS experiment at the CERN LHC", \textit{JINST}
+  \textbf{3} S08004, 2008, doi: 10.1088/1748-0221/3/08/s08004}.
+
+\bibitem[{A.M. Sirunyan et al, "Particle-flow reconstruction and global event
+  description with the CMS detector", \textit{JINST} \textbf{12} P10003, 2017,
+  doi: 10.1088/1748-0221/12/10/p10003}()]{det_summary}
+{A.M. Sirunyan et al, "Particle-flow reconstruction and global event
+  description with the CMS detector", \textit{JINST} \textbf{12} P10003, 2017,
+  doi: 10.1088/1748-0221/12/10/p10003}.
+
+\bibitem[{W. Adam et al, "The CMS Phase-1 pixel detector upgrade",
+  \textit{JINST} \textbf{16} P02027, 2021, doi:
+  10.1088/1748-0221/16/02/p02027}()]{phase1_Pixel_Detector}
+{W. Adam et al, "The CMS Phase-1 pixel detector upgrade", \textit{JINST}
+  \textbf{16} P02027, 2021, doi: 10.1088/1748-0221/16/02/p02027}.
+
+\bibitem[{CMS Collaboration, "Description and performance of track and
+  primary-vertex reconstruction with the CMS tracker", \textit{JINST}
+  \textbf{9} P10009, 2014, doi:
+  10.1088/1748-0221/9/10/p10009}()]{Track_Reco_2014}
+{CMS Collaboration, "Description and performance of track and primary-vertex
+  reconstruction with the CMS tracker", \textit{JINST} \textbf{9} P10009, 2014,
+  doi: 10.1088/1748-0221/9/10/p10009}.
+
+\bibitem[{D. A. Giurgiu, "Pixel Hit Reconstruction with the CMS Detector",
+  physics.ins-det \textbf{2}, 2008,
+  arXiv:0808.3804}()]{Pixel_Hit_Reconstruction}
+{D. A. Giurgiu, "Pixel Hit Reconstruction with the CMS Detector",
+  physics.ins-det \textbf{2}, 2008, arXiv:0808.3804}.
+
 \bibitem[{CMS Collaboration, "The Phase-2 Upgrade of the CMS Beam Radiation,
   Instrumentation, and Luminosity Detectors: Conceptual Design",
   CMS-NOTE-2019-008, 2020}()]{Phase2_Upgrade}
@@ -121,6 +154,17 @@
   compensated diode detectors — results from development systems”, Conf.
   Proc. C1204151 (2012)}.
 
+\bibitem[{ROOT Data Analysis Framework, "An open-source data analysis framework
+  used by high energy physics and others, release 6.28/04, " URL
+  https://root.cern}()]{ROOT}
+{ROOT Data Analysis Framework, "An open-source data analysis framework used by
+  high energy physics and others, release 6.28/04, " URL https://root.cern}.
+
+\bibitem[{The HDF Group, "HDF5", Last Modified: June 23, 2023, "URL
+  https://portal.hdfgroup.org/display/HDF5/HDF5}()]{HD5}
+{The HDF Group, "HDF5", Last Modified: June 23, 2023, "URL
+  https://portal.hdfgroup.org/display/HDF5/HDF5}.
+
 \bibitem[{S. Orfanelli et al, "A novel Beam Halo Monitor for the CMS experiment
   at the LHC", \textit{JINST} \textbf{10} P11011, 2015, doi:
   10.1088/1748-0221/10/11/P11011}()]{beam_halo}
@@ -137,5 +181,40 @@
   from the {CMS} pixel and other inner radii detectors", \textit{Nuclear
   Instruments and Methods in Physics Research Section A} 650 \textbf{1}, 2011,
   doi: https://doi.org/10.1016/j.nima.2010.11.082}.
+
+\bibitem[{A. Alici et al., "Study of the LHC ghost charge and satellite bunches
+  for luminosity calibration.", CERN Internal Note CERN-ATS-Note-2012-029 PERF,
+  2012}()]{ghost_charge}
+{A. Alici et al., "Study of the LHC ghost charge and satellite bunches for
+  luminosity calibration.", CERN Internal Note CERN-ATS-Note-2012-029 PERF,
+  2012}.
+
+\bibitem[{G. Anders et al., "Study of the relative LHC bunch populations for
+  luminosity calibration", Technical Report CERN-ATS-Note-2012-028 PERF,
+  2012}()]{LHC_bunch_populations}
+{G. Anders et al., "Study of the relative LHC bunch populations for luminosity
+  calibration", Technical Report CERN-ATS-Note-2012-028 PERF, 2012}.
+
+\bibitem[{C. Barschel et al., "Results of the LHC DCCT calibration studies",
+  Technical Report CERN-ATS-Note-2012-026 PERF,
+  2012}()]{DCCT_calibration_studies}
+{C. Barschel et al., "Results of the LHC DCCT calibration studies", Technical
+  Report CERN-ATS-Note-2012-026 PERF, 2012}.
+
+\bibitem[{CMS Collaboration, “Absolute Calibration of the Luminosity
+  Measurement at CMS: Winter 2012 Update”, 2012, CMS-PAS-SMP-12-008,
+  https://cds.cern.ch/record/1434360.}()]{CMS-PAS-SMP-12-008}
+{CMS Collaboration, “Absolute Calibration of the Luminosity Measurement at
+  CMS: Winter 2012 Update”, 2012, CMS-PAS-SMP-12-008,
+  https://cds.cern.ch/record/1434360.}
+
+\bibitem[{CMS $\sqrt{}$ Collaboration, “Precision luminosity measurement in
+  proton-proton collisions at s = 13 TeV in 2015 and 2016 at CMS”, Eur. Phys.
+  J. C 81 (2021), no. 9, 800, doi:10.1140/epjc/s10052-021-09538-2,
+  arXiv:2104.01927.}()]{CMS:2021xjt}
+{CMS $\sqrt{}$ Collaboration, “Precision luminosity measurement in
+  proton-proton collisions at s = 13 TeV in 2015 and 2016 at CMS”, Eur. Phys.
+  J. C 81 (2021), no. 9, 800, doi:10.1140/epjc/s10052-021-09538-2,
+  arXiv:2104.01927.}
 
 \end{thebibliography}

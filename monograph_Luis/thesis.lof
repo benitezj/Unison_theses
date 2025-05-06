@@ -1,25 +1,40 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Cross section illustration}}{5}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Colliding beam interaction}}{6}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Luminosity uncertainty in a process}}{9}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces LHC Complex}}{10}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Delivered integrated luminosity per year}}{12}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Cross section illustration}}{4}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Luminosity uncertainty in a process}}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces LHC Complex}}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Delivered integrated luminosity per year}}{9}{figure.caption.10}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Panoramic view of the CMS detector}}{11}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Transverse slice view of the CMS detector}}{12}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Layout of the luminometers in the CMS detector}}{15}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Schematic cross section through the CMS tracker}}{16}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces CMS Phase-1 pixel detector}}{16}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Types of modules in the pixel detector}}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Schematic view of a pixel sensor and its connection to the readout channels}}{18}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Construction of a pixel cluster}}{19}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces PCC linearity with pile-up}}{20}{figure.caption.19}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces PCC linearity with pile-up}}{15}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sketch of a vdM scan in $x$ and $y$ directions and example of fitting resulting rates}}{19}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Cumulative day-by-day integrated luminosity in 2017}}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Cumulative day-by-day integrated luminosity in 2022}}{20}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Doros}}{23}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Doros}}{25}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sketch of a vdM scan in $x$ and $y$ directions and example of fitting resulting rates}}{24}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Beam Position in vdM scan 2017}}{27}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Beam Position in vdM scan 2017}}{29}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Background Per BCID (2017)}}{31}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Background in BCID 265 during SS1 (2018)}}{32}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Examples of Fits for vdM1: BCID 41 (2017) and BCID 2192 (2018)}}{36}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces $\sigma _{vis}$ per BCID for all scans}}{37}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces $\sigma _{vis}$ average per scan and final result}}{38}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces $\sigma _{\text {vis}}$ Stability Across Scans for All Detectors (2017 & 2018)}}{38}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Instantaneous Luminosity Ratio with PCC Gated BCIDs (2017 & 2018)}}{39}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Luminosity Ratios to Detector Average – vdM Head-On Periods (2017 & 2018)}}{39}{figure.caption.31}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Profile of good and bad modules stability}}{27}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces rms/mean of module weight profile for all modules. A loose selection of 7\% is applied to remove bad modules. Appropriate selections are applied in each iterative step to remove other bad modules.\relax }}{30}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Stability profiles of Pixel detector layers and disks with the final module selection.\relax }}{30}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Doros}}{33}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Another image caption.\relax }}{33}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Doros}}{33}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Another image caption.\relax }}{33}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Doros}}{34}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Another image caption.\relax }}{34}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Cumulative day-by-day integrated luminosity in 2017}}{41}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Cumulative day-by-day integrated luminosity in 2018}}{41}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Profile of good and bad modules stability and module cut of 7\%}}{44}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Stability Profiles of Pixel Layers and Disks After Final Module Selection}}{45}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 7036 fill patern}}{46}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Type 1 and Type 2 Afterglow Responses in CMS Run 315690}}{47}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Afterglow effect fit}}{48}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces PCC Random Rates vs BCID Before and After Afterglow Subtraction (Fill 6639)}}{48}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces PCC Instantaneous Luminosity (Entire Year 2017) and Fill 7270 (2018)}}{49}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Luminosity Ratios (HFET, HFOC, PLT, PCC) to Mean per 50 LS Blocks (2017 & 2018)}}{50}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Residual Nonlinearity and Luminosity Ratios (2017 & 2018)}}{51}{figure.caption.46}%
 \addvspace {10\p@ }
