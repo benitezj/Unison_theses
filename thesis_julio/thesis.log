@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  5 MAY 2025 16:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  7 MAY 2025 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1558,14 +1558,14 @@ al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./unison-logo.png>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.22 ...umberline {4.1}Sigma_Vis}{18}{section.4.1}
+l.22 ...umberline {4.1}Sigma_Vis}{21}{section.4.1}
                                                   %
 ? s
 OK, entering \scrollmode...
 ! Extra }, or forgotten $.
 <argument> {\numberline {4.1}Sigma_Vis}
                                        
-l.22 ...umberline {4.1}Sigma_Vis}{18}{section.4.1}
+l.22 ...umberline {4.1}Sigma_Vis}{21}{section.4.1}
                                                   %
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1576,7 +1576,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \l@section ...k \hskip -\leftskip {\cftsecfont #1}
                                                   \nobreak \cftsecfillnum {#...
-l.22 ...umberline {4.1}Sigma_Vis}{18}{section.4.1}
+l.22 ...umberline {4.1}Sigma_Vis}{21}{section.4.1}
                                                   %
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1587,7 +1587,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.22 ...umberline {4.1}Sigma_Vis}{18}{section.4.1}
+l.22 ...umberline {4.1}Sigma_Vis}{21}{section.4.1}
                                                   %
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1641,7 +1641,7 @@ No file thesis.nls.
 
 (./Chapter1/chapter1.tex
 Chapter 1.
-<table1.png, id=166, 344.28625pt x 132.495pt>
+<table1.png, id=174, 344.28625pt x 132.495pt>
 File: table1.png Graphic file (type png)
 <use table1.png>
 Package pdftex.def Info: table1.png  used on input line 14.
@@ -1651,7 +1651,7 @@ Package pdftex.def Info: table1.png  used on input line 14.
 
 
  <./table1.png>]
-<sm.png, id=176, 586.19pt x 429.605pt>
+<sm.png, id=184, 586.19pt x 429.605pt>
 File: sm.png Graphic file (type png)
 <use sm.png>
 Package pdftex.def Info: sm.png  used on input line 27.
@@ -1669,7 +1669,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [2 <./sm.png>]
-<LHC.png, id=185, 762.85pt x 746.79pt>
+<LHC.png, id=193, 762.85pt x 746.79pt>
 File: LHC.png Graphic file (type png)
 <use LHC.png>
 Package pdftex.def Info: LHC.png  used on input line 45.
@@ -1702,13 +1702,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [4 <./LHC.png (PNG copy)>]
-<lumi.png, id=204, 442.65375pt x 139.52126pt>
+<lumi.png, id=212, 442.65375pt x 139.52126pt>
 File: lumi.png Graphic file (type png)
 <use lumi.png>
 Package pdftex.def Info: lumi.png  used on input line 74.
 (pdftex.def)             Requested size: 426.79135pt x 134.52858pt.
  [5 <./lumi.png>]
-<integratedlum.png, id=218, 225.84375pt x 178.6675pt>
+<integratedlum.png, id=226, 225.84375pt x 178.6675pt>
 File: integratedlum.png Graphic file (type png)
 <use integratedlum.png>
 Package pdftex.def Info: integratedlum.png  used on input line 107.
@@ -1719,7 +1719,7 @@ Package pdftex.def Info: integratedlum.png  used on input line 107.
 
 (./Chapter2/chapter2.tex
 Chapter 2.
-<cms2.png, id=226, 555.07375pt x 411.5375pt>
+<cms2.png, id=234, 555.07375pt x 411.5375pt>
 File: cms2.png Graphic file (type png)
 <use cms2.png>
 Package pdftex.def Info: cms2.png  used on input line 10.
@@ -1741,21 +1741,31 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
-
- []
-
 [7
 
 
 
 
 ]
-<cms.png, id=235, 734.745pt x 511.9125pt>
+<cms3.png, id=242, 631.35875pt x 264.99pt>
+File: cms3.png Graphic file (type png)
+<use cms3.png>
+Package pdftex.def Info: cms3.png  used on input line 24.
+(pdftex.def)             Requested size: 426.79135pt x 179.13144pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+[8 <./cms2.png>]
+<cms.png, id=249, 734.745pt x 511.9125pt>
 File: cms.png Graphic file (type png)
 <use cms.png>
-Package pdftex.def Info: cms.png  used on input line 27.
+Package pdftex.def Info: cms.png  used on input line 36.
 (pdftex.def)             Requested size: 426.79135pt x 297.3625pt.
 
 
@@ -1768,18 +1778,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 T
+l.42 T
       he CMS was optimized for the detections of muons and is the last parti...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[8 <./cms2.png>]
 ! Undefined control sequence.
 \cm ->\ERROR 
              
-l.39 ...ate is about 600 million of particles $\cm
+l.48 ...ate is about 600 million of particles $\cm
                                                   ^{2} / s$ the pixel detect...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1787,15 +1796,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[9 <./cms.png>]
-<pixeldetector.png, id=250, 610.28pt x 184.69pt>
+[9 <./cms3.png>] [10 <./cms.png>]
+<pixeldetector.png, id=264, 610.28pt x 184.69pt>
 File: pixeldetector.png Graphic file (type png)
 <use pixeldetector.png>
-Package pdftex.def Info: pixeldetector.png  used on input line 47.
+Package pdftex.def Info: pixeldetector.png  used on input line 56.
 (pdftex.def)             Requested size: 426.79135pt x 129.16374pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -1804,14 +1810,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 I
+l.62 I
       n order to optimize the resolution of the tracking and the vertexing t...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[10]
+[11 <./pixeldetector.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1819,20 +1825,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 \begin
+l.69 \begin
            {figure}[h]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<BPIXFPIX.png, id=256, 591.20876pt x 157.58875pt>
+<BPIXFPIX.png, id=271, 591.20876pt x 157.58875pt>
 File: BPIXFPIX.png Graphic file (type png)
 <use BPIXFPIX.png>
-Package pdftex.def Info: BPIXFPIX.png  used on input line 62.
+Package pdftex.def Info: BPIXFPIX.png  used on input line 71.
 (pdftex.def)             Requested size: 426.79135pt x 113.76437pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1840,22 +1843,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 T
+l.77 T
       he sensors of BPIX and FPIX were designed by two different companies, ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[11 <./pixeldetector.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+[12 <./BPIXFPIX.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 ! Undefined control sequence.
 <recently read> \simga 
                        
-l.81 ... a relation with the cross section $\simga
+l.92 ... a relation with the cross section $\simga
                                                   _{i}$, instant luminosity ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1863,11 +1866,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[12 <./BPIXFPIX.png>]
 ! Undefined control sequence.
 <recently read> \simga 
                        
-l.87 ...f the LHC, defining a new quantity $\simga
+l.98 ...f the LHC, defining a new quantity $\simga
                                                   _{cluster}$ = $\simga_{i}<...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1878,7 +1880,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \simga 
                        
-l.87 ... new quantity $\simga_{cluster}$ = $\simga
+l.98 ... new quantity $\simga_{cluster}$ = $\simga
                                                   _{i}<N_{Pixel/Interaction}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1887,22 +1889,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (1.51402pt too wide) in paragraph at lines 87--88
+Overfull \hbox (1.51402pt too wide) in paragraph at lines 98--99
 []\T1/ptm/m/n/12 (-20) here f is the fre-quency of the LHC, defin-ing a new qua
 n-tity $[]$ = $[] \OML/ztmcm/m/it/12 < N[] >$
  []
 
-) [13]
+[13]) [14]
 \openout2 = `Chapter3/chapter3.aux'.
 
  (./Chapter3/chapter3.tex
 Chapter 3.
-<vdm1.png, id=282, 634.37pt x 274.02374pt>
+<vdm1.png, id=296, 634.37pt x 274.02374pt>
 File: vdm1.png Graphic file (type png)
 <use vdm1.png>
 Package pdftex.def Info: vdm1.png  used on input line 10.
 (pdftex.def)             Requested size: 426.79135pt x 184.3643pt.
-[14
+[15
 
 
 
@@ -1923,63 +1925,30 @@ A\OML/ztmcm/m/it/12 y\OT1/ztmcm/m/n/12 )\OML/ztmcm/m/it/12 dy\OT1/ztmcm/m/n/12
 )
  []
 
-[15]
-! Argument of \frac  has an extra }.
-<inserted text> 
-                \par 
-l.80 $\sigma_{vis} = \frac{R_{det}}}
-                                    {L_{b}} = \frac{2 \pi \Sigma_{x} \Sigma_...
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
+[16]
+! Undefined control sequence.
+<recently read> \simga 
+                       
+l.66 ...ch so you obtain several values of $\simga
+                                                  _{vis}$ and then they are ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Runaway argument?
-! Paragraph ended before \frac  was complete.
-<to be read again> 
-                   \par 
-l.80 $\sigma_{vis} = \frac{R_{det}}}
-                                    {L_{b}} = \frac{2 \pi \Sigma_{x} \Sigma_...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.80 $\sigma_{vis} = \frac{R_{det}}}
-                                    {L_{b}} = \frac{2 \pi \Sigma_{x} \Sigma_...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+ []
 
-! Too many }'s.
-<recently read> }
-                 
-l.80 $\sigma_{vis} = \frac{R_{det}}}
-                                    {L_{b}} = \frac{2 \pi \Sigma_{x} \Sigma_...
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.80 $\sigma_{vis} = \frac{R_{det}}}{L_
-                                       {b}} = \frac{2 \pi \Sigma_{x} \Sigma_...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.80 $\sigma_{vis} = \frac{R_{det}}}{L_{b}}
-                                            = \frac{2 \pi \Sigma_{x} \Sigma_...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-) [16] [17]
+[18]
+<SS1.jpeg, id=327, 1927.2pt x 937.5025pt>
+File: SS1.jpeg Graphic file (type jpg)
+<use SS1.jpeg>
+Package pdftex.def Info: SS1.jpeg  used on input line 113.
+(pdftex.def)             Requested size: 426.79135pt x 207.61017pt.
+ [19 <./SS1.jpeg>]) [20]
 \openout2 = `Chapter4/chapter4.aux'.
 
  (./Chapter4/chapter4.tex
@@ -2017,7 +1986,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [18
+) [21
 
 
 
@@ -2036,7 +2005,7 @@ l.82 ...surement in proton-protoncollisions at √
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-) [19
+) [22
 
 
 
@@ -2054,34 +2023,30 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F31C6141084D831B378C0EC106930B7D;3413.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 80 ({)
-### bottom level 
+(rerunfilecheck)             Checksum: 7E924BC5A8B78D47A38EE6DBCB241322;3413.
+ ) 
 Here is how much of TeX's memory you used:
- 44076 strings out of 474116
- 1008726 string characters out of 5743682
- 1936187 words of memory out of 5000000
- 65296 multiletter control sequences out of 15000+600000
- 641600 words of font info for 276 fonts, out of 8000000 for 9000
+ 44107 strings out of 474116
+ 1009266 string characters out of 5743682
+ 1938187 words of memory out of 5000000
+ 65322 multiletter control sequences out of 15000+600000
+ 638158 words of font info for 272 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,12n,121p,1579b,1055s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/rsfs/rsfs10.p
-fb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive
-/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texm
-f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fon
-ts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (23 pages, 1833951 bytes).
+ 125i,12n,121p,1579b,959s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local
+/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/20
+24/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-di
+st/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on thesis.pdf (26 pages, 2328371 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 88 named destinations out of 1000 (max. 500000)
- 74492 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 412 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 74502 words of extra memory for PDF output out of 89155 (max. 10000000)
 

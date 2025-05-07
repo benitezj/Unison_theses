@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -88,5 +88,11 @@ Yusuf Can.
 \newblock \emph{Calibration of CMS luminometer using Van Der Meer and Emittance
   scans}.
 \newblock Phd thesis, Bogazici University, October 2018.
+
+\bibitem[Giovanni~Franzoni(2016)]{datasets1}
+CMS~Collaboration Giovanni~Franzoni.
+\newblock Dataset definition for cms operations and physics analyses.
+\newblock 2016.
+\newblock \doi{https://doi.org/10.1016/j.nuclphysbps.2015.09.144}.
 
 \end{thebibliography}
