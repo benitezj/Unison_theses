@@ -4,41 +4,41 @@
 \section{CMS detector}
 
 The Compact Muon Solenoid (CMS) detector is one of the four interactions points on the LHC. It consist on different detectors made for different purposes, the silicon tracker, the electromagnetic calorimeter (ECAL), the hadron calorimeter (HCAL) the superconducting solenoid and the muon chamber. 
-\\
-\begin{figure}[h]
+
+\begin{figure}[H]
     \centering
-     \includegraphics[width=1\textwidth]{cms2.png}
+     \includegraphics[height=0.73\textwidth, width=1\textwidth]{cms2.png}
      \caption{The CMS detector size comparison with each of their components}
     \label{fig:four-forces}
 \end{figure}
 
-\\
+
 The CMS has the form of a cylindrical onion with several concentric layers of components, this components are important to determine the properties of different particles all of this by bending their trajectories with a magnet that bend charged particles, this helps to identify the charges of the particles since they bend in different directions and allows to measure the momentum of a particle sine high momentum particles bend less than the low momentum ones. The principal magnet of the CMS is called Super Conducting Solenoid this magnet generates a field of about 4 Teslas and is very large 6.3m cold bore, 12.5 meters of length and 200 t of mass. The high magnetic field is confined to the volume of the detectors using the "return yoke", this yoke have a magnetic field strength of 2 Teslas and acts as the main support as well as the muon filter Its made of a high amount of steel and It weights more than 11000 tonnes.     \cite{CMS3}
 
 One of the principal objectives of the CMS is identify with very high precision the paths taken by the particles that were bend by the magnetic field they called this part the inner tracker which is composed of different substructures, closest to the interaction point we have the Silicon Pixel Detector which will be detailled more on a later section.
 
 Apart from the pixel detector the inner track is composed of strip detectors which are divided into the inner barrel (TIB) part and the outer barrel par(TOB), as well as the inner disks (TID) and the outer end caps (TEC). The TIB and TOB are made of four and six concentric layers barrel shell structures respectively, the TID system is made of three disk structures each divided in three concentric rings and the TEC is made of nine disk structures on each side each of these made of four to seven rings as we can see on the figure 2.2. The tracker is composed of 15,148 modules distributed among the TIB, TOB, TID and TEC each module has one or two silicon sensors for a total of 24,244 sensors  When a charged particle pass through this layers interacts electromagnetically with the sensors leaving a hit that can be used to identify the path that a particle took. \cite{CMS1}
 
-\begin{figure}[h]
-    \centering
-     \includegraphics[width=1\textwidth]{cms3.png}
-     \caption{Layout of the CMS Innertracker includin the Pixel Detector, and other substructures TIB, TOB, TID and TEC}
-    \label{fig:inner-track}
-\end{figure}
+%\begin{figure}[H]
+   % \centering
+     %\includegraphics[width=1\textwidth]{cms3.png}
+     %\caption{Layout of the CMS Innertracker includin the Pixel Detector, and other substructures TIB, TOB, TID and TEC}
+    %\label{fig:inner-track}
+%\end{figure}
 
 %Might update about the composition of this parts later.
 
 Having information of the energy is important to understand what is happening at the collision point for this purpose there are two calorimeters on the CMS. The ECAL is made of 61200 lead tungstate crystals in the central barrel cap closed by 7324 crystals in the two of the endcaps in front of this crystals there is a press shower detector, the high density crystals allow  the calorimeter to be fast, have a fine granularity and being radiation resistant, Its capabilities are improved by the good crystal resolution which are provided by a homogeneous crystal calorimeter. It's surrounding the tracker and aims to measure the the energy of electrons, positrons or photons and stop them completely. The other calorimeter is the HCAL which is surrounding the ECAL and plays an essential role on the measurements of the energy of hadrons like the quarks, gluons, neutrinos and some exotic particles. which are also stopped here.  
-\\
 
-\begin{figure}[h]
+
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{cms.png}
      \caption{Different particles travelling across the different detectors of the CMS experiment}
     \label{fig:four-forces}
 \end{figure}
 
-\\
+
 The CMS was optimized for the detections of muons and is the last particle that the CMS observe directly with the help of the muon chambers that is composed by many subdetectors which are interleaved with the return of the yoke of the solenoid located after the super conducting solenoid, muons are similar to electrons but 200 times heavier so they are not stopped by the calorimeters, the muon chambers have 3 main purposes; muon identification, momentum measurement and triggering. \cite{CMS2}
 
 \section{Pixel Detector}
@@ -78,11 +78,16 @@ The sensors of BPIX and FPIX were designed by two different companies, BPIX was 
 
 The readout chips are made using 250 nm CMOS technology, this are named PSI46dig and PROC600. The PSI46dig is used on the outer BPIX layers (L2-L4) and in the FPIX detectors, meanwhile the PROC600 was designed for the innermost layer, taking into the consideration the expected hight hit rates. The single pixel efficiency of the PSI46dig at high rates was measured using internal calibration signal while exposing the ROCS to high-rate X-rays, the data loses for both of the detectors were of less thant 2 \% at the expected maximum hit rate of 120 MHz/$cm^{2}$ and the PROC600 efficiency is above 95 \% at rates up to 600 Mhz MHz/$cm^{2}$.
 
-For the tracking 
+\section{Cluster Identification}
 
-\section{Pixel Cluster Counting}
+The Pixel Cluster Counting (PCC) method consist in counting the average number of pixel clusters on the detector to measure luminosity. This occurs during a zero bias event, an event that is trigged by requiring only that two proton bunches cross at the CMS interaction point. Giving that the number of pixels in really big the probability that a pixel is being hit by two different tracks by the same bunch crossing is really small. The mean number of pixel clusters in a simulated zero bias event is in the order of 100 per pp collision. The number of pixel clusters per bunch crossing is linearly dependent on pileup and therefore an accurate measure of the instantaneous luminosity.\cite{PCC1} The mean number of pixel cluster per trigger is 
 
-The Pixel Cluster Counting (PCC) method consist in counting the average number of pixel clusters on the detector to measure luminosity. This occurs during a zero bias event, an event that is trigged by requiring only that two proton bunches cross at the CMS interaction point. Giving that the number of pixels in really big the probability that a pixel is being hit by two different tracks by the same bunch crossing is really small. The mean number of pixel clusters in a simulated zero bias event is in the order of 100 per pp collision. The number of pixel clusters per bunch crossing is linearly dependent on pileup and therefore an accurate measure of the instantaneous luminosity.\cite{PCC1} The mean number of pixel cluster per trigger is \\ 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{cluster2.jpg}
+    \caption{Cluster}
+    \label{fig:cluster}
+\end{figure}
 
 
 \begin{equation}
@@ -95,7 +100,7 @@ here the $\mu$ is the number of interactions and with this the following equatio
 \mu = \frac{\sigma_{i}}{f}\frac{dL}{dt}
 \end{equation}
 
-here f is the frequency of the LHC, defining a new quantity $\simga_{cluster}$ = $\simga_{i}<N_{Pixel/Interaction}> $ and combining equation (2.1) and (2.2) we got
+here f is the frequency of the LHC, defining a new quantity $\sigma_{cluster}$ = $\sigma_{i}<N_{Pixel/Interaction}> $ and combining equation (2.1) and (2.2) we got
 
 \begin{equation}
 <N_{cluster}> = \frac{\sigma_{cluster}}{f} \frac{dL}{dt}
@@ -112,6 +117,25 @@ Here, the value of $N_{cluster}$ is the mean number of pixel clusters on the pix
 
 To be applicable to a van der mer scan the cluster cross section must use exactly the same detector configuration during the whole of the data taking and the calibration scan. This means if any of the modules of the detector didn't work at any point of the scans and didn't gave any readout It must be excluded from the calibration and the luminosity analysis so only a specific number of modules is selected during this. After this we obtain the stability of the modules that can be determined by a ratio of module PCC and total PCC. \cite{PCC3}
 
-From the total of 1856 modules on the pixel detector (1184 on the BPIX and 672 on FPIX) so in the analysis for the pcc vdm calibration onf 2024 for the fill 9639a total of 240 modules were used.
+A module veto list is created that removes modules that have unstable behavior in the cluster counting, to the determine the number of modules excluded the stability of their contribution to the total (the module weight) is studied. This selection is made using the zero bias datasets using two steps, first a selection on the stability over time and then a selection of stability vs instantaneous luminosity. For the stability selection different datasets are used, depending on the dataset you obtain time profiles per module and the absolute value of the deviation from the mean weight and averaged, this process is iterate for every module to remove outlier modules. For the linearity selection the module weight is evaluated as a function of quantity which is proportional to the instantaneous luminosity this quantity being the average PCC per module, the image (2.6) shows the difference between a good module and a bad module. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.35\textwidth ,width=1\textwidth]{module.png}
+    \caption{Comparison between two modules with average PCC in 100 LS. Good module on the left, bad module on the right.}
+    \label{fig:modules}
+\end{figure}
 
 
+To obtain the number of modules that are damaged and can exhibit issues with stability and linearity and can affect the final luminosity measurements the following steps were followed: 
+
+\begin{itemize}
+  \item First, all of the BPIX Layer 0 Modules are removed since they are consistently unstable.
+  \item Then modules based on the noise level are removed in the vdm fill super separation data. 
+  \item Remove modules with no clusters in the vdm fill this means with weight=0 
+  \item Compare stability parameters between modules and remove outliers in the vdm fill
+  \item Compare stability parameter for each block of data and perform a second iteration if necessary
+  \item Compare linearity parameter between modules and remove outliers
+\end{itemize}
+
+The pixel detector has a total of 1856 modules (1184 on the BPIX and 672 on FPIX) in this analysis for the pcc vdm calibration on 2024 for the fill 9639, a total of 1616 modules were removed for a total of 240 modules with 193 in the BPIX part of the detector and the other ones on the FPIX part. 

@@ -54,11 +54,26 @@ The LHC is part of an accelerator complex in CERN that is a succession of differ
 
 The LHC has been working since 2009 with the discovery of the Higgs Boson on 2012 and looking for new physics It has been working on different periods called Runs, Run 1 was on the period of (2009-2013), Run 2 was on (2015-2018), Run 3 is currently on going since 2022. 
 
-
-
 \section{Luminosity}
 
-The performance of a collider is determined by the beam energy and the luminosity, the luminosity is a key parameter in particle colliders is a quantity that measures the ability of a particle accelerator to produce a required number of interactions and is given by: \cite{Lum} 
+%The performance of a collider is determined by the beam energy and the luminosity, in order to compute the luminosity we need to define the cross section of the accelerator first this is for the calculation of the interest rates, which have to take in consideration the flux which is defined as the number of particles crossing a unit are per unit of time, the cross section is denoted by $\sigma$ and every scattering process has a cross section $\simga_{i}$ but the one that we are interested on is the total cross section which is the sum of all the $\simga_{i}$. 
+
+The performance of a collider is determined by the beam energy and the luminosity. The cross section It's known as parameter like "the size of a target" 
+
+%The define of cross section can be understand in a situation where a single particle is travelling to a velocity $v _{a}$in a region defined by A, which contains $n_{b}$ particles of a particle type b moving to a velocity $v_{b}$ in the opposite direction of $v_{a}$ if in a time $\delta t$  the particle a cross a region contained a total of $nb(v_{a} + v_{b})A\delta t$ particles of type b, the interaction probability can be obtained from the effective total cross seciotanl area divided by A which can be seen as the probability of that hte incident particles passes through one of the region of area $\sigma$ around each of the $\delta N$ particles then we can talk about the total rate being: 
+
+\begin{equation}
+rate = flux x number of target particles x cross section
+\end{equation}
+
+And we can define the cross section as follow:
+
+\begin{equation}
+\sigma = \frac{number of interaction per unit of time per target particle}{incident flux}
+\end{equation}
+
+
+The luminosity is a key parameter in particle colliders is a quantity that measures the ability of a particle accelerator to produce a required number of interactions and is given by: \cite{Lum} 
 
 \begin{equation}
 \frac{dR}{dt} = \mathcal{L} \cdot \sigma_{p} 
@@ -97,7 +112,7 @@ The instantaneous luminosity is important  but the final important number is cal
 it is related directly to the number of observed events 
 
 \begin{equation}
-\mathcal{L}_{int} \cdot \sigma_{p} = number of events of interest 
+L_{int} \cdot \sigma_{p} = number of events of interest 
 \end{equation}
 
 There have been different luminosities reached on the LHC for the Run 1 a luminosity of $0.77 x 10^{34}$ was reached and a integrated luminosity of 25 $fb^{-1}$  with a precision of 2.0\% for the first part and second part of the Run 2 the luminosity measured was of 38.4 $fb^{-1}$ with a precision of 1.3\% and 78$fb^{-1}$ respectively\cite{LHClum}.  The following image show shows the integrated luminosity for the CMS experiment on different years.  

@@ -3,14 +3,11 @@
 \contentsline {figure}{\numberline {1.2}{\ignorespaces The standard model of particle physics}}{2}{figure.caption.4}%
 \contentsline {figure}{\numberline {1.3}{\ignorespaces The accelerator facility at cern for the LHC}}{4}{figure.caption.5}%
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Two beams colliding}}{5}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Integrated luminosity at CMS}}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Integrated luminosity at CMS}}{7}{figure.caption.7}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The CMS detector size comparison with each of their components}}{8}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Layout of the CMS Innertracker includin the Pixel Detector, and other substructures TIB, TOB, TID and TEC}}{9}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Different particles travelling across the different detectors of the CMS experiment}}{10}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Pixel detector outter rings and inner rings structure}}{11}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Barrel Pixel Detector moudles and Forward Pixel Detector Modules}}{12}{figure.caption.12}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces The vdm scan on the left showing the beams for X and Y. On the right a curve of the different values of rate for the beams displacement, the peak occurs during the head on part.}}{15}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Histogram of rates during the second super separation scan}}{19}{figure.caption.15}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Different particles travelling across the different detectors of the CMS experiment}}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Pixel detector outter rings and inner rings structure}}{12}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Barrel Pixel Detector moudles and Forward Pixel Detector Modules}}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Cluster}}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Comparison between two modules with average PCC in 100 LS. Good module on the left, bad module on the right.}}{15}{figure.caption.13}%
