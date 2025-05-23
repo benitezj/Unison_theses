@@ -20,52 +20,67 @@ I was expecting a `,' or a `}'---line 145 of file References/references.bib
  :   month = {June}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 158 of file References/references.bib
+ :   
+ :   month = {October}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "G. Giurgiu, D. Fehling, P. Maksimovic, M. Swartz" for entry cluster1
+while executing---line 1233 of file unsrtnat.bst
 Warning--empty journal in LHC
 Warning--empty journal in LHCII
-Warning--empty journal in LHClum
-Warning--empty journal in CMS3
 Warning--empty journal in PCC1
 Warning--empty journal in PCC2
+Warning--empty journal in LHClum
+Warning--empty journal in CMS3
+Too many commas in name 1 of "G. Giurgiu, D. Fehling, P. Maksimovic, M. Swartz" for entry cluster1
+while executing---line 1315 of file unsrtnat.bst
+Too many commas in name 1 of "G. Giurgiu, D. Fehling, P. Maksimovic, M. Swartz" for entry cluster1
+while executing---line 1315 of file unsrtnat.bst
+Warning--empty journal in cluster1
+Warning--empty year in cluster1
+Warning--empty year in cluster1
+Warning--empty journal in cluster2
 Warning--empty journal in PCC3
-You've used 14 entries,
+You've used 16 entries,
             2481 wiz_defined-function locations,
-            627 strings with 5809 characters,
-and the built_in function-call counts, 3889 in all, are:
-= -- 337
-> -- 98
-< -- 15
-+ -- 58
-- -- 28
-* -- 194
-:= -- 635
-add.period$ -- 47
-call.type$ -- 14
-change.case$ -- 26
-chr.to.int$ -- 12
-cite$ -- 21
-duplicate$ -- 261
-empty$ -- 404
-format.name$ -- 42
-if$ -- 822
+            635 strings with 6064 characters,
+and the built_in function-call counts, 4416 in all, are:
+= -- 380
+> -- 112
+< -- 17
++ -- 66
+- -- 32
+* -- 222
+:= -- 720
+add.period$ -- 53
+call.type$ -- 16
+change.case$ -- 30
+chr.to.int$ -- 14
+cite$ -- 27
+duplicate$ -- 297
+empty$ -- 460
+format.name$ -- 48
+if$ -- 931
 int.to.chr$ -- 3
-int.to.str$ -- 15
-missing$ -- 15
-newline$ -- 83
-num.names$ -- 42
-pop$ -- 139
+int.to.str$ -- 17
+missing$ -- 17
+newline$ -- 93
+num.names$ -- 48
+pop$ -- 163
 preamble$ -- 1
-purify$ -- 14
+purify$ -- 16
 quote$ -- 0
-skip$ -- 153
+skip$ -- 173
 stack$ -- 0
-substring$ -- 60
-swap$ -- 39
+substring$ -- 64
+swap$ -- 41
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 92
-warning$ -- 7
-while$ -- 31
+type$ -- 106
+warning$ -- 11
+while$ -- 35
 width$ -- 0
-write$ -- 180
-(There were 3 error messages)
+write$ -- 202
+(There were 7 error messages)

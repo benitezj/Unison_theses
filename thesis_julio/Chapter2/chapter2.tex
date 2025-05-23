@@ -78,40 +78,25 @@ The sensors of BPIX and FPIX were designed by two different companies, BPIX was 
 
 The readout chips are made using 250 nm CMOS technology, this are named PSI46dig and PROC600. The PSI46dig is used on the outer BPIX layers (L2-L4) and in the FPIX detectors, meanwhile the PROC600 was designed for the innermost layer, taking into the consideration the expected hight hit rates. The single pixel efficiency of the PSI46dig at high rates was measured using internal calibration signal while exposing the ROCS to high-rate X-rays, the data loses for both of the detectors were of less thant 2 \% at the expected maximum hit rate of 120 MHz/$cm^{2}$ and the PROC600 efficiency is above 95 \% at rates up to 600 Mhz MHz/$cm^{2}$.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.55\textwidth, width=1\textwidth]{PixelSensor.png}
+    \caption{The pixel detector silicon sensor and the readout chip.}
+    \label{fig:sensor}
+\end{figure}
+
 \section{Cluster Identification}
 
-The Pixel Cluster Counting (PCC) method consist in counting the average number of pixel clusters on the detector to measure luminosity. This occurs during a zero bias event, an event that is trigged by requiring only that two proton bunches cross at the CMS interaction point. Giving that the number of pixels in really big the probability that a pixel is being hit by two different tracks by the same bunch crossing is really small. The mean number of pixel clusters in a simulated zero bias event is in the order of 100 per pp collision. The number of pixel clusters per bunch crossing is linearly dependent on pileup and therefore an accurate measure of the instantaneous luminosity.\cite{PCC1} The mean number of pixel cluster per trigger is 
+In the pixel detector the charged produce by charged particles passing through the silicon layers, this charge is collected by the read-out chips. This charge in general is shared between more than one pixel forming a pixel cluster, this clusters can be made by either the particle track which have a small angle of incidence with the silicon sensor or because of the charge drifting in the magnetic field of 4 Tesla in which the tracking system is immersed. Before the process of irradiation the charge sharing is uniform in local X and Y directions, even then, the reconstructions of the true hits It's not trivial. After the detector is irradiated, the defects developed in the silicon lattice act as charges traps so that the free charge can only partially reach the readout chips, consequently the pixel clusters become smaller \cite{cluster1}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1\textwidth]{cluster2.jpg}
+    \includegraphics[width=1\textwidth]{cluster3.png}
     \caption{Cluster}
     \label{fig:cluster}
 \end{figure}
 
-
-\begin{equation}
-<N_{cluster}> = <N_{Pixel/Interaction}> <N_{interaction}> = <N_{Pixel/interaction}> \mu 
-\end{equation}
-
-here the $\mu$ is the number of interactions and with this the following equation and gives us a relation with the cross section $\simga_{i}$, instant luminosity and $\mu$
-
-\begin{equation}
-\mu = \frac{\sigma_{i}}{f}\frac{dL}{dt}
-\end{equation}
-
-here f is the frequency of the LHC, defining a new quantity $\sigma_{cluster}$ = $\sigma_{i}<N_{Pixel/Interaction}> $ and combining equation (2.1) and (2.2) we got
-
-\begin{equation}
-<N_{cluster}> = \frac{\sigma_{cluster}}{f} \frac{dL}{dt}
-\end{equation}
-
-Here, the value of $N_{cluster}$ is the mean number of pixel clusters on the pixel detector during a zero bias trigger at a head on period, the value of $\sigma_{cluster}$ can be obtained using the Van Der Meer scan and from the equation (2.3) we can obtain the luminosity from \cite{PCC2}
-
-\begin{equation}
-\sigma_{cluster} = <N_{cluster}> f (\frac{dL}{dt})^{-1}
-\end{equation} 
-
+The first step to the reconstruction process is referred to as local reconstruction. It consist of the clustering of zero-suppressed signals above specific thresholds in pixel and strip channels into hits, and then estimating the cluster positions and their uncertainties defined in a local orthogonal coordinate system (u, v) in the plane of each sensor.  \cite{cluster2}
 
 \section{Pixel Detector Module Selection}
 

@@ -54,34 +54,64 @@ The LHC is part of an accelerator complex in CERN that is a succession of differ
 
 The LHC has been working since 2009 with the discovery of the Higgs Boson on 2012 and looking for new physics It has been working on different periods called Runs, Run 1 was on the period of (2009-2013), Run 2 was on (2015-2018), Run 3 is currently on going since 2022. 
 
-\section{Luminosity}
+\section{Cross Section}
 
 %The performance of a collider is determined by the beam energy and the luminosity, in order to compute the luminosity we need to define the cross section of the accelerator first this is for the calculation of the interest rates, which have to take in consideration the flux which is defined as the number of particles crossing a unit are per unit of time, the cross section is denoted by $\sigma$ and every scattering process has a cross section $\simga_{i}$ but the one that we are interested on is the total cross section which is the sum of all the $\simga_{i}$. 
 
-The performance of a collider is determined by the beam energy and the luminosity. The cross section It's known as parameter like "the size of a target" 
+The performance of a collider is determined by the beam energy and the luminosity. First we are going to define the cross section in a classical way the cross section area is parameter of interest that could say that measure the size of a target, this cross sectional area is presented to a stream of incoming particles, this is similar in the case of the scattering in elementary particles, if you fire a electron beam into a proton tank the parameters of interest are the size of the proton and the cross sectional area $\sigma$ that presents the incident beam. This collision differs to the classic case in some ways, first you could call the target soft since It's not a possible collision more like the closer you get the greater the deflection, the electrons scatters off the hydrogen, various interactions are happening during this and each one has a It's own scattering cross section $\sigma_{i}$ nevertheless in the experiment we are interested in the total cross section which can be seen as the sum of all the cross sections.
+
+\begin{equation}
+\sigma_{tot} = \Sigma^{n}_{i=1} \sigma_{i}
+\end{equation}
+
+Each of this cross sections depends typically in the velocity of the incident particle, It's expected that the cross section would be proportional to the time that the incident particle spends close to It's target which means that $\sigma$ is inversely proportional to the velocity but this behavior is altered close to the region of a energy that particles involved to interact forming a short lived semi-state before breaking apart, things like this make the cross section for elementary particles different to the classic one. 
+
+To explain the cross section when a target is soft lets supposed a electron encounter a potential and scatters at the angle $\theta$, this scatter is angle is a function of a impact parameter b the distance by which this particle would have missed the scattering center had it continued on its original trajectory. The form of $\theta(B)$ depends on the potential and the smaller the impact parameter b, larger the deflection. If the particle comes with an impact parameter between b and b + db it will merge in a angle between $\theta$ and $\theta + d\theta$ and even in a more general case if it passes through a infinitesimal area $d\sigma$ it will scatter into a corresponding solid angle $d\Omega$, the larger $d\sigma$ is the larger $d\Sigma$ the proportionality factor between these two is called the differential cross section D this can be illustrated in the next image: 
+
+\begin{figure}[h]
+    \centering
+   \includegraphics[width=1\textwidth]{cross1.png}
+    \caption{Particle scattering}
+    \label{fig:cross}
+\end{figure}
+
+The relation between $d\sigma$ and $d\Omega$ is:
+
+\begin{equation}
+d\sigma = D(\theta)d\Omega
+\end{equation}
+
+Supposing a beam of incoming particles with a value L that is associated with the number of particles passing down the line per unit of time and per unit of area $dN = L d\sigma $ is the number of particles per unit time passing trough area $d\sigma$ and hence also the number per unit of time scattered into solid the solid angle $d\Omega$
+
+\begin{equation}
+dN = L d\sigma = LD(\theta) d\Omega 
+\end{equation}
+
+This could be seeing as the one who controls the number of particles going through the detector also determined the solid angle. 
 
 %The define of cross section can be understand in a situation where a single particle is travelling to a velocity $v _{a}$in a region defined by A, which contains $n_{b}$ particles of a particle type b moving to a velocity $v_{b}$ in the opposite direction of $v_{a}$ if in a time $\delta t$  the particle a cross a region contained a total of $nb(v_{a} + v_{b})A\delta t$ particles of type b, the interaction probability can be obtained from the effective total cross seciotanl area divided by A which can be seen as the probability of that hte incident particles passes through one of the region of area $\sigma$ around each of the $\delta N$ particles then we can talk about the total rate being: 
 
+%\begin{equation}
+%rate = flux x number of target particles x cross section
+%\end{equation}
+
+%And we can define the cross section as follow:
+
+%\begin{equation}
+%\sigma = \frac{number of interaction per unit of time per target particle}{incident flux}
+%\end{equation}
+
+\section{Luminosity}
+
+The performance of a collider is determined by the beam energy and the luminosity, theluminosity is a key parameter in particle colliders is a quantity that measures the ability of a particle accelerator to produce a required number of interactions\cite{Lum} 
+
 \begin{equation}
-rate = flux x number of target particles x cross section
+N = L \cdot \sigma_{p} 
 \end{equation}
 
-And we can define the cross section as follow:
+In which N is the number of events per second, the $\simga_{p}$ is the cross section and L the instantanious luminosity luminosity. The unity of L is  $cm^{-2} s^{-1}$ a higher luminosity means greater probability that the particles will collide and produce the desired interactions, luminosity can be increased then in two ways, packing more particles into the beams or focusing this beams more.  
 
-\begin{equation}
-\sigma = \frac{number of interaction per unit of time per target particle}{incident flux}
-\end{equation}
-
-
-The luminosity is a key parameter in particle colliders is a quantity that measures the ability of a particle accelerator to produce a required number of interactions and is given by: \cite{Lum} 
-
-\begin{equation}
-\frac{dR}{dt} = \mathcal{L} \cdot \sigma_{p} 
-\end{equation}
-
-In which $\frac{dR}{dt}$ is the number of events per second, the $\simga_{p}$ is the cross section and $\matchcal{L}$ the instantanious luminosity luminosity. The unity of $\mathcal{L}$ is  $cm^{-2} s^{-1}$ a higher luminosity means greater probability that the particles will collide and produce the desired interactions, luminosity can be increased then in two ways, packing more particles into the beams or focusing this beams more.  
-
-To compute the luminosity of two there is a few things that need to be taken in consideration. First the density distribution of each beam in the transverse and longitudinal plane, with the. two beams moving towards each other, the position and the time as the cross each other also need to be considered and calling the distance to the collision point $s_{0}$. In principle each of the distributions is different the overlap integral can be written as follow:
+To compute the luminosity of two there is a few things that need to be taken in consideration. First the density distribution of each beam in the transverse and longitudinal plane, with the. two beams moving towards each other, the position and the time as the cross each other also need to be considered and calling the distance to the collision point $s_{0}$. The figure (1.x) shows a  In principle each of the distributions is different the overlap integral can be written as follow:
 
 
 \begin{figure}[h]
@@ -92,6 +122,7 @@ To compute the luminosity of two there is a few things that need to be taken in 
 \end{figure}
 
 
+In principle each of the distributions is different and we can write the overlap integral as follow:
 %$K = sqrt{(v_{1} - x_{2})^{2} - \frac{(v_{1} x v_{2})^{2}}{c^{2}} }
 
 \begin{equation}
@@ -109,11 +140,26 @@ The instantaneous luminosity is important  but the final important number is cal
  L_{int} = \int L (t') dt' 
 \end{equation}
 
-it is related directly to the number of observed events 
+it is related directly to the number of observed events $L_{int} \cdot \sigma_{p}$ number of events of interest.
+
+
+In the LHC there are various ways to measure the luminosity, in the CMS there are various of them, the Pixel Luminosity Telescope, the BCM1F, the radiation monitoring system for environment & safety, the muon drift tubes, the forward hadron calorimeter and the Pixel Cluster Counting (PCC). 
+
+The PCC luminometer method consist in counting the average number of pixel clusters on the detector to measure luminosity. This occurs during a zero bias event, an event that is trigged by requiring only that two proton bunches cross at the CMS interaction point. Giving that the number of pixels in really big the probability that a pixel is being hit by two different tracks by the same bunch crossing is really small. The mean number of pixel clusters in a simulated zero bias event is in the order of 100 per pp collision. The number of pixel clusters per bunch crossing is linearly dependent on pileup and therefore an accurate measure of the instantaneous luminosity.\cite{PCC1} The mean number of pixel cluster per trigger is 
+
 
 \begin{equation}
-L_{int} \cdot \sigma_{p} = number of events of interest 
+<N_{cluster}> = <N_{Pixel/Interaction}> <N_{interaction}> = <N_{Pixel/interaction}> \mu 
 \end{equation}
+
+here the $\mu$ is the number of interactions and with this the following equation and gives us a relation with the cross section $\simga_{i}$, instant luminosity and $\mu$ and for the obtention of the luminosity value:
+
+\begin{equation}
+<N_{cluster}> = \frac{\sigma_{cluster}}{f} \frac{dL}{dt}
+\end{equation}
+
+Here, the value of $N_{cluster}$ is the mean number of pixel clusters on the pixel detector during a zero bias trigger at a head on period, the value of $\sigma_{cluster}$ can be obtained using the Van Der Meer scan and from the equation (2.3) we can obtain the luminosity from \cite{PCC2}
+
 
 There have been different luminosities reached on the LHC for the Run 1 a luminosity of $0.77 x 10^{34}$ was reached and a integrated luminosity of 25 $fb^{-1}$  with a precision of 2.0\% for the first part and second part of the Run 2 the luminosity measured was of 38.4 $fb^{-1}$ with a precision of 1.3\% and 78$fb^{-1}$ respectively\cite{LHClum}.  The following image show shows the integrated luminosity for the CMS experiment on different years.  
 

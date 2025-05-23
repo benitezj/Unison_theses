@@ -1,4 +1,4 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -39,6 +39,16 @@ Simon White.
 \newblock \emph{Determination of the absolute luminosity at the LHC}.
 \newblock Phd thesis, University of Paris SUD 11, October 2010.
 
+\bibitem[collaboration(2018{\natexlab{a}})]{PCC1}
+The~CMS collaboration.
+\newblock Cms luminosity based on pixel cluster counting -summer 2012 update.
+\newblock March 2018{\natexlab{a}}.
+
+\bibitem[collaboration(2018{\natexlab{b}})]{PCC2}
+The~CMS collaboration.
+\newblock Luminosity measurement at cms.
+\newblock March 2018{\natexlab{b}}.
+
 \bibitem[collaboration(2024)]{LHClum}
 The~CMS collaboration.
 \newblock Precision luminosity measurement in proton-proton collisions at
@@ -67,15 +77,16 @@ CMS Tracker~Group of~the CMS~collaboration.
 \newblock \emph{JINST 16 (2021) P02027}, 2022.
 \newblock \doi{10.1088/1748-0221/16/02/P02027}.
 
-\bibitem[collaboration(2018{\natexlab{a}})]{PCC1}
-The~CMS collaboration.
-\newblock Cms luminosity based on pixel cluster counting -summer 2012 update.
-\newblock March 2018{\natexlab{a}}.
+\bibitem[G.~Giurgiu()]{cluster1}
+P.~Maksimovic M.~Swartz G.~Giurgiu, D.~Fehling.
+\newblock Pixel hit reconstruction with the cms detector.
 
-\bibitem[collaboration(2018{\natexlab{b}})]{PCC2}
-The~CMS collaboration.
-\newblock Luminosity measurement at cms.
-\newblock March 2018{\natexlab{b}}.
+\bibitem[Collaboration(2014)]{cluster2}
+The~CMS Collaboration.
+\newblock Description and performance of track and primary-vertex
+  reconstruction with the cms tracker.
+\newblock 2014.
+\newblock \doi{10.1088/1748-0221/9/10/P10009}.
 
 \bibitem[collaboration(2018{\natexlab{c}})]{PCC3}
 The~CMS collaboration.
