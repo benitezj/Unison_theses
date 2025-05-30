@@ -96,7 +96,12 @@ In the pixel detector the charged produce by charged particles passing through t
     \label{fig:cluster}
 \end{figure}
 
-The first step to the reconstruction process is referred to as local reconstruction. It consist of the clustering of zero-suppressed signals above specific thresholds in pixel and strip channels into hits, and then estimating the cluster positions and their uncertainties defined in a local orthogonal coordinate system (u, v) in the plane of each sensor.  \cite{cluster2}
+The first step to the reconstruction process is referred to as local reconstruction. It consist of the clustering of zero-suppressed signals above specific thresholds in pixel and strip channels into hits, and then estimating the cluster positions and their uncertainties defined in a local orthogonal coordinate system (u, v) in the plane of each sensor. The sensor has a total of 100 x 150 $\mu m^{2}$ pixels with the u axis oriented parallel to the shorter pixel edge and for the strip sensors the u-axis is perpendicular to the central strip in the sensors.   \cite{cluster2}  
+
+During the data acquisition on the pixel detector a zero suppresion is performed in the readout chips of the sensors, with adjustable threshold for each pixel. This pixels read-out threshold is set to a single pixel equivalent to a charge of 3200 electrons. Offline, pixel clusters are formed from adjacent pixels. Each of these clusters must have a minimum charge of at least 4000 electrons. Misscalibration of residual charges caused by the pixel to pixel differences of the charge injection capacitors, which are used to calibrate pixel gain are extracted from laboratory measurements and the Monter Carlo simulator. 
+
+There are two algorithms for determine the positions of the pixel clusters, a fast one that is called first pass hit reconstruction and is used during the track seeding and pattern recognition and the second algorithm called template based hit reconstruction which is more precise and is based on cluster shapes and used in the final track fit. 
+
 
 \section{Pixel Detector Module Selection}
 
@@ -123,4 +128,4 @@ To obtain the number of modules that are damaged and can exhibit issues with sta
   \item Compare linearity parameter between modules and remove outliers
 \end{itemize}
 
-The pixel detector has a total of 1856 modules (1184 on the BPIX and 672 on FPIX) in this analysis for the pcc vdm calibration on 2024 for the fill 9639, a total of 1616 modules were removed for a total of 240 modules with 193 in the BPIX part of the detector and the other ones on the FPIX part. 
+On summary, in the analysis for the PCC vdm calibration on 2024 for the fill 9639, a total of 1616 modules were removed for a total of 240 good modules with 193 in the BPIX part of the detector and the other ones on the FPIX part. 

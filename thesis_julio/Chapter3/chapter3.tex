@@ -22,7 +22,7 @@ For obtaining the importnat parameters on the vdm scan we return to the equation
 Because of the scan method is it assumed that the two bunches of proton densities are factorizable since they act independently between each other so we can turn the right part of (3.1) into two integrals:
 
  \begin{equation}
-N_{1} N_{2} f  \int \int \rho_{1}(x,y)\rho_{2}(x+\Delta x, y+\Delta y) dxdy   = N_{1} N_{2} f (\int \rho_{1}(x)\rho_{2}(x + \Delta x) dx) (\int rho_{1}(y) \rho_{2}(y + \Delta y) dy)
+N_{1} N_{2} f  \int \int \rho_{1}(x,y)\rho_{2}(x+\Delta x, y+\Delta y) dxdy   = N_{1} N_{2} f (\int \rho_{1}(x)\rho_{2}(x + \Delta x) dx) (\int \rho_{1}(y) \rho_{2}(y + \Delta y) dy)
 \end{equation}
 
 Integrating both sides on $\Delta y$ and using in combination with (3.1) while we fix $\Delta x_{0}$ = 0 and $\Delta y_{0}$ = 0 as the head on point,  we obtain:
@@ -34,13 +34,13 @@ N_{1} N_{2} f \int \rho_{1}(x) \rho_{2}(x + \Delta x_{0}) dx = \int L (\Delta x_
 A similar result is obtained when we integrate both sides for $\Delta x$ using this and combining equation (3.1), (3.2) and (3.3) we can obtain that 
 
 \begin{equation}
-N_{1} N_{2} f \int \rho_{1}(x) \rho_{2}(x + \Delta x_{0}) dx = \frac{L (\Delta X_{0}, Delta y_{0})}{\int L(\Delta x_{0}, \Delta y) d(\Delta y)}
+N_{1} N_{2} f \int \rho_{1}(x) \rho_{2}(x + \Delta x_{0}) dx = \frac{L (\Delta X_{0}, \Delta y_{0})}{\int L(\Delta x_{0}, \Delta y) d(\Delta y)}
 \end{equation}
 
 Similarly to the previous step we can obtain the value of the other factor of (3.2) with an analogous process. The integrals resulting on the right side can be evaluated by evaluated by obtaining the rate in function of the beam-beam separation which are $\Delta x$ and $\Delta y$  this because the luminosity has a linear relationship with the rate. The Luminosity can be expresed on terms of the rate during the head on points using the following:
 
 \begin{equation}
-L(\Delta x, \Delta y) = N_{1} N_{2} f \frac{2R(\Delta x_{0}, \Delta y_{0}}{\int L(\Delta x_{0}, \Delta y) d(\Delta y) \int L(\Delta x, \Delta y_{0}) d(\Delta x)}
+L(\Delta x, \Delta y) = N_{1} N_{2} f \frac{2R(\Delta x_{0}, \Delta y_{0}}){\int L(\Delta x_{0}, \Delta y) d(\Delta y) \int L(\Delta x, \Delta y_{0}) d(\Delta x)}
 \end{equation}
 
 Here the luminosity is replaced by the rate R, it is convenient to write this integral in terms of the convoluted beam widths which are denoted by $\Sigma_{x}$ and $\Sigma_{Y}$, this convoluted widths are defined by: 
@@ -58,7 +58,7 @@ L(\Delta x, \Delta y) = \frac{N_{1}N_{2}f}{2 \pi \Sigma_{x} \Sigma_{y}}
 This in combination with (1.4) make us possible to obtain the following expression for the visible cross section
 
 \begin{equation}
-\sigma_{vis} = \frac{2 \pi \Sigma_{x} Sigma_{y} R(\Delta x_{0} \Delta y_{0})}{N_{1} N_{2}f}
+\sigma_{vis} = \frac{2 \pi \Sigma_{x} \Sigma_{y} R(\Delta x_{0} \Delta y_{0})}{N_{1} N_{2}f}
 \end{equation}
 
 This makes possible obtain $\sigma_{vis}$ only by experiment since all of the right values can be obtained via the experiment, the maximum rate R($\Delta x_{0}$, $\Delta y_{0}$) is obtained at the maximum PCC obtained during the vdm scan, this means during the head-on process, while the $\Sigma_{x}$ and $\Sigma_{y}$ are obtained with the information of the fit model. 
@@ -134,7 +134,7 @@ The background estimation is obtained during the super separation (SS) process, 
  \hline
  SS3 &  & 1715919463 \\
  \hline
- SS6 &  & 1715943343  \\
+ SS4 &  & 1715943343  \\
  \hline
  SS5 &  & 1715987602  \\ [1.0ex]
  \hline
@@ -142,17 +142,57 @@ The background estimation is obtained during the super separation (SS) process, 
 \end{center}
 \end{table}
 
-This is the mean value of each super separation off al the bcids a total of 60 mean values were obtained 
+This is the mean value of each super separation off al the bcids a total of 60 mean values were obtained and was $ss_background$ = 0.0251 +-0.0018 in the following picture we can see the 
+
 
 
 \section{Corrections}
+
+A few corrections were taken into consideration to eliminate noise data from another sources during this vdm calibration, this corrections are applied by the vdm framework. 
+
+\begin{itemize}
+  \item \textbf{Background} The rates substracted on the SS periods and is associated with the luminometer itself see section (3.x) for more.
+  \item \textbf {Ghost Satellite} This correction have to be with the charge that comes from the non colliding bunches, which are called ghost and those who are leaking from the main radio frequency bucket into another bucket which are called satellite. This currents have an effect on the $\sigma_{visible}$ measure because of the contribution on the charges, this charges are substracted from the beam currents.  \cite{ghost}
+  \item \textbf{BeamBeam} This are deflections that happen between bunch crossings, accounting for the electrical repulsion of the beams which increases the lateral separation.   \cite{beambeam}
+  \item \textbf{Dynamic beta} This correction accounts for any changes in the proton density distributions of the bunches due to the single particle interaction, resulting into a non linear change during separation steps in transverse bunch profiles and can be described as the effective changes of a called $\beta$ value. \cite{LHClum}
+\end{itemize}
+
 
 \section{Fit model} 
 
 There are different fit models at the time to do the vdm calibration, the most common one is Single Gaussian but also other models like the Double Gaussian, QG, Poly2g or Poly 4G. Each of these models have different parameters and restrictions making some of them better than other on the fit quality. 
 
+For the main calibration we used the QG fit this fit uses the parameter $\sigma$, the peak and a q values as the parameters. This fit is given by the following equation:
+
+
+\begin{equation}
+f_{qg}(x,y) = \frac{V}{C(q) \sigma_{x} \sigma_{y}\sqrt{1-\chi^{2}}} e_{q}(\frac{\ r^{2}}{(4-2q)}) 
+\end{equation}
+
+with $e_{q}$ being a function of x defined as: 
+
+\begin{equation}
+e_{q}(x) = (1+(1-q)x)^{\frac{1}{1-q}}
+\end{equation}
+
+and $c(q)$ having two different values depending on the value of the q, for q < 1: 
+
+\begin{equation}
+c(q) = \frac{4-2q}{1-q} \pi \frac{\Gamma (\frac{2-q}{1-q})}{\Gamma (\frac{2-q}{1-q} + 1)}
+\end{equation}
+
+and for the other cases:
+
+\begin{equation}
+c(q) = \frac{4-2q}{q-1} \pi \frac{\Gamma (\frac{1}{q-1} - 1)}{\Gamma (\frac{1}{q-1})}
+\end{equation}
+
+
+
 
 \section{Beam Parameters}
+
+The beam parameters of the vdm scan were obtained after the vdm framework run on the fit, one of the parameters obtained was the peak: 
 
 
 

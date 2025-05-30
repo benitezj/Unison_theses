@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -93,5 +93,29 @@ The~CMS collaboration.
 \newblock Precision luminosity measurement in proton-protoncollisions at √s =
   13 tev in 2015 and 2016 at cms.
 \newblock March 2018{\natexlab{c}}.
+
+\bibitem[Can(2018)]{Vdm}
+Yusuf Can.
+\newblock \emph{Calibration of CMS luminometer using Van Der Meer and Emittance
+  scans}.
+\newblock Phd thesis, Bogazici University, October 2018.
+
+\bibitem[Giovanni~Franzoni(2016)]{datasets1}
+CMS~Collaboration Giovanni~Franzoni.
+\newblock Dataset definition for cms operations and physics analyses.
+\newblock 2016.
+\newblock \doi{https://doi.org/10.1016/j.nuclphysbps.2015.09.144}.
+
+\bibitem[A.~Alici(2012)]{ghost}
+et~al A.~Alici.
+\newblock Study of the lhc ghost charge and satellite bunches for luminosity
+  calibration.
+\newblock July 2012.
+
+\bibitem[Koutchouk(2001)]{beambeam}
+J.~P. Koutchouk.
+\newblock Correction of the long-range beam-beam effect in lhc using
+  electro-magnetic lenses.
+\newblock 2001.
 
 \end{thebibliography}

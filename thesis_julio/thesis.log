@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  23 MAY 2025 13:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  30 MAY 2025 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1382,7 +1382,7 @@ LaTeX Warning: Label `fig:four-forces' multiply defined.
 
 LaTeX Warning: Label `fig:four-forces' multiply defined.
 
-))
+) (./Chapter3/chapter3.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
@@ -1403,7 +1403,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
 LaTeX Font Info:    ... okay on input line 127.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
 LaTeX Font Info:    ... okay on input line 127.
- (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count404
 \scratchdimen=\dimen345
@@ -1496,7 +1497,7 @@ or `english'. on input line 127.
 \openout2 = `Portada/Portada.aux'.
 
  (./Portada/Portada.tex
-<unison-logo.png, id=59, 321.2pt x 321.2pt>
+<unison-logo.png, id=91, 321.2pt x 321.2pt>
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
 Package pdftex.def Info: unison-logo.png  used on input line 24.
@@ -1574,7 +1575,7 @@ No file thesis.nls.
 
 (./Chapter1/chapter1.tex
 Chapter 1.
-<table1.png, id=121, 344.28625pt x 132.495pt>
+<table1.png, id=169, 344.28625pt x 132.495pt>
 File: table1.png Graphic file (type png)
 <use table1.png>
 Package pdftex.def Info: table1.png  used on input line 14.
@@ -1584,7 +1585,7 @@ Package pdftex.def Info: table1.png  used on input line 14.
 
 
  <./table1.png>]
-<sm.png, id=130, 586.19pt x 429.605pt>
+<sm.png, id=179, 586.19pt x 429.605pt>
 File: sm.png Graphic file (type png)
 <use sm.png>
 Package pdftex.def Info: sm.png  used on input line 27.
@@ -1599,7 +1600,7 @@ l.33 ...ts neutrino and the third one is the $\tao
 ? s
 OK, entering \scrollmode...
 [2 <./sm.png>]
-<LHC.png, id=139, 762.85pt x 746.79pt>
+<LHC.png, id=188, 762.85pt x 746.79pt>
 File: LHC.png Graphic file (type png)
 <use LHC.png>
 Package pdftex.def Info: LHC.png  used on input line 45.
@@ -1609,34 +1610,24 @@ Package pdftex.def Info: LHC.png  used on input line 45.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3] [4 <./LHC.png (PNG copy)>]
-<cross1.png, id=154, 442.65375pt x 163.61125pt>
+<cross1.png, id=203, 442.65375pt x 163.61125pt>
 File: cross1.png Graphic file (type png)
 <use cross1.png>
 Package pdftex.def Info: cross1.png  used on input line 73.
 (pdftex.def)             Requested size: 426.79135pt x 157.75653pt.
  [5 <./cross1.png>]
-! Undefined control sequence.
-<recently read> \simga 
-                       
-l.112 ... number of events per second, the $\simga
-                                                  _{p}$ is the cross section...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<lumi.png, id=165, 442.65375pt x 139.52126pt>
+<lumi.png, id=214, 442.65375pt x 139.52126pt>
 File: lumi.png Graphic file (type png)
 <use lumi.png>
-Package pdftex.def Info: lumi.png  used on input line 119.
+Package pdftex.def Info: lumi.png  used on input line 121.
 (pdftex.def)             Requested size: 426.79135pt x 134.52858pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6]
 ! Misplaced alignment tab character &.
-l.146 ...ation monitoring system for environment &
+l.148 ...ation monitoring system for environment &
                                                    safety, the muon drift tu...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1649,7 +1640,7 @@ might try typing `S' now just to see what is salvageable.
 ! Undefined control sequence.
 <recently read> \simga 
                        
-l.155 ...a relation with the cross section $\simga
+l.157 ...a relation with the cross section $\simga
                                                   _{i}$, instant luminosity ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1657,33 +1648,36 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<integratedlum.png, id=188, 225.84375pt x 178.6675pt>
+<integratedlum.png, id=235, 225.84375pt x 178.6675pt>
 File: integratedlum.png Graphic file (type png)
 <use integratedlum.png>
-Package pdftex.def Info: integratedlum.png  used on input line 168.
+Package pdftex.def Info: integratedlum.png  used on input line 170.
 (pdftex.def)             Requested size: 282.30397pt x 223.33382pt.
-) [8 <./integratedlum.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [8] [9 <./integratedlum.png>]
 \openout2 = `Chapter2/chapter2.aux'.
 
  (./Chapter2/chapter2.tex
 Chapter 2.
-<cms2.png, id=199, 555.07375pt x 411.5375pt>
+<cms2.png, id=252, 555.07375pt x 411.5375pt>
 File: cms2.png Graphic file (type png)
 <use cms2.png>
 Package pdftex.def Info: cms2.png  used on input line 10.
 (pdftex.def)             Requested size: 426.79826pt x 311.5598pt.
-[9
+[10
 
 
 
 
  <./cms2.png>]
-<cms.png, id=208, 734.745pt x 511.9125pt>
+<cms.png, id=260, 734.745pt x 511.9125pt>
 File: cms.png Graphic file (type png)
 <use cms.png>
 Package pdftex.def Info: cms.png  used on input line 36.
 (pdftex.def)             Requested size: 426.79135pt x 297.3625pt.
- [10] [11 <./cms.png>]
+ [11] [12 <./cms.png>]
 ! Undefined control sequence.
 \cm ->\ERROR 
              
@@ -1695,7 +1689,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<pixeldetector.png, id=223, 610.28pt x 184.69pt>
+<pixeldetector.png, id=275, 610.28pt x 184.69pt>
 File: pixeldetector.png Graphic file (type png)
 <use pixeldetector.png>
 Package pdftex.def Info: pixeldetector.png  used on input line 56.
@@ -1717,7 +1711,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[12]
+[13]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1731,7 +1725,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<BPIXFPIX.png, id=229, 591.20876pt x 157.58875pt>
+<BPIXFPIX.png, id=281, 591.20876pt x 157.58875pt>
 File: BPIXFPIX.png Graphic file (type png)
 <use BPIXFPIX.png>
 Package pdftex.def Info: BPIXFPIX.png  used on input line 71.
@@ -1753,30 +1747,250 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[13 <./pixeldetector.png>]
-<PixelSensor.png, id=235, 494.84875pt x 373.395pt>
+[14 <./pixeldetector.png>]
+<PixelSensor.png, id=287, 494.84875pt x 373.395pt>
 File: PixelSensor.png Graphic file (type png)
 <use PixelSensor.png>
 Package pdftex.def Info: PixelSensor.png  used on input line 83.
 (pdftex.def)             Requested size: 426.79242pt x 234.73871pt.
- [14 <./BPIXFPIX.png> <./PixelSensor.png>]
-<cluster3.png, id=243, 477.785pt x 90.3375pt>
+ [15 <./BPIXFPIX.png> <./PixelSensor.png>]
+<cluster3.png, id=296, 477.785pt x 90.3375pt>
 File: cluster3.png Graphic file (type png)
 <use cluster3.png>
 Package pdftex.def Info: cluster3.png  used on input line 94.
 (pdftex.def)             Requested size: 426.79135pt x 80.69508pt.
- [15 <./cluster3.png>]
-<module.png, id=255, 906.38625pt x 362.35374pt>
+ [16 <./cluster3.png>]
+<module.png, id=306, 906.38625pt x 362.35374pt>
 File: module.png Graphic file (type png)
 <use module.png>
-Package pdftex.def Info: module.png  used on input line 109.
+Package pdftex.def Info: module.png  used on input line 114.
 (pdftex.def)             Requested size: 426.78992pt x 149.37877pt.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-18.
+23.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-))
-[16 <./module.png>] (./thesis.bbl
+)
+[17 <./module.png>]) [18]
+\openout2 = `Chapter3/chapter3.aux'.
+
+ (./Chapter3/chapter3.tex
+Chapter 3.
+<vdm1.png, id=318, 634.37pt x 274.02374pt>
+File: vdm1.png Graphic file (type png)
+<use vdm1.png>
+Package pdftex.def Info: vdm1.png  used on input line 10.
+(pdftex.def)             Requested size: 426.79135pt x 184.3643pt.
+[19
+
+
+
+
+ <./vdm1.png>]
+Overfull \hbox (40.93062pt too wide) detected at line 26
+[][][]\OML/ztmcm/m/it/12 N[]N[]f [] [] ^^Z[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/
+12 x; y\OT1/ztmcm/m/n/12 )\OML/ztmcm/m/it/12 ^^Z[]\OT1/ztmcm/m/n/12 (\OML/ztmcm
+/m/it/12 x \OT1/ztmcm/m/n/12 + ^^A\OML/ztmcm/m/it/12 x; y \OT1/ztmcm/m/n/12 + ^
+^A\OML/ztmcm/m/it/12 y\OT1/ztmcm/m/n/12 )\OML/ztmcm/m/it/12 dxdy \OT1/ztmcm/m/n
+/12 = \OML/ztmcm/m/it/12 N[]N[]f\OT1/ztmcm/m/n/12 ([] \OML/ztmcm/m/it/12 ^^Z[]\
+OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 x\OT1/ztmcm/m/n/12 )\OML/ztmcm/m/it/12 ^^Z
+[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 x \OT1/ztmcm/m/n/12 + ^^A\OML/ztmcm/m/i
+t/12 x\OT1/ztmcm/m/n/12 )\OML/ztmcm/m/it/12 dx\OT1/ztmcm/m/n/12 )([] \OML/ztmcm
+/m/it/12 ^^Z[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 y\OT1/ztmcm/m/n/12 )\OML/zt
+mcm/m/it/12 ^^Z[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 y \OT1/ztmcm/m/n/12 + ^^
+A\OML/ztmcm/m/it/12 y\OT1/ztmcm/m/n/12 )\OML/ztmcm/m/it/12 dy\OT1/ztmcm/m/n/12 
+)
+ []
+
+[20]
+! Undefined control sequence.
+<recently read> \simga 
+                       
+l.66 ...ch so you obtain several values of $\simga
+                                                  _{vis}$ and then they are ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+[22]
+<SS1.jpeg, id=349, 1927.2pt x 937.5025pt>
+File: SS1.jpeg Graphic file (type jpg)
+<use SS1.jpeg>
+Package pdftex.def Info: SS1.jpeg  used on input line 113.
+(pdftex.def)             Requested size: 426.79135pt x 207.61017pt.
+ [23 <./SS1.jpeg>] [24]
+! Undefined control sequence.
+l.169 QG = P (1 + r_{2} (\fracc
+                               {x - x\bar}{\fracc{\sigma}{1+r_{2}}}^{2}) e^{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \mathaccentV has an extra }.
+<inserted text> 
+                \par 
+l.169 QG = P (1 + r_{2} (\fracc{x - x\bar}
+                                          {\fracc{\sigma}{1+r_{2}}}^{2}) e^{...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \mathaccentV was complete.
+<to be read again> 
+                   \par 
+l.169 QG = P (1 + r_{2} (\fracc{x - x\bar}
+                                          {\fracc{\sigma}{1+r_{2}}}^{2}) e^{...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.169 QG = P (1 + r_{2} (\fracc{x - x\bar}
+                                          {\fracc{\sigma}{1+r_{2}}}^{2}) e^{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.169 QG = P (1 + r_{2} (\fracc{x - x\bar}
+                                          {\fracc{\sigma}{1+r_{2}}}^{2}) e^{...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.169 QG = P (1 + r_{2} (\fracc{x - x\bar}
+                                          {\fracc{\sigma}{1+r_{2}}}^{2}) e^{...
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.169 QG = P (1 + r_{2} (\fracc{x - x\bar}
+                                          {\fracc{\sigma}{1+r_{2}}}^{2}) e^{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.169 QG = P (1 + r_{2} (\fracc{x - x\bar}{\fracc
+                                                 {\sigma}{1+r_{2}}}^{2}) e^{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.169 ... + r_{2} (\fracc{x - x\bar}{\fracc{\sigma
+                                                  }{1+r_{2}}}^{2}) e^{- \fra...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.169 ...+ r_{2} (\fracc{x - x\bar}{\fracc{\sigma}
+                                                  {1+r_{2}}}^{2}) e^{- \frac...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.169 ...fracc{x - x\bar}{\fracc{\sigma}{1+r_{2}}}
+                                                  ^{2}) e^{- \fracc{1}{2} \f...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.169 ...\fracc{\sigma}{1+r_{2}}}^{2}) e^{- \fracc
+                                                  {1}{2} \fracc{\sigma}{1+r_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.169 ...}{1+r_{2}}}^{2}) e^{- \fracc{1}{2} \fracc
+                                                  {\sigma}{1+r_{2}}^{2} }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\eqno' in math mode.
+\veqno ->\@kernel@eqno 
+                       \aftergroup \ignorespaces 
+l.170 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.170 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.170 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.170 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) [25] (./thesis.bbl
 
 ! LaTeX Error: Unicode character √ (U+221A)
                not set up for use with LaTeX.
@@ -1790,15 +2004,15 @@ l.93 ...surement in proton-protoncollisions at √
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-) [17
+[26
 
 
 
 
-]
+]) [27]
 No file thesis.ind.
 (./thesis.aux (./Portada/Portada.aux) (./Chapter1/chapter1.aux)
-(./Chapter2/chapter2.aux))
+(./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1808,16 +2022,16 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D4B62350D4C4ED5703440B855C61D5F7;2044.
+(rerunfilecheck)             Checksum: 89FC373D171EC7863D35BD9AB55EA636;3215.
  ) 
 Here is how much of TeX's memory you used:
- 44009 strings out of 474116
- 1007100 string characters out of 5743682
- 1937187 words of memory out of 5000000
- 65268 multiletter control sequences out of 15000+600000
- 632166 words of font info for 252 fonts, out of 8000000 for 9000
+ 44146 strings out of 474116
+ 1009219 string characters out of 5743682
+ 1938187 words of memory out of 5000000
+ 65330 multiletter control sequences out of 15000+600000
+ 635149 words of font info for 275 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,12n,121p,1611b,959s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,12n,121p,1611b,1137s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -1827,10 +2041,10 @@ xlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (21 pages, 2356335 bytes).
+Output written on thesis.pdf (31 pages, 2520563 bytes).
 PDF statistics:
- 323 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
- 71355 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 442 PDF objects out of 1000 (max. 8388607)
+ 357 compressed objects within 4 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 71429 words of extra memory for PDF output out of 74296 (max. 10000000)
 

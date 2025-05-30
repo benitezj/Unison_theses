@@ -81,13 +81,15 @@ The relation between $d\sigma$ and $d\Omega$ is:
 d\sigma = D(\theta)d\Omega
 \end{equation}
 
-Supposing a beam of incoming particles with a value L that is associated with the number of particles passing down the line per unit of time and per unit of area $dN = L d\sigma $ is the number of particles per unit time passing trough area $d\sigma$ and hence also the number per unit of time scattered into solid the solid angle $d\Omega$
+Supposing a beam of incoming particles with a value F that is associated with the number of particles passing down the line per unit of time and per unit of area $dN = F d\sigma $ is the number of particles per unit time passing trough area $d\sigma$ and hence also the number per unit of time scattered into solid the solid angle $d\Omega$
 
 \begin{equation}
-dN = L d\sigma = LD(\theta) d\Omega 
+dN = F d\sigma = fD(\theta) d\Omega 
 \end{equation}
 
-This could be seeing as the one who controls the number of particles going through the detector also determined the solid angle. 
+This is a classical description of scattering and could be seen as the one who controls the number of particles going through the detector also determined the solid angle. Here we have the incident flux F and a cross sectional area and are a way to interpret collision rates in modern particle accelerators since in high energy physics this structure is similar with a quantity called luminosity L with Its own cross section $\sigma$. 
+
+Even when the dynamics are different for the quantum field theory case, the general principle remains the same, when we have a  higher the cross section we obtain a higher luminosity and Its more likely to observer determined events. 
 
 %The define of cross section can be understand in a situation where a single particle is travelling to a velocity $v _{a}$in a region defined by A, which contains $n_{b}$ particles of a particle type b moving to a velocity $v_{b}$ in the opposite direction of $v_{a}$ if in a time $\delta t$  the particle a cross a region contained a total of $nb(v_{a} + v_{b})A\delta t$ particles of type b, the interaction probability can be obtained from the effective total cross seciotanl area divided by A which can be seen as the probability of that hte incident particles passes through one of the region of area $\sigma$ around each of the $\delta N$ particles then we can talk about the total rate being: 
 
@@ -103,15 +105,15 @@ This could be seeing as the one who controls the number of particles going throu
 
 \section{Luminosity}
 
-The performance of a collider is determined by the beam energy and the luminosity, theluminosity is a key parameter in particle colliders is a quantity that measures the ability of a particle accelerator to produce a required number of interactions\cite{Lum} 
+The performance of a collider is determined by the beam energy and the luminosity, the luminosity is a key parameter in particle colliders is a quantity that measures the ability of a particle accelerator to produce a required number of interactions\cite{Lum} 
 
 \begin{equation}
-N = L \cdot \sigma_{p} 
+R = L \cdot \sigma_{p} 
 \end{equation}
 
-In which N is the number of events per second, the $\simga_{p}$ is the cross section and L the instantanious luminosity luminosity. The unity of L is  $cm^{-2} s^{-1}$ a higher luminosity means greater probability that the particles will collide and produce the desired interactions, luminosity can be increased then in two ways, packing more particles into the beams or focusing this beams more.  
+In which R is the number of events per second or rate, the $\sigma_{p}$ is the cross section which in the quantum case is a probability of interaction which can be obtained from the standar model of particle physics and L the instantanious luminosity. The unity of L is  $cm^{-2} s^{-1}$ a higher luminosity means greater probability that the particles will collide and produce the desired interactions, luminosity can be increased then in two ways, packing more particles into the beams or focusing this beams more.  
 
-To compute the luminosity of two there is a few things that need to be taken in consideration. First the density distribution of each beam in the transverse and longitudinal plane, with the. two beams moving towards each other, the position and the time as the cross each other also need to be considered and calling the distance to the collision point $s_{0}$. The figure (1.x) shows a  In principle each of the distributions is different the overlap integral can be written as follow:
+To compute the luminosity of two there is a few things that need to be taken in consideration. First the density distribution of each beam in the transverse and longitudinal plane, with the. two beams moving towards each other, the position and the time as the cross each other also need to be considered and calling the distance to the collision point $s_{0}$. The figure (1.x) shows two beams colliding which depends on a variety of factors:
 
 
 \begin{figure}[h]
@@ -122,14 +124,14 @@ To compute the luminosity of two there is a few things that need to be taken in 
 \end{figure}
 
 
-In principle each of the distributions is different and we can write the overlap integral as follow:
+Following this we can write the integral for luminosity, in principle each of the distributions is different and we can write the overlap integral as follow:
 %$K = sqrt{(v_{1} - x_{2})^{2} - \frac{(v_{1} x v_{2})^{2}}{c^{2}} }
 
 \begin{equation}
- 2N_{1}N{2}fN_{b} \int \int \int^{\infty}_{-\infty}  \rho_{1x} (x) \rho_{1y}(y) \rho_{1s} (s-s_{0}) \rho_{2x}(x) \rho_{2y}(y) \rho_{2s} (s+s_{0}) dxdydsds_{0}  
+ L = 2N_{1}N{2}fN_{b} \int \int \int^{\infty}_{-\infty}  \rho_{1x} (x) \rho_{1y}(y) \rho_{1s} (s-s_{0}) \rho_{2x}(x) \rho_{2y}(y) \rho_{2s} (s+s_{0}) dxdydsds_{0}  
 \end{equation}
 
-With N1 and N2 being the bunch intensity, f the revolution frecuency, $N_{b}$ the number of colliding bunches, $\rho_{1}$ and $\rho_{2}$ time dependent beam density distribution functions, this is assuming the velocity on the beams is $v1 = -v2$ and the densities are uncorrelated in all planes the overlap integral takes the form of: \cite{Lumvdm}
+With N1 and N2 being the bunch intensity, f the revolution frecuency, $N_{b}$ the number of colliding bunches, $\rho_{1}$ and $\rho_{2}$ time dependent beam density distribution functions and assuming the densities are uncorrelated in all planes.  \cite{Lumvdm}
 
 For solving this integral one should known all distributions and an analytical solutions might not be possible and numerical numerical integration might be required.
 
