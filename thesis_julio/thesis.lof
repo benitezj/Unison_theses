@@ -16,3 +16,8 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces The vdm scan on the left showing the beams for X and Y. On the right a curve of the different values of rate for the beams displacement, the peak occurs during the head on part.}}{19}{figure.caption.16}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Histogram of rates during the second super separation scan}}{23}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces SS periods histograms showing entries for bcid 5 }}{24}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Covariance value showing that all bcids converged with the fit}}{26}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Fit quality values}}{27}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces QG peak values important on the computing of $\sigma _{visible}$}}{27}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces QG $\Sigma $ important to compute value of $\sigma _{visible}$}}{28}{figure.caption.24}%

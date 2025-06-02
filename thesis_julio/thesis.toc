@@ -16,7 +16,7 @@
 \contentsline {section}{\numberline {3.2}Datasets}{21}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Scans}{22}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Background Estimation}{24}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Corrections}{24}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Corrections}{25}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Fit model}{25}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Beam Parameters}{25}{section.3.7}%
-\contentsline {chapter}{References}{26}{chapter*.20}%
+\contentsline {section}{\numberline {3.7}Beam Parameters}{26}{section.3.7}%
+\contentsline {chapter}{References}{29}{chapter*.25}%

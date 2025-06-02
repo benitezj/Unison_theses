@@ -119,7 +119,17 @@ In the image we can see that the average rate suddenly drops, this is the beggin
 
 \section{Background Estimation}
 
-The background estimation is obtained during the super separation (SS) process, since the SS scan separates the beams so they shouldn't be colliding the expected value on the rate is expected to be a rate associated with the background, this is then estimated by checking each of the SS scans on the time window referred on the table (3.1), the mean value during this period is assumed to be the mean value of the SS period, in the following table we see the mean PCC value for each period.  
+The background estimation is obtained during the super separation (SS) process, since the SS scan separates the beams so they shouldn't be colliding the expected value on the rate is expected to be a rate associated with the background, this was obtained checking the mean values for each bcid for all the entries of pcc rates for each of the 5 periods of super separation, is is illustrated in the next image:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{sshist.png}
+    \caption{SS periods histograms showing entries for bcid 5 }
+    \label{fig:SShist}
+\end{figure}
+
+
+this is then estimated by checking each of the SS scans on the time window referred on the table (3.1), the mean value during this period is assumed to be the mean value of the SS period, in the following table we see the mean PCC value for each period.  
 
 \begin{table} [H]
 \begin{center}
@@ -142,7 +152,9 @@ The background estimation is obtained during the super separation (SS) process, 
 \end{center}
 \end{table}
 
-This is the mean value of each super separation off al the bcids a total of 60 mean values were obtained and was $ss_background$ = 0.0251 +-0.0018 in the following picture we can see the 
+This is the mean value of each super separation off al the bcids
+
+ a total of 60 mean values were obtained and was $ss_background$ = 0.0251 +-0.0018 in the following picture we can see the 
 
 
 
@@ -187,12 +199,57 @@ and for the other cases:
 c(q) = \frac{4-2q}{q-1} \pi \frac{\Gamma (\frac{1}{q-1} - 1)}{\Gamma (\frac{1}{q-1})}
 \end{equation}
 
+The fit model on the vdm data is illustrated in both planes X and Y in the following image: 
+
+%\begin{figure}[H]
+  %  \begin{subfigure}{0.5\textwidth}
+    %\centering
+    %\includegraphics[width=0.5\textwwidth]{fitqg1.png}
+    %\includegraphics[width=0.5\columnwidth]{fitqg2.png}
+    %\caption{QG Fit on X plane and Y plane}
+    %\label{fig:QGfit}
+%\end{figure}
+
+As well we can see that the matrix values of the fit converged since the matrix covalue is 3 which is expected when a convergence ocurres. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{QG_covStatus.png}
+    \caption{Covariance value showing that all bcids converged with the fit}
+    \label{fig:QGfit}
+\end{figure}
+
+And for the fit quality the value $\chi^{2}$ 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{QG_chi2.png}
+    \caption{Fit quality values}
+    \label{fig:QGchi2}
+\end{figure}
 
 
 
 \section{Beam Parameters}
 
-The beam parameters of the vdm scan were obtained after the vdm framework run on the fit, one of the parameters obtained was the peak: 
+The beam parameters of the vdm scan were obtained after the vdm framework run on the fit, one of the parameters obtained is the peak:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{QG_peak.png}
+    \caption{QG peak values important on the computing of $\sigma_{visible}$}
+    \label{fig:QGpeak}
+\end{figure}
+
+And the $\Sigma_{x, y}$ values: 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{QG_CapSigma.png}
+    \caption{QG $\Sigma$ important to compute value of $\sigma_{visible}$}
+    \label{fig:QGcapsigma}
+\end{figure}
+
 
 
 
