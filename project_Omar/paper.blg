@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: paper.aux
+The style file: unsrt.bst
+Database file #1: paper.bib
+You're missing a field name---line 417 of file paper.bib
+ : 
+ : %%    author = "Adam, W. and others",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Illegal end of database file---line 1520 of file paper.bib
+ : 
+ : 
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Lamont:2024"
+You've used 3 entries,
+            1791 wiz_defined-function locations,
+            470 strings with 4180 characters,
+and the built_in function-call counts, 513 in all, are:
+= -- 47
+> -- 16
+< -- 0
++ -- 7
+- -- 4
+* -- 22
+:= -- 97
+add.period$ -- 12
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 25
+empty$ -- 50
+format.name$ -- 4
+if$ -- 110
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 21
+num.names$ -- 3
+pop$ -- 4
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 10
+stack$ -- 0
+substring$ -- 15
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 4
+width$ -- 4
+write$ -- 39
+(There were 2 error messages)

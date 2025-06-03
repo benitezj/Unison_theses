@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{Chatrchyan:2012xdj}
+S.~Chatrchyan et~al.
+\newblock {Observation of a New Boson at a Mass of 125 GeV with the CMS
+  Experiment at the LHC}.
+\newblock {\em Phys. Lett.}, B716:30--61, 2012.
+\newblock \url{http://inspirehep.net/record/1124338?ln=es}.
+
+\bibitem{Sirunyan:2021qkt}
+Albert~M Sirunyan et~al.
+\newblock {Precision luminosity measurement in proton-proton collisions at
+  $\sqrt{s} =$ 13 TeV in 2015 and 2016 at CMS}.
+\newblock {\em CMS-LUM-17-003}, 4 2021.
+\newblock \url{https://inspirehep.net/literature/1856090}.
+
+\bibitem{CMS:2018elu-corr}
+CMS Collaboration.
+\newblock {CMS luminosity measurement for the 2017 data-taking period at
+  $\sqrt{s} = 13~\mathrm{TeV}$}.
+\newblock {\em CMS-PAS-LUM-17-004}, 2018.
+\newblock \url{http://cds.cern.ch/record/2621960}.
+
+\end{thebibliography}
