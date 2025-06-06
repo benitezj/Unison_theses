@@ -8,6 +8,40 @@
 note = "\url{http://cds.cern.ch/record/1127611?ln=en}"
 }
 
+
+@article{Thomsom,
+    author = "M. Thomson",
+    publisher = "Cambridge University Press, New York",
+    title = "{Modern Particle Physics, Cambridge University Press, New York}",
+    year = "2013"
+}
+
+@techreport{Collaboration:121,
+      author        = "CMS collaboration",
+      title         = "{CMS luminosity measurements for the 2016 data taking period}",
+      institution   = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      reportNumber  = "CMS-PAS-LUM-17-001",
+      month         = "March",
+      year          = "2016",
+      url           = "https://cds.cern.ch/record/2257069?ln=en",
+      note = "\url{https://cds.cern.ch/record/2257069?ln=en}"
+}
+
+@techreport{Collaboration:124,
+      author        = "CMS collaboration",
+      title         = "{Luminosity measurement in proton-proton collisions at 13.6 TeV in 2022 at CMS}",
+      institution   = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      reportNumber  = "CMS-PAS-LUM-22-001",
+      month         = "March",
+      year          = "2024",
+      url           = "https://cds.cern.ch/record/2890833",
+      note = "\url{https://cds.cern.ch/record/2890833}"
+}
+
 @article{Klein:2017nke,
     author = "Tumasyan, Armen and others",
     editor = "Klein, K.",
@@ -19,17 +53,15 @@ note = "\url{http://cds.cern.ch/record/1127611?ln=en}"
 note = "\url{https://cds.cern.ch/record/2272264?ln=en}"
 }
 
-@book{Zinser2018,
-  doi = {10.1007/978-3-030-00650-1},
-  url = {https://doi.org/10.1007/978-3-030-00650-1},
-  year = {2018},
-  publisher = {Springer International Publishing},
-  author = {Markus Zinser},
-  title = {Search for New Heavy Charged Bosons and Measurement of High-Mass Drell-Yan Production in Proton{\textemdash}Proton Collisions},
-  note = "\url{https://doi.org/10.1007/978-3-030-00650-1}"
+@article{lumi-run3,
+    author = "O. Aberle et al",
+    collaboration = "CMS",
+    title = "{High-Luminosity Large Hadron Collider (HL-LHC): Technical design report}",
+    reportNumber ="CERN-2020-010",
+    year = "2020",
+    doi = "10.23731/CYRM-2020-0010",
+note = "last actualization in \url {https://hilumilhc.web.cern.ch/content/hl-lhc-project}"
 }
-
-
 
 @article{TrackerGroupoftheCMS:2020bgg,
     author = "Adam, W. and others",
@@ -63,36 +95,6 @@ note = "\url{https://inspirehep.net/literature/1768569}"
 }
 
 
-%------- Alternativa para Dainese:2019rgk--------------------------
-@techreport{Dainese:2,
-      author        = "Dainese, Andrea and Mangano, Michelangelo and Meyer,
-                       Andreas B and Nisati, Aleandro and Salam, Gavin and
-                       Vesterinen, Mika Anton",
-      title         = "{Report on the Physics at the HL-LHC, and Perspectives for
-                       the HE-LHC}",
-      address       = "Geneva, Switzerland",
-      reportNumber  = "CERN-2019-007",
-      year          = "2019",
-      url           = "http://cds.cern.ch/record/2703572",
-      doi           = "10.23731/CYRM-2019-007",
-}
-
-
-@article{Dainese:3,
-  title="{Report on the Physics at the HL-LHC, and Perspectives for the HE-LHC}",
-  author={Dainese, Andrea and Mangano, Michelangelo and Meyer,
-                       Andreas B and Nisati, Aleandro and Salam, Gavin and
-                       Vesterinen, Mika Anton},
-  journal={Techical report: CERN-2019-007},
-  note = "\url{https://doi.org/10.23731/CYRM-2019-007}",
-  year={2019}
-}
-
-
-
-
-%-------------------------------------------------------------
-
 
 @article{Khachatryan:2015ota,
     author = "Khachatryan, Vardan and others",
@@ -107,7 +109,7 @@ note = "\url{https://inspirehep.net/literature/1768569}"
     volume = "06",
     pages = "177",
     year = "2016",
-note = "\url{https://doi.org/10.1007/JHEP06(2016)177}"
+note = "\url{https://inspirehep.net/literature/1395096}"
 }
 
 @inproceedings{Grojean:2017hsb,
@@ -121,37 +123,6 @@ note = "\url{https://doi.org/10.1007/JHEP06(2016)177}"
     year = "2016",
 note = "\url{https://inspirehep.net/literature/1614172}"
 }
-
-%----correción del anterior (Grojean:2017hsb)-------------------%
-@article{Grojean:2017hsb-corr,
-  title="{Higgs Physics}",
-  author={Grojean, C.},
-  journal={CERN Yellow Report: CERN 2016-005, pp. 143-158},
-  note = "\url{https://doi.org/10.5170/CERN-2016-005.143}",
-  year={2016}
-}
-%-------------------------------------------------------------------%
-
-@misc{wiki:xxx,
-   author = "Wikimedia Commons",
-   title = "File:LHC.svg --- Wikimedia Commons{,} the free media repository",
-   year = "2020",
-   url = "https://commons.wikimedia.org/w/index.php?title=File:LHC.svg&oldid=451245261",
-   note = "[Online; accessed 16-June-2021]"
- }
-
-
-@article{BejarAlonso:2749422,
-  title="{High-Luminosity Large Hadron Collider (HL-LHC): Technical
-                       design report}",
-  author={Bejar Alonso, I and Bruning, O and Fessia, P and Rossi,
-                       L and Tavian, L and Zerlauth, M},
-  journal={CERN Yellow Reports: Monographs.CERN-2020-010},
-note = "\url{http://cds.cern.ch/record/2749422}",
-  year={2020}
-}
-
-
 
 @article{Mobs:2684277,
       author        = "Mobs, Esma",
@@ -168,59 +139,11 @@ note = "\url{https://cds.cern.ch/record/2684277?ln=en}"
 
 
 @article{Sirunyan:2021qkt,
-    author = "Sirunyan, Albert M and others",
-    collaboration = "CMS",
+    author = "The CMS collaboration",
     title = "{Precision luminosity measurement in proton-proton collisions at $\sqrt{s} =$ 13 TeV in 2015 and 2016 at CMS}",
-    journal={CMS-LUM-17-003},
-    eprint = "2104.01927",
-    archivePrefix = "arXiv",
-    primaryClass = "hep-ex",
-    reportNumber = "CMS-LUM-17-003, CERN-EP-2021-033",
-    month = "4",
-    year = "2021",
-    note = "\url{https://inspirehep.net/literature/1856090}"
+    reportNumber = "{Eur. Phys. J. C (2021) 81:800}",
+note = "\url{https://doi.org/10.1140/epjc/s10052-021-09538-2}"
 }
-
-
-%----correción del anterior (siruntan:2021qkt)-------------------%
-@article{Sirunyan:2021qkt-corr,
-  title="{Precision luminosity measurement in proton-proton collisions at $\sqrt{s} =$ 13 TeV in 2015 and 2016 at CMS}",
-  author={CMS Collaboration},
-  journal={CMS-LUM-17-003},
-note = "\url{https://arxiv.org/abs/2104.01927}",
-  year={2021}
-}
-
-%-------------------------------------------------------------------%
-
-
-
-
-@article{LUM12001,
-    author = "CMS Collaboration",
-    title = "{CMS Luminosity Based on Pixel Cluster Counting - Summer 2012 Update}",
-    journal = "",
-    volume = "CMS PAS LUM-12-001",
-    year = "2012",
-    note = "\url{http://cds.cern.ch/record/1482193/}"
-}
-
-%%@article{TrackerGroupoftheCMS:2020bgg,
-%%    author = "Adam, W. and others",
-%%    collaboration = "CMS Tracker Group",
-%%    title = "{The CMS Phase-1 Pixel Detector Upgrade}",
-%%    eprint = "2012.14304",
-%%    archivePrefix = "arXiv",
-%%    primaryClass = "physics.ins-det",
-%%    doi = "10.1088/1748-0221/16/02/P02027",
-%%    journal = "JINST",
-%%    volume = "16",
-%%    number = "02",
-%%    pages = "P02027",
-%%    year = "2021",
-%%note = "\url{https://arxiv.org/abs/2012.14304}"
-%%}
-
 
 
 
@@ -240,17 +163,13 @@ note = "\url{https://arxiv.org/abs/2104.01927}",
 note = "\url{https://inspirehep.net/literature/1677076}"
 }
 
-%----correción del anterior (CMS:2018elu)-------------------%
-@article{CMS:2018elu-corr,
-  title="{CMS luminosity measurement for the 2017 data-taking period at $\sqrt{s} = 13~\mathrm{TeV}$}",
-  author={CMS Collaboration},
-  journal={CMS-PAS-LUM-17-004},
-note = "\url{http://cds.cern.ch/record/2621960}",
-  year={2018}
+@article{CMS:2018,
+    author = "CMS collaboration",
+    title = "{CMS luminosity measurement for the 2018 data-taking period at $\sqrt{s} = 13~\mathrm{TeV}$}",
+    reportNumber = "CMS-PAS-LUM-18-002",
+    year = "2019",
+note = "\url{https://cds.cern.ch/record/2676164?ln=en}"
 }
-
-%-------------------------------------------------------------------%
-
 
 @article{Rossi:2015ulc,
     author = {Rossi, L. and Br\"uning, O.},
@@ -261,7 +180,7 @@ note = "\url{http://cds.cern.ch/record/2621960}",
     volume = "24",
     pages = "1--17",
     year = "2015"
-}
+
 @article{Cepeda:2019klc,
     author = "Cepeda, M. and others",
     editor = "Dainese, Andrea and Mangano, Michelangelo and Meyer, Andreas B. and Nisati, Aleandro and Salam, Gavin and Vesterinen, Mika Anton",
@@ -276,20 +195,6 @@ note = "\url{http://cds.cern.ch/record/2621960}",
     pages = "221--584",
     year = "2019",
 note = "\url{https://arxiv.org/abs/1902.00134}"
-}
-%----correción del anterior (Cepeda:2019klc)-------------------%
-
-@article{Cepeda:2019klc-corr,
-  title="{Report from Working Group 2: Higgs Physics at the HL-LHC and HE-LHC}",
-  author={Cepeda et al.},
-  journal={CERN Yellow Reports: Monographs, CERN-2019-007,pp. 221-584},
-note = "\url{https://doi.org/10.23731/CYRM-2019-007.221}",
-  year={2019}
-}
-
-%-------------------------------------------------------------------%
-
-
 
 
 @techreport{Collaboration:2706512,
@@ -378,8 +283,8 @@ note = "\url{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.092005}",
 }
 
 @article{cms2018observation,
-  author={CMS collaboration},
   title={Observation of $$\backslash$mathrm $\{$t$\backslash$overline $\{$t$\}$$\}$ $ H production},
+  author={CMS collaboration},
   journal={arXiv:1804.02610},
   year={2018}
 }
@@ -413,7 +318,7 @@ note = "\url{https://inspirehep.net/search?p=find+eprint+1606.02266}",
    year={2016},
 }
 
-@article{Reece:2012gi,
+%@article{Reece:2012gi,
       author         = "Reece, Matthew",
       title          = "{Vacuum Instabilities with a Wrong-Sign Higgs-Gluon-Gluon
                         Amplitude}",
@@ -476,7 +381,7 @@ note = "\url{https://inspirehep.net/search?p=find+eprint+1606.02266}",
       year           = "2008",
       pages          = "S08004",
       doi            = "10.1088/1748-0221/3/08/S08004",
- note  = "\url{https://doi.org/10.1088/1748-0221/3/08/s08004}",
+ note  = "\url{http://inspirehep.net/record/1124338?ln=es}",
       SLACcitation   = "%%CITATION = JINST,3,S08004;%%"
 }
 
@@ -499,6 +404,26 @@ note = "\url{https://arxiv.org/abs/1902.10229}",
   year={2013},
 note = "\url{https://inspirehep.net/search?p=find+eprint+1211.3736}",
   publisher={Springer}
+}
+
+@article{farina2013lifting,
+  title={Lifting degeneracies in Higgs couplings using single top production in association with a Higgs boson},
+  author={M. Farina et al.},
+  journal={JHEP},
+  volume={2013},
+  number={5},
+  pages={22},
+  year={2013},
+note = "\url{https://inspirehep.net/search?p=find+eprint+1211.3736}",
+  publisher={Springer}
+}
+
+@article{vdMSketch,
+  title={Performance of the BRIL luminometers at CMS in Run 2},
+  author={O. Karacheban},
+  year={2019},
+doi = "10.22323/1.364.0194",
+  publisher={CMS Public Note CMS-CR-2019-140}
 }
 
 
@@ -548,24 +473,6 @@ note = "\url{https://inspirehep.net/search?p=find+eprint+1405.0301}",
 note ="\url{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.092005}",
   publisher={APS}
 }
-
-
-%----correción del anterior (Cepeda:2019klc)-------------------%
-
-@article{pas:2018vdm,
-  title="{CMS luminosity measurement for the 2018 data-taking
-                       period at $\sqrt{s} = 13~\mathrm{TeV}$}",
-  author={CMS Collaboration},
-  journal={CMS-PAS-LUM-18-002},
-note = "\url{https://cds.cern.ch/record/2676164}",
-  year={2019}
-}
-
-%-------------------------------------------------------------------%
-
-
-
-
 
 @article{brun2003root,
   title={The $\uppercase{ROOT}$ Users Guide},
@@ -681,7 +588,7 @@ year={2008}
       note = "\url{http://inspirehep.net/record/1614070?ln=es}",
       note          = "There is an error on cover due to a technical problem for
    
-%%%%%%%%%%%%%%%%%%%5
+
 @article{Khachatryan:2016vau,
       author         = "Aad, Georges and others",
       title          = "{Measurements of the Higgs boson production and decay
@@ -700,9 +607,6 @@ year={2008}
       reportNumber   = "CERN-EP-2016-100, ATLAS-HIGG-2015-07, CMS-HIG-15-002",
       SLACcitation   = "%%CITATION = ARXIV:1606.02266;%%"
 }
-
-
-
 
 @article{Khachatryan:2016vau,
       author         = "Aad, Georges and others",
@@ -740,11 +644,72 @@ year={2008}
       SLACcitation   = "%%CITATION = ARXIV:1309.6907;%%"
 }
 
-@article{Lamont:2024,
-      author         = "Lamont, M.",
-      title          = "{Updated schedule for CERN's accelerators}",
-      year           = "2024",
-      journal        = "",
-      url            = "https://home.cern/news/opinion/accelerators/updated-schedule-cerns-accelerators"
+@techreport{Collaboration:270,
+      author        = "CERN webpage",
+      title         = "{The standard model}",
+      institution   = "CERN",
+      collaboration = "CERN",
+      address       = "Geneva",
+      reportNumber  = "CMS-NOTE-2019-008, CERN-CMS-NOTE-2019-008",
+      month         = "Jan",
+      year          = "2020",
+      url           = "https://home.cern/science/physics/standard-model",
+      note = "\url{https://cds.cern.ch/record/2706512?ln=en}"
 }
-% Comentario de prueba...
+
+@techreport{Collaboration:123,
+      author        = "CMS collaboration",
+      title         = "{CMS luminosity measurement for the 2018 data-taking period at $sqrt{s} = 13 TeV$}",
+      institution   = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      reportNumber  = "CMS-PAS-LUM-18-002",
+      month         = "May",
+      year          = "2019",
+      url           = "https://cds.cern.ch/record/2676164",
+      note = "\url{https://cds.cern.ch/record/2676164}"
+}
+
+
+@article{CMS:124,
+            author         = "CMS collaboration",
+      title          = "{Luminosity measurement in proton-proton collisions at 13.6 TeV in 2022 at cms}",
+      journal        = "",
+      volume         = "",
+      year           = "2024",
+      pages          = "",
+      doi            = "",
+      eprint         = "",
+      archivePrefix  = "",
+      primaryClass   = "",
+      reportNumber   = "CMS-PAS-LUM-22-001",
+      note = "\url{https://cds.cern.ch/record/2890833}",
+}
+
+
+@techreport{Collaboration:122,
+      author        = "CMS collaboration",
+      title         = "{CMS luminosity measurement for the 2017 data-taking period at $sqrt{s} = 13 TeV$}",
+      institution   = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      reportNumber  = "CMS-PAS-LUM-17-004",
+      month         = "June",
+      year          = "2018",
+      url           = "https://cds.cern.ch/record/2621960",
+      note = "\url{https://cds.cern.ch/record/2621960?ln=en}"
+}
+
+
+@article{Statistical_Data_Analysis,
+author = {{G. Cowan, \textit{Statistical Data Analysis}, Oxford University Press (Oxford Series), New York, NY, 1998}}
+}
+
+@misc{Lamont_2024,
+title={Updated schedule for CERN's accelerators},
+url={https://home.cern/news/opinion/accelerators/updated-schedule-cerns-accelerators},
+journal={CERN},
+author={Lamont, Mike},
+year={2024},
+month={Oct}
+} 

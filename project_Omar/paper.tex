@@ -22,7 +22,6 @@
 \def\Title{}
 \def\TitleESP{ANTEPROYECTO}
 \def\Prog{Maestria en Ciencias (F\'{i}sica) }
-%\def\Dept{Departamento de Investigac\'{i}on en Fis\'{i}ca}
 \def\Dept{DIFUS}
 \def\Institution{Universidad de Sonora}
 \def\Director{Dr. Jos\'{e} Feliciano Ben\'{i}tez Rubio}
@@ -45,7 +44,7 @@
 \begin{document}
 \onehalfspacing
 
-%%%%Title Page
+%%%%%%%%%%%%%%%%%%%%%%%%TITLE PAGE%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \begin{titlepage}
 \centering
 \hspace{0pt}
@@ -93,10 +92,10 @@
 \end{titlepage}
 
 
-%%%%% white page for print out
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% white page for print out %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \shipout\null
 
-%% Resumen
+%%%%%%%%%%%%%%55% Resumen %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \begin{center}
   {\itshape\textbf{Resumen}\par}
@@ -109,15 +108,10 @@ El proyecto busca realizar análisis y calibración de los datos de luminosidad co
 \hspace{2pt}
 \vfill
 
-%%%% Abstract Page
+%%%%%%%%%%%%%%%%%%%%%%% Abstract Page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 
-%\hspace{2pt}
-%\vfill
-
   \begin{center}
-%    {\Large \ProjectTitle \par}
-%    \vspace{1cm}
     {\itshape\textbf{Abstract}\par}
   \end{center}
   
@@ -130,7 +124,7 @@ The projects seeks to analyze and calibrate the luminosity corresponding to the 
 
 
 
-%%%%%% Begin the body
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Begin the body %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \section{BACKGROUND}
 
@@ -157,47 +151,45 @@ To evaluate the total number of events, the integrated luminosity is used. It me
 During Run 1 (2011-2012) LHC reached a peak instantaneous luminosity of \instlumi{0.77} and delivered an integrated luminosity of about \lumi{25} with a precision of about 2.0\% 
 \footnote{1 barn is a unit of area corresponding to $10^{-24}$ cm${^2}$ and 1 femtobarn (fb) = $10^{-39}$ cm$^{2}$. For comparison, the total Higgs production cross section is 48600 fb.}
 In the first part of Run 2 (2015-2016), the delivered luminosity has been measured to be \lumi{38.4} with an unprecedented precision of 1.3\% \cite{Sirunyan:2021qkt}.
-For the second part of Run 2 (2017-2018), the integrated luminosity is about \lumi{78}, but its precise value and uncertainty remain to be determined \cite{CMS:2018elu-corr}.
+For the second part of Run 2 (2017-2018), the integrated luminosity is about \lumi{78}.
 On the current LHC/HL-LHC plan, Run 3 began in 2022 and is planned to last until the first half of 2026, expecting and integrated luminosity of about \lumi{500}, as seen in figure \ref{figure1}.
-%The main porpuse is to determine the measurement corresponding to 2025 data
+
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.85\columnwidth]{./LHCPlan.png}
-  \caption{CERN's current plan for reaching the High Luminosity LHC. The Long Shutdown 3 (LS3) is now scheduled starting July 2026, seven and a half months later than planned, and with a duration increased by four months. The start of Run 4 is now programmed for 2030 \cite{Lamont:2024}.}
+  \caption{CERN's current plan for reaching the High Luminosity LHC. The Long Shutdown 3 (LS3) is now scheduled starting July 2026, seven and a half months later than planned, and with a duration increased by four months. The start of Run 4 is now programmed for 2030 \cite{Lamont_2024}.}
   \label{figure1}
 \end{figure}
 
 CERN's LHC has four major colliding points, each one with its respective detector: CMS, ATLAS, ALICE and LHCb. The detector that will be worked here corresponds to the CMS, which stands for Compact Muon Solenoid, and its experiment has the general objective to investigate a wide range of physics within the standard model and beyond, primarily with proton collisions.
 
-The detector uses a powerful magnet to bend charged particles as they leave the point of collision, allowing to analyze its curvature to identify charge and measure their momentum. A silicon tracker, consisting of about 75 million sensors arranged in concentric layers, is in charge of measuring said curvature with high precision. It has the form of multiple cylindrical layers, and a large number of components. The electromagnetic calorimeter detects photons and electrons while the hadron calorimeter detects mostly pions ($\pi$) and kaons ($K$). Muons ($\mu$) are detected by special chambers outside the solenoid, as shown in . 
+The detector uses a powerful magnet to bend charged particles as they leave the point of collision, allowing to analyze its curvature to identify charge and measure their momentum. A silicon tracker, consisting of about 75 million sensors arranged in concentric layers, is in charge of measuring said curvature with high precision. It has the form of multiple cylindrical layers, and a large number of components. The electromagnetic calorimeter detects photons and electrons while the hadron calorimeter detects mostly pions ($\pi$) and kaons ($K$). Muons ($\mu$) are detected by special chambers outside the solenoid, as shown in \ref{figure3}. 
 
-%insertar imagen del detector
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\columnwidth]{./LHCcomplex.png}
+  \caption{Diagram of the LHC accelerator complex. It consists of three accelerator stages: the particle source, the Proton Synchrotron (PS), the Super Proton Synchrotron (SPS), and then the 27 km LHC ring. There are four collision points corresponding to the ALICE, ATLAS, LHCb, and CMS detectors  \cite{Mobs:2684277}.}
+  \label{figure2}
+\end{figure}
 
 The CMS silicon pixel detector consists of four concentric cylindrical layers and three disks on each end, placed at certain distances from the center of the detector. The detector consists of 1856 sensor modules, and gives complete coverage over the interaction point, resulting in precise tracking. This yields a large amount of total pixels, so, adding the sensor's fine granularity, the hit occupancy is very low. Due to this, the Pixel Cluster Counting (PCC) method brings forth a linear function of pile up, which is an essential property of a luminometer. The PCC method has been used as one of main luminometers for more than a decade, showing its reliability.
 
-%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
-
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{./cms12.png}
+  \caption{Transverse cut of the CMS detector, showing the layers and disks mentioned, as well as the muon chambers \cite{Chatrchyan:2008aa}.}
+  \label{figure3}
+\end{figure}
+  
 
 %\begin{figure}[H]
   %\centering
-  %\includegraphics[width=0.8\columnwidth]{./HLLHCLumi.png}
-  %\caption{Forecast for peak luminosity (red dots) and integrated luminosity (violetline) in the HL-LHC era with nominal HL-LHC parameters\cite{BejarAlonso:2749422}.}  %\cite{collaborations2019report} era la [5] de la ant fig2
-  %\label{figure6}
+  %\includegraphics[width=0.45\columnwidth]{./integratedlum.png}
+  %\caption{ }
+  %\label{figure 3}
 %\end{figure}
-
-
- %\begin{figure}[H]
-   %\centering
-   %\includegraphics[width=0.6\columnwidth]{./pg.png}
-   %\includegraphics[width=0.39\columnwidth]{./Higgs-cross-sections-for-several-production-channels.png}
-   %\caption{
-     %Left: Main production mechanisms for the Higgs boson at the LHC: gluon-gluon fusion (ggF), vector-boson fusion (VBF), associated vector boson (VH), associated top-quark pair (ttH), and  associated single-top quark production (tH)  \cite{Grojean:2017hsb-corr}  \cite{Khachatryan:2015ota} .
-     %Right: Higgs boson cross sections for several production channels versus the LHC centre of mass energy  \cite{Cepeda:2019klc-corr}.
-   %}
-   %\label{figureKappasUncs}
- %\end{figure}
-
-
+  
+%%%%%%%%BUSCAR VERSION ACTUALIZADA DE ESTA%%%%%%%%%
 
 
 \section{OBJECTIVE}
@@ -211,19 +203,19 @@ Based on the analysis corresponding to previous years, a similar or better resul
 
 \section{METHODOLOGY}
 
-A pixel cluster is for a group of contiguous pixels activated by a charged particle. The method of choice, PCC, exploits the huge number of pixel in the interior part of the CMS pixel detector, which means that the probability that a single pixel is hit by two charged particles from the same bunch crossing is extremely small.%Be more specific about the interior part
+A pixel cluster is for a group of contiguous pixels activated by a charged particle. The method of choice, PCC, exploits the huge number of pixel in the interior part of the CMS pixel detector, which means that the probability that a single pixel is hit by two charged particles from the same bunch crossing is extremely small, so it yields measurements with a great linear response with the pile-up (number of interactions per bunch crossing, $\mu$). To calibrate the luminometer, the van der Meer (vdM) scan technique is employed in special runs, usually at the beginning of the year or period. The LHC has two main types of runs: physics runs (which could be proton-proton, heavy-ion, or proton-lead collisions) and callibration (or vdM) runs. As the title of the project suggests, callibration runs are the subject of study, and consist of more controlled collisions to be able to determine luminosity from the beam parameters.
 
-To ensure accurate and stable luminosity measurement, there is a detector module selection process, where a veto list is made each period and then combined for the entire year. This process involves determining the reliability of each module based on analyzing what is referred as the module weight, which is the change in the ratio of module PCC and total PCC. The veto list consists of modules excluded due to their known and suspected issues that affect the accuracy of the measurement, such as radiation damage, material defects, contamination, along other issues. At the end of said process, around 10\% of all modules are used. 
+% detector de pixeles
 
-The LHC has two main types of runs: physics runs (which could be proton-proton, heavy-ion, or proton-lead collisions,) and callibration runs. As the title of the project suggests, callibration runs are the matter at hand, and consist of more controlled collisions to be able to measure luminosity and other parameters. In these runs, it is necessary to take into consideration a background noise contribution to the PCC rates. Each type of contribution is estimated independently during Super Separation (SS) periods, that are performed to separate two beams a certain distance for a selected period of time. To estimate the background value and its statistical error, the mean value and standard deviation are taken from the distribution resulting of a Y-projection of an average of pixel clusters per event ($\langle PCC \rangle$). Once the noise is taken into account, the data provided can be saved.
+During the vdM runs, the pixel detector is recorded with a trigger of aproximately 50 kHz distributed 10 BCIDs of the 140 that collide, compared to the 2400 that colliding bunches on physics runs; and in turn, the pile-up is much less, giving $\mu \~ 0.5$, against an average of 57 in recent physics runs. The data is then distributed in 32 different datasets of events. %referencia pa la imagen de pile-up en runs de fisica
 
-To get the van der Meer (vdM) scan data, the pixel detector is read with a trigger of aproximately 50 kHz for about 10 BCIDs of the 140 that collide. The data is then saved distributed in 32 different datasets of events. 
+To ensure accurate and stable luminosity measurement, there is a detector module selection process, where a veto list is made each period and then combined for the entire year. This process involves determining the reliability of each module based on analyzing what is referred as the module weight, which is the change in the ratio of module PCC and total PCC. The veto list consists of modules excluded due to their long-term instabilities. At the end of said process, around 10\% of all modules are used. 
 
-%----------------------------------------------------------------------------------------------------------------------------------------------------
+It is necessary to take into consideration a background noise contribution to the PCC rates. Each type of contribution is estimated independently during Super Separation (SS) periods, that are performed to separate two beams a certain distance for a selected period of time. To estimate the background value and its statistical error, the mean value and standard deviation are taken from the distribution resulting of the average of pixel clusters per event ($\langle PCC \rangle$).
 
-To calibrate the luminometer, the vdM scan technique is employed in a special LHC run, usually at the beginning of the year or period. To perform these scans, the separation between proton beams is varied in two dimensions, in separation steps of 100 micrometers. It measures the rates of clusters using the PCC algorithm and the beam parameters during vdM, to determine the calibration constant ($\sigma_{vis}$).
+% a couple graphs, maybe??
 
-The definition of instantaneous luminosity for a single colliding bunch pair is
+ The separation between proton beams is varied in two dimensions, in steps of 100 micrometers. It measures the rates of clusters using the PCC algorithm and the beam parameters during vdM, to determine the calibration constant ($\sigma_{vis}$). The instantaneous luminosity for a single colliding bunch pair can be calculated with the following formalism:
 
 \begin{align}
   \mathcal{L}(\Delta x, \Delta y) &= N_1N_2f\int_{-\infty}^{\infty}\rho_1(x,y)\rho_2(x+\Delta x,y+\Delta y)dxdy \\
@@ -263,59 +255,31 @@ and once again, from (1), we can define
 \end{equation}
 %%Si los dos haces son iguales, la dist estandar de ambas seria esta formula. El raiz de dos pi es asumiendo que las rho son distribuciones gaussianas
 
-The parameter $\sigma_{vis}$ is known as the calibration constant, and is used to normalize the measured PCC rates so the luminosity can be determined during normal running throughout the data-taking year.%reFERENCES!!!!!!!!!!!
+The parameter $\sigma_{vis}$ is known as the calibration constant, and is used to normalize the measured PCC rates so the luminosity can be determined during normal running throughout the data-taking year. In order to compute the constant, a mathematical function needs to be used to fit the averaged cluster rates, so the parameters needed, such as $\Sigma_{x,y}$ and $R(0,0)$, can be extracted. 
 
-%----------------------------------------------------------------------------------------------------------------------------------------------------
+For the analysis, the quality of multiple functions is tested. The convergence of the function is the first evaluation on this quality, based on the covariance matrix and its status. Then, another important analysis is doing a $\chi^2$ test, which helps determine how likely a variable can come from a specified distribution. The value of $\chi^2$ is determined by
 
-% \cite{pas:2018vdm}.
+\begin{equation}
+  \chi^2(\theta)=\sum_{i=1}^{N}\frac{(y_i-f(x_i,\theta))^2}{\sigma_i^2}
+\end{equation}
 
+where $y_i$ are the observed values measured with errors $\sigma_i$ at the values of $x_i$ given without error, with the theoretical value given by $f(x_i,\theta)$. How low the value of $\chi^2$ determines how good the fit is, and the parameter $\theta$ is adjusted to minimize it \cite{Statistical_Data_Analysis}.
 
-%\begin{figure}[H]
-  %\centering
-  %\includegraphics[width=0.7\columnwidth]{./cms_layers.png}
-  %\caption{Transverse view of the CMS detector showing the silicon tracker, electromagnetic calorimeter, hadron calorimeter, superconducting solenoid and muon chambers \cite{Chatrchyan:2008aa}.}
-  %\label{fig:CMS}
-%\end{figure}
+After finishing the tests, the chosen fit model is used, and with corresponding noise corrections, the calibration constant can finally be calculated.
 
-%\begin{figure}[H]
-  %\centering
-  %\includegraphics[width=0.7\columnwidth]{./PixelDetectorPhase1.png}
-  %\includegraphics[width=0.27\columnwidth]{./PixelSensor.png}
-  %\caption{
-    %Left: diagram showing the layout of the CMS Pixel detector used during 2016-2018.
-    %The layout consists of 4 barrel layers and 2 endcap disks with two rings each.
-    %Right: a diagram showing the structure of one pixel sensor.
-    %The entire detector consists of 1856 sensors and 65 million pixels \cite{TrackerGroupoftheCMS:2020bgg}.
-  %}
-  %\label{fig:pixeldet}
-%\end{figure}
-
-
-%\begin{figure}[H]
-  %\centering
-  %\includegraphics[width=0.5\columnwidth]{./bunchcrossing.jpg}
-  %\includegraphics[width=0.4\columnwidth]{./vectorhit1.jpg}
-  %\caption{
-    %Left: Diagram showing the collision of two proton bunches at LHC, bunches contain about $10^{11}$ protons  \cite{deMaria:2008zzb}.
-    %Right: diagram showing example tracks originating from the collision at the beamspot and producing clusters at the pixel sensors in two detector layers.
-  %}
-  %\label{fig:trackcluster}
-%\end{figure}
-
+% Numero de colisiones entre protones (pileup) del total en un bonche (10^11)
 
 \section{SPECIFIC OBJECTIVES}
 
-To warrant stable luminosity measurement for Run 3 2025, the set goals are:
+To guarantee stable luminosity measurement for Run 3 2025, the set goals are:
 
 \begin{itemize}
-  %\item Process all the datasets. %% not a specific objective, a que se refiere %%
-  \item Apply a selection of good modules from the detector: To assure an accurate measurement, a veto list is made, taking only modules with relatively consistent contributions, and then used to only process zero bias PCC data for the vdM analysis.%Check module selection part
-  \item Measure the noise in the modules: A calculation of the background contributions, made during selected time windows, to account for secondary particles, and other unwanted parts. % Estimation over separation periods
-  %\item Select the time windows corresponding to the vdM scans. % Mentira, no entendi
-  \item Set the ideal model adjustment: The generated rates of the scan need to be fitted a mathematical function to extract the parameters needed. %% igual, no es especifico, basicamente checar ajuste segun el ruido %%
-  \item Measure the beam parameters $\Sigma_i$, conducting scans in the $x$ and $y$ directions, determined through curved fitting of the scan data. 
-  \item Measure the calibration constant $\sigma_{vis}$ to normalize the PCC rates. 
-  \item Determine the systematic uncertainties on the integrated luminosity: It is necessary to recognize the effects on the beam overlap measurement, and therefore the calculation of $\sigma_{vis}$, so corrections are to be applied.
+  \item Apply a selection of good modules from the detector: To assure an accurate measurement, a veto list is made, taking only modules with relatively consistent contributions, and then used to only process zero bias PCC data for the vdM analysis.
+  \item Measure the noise in the modules: A calculation of the background contributions, made during selected time windows along every scan of the calibration program.
+  \item Set the ideal model adjustment: The generated rates of the scan need to be fitted a mathematical function to extract the parameters needed. 
+  \item Extract the beam parameters $\Sigma_i$, conducting scans in the $x$ and $y$ directions, determined through curved fitting of the scan data. 
+  \item Compute the calibration constant $\sigma_{vis}$. 
+  \item Determine the systematic uncertainties on the integrated luminosity: It is necessary to recognize the noise effects on the beam overlap measurement, and therefore the calculation of $\sigma_{vis}$, so corrections are to be applied.
 \end{itemize}
 
 \section{EXPECTED RESULTS}
@@ -325,7 +289,7 @@ The work done in this thesis project is expected to yield the following results:
 \begin{itemize}
   \item Obtain the PCC luminometer calibration constant $\sigma_{vis}$ for the 2025 data.
   \item Estimate the background contribution for PCC during vdM calibration program.
-  \item Calculate the parts of the systematic uncertainty corresponding the work group.
+  \item Calculate the systematic uncertainty.
 \end{itemize}
 
 
@@ -340,12 +304,16 @@ The work done in this thesis project is expected to yield the following results:
     \hline
     Study the literature involved & \cellcolor[HTML]{28B463} & \cellcolor[HTML]{28B463} & & \\
     \hline
-    Calculate $\sigma_{vis}$ and its systematic uncertainty & & & \cellcolor[HTML]{F4D03F} & \\
-    \hline
     Estimate the background contribution & & & \cellcolor[HTML]{F4D03F} & \\
+    \hline
+    Test the fit functions & & & \cellcolor[HTML]{F4D03F} & \\
+    \hline
+    Calculate $\sigma_{vis}$ and its systematic uncertainty & & & \cellcolor[HTML]{F4D03F} & \\
     \hline
     Write the thesis & & & & \cellcolor[HTML]{E53935} \\
     \hline
+    Present results at a congress & & & & \cellcolor[HTML]{E53935} \\
+    \hline 
     Defend the thesis & & & & \cellcolor[HTML]{E53935} \\
     \hline
   \end{tabular}
