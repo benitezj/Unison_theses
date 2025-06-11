@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: paper.aux
+The style file: unsrt.bst
+Database file #1: paper.bib
+I was expecting a `,' or a `}'---line 184 of file paper.bib
+ : 
+ : @article{Cepeda:2019klc,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 200 of file paper.bib
+ : 
+ : @techreport{Collaboration:2706512,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Illegal end of database file---line 719 of file paper.bib
+ : }
+ :  
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Lamont_2024"
+Warning--I didn't find a database entry for "Statistical_Data_Analysis"
+Warning--empty journal in Sirunyan:2021qkt
+Warning--empty year in Sirunyan:2021qkt
+Warning--empty journal in Mobs:2684277
+You've used 4 entries,
+            1791 wiz_defined-function locations,
+            476 strings with 4286 characters,
+and the built_in function-call counts, 711 in all, are:
+= -- 63
+> -- 20
+< -- 0
++ -- 9
+- -- 5
+* -- 37
+:= -- 127
+add.period$ -- 15
+call.type$ -- 4
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 34
+empty$ -- 72
+format.name$ -- 5
+if$ -- 151
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 4
+newline$ -- 26
+num.names$ -- 4
+pop$ -- 9
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 13
+stack$ -- 0
+substring$ -- 33
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 6
+width$ -- 5
+write$ -- 48
+(There were 3 error messages)
