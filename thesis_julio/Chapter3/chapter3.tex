@@ -69,21 +69,33 @@ This calculations are done on several Bunch Cross Identifier which so you obtain
 
 The data on the CMS is a complex set of inter-dependent workflows made in a way that assure the full physics exploitation of the CMS detector potential and the collisions delivered by the LHC, this data provides analyses with reconstructed collision events from the experiment and are designed to use the CMS computing resources efficiently. This stream of events is organized into datasets according to the results of the High Level Trigger (HLT) which defines primary datasets since they are defined by the paths of the HLT. The design of the primary datasets is centered around candidates for particles that are reconstructed on the final state by the hLT and follows the principle of grouping together events with similar physics content.    \cite{datasets1}
 
-The datasets used for the obtention of the $\sigma_{visible}$ for 2024 were the ones from the Fill 9639 which is divided in 3 blocks, a fill is a process that generates beams for the LHC this tipycally involves particles around the number of $10^{14}$ that are grouped in bunches that form the proton beam. This is what we use the bcid number to identify this bunches, there are a total of 3564 bunches that are empty or filled depending on the fill all of this part of the LHC bunch train. For this fill in the calibration the bcids of relevance were a total of 12 which are identified by the numbers: 303, 324, 345, 506, 527, 822, 1081, 1102, 1397, 2000, 2965, 3123. This fill started on may 16 at 13:39 and ended at may 17 at 23:50.
+The datasets used for the obtention of the $\sigma_{visible}$ for 2024 were the ones from the Fill 9639 which is divided in 3 blocks, a fill is a process that generates beams for the LHC this tipycally involves particles around the number of $10^{14}$ that are grouped in bunches that form the proton beam. This is what we use the bcid number to identify this bunches, there are a total of 3564 bunches that are empty or filled depending on the fill all of this part of the LHC bunch train. For this fill in the calibration the bcids of relevance were a total of 12 which are identified by the numbers: 303, 324, 345, 506, 527, 822, 1081, 1102, 1397, 2000, 2965, 3123. 
 
 In the case for our datasets each bcid is processed by the CMS collaboration to enable cluster reconstruction resulting in the ALCARECO datasets that contain a module collection and their number of cluster per event in CMSWW format. This samples are processed using the CMSWW software to extract the clusters per module to obtain the dataset in the ROOT format. ROOT is a software framework born at CERN It is open source and used for high energy physics to analyze data while providing packages for storage, processing and visualization while minimizes the computing resources needed. 
 
 The root format saves the data in form of TTrees which behaves like an array of data structure and storage data. This tree consist on branches and leaves, a branch is a list of independent columns that can contain values of any fundamental type and are represented by TBranch. While the leaves represented by TLeaf give access to actual data in difference to the TBranch which represent a structure. After the datasets are processed, the rates of the Pixel detector were stored each 1.32 seconds periods called NB4 this to make an average of clusters and the number of events that fall into that time span. 
 
-This dataset were processed (...) getting a lot of root files for each of the different zero bias streams there were a total of 32 zero bias streams. The data then was processed again to obtain a hd5file a format that can supports n-dimensional datasets and facilitates the reading of the datasets, this hd5 files contained relevant information about the root files like the average rate per NB4, this was made for each of the files for almost all of the available streams excluding two of them that were not ready by the moment (the ones that were identified by ZB21 and ZB28) after one stream got all of his files processed into an hd5 file they were converged into a single file containing relevant information for all the stream, once all of the files in all of the data streams were processed into hd5 files a single hd5file was made containing all of the information about the streams also a single csv file was made containing only the average rate file per NB4 for each of the bcids.  
+This dataset were first processed by the CMS collaboration enabling a cluster reconstruction resulting in the ALCARECO datasets getting a lot of root files for each of the different zero bias streams that were the starting point of this analysis. 
+
+After this the data then was processed again to obtain a hd5file a format that can supports n-dimensional datasets and facilitates the reading of the datasets, this hd5 files contained relevant information about the root files like the average rate per NB4, this was made for each of the files for almost all of the available streams excluding two of them that were not ready by the moment (the ones that were identified by ZB21 and ZB28) after one stream got all of his files processed into an hd5 file they were converged into a single file containing relevant information for all the stream, once all of the files in all of the data streams were processed into hd5 files a single hd5file was made containing all of the information about the streams also a single csv file was made containing only the average rate file per NB4 for each of the bcids.  
  
 \section{Scans}
 
-During the duration of the fill and for the calibration a few scans of interest were realized the first of them being the vdm scans which was explained in the first section of the chapter, also the BI scans, there were a total of five vdm scans during and two BI scans in the following table we see the time were this scans started and the time w    \\
+For the calibration of 2024 in the LHC fill 9639 during may 15 to may 16 at collision proton proton with a energy of 13.6 TeV, the vdm scans were made there were a total of 5 vdm X and vdm Y scans and 2 beam img X and beam img Y and the Super Separation period which is a scan used to obtain a background estimation, this were the scans used on this analysis to compute the value of $\singa_{visible}$. The figure (3.x) shows a DOROS image of the fill and all the scans that were made during that period of time. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth, height=0.4\textheight]{scans.png}
+    \caption{Fill 9639 scans}
+    \label{fig:scans}
+\end{figure}
+
+The 5 vdm scans vdM1, vdM2..., vdM5 are the scans usually used in the calibration to compute $\simga_{visible}$ two beams are separated the transverse bunch size and then scanned across one another in sequence of 25 steps with 30 seconds per step. The beam imaging scan is kept on a nominal position while the other is separated and scanned in 19 steps, the scan is performed first in the X direction and then in the Y direction. The Super Separation scans separates the beams a distance were the overlap of the beams is negligible, the minimum possible.
 
 
+\section{Background Estimation}
 
-Also we got the super separation scans which consist on making a complete separation on the colliding beams so the rate would be zero, there were five of each super separations each of them with a duration of 300 seconds in the table we have information about the beggining and end of each super separation (SS) period. 
+The background estimation were obtained using the 5 Super Separation scans, the time on which this super separations were used was on UNIX time each of these super separations lasted a total of 5 minutes in the following table we got more information about the start and ending of the scans. 
 
 \begin{table} [H]
 \begin{center}
@@ -106,57 +118,45 @@ Also we got the super separation scans which consist on making a complete separa
 \end{center}
 \end{table}
 
-In the following image we show a histogram of the average rate vs time during the super separation period number 2: 
+The data of this scans were processed and analyzed, in the following image we show the mean value of the PCC rates during the Super Separation period scan in one bcid.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{SS1.jpeg}
-    \caption{Histogram of rates during the second super separation scan}
+    \caption{Mean rates during the second super separation scan}
     \label{fig:SS1}
 \end{figure}
 
-In the image we can see that the average rate suddenly drops, this is the beggining of the second super separation scan for the bcid 506 where the avarage rate drop but is non zero, then the rate goes up again meaning the end to the super separation scan.  
+The reason why the background estimation is obtained during the super separation (SS) process, It's because the SS scan separates the beams so they shouldn't be colliding the expected value on the rate is expected to be a rate associated with the background, this was obtained checking the mean values for each bcid for all the entries of pcc rates for each of the 5 periods of super separation, the following image illustrate a case for one SS period and bcid 50x:
 
-\section{Background Estimation}
-
-The background estimation is obtained during the super separation (SS) process, since the SS scan separates the beams so they shouldn't be colliding the expected value on the rate is expected to be a rate associated with the background, this was obtained checking the mean values for each bcid for all the entries of pcc rates for each of the 5 periods of super separation, is is illustrated in the next image:
-
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{sshist.png}
-    \caption{SS periods histograms showing entries for bcid 5 }
+    \includegraphics[height=0.4\textheight, width=0.8\textwidth]{sshist.png}
+    \caption{SS periods histograms showing entries for bcid 345}
     \label{fig:SShist}
 \end{figure}
 
 
-this is then estimated by checking each of the SS scans on the time window referred on the table (3.1), the mean value during this period is assumed to be the mean value of the SS period, in the following table we see the mean PCC value for each period.  
+The mean value during this period is assumed to be the background noise value of this SS period, in the following table we see the mean PCC value for all of the bcids and how it changes in each of the five super separation periods.
 
-\begin{table} [H]
-\begin{center}
-\caption{Different Scans}
-\begin{tabular}{|c c c|} 
- \hline
- Scan & Mean & std  \\ [0.5ex] 
- \hline\hline
- SS1 &  & 1715883481  \\ 
- \hline
- SS2 &  & 1715902484  \\
- \hline
- SS3 &  & 1715919463 \\
- \hline
- SS4 &  & 1715943343  \\
- \hline
- SS5 &  & 1715987602  \\ [1.0ex]
- \hline
-\end{tabular}
-\end{center}
-\end{table}
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.30\textheight,width=1\textwidth]{SSmean.png}
+    \caption{Mean per bcid}
+    \label{fig:SSmean}
+\end{figure}
 
-This is the mean value of each super separation off al the bcids
-
- a total of 60 mean values were obtained and was $ss_background$ = 0.0251 +-0.0018 in the following picture we can see the 
+In principle this value is a single value so we obtain a histogram obtaining a mean for all the mean values for all the 60 values this is shown in the following image: 
 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{ssthist.png}
+    \caption{Histogram of all means}
+    \label{fig:Histogram}
+\end{figure}
+
+With this que obtained that the value for super separation is $ss_{background}$ = 0.0251 +-0.0018 this value would be extracted from the PCC rates during the fit for the vdm scans. 
 
 \section{Corrections}
 
@@ -178,7 +178,7 @@ For the main calibration we used the QG fit this fit uses the parameter $\sigma$
 
 
 \begin{equation}
-f_{qg}(x,y) = \frac{V}{C(q) \sigma_{x} \sigma_{y}\sqrt{1-\chi^{2}}} e_{q}(\frac{\ r^{2}}{(4-2q)}) 
+f_{qg}(x,y) = peak e_{q}(-\beta(x - mean)^{2},q)
 \end{equation}
 
 with $e_{q}$ being a function of x defined as: 
@@ -187,41 +187,29 @@ with $e_{q}$ being a function of x defined as:
 e_{q}(x) = (1+(1-q)x)^{\frac{1}{1-q}}
 \end{equation}
 
-and $c(q)$ having two different values depending on the value of the q, for q < 1: 
+q being a parameter and peak the maximum rate.
 
-\begin{equation}
-c(q) = \frac{4-2q}{1-q} \pi \frac{\Gamma (\frac{2-q}{1-q})}{\Gamma (\frac{2-q}{1-q} + 1)}
-\end{equation}
+This fit model were applied to the data using vdmfamework software for all bcids, the following image shows this fit on the x plane and on the y plane on one bcid other bcids showed a similar result.
 
-and for the other cases:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{fitqg1.png}
+    \includegraphics[width=0.45\textwidth]{fitqg2.png}
+    \caption{QG Fit on X plane and Y plane}
+    \label{fig:QGfit}
+\end{figure}
 
-\begin{equation}
-c(q) = \frac{4-2q}{q-1} \pi \frac{\Gamma (\frac{1}{q-1} - 1)}{\Gamma (\frac{1}{q-1})}
-\end{equation}
-
-The fit model on the vdm data is illustrated in both planes X and Y in the following image: 
-
-%\begin{figure}[H]
-  %  \begin{subfigure}{0.5\textwidth}
-    %\centering
-    %\includegraphics[width=0.5\textwwidth]{fitqg1.png}
-    %\includegraphics[width=0.5\columnwidth]{fitqg2.png}
-    %\caption{QG Fit on X plane and Y plane}
-    %\label{fig:QGfit}
-%\end{figure}
-
-As well we can see that the matrix values of the fit converged since the matrix covalue is 3 which is expected when a convergence ocurres. 
-
-\begin{figure}[h]
+To see if the fit converged we check the covariance matrix with the covalue, if this value is 3 the fit converge as we can see in the following image all of the bcids converged in all of the scans for the vdm and BI. 
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{QG_covStatus.png}
     \caption{Covariance value showing that all bcids converged with the fit}
     \label{fig:QGfit}
 \end{figure}
 
-And for the fit quality the value $\chi^{2}$ 
+Also to see the fit quality we obtain the value of $\chi^{2}$ divided by the numbers of degree freedom the following image shows this: 
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{QG_chi2.png}
     \caption{Fit quality values}
@@ -234,22 +222,74 @@ And for the fit quality the value $\chi^{2}$
 
 The beam parameters of the vdm scan were obtained after the vdm framework run on the fit, one of the parameters obtained is the peak:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{QG_peak.png}
     \caption{QG peak values important on the computing of $\sigma_{visible}$}
     \label{fig:QGpeak}
 \end{figure}
 
-And the $\Sigma_{x, y}$ values: 
+Here we can see that the peak values are increasing with the time which doesn't have sense since the number of particles through time should be lower, this behavior is then explained if we observe the results for the $\Sigma_{x, y}$ in the following image:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{QG_CapSigma.png}
     \caption{QG $\Sigma$ important to compute value of $\sigma_{visible}$}
     \label{fig:QGcapsigma}
 \end{figure}
 
+Here we see that the $\Sigma_{x, y}$ values are decreasing for each scan reducing the thickness of the beams and thus observing a higher peak value even if the number of particles is decreasing through time. 
+
+Now with all the values obtained we can compute the value of $sigma_{visible}$, the values for each bcid is shown on the following image: 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{sigbcid.png}
+    \caption{QG $\Sigma$ important to compute value of $\sigma_{visible}$}
+    \label{fig:sigbcid}
+\end{figure}
+
+We are expecting a constant value of $\sigma_v{visible}$ here it appears to be changing each scan this could be to other uncertainties. Then in the following image we show the result for the weighted mean of the $\sigma_{visible}$ for each scan: 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{sigscan.png}
+    \caption{QG $\Sigma$ important to compute value of $\sigma_{visible}$}
+    \label{fig:sigscan}
+\end{figure}
+
+Which give us a $\sigma_{visible}$ value of 
+
+\begin{equation}
+\sigma_{visible} = 1460890 \pm 546
+\end{equation}
+
+Which is the value for $\sigma_{vis}$ that we have been looking for the calibration using the vdm scans. 
+
+\newpage
 
 
+\section{Systematics}
 
+
+We obtained a systematic uncertainties comparing the fit made but with different corrections, in the following table we check this uncertanties with citing a relative change per correction:
+
+\begin{table}[H]
+\begin{center}
+\small
+\begin{tabular}{|c c c|} 
+ \hline
+ Correction & $\sigma_{visible}$ & Relative Change(\%) \\ [0.5ex] 
+ \hline\hline
+ No correction & $1452589 \pm 2041$ & - \\ 
+ \hline
+ Background & $1448801 \pm 676$ & \\
+ \hline
+ Background + Ghost Satellite & $1450154 \pm 560$ & \\
+ \hline
+ Background + Ghost Satellite + Beam Beam + Dynamic Beta & $1460890 \pm 546$ & \\ [1.0ex]
+ \hline
+\end{tabular}
+\caption{Comparison of $\sigma_{visible}$ values with different corrections}
+\end{center}
+\end{table}

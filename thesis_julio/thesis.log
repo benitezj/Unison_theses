@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  2 JUN 2025 11:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  11 JUN 2025 08:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1386,7 +1386,7 @@ LaTeX Warning: Label `fig:four-forces' multiply defined.
 
 LaTeX Warning: Label `fig:QGfit' multiply defined.
 
-))
+) (./Chapter4/chapter4.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
@@ -1407,7 +1407,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
 LaTeX Font Info:    ... okay on input line 127.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
 LaTeX Font Info:    ... okay on input line 127.
- (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count404
 \scratchdimen=\dimen345
@@ -1500,7 +1501,7 @@ or `english'. on input line 127.
 \openout2 = `Portada/Portada.aux'.
 
  (./Portada/Portada.tex
-<unison-logo.png, id=91, 321.2pt x 321.2pt>
+<unison-logo.png, id=99, 321.2pt x 321.2pt>
 File: unison-logo.png Graphic file (type png)
 <use unison-logo.png>
 Package pdftex.def Info: unison-logo.png  used on input line 24.
@@ -1578,7 +1579,7 @@ No file thesis.nls.
 
 (./Chapter1/chapter1.tex
 Chapter 1.
-<table1.png, id=185, 344.28625pt x 132.495pt>
+<table1.png, id=205, 344.28625pt x 132.495pt>
 File: table1.png Graphic file (type png)
 <use table1.png>
 Package pdftex.def Info: table1.png  used on input line 14.
@@ -1588,7 +1589,7 @@ Package pdftex.def Info: table1.png  used on input line 14.
 
 
  <./table1.png>]
-<sm.png, id=194, 586.19pt x 429.605pt>
+<sm.png, id=214, 586.19pt x 429.605pt>
 File: sm.png Graphic file (type png)
 <use sm.png>
 Package pdftex.def Info: sm.png  used on input line 27.
@@ -1603,7 +1604,7 @@ l.33 ...ts neutrino and the third one is the $\tao
 ? s
 OK, entering \scrollmode...
 [2 <./sm.png>]
-<LHC.png, id=202, 762.85pt x 746.79pt>
+<LHC.png, id=222, 762.85pt x 746.79pt>
 File: LHC.png Graphic file (type png)
 <use LHC.png>
 Package pdftex.def Info: LHC.png  used on input line 45.
@@ -1613,13 +1614,13 @@ Package pdftex.def Info: LHC.png  used on input line 45.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3] [4 <./LHC.png (PNG copy)>]
-<cross1.png, id=216, 442.65375pt x 163.61125pt>
+<cross1.png, id=236, 442.65375pt x 163.61125pt>
 File: cross1.png Graphic file (type png)
 <use cross1.png>
 Package pdftex.def Info: cross1.png  used on input line 73.
 (pdftex.def)             Requested size: 426.79135pt x 157.75653pt.
  [5 <./cross1.png>]
-<lumi.png, id=226, 442.65375pt x 139.52126pt>
+<lumi.png, id=246, 442.65375pt x 139.52126pt>
 File: lumi.png Graphic file (type png)
 <use lumi.png>
 Package pdftex.def Info: lumi.png  used on input line 121.
@@ -1651,7 +1652,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<integratedlum.png, id=247, 225.84375pt x 178.6675pt>
+<integratedlum.png, id=267, 225.84375pt x 178.6675pt>
 File: integratedlum.png Graphic file (type png)
 <use integratedlum.png>
 Package pdftex.def Info: integratedlum.png  used on input line 170.
@@ -1664,7 +1665,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (./Chapter2/chapter2.tex
 Chapter 2.
-<cms2.png, id=264, 555.07375pt x 411.5375pt>
+<cms2.png, id=284, 555.07375pt x 411.5375pt>
 File: cms2.png Graphic file (type png)
 <use cms2.png>
 Package pdftex.def Info: cms2.png  used on input line 10.
@@ -1675,7 +1676,7 @@ Package pdftex.def Info: cms2.png  used on input line 10.
 
 
  <./cms2.png>]
-<cms.png, id=272, 734.745pt x 511.9125pt>
+<cms.png, id=292, 734.745pt x 511.9125pt>
 File: cms.png Graphic file (type png)
 <use cms.png>
 Package pdftex.def Info: cms.png  used on input line 36.
@@ -1692,7 +1693,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<pixeldetector.png, id=287, 610.28pt x 184.69pt>
+<pixeldetector.png, id=307, 610.28pt x 184.69pt>
 File: pixeldetector.png Graphic file (type png)
 <use pixeldetector.png>
 Package pdftex.def Info: pixeldetector.png  used on input line 56.
@@ -1728,7 +1729,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<BPIXFPIX.png, id=293, 591.20876pt x 157.58875pt>
+<BPIXFPIX.png, id=313, 591.20876pt x 157.58875pt>
 File: BPIXFPIX.png Graphic file (type png)
 <use BPIXFPIX.png>
 Package pdftex.def Info: BPIXFPIX.png  used on input line 71.
@@ -1751,19 +1752,19 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [14 <./pixeldetector.png>]
-<PixelSensor.png, id=299, 494.84875pt x 373.395pt>
+<PixelSensor.png, id=319, 494.84875pt x 373.395pt>
 File: PixelSensor.png Graphic file (type png)
 <use PixelSensor.png>
 Package pdftex.def Info: PixelSensor.png  used on input line 83.
 (pdftex.def)             Requested size: 426.79242pt x 234.73871pt.
  [15 <./BPIXFPIX.png> <./PixelSensor.png>]
-<cluster3.png, id=308, 477.785pt x 90.3375pt>
+<cluster3.png, id=328, 477.785pt x 90.3375pt>
 File: cluster3.png Graphic file (type png)
 <use cluster3.png>
 Package pdftex.def Info: cluster3.png  used on input line 94.
 (pdftex.def)             Requested size: 426.79135pt x 80.69508pt.
  [16 <./cluster3.png>]
-<module.png, id=318, 906.38625pt x 362.35374pt>
+<module.png, id=339, 906.38625pt x 362.35374pt>
 File: module.png Graphic file (type png)
 <use module.png>
 Package pdftex.def Info: module.png  used on input line 114.
@@ -1778,7 +1779,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
  (./Chapter3/chapter3.tex
 Chapter 3.
-<vdm1.png, id=331, 634.37pt x 274.02374pt>
+<vdm1.png, id=351, 634.37pt x 274.02374pt>
 File: vdm1.png Graphic file (type png)
 <use vdm1.png>
 Package pdftex.def Info: vdm1.png  used on input line 10.
@@ -1817,55 +1818,133 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-
- []
+! Undefined control sequence.
+<recently read> \singa 
+                       
+l.84 ...s analysis to compute the value of $\singa
+                                                  _{visible}$. The figure (3...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 [22]
-<SS1.jpeg, id=361, 1927.2pt x 937.5025pt>
+<scans.png, id=381, 469.755pt x 105.39375pt>
+File: scans.png Graphic file (type png)
+<use scans.png>
+Package pdftex.def Info: scans.png  used on input line 88.
+(pdftex.def)             Requested size: 426.78961pt x 269.77487pt.
+
+! Undefined control sequence.
+<recently read> \simga 
+                       
+l.93 ...used in the calibration to compute $\simga
+                                                  _{visible}$ two beams are ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[23 <./scans.png>]
+<SS1.jpeg, id=387, 1927.2pt x 937.5025pt>
 File: SS1.jpeg Graphic file (type jpg)
 <use SS1.jpeg>
-Package pdftex.def Info: SS1.jpeg  used on input line 113.
+Package pdftex.def Info: SS1.jpeg  used on input line 125.
 (pdftex.def)             Requested size: 426.79135pt x 207.61017pt.
- [23 <./SS1.jpeg>]
-<sshist.png, id=366, 4200.69376pt x 1421.31pt>
+<sshist.png, id=388, 1445.4pt x 703.12688pt>
 File: sshist.png Graphic file (type png)
 <use sshist.png>
-Package pdftex.def Info: sshist.png  used on input line 126.
-(pdftex.def)             Requested size: 341.43437pt x 115.50717pt.
- [24 <./sshist.png>] [25]
-<QG_covStatus.png, id=382, 1806.75pt x 1011.78pt>
+Package pdftex.def Info: sshist.png  used on input line 134.
+(pdftex.def)             Requested size: 341.43344pt x 269.72299pt.
+ [24 <./SS1.jpeg>]
+<SSmean.png, id=393, 658.71094pt x 577.40718pt>
+File: SSmean.png Graphic file (type png)
+<use SSmean.png>
+Package pdftex.def Info: SSmean.png  used on input line 144.
+(pdftex.def)             Requested size: 426.80013pt x 202.29819pt.
+<ssthist.png, id=394, 523.20468pt x 470.50781pt>
+File: ssthist.png Graphic file (type png)
+<use ssthist.png>
+Package pdftex.def Info: ssthist.png  used on input line 154.
+(pdftex.def)             Requested size: 426.79135pt x 383.81586pt.
+ [25 <./sshist.png> <./SSmean.png>]
+[26 <./ssthist.png>]
+<fitqg1.png, id=406, 503.8825pt x 570.13pt>
+File: fitqg1.png Graphic file (type png)
+<use fitqg1.png>
+Package pdftex.def Info: fitqg1.png  used on input line 196.
+(pdftex.def)             Requested size: 192.0548pt x 217.30411pt.
+<fitqg2.png, id=407, 501.875pt x 566.115pt>
+File: fitqg2.png Graphic file (type png)
+<use fitqg2.png>
+Package pdftex.def Info: fitqg2.png  used on input line 197.
+(pdftex.def)             Requested size: 192.0548pt x 216.63762pt.
+ [27]
+<QG_covStatus.png, id=417, 1806.75pt x 1011.78pt>
 File: QG_covStatus.png Graphic file (type png)
 <use QG_covStatus.png>
-Package pdftex.def Info: QG_covStatus.png  used on input line 217.
+Package pdftex.def Info: QG_covStatus.png  used on input line 205.
 (pdftex.def)             Requested size: 384.1096pt x 215.08917pt.
-<QG_chi2.png, id=383, 1806.75pt x 1011.78pt>
+<QG_chi2.png, id=418, 1806.75pt x 1011.78pt>
 File: QG_chi2.png Graphic file (type png)
 <use QG_chi2.png>
-Package pdftex.def Info: QG_chi2.png  used on input line 226.
+Package pdftex.def Info: QG_chi2.png  used on input line 214.
 (pdftex.def)             Requested size: 384.1096pt x 215.08917pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<QG_peak.png, id=384, 1806.75pt x 1011.78pt>
+ [28 <./fitqg1.png> <./fitqg2.png> <./QG_covStatus.png>]
+<QG_peak.png, id=426, 1806.75pt x 1011.78pt>
 File: QG_peak.png Graphic file (type png)
 <use QG_peak.png>
-Package pdftex.def Info: QG_peak.png  used on input line 239.
+Package pdftex.def Info: QG_peak.png  used on input line 227.
 (pdftex.def)             Requested size: 384.1096pt x 215.08917pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<QG_CapSigma.png, id=385, 1806.75pt x 1011.78pt>
+<QG_CapSigma.png, id=427, 1806.75pt x 1011.78pt>
 File: QG_CapSigma.png Graphic file (type png)
 <use QG_CapSigma.png>
-Package pdftex.def Info: QG_CapSigma.png  used on input line 248.
+Package pdftex.def Info: QG_CapSigma.png  used on input line 236.
 (pdftex.def)             Requested size: 384.1096pt x 215.08917pt.
+ [29 <./QG_chi2.png> <./QG_peak.png>]
+<sigbcid.png, id=434, 578.91281pt x 325.96782pt>
+File: sigbcid.png Graphic file (type png)
+<use sigbcid.png>
+Package pdftex.def Info: sigbcid.png  used on input line 247.
+(pdftex.def)             Requested size: 384.1096pt x 216.27843pt.
+<sigscan.png, id=435, 504.38437pt x 400.49625pt>
+File: sigscan.png Graphic file (type png)
+<use sigscan.png>
+Package pdftex.def Info: sigscan.png  used on input line 256.
+(pdftex.def)             Requested size: 384.1096pt x 304.99753pt.
+ [30 <./QG_CapSigma.png> <./sigbcid.png>] [31 <./sigscan.png>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 280.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 280.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 280.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (40.48978pt too wide) in paragraph at lines 280--293
+ [] 
+ []
 
-) [26 <./QG_covStatus.png>] [27 <./QG_chi2.png> <./QG_peak.png>] [28 <./QG_CapS
-igma.png>] (./thesis.bbl
+) [32]
+\openout2 = `Chapter4/chapter4.aux'.
+
+ (./Chapter4/chapter4.tex
+Chapter 4.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 ...nstant was $\sigma_{visible}$ = 1460890 \pm
+                                                   546$ the analysis and res...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+) [33
+
+
+
+
+] (./thesis.bbl
 
 ! LaTeX Error: Unicode character √ (U+221A)
                not set up for use with LaTeX.
@@ -1879,15 +1958,15 @@ l.93 ...surement in proton-protoncollisions at √
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[29
+[34
 
 
 
 
-]) [30]
+]) [35]
 No file thesis.ind.
 (./thesis.aux (./Portada/Portada.aux) (./Chapter1/chapter1.aux)
-(./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux))
+(./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1896,44 +1975,30 @@ L3 programming layer <2024-02-20>
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 27CC94DD91F7AD3DA56ECC27298D5ACA;3215
-(rerunfilecheck)             After:  1B63F486D7499019317D01DE7CB84D7C;3215.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: B2D18431D3FC13D8E32B29E1E2F57C13;3438.
  ) 
 Here is how much of TeX's memory you used:
- 44188 strings out of 474116
- 1010031 string characters out of 5743682
- 1938187 words of memory out of 5000000
- 65370 multiletter control sequences out of 15000+600000
- 636737 words of font info for 269 fonts, out of 8000000 for 9000
+ 44378 strings out of 474116
+ 1013273 string characters out of 5743682
+ 1940187 words of memory out of 5000000
+ 65499 multiletter control sequences out of 15000+600000
+ 654681 words of font info for 321 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,12n,121p,1611b,1137s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{figure.caption.25} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter*.26} has been referenced but does not exist
-, replaced by a fixed one
-
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texl
-ive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/te
-xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (34 pages, 7204611 bytes).
+ 125i,12n,121p,1611b,1133s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist
+/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (39 pages, 7462090 bytes).
 PDF statistics:
- 482 PDF objects out of 1000 (max. 8388607)
- 385 compressed objects within 4 object streams
- 120 named destinations out of 1000 (max. 500000)
- 71454 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 536 PDF objects out of 1000 (max. 8388607)
+ 423 compressed objects within 5 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 89425 words of extra memory for PDF output out of 106986 (max. 10000000)
 
