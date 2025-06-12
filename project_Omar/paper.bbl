@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Chatrchyan:2012xdj}
 S.~Chatrchyan et~al.
@@ -13,17 +13,64 @@ The~CMS collaboration.
   $\sqrt{s} =$ 13 TeV in 2015 and 2016 at CMS}.
 \newblock \url{https://doi.org/10.1140/epjc/s10052-021-09538-2}.
 
+\bibitem{Lamont_2024}
+Mike Lamont.
+\newblock Updated schedule for cern's accelerators, Oct 2024.
+\newblock
+  \url{https://home.cern/news/opinion/accelerators/updated-schedule-cerns-accelerators}.
+
 \bibitem{Mobs:2684277}
 Esma Mobs.
-\newblock {The CERN accelerator complex - 2019. Complexe des accÃ©lÃ©rateurs du
+\newblock {The CERN accelerator complex - 2019. Complexe des accélérateurs du
   CERN - 2019}.
 \newblock Jul 2019.
 \newblock \url{https://cds.cern.ch/record/2684277?ln=en}.
+
+\bibitem{TrackerGroupoftheCMS:2020bgg}
+W.~Adam et~al.
+\newblock {The CMS Phase-1 Pixel Detector Upgrade}.
+\newblock {\em JINST}, 16(02):P02027, 2021.
+\newblock \url{https://arxiv.org/abs/2012.14304}.
 
 \bibitem{Chatrchyan:2008aa}
 S.~Chatrchyan et~al.
 \newblock {The CMS Experiment at the CERN LHC}.
 \newblock {\em JINST}, 3:S08004, 2008.
 \newblock \url{http://inspirehep.net/record/1124338?ln=es}.
+
+\bibitem{Collaboration:124}
+CMS collaboration.
+\newblock {Luminosity measurement in proton-proton collisions at 13.6 TeV in
+  2022 at CMS}.
+\newblock Technical report, CERN, Geneva, March 2024.
+\newblock \url{https://cds.cern.ch/record/2890833}.
+
+\bibitem{CMS-DP-2024-068}
+CMS collaboration.
+\newblock {Measurement of the offline integrated luminosity for the CMS
+  proton-proton collision dataset recorded in 2023}.
+\newblock 2024.
+
+\bibitem{CMS:2018}
+CMS collaboration.
+\newblock {CMS luminosity measurement for the 2018 data-taking period at
+  $\sqrt{s} = 13~\mathrm{TeV}$}.
+\newblock 2019.
+\newblock \url{https://cds.cern.ch/record/2676164?ln=en}.
+
+\bibitem{eysermans_cms_mw_lowPU}
+Jan~Eysermans on~behalf of~the CMS~Collaboration.
+\newblock Low pileup run (cms), 2024.
+\newblock LHC EW WG General Meeting, July 10, 2024.
+
+\bibitem{cms_new_record_2024}
+CMS Collaboration.
+\newblock New record: 2024 has been the year with the most recorded data by
+  cms!, 2024.
+
+\bibitem{Statistical_Data_Analysis}
+G.~Cowan.
+\newblock {\em Statistical Data Analysis}.
+\newblock Oxford Series. Oxford University Press, New York, NY, 1998.
 
 \end{thebibliography}

@@ -180,6 +180,7 @@ note = "\url{https://cds.cern.ch/record/2676164?ln=en}"
     volume = "24",
     pages = "1--17",
     year = "2015"
+}
 
 @article{Cepeda:2019klc,
     author = "Cepeda, M. and others",
@@ -195,7 +196,7 @@ note = "\url{https://cds.cern.ch/record/2676164?ln=en}"
     pages = "221--584",
     year = "2019",
 note = "\url{https://arxiv.org/abs/1902.00134}"
-
+}
 
 @techreport{Collaboration:2706512,
       author        = "The CMS Collaboration",
@@ -700,16 +701,20 @@ year={2008}
       note = "\url{https://cds.cern.ch/record/2621960?ln=en}"
 }
 
-
-@article{Statistical_Data_Analysis,
-author = {{G. Cowan, \textit{Statistical Data Analysis}, Oxford University Press (Oxford Series), New York, NY, 1998}}
-}
-
 @misc{Lamont_2024,
-title={Updated schedule for CERN's accelerators},
-url={https://home.cern/news/opinion/accelerators/updated-schedule-cerns-accelerators},
-journal={CERN},
-author={Lamont, Mike},
-year={2024},
-month={Oct}
+title = {Updated schedule for CERN's accelerators},
+url = {https://home.cern/news/opinion/accelerators/updated-schedule-cerns-accelerators},
+journal = {CERN},
+author = {Lamont, Mike},
+year = {2024},
+month = {Oct}
 } 
+
+@book{Statistical_Data_Analysis,
+  author    = {G. Cowan},
+  title     = {Statistical Data Analysis},
+  publisher = {Oxford University Press},
+  year      = {1998},
+  address   = {New York, NY},
+  series    = {Oxford Series}
+}

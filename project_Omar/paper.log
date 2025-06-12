@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.19)  5 JUN 2025 20:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.19)  12 JUN 2025 03:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -541,14 +541,6 @@ File: ./LHCPlan.png Graphic file (type png)
 Package pdftex.def Info: ./LHCPlan.png  used on input line 159.
 (pdftex.def)             Requested size: 399.29463pt x 224.13829pt.
 
-Package natbib Warning: Citation `Lamont_2024' on page 4 undefined on input lin
-e 160.
-
-
-Package natbib Warning: Citation `Lamont_2024' on page 4 undefined on input lin
-e 160.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -557,7 +549,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4 <./LHCPlan.png (PNG copy)>]
-<./LHCcomplex.png, id=85, 762.85pt x 746.79pt>
+<./LHCcomplex.png, id=88, 762.85pt x 746.79pt>
 File: ./LHCcomplex.png Graphic file (type png)
 <use ./LHCcomplex.png>
 Package pdftex.def Info: ./LHCcomplex.png  used on input line 170.
@@ -572,7 +564,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./LHCcomplex.png (PNG copy)>]
-<./cms12.png, id=97, 734.745pt x 511.9125pt>
+<./cms12.png, id=102, 734.745pt x 511.9125pt>
 File: ./cms12.png Graphic file (type png)
 <use ./cms12.png>
 Package pdftex.def Info: ./cms12.png  used on input line 179.
@@ -606,9 +598,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8]
 
-Package natbib Warning: Citation `Statistical_Data_Analysis' on page 9 undefine
-d on input line 266.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9] (./paper.bbl
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -617,10 +614,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9] (./paper.bbl)
-
-Package natbib Warning: There were undefined citations.
-
+[10])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -629,7 +623,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10] 
+[11] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./paper.aux)
  ***********
@@ -644,13 +638,13 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: DD55D3957F2A308015C10D5E8CD46ED3;798.
  ) 
 Here is how much of TeX's memory you used:
- 11620 strings out of 476182
- 175748 string characters out of 5795595
- 1936975 words of memory out of 5000000
- 33413 multiletter control sequences out of 15000+600000
+ 11654 strings out of 476182
+ 176606 string characters out of 5795595
+ 1939975 words of memory out of 5000000
+ 33438 multiletter control sequences out of 15000+600000
  567447 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,12n,79p,962b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,978b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -660,22 +654,20 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on paper.pdf (12 pages, 458451 bytes).
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on paper.pdf (13 pages, 446282 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
  72 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -150,7 +150,7 @@ To evaluate the total number of events, the integrated luminosity is used. It me
 
 During Run 1 (2011-2012) LHC reached a peak instantaneous luminosity of \instlumi{0.77} and delivered an integrated luminosity of about \lumi{25} with a precision of about 2.0\% 
 \footnote{1 barn is a unit of area corresponding to $10^{-24}$ cm${^2}$ and 1 femtobarn (fb) = $10^{-39}$ cm$^{2}$. For comparison, the total Higgs production cross section is 48600 fb.}
-In the first part of Run 2 (2015-2016), the delivered luminosity has been measured to be \lumi{38.4} with an unprecedented precision of 1.3\% \cite{Sirunyan:2021qkt}.
+In the first part of Run 2 (2015-2016), the delivered luminosity has been measured to be \lumi{38.4} with a precision of 1.3\% \cite{Sirunyan:2021qkt}.
 For the second part of Run 2 (2017-2018), the integrated luminosity is about \lumi{78}.
 On the current LHC/HL-LHC plan, Run 3 began in 2022 and is planned to last until the first half of 2026, expecting and integrated luminosity of about \lumi{500}, as seen in figure \ref{figure1}.
 
@@ -172,7 +172,7 @@ The detector uses a powerful magnet to bend charged particles as they leave the 
   \label{figure2}
 \end{figure}
 
-The CMS silicon pixel detector consists of four concentric cylindrical layers and three disks on each end, placed at certain distances from the center of the detector. The detector consists of 1856 sensor modules, and gives complete coverage over the interaction point, resulting in precise tracking. This yields a large amount of total pixels, so, adding the sensor's fine granularity, the hit occupancy is very low. Due to this, the Pixel Cluster Counting (PCC) method brings forth a linear function of pile up, which is an essential property of a luminometer. The PCC method has been used as one of main luminometers for more than a decade, showing its reliability.
+The CMS silicon pixel detector consists of four concentric cylindrical layers and three disks on each end, placed at certain distances from the center of the detector. The detector consists of 1856 sensor modules, and gives complete coverage over the interaction point, resulting in precise tracking \cite{TrackerGroupoftheCMS:2020bgg}. This yields a large amount of total pixels, so, adding the sensor's fine granularity, the hit occupancy is very low. Due to this, the Pixel Cluster Counting (PCC) method brings forth a linear function of pile up, which is an essential property of a luminometer. The PCC method has been used as one of main luminometers for more than a decade, showing its reliability.
 
 \begin{figure}[H]
   \centering
@@ -192,22 +192,22 @@ The CMS silicon pixel detector consists of four concentric cylindrical layers an
 %%%%%%%%BUSCAR VERSION ACTUALIZADA DE ESTA%%%%%%%%%
 
 
-\section{OBJECTIVE}
+\section{OBJECTIVE}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 The objective is to analyze and calibrate the PCC luminometer for the 2025 recorded data by the CMS experiment, working with the PCC method and the van Der Meer (vdM) scans, allowing for a precise measurement of luminosity, and so, having access to more useful information to search for new discoveries.
 
-\section{HYPOTHESIS}
+\section{HYPOTHESIS}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Based on the analysis corresponding to previous years, a similar or better result is expected. With a systematic uncertainty of 1.4\% for 2022, and 1.3\% for 2023, it is possible to achieve a precision as good as this, if not an improvement.
+Based on the analysis corresponding to previous years, a similar or better result is expected. With a systematic uncertainty of 1.4\% for 2022 \cite{Collaboration:124}, and 1.3\% for 2023 \cite{CMS-DP-2024-068}, it is possible to achieve a precision as good as this, if not an improvement.
 
 
-\section{METHODOLOGY}
+\section{METHODOLOGY}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 
-A pixel cluster is for a group of contiguous pixels activated by a charged particle. The method of choice, PCC, exploits the huge number of pixel in the interior part of the CMS pixel detector, which means that the probability that a single pixel is hit by two charged particles from the same bunch crossing is extremely small, so it yields measurements with a great linear response with the pile-up (number of interactions per bunch crossing, $\mu$). To calibrate the luminometer, the van der Meer (vdM) scan technique is employed in special runs, usually at the beginning of the year or period. The LHC has two main types of runs: physics runs (which could be proton-proton, heavy-ion, or proton-lead collisions) and callibration (or vdM) runs. As the title of the project suggests, callibration runs are the subject of study, and consist of more controlled collisions to be able to determine luminosity from the beam parameters.
+A pixel cluster is for a group of contiguous pixels activated by a charged particle. The method of choice, PCC, exploits the huge number of pixel in the interior part of the CMS pixel detector, which means that the probability that a single pixel is hit by two charged particles from the same bunch crossing is extremely small, so it yields measurements with a great linear response with the pile-up (number of interactions per bunch crossing, $\mu$). To calibrate the luminometer, the van der Meer (vdM) scan technique is employed in special runs, usually at the beginning of the year or period \cite{CMS:2018}. The LHC has two main types of runs: physics runs (which could be proton-proton, heavy-ion, or proton-lead collisions) and callibration (or vdM) runs. As the title of the project suggests, callibration runs are the subject of study, and consist of more controlled collisions to be able to determine luminosity from the beam parameters.
 
-% vdm graph
+% vdm graph?
 
-During the vdM runs, the pixel detector is recorded with a trigger of aproximately 50 kHz distributed 10 BCIDs of the 140 that collide, compared to the 2400 that colliding bunches on physics runs; and in turn, the pile-up is much less, giving $\mu \approx 0.5$, against an average of 57 in recent physics runs. The data is then distributed in 32 different datasets of events. %referencia pa la imagen de pile-up en runs de fisica
+During the vdM runs, the pixel detector is recorded with a trigger of aproximately 50 kHz distributed 10 BCIDs of the 140 that collide, compared to the 2400 that colliding bunches on physics runs; and in turn, the pile-up is much less, giving $\mu \approx 0.5$, against an average of 57 in recent physics runs \cite{eysermans_cms_mw_lowPU} \cite{cms_new_record_2024}. The data is then distributed in 32 different datasets of events. 
 
 To ensure accurate and stable luminosity measurement, there is a detector module selection process, where a veto list is made each period and then combined for the entire year. This process involves determining the reliability of each module based on analyzing what is referred as the module weight, which is the change in the ratio of module PCC and total PCC. The veto list consists of modules excluded due to their long-term instabilities. At the end of said process, around 10\% of all modules are used. 
 
@@ -224,9 +224,10 @@ Where $N_1$ and $N_2$ correspond to the number of protons in colliding bunches, 
 
 By integrating over either $\Delta$ (e.g. $x$)and substituting into (4), leads to
 
-\begin{center}
-  $\int\rho_1(y)\rho_2(y+\Delta y)dy=\frac{\int\mathcal{L}(\Delta x, \Delta y)d(\Delta x)}{N_1 N_2 f} \Rightarrow \mathcal{L}(\Delta x, \Delta y)=\int\rho_1(x)\rho_2(x+\Delta x)dx\int\mathcal{L}(\Delta x', \Delta y)d(\Delta x')$
-\end{center}
+\begin{align*}
+  \int\rho_1(y)\rho_2(y+\Delta y)dy &= \frac{\int\mathcal{L}(\Delta x, \Delta y)d(\Delta x)}{N_1 N_2 f}\\
+  \Rightarrow \mathcal{L}(\Delta x, \Delta y) &=\int\rho_1(x)\rho_2(x+\Delta x)dx\int\mathcal{L}(\Delta x', \Delta y)d(\Delta x')
+\end{align*}
 
 and therefore
 
@@ -253,7 +254,7 @@ and once again, from (1), we can define
 \end{equation}
 %%Si los dos haces son iguales, la dist estandar de ambas seria esta formula. El raiz de dos pi es asumiendo que las rho son distribuciones gaussianas
 
-The parameter $\sigma_{vis}$ is known as the calibration constant, and is used to normalize the measured PCC rates so the luminosity can be determined during normal running throughout the data-taking year. In order to compute the constant, a mathematical function needs to be used to fit the averaged cluster rates, so the parameters needed, such as $\Sigma_{x,y}$ and $R(0,0)$, can be extracted. 
+The parameter $\sigma_{vis}$ is known as the calibration constant, and is used to normalize the measured PCC rates so the luminosity can be determined during normal running throughout the data-taking year \cite{CMS:2018}. In order to compute the constant, a mathematical function needs to be used to fit the averaged cluster rates, so the parameters needed, such as $\Sigma_{x,y}$ and $R(0,0)$, can be extracted. 
 
 For the analysis, the quality of multiple functions is tested. The convergence of the function is the first evaluation on this quality, based on the covariance matrix and its status. Then, another important analysis is doing a $\chi^2$ test, which helps determine how likely a variable can come from a specified distribution. The value of $\chi^2$ is determined by
 
@@ -267,7 +268,7 @@ After finishing the tests, the chosen fit model is used, and with corresponding 
 
 % Numero de colisiones entre protones (pileup) del total en un bonche (10^11)
 
-\section{SPECIFIC OBJECTIVES}
+\section{SPECIFIC OBJECTIVES}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 To guarantee stable luminosity measurement for Run 3 2025, the set goals are:
 
@@ -280,7 +281,7 @@ To guarantee stable luminosity measurement for Run 3 2025, the set goals are:
   \item Determine the systematic uncertainties on the integrated luminosity: It is necessary to recognize the noise effects on the beam overlap measurement, and therefore the calculation of $\sigma_{vis}$, so corrections are to be applied.
 \end{itemize}
 
-\section{EXPECTED RESULTS}
+\section{EXPECTED RESULTS}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 The work done in this thesis project is expected to yield the following results:
 
@@ -291,7 +292,7 @@ The work done in this thesis project is expected to yield the following results:
 \end{itemize}
 
 
-\section{CALENDAR OF ACTIVITIES}
+\section{CALENDAR OF ACTIVITIES}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{center}
   \begin{tabular}{|c|c|c|c|c|}
@@ -318,7 +319,7 @@ The work done in this thesis project is expected to yield the following results:
 \end{center}
 
 \onehalfspacing
-\bibliographystyle{unsrt} % y esto...........
+\bibliographystyle{unsrt} 
 \bibliography{paper}
 
 \end{document}

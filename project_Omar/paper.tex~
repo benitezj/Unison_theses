@@ -205,15 +205,13 @@ Based on the analysis corresponding to previous years, a similar or better resul
 
 A pixel cluster is for a group of contiguous pixels activated by a charged particle. The method of choice, PCC, exploits the huge number of pixel in the interior part of the CMS pixel detector, which means that the probability that a single pixel is hit by two charged particles from the same bunch crossing is extremely small, so it yields measurements with a great linear response with the pile-up (number of interactions per bunch crossing, $\mu$). To calibrate the luminometer, the van der Meer (vdM) scan technique is employed in special runs, usually at the beginning of the year or period. The LHC has two main types of runs: physics runs (which could be proton-proton, heavy-ion, or proton-lead collisions) and callibration (or vdM) runs. As the title of the project suggests, callibration runs are the subject of study, and consist of more controlled collisions to be able to determine luminosity from the beam parameters.
 
-% detector de pixeles
+% vdm graph
 
-During the vdM runs, the pixel detector is recorded with a trigger of aproximately 50 kHz distributed 10 BCIDs of the 140 that collide, compared to the 2400 that colliding bunches on physics runs; and in turn, the pile-up is much less, giving $\mu ~ 0.5$, against an average of 57 in recent physics runs. The data is then distributed in 32 different datasets of events. %referencia pa la imagen de pile-up en runs de fisica
+During the vdM runs, the pixel detector is recorded with a trigger of aproximately 50 kHz distributed 10 BCIDs of the 140 that collide, compared to the 2400 that colliding bunches on physics runs; and in turn, the pile-up is much less, giving $\mu \approx 0.5$, against an average of 57 in recent physics runs. The data is then distributed in 32 different datasets of events. %referencia pa la imagen de pile-up en runs de fisica
 
 To ensure accurate and stable luminosity measurement, there is a detector module selection process, where a veto list is made each period and then combined for the entire year. This process involves determining the reliability of each module based on analyzing what is referred as the module weight, which is the change in the ratio of module PCC and total PCC. The veto list consists of modules excluded due to their long-term instabilities. At the end of said process, around 10\% of all modules are used. 
 
 It is necessary to take into consideration a background noise contribution to the PCC rates. Each type of contribution is estimated independently during Super Separation (SS) periods, that are performed to separate two beams a certain distance for a selected period of time. To estimate the background value and its statistical error, the mean value and standard deviation are taken from the distribution resulting of the average of pixel clusters per event ($\langle PCC \rangle$).
-
-% a couple graphs, maybe??
 
  The separation between proton beams is varied in two dimensions, in steps of 100 micrometers. It measures the rates of clusters using the PCC algorithm and the beam parameters during vdM, to determine the calibration constant ($\sigma_{vis}$). The instantaneous luminosity for a single colliding bunch pair can be calculated with the following formalism:
 
