@@ -1,6 +1,6 @@
 \thispagestyle {empty}
 \contentsline {chapter}{List of figures}{iii}{section*.1}%
-\contentsline {chapter}{List of tables}{iv}{section*.2}%
+\contentsline {chapter}{List of tables}{v}{section*.2}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Particle Physics and the Standard Model}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Large Hadron Collider}{3}{section.1.2}%
@@ -15,10 +15,11 @@
 \contentsline {section}{\numberline {3.1}Van Der Meer Method}{19}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Datasets}{21}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Scans}{23}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Background Estimation}{24}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Corrections}{26}{section.3.5}%
+\contentsline {section}{\numberline {3.4}Background Estimation}{23}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Corrections}{27}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Fit model}{27}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Beam Parameters}{29}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Systematics}{32}{section.3.8}%
-\contentsline {chapter}{\numberline {4}Summary}{33}{chapter.4}%
-\contentsline {chapter}{References}{34}{chapter*.31}%
+\contentsline {section}{\numberline {3.7}Fit model optimization}{29}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Beam Parameters}{30}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Results}{32}{section.3.9}%
+\contentsline {chapter}{\numberline {4}Summary}{35}{chapter.4}%
+\contentsline {chapter}{References}{36}{chapter*.33}%

@@ -15,16 +15,17 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Comparison between two modules with average PCC in 100 LS. Good module on the left, bad module on the right.}}{17}{figure.caption.15}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces The vdm scan on the left showing the beams for X and Y. On the right a curve of the different values of rate for the beams displacement, the peak occurs during the head on part.}}{19}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Fill 9639 scans}}{23}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Doros for fill 9639}}{23}{figure.caption.17}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Mean rates during the second super separation scan}}{24}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces SS periods histograms showing entries for bcid 345}}{25}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Mean per bcid}}{25}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Histogram of all means}}{26}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Distribution of average PCC for bcid 345 during SS number 2. The PCC values are computed in NB4 time intervals.}}{25}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces This plot shows the evolution of the PCC value for the twelve differents bcids during the SS periods, it also shows the mean of each bcid.}}{26}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces This plots shows an histogram with all SS values for all bcids, the mean of all this values is used as the final result.}}{26}{figure.caption.22}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces QG Fit on X plane and Y plane}}{28}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Covariance value showing that all bcids converged with the fit}}{28}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Fit quality values}}{29}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces QG peak values important on the computing of $\sigma _{visible}$}}{29}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces QG $\Sigma $ important to compute value of $\sigma _{visible}$}}{30}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces QG $\Sigma $ important to compute value of $\sigma _{visible}$}}{30}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces QG $\Sigma $ important to compute value of $\sigma _{visible}$}}{31}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Status of the covariance matrix gives 3 for all values showing that all bcids converged with the fit}}{29}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Chi2 values to see the fit quality, the green line represent the mean}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Chi2 values to see the fit quality of the poly2g fit model the green line represent the mean, notice that the mean is lower than with the nominal fit model.}}{30}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces QG model fit peak values obtained for the different scans in X and Y.}}{31}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces QG model fit $\Sigma $ values obtained for the different scans in X and Y in the vdM fill.}}{31}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces The value of $\sigma _{visible}$ of all twelve bcids and the seven used scans}}{32}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces $\sigma _{visible}$ weighted mean per each scan}}{33}{figure.caption.30}%
 \addvspace {10\p@ }
