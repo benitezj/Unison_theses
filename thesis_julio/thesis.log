@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  16 JUN 2025 01:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  18 JUN 2025 09:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1808,82 +1808,6 @@ A\OML/ztmcm/m/it/12 y\OT1/ztmcm/m/n/12 )\OML/ztmcm/m/it/12 dy\OT1/ztmcm/m/n/12
 )
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.40 ...ate during the head on positions, R(\Delta
-                                                  _{x0}, \Delta_{y0}) like i...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.41 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Argument of \end  has an extra }.
-<inserted text> 
-                \par 
-l.44 \end
-         {equation}
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \end  was complete.
-<to be read again> 
-                   \par 
-l.44 \end
-         {equation}
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.44 \end
-         {equation}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.44 \end
-         {equation}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.44 \end
-         {equation}
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.44 \end
-         {equation}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 [20]
 ! Undefined control sequence.
 <recently read> \simga 
@@ -1985,15 +1909,15 @@ Package pdftex.def Info: sigscan.png  used on input line 286.
 <inserted text> 
                 $
 l.312  Scan & \sigma
-                    _{vis} & STD & Syst. Error  \\ [0.5ex]
+                    _{vis} \mu b & STD & Syst. Error  \\ [0.5ex]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.312  Scan & \sigma_{vis} &
-                             STD & Syst. Error  \\ [0.5ex]
+l.312  Scan & \sigma_{vis} \mu b &
+                                   STD & Syst. Error  \\ [0.5ex]
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -2008,20 +1932,12 @@ Chapter 4.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.8 ...nstant was $\sigma_{visible}$ = 1460890 \pm
+l.8 ...as $\sigma_{visible}$ = 1460890 $\mu b$ \pm
                                                    546 \pm 6281(systematics)...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-)
-Overfull \hbox (41.81523pt too wide) in paragraph at lines 8--156
-[]\T1/ptm/m/n/12 (-20) The ob-tained value for the cal-i-bra-tion con-stant was
- $\OML/ztmcm/m/it/12 ^^[[]$ \T1/ptm/m/n/12 (-20) = 1460890 $\OMS/ztmcm/m/n/12 ^
-^F\OT1/ztmcm/m/n/12 546 \OMS/ztmcm/m/n/12 ^^F \OT1/ztmcm/m/n/12 6281(\OML/ztmcm
-/m/it/12 systematics\OT1/ztmcm/m/n/12 )$
- []
-
-[35
+) [35
 
 
 
@@ -2047,19 +1963,6 @@ You may provide a definition with
 
 ]) [37]
 No file thesis.ind.
-
-! LaTeX Error: \begin{equation} on input line 42 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.199 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 (./thesis.aux (./Portada/Portada.aux) (./Chapter1/chapter1.aux)
 (./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux))
  ***********
@@ -2072,11 +1975,7 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: CF5B29C3FB48D131E44A45D1292C9ED9;3611.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 42 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
  44299 strings out of 474116
  1012137 string characters out of 5743682
@@ -2084,17 +1983,17 @@ Here is how much of TeX's memory you used:
  65453 multiletter control sequences out of 15000+600000
  636737 words of font info for 269 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,12n,121p,1611b,1241s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-</usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2
-024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (42 pages, 7547728 bytes).
+ 125i,12n,121p,1611b,1133s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist
+/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (42 pages, 7547867 bytes).
 PDF statistics:
  565 PDF objects out of 1000 (max. 8388607)
  447 compressed objects within 5 object streams

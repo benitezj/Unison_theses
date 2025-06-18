@@ -5,6 +5,7 @@ A level-1 auxiliary file: Portada/Portada.aux
 A level-1 auxiliary file: Chapter1/chapter1.aux
 A level-1 auxiliary file: Chapter2/chapter2.aux
 A level-1 auxiliary file: Chapter3/chapter3.aux
+A level-1 auxiliary file: Chapter4/chapter4.aux
 The style file: unsrtnat.bst
 Database file #1: References/references.bib
 Repeated entry---line 43 of file References/references.bib
@@ -48,7 +49,7 @@ Warning--empty journal in ghost
 Warning--empty journal in beambeam
 You've used 20 entries,
             2481 wiz_defined-function locations,
-            654 strings with 6555 characters,
+            655 strings with 6576 characters,
 and the built_in function-call counts, 5443 in all, are:
 = -- 469
 > -- 140
