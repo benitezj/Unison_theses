@@ -2,33 +2,35 @@ This is BibTeX, Version 0.99d (TeX Live 2024)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Portada/Portada.aux
+A level-1 auxiliary file: Abstract/abstract.aux
+A level-1 auxiliary file: Abstract/resumen.aux
 A level-1 auxiliary file: Chapter1/chapter1.aux
 A level-1 auxiliary file: Chapter2/chapter2.aux
 A level-1 auxiliary file: Chapter3/chapter3.aux
 A level-1 auxiliary file: Chapter4/chapter4.aux
 The style file: unsrtnat.bst
 Database file #1: References/references.bib
-Repeated entry---line 43 of file References/references.bib
+Repeated entry---line 44 of file References/references.bib
  : @article{Lum
  :             ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 84 of file References/references.bib
- :   
- :   %year         = 2022,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 145 of file References/references.bib
+I was expecting a `,' or a `}'---line 146 of file References/references.bib
  :   
  :   month = {June}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 158 of file References/references.bib
+I was expecting a `,' or a `}'---line 161 of file References/references.bib
  :   
  :   month = {October}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--entry type for "cmspic2" isn't style-file defined
+--line 210 of file References/references.bib
 Too many commas in name 1 of "G. Giurgiu, D. Fehling, P. Maksimovic, M. Swartz" for entry cluster1
 while executing---line 1233 of file unsrtnat.bst
+Warning--empty journal in pic2
+Warning--empty chapter and pages in lhcpic
+Warning--empty chapter and pages in cmspic
 Warning--empty journal in LHC
 Warning--empty journal in LHCII
 Warning--empty journal in PCC1
@@ -40,52 +42,51 @@ while executing---line 1315 of file unsrtnat.bst
 Too many commas in name 1 of "G. Giurgiu, D. Fehling, P. Maksimovic, M. Swartz" for entry cluster1
 while executing---line 1315 of file unsrtnat.bst
 Warning--empty journal in cluster1
-Warning--empty year in cluster1
-Warning--empty year in cluster1
 Warning--empty journal in cluster2
 Warning--empty journal in PCC3
 Warning--empty journal in datasets1
+Warning--empty journal in DOROS
 Warning--empty journal in ghost
 Warning--empty journal in beambeam
-You've used 20 entries,
+You've used 27 entries,
             2481 wiz_defined-function locations,
-            655 strings with 6576 characters,
-and the built_in function-call counts, 5443 in all, are:
-= -- 469
-> -- 140
-< -- 21
-+ -- 82
-- -- 40
-* -- 273
-:= -- 893
-add.period$ -- 66
-call.type$ -- 20
-change.case$ -- 38
-chr.to.int$ -- 18
-cite$ -- 34
-duplicate$ -- 366
-empty$ -- 564
-format.name$ -- 60
-if$ -- 1143
+            701 strings with 7912 characters,
+and the built_in function-call counts, 7651 in all, are:
+= -- 675
+> -- 197
+< -- 29
++ -- 112
+- -- 56
+* -- 393
+:= -- 1243
+add.period$ -- 98
+call.type$ -- 27
+change.case$ -- 49
+chr.to.int$ -- 25
+cite$ -- 43
+duplicate$ -- 503
+empty$ -- 790
+format.name$ -- 85
+if$ -- 1629
 int.to.chr$ -- 3
-int.to.str$ -- 21
-missing$ -- 20
-newline$ -- 114
-num.names$ -- 60
-pop$ -- 202
+int.to.str$ -- 28
+missing$ -- 29
+newline$ -- 160
+num.names$ -- 81
+pop$ -- 275
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 27
 quote$ -- 0
-skip$ -- 213
+skip$ -- 296
 stack$ -- 0
-substring$ -- 72
-swap$ -- 48
-text.length$ -- 1
+substring$ -- 118
+swap$ -- 71
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 134
-warning$ -- 14
-while$ -- 43
+type$ -- 174
+warning$ -- 16
+while$ -- 60
 width$ -- 0
-write$ -- 250
-(There were 7 error messages)
+write$ -- 356
+(There were 6 error messages)

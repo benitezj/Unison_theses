@@ -1,9 +1,43 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Deepak(2024)]{pic2}
+Deepak.
+\newblock Unitarity bound on extended higgs sector with higher dimensional
+  operator.
+\newblock 09 2024.
+\newblock \doi{10.48550/arXiv.2409.05922}.
+
+\bibitem[Zinnser(2018)]{lhcpic}
+Markus Zinnser.
+\newblock \emph{The Large Hadron Collider}.
+\newblock Springer International Publishing, 2018.
+\newblock \doi{10.1007/978-3-030-00650-1_4}.
+
+\bibitem[{M{\"a}kel{\"a}, Toni}(2023)]{cmspic}
+{M{\"a}kel{\"a}, Toni}.
+\newblock \emph{LHC Measurements}.
+\newblock Springer Nature Switzerland, 2023.
+\newblock \doi{10.1007/978-3-031-29779-3_4}.
+
+\bibitem[{CMS Collaboration}(2024)]{pxdpic}
+{CMS Collaboration}.
+\newblock Development of the cms detector for the cern lhc run 3.
+\newblock \emph{Journal of Instrumentation}, May 2024.
+\newblock \doi{10.1088/1748-0221/19/05/P05064}.
+
+\bibitem[Hartmann(2024)]{sensorpic}
+Frank Hartmann.
+\newblock \emph{CMS: Increasing Size by 2 Orders of Magnitude}, pages
+  277--352.
+\newblock Springer Nature Switzerland, Cham, 2024.
+\newblock ISBN 978-3-031-59720-6.
+\newblock \doi{10.1007/978-3-031-59720-6_7}.
+\newblock URL \url{https://doi.org/10.1007/978-3-031-59720-6_7}.
 
 \bibitem[Griffiths(2010)]{Griff}
 David Griffiths.
@@ -21,6 +55,7 @@ Mark Thomson.
 A.B. Arbuzov.
 \newblock Quantum field theory and the electroweak standard model.
 \newblock 2018.
+\newblock \doi{10.23730/CYRSP-2018-003.1}.
 
 \bibitem[Mobs(2019)]{LHCII}
 Esma Mobs.
@@ -65,6 +100,12 @@ The~CMS collaboration~et al.
 \newblock The cms experiment at the cern lhc.
 \newblock \emph{Jinst}, 2008.
 
+\bibitem[Collaboration(2019)]{cmspic2}
+CMS Collaboration.
+\newblock Supersymmetric dark matter searches with cms data, 2019.
+\newblock URL
+  \url{https://www.researchgate.net/figure/The-calorimeters-of-each-layer-in-the-CMS-detector_fig5_338924428/}.
+
 \bibitem[Chatrchyan(2006)]{CMS2}
 S.~Chatrchyan.
 \newblock The cms silicon strip tracker.
@@ -77,9 +118,11 @@ CMS Tracker~Group of~the CMS~collaboration.
 \newblock \emph{JINST 16 (2021) P02027}, 2022.
 \newblock \doi{10.1088/1748-0221/16/02/P02027}.
 
-\bibitem[G.~Giurgiu()]{cluster1}
+\bibitem[G.~Giurgiu(2008)]{cluster1}
 P.~Maksimovic M.~Swartz G.~Giurgiu, D.~Fehling.
 \newblock Pixel hit reconstruction with the cms detector.
+\newblock 2008.
+\newblock \doi{10.48550/arXiv.0808.3804}.
 
 \bibitem[Collaboration(2014)]{cluster2}
 The~CMS Collaboration.
@@ -106,8 +149,15 @@ CMS~Collaboration Giovanni~Franzoni.
 \newblock 2016.
 \newblock \doi{https://doi.org/10.1016/j.nuclphysbps.2015.09.144}.
 
-\bibitem[A.~Alici(2012)]{ghost}
-et~al A.~Alici.
+\bibitem[Gasior(2017)]{DOROS}
+et~al. Gasior.
+\newblock First operation experience with the lhc diode orbit and oscillation
+  (doros) system.
+\newblock 2017.
+\newblock \doi{10.18429/JACow-IBIC2016-MOPG07}.
+
+\bibitem[Alici and othersl(2012)]{ghost}
+A.~Alici and othersl.
 \newblock Study of the lhc ghost charge and satellite bunches for luminosity
   calibration.
 \newblock July 2012.
